@@ -46,7 +46,9 @@ The full texts of the included papers are not distributed (copyright). `runs/CD0
 
 ## Comparison with Cochrane
 
-**Harmonization.** Each AutoSynthesis result is compared with Cochrane on Cochrane's effect measure:
+### Harmonization
+
+Each AutoSynthesis result is compared with Cochrane on Cochrane's effect measure:
 
 * RR, OR and HR are compared on the log scale.
 * SMD and log OR are converted with the Chinn (2000) formula, ln OR = SMD · π/√3.
@@ -54,7 +56,7 @@ The full texts of the included papers are not distributed (copyright). `runs/CD0
 
 Nothing is re-extracted: the inputs come from `effect_sizes.json` and `meta_ready_results.json`. The column `conversion` in `results/benchmark_audit_per_review.csv` records what was done for each row.
 
-**Metrics.**
+### Metrics
 
 | Metric | Reviews | Definition |
 |---|---|---|
