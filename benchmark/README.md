@@ -13,7 +13,6 @@ bash reproduce.sh          # about one minute, no API key needed
 benchmark/
 ├── data/              inputs: Cochrane values, AutoSynthesis values, review list and prompts
 ├── runs/              AutoSynthesis outputs per review and model (study-level data)
-├── fully_automatic/   end-to-end runs without human input (search -> report)
 ├── scripts/           analysis and figure scripts
 ├── figures/           generated figures (PDF)
 └── results/           generated tables
@@ -76,11 +75,6 @@ Nothing is re-extracted: the inputs come from `effect_sizes.json` and `meta_read
 | `generate_unitfree_figures.py`, `generate_topic_breakdown.py` | `unitfree_*.pdf`, `topic_breakdown_*.pdf` |
 | `generate_funnel_flow.py` | `funnel_flow_gpt.pdf` |
 | `generate_venn_search.py` | `venn_search_vs_truth_gpt.pdf` |
-| `summarize_fully_automatic.py` | time, cost and pooled results of the fully automatic runs (printed) |
 | `audit_statistics.py` | Optional independent check: recomputes each study's effect from the raw inputs and re-pools with R `metafor` (REML and DL). Needs `rpy2` and R. |
 
 Shared helpers: `paths.py` (folder layout), `bench_load.py` (reads the CSVs), `tol_data.py` and `rel_data.py` (per-review comparison tables).
-
-## Fully automatic runs
-
-`fully_automatic/gpt-5.6-sol/` holds 10 reviews that GPT-5.6 Sol ran end to end, without any human input: AutoSynthesis searched the literature, screened the records, retrieved the full texts and analysed them. `time_and_cost.csv` lists the wall-clock time, the OpenRouter cost and the pooled result of each run.

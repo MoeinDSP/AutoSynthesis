@@ -40,7 +40,6 @@ This takes about a minute and writes:
 
 * `benchmark/figures/`: the benchmark figures (PDF)
 * `benchmark/results/`: per-review comparison table (`benchmark_audit_per_review.csv`) and summary metrics (`benchmark_summary.json`)
-* the time and cost of the fully automatic runs (printed)
 
 See [`benchmark/README.md`](benchmark/README.md) for the data, the metrics and which script makes which figure.
 
