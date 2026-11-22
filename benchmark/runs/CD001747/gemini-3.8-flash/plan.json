@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of galantamine 16 to 24 mg/day compared with placebo on cognitive function (ADAS-cog change from baseline at 6 months) in people with Alzheimer's disease?",
+  "treatment_label": "Galantamine 16-24 mg/day",
+  "control_label": "Placebo",
+  "outcome_description": "Cognitive function measured by the Alzheimer's Disease Assessment Scale - cognitive subscale (ADAS-cog) change from baseline to 6 months (higher scores indicate worse cognitive impairment).",
+  "positive_direction": "A positive effect indicates greater cognitive improvement (or less cognitive deterioration / greater reduction in ADAS-cog score) favoring galantamine over placebo.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "galantamine Alzheimer ADAS-cog randomized trial",
+    "galantamine cognitive function clinical trial placebo",
+    "galantamine 16 24 mg Alzheimer dementia trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials of individuals diagnosed with Alzheimer's disease evaluating galantamine at 16 to 24 mg/day (8 to 12 mg twice daily) compared with placebo.",
+    "Studies reporting quantitative cognitive outcome measures using the ADAS-cog (Alzheimer's Disease Assessment Scale - cognitive subscale) at or near 6 months of follow-up (21-26 weeks)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded).",
+    "No comparison between galantamine (16-24 mg/day regular release) and a placebo control condition (e.g., studies evaluating only 8 mg/day, 32 mg/day, or prolonged-release formulations without the target dose arm).",
+    "No quantitative outcome data that can produce an effect size for ADAS-cog change from baseline (means and SDs, SEs, or 95% CIs required).",
+    "Completely unrelated to galantamine therapy for Alzheimer's disease."
+  ],
+  "moderators_to_extract": [
+    "Galantamine dose (16 mg/day vs 24 mg/day)",
+    "Exact treatment duration / follow-up weeks (e.g., 21 weeks vs 26 weeks)",
+    "Baseline ADAS-cog severity score",
+    "Mean participant age",
+    "Sample size"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "For multi-arm trials testing multiple galantamine doses (e.g., Tariot 2000, Brodaty 2005), extract only the 16-24 mg/day regular release arm compared against the shared placebo arm. Do not extract other dose arms (8 mg/day, 32 mg/day, or prolonged-release). Pool as Mean Difference (MD).",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cognitive function"
+}

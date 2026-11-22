@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of family-based interventions, compared with standard care, on caregiver burden measured at 1 month or less post-intervention, for families of people with schizophrenia or severe mental illness?",
+  "treatment_label": "Family-based intervention",
+  "control_label": "Standard care / treatment as usual",
+  "outcome_description": "Caregiver burden measured at 1 month or less post-intervention using standard caregiver burden scales (pooling post-intervention endpoint means and pre-to-post change scores)",
+  "positive_direction": "A positive effect size indicates greater reduction in caregiver burden (lower burden) favoring the family-based intervention over standard care",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "family intervention schizophrenia caregiver burden trial",
+    "family psychoeducation severe mental illness caregiver burden controlled",
+    "family support intervention psychosis caregiver burden outcome"
+  ],
+  "inclusion_criteria": [
+    "Empirical comparative studies (e.g., randomized or non-randomized controlled trials) of family-based interventions versus standard care for families or caregivers of individuals with schizophrenia or severe mental illness",
+    "Quantitative reporting of caregiver burden measured at 1 month or less post-intervention (including endpoint means and/or pre-to-post change scores)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded)",
+    "No comparison between a family-based intervention and a control condition",
+    "No quantitative caregiver burden outcome data that can produce an effect size (means, SDs, or change scores required)",
+    "Completely unrelated to schizophrenia/severe mental illness family interventions, or reporting caregiver burden only at follow-ups beyond 1 month post-intervention"
+  ],
+  "moderators_to_extract": [
+    "Intervention modality (psychoeducation vs systemic family therapy vs mutual support)",
+    "Delivery format (individual family vs multi-family group)",
+    "Specific caregiver burden instrument (e.g., Zarit Burden Interview)",
+    "Data type (post-intervention endpoint mean vs pre-to-post change score)",
+    "Patient diagnostic population (schizophrenia vs broad severe mental illness)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Both post-intervention endpoint scores and pre-to-post change scores are pooled together at the <= 1 month timepoint using Mean Difference (MD) as requested.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "caregiver burden"
+}

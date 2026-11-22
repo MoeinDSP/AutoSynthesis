@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of a fluoropyrimidine-based chemotherapy combination, compared with gemcitabine plus nab-paclitaxel, on overall survival in adults with advanced pancreatic cancer?  This is specifically the comparison: fluoropyrimidine-based combination regimens (e.g. regimens combining nab-paclitaxel or gemcitabine with a fluoropyrimidine such as S-1, capecitabine, or 5-FU/leucovorin) versus gemcitabine plus nab-paclitaxel as the comparator. Do NOT include trials comparing different DOSES or dosing schedules of gemcitabine plus nab-paclitaxel against each other \u2014 that is a separate comparison in this review. Do NOT include any other comparator (e.g. best supportive care, gemcitabine alone, or fluoropyrimidine alone) \u2014 those are also separate comparisons in this review, each with their own \"overall survival\" outcome.  The single target outcome is OVERALL SURVIVAL \u2014 not progression-free survival, response rate, or any grade 3/4 adverse event outcome.  Please extract the Risk Ratio (RR) directly from each paper's own Cox proportional hazards / time-to-event survival analysis (log[HR] and its SE, or RR with its 95% CI) \u2014 do not approximate a hazard ratio from response-rate or adverse-event counts; if a paper does not report a Cox-model RR for overall survival, treat it as not usable for this outcome rather than substituting a different statistic.",
+  "planned_search_queries": [
+    "advanced pancreatic cancer fluoropyrimidine combination gemcitabine nab-paclitaxel survival trial",
+    "pancreatic cancer S-1 capecitabine 5-FU gemcitabine nab-paclitaxel controlled comparison overall survival",
+    "metastatic pancreatic adenocarcinoma fluoropyrimidine regimen versus gemcitabine nab-paclitaxel Cox survival"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "advanced pancreatic adenocarcinoma fluoropyrimidine combination versus gemcitabine nab-paclitaxel overall survival hazard ratio",
+    "metastatic pancreatic cancer S-1 combination gemcitabine nab-paclitaxel controlled comparison Cox survival",
+    "advanced pancreatic cancer capecitabine combination versus gemcitabine nab-paclitaxel trial overall survival HR",
+    "pancreatic ductal adenocarcinoma 5-FU leucovorin combination versus gemcitabine nab-paclitaxel time-to-event survival",
+    "metastatic pancreatic adenocarcinoma fluoropyrimidine nab-paclitaxel versus gemcitabine nab-paclitaxel comparative overall survival"
+  ]
+}

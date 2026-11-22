@@ -1,0 +1,38 @@
+{
+  "research_question": "Does fenoldopam, compared with control (placebo or saline), reduce the incidence of acute kidney injury (AKI) across all patient populations (critically ill, surgical, contrast-exposed, and cardiac surgery patients)?",
+  "treatment_label": "Fenoldopam (intravenous infusion, any dose/duration)",
+  "control_label": "Control (placebo, normal saline, or no fenoldopam)",
+  "outcome_description": "Incidence of acute kidney injury (new-onset AKI / acute renal failure / acute renal dysfunction) as defined by each trial (e.g., RIFLE, AKIN, KDIGO, creatinine rise thresholds, or need for renal replacement therapy as a surrogate when AKI is the reported endpoint), extracted as number of AKI events and total randomized participants per arm.",
+  "positive_direction": "A positive Hedges g (or RR below 1) means fenoldopam reduced the risk of acute kidney injury relative to placebo/saline control \u2014 i.e., the result favors fenoldopam.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "fenoldopam acute kidney injury randomized controlled trial",
+    "fenoldopam renal protection placebo trial creatinine outcome",
+    "fenoldopam mesylate acute renal failure prevention clinical trial"
+  ],
+  "inclusion_criteria": [
+    "Human study comparing fenoldopam with a control condition (placebo, saline, no treatment, or standard care) in any patient population or clinical setting",
+    "Reports any quantitative kidney-related outcome, preferably number of acute kidney injury / acute renal failure events and number randomized per arm",
+    "Any prospective or controlled design (randomized or non-randomized comparative), any year, any dose or infusion duration"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, case report, or purely theoretical/modeling paper)",
+    "No comparison between a fenoldopam-treated group and a control/comparator group (single-arm or uncontrolled studies)",
+    "No quantitative outcome data usable for an effect size (no event counts/proportions, means with SDs, test statistics, or odds/risk ratios reported)",
+    "Completely unrelated to fenoldopam and kidney outcomes (e.g., purely preclinical animal/in-vitro pharmacology or unrelated indication with no renal endpoint)"
+  ],
+  "moderators_to_extract": [
+    "Patient population / clinical setting (cardiac surgery, non-cardiac surgery, critically ill/ICU, contrast-induced nephropathy, other)",
+    "AKI definition used (RIFLE, AKIN, KDIGO, creatinine-based threshold, RRT-based)",
+    "Fenoldopam dose and infusion duration",
+    "Control type (placebo vs saline vs standard care vs active comparator)",
+    "Risk of bias / blinding status (double-blind vs open-label)",
+    "Sample size category and single- vs multi-center design"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a Risk Ratio using each trial's reported AKI event counts and total randomized participants per arm (intention-to-treat denominators where available). Use a random-effects model with appropriate handling of zero-event arms; RR < 1 favors fenoldopam.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "acute kidney injury incidence"
+}

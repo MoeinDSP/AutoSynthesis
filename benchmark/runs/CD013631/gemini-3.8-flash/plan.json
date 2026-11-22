@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of probiotics compared with placebo or no treatment on kidney function, measured as serum creatinine, at 8 to 24 weeks in people with chronic kidney disease?",
+  "treatment_label": "Probiotics (supplements or probiotic-containing foods)",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Serum creatinine at 8 to 24 weeks post-baseline, expressed in mg/dL (converted from \u00b5mol/L where necessary). Extracted as mean, standard deviation, and sample size per arm at end of treatment or as mean change from baseline.",
+  "positive_direction": "Lower serum creatinine in the probiotic group compared to the control group (indicating better preserved renal function and favouring probiotics).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "probiotics chronic kidney disease randomized trial serum creatinine",
+    "probiotic supplementation kidney function controlled trial",
+    "probiotics hemodialysis diabetic nephropathy trial creatinine"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating probiotics (single- or multi-strain supplements, or probiotic-containing foods) versus placebo or no treatment in people with chronic kidney disease of any stage (including diabetic nephropathy and dialysis).",
+    "Intervention duration of approximately 8 to 24 weeks reporting quantitative serum creatinine outcomes at follow-up or change from baseline."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, review articles, editorials, opinion pieces, animal studies, or in vitro models).",
+    "No comparison between a probiotic condition and an inactive control (e.g. studies evaluating prebiotics alone, synbiotics, or head-to-head comparisons between two probiotic regimens without a control arm).",
+    "No quantitative outcome data that can produce an effect size for serum creatinine (e.g., missing means, standard deviations, or convertible measures of dispersion).",
+    "Conducted in populations without chronic kidney disease or completely unrelated to the research topic."
+  ],
+  "moderators_to_extract": [
+    "CKD stage / modality (non-dialysis CKD vs hemodialysis vs peritoneal dialysis)",
+    "Probiotic format (capsule/tablet supplement vs probiotic food/dairy/honey)",
+    "Probiotic composition (single-strain vs multi-strain)",
+    "Intervention duration (weeks)",
+    "Outcome data type (end-of-treatment absolute value vs change score)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as mean difference (MD) in mg/dL using a random-effects model. Negative MD indicates lower serum creatinine in the probiotic group relative to control. Convert \u00b5mol/L to mg/dL (divide by 88.4). Convert SE/SEM to SD via SD = SE \u00d7 \u221an. Prioritise end-of-treatment values; if unavailable, use change-from-baseline values. Combine multiple probiotic arms where applicable.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serum creatinine"
+}

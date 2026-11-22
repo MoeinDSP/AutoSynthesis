@@ -1,0 +1,38 @@
+{
+  "research_question": "In women with urinary incontinence, what is the effect of indirect training (non-pelvic-floor exercises such as general core, abdominal, hip adductor, or trunk/postural exercises) combined with direct pelvic floor muscle training (PFMT), compared with direct PFMT alone, on incontinence-related quality of life?",
+  "treatment_label": "Indirect training (core/hip/trunk exercise) combined with direct PFMT",
+  "control_label": "Direct PFMT alone",
+  "outcome_description": "Incontinence-related quality of life measured with condition-specific instruments (e.g. ICIQ-UI SF quality-of-life items/total, King's Health Questionnaire, Incontinence Impact Questionnaire IIQ-7, I-QOL, ICIQ-LUTSqol, Urogenital Distress Inventory impact scores) at post-intervention assessment. Scales where a higher score indicates greater symptom impact/worse quality of life are treated as the reference direction; better-is-higher scales (e.g. I-QOL) are reverse-signed so that a positive effect always favours the combined-training arm.",
+  "positive_direction": "A positive Hedges g / SMD means that adding indirect training (core, hip, or trunk exercise) to direct PFMT produced BETTER incontinence-related quality of life than direct PFMT alone.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "pelvic floor muscle training plus core stability exercise urinary incontinence women randomized trial quality of life",
+    "hip adductor abdominal trunk exercise added to pelvic floor muscle training female urinary incontinence controlled trial",
+    "adjunct core strengthening pelvic floor muscle training incontinence quality of life ICIQ King's Health Questionnaire effect"
+  ],
+  "inclusion_criteria": [
+    "Adult women with any type of urinary incontinence (stress, urgency, or mixed), including postpartum and postmenopausal samples",
+    "Compares a treatment arm receiving indirect/non-pelvic-floor exercise (core, abdominal, hip, trunk, postural, or general exercise) TOGETHER WITH direct pelvic floor muscle training against a control arm receiving direct pelvic floor muscle training alone",
+    "Reports some quantitative incontinence-related quality-of-life outcome (means and SDs, change scores, t/F statistics, or other data from which an effect size can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, protocol, conference abstract without data, or purely theoretical/narrative paper)",
+    "No comparison between a treatment and a control condition (single-arm, pre-post only, or no direct-PFMT-alone comparator)",
+    "No quantitative outcome data usable for an effect size (no means+SDs, t/F values, proportions, or odds ratios reported or derivable)",
+    "Wrong comparison or topic: indirect training ALONE versus PFMT (no PFMT in treatment arm), co-ordinated training in which body movements are performed with simultaneous pelvic floor muscle contraction versus PFMT, comparisons where the control arm is not direct PFMT alone, non-exercise adjuncts only (electrical stimulation, biofeedback, pessary, drugs, surgery), male or paediatric samples, faecal incontinence or pelvic organ prolapse only, or otherwise unrelated to the research topic"
+  ],
+  "moderators_to_extract": [
+    "Type of indirect training (core/abdominal, hip adductor, trunk/postural, general fitness)",
+    "Type of urinary incontinence (stress, urgency, mixed)",
+    "Population subgroup (postpartum, postmenopausal, general adult women)",
+    "Intervention duration in weeks and supervision level (supervised vs home-based)",
+    "Quality-of-life instrument used (ICIQ-UI SF, KHQ, IIQ-7, I-QOL, other)",
+    "Sample size category and risk-of-bias / randomisation quality"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardised mean difference (Hedges-corrected) because quality of life is measured on heterogeneous condition-specific instruments. Scale direction must be harmonised before pooling: impact/severity scales (ICIQ-UI SF, KHQ, IIQ-7, UDI) have higher = worse and are signed so improvement is positive; I-QOL and similar better-is-higher scales are reverse-coded. Use post-intervention means and SDs where available, otherwise change-from-baseline means with SDs, and prefer the longest post-treatment assessment within the intervention period when multiple are reported (all timepoints pooled into one estimate).",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Incontinence-related quality of life"
+}

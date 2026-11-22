@@ -1,0 +1,39 @@
+{
+  "research_question": "Among people with cancer aged 65 years and older, what is the effect of immune checkpoint inhibitors added to platinum-based chemotherapy, compared with the same or otherwise comparable chemotherapy alone (with or without placebo), on overall survival at any reported follow-up time? The primary extraction will use the trial's own age-65-and-older overall-survival hazard ratio and uncertainty estimate; narrower age bands with an upper age limit (for example, 65\u201374 years) will not substitute for the unrestricted 65-and-older subgroup.",
+  "treatment_label": "Immune checkpoint inhibitor plus platinum-based chemotherapy in participants aged 65 years and older",
+  "control_label": "Platinum-based chemotherapy alone, with or without placebo, in participants aged 65 years and older",
+  "outcome_description": "Overall survival in the unrestricted age \u226565 subgroup, assessed at any follow-up time and represented by the hazard ratio from each trial's own time-to-event survival analysis. Extract log(HR) and its standard error directly when reported; otherwise transform the reported HR and 95% confidence interval to log(HR) and SE. Prefer the prespecified or principal trial survival model and the most mature available overall-survival analysis while avoiding duplicate inclusion of the same participants.",
+  "positive_direction": "For harmonized standardized effects, a positive value would mean longer overall survival with ICI plus platinum-based chemotherapy than with chemotherapy alone; for the requested hazard-ratio analysis, HR < 1 indicates benefit from the ICI-containing regimen.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "immune checkpoint inhibitor platinum chemotherapy randomized trial overall survival older adults",
+    "PD-1 PD-L1 inhibitor platinum chemotherapy controlled trial age 65 survival",
+    "checkpoint blockade platinum-based chemotherapy trial elderly hazard ratio"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of people with cancer that evaluate an immune checkpoint inhibitor added to a platinum-based chemotherapy regimen against chemotherapy alone with or without placebo.",
+    "Studies reporting an overall-survival comparison for an unrestricted subgroup aged 65 years and older (or supplying corresponding subgroup data through a trial report, supplement, registry record, or author-provided results).",
+    "Reports containing a trial-derived overall-survival hazard ratio with sufficient uncertainty information, or other quantitative information from which the requested log(HR) and SE can be obtained."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, commentaries, and theoretical papers.",
+    "No comparison between an ICI-plus-platinum-chemotherapy treatment condition and a chemotherapy-alone control condition, with or without placebo.",
+    "No quantitative outcome data capable of producing an effect size\u2014such as means and SDs, t/F values, proportions, odds ratios, or, for the planned overall-survival synthesis, a hazard ratio with a 95% CI or log(HR) with SE.",
+    "Completely unrelated to immune checkpoint inhibitors, platinum-based chemotherapy, cancer treatment, or overall survival in the target older population.",
+    "Reports only a narrower age interval with a specified upper boundary (for example, 65\u201374 years) and provides no unrestricted age \u226565 overall-survival estimate."
+  ],
+  "moderators_to_extract": [
+    "Cancer type and disease stage",
+    "ICI target and agent (PD-1, PD-L1, or CTLA-4)",
+    "Platinum agent and chemotherapy backbone",
+    "Trial design and masking/placebo use",
+    "Line of therapy",
+    "Age-subgroup definition and median follow-up or survival-analysis maturity"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Pool the natural logarithm of each trial-reported overall-survival hazard ratio using its standard error. If only HR and 95% CI are reported, calculate log(HR) and SE as [ln(upper CI) - ln(lower CI)]/(2\u00d71.96). Retain the trial's own survival-analysis estimate rather than reconstructing an HR from survival proportions or medians. Code HR < 1 as favoring ICI plus platinum-based chemotherapy. Use one nonduplicated, preferably most mature, eligible overall-survival estimate per trial for the unrestricted \u226565 subgroup; identify multiple publications and updates by trial name/registration number. Report heterogeneity and conduct sensitivity analyses as data permit.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall survival"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among patients undergoing surgical management of an ankle fracture, what is the effect of a removable ankle support compared with a non-removable ankle support (such as a cast) on activity limitation or functional activity at the end of treatment?",
+  "treatment_label": "Removable ankle support after surgical fracture management",
+  "control_label": "Non-removable ankle support (e.g. cast) after surgical fracture management",
+  "outcome_description": "Activity limitation or ankle-related function measured at the end of the assigned treatment period using validated or study-reported continuous instruments, including the Olerud-Molander Ankle Score (OMAS), Mazur score, or comparable activity/function scales. Scores will be harmonized so that higher values indicate better activity/function and pooled across instruments as standardized mean differences.",
+  "positive_direction": "A positive standardized mean difference means that removable ankle support results in better activity/function (less activity limitation) at the end of treatment than non-removable support.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "ankle fracture surgery removable support cast functional outcome trial",
+    "operatively treated ankle fracture removable brace non-removable cast comparison",
+    "surgical ankle fracture removable orthosis immobilization activity function controlled study"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of people receiving surgical management for ankle fracture that compare a removable ankle support with a non-removable ankle support such as a cast.",
+    "Studies reporting an end-of-treatment quantitative measure of activity limitation, ankle function, or closely comparable functional status using OMAS, Mazur score, or another relevant measurement tool.",
+    "Any broadly relevant comparative study design, care setting, participant age group, publication status, or language, provided usable outcome data are available."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded.",
+    "No comparison between a removable ankle-support treatment condition and a non-removable ankle-support control condition after surgical fracture management.",
+    "No quantitative outcome data that can produce an effect size; means and standard deviations, t/F values, proportions, odds ratios, or equivalent convertible data are required.",
+    "Completely unrelated to surgically managed ankle fractures, ankle-support removability, or activity/function outcomes."
+  ],
+  "moderators_to_extract": [
+    "Study design and allocation method",
+    "Type of removable support and type of non-removable support",
+    "Duration of immobilization/support and definition of end of treatment",
+    "Activity/function measurement instrument",
+    "Participant characteristics, including age group and fracture severity/type",
+    "Weight-bearing and rehabilitation protocol"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool continuous end-of-treatment activity/function outcomes as standardized mean differences. Orient all instruments so higher values represent better function, then calculate SMDs with small-sample correction where appropriate. If multiple eligible activity/function instruments are reported for the same sample and time point, apply a prespecified hierarchy or combine correlated outcomes to avoid double-counting participants.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "activity limitation at end of treatment"
+}

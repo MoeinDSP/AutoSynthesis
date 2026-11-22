@@ -1,0 +1,38 @@
+{
+  "research_question": "In children with steroid-sensitive nephrotic syndrome (including steroid-dependent and frequently relapsing forms), does rituximab compared with tacrolimus (calcineurin inhibitor) reduce the risk of relapse by 12 months?",
+  "treatment_label": "Rituximab (anti-CD20 monoclonal antibody)",
+  "control_label": "Tacrolimus (calcineurin inhibitor comparator)",
+  "outcome_description": "Occurrence of nephrotic syndrome relapse (proteinuria recurrence per standard ISKDC/KDIGO definitions) within approximately 12 months of randomization; extracted as the number of children experiencing one or more relapses and the total number randomized in each arm.",
+  "positive_direction": "A positive effect size (RR favoring treatment) means rituximab produced fewer relapses than tacrolimus \u2014 i.e. rituximab lowered the risk of relapse by 12 months.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "rituximab versus tacrolimus steroid-dependent nephrotic syndrome children randomized trial",
+    "rituximab calcineurin inhibitor relapse-free survival pediatric nephrotic syndrome controlled trial",
+    "steroid-sensitive nephrotic syndrome children relapse rituximab tacrolimus comparison outcome"
+  ],
+  "inclusion_criteria": [
+    "Study enrolls children or adolescents with steroid-sensitive nephrotic syndrome (including frequently relapsing or steroid-dependent disease)",
+    "Study compares rituximab with tacrolimus (or another calcineurin inhibitor comparator arm) in some form, whether randomized or non-randomized",
+    "Study reports any quantitative relapse or remission outcome data (event counts, proportions, rates, or survival/relapse-free estimates) with arm sizes"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion, case report, or purely theoretical/modeling paper)",
+    "No comparison between a rituximab treatment group and a tacrolimus/calcineurin-inhibitor or other control group (single-arm studies only)",
+    "No extractable quantitative outcome data to compute an effect size (no relapse event counts or proportions with denominators, and no means+SDs, t/F values, or odds/risk ratios reported)",
+    "Completely unrelated to the research topic (e.g. not nephrotic syndrome, not rituximab or tacrolimus, or exclusively adult steroid-resistant populations with no pediatric steroid-sensitive data)"
+  ],
+  "moderators_to_extract": [
+    "Study design (randomized controlled trial vs non-randomized/observational comparative)",
+    "Disease phenotype (frequently relapsing vs steroid-dependent vs mixed)",
+    "Rituximab dosing regimen (number/size of infusions, retreatment allowed)",
+    "Concomitant/background immunosuppression and steroid tapering protocol",
+    "Mean age at enrollment and prior immunosuppressant exposure",
+    "Sample size category and country/region of conduct"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Primary pooling as a Risk Ratio using each trial's reported number of children with relapse by ~12 months and the total randomized per arm (intention-to-treat denominators where available). Use a random-effects model (DerSimonian\u2013Laird or REML) with Mantel\u2013Haenszel weighting; apply a continuity correction only when an arm has zero events, and consider Peto OR as a sensitivity check if events are rare. RR < 1 indicates rituximab reduces relapse risk.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "relapse of nephrotic syndrome"
+}

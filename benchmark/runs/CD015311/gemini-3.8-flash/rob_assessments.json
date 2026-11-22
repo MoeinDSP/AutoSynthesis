@@ -1,0 +1,302 @@
+[
+  {
+    "paper_id": "manual:b28d9e39",
+    "paper_title": "c12b440a_12913_2018_Article_2987",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although the text mentions that the study was a 'randomised intervention study' and that allocation was 'randomized and rationalized', it does not explicitly describe any valid random allocation mechanism (e.g., random number generator, computer sequence, coin flip), and combining randomization with 'rationalized' allocation indicates non-random assignment of clusters.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Confounding",
+        "judgment": "moderate",
+        "rationale": "Baseline survey showed groups were mostly comparable on sociodemographic indicators, and key analyses adjusted for age, sex, oedema, and MUAC at admission, though some baseline differences in living conditions (water access, roofing) and cluster-level unmeasured confounding remain.",
+        "evidence_quote": "The control group received outpatient treatment for uncomplicated SAM from health centres (4), whilst the intervention group received outpatient treatment for uncomplicated SAM from health centres (3) or Community Health Workers. The allocation of treatment between the two groups was randomized and rationalized."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Participants were recruited upon presentation/identification across existing catchment areas over the study period, but differential screening and referral mechanisms in intervention versus control areas could have influenced the selection of children into the cohort.",
+        "evidence_quote": "The study design used a target population already seeking care in each group, it is therefore possible that the design was less susceptible to recruit difficult to reach cases, though coverage assessments implemented showed that this was limited."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Classification of interventions",
+        "judgment": "low",
+        "rationale": "Intervention and control conditions were clearly defined geographically and health service delivery model was well-differentiated without ambiguity in classification.",
+        "evidence_quote": "Treatment for uncomplicated SAM was provided in health facilities in the control area, and b Community Health Workers and health facilities in the intervention area."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The protocols were standardized, supported by regular supervision, and analysis appropriately reflected the assigned service delivery models in each area.",
+        "evidence_quote": "Joint supervisory visits by Action Against Hunger and the National Institute for Research in Public Health (INRSP) were carried out in a standardised manner in both groups."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Missing data",
+        "judgment": "low",
+        "rationale": "Outcomes were documented for almost all enrolled children according to standard routine CMAM exit categories, with very few lost to follow-up from transferred cases.",
+        "evidence_quote": "Out of the 699 cases in the intervention group, 621 were new admissions... Discharged from OTP: 617 intervention, 212 control. Transfers: 81 intervention, 22 control. Lost to Follow-Up: 12 (19.1%) intervention, 6 (35.3%) control."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Measurement of outcomes",
+        "judgment": "low",
+        "rationale": "Outcomes were determined using objective and standardized anthropometric and clinical criteria per national guidelines, minimizing measurement bias despite lack of blinding.",
+        "evidence_quote": "A cured case, according to national CMAM protocol, is a child with a Weight for Height Z score \u2265 \u2212 1.5 and absence of nutritional oedema during 14 days or a MUAC > 125 mm and absence of nutritional oedema during 14 days. Defaulter cases are defined as those who missed two consecutive appointments (14 days)."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The study was registered retrospectively after completion, leaving some potential concern for selective reporting of outcomes or analytical methods, although primary CMAM outcomes reported are standard.",
+        "evidence_quote": "Trial registration: Retrospectively registered in ISRCTN Register with ISRCTN33578874 on March 7th 2018."
+      }
+    ],
+    "overall_risk": "moderate",
+    "overall_summary": "The overall risk of bias is moderate due to potential confounding inherent to non-randomized allocation across geographic sectors, differential community detection/selection of children between arms, and retrospective trial registration."
+  },
+  {
+    "paper_id": "manual:53f60c5e",
+    "paper_title": "0d0ec4d0_41598_2021_Article_81811",
+    "design_classification": "non_randomized",
+    "design_rationale": "The study is explicitly described as a parallel two-arm non-inferiority quasi-experimental pilot study where intervention and control areas (wards in two different districts) were selected purposively rather than randomly assigned.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "Although there were baseline imbalances in HIV exposure, household wealth, and fever, the authors adjusted for these confounders in multivariable regression models, though some residual confounding cannot be entirely ruled out.",
+        "evidence_quote": "Thirdly, this being a non-randomised study, there is a possibility of confounding. In particular, there was a higher proportion of children exposed to HIV in the control group than in the intervention group. This is likely to yield better treatment outcomes in the intervention group. Moreover, there was an imbalance in the socio-economic status of children between the study groups..."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Participants were recruited through different mechanisms (active community screening by CHWs in the intervention arm vs. facility-based presentation/referral in the control arm), which likely influenced which children entered the study and could be related to outcome prognosis.",
+        "evidence_quote": "Eligible children were recruited in the community by CHWs in the intervention wards or by formal health workers in health facilities in the control wards."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Intervention status was clearly and unambiguously defined by geographical ward of residence and healthcare delivery model.",
+        "evidence_quote": "In consultation with the local health authorities, three rural wards (Sakwe, Ihusi and Mwadobana) in Bariadi District and three rural wards (Malampaka, Busilili, Shishiyu) in Maswa District were selected purposively as intervention and control areas, respectively."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The interventions in both arms followed standard operational protocols without evidence of significant non-protocol deviations or contamination across wards.",
+        "evidence_quote": "In selecting the intervention and control areas, the following factors were considered: study logistics, distance between the two areas to minimize contamination... CHWs and their supervisors from the intervention area received further training on home treatment of children with SAM without medical complications."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "low",
+        "rationale": "Missing outcome data was very low (3.9% in control, 0% in intervention) and accounted for via multiple imputation and sensitivity analyses with consistent findings.",
+        "evidence_quote": "Six children in the control group had missing outcome data because follow-up ended before we could ascertain their outcomes, thus, we performed both complete-case analysis and analysis after multiple imputation to account for the missing data."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "low",
+        "rationale": "Outcomes were objectively defined using standard anthropometric cutoffs (MUAC \u2265 12.5 cm), making measurement error or assessor bias unlikely to substantially alter the findings.",
+        "evidence_quote": "The primary study outcome was cure from SAM, defined as MUAC \u2265 12.5 cm. ... Child\u2019s MUAC, weight and the amount of RUTF dispensed were recorded at each weekly visit."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "low",
+        "rationale": "The study was registered and reported outcomes, including primary and secondary measures and pre-specified non-inferiority margins, in accordance with the planned analyses.",
+        "evidence_quote": "This study was registered in the Pan African Clinical Trial Registry (Trial number PACTR201901856648139) on 21/12/2018."
+      }
+    ],
+    "overall_risk": "moderate",
+    "overall_summary": "The overall risk of bias is moderate, driven by potential residual confounding between purposively selected geographic areas and differences in participant recruitment mechanisms (community- versus facility-based enrollment). Other domains showed low risk of bias with objective outcome definitions and minimal missing data."
+  },
+  {
+    "paper_id": "manual:573f0439",
+    "paper_title": "91598da6_children-08-01132",
+    "design_classification": "non_randomized",
+    "design_rationale": "The study was explicitly designed and described as a nonrandomized controlled trial comparing two geographically defined zones (intervention vs. control communes).",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Allocation was non-random by geographical area, baseline health-seeking behaviors and socioeconomic indicators differed significantly between zones, and analyses of clinical outcomes were unadjusted or only minimally adjusted without controlling for these potential confounders.",
+        "evidence_quote": "This study was a nonrandomized controlled trial conducted in an agro-pastoral region of Guidimakha... Study zones did not differ in demographic variables, acute malnutrition prevalence, or house characteristics, except for the house floor, in which there was a higher proportion of cement floors in the intervention zone (24.5% [18.9\u201330.9] vs. 7.6% [4.5\u201311.9] (p < 0.001)), showing better conditions... they differed in terms of treatment preferences for the sick child: the control group resorted more to traditional healers (25.1% vs. 8.5%, p < 0.001), while the intervention zone resorted more to formal health structures (80.2% vs. 55.6%, p < 0.001)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "low",
+        "rationale": "Eligible children in both regions meeting standardized admission criteria during the study period were enrolled prospectively at baseline/presentation.",
+        "evidence_quote": "All children aged 6 to 59 months presented to a HF or to a CHW\u2019s site, and/or detected by community volunteers (Relais Commaunitaires in French) or mobile clinics with mild or moderate oedema (+, ++), a MUAC less than 115 mm, and/or a WHZ less than \u22123 were included in the analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The intervention (SAM treatment delivered by CHWs in addition to HF vs HF alone) was clearly defined and determined by geographic commune with well-defined delivery sites.",
+        "evidence_quote": "Children in the control zone received outpatient treatment for uncomplicated SAM from HF, while in the intervention group zone they received outpatient treatment for uncomplicated SAM from HF or CHWs. The intervention area had 10 HF and 12 CHWs, and the control area included 6 HF."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The intervention was implemented as planned under regular supervision without substantial deviations from protocol or cross-contamination reported between zones.",
+        "evidence_quote": "During the study, CHWs received periodic supportive supervision by the healthcare-responsible staff from the HF and Action Against Hunger supervisors."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "A substantial proportion of admitted children had unknown treatment outcomes (~19% overall, 16.7% in control, 19.7% in intervention), which were excluded from the primary outcome analysis.",
+        "evidence_quote": "Among children seen on admission, treatment outcome was available to 81.1% (705/869). Outcomes were unknown for 42 children (16.7% of total admission) in the control group, and for 122 (19.7%) in the intervention group."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "low",
+        "rationale": "Outcomes were objectively measured using standardized anthropometric criteria (MUAC, WHZ) and well-defined program exit criteria across both groups.",
+        "evidence_quote": "The primary outcome was the proportion of cured children, defined by an absence of oedema and WHZ equal to or greater than 1.5 or/and MUAC > 125 mm during two consecutive weeks. Secondary outcomes were the proportion of defaulters defined the child being absent at two follow-up visits and the proportion of nonresponse defined by proportion of children not reached recovery after three months of treatment."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "low",
+        "rationale": "The reported results follow standard nutritional program evaluation metrics (cured, default, coverage) and the predefined analysis plan described in the methods.",
+        "evidence_quote": "To compare treatment effectiveness between the two zones, outcomes of treated chil dren were examined. The primary outcome was the proportion of cured children... For the analysis of the treatment outcomes, a Cox regression analysis was performed to obtain the time-adjusted probability (hazard ratio) until the outcome occurred."
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "The overall risk of bias is serious due to potential confounding inherent in the non-randomized allocation of geographical clusters, with significant baseline differences in socioeconomic status and healthcare-seeking behaviors that were not controlled for in the outcome analyses."
+  },
+  {
+    "paper_id": "manual:bdb4b846",
+    "paper_title": "57019fea_MCN-3-206",
+    "design_classification": "non_randomized",
+    "design_rationale": "This is an operational prospective cohort study without random assignment; all eligible malnourished children presenting to 12 centres were enrolled into home-based RUTF therapy, and centres selected their own staffing models based on available resources.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "critical",
+        "rationale": "The study lacks a concurrent control group, comparisons to historical or external standard care cohorts are uncontrolled, and comparisons across staffing models are subject to substantial unmeasured confounding by centre characteristics and severity of presentations.",
+        "evidence_quote": "The primary limitation of the current study is that it does not directly compare home-based therapy with RUTF vs. any alternative in a controlled manner... Direct comparisons between severely malnourished children treated with home-based therapy and these admitted for standard inpatient therapy cannot be made because we have no way of accounting for differences in case severity."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Inclusion required presenting to clinics and passing an appetite test, which selects a relatively healthier subset of severely malnourished children, though enrolment criteria were applied uniformly across participating sites.",
+        "evidence_quote": "All children aged 6\u201360 months presenting to one of the 12 centres in southern Malawi during the period of May 2005 to May 2006 with either moderate or severe malnutrition and with a good appetite were eligible to participate in this operational study... Children with severe oedema or anorexia were deemed too ill for enrolment into the study and treated as inpatients with standard therapy first."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The operational intervention (RUTF home-based therapy) and the centre delivery models were well-defined and clearly classified at the facility level without misclassification.",
+        "evidence_quote": "Staff at each centre followed one of three models: medical professionals administered treatment (5 centres), patients were referred by medical professionals and treated by community health aids (4 centres), or community health aids administered treatment (3 centres). Each of the 12 centres chose the organization structure which it felt was most appropriate given its resources."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The intervention was delivered as intended in an operational setting according to standard protocol guidelines, with regular retraining visits by senior nurse trainers across centres.",
+        "evidence_quote": "Caretakers were instructed by our staff as to the proper administration of food... Upon follow-up, caretakers were asked whether the child was consuming the entire ration of food; if the child was not consuming the entire ration, the caretakers were advised to feed the child small amounts of RUTF 7\u201310 times per day with a spoon."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "Dropout rates were modest (7-8%), but children lost to follow-up were significantly more malnourished at baseline, introducing some potential for bias despite sensitivity analyses exploring alternative dropout assumptions.",
+        "evidence_quote": "Of the severely malnourished children, 152/2131 (7%) dropped out, and of the moderately malnourished children, 65/806 (8%) dropped out... the children that dropped out did have lower anthropometric indices than those that reached a definitive outcome."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "low",
+        "rationale": "Outcomes (death, recovery based on objective anthropometric thresholds and resolution of oedema, and dropout) were defined by standardized objective criteria and measured using calibrated scales and standard anthropometric techniques.",
+        "evidence_quote": "Outcome was categorized as: recovered if children\u2019s oedema resolved and they gained weight such that their final weight-for-height was >85% of their ideal weight-for-height; failed if they did not achieve a weight-for-height > 85% of their ideal weight-forheight or relapsed requiring inpatient treatment; died; or dropped out if they simply missed two followup visits."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "No prospective protocol or pre-registration is referenced, though the reported analyses and outcomes are standard and comprehensive for operational nutrition program evaluations.",
+        "evidence_quote": "Binary logistic regression modelling (enter mode) was used to determine whether the treatment centre was predictive of dropping out... Logistic regression modelling (enter mode) was used to account for the effect of treatment centre. Covariates included in the model were: sex, age, presence of oedema, HAZ, WHZ, MUAC, whether child started treatment as an inpatient, and centre."
+      }
+    ],
+    "overall_risk": "critical",
+    "overall_summary": "The overall risk of bias is critical due to the uncontrolled operational study design with critical confounding when making comparisons to historical or standard care cohorts and non-random assignment of delivery models across health centres."
+  },
+  {
+    "paper_id": "manual:fbf6b8bc",
+    "paper_title": "70d8ca53_nutrients-13-04067",
+    "design_classification": "non_randomized",
+    "design_rationale": "The study is a non-randomized controlled trial comparing two rural communes assigned non-randomly to either the control or intervention condition.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Confounding",
+        "judgment": "serious",
+        "rationale": "There are notable baseline differences between the groups, including baseline anthropometric severity, household characteristics, and treatment preferences, and analyses for key outcomes only partially controlled for admission criteria without comprehensively adjusting for baseline severity and socioeconomic confounders.",
+        "evidence_quote": "Children treated in the group that included CHWs as treatment providers had a less severe anthropometric condition at admission than their peers in the control group treated exclusively in the HFs."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Participants were recruited prospectively upon seeking care after the start of the intervention, which may relate to differential health-seeking behavior and accessibility across the two communes.",
+        "evidence_quote": "All children who attend HFs or CHWs' huts from June 2018 to March 2019 and met the inclusion criteria were recruited for the study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Classification of interventions",
+        "judgment": "low",
+        "rationale": "Intervention status was clearly defined by geographical commune and health delivery model without risk of misclassification.",
+        "evidence_quote": "The control group received outpatient treatment for uncomplicated SAM from health facilities (HFs), while the intervention group received outpatient treatment for uncomplicated SAM from HFs or CHWs."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "A nurses' strike occurred during the trial that selectively disrupted the delivery of treatment in the control commune where treatment depended solely on health facility staff.",
+        "evidence_quote": "During the study period, there was a nurses strike in the HFs of both groups. This had a negative impact on the coverage figures of the control group, where treatment was only provided in HFs."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Missing data",
+        "judgment": "low",
+        "rationale": "Discharge and treatment outcomes were accounted for in virtually all enrolled children (with defaults and non-responders documented).",
+        "evidence_quote": "Table 4A shows the treatment outcomes for each study group... Control (n = 767)... Intervention (n = 1977)"
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Measurement of outcomes",
+        "judgment": "low",
+        "rationale": "Outcomes were assessed according to standard objective national anthropometric criteria and clinical definitions applied consistently across groups.",
+        "evidence_quote": "For the analysis of treatment outcomes, recovery was considered no edema for 14 days and WHZ \u2265 \u22122 z score and/or MUAC \u2265 125 mm (depending on the anthropometry criteria for admission) during two consecutive follow-up visits."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The study had a prospective registration with predefined outcomes and reported on standard predefined effectiveness and coverage endpoints.",
+        "evidence_quote": "The study was approved by the National Health Research Ethics Committee of Niger (007/201 8/CNERS), and the trial has been registered at ISRCTN with identification number ISRCTN31143316"
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "The overall risk of bias is serious, driven primarily by confounding due to non-random allocation of entire communes, baseline differences in anthropometric severity and socioeconomic factors, and differential impact of an external health worker strike."
+  }
+]

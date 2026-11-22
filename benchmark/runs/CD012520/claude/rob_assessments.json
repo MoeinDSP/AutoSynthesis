@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:bf1c0577",
+    "paper_title": "6f44b1aa_1748-5908-9-40",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster randomization of hospitals: \"Hospitals were stratified by stroke performance... Within each group, a computer-generated list was used to randomly allocate 12 hospitals to the intervention group and 12 to the control group,\" registered as ISRCTN13893902.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Stratified computer-generated allocation of clusters is adequate and baseline patient characteristics were largely balanced, but allocation concealment is not described, clusters were recruited before randomization with no concealment detail, and there were some baseline imbalances (e.g., MI/angina p=0.019; baseline bundle compliance differed between arms).",
+        "evidence_quote": "We used a stratified-randomization approach. Hospitals were stratified by stroke performance (Sentinel Audit score above or below 60)... a computer-generated list was used to randomly allocate 12 hospitals to the intervention group and 12 to the control group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Awareness of allocation was unavoidable in this open quality-improvement trial, control hospitals were a wait-list that knew they would later join, data-collection procedures differed between arms (faculty collected data for controls but intervention sites self-collected after baseline), and co-interventions from concurrent national stroke initiatives could not be controlled; analysis excluded some randomized clusters rather than being strictly intention-to-treat.",
+        "evidence_quote": "The nature of the trial meant that participants could not be blinded to group allocation... The collaborative program was run as designed. However, hospital sites did not consistently audit 20, or all, patients each month."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Six of 24 randomized clusters (25%) provided no analysable data and 1,328 (17%) patient records were excluded/replaced, with completeness varying by hospital and plausibly related to engagement with the intervention and to compliance outcomes; the authors themselves acknowledge likely bias.",
+        "evidence_quote": "Second, six hospitals did not provide data, and there was some variation in completeness rates between hospitals. This may introduce bias because it is unlikely the hospitals that failed to provide data, or did not produce complete data, were similar to those that did."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes were case-note audits of documented process compliance, abstracted by unblinded intervention-site staff who had a strong incentive to demonstrate improvement, while control data were abstracted by the QIC faculty \u2014 a differential, non-blinded measurement process for a subjective/documentation-dependent outcome.",
+        "evidence_quote": "After the baseline period the intervention group were expected to collect and submit data themselves, though they sometimes required extensive faculty support to do so... Variation in data collection approaches across hospitals, although small, may have introduced bias to the results."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ISRCTN13893902), primary bundle outcomes were pre-specified and a protocol existed, but the protocol is not provided for comparison and numerous additional per-process (\"secondary\") analyses with selective emphasis on favourable processes are reported, and the comparison window (last three months of each period) could have been chosen post hoc.",
+        "evidence_quote": "Figure 2 shows that a small number of hospitals were excluded for having a reporting rate under 50%; this was pre-specified in the protocol."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although cluster randomization was computer-generated and stratified with broadly balanced baseline patient characteristics, the trial is at high risk of bias overall because a quarter of randomized clusters provided no analysable data (plus 17% of patient records excluded) and because outcomes were unblinded case-note audits collected by intervention-site staff themselves versus by faculty in control sites. These missing-data and differential measurement problems, acknowledged by the authors, could plausibly account for the modest observed effects."
+  },
+  {
+    "paper_id": "manual:7920515c",
+    "paper_title": "e9fb69b7_JAH3-9-e012732",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster-randomized controlled trial: 20 hospitals were the unit of randomization, stratified by baseline IVT rate and allocated 1:1 by a statistician (\"Randomization of hospitals to intervention or control was then performed as a single event by a statistician using a 1:1 ratio within strata\"), with prospective registration (ACTRN12613000939796) and a published protocol.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "All 20 clusters were identified, confirmed eligible and committed via Memorandum of Understanding before a single stratified 1:1 allocation performed by a statistician (so allocation could not influence cluster or patient recruitment), and baseline hospital characteristics and baseline thrombolysis rates (5.06% vs 4.94%) were closely comparable, although the exact sequence-generation method is not described and metropolitan/regional distribution differed (5/5 vs 7/3).",
+        "evidence_quote": "\"Monitoring of IVT rates during the baseline period allowed hospitals (the unit of randomization) to be grouped into 3 baseline IVT strata... Randomization of hospitals to intervention or control was then performed as a single event by a statistician using a 1:1 ratio within strata.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of sites and staff was impossible and implementation fidelity varied substantially (site engagement scores 11\u201320/22; telephone case monitoring scored 0 at 8 of 10 sites), and concurrent prehospital/telestroke policy initiatives occurred during the trial, although the analysis was intention-to-treat using routinely collected denominators and contamination of control sites was judged improbable.",
+        "evidence_quote": "\"Staff at intervention hospitals could not effectively be blinded to their allocation because they were aware of their involvement in intervention activities... However, a differential effect of non-TIPS initiatives by study arm cannot be completely ruled out.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (proportion thrombolyzed) was essentially complete because all 20 clusters remained in the trial and denominators came from state administrative discharge data, but the secondary functional-outcome measure had substantial missing mRS data (e.g., site N: 54 of 123 complete cases; site T: 2 of 21) requiring imputation that could not be performed for small sites.",
+        "evidence_quote": "\"Due to a large fraction of additional missing data on the mRS, complete case analysis and multiple imputation analyses ... were performed. Multiple imputation was not performed for sites/times with fewer than 10 thrombolysed cases due to instability in parameter estimates.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is objective (count of tPA-treated cases over ICD-coded stroke separations), but numerators were entered by unblinded local stroke unit staff aware of allocation, and the authors themselves flag reliance on hospital-collected rather than independent data; the 3-month mRS was also assessed by unblinded site staff.",
+        "evidence_quote": "\"Limitations of the TIPS trial include the need to use hospital-collected rather than independent or objective data sources and the inability to blind sites to group allocation.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered with a published protocol, the primary analysis is explicitly identified as prespecified and reported as null, and the additional time-point modelling is transparently labelled as secondary/post hoc rather than substituted for the primary result.",
+        "evidence_quote": "\"In the primary, prespecified analysis, the absolute difference between the intervention and control group thrombolysis rates during the postintervention phase was compared using a linear regression model adjusted for baseline thrombolysis rate and strata. As a secondary, posthoc analysis, we modeled thrombolysis rates at each time point...\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospectively registered cluster-RCT had a sound stratified allocation performed before intervention launch, an intention-to-treat primary analysis using administrative denominators, and transparent prespecification, giving low risk for randomization and reporting domains. Overall risk is \"some concerns\", driven by the unavoidable lack of blinding combined with variable intervention fidelity and concurrent non-trial initiatives (D2), reliance on unblinded site-entered outcome data (D4), and substantial missing 3-month mRS data for the secondary outcomes (D3); none of these is likely to have manufactured the reported null primary result."
+  },
+  {
+    "paper_id": "manual:cbcf4165",
+    "paper_title": "39cc9552_s0140-6736%2811%2961485-2",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster randomisation of acute stroke units: \"De-identified stratification details were provided to an independent statistician who used random number generating software to randomise within strata\", registered as a cluster randomised controlled trial (ACTRN12608000563369).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and concealment at the cluster level were adequate and stratified, and pre-intervention cohorts were comparable, but only 19 clusters were randomised and post-intervention patients were identified after allocation, with some baseline imbalances (education, full-time employment, stroke subtype distribution, and thrombolysis concentrated in control ASUs: 60/77) suggesting possible chance or identification/recruitment imbalance.",
+        "evidence_quote": "\"De-identifi ed stratifi cation details were provided to an independent statistician who used random number generating software to randomise within strata with allocation concealed until provided to the Project Ofi cer (SD) who assigned ASUs to their groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "ITT analysis was used and patients were masked, but clinicians delivering the complex behavioural intervention were necessarily aware of allocation (and control units received only abridged guidelines), so co-interventions/performance differences (e.g., differential thrombolysis use) cannot be excluded.",
+        "evidence_quote": "\"Patients were masked to ASU group allocation but clinicians delivering our intervention were not... We used intention-to-treat analysis for all outcomes\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Loss to follow-up was modest (~10%), non-consenters and completers were similar on measured characteristics, and a worst-case sensitivity analysis confirmed the primary result.",
+        "evidence_quote": "\"117 (10%) patients were lost to follow-up or withdrew... our death and dependency results remained signifi cant (p=0\u00b7004) when a sensitivity analysis was undertaken where we assumed all patients lost to follow-up were dead or disabled\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated telephone-administered outcomes (mRS, Barthel, SF-36) were collected identically in both groups by independent, masked interviewers and auditors with documented inter-rater agreement, although some outcomes were patient/proxy-reported.",
+        "evidence_quote": "\"Research assistants who undertook the computer-assisted tele phone interviews and the medical record audits were masked to trial aims, design, and group allocation; the trial statistician was masked to group allocation.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "Pre-registered with a published protocol, pre-specified primary/secondary outcomes with alpha adjusted to 0\u00b70125 for multiplicity, and all four primary outcomes (including null results) reported; only minor concerns from two Barthel cut points and post-hoc/subgroup analyses that are labelled exploratory.",
+        "evidence_quote": "\"This trial is registered at the Australia New Zealand Clinical Trial Registry (ANZCTR), number ACTRN12608000563369\" and \"The trial protocol has been published previously.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted cluster RCT used concealed, stratified random allocation, masked outcome assessment, ITT analysis, modest attrition with worst-case sensitivity analysis, and prospective registration/protocol publication. Overall risk is \"some concerns\" because of the small number of clusters with some baseline imbalance (education, employment, thrombolysis use) and unavoidable non-blinding of clinicians delivering the behavioural intervention, which permits co-intervention effects."
+  },
+  {
+    "paper_id": "manual:0408a108",
+    "paper_title": "f30619b6_strokeaha.110.596940",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a national multicenter cluster-randomized controlled trial in which 12 hospitals \"were assigned to the intervention or control group by random allocation after pairwise matching\" (pairing on hospital type, prior thrombolysis rate, and size), with a published protocol and ISRCTN registration.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation after matched pairing is stated but the sequence-generation method and allocation concealment are not described, and with only 12 clusters there were residual baseline imbalances (larger hospitals, higher extramural education and lower intramural protocol scores in the intervention arm; differences in hypercholesterolemia and atrial fibrillation), which required post hoc statistical adjustment.",
+        "evidence_quote": "Twelve hospitals participated and were assigned to the intervention or control group by random allocation after pairwise matching. Pairing was based on hospital type, previous thrombolysis rate, and size... Some of the larger hospitals were allocated to the intervention group and more patients were registered in that group. The extramural education score was better in the intervention hospitals, whereas the intramural protocol score was higher in the control group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Awareness of allocation among intervention-hospital clinicians is inherent to an implementation strategy and analysis was intention-to-treat, but one of six intervention clusters dropped out entirely and adherence varied widely, while control clinicians' knowledge of being in a \"registration project\" plus a strong secular trend raises some concern about performance/Hawthorne effects on the deliberately clinician-driven outcome.",
+        "evidence_quote": "Local neurologists and paramedical personnel in intervention hospitals were aware that they participated in a program to enhance the rate of thrombolysis. Their colleagues in the control hospitals were only notified that they participated in a registration project... One hospital team dropped out of the intervention halfway during the trial due to a change in medical staff... Intervention adherence varied from very active to doing as little as possible."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary outcome (treatment with rtPA) was available for essentially all 5515 registered patients, and attrition for secondary 3-month outcomes was small (4% for mRS/mortality, 10% for EQ-5D) and unlikely to be large enough to bias the primary result.",
+        "evidence_quote": "There were no missing data in the minimal set of baseline data... Follow-up assessment was complete in 1589 of the 1657 patients; 68 patients (4%) were lost to follow-up or refused informed consent."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome (receipt of thrombolysis) is an objective, routinely recorded event collected by staff not involved in treatment, with blinded outcome assessors and a blinded central follow-up office, so differential measurement is unlikely; contraindication classification is more subjective but is a secondary/explanatory analysis.",
+        "evidence_quote": "Trained, local personnel not involved in the patient's treatment collected the data... The 2 researchers who assessed outcome data were blinded to the intervention assignment... Contraindications were identified by the treating physicians and checked retrospectively from source data by the investigators."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ISRCTN 20405426) with a published protocol and reports unadjusted, cluster-adjusted and fully adjusted estimates transparently, but there were two co-primary outcome definitions of which only one was significant, the headline conclusion emphasizes that one, and the primary estimate depends on covariate adjustment (cluster-adjusted OR 1.44, 95% CI 0.93\u20132.22 vs adjusted 1.58, 1.11\u20132.27), indicating some flexibility in the analysis presented.",
+        "evidence_quote": "We observed a significant effect of the intervention on only 1 of the 2 both primary outcome measures... In the group of 1657 patients with ischemic stroke who were admitted within 4 hours from onset... adjusted OR for treatment with thrombolysis was 1.58 (95% CI, 1.11 to 2.27)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, registered cluster-randomized trial had complete primary outcome data and blinded, objective outcome ascertainment, but carries some concerns from randomization of only 12 clusters with residual baseline imbalance and unreported allocation-sequence/concealment detail, unavoidable unblinding and variable adherence (including one intervention cluster dropping out), and reliance on covariate-adjusted analysis of one of two co-primary outcomes for the positive conclusion. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  }
+]

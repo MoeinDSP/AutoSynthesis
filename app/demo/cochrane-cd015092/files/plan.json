@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults whose primary trial eligibility is obesity, what is the effect of semaglutide (any dose; subcutaneous or oral; administered for at least 6 months), compared with placebo, on percentage change in body weight from baseline at medium-term follow-up (6 to 24 months)?",
+  "treatment_label": "Semaglutide (any dose; subcutaneous or oral; at least 6 months)",
+  "control_label": "Placebo",
+  "outcome_description": "Percentage change in body weight from baseline, measured at the assessment closest to the end of the 6-to-24-month window while randomised treatment is ongoing. Pool the semaglutide-minus-placebo mean difference in percentage points using a random-effects model. Prefer, in order: (1) directly reported adjusted estimated treatment difference with 95% CI, deriving SE as (upper CI minus lower CI)/3.92; (2) arm-level estimated/model-based means with SE or 95% CI, converting SE to SD as SE \u00d7 sqrt(n) where needed; (3) arm-level raw means with SDs. Use analysed sample sizes when stated, otherwise randomised/full-analysis-set denominators, including for treatment-policy estimands. Search results text, tables, figures, and legends even when this is a secondary or exploratory endpoint. For multi-dose trials use a reported combined semaglutide group; otherwise use 2.4 mg weekly, or the highest dose if 2.4 mg is absent. For randomised-withdrawal trials, use change from randomisation to the end of the randomised continuation-versus-placebo period. Do not use off-treatment or post-discontinuation extension assessments. Do not pool body weight in kg, BMI, waist circumference, categorical weight-loss response, or any other outcome.",
+  "positive_direction": "For any standardized, direction-harmonized effect, a positive value means greater percentage body-weight reduction with semaglutide and therefore favours semaglutide. For the specifically requested untransformed MD calculated as semaglutide minus placebo, however, a negative value means greater weight loss and favours semaglutide.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "semaglutide obesity placebo randomized trial body weight percentage change",
+    "oral subcutaneous semaglutide obesity controlled trial weight change",
+    "semaglutide obese adults placebo quantitative body weight outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised, parallel-group or randomised-withdrawal controlled trials enrolling adults whose primary inclusion criterion is obesity, including obesity with comorbidities such as type 2 diabetes, heart failure, chronic kidney disease, knee osteoarthritis, prediabetes, or HIV-associated lipohypertrophy.",
+    "Comparison of any dose of subcutaneous or oral semaglutide administered for at least 6 months against placebo, with eligible data from an on-treatment randomised follow-up between 6 and 24 months.",
+    "Reports percentage change in body weight from the relevant baseline with sufficient quantitative information for an MD and variance, whether the outcome is primary, secondary, or exploratory and whether it appears in text, tables, figures, or figure legends."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-empirical reports.",
+    "No comparison between a semaglutide treatment condition and a placebo control condition; also exclude cluster-randomised and cross-over trials, and trials in which diabetes rather than obesity is the main inclusion criterion.",
+    "No quantitative percentage-body-weight-change data capable of producing an effect size, such as a treatment difference with 95% CI, arm means with SD/SE/CI, t/F statistics, proportions, or odds ratios; do not treat threshold-only P values as sufficient when no usable estimate or variance is available.",
+    "Completely unrelated to semaglutide treatment for adult obesity, or reports only ineligible outcomes such as weight in kg, BMI, waist circumference, weight-loss responder proportions, adverse or cardiovascular events, quality of life, mortality, or blood pressure."
+  ],
+  "moderators_to_extract": [
+    "Semaglutide route of administration (subcutaneous versus oral)",
+    "Semaglutide dose and dose-selection approach (combined group, 2.4 mg weekly, or highest available dose)",
+    "Trial design (standard parallel-group versus randomised-withdrawal)",
+    "Follow-up duration in weeks/months within the 6-to-24-month window",
+    "Obesity comorbidity or clinical population",
+    "Estimand and analysis type (for example treatment-policy with multiple imputation, trial-product/on-treatment, ANCOVA, or mixed model)"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Use the explicitly requested random-effects pooled mean difference in percentage points, retaining the natural semaglutide-minus-placebo sign convention: MD < 0 indicates more weight loss and favours semaglutide. Assign arms from treatment descriptions rather than column position. If several eligible assessments occur from 6 to 24 months, select the one closest to 24 months, provided it is during the randomised treatment period; common eligible assessments include weeks 44, 52, 68, and 104. In multi-arm studies include only the selected semaglutide arm/group and placebo. Direct adjusted ETDs and their CIs are eligible without arm-level SDs, exact P values, or F statistics.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "percentage change in body weight from baseline"
+}

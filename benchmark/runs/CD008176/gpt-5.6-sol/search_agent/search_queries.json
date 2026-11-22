@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of antioxidant therapy (including vitamin E and other vitamins, N-acetylcysteine, selenium, and other agents with antioxidant or Nrf2-activating action such as bardoxolone methyl or pentoxifylline), compared with placebo, usual care or no treatment, on cardiovascular death in adults with chronic kidney disease (CKD stages 3 to 5, dialysis, or kidney transplant)?\n\nEffect measure: pool as a risk ratio (RR) using a random-effects model. RR < 1 means fewer cardiovascular deaths with antioxidants (favours antioxidants).\n\nOutcome: number of participants who died from cardiovascular causes (events) out of the number randomised or analysed in each arm (total), over the whole follow-up period.\n- Use the cardiovascular-death component only. If a study reports a composite endpoint (e.g. cardiovascular events, MI + stroke + cardiovascular death), do not use the composite; look for the cardiovascular-death count among its components or secondary outcomes.\n- If the paper lists fatal myocardial infarction, fatal stroke and sudden death separately without a total, sum them only if the paper itself defines them as cardiovascular death.\n- If a study reports all-cause deaths and does not report the cause, do not treat all-cause death as cardiovascular death.\n- If a paper reports a subgroup of a larger trial that includes participants with CKD, use the CKD subgroup's counts and denominators, not the whole trial's.\n- If the number of cardiovascular deaths is not reported in the paper, do not estimate it; leave the study out.\n- Multi-arm trials: use the antioxidant arm(s) and the placebo/usual-care arm. If several antioxidant doses are tested, combine them by summing events and participants.\n\nDo not pool all-cause mortality, non-fatal cardiovascular events, composite cardiovascular endpoints, inflammation or oxidative-stress markers, kidney function outcomes or adverse events. Include only randomised controlled trials in adults with CKD; exclude trials in people without kidney disease and comparisons of one antioxidant against another.",
+  "planned_search_queries": [
+    "antioxidant therapy chronic kidney disease cardiovascular mortality randomized trial",
+    "vitamin E N-acetylcysteine selenium dialysis cardiovascular death controlled trial",
+    "Nrf2 bardoxolone pentoxifylline kidney transplant CKD cardiovascular mortality trial"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "antioxidant therapy chronic kidney disease cardiovascular death randomized controlled trial",
+    "vitamin E N-acetylcysteine selenium dialysis cardiovascular mortality trial",
+    "bardoxolone methyl Nrf2 CKD cardiovascular death placebo trial",
+    "pentoxifylline chronic kidney disease cardiovascular mortality controlled trial",
+    "antioxidant therapy kidney transplant cardiovascular death randomized trial"
+  ]
+}

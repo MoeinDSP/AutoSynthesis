@@ -1,0 +1,39 @@
+{
+  "research_question": "Among pregnant participants, what is the effect of high-dose calcium supplementation, compared with placebo or no treatment, on preterm birth before 37 completed weeks of gestation in the dose-stratified high-dose subgroup? This analysis will exclude the non-dose-stratified outcome and the timing-stratified ('started to take calcium') outcome.",
+  "treatment_label": "High-dose calcium supplementation during pregnancy (high-dose subgroup as classified in the dose-stratified analysis)",
+  "control_label": "Placebo or no calcium supplementation/no treatment",
+  "outcome_description": "Dichotomous occurrence of preterm birth before 37 completed weeks of gestation, restricted to the dose-stratified high-dose calcium subgroup. Extract each trial's reported number of preterm-birth events and total randomized in each arm, using an intention-to-treat denominator where reported. Do not substitute data from the non-dose-stratified analysis or from the timing-stratified ('started to take calcium') analysis.",
+  "positive_direction": "An effect favoring high-dose calcium means fewer preterm births before 37 weeks in the calcium group than in the placebo/no-treatment group; for the requested Risk Ratio, RR < 1 favors high-dose calcium and RR > 1 favors control.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "high-dose calcium supplementation pregnancy preterm birth trial",
+    "calcium placebo pregnancy preterm delivery controlled",
+    "maternal calcium supplementation gestation preterm birth quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of calcium supplementation during pregnancy that include a high-dose calcium intervention group and a placebo or no-treatment comparison group.",
+    "Studies reporting preterm birth before 37 weeks of gestation for the dose-stratified high-dose subgroup.",
+    "Studies providing, or allowing extraction of, quantitative event counts and randomized totals by trial arm sufficient to calculate a Risk Ratio."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, commentaries, protocols without results, and theoretical papers.",
+    "No comparison between a high-dose calcium treatment condition and a placebo or no-treatment control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as arm-level events and totals, means and SDs, t/F-values, proportions, or odds ratios; for this analysis, trials must ultimately provide preterm-birth events and total randomized per arm.",
+    "Completely unrelated to calcium supplementation in pregnancy or preterm birth before 37 weeks.",
+    "Outcome data are reported only in the non-dose-stratified analysis or only in the timing-stratified ('started to take calcium') analysis, with no separable dose-stratified high-dose subgroup data."
+  ],
+  "moderators_to_extract": [
+    "Calcium dose and formulation",
+    "Gestational age at randomization or supplementation initiation",
+    "Baseline dietary calcium intake",
+    "Population preterm-birth or hypertensive-disorder risk",
+    "Control type (placebo versus no treatment)",
+    "Trial setting and country income category"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool arm-level preterm-birth events and total randomized using Risk Ratios (RRs). Use the trial's randomized denominator for each arm where available. Trials with zero events in both arms are not estimable for RR and must be excluded from pooling; document them narratively and report the number excluded. For a single-zero trial, apply the analysis software's standard continuity correction consistently and assess sensitivity to the correction if feasible. Keep multi-arm studies statistically independent by combining eligible intervention arms when appropriate or splitting a shared control according to prespecified methods. Use the dose-stratified high-dose result only, without mixing in non-dose-stratified or timing-stratified estimates.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "preterm birth before 37 weeks' gestation"
+}

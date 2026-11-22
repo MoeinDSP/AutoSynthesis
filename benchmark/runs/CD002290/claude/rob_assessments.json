@@ -1,0 +1,140 @@
+[
+  {
+    "paper_id": "manual:7860c10b",
+    "paper_title": "1c23f10d_467_2022_Article_5475",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is an explicitly described open-label, parallel-group, pilot non-inferiority randomized controlled trial with 1:1 allocation using a computer-generated random number sequence in permuted blocks of four, stratified by steroid dependence and age.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated stratified block randomization with allocation concealed in sequentially numbered opaque sealed envelopes prepared by personnel not caring for patients, and baseline characteristics were comparable (Table 1).",
+        "evidence_quote": "\"Personnel not caring for these patients used computer-generated random number sequence to prepare strata-wise lists and concealed the allocation in sequentially numbered, opaque sealed envelopes that were opened at randomization.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Open-label design with patients, investigators and assessors aware of allocation, and five tacrolimus patients were non-adherent for >3 weeks (excluded in per-protocol analysis); although a modified intention-to-treat analysis was used (excluding one randomized patient), the unblinded context and differential adherence between a 2-dose infusion and a daily oral drug could influence outcomes.",
+        "evidence_quote": "\"The investigators, patients, and outcome assessors were aware of the therapy being received.\" ... \"Per-protocol analysis excluded this patient and 5 patients with non-compliance to tacrolimus for > 3 weeks\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 40 of 41 randomized patients, with only one patient (rituximab arm) never returning after randomization and no other loss to follow-up.",
+        "evidence_quote": "\"Modified intention-to-treat population included 40 patients; one patient assigned to rituximab did not return after randomization. No other patient was lost to follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (sustained remission based on objective dipstick proteinuria criteria) is fairly objective and measured identically in both arms, but outcome assessors were unblinded and relapse ascertainment depended partly on parent-recorded diaries and clinician-triggered visits, leaving some potential for differential detection.",
+        "evidence_quote": "\"The investigators, patients, and outcome assessors were aware of the therapy being received.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (CTRI/2018/11/016342) and reported as conducted per the original protocol, with pre-specified primary outcome, non-inferiority margin, alpha levels and analysis populations; post hoc subgroup analyses are explicitly labeled as exploratory.",
+        "evidence_quote": "\"the trial was registered at the Clinical Trials Registry of India (CTRI/2018/11/016342) and conducted according to the original protocol.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization, allocation concealment, outcome-data completeness and pre-registered reporting were all strong, but the open-label design (unblinded patients, investigators and outcome assessors) combined with differential adherence in the tacrolimus arm raises some concerns for deviations from intended interventions and outcome measurement. Overall risk is therefore 'some concerns', compounded by the small pilot sample size (fragility index of one for the key secondary finding)."
+  },
+  {
+    "paper_id": "manual:9794091b",
+    "paper_title": "1b61917e_AMS-18-1-145587",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states participants were randomly allocated: \"A prospective randomized study of 51 children with FRSDNS not previously treated with steroid-sparing agents were randomized to cyclophosphamide, tacrolimus, or rituximab.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted and baseline balance is claimed, but no detail is given on sequence generation or allocation concealment, and the perfectly equal 17/17/17 allocation suggests an unspecified (possibly non-concealed) method.",
+        "evidence_quote": "A prospective randomized study of 51 children with FRSDNS not previously treated with steroid-sparing agents were randomized to cyclophosphamide, tacrolimus, or rituximab... The baseline demographic and clinical characteristics were well balanced among the treatment groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The trial was open-label with markedly different administration routes/schedules (IV infusions vs oral drug), co-interventions differed by arm (prophylactic trimethoprim, dexamethasone/promethazine premedication, repeat rituximab), and no intention-to-treat analysis or handling of deviations is described \u2014 highly relevant for the subjective self-reported HRQOL outcome.",
+        "evidence_quote": "Patients who experienced a relapse following their allocated treatment received remission-induction steroids again... Rituximab was re-administered (375 mg/m2 ...) at 6 months' intervals."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 51 randomized patients appear in Table I and the PedsQL age-group totals sum to 51, but no flow diagram, dropout/withdrawal information, or missing-data handling is reported for the 1-year QOL assessment.",
+        "evidence_quote": "Patients aged 2\u20134 years (n = 11), 5\u20137 years (n = 19), 8\u201312 years (n = 17), and 13\u201318 years (n = 4) completed the PedsQL\u2122 questionnaire."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary reported outcome (HRQOL) is self/proxy-reported by unblinded participants in an open-label trial, and adverse-event/relapse ascertainment was also unblinded, so knowledge of the assigned agent could readily influence the outcome assessment.",
+        "evidence_quote": "HRQOL was evaluated before and 1 year after treatment with these drugs using PedsQL\u2122 4.0 Generic Core Scales"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or protocol/pre-specified primary outcome is reported, numerous outcomes and PedsQL subdomains are selectively narrated without full numerical data, inconsistent p-values are presented for relapse-free survival (0.043/<0.001 in text vs 0.228/0.013 in the figure), and no adjustment for multiplicity is described.",
+        "evidence_quote": "The NS duration showed a negative correlation with the pre-treatment total health score (p = 0.886). Before treatment, the three groups had similar total health scores in each domain (p > 0.05)"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the open-label design with arm-specific co-interventions and no ITT analysis (D2), unblinded self-reported HRQOL outcome assessment (D4), and absent pre-registration with selective/inconsistent reporting of multiple outcomes and discrepant p-values (D5). Randomization and missing-data reporting additionally raise some concerns due to undescribed sequence generation, allocation concealment, and participant flow."
+  },
+  {
+    "paper_id": "manual:8d155fe8",
+    "paper_title": "237b7bc8_jamapediatrics.2018.1323",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation using a web-based stratified block randomization tool in a parallel-arm, open-label phase 3 randomized clinical trial (RITURNS, NCT02438982).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Concealed, web-based stratified block randomization with varying block sizes, and baseline characteristics were well balanced across arms.",
+        "evidence_quote": "\"The children were randomly allocated in concealed fashion... Randomization was performed 1:1 using a web-based tool including stratified block randomization with varying block sizes\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Open-label design with unmasked patients and staff, co-interventions differed (longer prednisolone co-administration and possible non-adherence in the tacrolimus arm), although intention-to-treat analysis was used and deviations were few.",
+        "evidence_quote": "\"The trial was open-label, with no masking of patients or study staff to treatment allocation.\" ... \"we cannot exclude temporary study drug nonadherence in the tacrolimus arm\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Relapse was defined objectively by dipstick/urine protein-creatinine ratio criteria applied identically across arms, but outcome assessors were unblinded and relapse detection depended partly on home dipstick monitoring by unblinded families, with no mention of blinded adjudication.",
+        "evidence_quote": "\"Home proteinuria monitoring was performed using urine dipstick analysis... Relapse was identified through urine dipstick and confirmed by urine protein-creatinine ratio.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data available for 117 of 120 randomized children (only 1 missing primary endpoint, imputed conservatively), and per-protocol sensitivity analysis confirmed results.",
+        "evidence_quote": "\"Of the 176 children screened for eligibility, 120 were randomized and all but 3 patients completed 1 year of follow-up.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "Trial was prospectively registered (NCT02438982, CTRI), the protocol is available as a supplement, primary and prespecified secondary endpoints are reported, and no protocol changes occurred.",
+        "evidence_quote": "\"There were no changes in protocol after trial commencement.\" ... \"Prespecified key secondary end points were...\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Well-conducted, registered, concealed-randomization trial with near-complete follow-up and ITT analysis, but the open-label design (no masking of patients, staff, or outcome assessors) and asymmetric corticosteroid co-treatment plus possible tacrolimus non-adherence raise some concerns in D2 and D4, yielding an overall judgment of some concerns."
+  }
+]

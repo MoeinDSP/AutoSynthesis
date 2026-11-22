@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of adding platinum-based chemotherapy (carboplatin or cisplatin) to neoadjuvant chemotherapy compared with neoadjuvant chemotherapy without platinum on disease-free survival in women with early-stage triple-negative breast cancer?",
+  "treatment_label": "Neoadjuvant platinum-based chemotherapy (carboplatin or cisplatin)",
+  "control_label": "Neoadjuvant chemotherapy without platinum",
+  "outcome_description": "Disease-free survival (including event-free survival, relapse-free survival, or invasive disease-free survival) measured as a hazard ratio with 95% confidence interval at the longest reported follow-up",
+  "positive_direction": "A hazard ratio below 1 (or positive effect in log-hazard reduction) indicates prolonged disease-free survival and lower risk of recurrence or death favoring platinum-based chemotherapy",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "neoadjuvant platinum triple negative breast cancer disease free survival randomized trial",
+    "carboplatin cisplatin neoadjuvant chemotherapy triple negative breast cancer event free survival trial",
+    "platinum neoadjuvant triple-negative breast cancer survival hazard ratio randomized controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating the addition of platinum-based chemotherapy (carboplatin or cisplatin) to neoadjuvant chemotherapy versus the same neoadjuvant regimen without platinum",
+    "Studies conducted in women with early-stage triple-negative breast cancer",
+    "Studies reporting disease-free survival, event-free survival, relapse-free survival, or invasive disease-free survival as a hazard ratio with 95% confidence interval"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, commentaries, editorials, or theoretical articles)",
+    "No comparison between a neoadjuvant platinum arm and a platinum-free control arm, or studies evaluating adjuvant-only platinum therapy",
+    "No quantitative outcome data reporting a hazard ratio and 95% confidence interval for disease-free or event-free survival (e.g., only Kaplan-Meier curves without reported HR, or only pathological complete response/overall survival)",
+    "Studies restricted to non-triple-negative breast cancer (e.g., HER2-positive or hormone receptor-positive) or unrelated clinical populations"
+  ],
+  "moderators_to_extract": [
+    "Platinum agent used (carboplatin vs. cisplatin)",
+    "Neoadjuvant backbone chemotherapy regimen (e.g., taxane/anthracycline-based)",
+    "Outcome definition (disease-free survival vs. event-free survival vs. invasive disease-free survival)",
+    "Median follow-up duration in months/years",
+    "Sample size of randomised cohort"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Hazard ratios (HR) and 95% confidence intervals are pooled on the log scale. HR < 1 indicates reduced risk of disease recurrence, progression, or death favoring platinum-based neoadjuvant chemotherapy. If control vs. platinum is reported, the ratio is inverted to platinum vs. control.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "disease-free survival"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of metformin added to megestrol acetate, compared with megestrol acetate alone, on complete regression of endometrial hyperplasia (with or without atypia) in women with endometrial hyperplasia?",
+  "treatment_label": "Metformin plus megestrol acetate",
+  "control_label": "Megestrol acetate alone",
+  "outcome_description": "Complete regression of endometrial hyperplasia to normal endometrium (proliferative, secretory, or atrophic) at the end of treatment",
+  "positive_direction": "An odds ratio greater than 1 favors metformin plus megestrol acetate (indicating higher rates of endometrial hyperplasia regression)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "metformin megestrol acetate endometrial hyperplasia trial",
+    "metformin megestrol regression endometrial hyperplasia comparison",
+    "metformin megestrol controlled trial endometrial hyperplasia"
+  ],
+  "inclusion_criteria": [
+    "Studies evaluating adult women diagnosed with endometrial hyperplasia (with or without atypia).",
+    "Studies directly comparing the combination of metformin and megestrol acetate versus megestrol acetate alone.",
+    "Studies reporting quantitative data on complete regression to normal endometrium (proliferative, secretory, or atrophic) at the end of treatment."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or theoretical papers).",
+    "No direct comparison between metformin combined with megestrol acetate and megestrol acetate alone (e.g., studies evaluating metformin monotherapy, levonorgestrel intrauterine systems, or single-arm designs).",
+    "No quantitative outcome data allowing calculation of an effect size for endometrial hyperplasia regression (such as event counts, proportions, or odds ratios).",
+    "Completely unrelated to endometrial hyperplasia or the interventions of interest."
+  ],
+  "moderators_to_extract": [
+    "Hyperplasia atypia status (atypical endometrial hyperplasia vs non-atypical)",
+    "Treatment duration (e.g., 3 months vs 6 months vs longer)",
+    "Metformin dosage (daily mg)",
+    "Megestrol acetate dosage (daily mg)",
+    "Study design (randomized controlled trial vs non-randomized comparative study)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Outcome pooled as odds ratio (OR) based on dichotomous events of regression to normal endometrium versus persistent/progressed disease.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "regression of endometrial hyperplasia"
+}

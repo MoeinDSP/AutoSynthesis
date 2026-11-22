@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of fenoldopam compared with control (placebo or saline) on development of acute kidney injury (AKI) across all patient populations?",
+  "treatment_label": "Fenoldopam",
+  "control_label": "Control (placebo or saline)",
+  "outcome_description": "Incidence of acute kidney injury (AKI)",
+  "positive_direction": "A positive effect size (or risk ratio < 1.0) indicates a lower risk of acute kidney injury, favoring fenoldopam over control",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "fenoldopam acute kidney injury randomized controlled trial",
+    "fenoldopam renal failure placebo trial",
+    "fenoldopam AKI prevention clinical trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized or controlled clinical trials evaluating fenoldopam compared to placebo, saline, or standard care",
+    "Studies conducted in any clinical patient population at risk for acute kidney injury (e.g., cardiac surgery, non-cardiac surgery, sepsis, critical illness, contrast exposure)",
+    "Quantitative reporting of acute kidney injury (AKI) events and sample size per arm"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentary, narrative reviews, and animal or in vitro studies excluded)",
+    "No comparison between fenoldopam and an appropriate control condition (e.g., single-arm fenoldopam trials)",
+    "No extractable quantitative outcome data on the incidence or development of acute kidney injury (AKI)",
+    "Completely unrelated to fenoldopam administration or renal function outcomes"
+  ],
+  "moderators_to_extract": [
+    "patient population/clinical setting (cardiac surgery vs non-cardiac surgery vs ICU/critical illness vs contrast-induced nephropathy)",
+    "control type (placebo vs normal saline vs standard care)",
+    "fenoldopam dosage and infusion duration",
+    "AKI diagnostic criteria used (e.g., KDIGO, AKIN, RIFLE, or absolute serum creatinine elevation)",
+    "sample size per study"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk ratio (RR) pooled using event counts (patients developing AKI) and total sample sizes randomized per arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "acute kidney injury"
+}

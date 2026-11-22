@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of immune checkpoint inhibitors plus platinum-based chemotherapy, compared with chemotherapy alone (with or without placebo), on overall survival at any time point in patients aged 65 years and older?",
+  "treatment_label": "Immune checkpoint inhibitor plus platinum-based chemotherapy",
+  "control_label": "Platinum-based chemotherapy alone (with or without placebo)",
+  "outcome_description": "Overall survival (OS) in participants aged 65 years and older, expressed as a hazard ratio (HR) with 95% confidence intervals or log(HR) with standard error",
+  "positive_direction": "A positive effect indicates improved overall survival favoring immune checkpoint inhibitors plus platinum-based chemotherapy over chemotherapy alone",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "immune checkpoint inhibitor platinum chemotherapy elderly randomized trial",
+    "immunotherapy platinum doublet overall survival aged 65 trial",
+    "PD 1 PD L1 platinum chemotherapy older adults trial"
+  ],
+  "inclusion_criteria": [
+    "Controlled clinical trials comparing immune checkpoint inhibitors (ICI) combined with platinum-based chemotherapy versus platinum-based chemotherapy alone (with or without placebo)",
+    "Studies reporting overall survival (OS) data specifically for adult participants aged 65 years and older",
+    "Quantitative outcome reporting from which a hazard ratio and measure of variance (e.g., 95% CI or SE) can be extracted or derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, review articles, editorials, commentaries, and theoretical papers are excluded)",
+    "No comparison between an immune checkpoint inhibitor plus platinum chemotherapy arm and a platinum chemotherapy alone control arm",
+    "No quantitative outcome data that can produce an effect size (lacking hazard ratios, 95% confidence intervals, or extractable survival data)",
+    "Completely unrelated to the research topic or studies without separate subgroup data for patients aged 65 years and older"
+  ],
+  "moderators_to_extract": [
+    "Cancer type and histology (e.g., non-small cell lung cancer, extensive-stage small cell lung cancer, urothelial carcinoma)",
+    "Specific ICI class and agent (e.g., anti-PD-1 vs anti-PD-L1 vs anti-CTLA-4)",
+    "Line of therapy (e.g., first-line vs second-line or maintenance)",
+    "Platinum backbone agent (cisplatin vs carboplatin)",
+    "Median duration of follow-up (months)"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Extract the Hazard Ratio (HR) and 95% confidence interval (or log[HR] and standard error) directly from each trial's subgroup survival analysis for patients aged 65 years and older.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall survival"
+}

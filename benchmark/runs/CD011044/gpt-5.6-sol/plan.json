@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with advanced pancreatic cancer, what is the effect on overall survival of fluoropyrimidine-based combination chemotherapy regimens (including combinations of nab-paclitaxel or gemcitabine with S-1, capecitabine, or 5-FU/leucovorin) compared directly with gemcitabine plus nab-paclitaxel?",
+  "treatment_label": "Fluoropyrimidine-based combination chemotherapy",
+  "control_label": "Gemcitabine plus nab-paclitaxel",
+  "outcome_description": "Overall survival only, analyzed as a time-to-event outcome using the hazard ratio reported by each paper from its own Cox proportional-hazards or equivalent reported survival model. Extract log(HR) and its standard error directly, or derive them from the reported HR and 95% confidence interval. Do not substitute progression-free survival, response, adverse-event counts, median-survival comparisons, or reconstructed/approximated hazard ratios. Studies not reporting a usable overall-survival HR are ineligible for quantitative synthesis of this outcome.",
+  "positive_direction": "A positive standardized effect direction, after harmonizing the time-to-event estimate, means that fluoropyrimidine-based combination chemotherapy favors longer overall survival (a lower mortality hazard) compared with gemcitabine plus nab-paclitaxel.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "advanced pancreatic cancer fluoropyrimidine combination gemcitabine nab-paclitaxel survival hazard ratio",
+    "pancreatic cancer S-1 capecitabine 5-FU gemcitabine nab-paclitaxel controlled comparison overall survival",
+    "metastatic pancreatic adenocarcinoma fluoropyrimidine combination versus gemcitabine nab-paclitaxel trial survival"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies enrolling adults with advanced, unresectable, recurrent, or metastatic pancreatic cancer and evaluating a fluoropyrimidine-based combination regimen.",
+    "Studies with a direct treatment-group comparison between a qualifying fluoropyrimidine-based combination regimen and gemcitabine plus nab-paclitaxel.",
+    "Studies reporting an overall-survival hazard ratio from a Cox proportional-hazards or other explicitly reported time-to-event survival model, with a 95% confidence interval or sufficient information to obtain log(HR) and its standard error."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No direct comparison between a qualifying fluoropyrimidine-based combination treatment and gemcitabine plus nab-paclitaxel; this includes single-arm studies, comparisons involving other controls such as best supportive care, gemcitabine alone, or fluoropyrimidine alone, and studies comparing only different doses or schedules of gemcitabine plus nab-paclitaxel.",
+    "No quantitative overall-survival outcome capable of yielding the prespecified effect size: specifically, no paper-reported Cox/time-to-event HR with a 95% CI or log(HR) with SE; means and SDs, t/F values, proportions, odds ratios, response rates, adverse-event counts, medians alone, or reconstructed survival-curve estimates are not acceptable substitutes.",
+    "Completely unrelated to advanced pancreatic cancer, the specified treatment comparison, or overall survival."
+  ],
+  "moderators_to_extract": [
+    "Specific fluoropyrimidine agent and combination regimen",
+    "Study design (randomized versus nonrandomized comparative study)",
+    "Disease setting (locally advanced, recurrent, metastatic, or mixed)",
+    "Line of therapy",
+    "HR adjustment status and covariates used (unadjusted versus multivariable-adjusted)",
+    "Participant characteristics, including median age and performance-status distribution"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Use the paper-reported overall-survival hazard ratio only. Extract log(HR) and SE directly when available; otherwise compute log(HR) = ln(HR) and SE = [ln(upper 95% CI) - ln(lower 95% CI)]/(2 \u00d7 1.96). Orient estimates so values indicating lower mortality hazard under the fluoropyrimidine-based combination favor treatment. Do not infer an HR from median survival, Kaplan\u2013Meier curves, response rates, progression-free survival, or adverse-event data. If multiple eligible HRs are reported for the same cohort, prespecify a hierarchy (primary/intention-to-treat analysis first, then the most fully adjusted model) and avoid double-counting participants.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall survival"
+}

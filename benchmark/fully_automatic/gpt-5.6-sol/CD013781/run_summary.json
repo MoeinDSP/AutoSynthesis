@@ -1,0 +1,21 @@
+{
+ "review": "CD013781",
+ "model": "openai/gpt-5.6-sol",
+ "run_id": "X0ejoPPaGyFDp7TiEjrZaQ",
+ "status": "completed",
+ "error": null,
+ "start": "2026-11-21 09:21:20",
+ "wall_clock_seconds": 4323,
+ "openrouter_cost_usd": 17.9562,
+ "papers_found": 92,
+ "papers_missing_fulltext": 17,
+ "gates_seconds": {
+  "paper_selection": 500,
+  "fulltext": 3962,
+  "review": 4002
+ },
+ "pooled": {
+  "error": "AttributeError: 'NoneType' object has no attribute 'get'"
+ },
+ "prompt": "What is the effect of levosimendan compared with placebo on all-cause mortality in adults\nundergoing cardiac surgery? Pool as a Risk Ratio (RR) using each trial's reported deaths and\ntotal randomized per arm. If a trial reports zero deaths in both arms, treat it as not\nestimable and exclude it from pooling rather than continuity-corrected — expect this for at\nleast three of the trials in this review."
+}

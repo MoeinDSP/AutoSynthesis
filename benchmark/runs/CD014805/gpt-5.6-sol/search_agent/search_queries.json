@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of adding platinum-based chemotherapy (carboplatin or cisplatin) to neoadjuvant (pre-operative) chemotherapy, compared with the same neoadjuvant chemotherapy without platinum, on disease-free survival in women with early-stage triple-negative breast cancer?\n\nEffect measure: pool as a hazard ratio (HR) using a fixed-effect inverse-variance model on the log hazard ratio (or random effects if fixed-effect is not available). HR < 1 means longer disease-free survival with platinum (favours platinum).\n\nOutcome: disease-free survival (also reported as event-free survival, relapse-free survival or invasive disease-free survival) as a hazard ratio with its 95% confidence interval, comparing the platinum arm with the control arm.\n- Use the hazard ratio and 95% confidence interval reported in the paper (convert the confidence interval to a standard error of the log HR). Do not rebuild a hazard ratio from event counts. If a paper reports only Kaplan-Meier curves and numbers at risk, leave the study out.\n- Platinum arm = the group that received carboplatin or cisplatin; control arm = the group that received the same regimen without platinum. Orient the HR as platinum versus control, and invert it (HR to 1/HR, with the interval swapped) if the paper reports control versus platinum.\n- Use the longest follow-up reported in the trial for disease-free survival. If a paper reports both a pathological complete response analysis and a later long-term analysis, use the long-term survival HR.\n- Trials with two platinum arms that share one control group (for example carboplatin alone and carboplatin plus another agent, each versus the same control): include each comparison separately against the control, and note that the control group is shared.\n- If a trial reports event-free survival that includes events such as progression before surgery and also a disease-free survival, prefer disease-free survival.\n- Include only randomised controlled trials in which neoadjuvant treatment is given before surgery. Exclude trials where platinum is given only after surgery (adjuvant), trials mixing neoadjuvant and adjuvant treatment, and trials without a platinum-free control arm.\n\nDo not pool pathological complete response, overall survival, toxicity or any outcome other than disease-free survival. Include only women with triple-negative breast cancer; exclude trials restricted to HER2-positive disease or to other cancers.",
+  "planned_search_queries": [
+    "triple-negative breast cancer neoadjuvant platinum randomized trial disease-free survival",
+    "TNBC carboplatin neoadjuvant controlled trial event-free survival",
+    "triple negative breast cancer cisplatin preoperative chemotherapy randomized survival"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "early-stage triple-negative breast cancer neoadjuvant carboplatin randomized trial disease-free survival",
+    "triple-negative breast cancer neoadjuvant cisplatin controlled trial disease-free survival",
+    "TNBC preoperative platinum chemotherapy randomized comparison event-free survival",
+    "triple-negative breast cancer neoadjuvant platinum trial relapse-free survival",
+    "early triple-negative breast cancer carboplatin neoadjuvant trial invasive disease-free survival"
+  ]
+}

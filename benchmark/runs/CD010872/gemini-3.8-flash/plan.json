@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of fibrin-based haemostatic agents compared with non-fibrin haemostatic agents or techniques on perioperative mortality in adults undergoing liver resection?",
+  "treatment_label": "Fibrin-based haemostatic agent",
+  "control_label": "Non-fibrin haemostatic agent or technique",
+  "outcome_description": "Number of participants who died from any cause during the perioperative period (in-hospital or within 30 to 90 days postoperatively) out of the total randomised participants (intention-to-treat denominator)",
+  "positive_direction": "A risk ratio greater than 1.0 (positive effect on log scale) indicates higher perioperative mortality with fibrin-based haemostatic agents compared to non-fibrin comparators",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "fibrin sealant liver resection randomized trial mortality",
+    "fibrin glue hepatic resection trial haemostasis comparison",
+    "fibrin patch liver surgery controlled trial mortality death"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials in adult patients undergoing liver resection",
+    "Comparison of a fibrin-based haemostatic agent (sealant, glue, patch, or coated collagen) with a non-fibrin haemostatic agent or standard surgical technique",
+    "Reporting of perioperative mortality (in-hospital or 30 to 90 days post-surgery) with number of events and arm sample sizes"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised controlled trial (systematic reviews, meta-analyses, observational studies, letters, and editorials excluded)",
+    "Comparison does not contrast a fibrin-based agent with a non-fibrin haemostatic comparator (e.g. fibrin vs no haemostat, or comparison between two fibrin agents)",
+    "No perioperative mortality data reported (studies omitting mortality reporting entirely are excluded, whereas trials explicitly reporting zero deaths are retained)",
+    "Study population does not involve adults undergoing liver (hepatic) resection"
+  ],
+  "moderators_to_extract": [
+    "Type of fibrin-based agent (sealant/liquid vs patch/matrix)",
+    "Type of comparator haemostatic technique (topical agent vs energy device vs standard surgical haemostasis)",
+    "Extent of liver resection (major vs minor resection)",
+    "Definition of perioperative mortality follow-up duration (in-hospital, 30 days, 90 days)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk ratio (RR) of perioperative mortality (events fibrin / total randomised fibrin vs events control / total randomised control) pooled with a random-effects model. Multi-arm trials with multiple non-fibrin comparator arms are combined into a single control group. Trials reporting zero events in one arm are included with continuity correction.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "perioperative mortality"
+}

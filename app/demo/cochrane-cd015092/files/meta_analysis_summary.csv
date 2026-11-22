@@ -1,0 +1,21 @@
+user_prompt,retrieved_count,screened_in_count,screened_out_count,eligible_count,included_count,overlap_with_original_count,overlap_with_original_pct
+"In adults living with obesity, what is the effect of semaglutide (any dose, subcutaneous or oral, given for at least six months), compared with placebo, on percentage body weight change from baseline at medium-term follow-up (6 to 24 months)?
+
+Effect measure: pool as a mean difference (MD) in percentage points using a random-effects model. MD < 0 means more weight loss with semaglutide (favours semaglutide).
+
+Outcome: percentage change in body weight from baseline, semaglutide versus placebo.
+- Percentage body weight change is often a primary endpoint but may also be reported as a secondary or exploratory outcome (for example in a trial whose primary outcome is albuminuria, heart failure symptoms, knee pain or fat distribution). Look for it in the results text, tables, figures and figure legends, and extract it wherever it is reported.
+- Accept any of these data formats, in this order of preference:
+  1. The estimated treatment difference (semaglutide minus placebo) in percentage points with its 95% CI. This is how most of these trials report the result (estimated treatment difference, ETD, from ANCOVA or a mixed model, often under the treatment-policy estimand with multiple imputation). Use it directly as the study's MD and derive its standard error from the 95% CI (SE = (upper - lower) / 3.92). Do not require arm-level SDs, an exact p-value or an F-statistic when the difference and its CI are reported.
+  2. Arm-level estimated means (including model-based or least-squares means) with their SE or 95% CI; convert SE to SD as SD = SE x sqrt(n).
+  3. Arm-level raw means with SDs.
+- P-values reported as thresholds (for example P < 0.001) are fine; they are not needed when the difference and its CI are available.
+- Numbers of participants: use the numbers analysed if stated; otherwise use the randomised numbers (full analysis set) for each arm. Treatment-policy analyses include all randomised participants, so randomised numbers are the correct denominators for them.
+- Use the assessment closest to the end of the medium-term window (6 to 24 months, for example week 44, 52, 68 or 104). Do not use off-treatment or extension periods after semaglutide was stopped.
+- Comparator must be placebo. If a trial also has another active arm (for example liraglutide or tirzepatide), use only the semaglutide and placebo arms.
+- Trials with several semaglutide doses: if the paper reports a combined semaglutide group, use it. Otherwise use the 2.4 mg weekly arm (or, if there is no 2.4 mg arm, the highest dose) versus placebo. Do not exclude a trial because doses are reported separately.
+- For randomised-withdrawal trials (all participants first receive semaglutide in a run-in, then are randomised to continue semaglutide or switch to placebo), use the difference from randomisation to the end of the randomised period.
+- Assign arms by treatment description, not by column position.
+- Include only randomised controlled trials in adults whose primary inclusion criterion is obesity (including those with comorbidities such as type 2 diabetes, heart failure, chronic kidney disease, knee osteoarthritis, prediabetes or HIV-associated lipohypertrophy). Exclude cluster or cross-over trials and trials where diabetes rather than obesity is the main inclusion criterion.
+
+Do not pool weight in kg, BMI, waist circumference, the proportion reaching 5% or 10% weight loss, adverse events, cardiovascular events, quality of life, mortality, blood pressure or any outcome other than percentage body weight change.",103,19,84,15,11,N/A (no gt_papers.csv provided),N/A

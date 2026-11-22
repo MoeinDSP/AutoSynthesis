@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:b89d22d4",
+    "paper_title": "d6fad218_1471-2318-11-8",
+    "design_classification": "randomized",
+    "design_rationale": "The treatment comparison (pravastatin 40 mg/day vs placebo for incident VTE) is nested within PROSPER, explicitly described as \"a randomized, double-blind, placebo-controlled trial\" in which 5804 men and women aged 70-82 \"were randomized to placebo or pravastatin (40 mg per day) treatment\"; the VTE analysis is a post hoc analysis of these randomized groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was randomized within a double-blind placebo-controlled trial and baseline characteristics by treatment group are provided (Additional file 1, Table S1), but this report gives no description of sequence generation or allocation concealment (deferred to prior PROSPER publications), and the analysed set excludes warfarin users, so some concerns remain.",
+        "evidence_quote": "\"Men and women aged 70-82 (n = 5804) with evidence of pre-existing vascular disease or at least one major risk factor for vascular disease were randomized to placebo or pravastatin (40 mg per day) treatment.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and investigators were blinded by the placebo-controlled double-blind design, but the analysis was not a full intention-to-treat analysis of all randomized participants (warfarin users excluded, no information on adherence, drop-in statin use or co-interventions over the 3.2-year follow-up).",
+        "evidence_quote": "\"analyses were carried out using cases and non-cases (n = 5627) not using warfarin at baseline, including 2834 patients allocated to pravastatin and 2865 to placebo\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "VTE was objectively confirmed where possible (imaging, death certificate) and adjudicated by consensus of clinicians within a double-blind trial, but blinding of the adjudicators to treatment allocation is not explicitly stated and the \"definite\"/\"probable\" case definitions were constructed post hoc rather than as pre-specified trial endpoints.",
+        "evidence_quote": "\"the full medical records were retrieved for all suspected VTE in the PROSPER database and examined by three clinicians in a pre-planned post hoc analysis... A consensus of two clinical opinions was required to confirm the event categorization.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome status was derived from retrospective retrieval of trial medical records and the authors concede that incomplete recorded data may have prevented identification of all VTE cases; additionally the haemostatic markers were measured only in a subset (nested case-control) \"due to limited resource\", with no analysis of the impact of these missing data.",
+        "evidence_quote": "\"This may have been due to a higher proportion of relatively healthy and active individuals volunteering to take part in a randomized controlled trial, the use of cancer at baseline as an exclusion criterion and insufficient recorded data to identify all cases.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no accessible pre-registered protocol or analysis plan for this post hoc VTE analysis, and multiple outcome definitions (definite vs combined definite+probable), multiple adjustments (crude, cancer-adjusted, cancer-free) and many candidate predictors with stepwise selection create scope for selective reporting, although the key treatment comparisons are reported consistently in both directions.",
+        "evidence_quote": "\"It is a post hoc analysis on a subgroup from the PROSPER study.\" / \"Trial Registration: Not applicable when study undertaken.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The pravastatin-vs-placebo comparison derives from a large double-blind randomized trial, but this is an unregistered post hoc analysis of a non-pre-specified outcome in a subgroup excluding warfarin users, with limited reporting of allocation concealment, no intention-to-treat framing, acknowledged incomplete case ascertainment, and flexible analytic choices (definite vs probable VTE, stepwise multivariable modelling). No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:3d0dafba",
+    "paper_title": "0ed8333e_nejmoa0810177",
+    "design_classification": "randomized",
+    "design_rationale": "The AURORA trial explicitly describes random allocation: \"Eligible patients were randomly assigned (in blocks of four in a 1:1 ratio) to receive either rosuvastatin, 10 mg daily, or matching placebo\" in an \"international, multicenter, randomized, double-blind, prospective trial.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Permuted-block 1:1 randomization in a double-blind placebo-controlled trial with extensive baseline tables showing closely matched groups (all P values non-significant), consistent with chance; allocation concealment is implied by the matching-placebo double-blind design even though the sequence-generation mechanism is not described in detail.",
+        "evidence_quote": "\"Eligible patients were randomly assigned (in blocks of four in a 1:1 ratio) to receive either rosuvastatin, 10 mg daily, or matching placebo.\" ... \"The two groups of patients were well matched with respect to baseline characteristics (age, sex, and race or ethnic group) and concomitant therapy, as well as mean duration of dialysis therapy at baseline\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and personnel were blinded and the primary analysis was intention-to-treat, but a very high proportion discontinued study medication (mean exposure only 2.4 of 3.2 years' follow-up) and there was statin \"drop-in\" in the placebo group, which could bias a null result toward no effect; the authors themselves acknowledge this may mask benefit.",
+        "evidence_quote": "\"Toward the end of the study, there was a trend toward a convergence of the lipid levels in the active-treatment and placebo groups, probably reflecting withdrawals from active therapy and 'drop-in' therapy with statins in the placebo group.\" ... \"It is possible that the withdrawal rate masks the potential benefit of statin therapy\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were essentially complete, with no losses to follow-up and all 2773 randomized patients included in the intention-to-treat analysis; discontinuation of drug did not entail loss of outcome ascertainment.",
+        "evidence_quote": "\"The mean length of follow-up was 3.2 years (maximum, 5.6). No patients were lost to followup.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Hard clinical endpoints (cardiovascular death, MI, stroke) were centrally adjudicated by a committee blinded to treatment assignment, applied identically in both groups; a minority of secondary events adjudicated by study-team physicians does not affect the primary endpoint.",
+        "evidence_quote": "\"All myocardial infarctions, strokes, and deaths were reviewed and adjudicated by a clinical end-point committee whose members were unaware of the randomized treatment assignments, in order to ensure consistency of the event diagnosis.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered (NCT00240331) with a published design/rationale paper, a predefined statistical analysis plan, prespecified primary/secondary endpoints and subgroups, independently verified analyses, and the few post hoc comparisons are explicitly flagged as not prespecified.",
+        "evidence_quote": "\"The sponsor collected the trial data and analyzed them according to a predefined statistical analysis plan. The analyses were verified by Dr. A.H. Zwinderman, an independent statistician\" ... \"This comparison was not part of the prespecified statistical analysis plan.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, well-conducted, registered, double-blind placebo-controlled trial had sound randomization, complete follow-up, blinded central endpoint adjudication, and prespecified ITT analyses (all low risk). Overall judgment is \"some concerns\" driven solely by D2: substantial discontinuation of study medication (mean exposure 2.4 years) plus statin drop-in in the placebo group caused convergence of LDL levels, which could attenuate a true treatment effect in this null trial."
+  },
+  {
+    "paper_id": "manual:3b3bafab",
+    "paper_title": "32ab95e6_nejmoa0900241",
+    "design_classification": "randomized",
+    "design_rationale": "JUPITER was an explicitly described randomized, double-blind, placebo-controlled multicenter trial: \"Potentially eligible subjects ... were randomly assigned in a 1:1 ratio to receive either rosuvastatin, 20 mg daily, or matching placebo,\" with 17,802 participants allocated between March 2003 and December 2006 (NCT00239681).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Participants were randomly assigned 1:1 after a placebo run-in in a double-blind, placebo-controlled design, and the extensive baseline table shows near-identical distributions of age, sex, race, BMI, waist circumference, smoking, metabolic syndrome, hsCRP and lipids across the two arms (n=8901 each), consistent with chance; allocation-concealment mechanics are only referenced to prior design papers but blinded matching placebo makes subversion implausible.",
+        "evidence_quote": "\"Potentially eligible subjects who remained willing to participate and demonstrated good compliance during a 4-week, placebo run-in phase were randomly assigned in a 1:1 ratio to receive either rosuvastatin, 20 mg daily, or matching placebo.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, site personnel and outcome assessors were blinded by use of a matching placebo (assignment revealed only at the closeout visit), and all venous thromboembolism analyses were performed on an intention-to-treat basis, so any non-adherence or co-intervention (e.g., anticoagulant initiation, which was protocol-monitored) is unlikely to have differed systematically by arm.",
+        "evidence_quote": "\"All analyses of venous thromboembolism were performed on an intention-to-treat basis\"; \"follow-up with respect to safety for the prespecified secondary end points ... continued in a blinded manner for each study participant until the date he or she appeared for a formal closeout visit\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 17,802 randomized participants were included in the time-to-event ITT analysis and the at-risk tables are balanced between arms, but the paper reports no explicit figures on withdrawals, loss to follow-up, or censoring reasons, and the trial's early termination plus variable follow-up (median 1.9 yr) means incomplete ascertainment of this rare event cannot be fully excluded.",
+        "evidence_quote": "\"During a median follow-up period of 1.9 years (maximum, 5.0), symptomatic venous thromboembolism occurred in 94 participants\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Symptomatic DVT/PE was ascertained identically in both blinded arms at protocol-scheduled visits with objective imaging confirmation required (ultrasonography/venography; angiography, CT or V/Q scan) plus corroborating evidence, and sensitivity analyses excluding the three uncorroborated cases gave nearly identical results; assessors were unaware of allocation.",
+        "evidence_quote": "\"the site investigator would complete a form indicating the source of confirmation of the event, including a venous ultrasonogram or venogram for confirmation of deep-vein thrombosis and an angiogram, computed tomographic scan, or ventilation\u2013perfusion scan for confirmation of pulmonary embolism.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "VTE was a protocol-specified secondary end point in a registered trial (NCT00239681) with a pre-defined primary efficacy window and both primary and safety analyses reported, which mitigates selective reporting; however, this is a substudy report featuring numerous tertiary end points, composite outcomes, NNT calculations and ~15 subgroup analyses without a publicly verifiable pre-specified analysis plan for these, and the trial was stopped early for benefit on the primary cardiovascular end point, which can inflate secondary-outcome effect estimates.",
+        "evidence_quote": "\"The occurrence of venous thromboembolism was a protocol-specified secondary end point of the trial.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, double-blind, placebo-controlled randomized trial has a sound randomization process, blinded ITT analysis, and objectively confirmed, identically assessed outcomes (D1, D2, D4 all low). Overall judgment of \"some concerns\" is driven by D3 and D5: incomplete reporting of attrition/censoring, truncation of follow-up after early stopping for cardiovascular benefit, and the fact that this is a secondary end-point substudy with many tertiary, composite and subgroup analyses whose pre-specification cannot be fully verified."
+  },
+  {
+    "paper_id": "manual:52c3005c",
+    "paper_title": "10984028_NEJMoa1600176",
+    "design_classification": "randomized",
+    "design_rationale": "The HOPE-3 trial explicitly describes random allocation of 12,705 participants to rosuvastatin 10 mg/day or placebo within a 2-by-2 factorial, double-blind, placebo-controlled design: \"we randomly assigned 12,705 participants in 21 countries... to receive rosuvastatin at a dose of 10 mg per day or placebo\" and \"We conducted this pragmatic, multicenter, long-term, international, double-blind, randomized, placebo-controlled trial at 228 centers in 21 countries.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Participants were explicitly randomly assigned in a double-blind, placebo-controlled factorial design, and the extensive baseline table (demographics, risk factors, lipids, blood pressure, medications, ethnicity) shows near-identical groups with no significant between-group differences, consistent with chance; although the exact sequence-generation and allocation-concealment mechanisms are described only in the companion methods paper, use of identical placebo and a central coordinating institute makes concealment highly plausible.",
+        "evidence_quote": "We conducted this pragmatic, multicenter, long-term, international, double-blind, randomized, placebo-controlled trial at 228 centers in 21 countries. ... There were no significant between-group differences."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind with matching placebo, so participants and carers were unaware of assignment; non-adherence (~24\u201326% permanent discontinuation in both arms) and statin drop-in (5.6% placebo vs 2.5% rosuvastatin at 5 years) were balanced or would bias toward the null, and an intention-to-treat analysis was used.",
+        "evidence_quote": "The analyses were performed with the use of an intention-to-treat approach. ... Rosuvastatin was permanently discontinued in fewer participants than was placebo (1510 [23.7%] vs. 1664 [26.2%], P=0.001)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Vital status was available for 99.1% of participants at trial end, so outcome data were essentially complete for the coprimary event outcomes; the only substantial missingness concerns lipid levels (measured by design in a 10\u201320% subsample), which is a mediator/secondary measure rather than the primary outcome.",
+        "evidence_quote": "At the end of the trial, vital status was available for 99.1% of the participants (12,587)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The coprimary outcomes are objective, hard clinical endpoints (cardiovascular death, MI, stroke) that were centrally adjudicated under double-blind conditions with identical follow-up schedules in both groups, minimising assessor influence.",
+        "evidence_quote": "All cardiovascular events and cases of new-onset diabetes were documented and adjudicated. ... Definitions of all events and the approach to safety reporting are described in the Supplementary Appendix."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT00468923) with prespecified coprimary outcomes, alpha-splitting and prespecified subgroups, but the secondary outcome was changed and a prespecified renal outcome was dropped in July 2015 without a protocol amendment (albeit before unblinding), and several reported analyses (recurrent events, coronary heart disease composite) were post hoc, while some prespecified outcomes (cognitive function, erectile dysfunction, additional subgroups) are not reported here.",
+        "evidence_quote": "This outcome was adopted by the steering committee in July 2015 without a protocol amendment before unblinding of the data on November 3, 2015. At the same time, a prespecified renal outcome was removed because of limitations of statistical power."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, double-blind, placebo-controlled randomized trial has low risk of bias for randomization, deviations from intended interventions (ITT analysis), missing data (99.1% vital status ascertainment), and outcome measurement (adjudicated hard clinical endpoints). The overall judgment of \"some concerns\" is driven solely by Domain 5: the secondary outcome was modified and a prespecified renal outcome dropped without a formal protocol amendment (though before unblinding), and several reported analyses were post hoc while some prespecified outcomes are not reported."
+  },
+  {
+    "paper_id": "manual:e9fcd3f0",
+    "paper_title": "8e400b8e_thoraxjnl-2015-208017",
+    "design_classification": "randomized",
+    "design_rationale": "This is a prospective long-term follow-up (ALTOS) of participants in the SAILS randomised, placebo-controlled trial, in which patients were explicitly \"randomised (stratified by hospital site) to receive either enteral rosuvastatin or placebo\"; outcomes are compared by randomised allocation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was randomised and stratified by hospital site in the parent SAILS trial with baseline characteristics generally similar, but the sequence-generation/concealment details are only referenced to the parent publication, and the follow-up subsets show some imbalance (e.g., performance subgroup BMI 35.5 vs 29.7 kg/m2; women 36% vs 56%).",
+        "evidence_quote": "\"Patients were randomised (stratified by hospital site) to receive either enteral rosuvastatin or placebo until the earliest of 3 days after ICU discharge, study day 28 or death.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The parent trial was placebo-controlled with blinding maintained, co-interventions were protocolised (fluid-conservative and lung-protective ventilation with similar fluid balances and tidal volumes), and analyses were by randomised assignment with sensitivity analyses including those who died.",
+        "evidence_quote": "\"These patients were managed with fluid conservative and lung-protective ventilation protocols, with similar average fluid balances and tidal volumes for both treatment groups.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Follow-up outcome data were obtained in 98% (6-month) and 93% (12-month) of eligible survivors, but only 272 of 568 randomised participants contributed outcomes (27% died, 25% met exclusion criteria), and the physical performance subset was very small (n=67 at 6 months), so although attrition reasons were similar across arms and sensitivity analyses (worst-value/worst-rank imputation) were performed, substantial non-availability of outcome data remains.",
+        "evidence_quote": "\"Of the 568 patient cohort, 154 (27%) died prior to discharge from hospital or after discharge before reconsent for follow-up, and 142 (25%) met exclusion criteria, leaving 272 patients consented for follow-up\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes used well-validated instruments (SF-36, EQ-5D, HADS, IES-R, 6 min walk) applied identically in both arms, and assessors were explicitly blinded to treatment allocation while patients were blinded by placebo control.",
+        "evidence_quote": "\"At 6-month and 12-month follow-up, research personnel, blinded to treatment allocation, completed study assessments via phone\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The study was registered (NCT00979121, NCT00719446) with pre-specified primary outcomes, an a priori written statistical analysis plan and a priori subgroup analyses, and the few post-hoc analyses (CRP quartiles, site clustering) are explicitly labelled as such with all primary and secondary results reported.",
+        "evidence_quote": "\"Analyses were performed using SAS V.9.3 ... according to an a priori written statistical analysis plan\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This blinded, prospective long-term follow-up of a placebo-controlled randomised trial had strong blinded outcome measurement, protocolised co-interventions and a pre-specified analysis plan, but only a minority of randomised patients (272 of 568, and just 67\u201384 for performance measures) contributed long-term outcome data and randomisation/allocation-concealment details rely on the parent trial report with some baseline imbalance in the performance subset. These missing-data and randomisation-reporting concerns, rather than any single serious flaw, drive an overall judgement of \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:d5d1dafc",
+    "paper_title": "3e55fe68_view",
+    "design_classification": "randomized",
+    "design_rationale": "INSPIRATION-S is explicitly described as a \"double-blind multicenter randomized trial\" with a 2\u00d72 factorial design in which 303 ICU patients were randomized to atorvastatin 20 mg and 302 to matching placebo (NCT04486508); this report presents prespecified 90-day outcomes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Randomization with restricted access to the allocation log and matching placebo implies adequate concealment, and baseline characteristics were comparable except a minor imbalance in smoking history (10.7% vs 3.4%) plausibly due to chance; full sequence-generation details are only in prior publications.",
+        "evidence_quote": "Details regarding the randomization procedure and timing have been reported previously... Access to the randomization log was restricted and permitted only on an emergency basis, as requested by the Data Safety and Monitoring Board."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blind placebo-controlled design with adherence monitoring; the primary analysis was a modified ITT cohort and sensitivity analyses including all randomized patients (N=605) and per-protocol (N=444) gave similar results.",
+        "evidence_quote": "Patients, investigators, and study physicians remained blinded to treatment assignment... All randomized patients who met the eligibility criteria, did not withdraw consent, and received at least one dose of the assigned treatment were included in the primary analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The main composite clinical outcome was near-complete (587/605 analyzed, with sensitivity analyses consistent), but the functional status and PHQ-2 outcomes had substantial and non-random missingness (only 423 of 605 for PCFS; only 234 survivors for PHQ-2) that could bias these secondary outcomes.",
+        "evidence_quote": "of the 605 enrolled patients, 524 were recruited after August 28, 2020, of whom 101 patients did not consent to be interviewed for the functional status assessment."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective (death, imaging-confirmed thrombosis, ECMO) and centrally adjudicated by a blinded clinical events committee; the subjective PCFS/PHQ-2 instruments were validated and collected under maintained participant/investigator blinding.",
+        "evidence_quote": "Efficacy and safety outcomes were adjudicated by a clinical events committee who remained blinded to treatment assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial is registered and the 90-day analysis prespecified, but functional outcomes were added to the protocol after enrollment began, there was no multiplicity adjustment, the trial was stopped early, and the emphasized positive findings derive from a subgroup (<7 days from symptom onset) the authors themselves label hypothesis-generating.",
+        "evidence_quote": "the decision to include functional outcomes in INSIPRATION-S was finalized by the steering committee on August 28, 2020, and thus patients recruited before this time point were not included in this sub-analysis... No adjustment for multiplicity of comparisons was prespecified."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled, centrally adjudicated randomized trial has low risk for randomization, deviations, and outcome measurement, but some concerns arise from substantial non-random missingness in the functional status/depression outcomes and from post hoc addition of functional outcomes, premature termination, and unadjusted subgroup/multiple analyses driving the favorable interpretations. Overall risk is therefore \"some concerns,\" with the null main 90-day composite result itself being reasonably robust."
+  }
+]

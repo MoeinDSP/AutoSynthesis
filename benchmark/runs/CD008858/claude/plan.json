@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults aged 50 years or older, what is the effect of the live attenuated Oka/Merck herpes zoster vaccine (Zostavax), compared with placebo, on the risk of experiencing one or more adverse events of any type during short-term post-vaccination safety follow-up?",
+  "treatment_label": "Live attenuated Oka/Merck herpes zoster vaccine (Zostavax), any batch/dose, single administration",
+  "control_label": "Placebo injection",
+  "outcome_description": "Number of participants reporting one or more adverse events of any type (injection-site or systemic, vaccine-related or not) during the short-term post-vaccination safety follow-up period as defined by each trial (e.g. days 0-28 or 0-42), out of the number randomised or vaccinated in each arm. Where adverse events were collected only in a designated safety substudy of a larger trial, the substudy event counts and denominators are used. Trials reporting multiple vaccine batches/doses are combined into a single vaccine group by summing events and participants. Percentages are converted to counts using the arm size to which they refer.",
+  "positive_direction": "A risk ratio greater than 1 means that a larger proportion of participants experienced one or more adverse events in the live zoster vaccine group than in the placebo group (i.e. more adverse events, worse tolerability, with the vaccine).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "live attenuated zoster vaccine Zostavax randomised placebo-controlled trial adverse events safety",
+    "Oka/Merck varicella zoster vaccine older adults trial safety tolerability injection-site reactions",
+    "herpes zoster vaccine placebo controlled trial adults 50 years or older adverse event rates"
+  ],
+  "inclusion_criteria": [
+    "Randomised trial comparing the live attenuated Oka/Merck herpes zoster vaccine (Zostavax) with a placebo injection in adults, broadly including adults aged 50 years or older (mixed-age samples acceptable if mostly older adults)",
+    "Reports quantitative post-vaccination safety data, including the number of participants with one or more adverse events of any type (or percentages convertible to counts) with an arm denominator",
+    "Any publication year, language, country, or trial size; includes safety substudies nested within larger efficacy trials"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, pooled post-hoc summaries, editorials, commentaries, opinion pieces, theoretical or modelling papers)",
+    "No comparison between a live zoster vaccine arm and a placebo arm (e.g. single-arm studies, observational surveillance, head-to-head comparisons of two vaccines, trials of the recombinant adjuvanted (non-live) zoster vaccine, or trials using a different vaccine or dosing schedule as comparator)",
+    "No quantitative outcome data from which an effect size can be computed (no events and totals, proportions, or convertible percentages for participants with one or more adverse events)",
+    "Completely unrelated to the research topic (not concerned with herpes zoster vaccination safety), or reports only efficacy against herpes zoster/post-herpetic neuralgia, immunogenicity, serious adverse events only, hospitalisations or death without any-adverse-event counts"
+  ],
+  "moderators_to_extract": [
+    "Mean or minimum age of enrolled participants (e.g. 50-59 vs 60+ vs 70+)",
+    "Length and definition of the safety follow-up window (e.g. 0-28 vs 0-42 days)",
+    "Method of adverse event ascertainment (diary card/report card vs investigator-reported)",
+    "Whether the data come from a dedicated safety substudy or the whole randomised trial",
+    "Vaccine potency/formulation (e.g. refrigerated vs frozen, PFU per dose) and number of doses combined",
+    "Sample size category and funding source (industry-sponsored vs independent)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio with a random-effects model (DerSimonian-Laird or REML, with Hartung-Knapp adjustment considered given few trials). Events = participants with \u22651 adverse event of any type; total = number randomised/vaccinated in each arm (prefer the randomised denominator even when the paper's percentages use a smaller complete-safety-data subset). Combine multiple vaccine batches/doses into one group; use safety-substudy counts and denominators when the outcome was only measured in the substudy. Heterogeneity assessed with I-squared and tau-squared; small-study effects not formally tested if fewer than 10 trials.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "one or more adverse events (any adverse event)"
+}

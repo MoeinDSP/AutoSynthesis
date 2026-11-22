@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with chronic kidney disease (stages 3-5, dialysis, or kidney transplant), does antioxidant therapy (vitamin E and other vitamins, N-acetylcysteine, selenium, and other antioxidant or Nrf2-activating agents such as bardoxolone methyl or pentoxifylline), compared with placebo, usual care or no treatment, reduce cardiovascular death?",
+  "treatment_label": "Antioxidant therapy (vitamin E/other vitamins, N-acetylcysteine, selenium, bardoxolone methyl, pentoxifylline or other antioxidant/Nrf2-activating agents)",
+  "control_label": "Placebo, usual care or no treatment",
+  "outcome_description": "Cardiovascular death: number of participants dying from cardiovascular causes (events) out of the number randomised or analysed in each arm (total), over the whole follow-up period. Use the cardiovascular-death component only; do not use composite cardiovascular endpoints, and do not substitute all-cause mortality. Fatal MI, fatal stroke and sudden death may be summed only if the paper itself defines these as cardiovascular death. For CKD subgroups of larger trials, use the CKD subgroup counts and denominators. In multi-arm trials, combine antioxidant arms/doses by summing events and participants against the placebo/usual-care arm. Studies not reporting cardiovascular death counts are excluded (no estimation).",
+  "positive_direction": "A favourable effect (RR &lt; 1) means fewer cardiovascular deaths in the antioxidant therapy group than in the placebo/usual-care/no-treatment group, i.e. antioxidant therapy reduces cardiovascular mortality in adults with CKD.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "antioxidant therapy chronic kidney disease randomized controlled trial cardiovascular mortality",
+    "vitamin E N-acetylcysteine selenium dialysis trial cardiovascular death",
+    "bardoxolone methyl pentoxifylline chronic kidney disease randomized trial mortality outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults with chronic kidney disease (stages 3-5, on dialysis, or kidney transplant recipients), including CKD subgroups of larger trials",
+    "Compares an antioxidant or Nrf2-activating agent (e.g. vitamin E or other vitamins, N-acetylcysteine, selenium, bardoxolone methyl, pentoxifylline, coenzyme Q10, other antioxidants) against placebo, usual care or no treatment",
+    "Reports some quantitative outcome data, including counts of deaths or cardiovascular events, from which an effect size for cardiovascular death can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, protocol or purely theoretical/mechanistic paper)",
+    "No comparison between an antioxidant treatment condition and a placebo/usual-care/no-treatment control condition (e.g. head-to-head comparison of one antioxidant against another antioxidant, or single-arm/observational design)",
+    "No quantitative outcome data that can produce an effect size (no event counts and denominators, means+SDs, t/F values, proportions or odds/risk ratios reported)",
+    "Completely unrelated to the research topic (e.g. participants without kidney disease, paediatric populations only, or no antioxidant intervention)"
+  ],
+  "moderators_to_extract": [
+    "Type of antioxidant agent (vitamin E/vitamins, N-acetylcysteine, selenium, bardoxolone methyl, pentoxifylline, other)",
+    "CKD population (CKD stage 3-5 not on dialysis, haemodialysis/peritoneal dialysis, kidney transplant)",
+    "Follow-up duration",
+    "Sample size category",
+    "Risk of bias / blinding and placebo control",
+    "Publication year"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool dichotomous cardiovascular-death data as risk ratios with a random-effects model (DerSimonian-Laird or REML, Mantel-Haenszel weighting acceptable). RR < 1 favours antioxidants. Handle zero-event arms with standard continuity correction or Peto/Mantel-Haenszel methods without correction where appropriate; trials with zero events in both arms contribute no information. Only cardiovascular-death counts are pooled - all-cause mortality, non-fatal cardiovascular events, composite endpoints, inflammatory/oxidative-stress markers, kidney function outcomes and adverse events are not analysed.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cardiovascular death"
+}

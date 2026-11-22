@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of bupropion, compared with placebo or no bupropion, on smoking cessation at the longest follow-up (6 months or more)?",
+  "treatment_label": "Bupropion",
+  "control_label": "Placebo or no bupropion",
+  "outcome_description": "Smoking cessation (abstinence rate) measured at the longest follow-up of at least 6 months.",
+  "positive_direction": "A positive effect (RR > 1) indicates a higher smoking cessation rate favoring the bupropion group over control.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "bupropion smoking cessation randomized trial",
+    "bupropion placebo tobacco abstinence controlled trial",
+    "bupropion cigarette smoking quit rate outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomized or controlled clinical trials evaluating bupropion for tobacco smoking cessation compared to placebo or no-treatment control.",
+    "Measurement and reporting of smoking cessation or abstinence rates at 6 months or longer follow-up.",
+    "Reporting of quantitative dichotomous cessation outcomes (number of quitters and total randomized per arm)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded).",
+    "No comparison between bupropion and a placebo or no-bupropion control arm (e.g., trials solely comparing NRT to varenicline without a bupropion vs control comparison).",
+    "No quantitative smoking cessation outcome data or follow-up duration strictly under 6 months.",
+    "Completely unrelated to bupropion and tobacco smoking cessation."
+  ],
+  "moderators_to_extract": [
+    "Follow-up duration (e.g., 6 months vs. 12 months or longer)",
+    "Bupropion dosage and regimen (e.g., 150 mg/day vs. 300 mg/day)",
+    "Biochemical verification of smoking abstinence (biochemically validated vs. self-reported only)",
+    "Level of concurrent behavioral counseling/support (minimal vs. intensive)",
+    "Participant clinical population (general population smokers vs. psychiatric/medical comorbid populations)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Risk Ratio (RR) is pooled using intention-to-treat (ITT) analysis where participants randomized are the denominator and participants lost to follow-up are classified as continuing smokers (non-quitters).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "smoking cessation"
+}

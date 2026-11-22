@@ -1,0 +1,38 @@
+{
+  "research_question": "In children in low- and middle-income countries, what is the effect of mobile phone reminders (SMS text messages and/or phone calls, including automated voice calls) sent to parents/caregivers, compared with routine immunisation care without reminders, on receipt of the third dose of DTP-containing vaccine (DTP3 / pentavalent-3)?",
+  "treatment_label": "Mobile phone reminders to parents/caregivers (SMS text messages and/or phone calls, including automated voice calls) plus routine immunisation care",
+  "control_label": "Routine immunisation care without reminders (no-reminder control)",
+  "outcome_description": "Number of children who received/completed the third dose of DTP-containing vaccine (DTP3 / DPT3 / pentavalent-3 / Penta-3) out of the number randomised/enrolled in each arm, at the study's main follow-up assessment for that dose (e.g. by 14 weeks, 18 weeks, 6 months or 12 months of age). Extract crude (unadjusted) event counts per arm using intention-to-treat denominators (all randomised/enrolled participants); if only percentages are reported, convert to counts using the number randomised in that arm. Do not use adjusted odds ratios, logistic-regression or cluster-adjusted (GEE) estimates when raw counts are available, and do not convert an odds ratio into the result. Where a trial reports the three pentavalent doses separately, use only the third dose (or 'completed all 3 doses'). Prefer overall receipt of DTP3 over 'timely receipt within 1 week of due date' or 'received without delay'. In multi-arm trials, use the reminder-only arm (SMS/phone call alone) versus the no-reminder routine-care arm, ignoring arms combining reminders with monetary or other incentives, education-only arms, and other co-interventions.",
+  "positive_direction": "A positive effect (RR greater than 1, equivalently a positive Hedges g on the underlying scale) means MORE children received the third dose of DTP-containing vaccine (DTP3/Penta-3) in the mobile phone reminder arm than in the routine-care no-reminder arm \u2014 i.e. reminders improved DTP3 coverage.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "SMS reminder childhood immunisation randomised controlled trial low-income country",
+    "mobile phone text message reminder vaccination coverage pentavalent third dose trial",
+    "automated voice call reminder caregivers DTP3 immunization uptake effect"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial (individual or cluster randomised) conducted in a low- or middle-income country setting",
+    "Intervention includes mobile phone reminders (SMS text messages, phone calls, or automated voice calls) sent to parents or caregivers about childhood immunisation, compared with routine care without reminders",
+    "Reports quantitative data on receipt of the third dose of DTP-containing vaccine (DTP3/DPT3/pentavalent-3/Penta-3), as event counts or percentages with arm denominators"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a reminder intervention arm and a no-reminder control/routine-care arm, or non-randomised design (quasi-experimental, observational, controlled before-after, interrupted time series)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts, percentages with denominators, proportions, or odds/risk ratios)",
+    "Completely unrelated to the research topic (e.g. no mobile phone reminder intervention, no childhood immunisation outcome, or only non-DTP3 outcomes such as measles, BCG, OPV, yellow fever, 'fully immunised', timeliness/delay, or cost outcomes)"
+  ],
+  "moderators_to_extract": [
+    "Reminder modality (SMS only, phone/voice call only, or combined)",
+    "Randomisation unit (individual vs cluster randomised)",
+    "Country / World Bank income group (low-income vs lower-middle vs upper-middle)",
+    "Setting (urban, rural, mixed) and recruitment site (facility vs community)",
+    "Number/intensity of reminders per participant",
+    "Sample size category and baseline DTP3 coverage in the control arm"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as a risk ratio (RR) with a random-effects model (DerSimonian-Laird or REML, with Hartung-Knapp adjustment considered given the likely small number of trials). Use crude event counts per arm with intention-to-treat denominators; convert reported percentages to counts using the randomised arm totals. For cluster-randomised trials, prefer crude counts as reported; note design effects/ICCs qualitatively in sensitivity analysis rather than substituting cluster-adjusted GEE estimates. Assess heterogeneity with I-squared and tau-squared, and publication bias with a funnel plot/Egger test if 10 or more trials are available.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "receipt of third dose of DTP-containing vaccine (DTP3/Penta-3)"
+}

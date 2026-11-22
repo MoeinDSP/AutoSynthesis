@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with early-stage oral cavity (including oral tongue) squamous cell carcinoma and a clinically node-negative neck, what is the effect of elective immediate prophylactic neck dissection, compared with therapeutic delayed neck dissection after watchful waiting until nodal relapse, on disease-free survival?",
+  "treatment_label": "Elective (immediate, prophylactic) neck dissection performed at the time of primary tumour surgery",
+  "control_label": "Therapeutic (delayed) neck dissection after watchful waiting, performed only if nodal disease appears",
+  "outcome_description": "Disease-free survival, including synonymous event-free, relapse-free, or recurrence-free survival, defined as time to new disease, recurrence, disease progression, or death from any cause. Extract the hazard ratio and 95% confidence interval for elective versus therapeutic neck dissection, preferring intention-to-treat estimates and the longest available follow-up. Do not substitute overall survival/death-only hazard ratios or pool locoregional recurrence, recurrence proportions, adverse events, or quality of life.",
+  "positive_direction": "For standardized coding, a positive effect means longer disease-free survival and therefore a result favoring elective neck dissection; for the requested hazard-ratio analysis specifically, HR below 1 favors elective neck dissection.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "oral cavity squamous cell carcinoma elective therapeutic neck dissection randomized trial disease-free survival",
+    "oral tongue cancer prophylactic neck dissection watchful waiting controlled trial event-free survival",
+    "clinically node-negative oral cancer immediate delayed neck dissection randomized recurrence-free survival"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling adults with early-stage oral cavity, including oral tongue, squamous cell carcinoma and a clinically node-negative neck, comparing elective with therapeutic neck dissection.",
+    "Treatment arms correspond to elective neck dissection at primary tumour surgery versus observation with neck dissection only after clinically apparent nodal relapse.",
+    "Reports disease-free, event-free, relapse-free, or recurrence-free survival and provides a hazard ratio with uncertainty, or sufficient log-rank information to derive a hazard ratio and variance using accepted indirect methods."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and narrative reviews.",
+    "No comparison between an elective neck-dissection treatment condition and a therapeutic/watchful-waiting control condition; also exclude single-arm studies, non-randomized comparisons, and trials evaluating radiotherapy or sentinel-node biopsy only.",
+    "No quantitative disease-free-survival data capable of producing the requested effect size: no HR with 95% CI and no usable log-rank observed-minus-expected information, variance, or arm-level event counts together with a log-rank p-value; means and SDs, t/F statistics, proportions, or odds ratios alone are not adequate for this time-to-event outcome.",
+    "Completely unrelated to early-stage oral cavity/oral tongue squamous cell carcinoma with a clinically node-negative neck, or reports only overall survival/death, locoregional recurrence, recurrence rates, adverse events, or quality of life without eligible disease-free-survival information."
+  ],
+  "moderators_to_extract": [
+    "Oral cavity subsite, including oral tongue versus other oral cavity sites",
+    "Tumour stage and T-stage eligibility distribution",
+    "Extent and type of elective neck dissection",
+    "Disease-free-survival definition and event components",
+    "Length of follow-up",
+    "HR source and analysis method: directly reported versus Peto O-E/V versus Parmar indirect estimation, and intention-to-treat versus other analysis"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool hazard ratios using a random-effects model on log(HR), with 95% confidence intervals. Orient every estimate as elective versus therapeutic neck dissection; if reported in the reverse direction, use HR_new=1/HR_original and swap/invert the confidence limits. HR<1 indicates lower event hazard and longer disease-free survival with elective dissection. Prefer the paper's intention-to-treat HR and the longest follow-up. Convert a reported 95% CI to SE[log(HR)] as (ln upper CI - ln lower CI)/(2*1.96). If no DFS HR is reported, derive log(HR) and its variance only from adequate log-rank information using standard indirect methods: Peto O-E/V when observed-minus-expected and variance are available, or Parmar methods when arm-level events plus a log-rank p-value are available; record the method used. Exclude a study from this outcome if neither a DFS HR nor sufficient log-rank statistics are available. Do not use an overall-survival or death-only HR as a proxy.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "disease-free survival"
+}

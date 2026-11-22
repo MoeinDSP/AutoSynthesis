@@ -1,0 +1,39 @@
+{
+  "research_question": "What is the effect of indicated suicide-prevention interventions (targeting young people up to age 25 who already show early signs or symptoms of risk, such as current suicidal ideation or a history of self-harm), compared with control conditions, on suicidal ideation measured immediately at the end of the intervention (postintervention), in education settings (schools, colleges, universities)?",
+  "treatment_label": "Indicated intervention for young people already showing signs/symptoms of suicide risk, delivered in an education setting",
+  "control_label": "Control condition (no intervention, waitlist, treatment-as-usual, attention/active control, or usual school curriculum)",
+  "outcome_description": "Suicidal ideation severity/frequency measured immediately at the end of the intervention (postintervention assessment only), using validated self-report or interview measures such as the Suicidal Ideation Questionnaire (SIQ/SIQ-JR), Beck Scale for Suicide Ideation (BSS/BSSI), Columbia-Suicide Severity Rating Scale ideation items, Positive and Negative Suicide Ideation Inventory, Suicidal Behaviors Questionnaire ideation items, or suicidal-ideation subscales/items of broader instruments (e.g. CES-D item, Youth Risk Behavior Survey ideation item). Short-term (1-3 month), medium-term (4-12 month), and longest-follow-up assessments are NOT part of this outcome. Multi-arm trials contribute one row per indicated-intervention arm against the shared control group. Where only a total N is reported for a randomized trial, an even 50/50 split across groups is assumed and the assumption is noted.",
+  "positive_direction": "A positive Hedges g / SMD means the indicated intervention produced a GREATER REDUCTION in suicidal ideation at postintervention than the control condition (i.e. lower ideation scores in the intervention group = better outcome).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "indicated suicide prevention intervention school adolescents suicidal ideation randomized trial",
+    "school-based intervention suicidal ideation self-harm students controlled trial outcome",
+    "university college students at risk suicidal ideation intervention effect postintervention",
+    "youth suicidal ideation targeted intervention education setting quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Participants are young people up to approximately age 25 who already show early signs or symptoms of suicide risk (e.g. current or recent suicidal ideation, prior suicide attempt, self-harm history, elevated screening scores), i.e. an indicated-prevention sample",
+    "Evaluates an intervention delivered in or through an education setting (school, alternative school, college, university, or education-linked service) and compares it with some form of control or comparison condition",
+    "Reports any quantitative suicidal ideation outcome assessed at or near the immediate end of the intervention (postintervention), in a form that allows an effect size to be computed (means and SDs, t/F, proportions, odds ratios, or change scores)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, opinion pieces, protocols, qualitative-only and purely theoretical papers)",
+    "No comparison between an indicated intervention condition and a control/comparison condition (e.g. single-arm pre-post studies with no control group)",
+    "No quantitative suicidal ideation outcome data from which an effect size can be derived (no means+SDs, t/F values, proportions, or odds ratios reported or obtainable)",
+    "Completely unrelated to the research topic (e.g. adult-only clinical samples, purely universal or selective prevention with no symptomatic subgroup, non-education settings only, or outcomes containing no suicidal ideation measure)"
+  ],
+  "moderators_to_extract": [
+    "Education setting type (primary/secondary school vs college/university)",
+    "Intervention modality (CBT/DBT-based, psychoeducation, skills training, gatekeeper/counselling, digital/online)",
+    "Control condition type (waitlist/no treatment vs active or treatment-as-usual)",
+    "Mean participant age and age band",
+    "Risk-indicator used for inclusion (current ideation vs self-harm/attempt history vs screening score)",
+    "Sample size category and study design (RCT vs quasi-experimental)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardized mean difference (SMD, Hedges g bias-corrected), as requested. Sign effect sizes so that a positive value favours the indicated intervention (lower suicidal ideation). Only the postintervention assessment contributes; later follow-ups are excluded from this outcome. Multi-arm trials: each indicated-intervention arm is entered as a separate row against the shared control group (the shared control n may be split or variance-adjusted at analysis to avoid double-counting). For randomized trials reporting only a total N, assume an even 50/50 group split and flag the assumption in the extraction notes.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "suicidal ideation (postintervention)"
+}

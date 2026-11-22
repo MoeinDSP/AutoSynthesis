@@ -1,0 +1,140 @@
+[
+  {
+    "paper_id": "manual:eef4bbdb",
+    "paper_title": "af7a1b22_1-s2.0-S1976131708600389-main",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to experimental or control groups using a coin flip.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was genuinely random and measured baselines were similar, but the paper does not describe concealment of the coin-flip result until enrollment and assignment.",
+        "evidence_quote": "The 65 participants were randomly assigned to either the experimental or the control group by flipping a coin."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew whether mothers received education, contamination within the single school could not be excluded, adherence was not reported, and no explicit intention-to-treat analysis was described, although all 65 randomized participants appear in the analysis.",
+        "evidence_quote": "Lastly, mothers in the experimental group were instructed not to share the interventions that they had received with counterparts in the control group until the study was completed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Post-test analyses retain the full randomized group sizes of 32 and 33, with no reported attrition, indicating outcome data were available for nearly all participants.",
+        "evidence_quote": "There were 32 subjects in the experimental group and 33 subjects in the control group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The same trained assistants and repeated standardized measurements were used across groups, and investigators providing the intervention did not evaluate outcomes, but assessor blinding to allocation was not explicitly reported and the self-control outcome was self-reported by participants aware of assignment.",
+        "evidence_quote": "First, the investigators in this study served as intervention providers but did not serve as evaluators of the program."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "All four prespecified outcomes described in the methods were reported using the stated ANCOVA approach, but no preregistration or prespecified analysis plan was reported, leaving possible flexibility in outcome measurement and analysis.",
+        "evidence_quote": "Four outcomes (self-control, obesity index, abdominal circumference, and body fat percentage) were measured before and after the intervention."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns. The study used an explicitly random coin-flip sequence and appears to have complete outcome data, but allocation concealment, participant/assessor blinding, adherence and intention-to-treat procedures, contamination control, and prospective analysis specification were incompletely reported."
+  },
+  {
+    "paper_id": "manual:f506dad7",
+    "paper_title": "0d06e377_nihms682007",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports computer-generated simple randomization using a permuted-block algorithm, stratified by primary-care site, to assign adolescents to stepped-down care or enhanced usual care.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated with stratified permuted blocks and baseline characteristics were reportedly balanced, but allocation concealment until assignment was not described.",
+        "evidence_quote": "Simple randomization to study arm was determined by a computer using a permutated block algorithm and was stratified within the primary care provider site."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers necessarily knew the behavioral treatment assignment, adherence to the intended stepped-down pathway was limited, and the available-case mixed-model analysis was labeled intention-to-treat but did not clearly include all randomized participants under a robust missing-data strategy.",
+        "evidence_quote": "Intent-to-treat analyses were conducted using available data and assuming data were missing at random."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "At least seven intervention participants dropped out and the exact outcome-completion rate by arm is not reported in the text, while analyses rely on an unverified missing-at-random assumption.",
+        "evidence_quote": "13% (n = 7, 4 boys, 3 girls) dropped from the study while in step 1."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "BMI and other anthropometric outcomes were measured objectively with calibrated or standardized equipment and consistently scheduled assessments, making influence from knowledge of assignment unlikely.",
+        "evidence_quote": "Height (without shoes) was measured using a stadiometer and weight was measured using a calibrated digital scale while the participant was wearing light clothing."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No preregistration or prespecified analysis plan is reported, numerous outcomes and operationalizations were analyzed, and the prominent efficacy finding arose from sex-stratified analyses justified only by prior research rather than an explicitly stated prospective plan, creating substantial scope for selective reporting.",
+        "evidence_quote": "Analyses were stratified by sex given previous research findings."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because there is substantial risk of selective reporting across multiple outcomes and sex-stratified analyses without reported preregistration or a prespecified analysis plan. Additional concerns arise from unreported allocation concealment, lack of blinding inherent to the behavioral intervention, and incompletely characterized missing outcome data."
+  },
+  {
+    "paper_id": "manual:6f05589b",
+    "paper_title": "8339ef0a_pone.0125673",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized to three groups using a computer-generated sequence with variable blocks of six.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated, but concealment from the paediatrician who assigned interventions was not described, and statistically significant baseline differences in blood pressure and BMI raise some concern despite reported demographic similarity.",
+        "evidence_quote": "To ensure balanced allocation, the randomization sequence was computer-generated in variable blocks of six. A paediatrician assigned subjects to interventions according to the randomization assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their behavioral intervention, adherence was incomplete, and the report does not explicitly state that analyses followed intention-to-treat, although all 48 randomized eligible participants appear to have been followed and analyzed in their assigned groups.",
+        "evidence_quote": "All subjects logged in to the system but only 14 out of 16 subjects read the curriculum (87.5%)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome visits were completed by all 16 participants in each randomized group, indicating essentially complete outcome data through week 24.",
+        "evidence_quote": "All 16 recruited subjects completed visits at baseline (T0), mid-point (T12) and at the end of study (T24)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary feasibility outcome relied substantially on intervention-specific engagement and self-reported satisfaction measures that could not be assessed identically across groups and were susceptible to participants' knowledge of assignment; the authors also acknowledge possible lack of reliability and validity.",
+        "evidence_quote": "It is also possible that the self-report measures used to determine feasibility of the interventions and subject satisfaction could lack reliability and validity."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A protocol and trial registration are cited, but the report includes numerous secondary outcomes and repeated/post hoc analyses, and the provided text does not establish that outcomes and analyses were prespecified before unblinded data review.",
+        "evidence_quote": "The protocol for this trial and supporting CONSORT checklist are available as supporting information; see S1 CONSORT Checklist and S1 Protocol."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by high risk in measurement of the primary feasibility outcome because intervention-specific engagement and unblinded self-reported satisfaction were central and may lack reliability or validity. Additional concerns involve allocation concealment and baseline imbalances, incomplete intervention adherence without an explicit intention-to-treat statement, and possible analytical/reporting flexibility."
+  }
+]

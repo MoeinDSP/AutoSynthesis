@@ -1,0 +1,370 @@
+[
+  {
+    "paper_id": "manual:f1be49fa",
+    "paper_title": "cc875dad_41591_2022_Article_1977",
+    "design_classification": "randomized",
+    "design_rationale": "EMPOWER-Lung 3 part two is an explicitly randomized (2:1), double-blind, placebo-controlled phase 3 trial: \"Patients were randomly assigned 2:1 via an interactive web response system and stratified by histology and PD-L1 expression\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central randomization via an interactive web response system with stratification by histology and PD-L1 level ensured concealed allocation, and baseline characteristics were well balanced (minor imbalances in sex, ECOG PS 0 and brain metastases consistent with chance).",
+        "evidence_quote": "\"Randomization (2:1) was performed according to a central randomization scheme provided by an interactive web response system manual. Randomization was stratified by histology (non-squamous versus squamous) and levels of programmed cell death-ligand 1 (PD-L1) expression.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, investigators and site staff (except an unblinded pharmacist) were blinded to assignment, and all efficacy endpoints were analyzed in the intention-to-treat population of all randomized patients.",
+        "evidence_quote": "\"Patients, the principal investigators and study site personnel (apart from the unblinded investigative site pharmacist) remained blinded to all randomization assignments throughout the study.\" ... \"All efficacy endpoints were assessed in the intention-to-treat population.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "OS was available for all randomized patients with no data exclusions, but the trial was stopped early at an interim analysis with immature follow-up (median ~16 months, OS medians not evaluable in some arms/subgroups) and response was non-evaluable in 9.6\u201313.0% of patients, and PRO analyses depend on repeated measures subject to dropout.",
+        "evidence_quote": "\"NE | 30 (9.6) | 20 (13.0)\" ; \"There were no data exclusions\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome (OS) is objective, and PFS/ORR were determined by a blinded independent review committee using RECIST 1.1 with identical assessment schedules in both arms.",
+        "evidence_quote": "\"A blinded independent review committee, independent of the sponsor and the study investigators, reviewed all tumor assessments to determine tumor response per RECIST 1.1.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was pre-registered (NCT03409614) with protocol/SAP available and hierarchical testing, but protocol amendments changed PFS from a primary to a key secondary endpoint and added an interim analysis, and the sponsor-employed statisticians stopped the trial early at that interim analysis, which can inflate treatment-effect estimates.",
+        "evidence_quote": "\"Major protocol amendments ... included updating PFS to be a key secondary endpoint instead of being a primary endpoint; adding an interim analysis at 50% OS events in addition to the planned interim analysis at 70% OS events\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation, blinding and outcome measurement were robustly handled (central stratified randomization, double-blind design, blinded independent central review, ITT analysis), but the trial was terminated early at an interim analysis with immature follow-up and underwent protocol amendments to endpoints/analysis timing, raising some concerns about missing/immature outcome data and selective reporting of the result."
+  },
+  {
+    "paper_id": "manual:38e6794c",
+    "paper_title": "aff3e2cd_j.jtho.2020.11.025",
+    "design_classification": "randomized",
+    "design_rationale": "The article is explicitly identified as a randomized phase III trial (IMpower132) comparing atezolizumab plus chemotherapy with chemotherapy alone in first-line non-squamous NSCLC.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The trial is described as randomized phase III (industry-sponsored registrational trial, likely with interactive web-based allocation and stratification), but the available text (cover page/pre-proof front matter) provides no details on sequence generation, allocation concealment, or baseline comparability.",
+        "evidence_quote": "Results From the Randomized Phase III IMpower132 Trial"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label (no placebo indicated), so patients and clinicians knew assignment, which can affect subsequent care and crossover to immunotherapy; no information on intention-to-treat analysis or protocol deviations is available in the provided text.",
+        "evidence_quote": "Atezolizumab Plus Chemotherapy for First-Line Treatment of Non-Squamous Non-Small Cell Lung Cancer"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No data on follow-up completeness, censoring, or attrition are reported in the available pre-proof front matter, although phase III oncology trials typically report outcomes for nearly all randomized patients.",
+        "evidence_quote": "This is a PDF file of an article that has undergone enhancements after acceptance"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Co-primary endpoints of progression-free survival and overall survival are objective, but PFS assessment by unblinded investigators in an open-label design could introduce measurement bias, and no details on blinded independent review are provided.",
+        "evidence_quote": null
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "As a registrational phase III trial it was almost certainly pre-registered with a pre-specified statistical analysis plan, but the available text does not present the registration number, protocol, or endpoint hierarchy to verify that reported results match pre-specified analyses.",
+        "evidence_quote": "Results From the Randomized Phase III IMpower132 Trial"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Only the pre-proof cover page/front matter is available, so although this is a large randomized phase III registrational trial, no methodological details (allocation concealment, blinding, attrition, analysis plan) can be verified; the open-label design adds concern for performance and outcome-assessment bias for PFS. All domains were rated 'some concerns', yielding an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:3bc43cc1",
+    "paper_title": "6fb95c89_jco-41-651",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a multicenter, randomized, double-blind, placebo-controlled phase III trial with 2:1 random allocation generated by permuted block randomization maintained by an independent unblinded statistician from a third-party vendor (NCT03856411).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A permuted-block sequence stratified by PD-L1 status, histology and smoking status was generated and concealed by an independent third-party statistician, and baseline demographic/disease characteristics were generally balanced across the 2:1 arms (Table 1).",
+        "evidence_quote": "\"A permuted block was used to generate the randomization allocation sequence... Random allocation sequences for patients and investigational drugs were generated and maintained by an independent unblinded statistician from a third-party vendor. All other personnel involved in the study were blinded.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blind placebo-controlled design kept patients and investigators blinded during treatment and an ITT analysis was used; the protocol-permitted crossover and high rate of subsequent anti-PD-1/L1 therapy in the placebo arm (65.4%) occurred only after progression and would bias OS conservatively (toward the null), not away from it.",
+        "evidence_quote": "\"Efficacy was analyzed among the intention-to-treat (ITT) population, which included all randomly assigned patients.\" / \"At investigator-determined progressive disease, patients were unblinded and patients from the placebo arm were allowed to crossover to toripalimab monotherapy.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 465 randomized patients were included in the ITT efficacy analysis with a CONSORT diagram accounting for disposition, and time-to-event outcomes were analyzed with censoring; only one patient was excluded from the safety set for not receiving treatment.",
+        "evidence_quote": "\"Efficacy was analyzed among the intention-to-treat (ITT) population, which included all randomly assigned patients... One randomly assigned patient was excluded from the safety population as the patient did not receive any study treatment.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome (investigator-assessed PFS) is somewhat subjective, but assessors were blinded to allocation, imaging schedules and modalities were identical across arms, and results were corroborated by blinded independent central review and by the objective OS endpoint.",
+        "evidence_quote": "\"Clinical response was assessed by investigators and a blinded independent central review (BICR) according to the RECIST v1.1 criteria.\" / \"The BICR-determined PFS was consistent with the investigator-determined result\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary PFS/OS endpoints were prespecified with a registered protocol, SAP, hierarchical testing and alpha-spending boundaries (low risk), but the prominently reported biomarker/subgroup findings (TMB, FA-PI3K-Akt, IL-7, SWI/SNF) arise from numerous unadjusted, exploratory multiplicity-prone analyses selected post hoc on nominal significance.",
+        "evidence_quote": "\"All P values were two-sided with no adjustment of multiplicity.\" / \"Gene set/pathway enrichment analysis was performed on genes whose alterations are significantly interacting with toripalimab treatment by univariate analysis with nominal P \u2264 .05\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, registered, double-blind placebo-controlled phase III trial has low risk of bias across randomization, intervention adherence/ITT analysis, missing data, and outcome measurement (blinded investigator plus corroborating BICR assessment). Overall judgment is \"some concerns\" driven solely by D5, because the headline biomarker and subgroup results (TMB, FA-PI3K-Akt pathway, IL-7, SWI/SNF) come from exploratory, multiplicity-unadjusted analyses selected on nominal significance, even though the primary PFS/OS results themselves were prespecified."
+  },
+  {
+    "paper_id": "manual:1138698d",
+    "paper_title": "f8bdcb6f_jco-41-1213",
+    "design_classification": "randomized",
+    "design_rationale": "POSEIDON is explicitly described as a \"phase III, global, randomized, open-label study with a three-arm design\" in which \"Patients (n = 1,013) with EGFR/ALK wild-type mNSCLC were randomly assigned (1:1:1)\" with stratification by PD-L1 expression, disease stage, and histology.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Stratified 1:1:1 random assignment across 142 sites is reported and baseline characteristics were broadly balanced, but the sequence generation method and allocation concealment mechanism are not described in the article, and some prognostic imbalances exist (e.g., CNS metastases 9.8%/8.3% vs 13.4%, liver metastases 20.4%/18.3% vs 23.7%, never-smokers 17.5% vs 23.4% favoring experimental arms).",
+        "evidence_quote": "\"Patients were randomly assigned (1:1:1) with stratification by PD-L1 expression ($ 50% v, 50% of TCs), disease stage (IVA v IVB ...), and histology (squamous v nonsquamous)\" ... \"Baseline demographics were generally balanced between the treatment arms\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and investigators were unblinded, co-interventions differed across arms (less maintenance pemetrexed in the control arm, and markedly more subsequent immunotherapy in the CT arm, 33.2% v 6.5%, which can attenuate the OS comparison), although an appropriate intention-to-treat analysis of all randomly assigned patients was used and chemotherapy backbones were otherwise balanced.",
+        "evidence_quote": "\"The open-label design means that patient withdrawals and attribution of causality for AEs may have been affected by open-label bias, although the RECIST-related end points assessed by BICR and OS should not have been.\" ... \"fewer patients went on to receive maintenance pemetrexed in the CT versus T + D + CT and D + CT arms (131 [64.2%] v 149 [75.3%] and 159 [80.3%])\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 1,013 randomized patients were included in the ITT efficacy analyses with high event maturity for both PFS (75.7%) and OS (81.3%), and a CONSORT diagram accounts for patient flow, so missingness is unlikely to bias the time-to-event results.",
+        "evidence_quote": "\"Efficacy data were analyzed in all randomly assigned patients (intention-to-treat [ITT] population).\" ... \"Five hundred forty-nine of 675 patients died across the D + CT and CT arms (81.3% maturity).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "OS is an objective outcome not susceptible to assessor bias, and PFS was adjudicated by blinded independent central review using standardized RECIST v1.1 criteria applied identically across arms; safety/AE causality attribution was unblinded but is a secondary tolerability outcome.",
+        "evidence_quote": "\"The primary end points were progression-free survival (PFS), evaluated by blinded independent central review (BICR) per RECIST v1.1, and overall survival (OS) for D + CT versus CT.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT03164616) with a published protocol and a prespecified hierarchical alpha-controlled testing strategy, but the primary end points were amended during the trial and several post hoc analyses (confirmed ORR, ORR/DoR by histology, subgroup analyses emphasized in the conclusions) are reported, raising some concern about selective emphasis of favorable results.",
+        "evidence_quote": "\"Further details of end points and assessments, including history of amendments to the primary end points, are provided in the Data Supplement.\" ... \"In a post hoc analysis, the confirmed ORR was 38.8% with T + D + CT ...\" ... \"Post hoc analyses of ORR and DoR by histology are included in the Data Supplement.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, industry-sponsored, stratified 1:1:1 randomized phase III trial has low risk for missing data and outcome measurement (BICR-assessed PFS and objective OS), but some concerns arise from incompletely reported sequence generation/allocation concealment, the open-label design with unbalanced co-interventions (less maintenance pemetrexed in the control arm and far more subsequent immunotherapy crossover after progression), and amendments to the primary end points with several post hoc/subgroup analyses featured prominently. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:0a37bdae",
+    "paper_title": "8352e102_NEJMoa1801005",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation in a 2:1 ratio via an integrated interactive voice-response and Web-response system, with stratification: \"patients were randomly assigned, in a 2:1 ratio, to receive either 200 mg of pembrolizumab or saline placebo\"; described as a double-blind, placebo-controlled phase 3 trial (NCT02578680).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central, concealed allocation via an interactive voice-response/web system with prespecified stratification factors, and baseline characteristics were well balanced apart from a single sex imbalance that is consistent with chance across many compared variables.",
+        "evidence_quote": "\"Randomization was performed by means of an integrated interactive voice-response and Web-response system... Randomization was stratified according to PD-L1 expression... choice of platinum-based drug... and smoking history\" ; \"The baseline demographic and disease characteristics were generally well balanced between the groups, although the percentage of men was higher in the pembrolizumab-combination group... (62.0% vs. 52.9%, P=0.04)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, investigators and sponsor were blinded by use of a saline placebo, efficacy was analysed by intention-to-treat, and the protocol-permitted crossover occurred only after verified progression with no censoring at crossover (a conservative approach that would bias toward the null rather than inflate benefit).",
+        "evidence_quote": "\"Efficacy was assessed in the intention-to-treat population, which included all the patients who had undergone randomization... data for patients who crossed over were not censored at the time of crossover.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 616 randomized patients were included in the intention-to-treat efficacy analyses with standard survival-analysis censoring, scheduled 12-weekly survival contact, and no indication of substantial loss to follow-up; residual censoring around the median overall survival reflects immature follow-up at interim analysis rather than differential missingness.",
+        "evidence_quote": "\"Patients were contacted every 12 weeks to assess survival during follow-up.\" ; \"Data for patients who were alive or lost to follow-up were censored for overall survival at the time they were last known to be alive\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Overall survival is an objective outcome, while progression-free survival and response were assessed by blinded independent central radiologic review using RECIST 1.1 on an identical imaging schedule in both groups, with concordant investigator-assessed sensitivity analyses.",
+        "evidence_quote": "\"progression-free survival (time from randomization to disease progression, as assessed by blinded, independent central radiologic review...)\" ; \"The results were similar when progression was assessed according to investigator review\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered with a publicly available protocol and statistical analysis plan with prespecified dual primary endpoints, multiplicity control and interim boundaries; however, the report is of a first interim analysis conducted earlier than the planned event counts, with heavy emphasis on subgroup/exploratory PD-L1 analyses, so some risk of favourable-timepoint reporting remains.",
+        "evidence_quote": "\"The first interim analysis was to be performed after enrollment was complete and approximately 370 events of progression or death had occurred... All data reported here are based on the first interim analysis.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, double-blind, placebo-controlled phase 3 trial had concealed central randomization, intention-to-treat analysis, blinded independent central outcome review and near-complete outcome data, yielding low risk in domains 1\u20134. Overall judgment is \"some concerns\" driven solely by domain 5, as the reported results come from an early first interim analysis (with immature survival follow-up and extensive subgroup reporting), leaving some potential for selective reporting of a favourable analysis timepoint."
+  },
+  {
+    "paper_id": "manual:7650b607",
+    "paper_title": "43eef323_NEJMoa1810865",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation of 559 patients to pembrolizumab-combination vs placebo-combination using a central interactive voice-response/integrated web-response system with stratification, in a double-blind placebo-controlled phase 3 trial (NCT02775435).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central computerized/IVRS randomization with stratification ensured concealed allocation, and baseline characteristics were well balanced between the two groups.",
+        "evidence_quote": "\"In this double-blind trial, randomization was performed with the use of an interactive voice-response and integrated Web-response system. Randomization was stratified according to PD-L1 tumor proportion score... Baseline demographic and disease characteristics... were well balanced between groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind placebo control and intention-to-treat efficacy analysis support low risk, but protocol-permitted unblinding at confirmed progression with crossover of 31.7% of placebo patients to pembrolizumab (plus treatment beyond progression and differential discontinuation/dose reduction) represents post-randomization deviation that could attenuate or otherwise affect the overall survival estimate.",
+        "evidence_quote": "\"The trial-group assignment could be unblinded for a patient who had disease progression confirmed by blinded, independent review... such patients in the placebo-combination group were eligible to cross over to receive pembrolizumab monotherapy... the effective crossover rates... were 31.7% among the 281 patients in the intention-to-treat population\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All randomized patients were included in the ITT efficacy analysis with protocol-driven survival contact every 12 weeks, but the very short median follow-up (7.8 months) at this event-driven second interim analysis means a large proportion of time-to-event data are censored and outcomes immature, so results could change with complete follow-up.",
+        "evidence_quote": "\"A limitation of this trial is the short duration of follow-up, which is a consequence of the second interim analysis being event-driven and not time-driven.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Overall survival is an objective outcome, and progression-free survival/response were assessed by blinded independent central radiologic review using standardized RECIST v1.1 with identical imaging schedules in both blinded groups; investigator-assessed PFS gave similar results.",
+        "evidence_quote": "\"The trial had dual primary end points of overall survival and progression-free survival, which was assessed by means of blinded, independent central review of radiologic images.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered with a publicly available protocol and statistical analysis plan, prespecified dual primary endpoints and alpha-spending control; however, the protocol was amended to change the number and timing of interim analyses, and reporting at an interim analysis triggered by crossing efficacy boundaries can inflate effect estimates.",
+        "evidence_quote": "\"The original protocol specified the performance of two interim analyses and a final analysis... the protocol was amended to specify the performance of three interim analyses and a final analysis... the decision was made to report the results of the second interim analysis.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, double-blind, centrally randomized phase 3 trial had low risk for the randomization process and outcome measurement (objective OS; blinded independent central review of PFS), but some concerns arise from protocol-permitted unblinding and substantial crossover (31.7%) from placebo to pembrolizumab, immature event-driven data at only 7.8 months median follow-up, and reporting of results at an amended interim analysis stopped for efficacy. Overall risk is therefore \"some concerns,\" driven by the worst domains (D2, D3, D5), with effect estimates potentially affected in magnitude though the direction of benefit is likely robust."
+  },
+  {
+    "paper_id": "manual:90845439",
+    "paper_title": "a9e90461_S1470-2045%2819%2930167-6",
+    "design_classification": "randomized",
+    "design_rationale": "IMpower130 is explicitly described as a multicentre, randomised, open-label, phase 3 trial in which \"Patients were randomly assigned with permuted block randomisation (block size of six) and an interactive voice or web response system (IxRS; Bracket)\" in a 2:1 ratio, stratified by sex, liver metastases, and PD-L1 expression.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation used permuted-block randomization with stratification administered through a central interactive voice/web response system (concealing allocation until assignment), and baseline characteristics were balanced across the 2:1 groups.",
+        "evidence_quote": "\"Patients were randomly assigned with permuted block randomisation (block size of six) and an interactive voice or web response system (IxRS; Bracket; San Francisco, CA, USA)... Baseline characteristics were generally balanced between treatment groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label so patients and investigators knew assignment, protocol-permitted crossover to atezolizumab (93/228, 41% of the chemotherapy group) and investigator-discretion maintenance/subsequent therapies introduced co-intervention differences relevant to overall survival, although an intention-to-treat analysis was used and chemotherapy exposure/dose intensity was similar between groups.",
+        "evidence_quote": "\"Crossover to receive atezolizumab at disease progression was permitted only for patients in the chemotherapy group enrolled before June 15, 2016... The option for patients in the chemotherapy group to receive atezolizumab under the auspices of the protocol after failure of first-line study treatment was removed to minimise confounding of the co-primary overall survival endpoint\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for essentially all randomized patients in the ITT wild-type population (only one patient excluded, who died before randomization), a CONSORT trial profile accounts for participants, and median follow-up was similar between groups, so bias from missingness is unlikely.",
+        "evidence_quote": "\"724 patients were randomly assigned and 723 were included in the intention-to-treat population (one patient died before randomisation, but was assigned to a treatment group; this patient was excluded from the intention-to-treat population)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Overall survival is objective and robust to unblinding, but the co-primary progression-free survival endpoint was investigator-assessed in an open-label trial where knowledge of allocation (plus the crossover incentive) could influence timing of progression assessment; reassuringly, a blinded independent review facility sensitivity analysis gave consistent results.",
+        "evidence_quote": "\"The openlabel nature of the study might have afected the treating physician's timing of the assessment of disease progression in the chemotherapy group... Analysis of the blinded, independent review of progression-free survival was, however, consistent with progression-free survival according to the investigators' assessment\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT02367781) with the protocol and statistical analysis plan provided in the appendix; co-primary endpoints, analysis populations, hierarchical alpha-spending/recycling and interim stopping boundaries were pre-specified and reported as planned.",
+        "evidence_quote": "\"To control the overall type I error rate for the two-sided test at 0\u00b705, we allocated a two-sided \u03b1 of 0\u00b7006 to progression-free survival and a two-sided \u03b1 of 0\u00b7044 to overall survival... This study is registered with ClinicalTrials.gov, number NCT02367781.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, pre-registered, centrally randomized phase 3 trial had robust allocation, near-complete outcome data, and pre-specified analyses, but its open-label design combined with investigator-assessed progression-free survival and protocol-permitted crossover of 41% of control patients to atezolizumab raises some concerns (D2, D4). Overall risk is therefore \"some concerns\", mitigated by the concordant blinded independent radiology review and ITT analysis."
+  },
+  {
+    "paper_id": "manual:fe208c13",
+    "paper_title": "094dbe36_S2213-2600%2820%2930365-9",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation via a centralised interactive web-response system with SAS-generated central block randomisation (block size 4 or 6), stratified by sex and smoking history.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated stratified block sequence with central web-based concealed allocation; baseline characteristics were generally balanced, and the modest PD-L1 and ECOG imbalances are compatible with chance given PD-L1 was not a stratification factor (and was handled by covariate adjustment).",
+        "evidence_quote": "\"The randomisation sequence was generated by the sponsor's randomisation specialist with SAS (version 9.4) by using the central block randomisation method with the block size randomly generated as four or six... The system ensured that the container sequence was concealed until the treatment allocation completed.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Open-label design without placebo means patients and treating physicians knew allocation (potentially affecting continuation of treatment, maintenance duration and subsequent therapy), and the efficacy analysis was a modified ITT set excluding seven randomised patients who never received treatment rather than a strict intention-to-treat analysis; crossover (38% of controls) mainly biases overall survival toward the null rather than the primary PFS endpoint.",
+        "evidence_quote": "\"Patients and investigators were not masked to treatment assignments... Patients in the chemotherapy alone group who showed radiological disease progression could crossover to camrelizumab monotherapy on the basis of investigators' judgment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 7 of 419 randomised patients (1.7%, balanced across arms) were excluded for never receiving treatment, no loss to follow-up was reported, and time-to-event analysis with censoring plus a consistent per-protocol sensitivity analysis makes bias from missing data unlikely.",
+        "evidence_quote": "\"412 received the allocated treatment (205 received camrelizumab plus chemotherapy and 207 received chemotherapy alone) and were included in the full analysis and safety sets... No patients were lost to follow-up before treatment discontinuation.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary endpoint (PFS by RECIST) was assessed by a blinded independent central review with protocol-mandated imaging at fixed intervals applied identically in both arms, mitigating the open-label design; investigator-assessed results were concordant.",
+        "evidence_quote": "\"The two primary endpoints were progression-free survival per blinded independent central review... To reduce the bias introduced by the investigator review to some extent, eficacy assessments were also done by an independent review committee masked to treatment assignments.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial is prospectively registered (NCT03134872) with a published protocol/SAP and prespecified interim analysis with alpha spending, but the interim was triggered at 205 rather than the planned ~172 events, an ad-hoc later-cutoff overall survival analysis was added, and the report presents an early interim result for only one of two co-primary endpoints, raising some concern about selective timing/reporting of results.",
+        "evidence_quote": "\"The number of progression-free survival events at the interim analysis was more than planned, mainly due to the delays in process of blinded independent central review... We did an ad-hoc analysis by further assessing overall survival using a cutof date of Feb 25, 2020.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation, outcome ascertainment (blinded independent central review) and completeness of data were well handled, but the open-label design with investigator-decided crossover and maintenance, a modified rather than strict intention-to-treat efficacy set, and an interim analysis reported at more events than planned alongside an ad-hoc overall survival cutoff raise some concerns. Overall risk is therefore \"some concerns\", driven by domains 2 and 5."
+  }
+]

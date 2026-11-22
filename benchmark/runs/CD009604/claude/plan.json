@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of iron-fortified condiments or seasonings (e.g., fortified soy sauce, fish sauce, curry powder, salt) compared with the same condiment without added iron on serum or plasma ferritin concentration (\u00b5g/L) in children and adults?",
+  "treatment_label": "Iron-fortified condiment/seasoning (e.g., fortified soy sauce, fish sauce, curry powder, salt), alone or with other micronutrients added equally to both arms",
+  "control_label": "The same condiment/seasoning without added iron (unfortified or placebo condiment)",
+  "outcome_description": "Serum or plasma ferritin concentration at the end of the intervention (last reported follow-up), extracted as mean, SD and n per arm, converted to \u00b5g/L (=ng/mL; pmol/L \u00d7 0.445). If only change-from-baseline is reported, use mean change and SD of change for BOTH arms and record that change scores were used (never mix end values with change scores across arms). Convert SE/SEM to SD (SD = SE \u00d7 \u221an), checking table footnotes for whether \"\u00b1\" denotes SD or SE. If ferritin is reported only as a geometric mean with CI or on a log scale, use arithmetic mean and SD if given; otherwise record the geometric mean and note this. For cluster-randomised trials (village, school, household, family), divide both arms' sample sizes by the design effect 1 + (average cluster size \u2212 1) \u00d7 ICC using the reported ICC; if no ICC is reported, note this and use the paper's own cluster-adjusted analysis if available. Multi-arm trials: include only the fortified-condiment and unfortified-condiment arms (combine multiple fortified condiment arms if needed); ignore iron tablet, nutrition education or other intervention arms.",
+  "positive_direction": "A positive mean difference means higher serum/plasma ferritin concentration (\u00b5g/L) in the iron-fortified condiment group than in the unfortified condiment control group \u2014 i.e., better iron stores, favouring fortification.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "iron fortified soy sauce fish sauce randomized controlled trial ferritin",
+    "iron fortified condiment salt curry powder trial iron status serum ferritin",
+    "NaFeEDTA ferrous fortified seasoning intervention trial children women ferritin"
+  ],
+  "inclusion_criteria": [
+    "Randomised or cluster-randomised controlled trial in children or adults of a condiment/seasoning (soy sauce, fish sauce, curry powder, salt, bouillon, other condiment) fortified with iron, alone or with other micronutrients added equally to both arms",
+    "Control arm received the same condiment without added iron (unfortified or placebo condiment)",
+    "Reports quantitative serum or plasma ferritin data at end of intervention (or change from baseline) allowing computation of a mean difference"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, commentary, theoretical or modelling paper)",
+    "No comparison between an iron-fortified condiment arm and an unfortified same-condiment control arm (e.g., control received iron supplements, a different fortified food, or no randomised control)",
+    "No quantitative ferritin outcome data usable for an effect size (no means with SD/SE, t/F values, or other extractable variability)",
+    "Completely unrelated to iron fortification of condiments/seasonings or reports only haemoglobin, anaemia prevalence, iron deficiency, sTfR, body iron, growth or adverse effects without ferritin"
+  ],
+  "moderators_to_extract": [
+    "Condiment vehicle type (soy sauce, fish sauce, curry powder, salt, bouillon, other)",
+    "Iron compound and daily iron dose",
+    "Population age group (children, adolescents, adults/women of reproductive age)",
+    "Intervention duration (months)",
+    "Randomisation unit (individual vs cluster)",
+    "Baseline iron/anaemia status and country income setting"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as raw mean difference (MD) in \u00b5g/L with a random-effects (DerSimonian\u2013Laird/REML) model. Record original units and all conversions (pmol/L \u00d7 0.445; SE \u2192 SD = SE \u00d7 \u221an) and whether end values or change scores were used; cluster trials' n adjusted by design effect.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serum/plasma ferritin concentration"
+}

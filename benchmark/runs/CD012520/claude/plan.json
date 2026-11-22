@@ -1,0 +1,38 @@
+{
+  "research_question": "In people hospitalised with acute stroke, do multifaceted implementation interventions (e.g. education, audit and feedback, local champions, protocols/clinical pathways, with or without care-delivery redesign), compared with no implementation intervention or usual practice, increase adherence to evidence-based recommended processes of care during the hospital admission?",
+  "treatment_label": "Multifaceted implementation intervention (education, audit and feedback, champions, protocols/pathways, \u00b1 care-delivery change)",
+  "control_label": "No implementation intervention / usual care or practice as normal",
+  "outcome_description": "Proportion of patients (or eligible patients) who received the recommended process of care \u2014 the trial's primary adherence or quality-of-care process measure (e.g. proportion of eligible patients given thrombolysis, proportion managed per a defined care protocol, proportion receiving dysphagia screening or prophylaxis) \u2014 extracted as number adherent (events) out of number of patients in each arm (total) during the follow-up/post-intervention period at the end of the intervention. Patient-level numbers, not hospitals or clusters. Cluster trials: use reported cluster-adjusted RR/OR with CI where available (convert CI to SE of log RR; convert OR to RR only if baseline risk given), otherwise inflate the SE by the design effect 1 + (average cluster size \u2212 1) \u00d7 ICC using the trial's ICC or an assumed ICC of 0.05.",
+  "positive_direction": "A positive effect (RR > 1 / positive Hedges g) means patients in the multifaceted implementation intervention arm were MORE likely to receive the recommended evidence-based process of care than patients in the usual-practice control arm.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "multifaceted implementation intervention acute stroke care adherence cluster randomised trial",
+    "quality improvement intervention stroke guideline adherence thrombolysis rates controlled trial",
+    "audit and feedback education protocol stroke unit evidence-based care processes randomized effect"
+  ],
+  "inclusion_criteria": [
+    "Randomised or cluster-randomised trial conducted in an acute stroke / acute hospital stroke care setting",
+    "Evaluates a multifaceted implementation, quality-improvement or knowledge-translation intervention against no implementation intervention or usual practice",
+    "Reports some quantitative measure of adherence to a recommended process of care during the hospital admission (counts, proportions, or an adjusted effect estimate with CI)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion or purely theoretical/protocol paper)",
+    "No comparison between an implementation intervention and a no-intervention/usual-practice control (including trials whose control arm receives another active implementation strategy, and uncontrolled before-and-after studies)",
+    "No quantitative outcome data from which an effect size can be computed (no events/totals, proportions, or effect estimate with CI/SE)",
+    "Unrelated to the research topic (non-stroke conditions, single-component interventions only, post-discharge/community adherence only, or reporting only patient clinical outcomes, costs, staff knowledge or satisfaction)"
+  ],
+  "moderators_to_extract": [
+    "Randomisation unit (individual vs cluster-randomised)",
+    "Number and type of intervention components (e.g. education only + audit vs including care-delivery change)",
+    "Specific process measure used (thrombolysis, dysphagia screening, protocol adherence, composite)",
+    "Country / health-system income level",
+    "Number of clusters and average cluster size (sample size category)",
+    "Risk of bias / baseline adherence rate in control arm"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool as risk ratio (intervention/control) using a random-effects model on the log risk ratio (DerSimonian\u2013Laird or REML, with Hartung\u2013Knapp adjustment considered given few trials). RR > 1 favours the intervention. For cluster-randomised trials, prefer the paper's cluster-adjusted RR/OR with CI (convert CI to SE of log RR; convert OR to RR only when baseline risk is reported); otherwise inflate the naive SE by sqrt(design effect) with design effect = 1 + (mean cluster size \u2212 1) \u00d7 ICC, using the trial-reported ICC or an explicitly stated assumed ICC of 0.05. Multi-arm trials: combine intervention arms into a single multifaceted arm versus control. Use post-intervention period data only for before-after designs within randomised trials.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Adherence to evidence-based recommended processes of acute stroke care"
+}

@@ -1,0 +1,692 @@
+[
+  {
+    "paper_id": "manual:f1d50cf1",
+    "paper_title": "f41bd5d2_1-s2.0-S095032931630252X-main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation, albeit at the level of intact school classes (cluster randomization with a constraint): \"Since individual randomisation is not possible in a classroom-based study, two school classes were assigned to the CE condition, two to the PR + CE condition and one class to the control condition. Assignment was random on condition that school classes that could see each other physically ... were in the same experimental condition.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Allocation was at the level of only five intact school classes with an explicit non-random constraint and unequal allocation (control n=19 vs 39/41), no description of sequence generation or concealment, baseline carrot intake differed numerically across arms, and the analysis ignored clustering \u2014 so chance balance of prognostic factors cannot be assumed.",
+        "evidence_quote": "\"two school classes were assigned to the CE condition, two to the PR + CE condition and one class to the control condition. Assignment was random on condition that school classes that could see each other physically (through large windows between class rooms) were in the same experimental condition.\" ... \"Because of the smaller size of our control group, a somewhat higher baseline intake in the PR + CE condition and the fact that age could not be included as covariate ... it cannot be completely ruled out that the observed delayed effect is a spurious effect.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The intervention was necessarily unblinded to children, teachers and the researchers present in the classroom, exposure differed markedly between arms (8 vs 2 eating sessions, confounding role modelling with repeated exposure), and the analysis excluded non-attenders rather than following an intention-to-treat approach, although adherence was high and effects of deviations are plausibly modest.",
+        "evidence_quote": "\"Children who missed S1 or S8 were excluded from the dataset. Children from both intervention conditions (CE and PR + CE) attended on average 7.8 \u00b1 0.6 of the eight convivial eating sessions\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were available for 93 of 99 children (~94%) and missingness was attributed to school absence, but losses were slightly differential across arms, no sensitivity analysis was reported, and questionnaire covariate data were substantially incomplete (n varied 73\u201399).",
+        "evidence_quote": "\"Number of children lower due to absence of the children: CE n = 35; PR + CE n = 40; Control n = 18.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively weighed intake measured identically in all conditions, so lack of assessor blinding is unlikely to have influenced measurement.",
+        "evidence_quote": "\"Intake was calculated by subtracting the leftover weight from the weight before consumption, using a Kern & Sohn EMB600-1 weighing scales, with a precision of 0.1 g.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary outcome and sample-size target were pre-specified and ethics approval obtained, but no trial registration or pre-specified analysis plan is available, and multiple timepoints, choice-test outcomes, eaters-only re-analyses and a post-hoc \u226525 g \"responder\" analysis leave room for selective reporting of the significant follow-up result.",
+        "evidence_quote": "\"Vegetable intake was the main outcome.\" ... \"The number of children increasing 25 g of more between baseline and follow-up were calculated per condition and analysed with Chi-Square.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the randomization domain: allocation involved only five intact school classes with an explicit non-random visibility constraint, unequal and small control allocation (n=19), no concealment details, numerically unbalanced baseline intake, and analyses that ignored clustering \u2014 concerns the authors themselves acknowledge as potentially producing a spurious effect. Additional some-concerns arise from unblinded delivery with unequal exposure (8 vs 2 sessions), non-ITT exclusions, modest differential attrition at follow-up, and absence of pre-registration; outcome measurement by weighing was low risk."
+  },
+  {
+    "paper_id": "manual:9d63a4fa",
+    "paper_title": "99c013eb_1-s2.0-S0195666316309643-main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper states explicit random allocation of clusters: \"Two childcare centres were randomly assigned to the intervention condition,\" giving a cluster-randomized pre-/post-test design with four childcare centres (2 intervention, 2 control).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Randomization was at the cluster level with only four clusters (2 per arm) and no description of sequence generation or allocation concealment; participants were recruited/consented after centre allocation (recruitment bias risk) and there was a statistically significant baseline imbalance on a primary outcome (pre-test pumpkin intake), which is not readily explained by chance.",
+        "evidence_quote": "\"Two childcare centres were randomly assigned to the intervention condition.\" ... \"Control group children ate more pumpkin at pre-test than intervention children did (p = 0.006).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Childcare staff delivering the intervention were necessarily aware of condition (parents were given differing partial study aims), the planned exposure dose (\u226510 per vegetable) was not achieved as intended (~6 per preparation, varying between products), and the analysis was restricted to children with sufficient measurements rather than a full intention-to-treat sample.",
+        "evidence_quote": "\"Intervention children received on average six exposures to each vegetable product\" ... \"This period was chosen to ensure that each child was exposed to each vegetable at least 10 times\" ... \"children needed to have at least two intake measurements for a vegetable at pre- and post-test to be included in the data analyses\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary intake analyses included only ~83\u2013103 children per vegetable per arm out of 125 allocated (roughly 20\u201335% without analysable data, partly because children left childcare at age four or lacked two measurements), and no sensitivity analysis of missingness was reported, although reasons appear largely unrelated to the outcome.",
+        "evidence_quote": "\"Information packs were distributed to 526 parents... Of these, 446 parents (85%) signed an informed consent\" ... \"The final dataset contained 250 children.\" ... \"The questionnaire at the end of the project was completed by 121 parents (48%).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Intake was measured objectively and identically in both arms by weighing, but the co-primary outcome (willingness to taste) was recorded by unblinded childcare employees who delivered the intervention, so this observational measure could have been influenced by knowledge of condition.",
+        "evidence_quote": "\"the research team weighed the vegetable cups before... and after consumption, out of the children's view\" ... \"childcare employees registered whether the child tasted the vegetable or not.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or publicly available pre-specified analysis plan is cited, and the paper reports multiple outcome operationalizations (intake, recoded willingness-to-taste categories, exposure-period portion sizes) plus numerous exploratory correlational subgroup analyses, so selective reporting cannot be excluded even though the main pre-stated hypotheses appear addressed.",
+        "evidence_quote": "\"The protocol for this study was approved by the Medical Ethical Committee of Wageningen University.\" (no trial registration or pre-specified analysis plan reported)"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 1: randomization involved only four clusters (two centres per arm) with no description of sequence generation or allocation concealment, participants were consented after centre allocation, and a significant baseline imbalance in pre-test pumpkin intake was present. Remaining domains raise some concerns (unblinded staff delivering the intervention and recording willingness to taste, under-delivered exposure dose, 20\u201335% of allocated children lacking analysable intake data, and no trial registration/pre-specified analysis plan)."
+  },
+  {
+    "paper_id": "manual:6a548085",
+    "paper_title": "4cda4151_ajcn.111.024596",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a randomized controlled trial with blocked randomization and allocation concealment via opaque envelopes: \"The 173 participants who agreed to be visited were randomly allocated to 1 of the 3 conditions by using blocked randomization\"; trial registered as ISRCTN42922680.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Blocked randomization with concealed opaque envelopes opened only after baseline assessment and out of participants' sight, and baseline child/parent characteristics plus baseline intake and liking did not differ across groups.",
+        "evidence_quote": "\"Before a home visit, researchers carried with them an opaque envelope containing a slip of paper on which was written 1 of the 3 conditions. At the child's home and after the baseline assessments, the researcher opened the envelope out of sight of the participants.\" ... \"No group differences in liking or intake at baseline were found (both P > 0.05)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Parents, children and (post-baseline) researchers were necessarily aware of allocation, parent-delivered implementation was uncontrolled in the home, and the analysis was effectively per-protocol rather than intention-to-treat because 9 non-adherent families and 7 ill children were excluded from analysis.",
+        "evidence_quote": "\"Seven children were excluded from the analyses because they were ill during the intervention period and 9 children because parents told us that they had failed to follow the intervention procedures (eg, changed target vegetable, changed the reward).\" ... \"the home setting diminished control over how the interventions were implemented, which may have diluted their effect\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "24 of 173 randomized participants (14%) were lost for the post-intervention analysis and 33 (19%) for the longitudinal analysis, with exclusion reasons (illness, non-adherence) plausibly related to the intervention itself and no sensitivity or imputation analysis reported.",
+        "evidence_quote": "\"The sample available for analysis of the intervention phase, therefore, was 149. There were also 9 missing outcomes from the follow-up assessments; therefore, the longitudinal multivariate analyses across all time points had a sample size of 140.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Intake was measured objectively by digital weighing and liking with a validated faces scale applied identically across groups, but outcome assessors were unblinded at all post-baseline visits (acknowledged by the authors as possibly leading to differential encouragement), and the child-reported liking rating is subjective and open to demand effects.",
+        "evidence_quote": "\"Although the researchers were blinded to group allocation during baseline assessments, they were unblinded thereafter because they had to teach parents the feeding techniques. As a result, they may have inadvertently given greater encouragement to intervention participants than to control subjects.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (ISRCTN42922680), the protocol is stated to be available, two pre-specified primary outcomes (liking and intake) were clearly defined with pre-planned comparisons and Bonferroni-adjusted post hoc tests, and non-significant findings for the social reward arm were fully reported.",
+        "evidence_quote": "\"The primary outcomes were liking and intake of the target vegetable, which were assessed at baseline, immediately after the intervention, and 1 and 3 mo later.\" ... \"The full trial protocol is available from the authors.\" ... \"This trial is registered as ISRCTN42922680.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were well executed and the outcomes were pre-registered and transparently reported, but the trial raises some concerns from unavoidable unblinding of participants, parents and post-baseline assessors, per-protocol exclusion of ill and non-adherent families (149/173 analysed; 140 for longitudinal analysis) without ITT or sensitivity analyses, and partly subjective child-reported liking. No single domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:7b8718e6",
+    "paper_title": "49af6ed5_j.appet.2014.10.014",
+    "design_classification": "randomized",
+    "design_rationale": "Mothers were explicitly randomised to intervention or control groups before completing questionnaires (\"Mothers were randomised to either the intervention (n = 20) or control group (n = 20) after they had consented\"), indicating a parallel-group randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomisation is asserted but the sequence-generation method and allocation concealment are not described, and a statistically significant baseline imbalance in maternal trait anxiety was observed (a plausible prognostic factor for infant feeding interactions) in a small sample.",
+        "evidence_quote": "\"Mothers were randomised to either the intervention (n = 20) or control group (n = 20) after they had consented to the study and before they had completed any questionnaires.\" ... \"The only significant difference detected was on the averaged State Trait Anxiety Inventory (STAI) ... mothers randomised to the intervention group (29.15 \u00b1 6.6) were more anxious in comparison to the control group (24.62 \u00b1 4.4; F(1, 29) = 4.97, p < 0.05).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Mothers necessarily knew their allocation and delivered the unsupervised home-based feeding themselves (and the IG mothers also fed and rated infants in the lab), with acknowledged uncertainty about adherence; analyses appear to be per-available-data rather than a clearly stated intention-to-treat approach, though no evidence of major deviations is reported.",
+        "evidence_quote": "\"Another possible limitation of the study was that most of the intervention was conducted at home. It is then dificult to ensure that instructions were strictly followed.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was modest at the primary endpoint (36/40) but outcome data were further reduced by exclusion of outliers and unwell infants with varying cell sizes, and the 18-month follow-up had severe, differential missingness (11 IG vs 3 CG; 39%) precluding analysis, with responders differing systematically from non-responders.",
+        "evidence_quote": "\"At 18 months follow up, 11 mothers in the IG and 3 mothers in the CG completed questionnaires and the 3 day diary (39% return rate). ... All children tested were included in the analysis, but cell size varied according to data available. For example, where data were outliers as detected by boxplots, these were removed and where infants were unwell on the day of testing, their data were excluded.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Liking ratings were made by unblinded researchers and by mothers who knew the allocation, and the group difference appeared only in the unblinded researcher ratings (not maternal ratings); intake weighing was objective but much of it was self-recorded at home by unblinded mothers.",
+        "evidence_quote": "\"However, researchers were not blind to the group assignment and this may have affected judgements.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or analysis plan is cited, multiple outcome operationalisations (lab vs home intake, multiple vegetables, maternal vs researcher liking, pace of eating, several time points) and flexible subgroup/post hoc testing were reported, raising the possibility of selective reporting.",
+        "evidence_quote": "\"Data are presented in two ways: first of all, intake of carrot (Days 25, 29, 33) and green bean (Days 26, 30, 34) were measured on three occasions... secondly intake of 4 vegetables... were recorded twice through the rotation so differences by vegetable over time were also tested\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by unblinded outcome assessment (researchers explicitly not blind to allocation, with the liking effect appearing only in their ratings) and by substantial, differential missing data at follow-up (39% return, 11 IG vs 3 CG) compounded by post hoc exclusion of outliers and unwell infants. Additional concerns include undescribed randomisation/concealment with a significant baseline anxiety imbalance, unsupervised home delivery of the intervention, and absence of a pre-specified analysis plan in a small sample (n=36)."
+  },
+  {
+    "paper_id": "manual:e9841929",
+    "paper_title": "264b1106_j.appet.2018.05.140",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states families were randomly assigned to three conditions: \"Families were randomly assigned to one of three experimental groups: a 'fruit book' group... a 'vegetable book' group... or a control group,\" and describes the study as \"a randomized controlled trial design\" with \"random allocation to groups.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is asserted and baseline demographic, liking and intake comparisons were balanced, but no detail is given about the sequence-generation method or whether allocation was concealed from those enrolling families (recruitment and group assignment were apparently handled by the same research team).",
+        "evidence_quote": "\"Families were randomly assigned to one of three experimental groups... There were no significant differences between groups on any measure (all ps > .08).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Parents (and the research team) were necessarily aware of allocation and the control group received no book or sham/attention-control material, so expectancy effects on how foods were offered cannot be excluded; adherence was nonetheless high and balanced across groups (\"no differences between groups in the numbers of exposures provided or tastes experienced\"), but analyses were restricted to questionnaire returners rather than a true intention-to-treat sample.",
+        "evidence_quote": "\"Parents were also, necessarily, the agents of the intervention \u2013 they shared the books with their children and provided repeated taste exposures to the target foods afterwards \u2013 so they could not be blind to experimental condition.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was substantial \u2014 17% missing at post-intervention and ~39% (78/127) by the 3-month follow-up, with analysed cells often far smaller (e.g. F(1,26), F(1,21), F(1,28) for vegetable intake) \u2014 and although the distribution of dropouts across groups did not differ from chance, missingness in a parent-report, effort-intensive regime could plausibly depend on the outcome (e.g. parents whose child continued to refuse the food), and no sensitivity/imputation analysis was reported.",
+        "evidence_quote": "\"Of the 127 parents who returned questionnaires at baseline, 105 completed the visual familiarization and taste-exposure phases... Seventy-eight parents returned follow-up questionnaires three months later\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary outcomes (liking, intake, neophobia, fussiness) were subjective parent-report measures obtained from unblinded outcome assessors who were themselves the intervention agents, a situation in which knowledge of the intervention could readily influence ratings; the authors' argument that specificity of effects rules out social desirability is plausible but not a substitute for blinded or objective measurement.",
+        "evidence_quote": "\"It is important to acknowledge that the positive findings of this study rely on parental reports, rather than objective measures of intake... so they could not be blind to experimental condition... Involving parents in these ways, while crucial to our objectives, opens the window for social desirability biases in the reporting of children's liking and consumption of the target foods\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, multiple outcome operationalizations and time points were analysed with uncorrected alpha across many exploratory comparisons, and parallel \"all children vs. disliked-food only\" analyses plus parametric/non-parametric choices gave analytic flexibility, although the two primary hypotheses were stated a priori and both null and positive findings were reported.",
+        "evidence_quote": "\"Relationships with outcome measures were examined both among participants overall and among individual groups; alpha was not corrected at this stage, to ensure that no potential predictor was excluded.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by reliance on unblinded parent-reported outcomes (parents were both the intervention agents and the outcome assessors, with no inert attention-control book) and by substantial differential-risk attrition (39% lost by 3-month follow-up, where several key effects were detected). Randomization appeared effective with balanced baseline characteristics and good adherence, but unreported allocation concealment and the absence of pre-registration with multiple uncorrected analyses add further concerns."
+  },
+  {
+    "paper_id": "manual:9b30b0aa",
+    "paper_title": "1331128f_j.jada.2011.10.003",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of clusters: \"In this randomized controlled trial, Preschool A was randomly assigned to the intervention first condition and Preschool B to the control/delayed intervention condition,\" with a cross-over of conditions at week 7 \u2014 i.e., a cluster-randomized (2-cluster) cross-over trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Randomization was at the cluster level with only two clusters (one school per arm), so randomization cannot balance confounders; no method of sequence generation or allocation concealment is described, and baseline vegetable consumption differed substantially between schools (10.7 g vs 6.2 g), which the authors acknowledge.",
+        "evidence_quote": "\"despite the fact that schools were matched on important characteristics and there were no demographic differences or differences in parent report of vegetable liking between groups, there were differences in vegetable consumption at baseline.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Teachers, children and researchers were necessarily aware of the condition, the intervention was delivered by school staff whose fidelity (e.g., not pressuring children, serving all 30 exposures) was not monitored or reported, and the protocol had to be modified so vegetables were served alongside a competing second vegetable; however, the deviations arose from the natural setting rather than trial participation and all available children were analyzed.",
+        "evidence_quote": "\"it was not possible to provide vegetables in lieu of regular snacks; rather, it was required that they be served with the lunch, which included a competing second vegetable. Further, as reasonably expected, schools did not require children to try a bite of each vegetable.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively weighed vegetable intake (pre- and post-weighing of individually labeled bags to the nearest gram), measured identically in both schools at the same time points, making assessor knowledge of condition unlikely to bias the measurement.",
+        "evidence_quote": "\"Researchers picked up the bags later from the schools, weighed them, and calculated intake to the nearest gram.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No flow of participants, absenteeism, or attrition is reported, yet degrees of freedom in the ANOVAs vary markedly by vegetable (F[1,88], F[1,82], F[1,68]) and regression models drop to 71 of 96 children when CFQ variables are added, indicating appreciable missing data whose impact is not examined.",
+        "evidence_quote": "\"n (students) 94 71 94 71 94 71\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, and results are reported in multiple flexible operationalizations (intake averaged across vegetables, per-vegetable follow-up ANOVAs, a dichotomous \"willingness to try\" threshold of 3 g, and two nested multilevel models), with the cross-over second period not analyzed as a controlled comparison.",
+        "evidence_quote": "\"Willingness to try eating a vegetable was defined as eating at least 3 g and the proportion of time children were willing to try each vegetable was calculated.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 1: randomization of only two clusters (one preschool per arm) cannot control confounding, allocation/sequence-generation details are absent, and baseline vegetable consumption differed markedly between schools, so school-level factors are fully confounded with condition. Additional some-concerns arise from unblinded, incompletely documented intervention fidelity, unreported attrition/missing data, and absence of a pre-registered analysis plan amid multiple outcome operationalizations."
+  },
+  {
+    "paper_id": "manual:75550114",
+    "paper_title": "0f32763b_j.jand.2015.03.024",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a parallel-arm randomized controlled trial with allocation by a random number generator: \"Children were randomized to control (n 12) or treatment groups (n 12) using a random number generator (www.random.org).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A true random sequence was used, but allocation concealment is not described and \"targeted screening\" was used to balance sex, with some baseline imbalances observed (parental monitoring P=0.05; slowness in eating P<0.01) in a very small sample.",
+        "evidence_quote": "\"Children were randomized to control (n 12) or treatment groups (n 12) using a random number generator (www.random.org)... To make sure groups were balanced we used targeted screening to achieve equal numbers of boys and girls... Parents in the control group reported higher monitoring of children's eating compared with children in the treatment group (P 0.05).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Neither families nor researchers were blinded and parents delivered the intervention at home with unverifiable fidelity (e.g., some parents substituted dips, uncertainty about returning all leftovers), though all randomized participants were analyzed.",
+        "evidence_quote": "\"Families and researchers were not blinded to the conditions.\" ... \"we do not know the extent to which parents were compliant with instructions to return all leftovers.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 24 randomized children completed all five visits, so outcome data were available for essentially all participants.",
+        "evidence_quote": "\"Twenty-four children participated in the study and all completed five out of five visits, for a retention rate of 100%.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Intake was objectively weighed, but measurement depended on unblinded parents returning leftovers and on parent-managed serving, leftover ranch dressing could not be separated from vegetable weight, and assessors were not blinded.",
+        "evidence_quote": "\"In post-weighing, it was not possible to completely separate leftover ranch dressing from the vegetables, so we cannot determine how much of children's intake was due to the vegetables by themselves.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, multiple outcomes and exploratory per-vegetable analyses with flexible covariate inclusion were reported, and some data are described as \"to be reported elsewhere.\"",
+        "evidence_quote": "\"In all the models, child age and sex were also included as covariates if they were associated with the main outcome variable.\" ... \"Parents were also responsible for keeping daily food diaries for children (data to be reported elsewhere).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small pilot RCT used genuine random allocation with complete retention, but allocation concealment was not described, participants and researchers were unblinded with parent-delivered intervention of uncertain fidelity, outcome weighing was partly confounded by dressing residue, and there is no evidence of pre-registration alongside flexible covariate/exploratory analyses. No single domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:06271b6c",
+    "paper_title": "0e767267_j.jand.2019.05.012",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster randomization: 11 preschools were stratified by size and one preschool per stratum was allocated to each of four conditions using an online random list generator (random.org), with the trial preregistered as a cluster randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine random sequence with concealment at the cluster level was used, but with only 11 clusters randomized the groups differed significantly in mean age at baseline and group sizes were markedly imbalanced, raising concerns about chance imbalance inherent to small-cluster randomization.",
+        "evidence_quote": "\"One preschool in each stratum was assigned to each intervention condition using an online list generator (https://www.random.org/lists)... Preschool managers were not informed of their condition allocation until all preschools were recruited (after consent) and randomized.\" ... \"There were no differences across intervention conditions in sex distribution or mean body mass index z score, but there were differences in mean age.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Staff and children were necessarily aware of allocation, delivery fidelity of the education program was low and highly variable (35%\u2013100%), some preschools breached the taste-exposure protocol, and the analysis was per-protocol (excluding non-compliant children and an outlier) rather than intention-to-treat.",
+        "evidence_quote": "\"In total, six preschools using the PFP delivered at least 35% or more of the required contents (delivery of the intervention was 100% (n 2), 50% (n 2), 40% (n 1), and 35% (n 1).\" ... \"some preschools did not comply with the repeated taste exposure protocol because the staff continued to offer the usual snack immediately after the vegetable snack.\" ... \"intake data were excluded from analyses where children in the TE conditions had fewer than five taste exposures (n 3).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 140 of 219 enrolled children (64%) had complete data, with disproportionate loss in the control arm (n=16) and ad hoc imputation (carrying forward first/final weekly intake) applied only to the TE conditions, so differential missingness could plausibly bias effect estimates despite reported similarity of completers and non-completers.",
+        "evidence_quote": "\"due to the nature of the study design there was a high rate of missing data over time for the complete set of intake data, including follow-ups (36%). As a result of this, there was a substantially smaller sample size in the control condition.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Intake was measured objectively by weighing identically across arms, but the unblinded researcher who generated the allocation also conducted the intake assessments, and reliance on preschool staff to prevent sharing and return leftovers introduces potential for condition-related measurement error.",
+        "evidence_quote": "\"Each vegetable portion was weighed (to the nearest 0.01 g) before and after each snack time using a digital scale (Mettler PJ4000; Mettler-Toledo LLC) by the research team.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was preregistered with a prespecified primary outcome (weighed intake), but the headline analyses (post hoc dichotomisation into eater/noneater and analysis restricted to eaters, plus outlier exclusion) appear to have been data-driven, and two discrepant registration numbers are cited (NCT03003923 vs NCT03400566).",
+        "evidence_quote": "\"The trial was preregistered with ClinicalTrials.gov (identifier: NCT03003923).\" ... \"Intake data for all time points resulted in a positive skew as many children ate 0 g mooli. Therefore, a complex samples logistic regression analysis was conducted to examine what factor predicted children eating at least some of the mooli (classed as eaters).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was genuinely randomized with cluster-level concealment and intake was objectively weighed, the study is at high risk of bias because of substantial and differentially distributed missing outcome data (36% attrition, control arm reduced to 16 children) combined with poor and variable intervention fidelity and a per-protocol rather than intention-to-treat analysis. Additional concerns arise from baseline age imbalance across only 11 clusters and post hoc, data-driven outcome dichotomisation and outlier exclusion."
+  },
+  {
+    "paper_id": "manual:d3db0475",
+    "paper_title": "15746c37_j.physbeh.2012.03.011",
+    "design_classification": "randomized",
+    "design_rationale": "All three laboratory studies described explicit random allocation: in Studies 1 and 2 \"children were randomized to the order in which they received four test-meals\"/\"The order in which children received the test-meals was randomized,\" and in Study 3 \"children were randomly assigned to the intervention (n=7) or control groups (n=9)\" in what the authors call \"a seven week randomized control trial.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Randomization is asserted but no method of sequence generation or allocation concealment is described for any of the three studies, and Study 3 shows a marked baseline imbalance (intervention group with much higher baseline fruit/vegetable intake, producing a ceiling effect) in unequal groups of 7 vs 9, which raises concern that allocation was not adequately concealed or balanced.",
+        "evidence_quote": "\"Prior to the first visit, children were randomly assigned to the intervention (n=7) or control groups (n=9)... It is unclear why children in the intervention group demonstrated such high F&V consumption at baseline, as they reportedly consumed fewer than two servings per day before starting the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants, parents and researchers were necessarily aware of the branding condition, Study 3 depended on unblinded parents implementing the offering protocol at home with no adherence verification, Study 2 primed children with food-brand Stroop images before the meal (acknowledged confound), and Study 3 analysed only the 16 completers rather than all 19 randomized (no intention-to-treat).",
+        "evidence_quote": "\"Although the researchers were not blinded to who was receiving the treatment, the nutrition education lessons were run in small groups of two to three children in each\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "In Study 3 roughly 16% of randomized children were excluded from analysis with no group-wise breakdown or sensitivity analysis, which in a 7-vs-9 sample could materially alter results; attrition is not reported at all for Studies 1 and 2.",
+        "evidence_quote": "\"A total of 19 children were recruited, but due to scheduling conflicts, only 16 families finished all seven visits and the findings from these families will be described herein.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Objective pre-/post-weighing of intake is an appropriate and identically applied measure, but Study 3's home-based weigh-backs depended on unblinded parents returning leftovers (non-returned food counted as consumed), the Food Brand Stroop was timed by unblinded assistants with a hand stopwatch, and the authors concede the instrument \"has not yet been validated.\"",
+        "evidence_quote": "\"parents were responsible for bringing leftover F&V back to the lab the following week so they could be post-weighed\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or pre-registration is cited, and results are reported through numerous post-hoc subgroup splits (weight status, sex) and analyses continued after non-significant interactions, plus an outlier-dependent effect in Study 1 and an unanticipated BMI z-score outcome in Study 3, indicating substantial selective-reporting and multiplicity risk.",
+        "evidence_quote": "\"There interaction between brand condition and sex was not significant (p=0.20). However, analyses run separately showed that girls ate ~100 kcals more during the branded condition than they did during the unbranded condition (pb0.05)\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: randomization methods and concealment are undescribed with evident baseline imbalance in the tiny (n=7 vs 9) Study 3, participants/researchers were unblinded with an acknowledged priming confound and non-ITT completer-only analysis, and conclusions rest largely on post-hoc subgroup analyses (weight status, sex) reported without any pre-specified protocol. These pilot studies are hypothesis-generating rather than confirmatory."
+  },
+  {
+    "paper_id": "manual:5f7a409d",
+    "paper_title": "88ed08e9_KCI_FI002005781",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that assignment to the exposure versus control condition was randomly allocated at the level of the daycare centre (\"\ub178\ucd9c\uc9d1\ub2e8\uacfc \ud1b5\uc81c\uc9d1\ub2e8 \uc911 \uc5b4\ub5a4 \uc9d1\ub2e8\uc5d0 \uc544\ub3d9\uc774 \ucc38\uc5ec\ud558\ub294\uac00\ub294 \uc5b4\ub9b0\uc774\uc9d1 \ub2e8\uc704\ub85c \ubb34\uc120 \ubc30\uc815\ub418\uc5c8\ub2e4\"), i.e., a cluster-randomized controlled trial with 4 daycare clusters.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation is described as random but only at the level of 4 daycare clusters, with no description of the sequence-generation method or allocation concealment; although age, BMI, parental age/SES and baseline intake did not differ significantly, the very small number of clusters and the convenience sample leave residual risk of chance imbalance (and the age distribution in Table 1 differs noticeably between groups, with no 1-year-olds in the control group).",
+        "evidence_quote": "\ub178\ucd9c\uc9d1\ub2e8\uacfc \ud1b5\uc81c\uc9d1\ub2e8 \uc911 \uc5b4\ub5a4 \uc9d1\ub2e8\uc5d0 \uc544\ub3d9\uc774 \ucc38\uc5ec\ud558\ub294\uac00\ub294 \uc5b4\ub9b0\uc774\uc9d1 \ub2e8\uc704\ub85c \ubb34\uc120 \ubc30\uc815\ub418\uc5c8\ub2e4(\ub178\ucd9c 24\uba85,51.1%;\ud1b5\uc81c 23\uba85,48.9%).\ub450 \uc9d1\ub2e8 \uac04 \uc544\ub3d9\uc758 \ud3c9\uade0\uc5f0\ub839 \ubc0f BMI\uc218\uce58\uc5d0\uc11c\ub294 \uc720\uc758\ubbf8\ud55c \ucc28\uc774\uac00 \ub098\ud0c0\ub098\uc9c0 \uc54a\uc558\uc73c\uba70"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Treatment fidelity was monitored with a checklist and repeated site visits (a strength), but teachers, children, parents and the research team were necessarily aware of group assignment, control daycares received no attention-matched activity, and the parent-report 24-hour recall outcome could be affected by parents' awareness of participation; no intention-to-treat framing is described and children absent at measurement were excluded.",
+        "evidence_quote": "\uad50\uc0ac\uc758 \ud504\ub85c\uadf8\ub7a8 \ucda9\uc2e4\ub3c4\uc5d0 \ub300\ud55c \uad00\ucc30\uc790\uac04 \uc77c\uce58\ub3c4\ub294 100%\uc600\uc73c\uba70 \uad50\uc0ac\ub4e4\uc740 85\uff5e100% \uc218\uc900\uc73c\ub85c \ub9e4\ub274\uc5bc\uacfc \uc77c\uce58\ud558\uac8c \uc218\ud589\ud558\uc600\ub2e4."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Eleven of 58 consented children were excluded (4 for absence, 7 post hoc for high baseline vegetable intake), several children contributed only one of two measurement sessions (n=5 pre, n=12 post), and the reported sample sizes are internally inconsistent (text n=47 vs. Table 1 n=55, with t-test df of 22/23 and 45), with no analysis of whether missingness biased results.",
+        "evidence_quote": "\ubd80\ubaa8\uac00 \ub3d9\uc758\ud55c \ucd1d 58\uba85\uc758 \uc544\ub3d9\uc774 \uc2e4\ud5d8\uc5d0 \ucc38\uac00\ud558\uc600\uc73c\uba70 \uacb0\uc11d\uc73c\ub85c \uc778\ud574 \ucc44\uc18c \uc12d\ucde8\ub7c9 \uce21\uc815\uc5d0 \ucc38\uc5ec\ud558\uc9c0 \ubabb\ud55c 4\uba85\uc740 \uc81c\uc678\ub418\uc5c8\ub2e4...\ud504\ub85c\uadf8\ub7a8 \uc804 \uc774\ubbf8 \ucc44\uc18c\uc758 90%\uc774\uc0c1 \uc12d\ucde8\ud55c 7\uba85\uc758 \uc544\ub3d9\uc740...\ubd84\uc11d\uc5d0\uc11c \uc81c\uc678\ud558\uc5ec"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary consumption measure was objectively counted with high inter-observer reliability and standardized procedures across groups, but observers/researchers were not blinded to condition and the generalization outcome relied on unblinded parent 24-hour dietary recall (only 2 days), which is subjectively reported and susceptible to differential reporting.",
+        "evidence_quote": "\ubcf8 \uc5f0\uad6c\uc758 \uad00\ucc30\uc790\uac04 \uc2e0\ub8b0\ub3c4\ub294 96.7%\uff5e100%\uc600\ub2e4. ... \ubcf8 \uc870\uc0ac\uc9c0\ub294 \uc120\ud589\uc5f0\uad6c(Beaton...)\ub97c \ucc38\uace0\ud574 24\uc2dc\uac04 \ud68c\uc0c1\ubc95\uc744 \uc0ac\uc6a9\ud558\uc5ec \ubd80\ubaa8\uac00 \uc544\ub3d9\uc758 \uc2dd\uc0ac \uc12d\ucde8\uc5d0 \ub300\ud574 \uae30\ub85d\ud560 \uc218 \uc788\ub3c4\ub85d \uc81c\uc791\ub418\uc5c8\ub2e4."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or pre-registration of analyses is reported (only IRB approval), nutrients were selected post hoc from a large set of analysed nutrients, many outcomes (10 NARs, MAR, 4 nutrient intakes) were tested without correction for multiplicity, and borderline/non-significant results (e.g., MAR p=.071, iron p=.049, sodium) are interpreted narratively as supportive, indicating substantial risk of selective reporting.",
+        "evidence_quote": "\uc544\ub3d9\uc774 \uc12d\ucde8\ud55c \ub9ce\uc740 \uc601\uc591\uc18c \uc911\uc5d0\uc11c,\ubcf8 \uc5f0\uad6c\uc758 \ubaa9\uc801\uc5d0 \ub9de\uac8c \ucc44\uc18c \uc12d\ucde8\uc640 \uad00\ub828\ub418\ub294 \uc601\uc591\uc18c\ub97c \uae30\uc874\uc758 \uc5f0\uad6c\ub4e4...\uc744 \ucc38\uc870\ud558\uc5ec \uc120\ubcc4\ud558\uc600\ub2e4."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven primarily by selective reporting (D5): nutrients and analyses were chosen post hoc from a large pool with no pre-registration and no multiplicity control, and borderline non-significant findings are interpreted as supportive. Additional concerns arise from cluster randomization of only four daycares with no description of sequence generation/concealment, unblinded delivery and parent-reported dietary outcomes, and substantial, inconsistently reported exclusions and missing measurement sessions."
+  },
+  {
+    "paper_id": "manual:572bf1a9",
+    "paper_title": "a1505b4b_nqac080",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is explicitly described as a randomized, controlled, parallel-group trial in which 117 mother\u2013infant pairs \"were randomly assigned to start CF with vegetables only (veg-only = 61) or a combination of fruit and vegetable pur\u00e9es (control = 56)\", with a published protocol and ethical approval.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is stated and baseline characteristics (infant age, sex, anthropometry, maternal age, parity, breastfeeding) appear broadly balanced, but this report gives no details of the sequence-generation method or allocation concealment (details deferred to a separate protocol), and there are modest imbalances (e.g., maternal education below university 4% vs 12%).",
+        "evidence_quote": "At the start of CF (4\u20136 mo), infants were randomly assigned to either veg-only or control groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participant blinding was attempted by coding foods by colour/letter and compliance was high, but mothers delivered the intervention at home and could likely infer group from food taste/appearance, and the analysis was per-protocol (requiring completion of the 4-wk intervention) rather than intention-to-treat, a limitation the authors themselves acknowledge.",
+        "evidence_quote": "The primary analysis (as per protocol) involved all participants who provided data on target food intake at 9 mo of age... Potential bias associated with protocol analysis was also present."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcome data were available for ~86\u201392% of randomized infants with balanced attrition and only minimal missingness for the primary measures, but the authors acknowledge non-random missingness and differences between completers and non-completers (and far larger loss for the iron outcomes, n=75/117, due to COVID-19).",
+        "evidence_quote": "There were some differences in characteristics of those who did and did not complete the trials (i.e., being a first-time mother, infants as faster eaters). These findings suggest that the mechanism of missingness is not the result of \"missing completely at random\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (weighed intake) and supporting liking measures were recorded at home by unblinded-in-practice mothers (outcome assessors are the intervention deliverers, with acknowledged social desirability/response bias), although video coding of acceptance was by a blinded coder with excellent inter-rater reliability (ICC 0.97\u20130.99) and biochemical measures were objective.",
+        "evidence_quote": "To assess rate of acceptance, an independent research assistant who was blinded to the originally assigned groups was trained to score the videos according to a set of coding rules"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A pre-published protocol exists and the pre-specified primary outcome (target vegetable intake at 9 mo) is clearly reported, but many supporting/secondary acceptance operationalizations were analysed without adjustment for multiple outcome testing, and data/code are not available for verification.",
+        "evidence_quote": "Although the analysis for each outcome was adjusted for multiple comparisons (using Bonferroni correction), no adjustment was made for multiple outcome testing, and thus the risk of type I error and false-positive findings likely increased with multiple testing."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This adequately powered, protocol-registered RCT found greater vegetable intake and acceptance at 9 months in the vegetables-first group, with a blinded video coder and high reliability supporting the main finding. Overall risk is \"some concerns\" because no domain reached high risk but several raised concerns: unreported allocation-sequence/concealment details, per-protocol rather than ITT analysis, non-random (acknowledged) missingness, maternal (effectively unblinded) measurement of the primary intake outcome, and multiple unadjusted outcome tests."
+  },
+  {
+    "paper_id": "manual:1bc6ae8c",
+    "paper_title": "5315f1cc_nxab387",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a registered 4-arm superiority randomized controlled trial (NCT03348176/NTR6572) in which 246 mother\u2013infant pairs were allocated to RVE, VIPP-FI, COMBI, or an attention-control condition, with randomization procedures reported in the published protocol.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Group sizes are near-equal and baseline characteristics appear balanced (\"No group differences were present for any of the variables\"), but the sequence generation and allocation concealment methods are not described in this report (only referenced to the protocol), and one baseline imbalance in t0 vegetable intake (P = 0.03) was observed.",
+        "evidence_quote": "\"Information regarding, for example, recruitment of participants and randomization can be found in the study protocol, as well as in the flow chart depicted in Supplemental Figure 1 (21).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An intention-to-treat-style analysis was used, but participants and interventionists inevitably knew the assigned behavioral condition (mothers received tailored video-feedback or vegetable advice), and intervention fidelity/co-intervention data are not reported here, which is especially relevant for self-reported feeding outcomes.",
+        "evidence_quote": "\"Because LMM analysis facilitates an intention-to-treat analysis, all participants with data for 1 one time point (t0, t18, or t24) were included in the analyses.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Substantial attrition is evident for several outcomes (e.g., n = 205\u2013213 of 246 for EAH and CEBQ-T; n = 210\u2013212 for self-report feeding measures), and dropouts differed systematically in education, although missingness was unrelated to intervention group and a mixed-model approach using all available data was applied.",
+        "evidence_quote": "\"With respect to attrition, mothers who prematurely dropped out tended to have a lower educational level (2.6% of dropouts compared with 22.2% of remaining participants had a university degree). Dropping out was not related to maternal BMI, maternal age, maternal vegetable intake, intervention group, or household income.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Observational outcomes were coded by blinded, reliable coders and anthropometrics were objectively measured, but key outcomes (vegetable intake via maternal 24-h recalls, CEBQ-T, IFSQ feeding practices) are maternal self-report from unblinded mothers with some scales showing low internal consistency (\u03b1 = 0.46\u20130.58), raising social-desirability/detection bias concerns.",
+        "evidence_quote": "\"The coders were not familiar with the families in the videos they were allocated, nor aware of these families\u2019 group status (experimental compared with control).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a published protocol and hypotheses were pre-stated, but numerous outcome operationalizations (continuous scores plus post hoc \"success rate\" dichotomizations with investigator-chosen cutoffs, adapted scales with items dropped, analyses with/without energy adjustment) and many unadjusted pairwise comparisons create scope for selective emphasis\u2014indeed the highlighted overweight-prevalence findings came from dichotomized measures where continuous BMI-z showed nothing.",
+        "evidence_quote": "\"No post hoc adjustments were undertaken, because only hypothesis-driven comparisons were performed (47, 48).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, registered 4-arm RCT with blinded observational coding nonetheless raises some concerns across all five domains: randomization/concealment details are only in the protocol, participants were necessarily unblinded with several key outcomes maternally self-reported, attrition was non-trivial and related to education, and multiple outcome operationalizations (notably post hoc dichotomized \"success rates\" with chosen cutoffs and unadjusted pairwise comparisons) allow flexibility in reported results. No domain reached 'high' risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:9afea063",
+    "paper_title": "f8072798_peds.2012-2882",
+    "design_classification": "randomized",
+    "design_rationale": "The NOURISH trial explicitly randomly allocated 698 first-time mothers after baseline assessment to intervention or control using a permuted-block schedule generated by an external statistician (\"After baseline assessment, participants were randomly allocated to an intervention or a control group by an external statistician\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was generated by an external statistician after baseline assessment (implying concealment), and baseline maternal/infant characteristics were well balanced (\"There were no differences according to group allocation at baseline\"), with only minor theoretical predictability from small permuted blocks of 4.",
+        "evidence_quote": "\"After baseline assessment, participants were randomly allocated to an intervention or a control group by an external statistician. A permutated-block schedule with blocks of 4 within each assessment clinic location was used to optimize the balance of participant socioeconomic characteristics across the groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and facilitators were necessarily unblinded with no attention control (possible Hawthorne/expectancy effects on self-reported feeding practices) and intervention adherence was low (45% attending \u22652 sessions of module 2), though an intention-to-treat analysis was used, which mitigates bias from non-adherence.",
+        "evidence_quote": "\"Attendance at \u22652 sessions for module 1 was n = 229 (65%) and module 2 was n = 130 (45% of those retained at module commencement).\" ... \"The lack of a true attention control group does not allow us to preclude a Hawthorn effect.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was substantial (22% overall, and differential by arm: 26% intervention vs 19% control, with feeding-practice outcomes available for only ~467 of 698), no imputation or sensitivity analysis was performed, though baseline characteristics of non-completers did not differ by group, which partially reassures.",
+        "evidence_quote": "\"At follow-up (20 months from baseline), total attrition was 22% (n = 157)... Withdrawal was higher among younger and less educated mothers (all, P < .001) and in the intervention group (26%, n = 92) than in the control group (19%, n = 65; P = .01)\"; \"An intention-to-treat approach to analysis was used as far as missing data permitted (no imputations were made).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Anthropometric outcomes were measured objectively by blinded assessors (low risk), but the primary impact outcomes (feeding practices) were maternal self-reports from unblinded participants\u2014some using non-validated study-developed items\u2014so social-desirability/acquiescence bias could differ by arm.",
+        "evidence_quote": "\"Maternal feeding practices were self-reported by using validated questionnaires and study-developed items.\" ... \"Anthropometric measurements were taken by trained study staff blinded to participant group\" ... \"Self-report behavioral data always have the potential for acquiescence bias\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a published protocol and results are reported for all subscales including null findings, but a very large number of outcome measurements (21 feeding subscales/items plus multiple anthropometric indices) were analysed without adjustment for multiplicity and some measures were study-developed, leaving scope for selective emphasis.",
+        "evidence_quote": "\"This trial has been registered in the Australian and New Zealand Clinical Trials Registry (ACTRN 12608000056392).\" ... \"We acknowledge that multiple comparisons do not allow us to exclude the potential of a type I error.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization was well conducted with balanced baseline groups and blinded objective anthropometry, but the main impact outcomes rest on self-report from unblinded mothers with no attention control, adherence was low (45% for module 2), and 22% differential attrition was handled without imputation or sensitivity analysis. These issues (plus extensive multiple testing) yield an overall judgment of some concerns, with no single domain reaching high risk."
+  },
+  {
+    "paper_id": "manual:0c13e954",
+    "paper_title": "c02106bb_s0007114515001695",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a multi-centre, individually randomised (1:1), parallel-group exploratory trial in which \"An independent statistician at University College London generated a block randomisation matrix that was used in all three countries\", with trial registration (ISRCTN85048101).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was centrally generated and stratified by feeding method and country, and baseline characteristics appear balanced, but allocation concealment is not described (a block randomisation matrix available to unblinded researchers who recruited/interviewed participants raises predictability concerns).",
+        "evidence_quote": "\"An independent statistician at University College London generated a block randomisation matrix that was used in all three countries... Allocation was revealed to the researcher.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Mothers and researchers delivering the intervention were unblinded, intervention fidelity/adherence was incomplete (especially in Portugal where health professionals rather than researchers delivered advice), and analyses were restricted to those with complete primary outcome data rather than a full intention-to-treat population.",
+        "evidence_quote": "\"all health professionals did not comply fully with the intervention even after agreeing to participate. Consequently, fidelity of, and adherence to, the intervention may have been undermined... only 67 % of the intervention mothers gave their infants an isolated vegetable as their first food as requested\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only about 7 of 146 randomised dyads were lost to follow-up (roughly 5%), balanced across arms, with reasons documented in the flow diagram and unlikely to depend on the true outcome.",
+        "evidence_quote": "\"In total, 139 families completed the trial, including the taste tests 1 month post-intervention\" (of 146 randomised: intervention n 75, control n 71)"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The secondary liking outcomes were subjective ratings made by unblinded mothers and by the same unblinded researcher who delivered the intervention, and even the weighed intake outcome was obtained during a mother-led, researcher-observed feed in which knowledge of allocation could influence feeding behaviour.",
+        "evidence_quote": "\"The researcher present at the taste test was the same individual who delivered the intervention and was not therefore able to be blinded to condition... neither they nor researchers could be 'blinded' to treatment, which may have influenced preference ratings in the taste tests.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (novel vegetable intake) and secondary liking outcomes were pre-specified and the trial was registered in the UK, but the null primary result is foregrounded by emphasised, multiply-tested country sub-group analyses (three countries \u00d7 three vegetable and three fruit measures) with no stated adjustment, and registration/protocol details for Greece and Portugal are not given.",
+        "evidence_quote": "\"Primary analyses were conducted for the full sample with secondary analyses conducted separately by country.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by lack of blinding of mothers and of the researcher who both delivered the intervention and rated/observed the taste test (D4), compounded by incomplete intervention fidelity and adherence, particularly in Portugal, with analysis restricted to outcome completers (D2). Randomisation was centrally generated with good balance and attrition was low, but concealment details are absent and the headline country-specific findings arise from multiply-tested sub-group analyses."
+  },
+  {
+    "paper_id": "manual:c7f8efc9",
+    "paper_title": "5ef946d2_ukmss-40429",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a cluster-randomized trial in which school classes were randomized to one of four conditions (\"In a cluster-randomized design we compared four conditions... We randomized at class level to avoid contamination\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was at class level with reported baseline equivalence, but the method of sequence generation and allocation concealment is not described, and with only 16 clusters and recruitment of schools/classes before allocation there is residual risk of imbalance or identification/recruitment bias.",
+        "evidence_quote": "\"The study was scheduled in four waves, with one class randomized to each condition per wave... There were no significant group differences in the numbers of children included at each measurement time, nor differences in gender, age, choice of target vegetable, or baseline intake or liking.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding was impossible (children and researchers knew the reward condition and researchers delivered the intervention), compliance differed between arms, and the analysis adjusted post hoc for number of exposures rather than being a pure ITT analysis, though the authors report results were unchanged.",
+        "evidence_quote": "\"Post-hoc analyses showed higher compliance in ETR than EP or EA (both p<0.05)... The number of taste-exposures was therefore included as a control variable in all analyses.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 18% of children were excluded from the liking analyses (and 50 of 472 consented children did not complete), and although missingness was attributed to school absence with no group differences reported, complete-case analysis of the main hedonic outcome leaves some risk.",
+        "evidence_quote": "\"Intake data were analyzed on the full sample (N=422), but liking analyses were restricted to cases with complete data (n=344) because multinomial models cannot handle missing data.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol is cited, two liking operationalizations existed with only one reported, and multiple time-window analyses (overall, acquisition, maintenance) plus covariate choices allow analytic flexibility, though hypotheses were stated a priori.",
+        "evidence_quote": "\"We assessed both rated and ranked liking, but children found both assessments easy and the results were identical, so we only present results based on ratings.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Intake was measured objectively by weighing and procedures were identical across arms, but liking was a child self-report on a 3-point faces scale collected by unblinded researchers who also delivered the rewards, creating potential for assessment/demand influence.",
+        "evidence_quote": "\"intake (g) assessed by weighing the dish before and after using digital scales (Mettler Toledo, Switzerland)\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This cluster-randomized trial was well powered with demonstrated baseline comparability and an objective intake measure, but no domain was fully low risk: randomization/concealment procedures are unreported with few clusters, participants and researchers were necessarily unblinded with differential compliance, liking analyses were complete-case (n=344 of 422), and there is no protocol/registration with two liking measures of which only one is reported."
+  }
+]

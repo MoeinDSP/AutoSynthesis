@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:497f9656",
+    "paper_title": "7ccf485e_432_2022_Article_4563",
+    "design_classification": "randomized",
+    "design_rationale": "Phase III trial in which eligible patients were explicitly randomized 1:1 via an Interactive Web Response System to TAB008 or Avastin\u00ae, with stratification by ECOG PS, disease stage, and brain metastasis; described as \"randomized, double-blind, multicenter\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central web-based (IWRS) stratified randomization ensures a concealed, computer-generated allocation sequence, and reported baseline demographics/disease characteristics were closely balanced between arms (Table 1), consistent with chance.",
+        "evidence_quote": "\"Eligible subjects were randomized 1:1 by the Interactive Web Response System (IWRS) into the TAB008 group or Avastin\u00ae group... Randomization was stratified by Eastern Cooperative Oncology Group (ECOG) performance status (0 vs. 1), disease stage (III vs. IV), and presence or absence of brain metastasis.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blinding of patients and investigators until database lock makes performance deviations unlikely, dosing followed standard labeling in both arms, and the primary analysis used an ITT-based full analysis set (only one never-dosed patient excluded; small, broadly balanced use of subsequent chemo/radiotherapy).",
+        "evidence_quote": "\"Investigators, patients were blinded until database lock to ensure the objectivity of eficacy and safety evaluation.\" / \"The primary and secondary eficacy analyses were based on the full analysis set (FAS), based on the intention to treat principle, and consisted of all randomized patients that received at least one study dose.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary ORR was analysed in essentially all randomized/dosed patients (548/549) with non-evaluable patients conservatively counted as non-responders in the FAS; the modest imbalance in unevaluable cases (24 vs 12, ~4% difference) is unlikely to materially alter an ORR ratio of 1.00 with a 90% CI well inside the equivalence margin.",
+        "evidence_quote": "\"21 subjects withdrew early from the study for various reasons and 3 cases were considered unable to be evaluated in the TAB008 group. 12 subjects in the Avastin\u00ae group withdrew early from the study for various reasons.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "ORR was assessed by standardized RECIST criteria on a protocol-mandated identical imaging schedule in both arms and adjudicated by a blinded independent radiology review committee, minimizing detection bias; subjective safety/causality grading by unblinded-at-lock investigators is a minor concern not affecting the primary endpoint.",
+        "evidence_quote": "\"The primary endpoint would be overall response rate (ORR) within the first 6 cycles of treatment determined by the independent radiology review committee (IRRC).\" / \"Patients underwent tumor assessment using contrast-enhanced CT scans every two cycles for the first six cycles\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint, equivalence margin and analysis sets were pre-specified and the trial is registered, but registration (NCT05427305, 2022) occurred years after enrolment (2017\u20132019) and ended before publication, no protocol/SAP is available, and minor inconsistencies between abstract and results (e.g., DoR 8.17 vs 8.05 months, OS 20.4 vs 20.07, DCR 95.7% in text vs 88.45% in Table 2, a p value of 0.9457 attributed to both DoR and PFS) raise some concern about reporting fidelity.",
+        "evidence_quote": "\"Trial registration ClinicalTrials.gov number; NCT05427305.\" / \"Sample size was calculated to achieve > 80% power to demonstrate equivalence ... with the 90% confidence interval of the pre-specified 'equivalence' margin of 0.75\u20131.33.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large multicenter double-blind equivalence trial used central stratified web-based randomization, blinded independent radiological assessment of the pre-specified primary ORR endpoint, and near-complete ITT-based outcome data, giving low risk in domains 1\u20134. Overall risk is \"some concerns\" driven solely by domain 5: retrospective trial registration relative to enrolment, no publicly available protocol/SAP, industry sponsorship, and several numerical inconsistencies between the abstract, text and tables."
+  },
+  {
+    "paper_id": "manual:32023253",
+    "paper_title": "1ffc9b7b_40259_2022_Article_552",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation via an interactive web response system using a computer-generated randomization schedule with permuted blocks stratified by country, sex, disease status, and ECOG PS, in a double-blind phase III trial (NCT03676192).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated, stratified permuted-block sequence administered via a centralized IWRS with concealment maintained, and baseline characteristics were well balanced between arms.",
+        "evidence_quote": "\"An interactive web response system (IWRS) was used for randomization. A computer-generated randomization schedule was prepared for the IWRS by an unblinded statistician... Blinding and concealment of permuted block size will be maintained until completion of this ongoing study, to avoid bias.\" / \"The two treatment groups were well balanced with respect to baseline characteristics\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients and investigators were blinded to assignment, both arms received identical chemotherapy backbones, deviations were few and transparently reported (3 patients mis-dosed, 1 missed dose), and the primary analysis used the ITT population with a supportive per-protocol analysis.",
+        "evidence_quote": "\"Patients and investigators (including local and central outcome assessors) were blinded to treatment group.\" / \"Three patients who were randomized to the EU-bevacizumab treatment group were included in the CT-P16 safety population as the patients incorrectly received CT-P16 during the treatment period\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All randomized patients were included in the ITT analysis with missing responses conservatively imputed as non-responders, but missing BOR data were nearly twice as frequent in the EU-bevacizumab arm (11.2% vs 6.1%), which in an equivalence trial could bias the comparison toward similarity (and indeed PP-population results shifted direction), and no formal sensitivity analysis of missingness assumptions is reported.",
+        "evidence_quote": "\"Patients with missing values for ORR were considered non-responders.\" / \"Missing | 21 (6.1) | 39 (11.2)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "ORR was determined by standardized RECIST v1.1 criteria on protocol-scheduled CT imaging applied identically in both arms, with blinded central independent review used for the primary analysis and concordant blinded local review as sensitivity analysis.",
+        "evidence_quote": "\"Images for tumor response were assessed via both central review (by a central independent reviewer) and local review (by investigators).\" / \"Central review results were used for the primary analysis and local review results were used for a sensitivity analysis.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial is registered (NCT03676192) with a pre-specified primary endpoint and equivalence margins, but the analysis plan was amended during the study (an additional FDA risk-ratio margin was added post hoc, and the response-duration definition was changed), these are interim results from an ongoing sponsor-run trial reported at a selected data cut-off, and the sponsor participated in design, analysis, and the decision to publish.",
+        "evidence_quote": "\"an equivalence margin of 0.7368\u20131.3572 using a 90% CI ... (FDA assumption; included as a protocol amendment)\" / \"during the study, the planned analysis was updated to add death to the description and to add a requirement for CR or PR to be confirmed\" / \"The study sponsor played a role in the study design, data collection and analysis, decision to publish, and preparation of the manuscript.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, double-blind, centrally randomized phase III equivalence trial has strong randomization, blinding, and blinded central RECIST outcome assessment, but is rated \"some concerns\" overall because of differential missing primary-endpoint data (11.2% vs 6.1%, imputed as non-response without sensitivity analysis \u2014 a direction of bias that favours equivalence) and because the statistical analysis plan was amended mid-study with interim, sponsor-controlled reporting at a selected data cut-off."
+  },
+  {
+    "paper_id": "manual:6dd82456",
+    "paper_title": "3cbe3adc_cbm-18-816",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes 1:1 random allocation using a computer-generated block randomization list with stratification factors in a registered, double-blind, multicenter phase 3 trial (NCT03169335).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated 1:1 block randomization list with stratification by age, sex, smoking, EGFR status and ECOG was used, drug packaging was identical and coded to the random list (implying concealed allocation), and baseline characteristics were balanced.",
+        "evidence_quote": "\"Patients were randomly assigned 1:1 to receive QL1101-based or bevacizumab-based treatment protocols with a block randomization scheme using a double-blind, computerized, and randomized list generator... Packaging of the QL1101 and bevacizumab... were identical and coded according to the random code list.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and personnel was maintained with identical packaging and all randomized patients were analysed, but the protocol states maintenance therapy with QL1101 for both arms (potentially crossing the comparator arm onto the biosimilar), and no information is given on treatment discontinuations, dose modifications or adherence.",
+        "evidence_quote": "\"in combination with either QL1101 (15 mg/kg Q21d IV) or bevacizumab (15 mg/kg Q21d IV) for 4\u20136 cycles followed by maintenance therapy with QL1101(15 mg/kg Q21d IV).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 535 randomized patients were included in the analysis, but a non-trivial proportion were \"not evaluated\" for response (9.7% QL1101 vs 7.1% bevacizumab) and no sensitivity analysis or explanation of these missing response assessments is provided.",
+        "evidence_quote": "\"9.7% not evaluated (NE) (26 patients)... NE (19 patients, 7.1%)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome ORR was assessed by RECIST criteria through an independent blinded imaging review committee, applied identically in both double-blinded arms.",
+        "evidence_quote": "\"The primary end-point was objective response rate (ORR) using an independent image blinding evaluation committee.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although registered, the paper reports extensive post-hoc analyses in which \"interference factors\" (EGFR-mutant patients with smoking/tumor history) were excluded to obtain better equivalence, the pre-specified secondary endpoint DCR is never actually reported, the pre-specified 90% CI is replaced by 95% CIs, and numbers are internally inconsistent (ORR reported as 52.8%/56.8% vs component percentages), all in a sponsor-funded equivalence trial.",
+        "evidence_quote": "\"After eliminating imbalanced factors, we further analyzed the response for all patients (n = 454)... The therapeutic efficacy between QL1101 and bevacizumab showed more equivalence, with remarkable equivalence after OS analysis\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Randomization and blinded independent outcome assessment were well conducted, but the overall judgment is high risk, driven by selective reporting: post-hoc exclusion of \"interference factors\" to demonstrate equivalence, unreported pre-specified endpoints (DCR), changed CI levels, and internally inconsistent response figures in a trial funded by the biosimilar's manufacturer. Some concerns also remain about the shared QL1101 maintenance phase and unexplained non-evaluable response assessments."
+  },
+  {
+    "paper_id": "manual:02c4df56",
+    "paper_title": "895d837f_PIIS0149291820301739",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"Patients were randomly assigned in a 2:1 ratio using block randomization (block size, 6)\" via an online randomization system with telephone-based allocation, in a Phase III double-blind noninferiority trial (NCT03288987).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was centrally generated and concealed (telephone allocation only after eligibility confirmation and consent), but baseline molecular/clinical characteristics were somewhat imbalanced (wild-type KRAS 34.15% vs 20.45%; wild-type NRAS 64.63% vs 52.27%; colon primary 66.67% vs 51.52%) and baseline data were incomplete (\"Missing data were excluded from the calculations\"), leaving residual uncertainty about prognostic comparability.",
+        "evidence_quote": "\"The randomization plan of the patients was carried out using an on-line system. Permuted block randomization was made, for a total of 126 patients (with 2:1 allocation ratio)... The randomization process was not exposed to those who were conducting the study and was provided via telephone call for each consecutive eligible patient\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and assessors were blinded and both drugs were given with identical FOLFIRI-3 backbone, but non-trivial treatment discontinuations occurred for investigator/patient-driven reasons and the primary noninferiority analysis was per-protocol rather than intention-to-treat (ITT used only as sensitivity analysis, HR 0.84 vs 0.79), which can bias toward the noninferiority conclusion.",
+        "evidence_quote": "\"One reason for the relatively lower PFS time in our study may have been the number of patients who were discontinued from the treatment because of investigators' decision after a PR. The reasons for the investigator's decision of treatment discontinuation were patient noncompliance and intolerance\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial attrition is implied \u2014 the ORR denominators (42 and 23) represent only ~52% of the 126 randomized patients, the primary PFS analysis excluded non-per-protocol patients, no imputation was performed, and the paper provides no breakdown of reasons for missingness by arm or analysis demonstrating robustness to it.",
+        "evidence_quote": "\"ORR values were reported to be 17 (40.48%) and 5 (21.74%) with BE1040V and the reference drug, respectively\" / \"The population assessable for PFS was per protocol\" / \"There is no imputation for missing values.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "PFS/OS are objective, standardized endpoints assessed identically in both arms using RECIST 1.1 CT imaging at fixed intervals with blinded (assessor-blind) evaluation, including a designated trial radiologist, making outcome ascertainment bias unlikely.",
+        "evidence_quote": "\"double-blind (patient- and assessor-blind)\" ... \"ORR was defined as the sum of partial tumor responses (PRs) and complete responses (CRs) according to RECIST 1.1 and was assessed every 3 months by computed tomography scan.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT03288987) with a pre-specified primary endpoint, but the noninferiority margin is reported inconsistently (powered on a \u22122-month time margin yet judged against an HR margin of 1.44), the reference-arm PFS assumption (10.6 months) was far from observed (7 months), and the analysis population was switched to per-protocol with ITT relegated to sensitivity analysis \u2014 raising concerns about post hoc analytic flexibility in a sponsor-funded trial.",
+        "evidence_quote": "\"The planned sample size of 126 was calculated to provide at least 80% power to show noninferiority with margins of \u22122 months and a 1-sided 0.05 significance level.\" / \"since the upper limit of 2-sided 90% CI was lower than the noninferiority margin of 1.44, BE1040V was considered to be noninferior\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although this registered, multicenter, double-blind trial used concealed central block randomization and objective RECIST-based outcome assessment, the overall judgment is high risk, driven by missing outcome data: the per-protocol primary analysis with no imputation and markedly reduced denominators (e.g., ORR assessed in only ~52% of the 126 randomized patients) leaves the noninferiority conclusion vulnerable to attrition bias. Additional concerns arise from baseline prognostic imbalances (KRAS/NRAS, primary tumor site), reliance on per-protocol rather than ITT analysis for the primary endpoint, an inconsistently specified noninferiority margin, and sponsor involvement in data collection."
+  },
+  {
+    "paper_id": "manual:c4997eac",
+    "paper_title": "2bde2705_PIIS0169500220304505",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation to SB8 or reference bevacizumab in a phase III double-blind multicenter trial, with automated randomization via an Interactive Web Recognition System stratified by age and gender (NCT02754882).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central automated allocation through an interactive web system with stratification ensures concealment, and baseline demographic/disease characteristics were closely balanced across the 763 randomized patients.",
+        "evidence_quote": "\"Automated random assignment of patient numbers to randomization numbers linked to study medication was generated by the Interactive Web Recognition System.\" ... \"Baseline demographics and disease characteristics were well balanced between treatment groups.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "A non-trivial proportion of patients had no evaluable response (11.3% SB8 vs 15.1% BEV \"not evaluable\") requiring imputation, and the co-primary per-protocol analysis excluded ~11\u201315% of randomized patients differentially, though multiple imputation and concordant FAS/PPS/sensitivity analyses mitigate concern.",
+        "evidence_quote": "\"Not evaluable 43 (11.3) 58 (15.1)\" ... \"Data from patients with missing tumor assessments in the FAS were imputed using the multiple imputation method.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Best ORR was assessed by blinded independent central review using standardized RECIST v1.1 criteria with identical imaging schedules in both arms.",
+        "evidence_quote": "\"The primary eficacy endpoint was best ORR... based on independent central review per RECIST v1.1.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, investigators, and site staff were blinded, background chemotherapy exposure was essentially identical between arms, and the primary efficacy analysis used the full analysis set on an intention-to-treat principle.",
+        "evidence_quote": "\"Patients, investigators, and site personnel were blinded to medication assignment\" ... \"Eficacy was evaluated in the full analysis set (FAS; all randomized patients by intention-to-treat principle...)\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT02754882/EudraCT) with pre-specified equivalence margins, but two different primary analyses (risk ratio in FAS, risk difference in PPS) were used and only one met the equivalence criterion, raising some concern about which estimand was emphasized in reporting the conclusion of equivalence; no protocol/SAP version detail is given.",
+        "evidence_quote": "\"the lower margin was contained within the predefined equivalence margin, and the upper margin was outside this margin (\u221212.5\u201312.5%)\" ... \"noninferiority was demonstrated in terms of risk diference, but nonsuperiority was not conclusive.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, registered, double-blind, centrally randomized equivalence trial with blinded independent central RECIST review has strong protections against selection, performance, and detection bias. Overall judgment of \"some concerns\" is driven by the ~11\u201315% non-evaluable/imputed primary outcome data with differential per-protocol exclusions, and by the dual primary estimands (risk ratio in FAS vs risk difference in PPS) where equivalence was met on only one, leaving some scope for selective emphasis in reporting."
+  }
+]

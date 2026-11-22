@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with depression (major depressive disorder, elevated depressive symptoms, or depression comorbid with a medical or neurological condition), what is the effect of omega-3 polyunsaturated fatty acid supplementation (EPA, DHA, or a combination, given as capsules/supplements) compared with placebo on quality of life at end of treatment, pooled as a random-effects standardised mean difference (Hedges' g)?",
+  "treatment_label": "Omega-3 PUFA supplementation (EPA, DHA, or EPA+DHA capsules/oil)",
+  "control_label": "Placebo (inert oil or matched placebo capsule)",
+  "outcome_description": "Quality of life at end of treatment, measured by any validated generic or disease-specific QoL / health-related QoL / well-being instrument (e.g. SF-36 or SF-12 total or component summary, WHOQOL-BREF, EQ-5D index or VAS, Q-LES-Q, QLI, FACT, MSQoL-54, PDQ-39, KDQOL). One QoL measure per trial arm, preferring the total or overall score (or, where no total exists, the global/general QoL item or the mean of summary components). Extracted as end-of-treatment mean, SD and n per arm; standard errors, 95% CIs or IQRs converted to SDs where needed. All scales oriented so that a higher score denotes better quality of life, reversing the sign for instruments where higher = worse.",
+  "positive_direction": "A positive Hedges' g means better quality of life in the omega-3 arm than in the placebo arm (i.e. omega-3 favoured). Note that the user's requested reporting convention is the mirror image (SMD < 0 = favours omega-3), so pooled estimates should be sign-flipped when reported in that convention.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "omega-3 fatty acid supplementation depression randomized placebo-controlled trial quality of life",
+    "EPA DHA fish oil depressive symptoms trial health-related quality of life outcome",
+    "n-3 polyunsaturated fatty acids adults depression randomised controlled trial well-being SF-36 WHOQOL"
+  ],
+  "inclusion_criteria": [
+    "Randomised, placebo-controlled trial in adults (mean age >=18) with depression, depressive symptoms, or depression occurring in a medical, neurological or psychiatric condition",
+    "Intervention is an omega-3 PUFA supplement (EPA, DHA, or a combination, any dose, duration or formulation, alone or as adjunct) compared with a placebo arm",
+    "Reports any quantitative quality-of-life, health-related quality-of-life or well-being outcome (means with SD/SE/CI, or statistics from which an effect size can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, theoretical or narrative paper, protocol without results)",
+    "No comparison between an omega-3 treatment condition and a placebo/control condition (e.g. single-arm, open-label, observational, or active-comparator-only designs)",
+    "No quantitative quality-of-life outcome data usable for an effect size (no means+SDs, SE/CI convertible to SD, t/F values, or proportions)",
+    "Completely unrelated to the research topic (non-adult samples, non-depressed samples with no depression indication, dietary fish intake only without supplementation, or only depression severity/response/dropout/adverse-event outcomes reported)"
+  ],
+  "moderators_to_extract": [
+    "Population type (primary MDD vs depression in a medical/neurological condition)",
+    "Omega-3 formulation and EPA:DHA composition (EPA-only, DHA-only, combination) and total daily dose (g/day)",
+    "Treatment duration (weeks)",
+    "Quality-of-life instrument used (generic vs disease-specific)",
+    "Sample size category (randomised n per arm)",
+    "Risk of bias / blinding adequacy and funding source"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool end-of-treatment QoL as a random-effects (REML or DerSimonian-Laird) standardised mean difference with Hedges' g small-sample correction, using mean, SD and n per arm; convert SE, 95% CI or IQR to SD where necessary. Every scale is first oriented so higher = better QoL (sign reversed for scales where higher = worse). The user's reporting convention is SMD < 0 = better QoL with omega-3, which is the mirror of the internal convention (positive g = favours omega-3); report pooled estimates with the sign flipped accordingly. Multi-arm trials (e.g. EPA-only and EPA+DHA) and trials with several patient groups sharing one placebo group contribute one row per omega-3 arm/group, with the placebo group's n (and its SD retained) split equally across the comparisons to avoid double-counting. One QoL measure per trial (total/overall score preferred). Depression severity, response/remission, dropout and adverse-event outcomes are not pooled. Heterogeneity assessed with tau-squared, Q and I-squared; small-study effects via funnel plot and Egger's test if >=10 trials.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "quality of life"
+}

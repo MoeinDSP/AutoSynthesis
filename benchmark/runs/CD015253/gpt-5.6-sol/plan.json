@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children under 18 years with otitis media with effusion (OME), what is the effect of autoinflation using a nasal balloon, carnival blower, or commercial device, compared with watchful waiting, no treatment, or standard care only, on persistent middle ear effusion at the selected first follow-up within 2 to 6 weeks?",
+  "treatment_label": "Autoinflation using a nasal balloon, carnival blower, or commercial autoinflation device",
+  "control_label": "Watchful waiting, no treatment, or standard care only",
+  "outcome_description": "Binary persistence of OME at the selected follow-up from 2 to 6 weeks: number of children, or ears if child-level data are unavailable, with persistent middle ear effusion out of the total analyzed in each arm. Persistence may be defined as a type B (flat) tympanogram, type B or C2 tympanogram, or effusion still present on pneumatic otoscopy. When only resolution or improvement is reported, derive persistence as total minus resolved/improved. Prefer child-level over ear-level data. Choose the follow-up closest to 4 weeks; if several eligible observations are equally or otherwise available within the window, use the latest one, consistent with the requested hierarchy. Do not include hearing, symptoms, quality of life, adverse events, or persistence measured after 6 weeks.",
+  "positive_direction": "For standardized effects, a positive value would mean less persistent effusion and therefore favor autoinflation; for the requested risk ratio, RR below 1 means less persistent effusion and favors autoinflation.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "otitis media effusion children autoinflation randomized trial",
+    "glue ear nasal balloon inflation controlled trial",
+    "middle ear effusion carnival blower autoinflation quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials enrolling children under 18 years with OME and comparing autoinflation by nasal balloon, carnival blower, or commercial device against watchful waiting, no treatment, or standard care only.",
+    "Studies reporting, or permitting derivation of, quantitative arm-level data on persistent effusion at a follow-up from 2 through 6 weeks.",
+    "Eligible reports in any language, publication format, or setting; multiple reports of the same main trial will be linked and treated as one study, while a separately described pilot trial will count as a separate study."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-empirical reports; also exclude completely unrelated studies.",
+    "No eligible comparison between autoinflation and watchful waiting, no treatment, or standard care only; exclude sham autoinflation, placebo, another active-treatment control, surgical comparisons, and studies in which autoinflation is added to another treatment in only one arm.",
+    "No quantitative outcome data capable of producing an effect size, such as arm-level events and totals, proportions, means with SDs, t/F values, or odds ratios; specifically exclude studies from which persistent-effusion events and denominators within 2 to 6 weeks cannot be obtained or derived.",
+    "Not an eligible randomised paediatric OME trial, including adult-only studies, non-randomised studies, studies without children with OME, or studies reporting only hearing, symptom, quality-of-life, adverse-event, or post-6-week persistence outcomes."
+  ],
+  "moderators_to_extract": [
+    "Autoinflation device/type and administration protocol",
+    "Outcome assessment method and persistence definition (type B, type B or C2, or pneumatic otoscopy)",
+    "Unit of analysis (child versus ear) and whether the ear-level design-effect adjustment was applied",
+    "Selected follow-up time in weeks",
+    "Participant age and unilateral versus bilateral OME status",
+    "Risk-of-bias domains and trial setting"
+  ],
+  "search_start_year": 1950,
+  "effect_size_note": "Pool risk ratios with a random-effects model, defining persistent effusion as the event; RR < 1 favors autoinflation. For multi-arm trials, retain only the eligible autoinflation and no-treatment/watchful-waiting/standard-care arms. Prefer per-child data. If only per-ear data are reported for children with bilateral disease, account for within-child correlation by dividing both events and totals in each arm by the design effect DE = 1 + (average ears per child - 1) \u00d7 0.5, and explicitly report that this adjustment was applied; use per-child data without adjustment when available. If both units are reported, select per-child results. Convert resolution/improvement counts to persistence by subtracting them from the relevant arm total. Select one observation per study: the follow-up closest to 4 weeks within 2 to 6 weeks; where a paper provides several eligible times in that window, use the latest according to the requested rule. Link duplicate reports of the same trial and use them as one study, while treating a genuinely separate pilot trial as its own study. Assess heterogeneity with tau-squared and I-squared, inspect influence/sensitivity to ear-correlation assumptions where feasible, and apply PRISMA 2020 study identification, selection, data collection, risk-of-bias, synthesis, and reporting procedures.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "persistence of otitis media with effusion by 6 weeks"
+}

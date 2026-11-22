@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of vasopressin type 2 receptor (V2R) antagonists (e.g. tolvaptan, lixivaptan) compared with placebo or standard therapy on serious adverse events in people with autosomal dominant polycystic kidney disease (ADPKD)?",
+  "treatment_label": "V2R antagonist (e.g. tolvaptan, lixivaptan, satavaptan)",
+  "control_label": "Placebo or standard therapy control",
+  "outcome_description": "Number of participants experiencing one or more serious adverse events (SAEs) during the trial, as reported by investigators, with the total number randomized in each arm as the denominator. Includes trial-reported composite SAE counts (any SAE, treatment-emergent SAEs) in ADPKD populations.",
+  "positive_direction": "A positive effect (RR below 1 / favourable effect size) means the V2R antagonist group had FEWER serious adverse events than the control group, i.e. the drug appears safer than placebo/standard therapy.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "tolvaptan autosomal dominant polycystic kidney disease randomized trial adverse events",
+    "vasopressin V2 receptor antagonist polycystic kidney disease placebo controlled trial outcomes",
+    "lixivaptan ADPKD clinical trial safety serious adverse events"
+  ],
+  "inclusion_criteria": [
+    "Study enrolled people with autosomal dominant polycystic kidney disease (any stage of CKD, any age) and administered a vasopressin V2 receptor antagonist to at least one group",
+    "Includes a comparison group receiving placebo, no V2R antagonist, or standard/usual therapy",
+    "Reports some quantitative safety or adverse event data (event counts, proportions, risk/odds ratios, or statistics permitting effect-size computation)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, theoretical or modelling paper, case report without comparison)",
+    "No comparison between a V2R antagonist condition and a control (placebo, standard therapy, or no-drug) condition",
+    "No quantitative outcome data from which an effect size can be derived (no event counts/proportions, means+SDs, t/F values, or risk/odds ratios)",
+    "Population or intervention completely unrelated to the research topic (e.g. non-ADPKD hyponatraemia or heart failure populations only, non-V2R interventions)"
+  ],
+  "moderators_to_extract": [
+    "Specific V2R antagonist and dose regimen",
+    "Trial duration / follow-up length",
+    "Baseline CKD stage or eGFR category",
+    "Comparator type (placebo vs standard therapy)",
+    "Sample size category",
+    "Risk of bias / blinding status"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as a Risk Ratio using each trial's reported number of participants with at least one serious adverse event as the numerator and the total randomized participants per arm as the denominator. Use random-effects (DerSimonian\u2013Laird or REML) pooling on the log scale; apply a continuity correction only for single-zero-cell trials and consider Peto OR as a sensitivity analysis if events are rare.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serious adverse events"
+}

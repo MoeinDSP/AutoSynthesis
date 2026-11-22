@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:144dbf08",
+    "paper_title": "faaf77ca_ajr.173.5.10541127",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized trial in which patients were randomized to receive either a valved or clamped PICC (\"336 patients were randomized to receive 365 valved (n = 182) or clamped (n = 183) catheters\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted and baseline characteristics (demographics, morbidity, indications, vein status) appear well balanced, but neither the sequence-generation method nor any allocation-concealment procedure is described.",
+        "evidence_quote": "After signing the institutional review board-approved informed consent, 336 patients were randomized to receive 365 valved (n = 182) or clamped (n = 183) catheters... There were no significant differences in patient demographics, underlying morbidity, or indications for access between the two patient groups"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients, operators and nursing staff were necessarily unblinded, and co-interventions differed by design (heparin vs saline flushes, different insertion kits), with no formal ITT analysis described, although care was standardized and outcomes were largely objective.",
+        "evidence_quote": "A deficiency of this study was the inability to blind the participants to the type of catheter used, which was not feasible because of the different physical appearances of the catheters and the different flushes administered."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 3 of 365 catheters (<1%) were excluded because of loss to follow-up, balanced across arms (2 valved, 1 clamped), so missingness cannot plausibly bias the effect estimate.",
+        "evidence_quote": "Three patients were lost to follow-up, which resulted in 333 patients with 362 catheters"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome definitions were prespecified and relatively objective, but assessment was by an unblinded PICC nurse and ward nurses, and some endpoints (e.g., \"suspected infection\", decision to declot or remove the catheter) involve subjective judgment that could be influenced by knowledge of catheter type.",
+        "evidence_quote": "Standardization of the placement procedures and catheter care, and the objective nature of the end points and complications, were aimed to minimize bias."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "An a priori power calculation on a composite complication rate is reported, but there is no protocol/registration and the significant result is a composite while individual components (occlusion p = .06\u2013.10, infection p = .09\u2013.10) were not significant, with slightly inconsistent p values reported in abstract versus results, raising concern about selective emphasis among multiple outcome definitions.",
+        "evidence_quote": "Sample size was calculated to show a 50% improvement in the reported complication rate (from 22% to 11%) for the valved catheter."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospective randomized trial had near-complete follow-up and balanced baseline characteristics, but the randomization and allocation-concealment methods are not described, blinding was impossible with differing co-interventions (heparin vs saline flushes), outcome ascertainment was by unblinded staff with some subjective endpoints, and there is no protocol/registration with the key significant finding resting on a composite outcome. No single domain reaches high risk, giving an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:efba3214",
+    "paper_title": "63c5fd60_Journal of Hospital Medicine - 2018 - Kleidon - How Does Your PICCOMPARE  A Pilot Randomized Controlled Trial Comparing",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned 1:1 to standard polyurethane PICC or BioFlo PICC using computer-generated, web-based randomization with randomly varied block sizes (\"Randomization was computer generated, and web based via Griffith University ... Patients were randomly assigned in a 1:1 ratio\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central, computer-generated, web-based allocation with varied block sizes ensured concealment, and baseline characteristics were largely balanced with only minor imbalances (inserter type, leucocyte count) plausibly due to chance in a small pilot.",
+        "evidence_quote": "\"Randomization was computer generated, and web based via Griffith University (https://www151.griffith.edu.au/random) to ensure allocation concealment until study entry. Patients were randomly assigned in a 1:1 ratio with computer-generated and randomly varied block sizes of 2 and 4.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Open-label design meant clinicians, patients and research nurses knew the allocated device, which could influence catheter care/removal decisions (removal decisions were left to the treating team), though protocol adherence was 100% and an intention-to-treat analysis was used.",
+        "evidence_quote": "\"The study could not be blinded because study products had to be visible to the clinical and research staff.\" ... \"The decision to remove the PICC or retain and treat conservatively remained with the treating team.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "No loss to follow-up and no missing primary outcome data; only 4 randomized patients did not receive a PICC (procedure cancelled), a negligible and balanced proportion.",
+        "evidence_quote": "\"No participants were lost to follow-up, and no primary outcome data were missing.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes used predefined objective criteria and thrombosis/BSI were adjudicated by blinded specialists, but device-related outcomes such as occlusion, dislodgement and the decision to remove were assessed by unblinded clinical/research staff, which could be influenced by knowledge of device allocation.",
+        "evidence_quote": "\"A blinded radiologist and infectious disease specialist reviewed and diagnosed thrombosis of deep veins and catheter-associated BSI outcomes, respectively.\" ... \"The study could not be blinded because study products had to be visible to the clinical and research staff.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a published protocol and predefined feasibility criteria, but multiple complication operationalizations (failure, complications during dwell, individual complication types) and exploratory Cox analyses were reported with emphasis on the significant secondary composite, and the manufacturer part-funded the study.",
+        "evidence_quote": "\"The study was prospectively registered with the Australian Clinical Trials Registry (ACTRN12615001290583), and the research protocol was published.\" ... \"AngioDynamics (the BioFlo\u00ae PICC manufacturer) provided partial funds to undertake this research\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and follow-up were well executed (central concealed allocation, 0% attrition, no missing primary outcome data, ITT analysis), but the unavoidable lack of blinding of patients, clinicians and the research nurse affects assessment of device-related complications and removal decisions, and multiple complication outcomes/exploratory analyses plus manufacturer co-funding raise some concern about selective reporting. Overall risk is therefore \"some concerns,\" driven by domains 2, 4 and 5."
+  },
+  {
+    "paper_id": "manual:fd5819a9",
+    "paper_title": "2ee6500d_jva.5000071",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that ICU patients requiring a PICC were randomized into one of three dual-lumen PICC types (\"Participants were randomized into one of three dual lumen 5 Fr PICCs\"), and analysis was intention-to-treat according to groups as randomized.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no detail is given on sequence generation or allocation concealment, and there is a notable baseline imbalance in sex (35% vs 59% vs 67% male) and in laterality/PICC days across arms, raising uncertainty about the adequacy of the allocation process.",
+        "evidence_quote": "\"Participants were randomized into one of three dual lumen 5 Fr PICCs\" ... \"Male sex 12 (35%) | 20 (59%) | 22 (67%)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An appropriate intention-to-treat analysis was used and catheter care/occlusion management followed a fixed protocol, but the trial was necessarily open-label (inserting nurses and bedside staff knew the catheter type, and additional PASV-specific training was delivered during the study), so differential care or handling cannot be excluded.",
+        "evidence_quote": "\"Analysis was on an intention-to-treat basis (i.e. the data was analyzed according to the groups as randomized).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 101 of 102 randomized patients (a single exclusion for a failed insertion), so missingness is minimal and very unlikely to bias the occlusion estimates.",
+        "evidence_quote": "\"In one patient, the PICC (Navilyst PASV) could only be advanced a short distance and it was not possible to aspirate blood from it. This patient was excluded from further analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Occlusion was ascertained by unblinded clinical staff using a somewhat subjective criterion (including \"poor blood flow\"), without distinguishing withdrawal from total occlusion and without independent or blinded adjudication, so knowledge of catheter type could have influenced outcome detection, although the protocolized management partly mitigates this.",
+        "evidence_quote": "\"Both withdrawal occlusions and total occlusions were dealt with in the same way and we did not distinguish between the two or document which sort had occurred\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, the outcome was reported in multiple operationalizations (risk per catheter, rate per 1000 catheter days, multiple pairwise rate ratios) plus an apparently post-hoc pooling of the Cook and Groshong arms, and the trial was stopped early, allowing scope for selective presentation of results.",
+        "evidence_quote": "\"The difference in percentage occluded between the Cook/Groshong group and PASV group was calculated to be 11% (95% CI, 11% to 32%).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This randomized three-arm trial used intention-to-treat analysis with near-complete outcome data, but no details of sequence generation or allocation concealment are reported alongside visible baseline imbalance (sex, laterality), the open-label design permitted unblinded and partly subjective outcome ascertainment, and the absence of a registered protocol combined with early termination and multiple outcome operationalizations raises concerns about selective reporting. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:37c02d73",
+    "paper_title": "bedbc40c_jva.5000280",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states patients were randomized into three catheter groups in a prospective randomized controlled trial (\"One hundred and eighty adult patients candidate to chemotherapy were randomized into three groups\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was necessarily open-label (nurses and patients knew the catheter type), which may plausibly influence subjective reporting-driven care decisions (e.g., gravity-infusion difficulty, occlusion management), and no ITT analysis or handling of the early-stopped/withdrawn cases is described.",
+        "evidence_quote": "\"we prepared a questionnaire for each use of each catheter, which had to be filled by the nurse caring for the PICC on that specific day\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no method of sequence generation or allocation concealment is described; baseline characteristics (Table I) appear balanced, so concerns rather than high risk.",
+        "evidence_quote": "\"One hundred and eighty adult patients candidate to chemotherapy were randomized into three groups\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 180 randomized patients (61/60/59) appear accounted for in the outcome tables with no reported loss to follow-up, though the trial was stopped early at 180 of a planned 300.",
+        "evidence_quote": "\"We analyzed the results from the first 180 randomized patients\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome definitions were standardized via questionnaire and guideline-based criteria, but assessors (nurses) were unblinded and some outcomes (malfunction, difficulty with gravity infusion) are subjective and susceptible to knowledge of catheter type.",
+        "evidence_quote": "\"in 31% of PICCs with Solo-2 Valve and in 65% of PICCs with PASV, the nurses experienced some difficulties in gravity infusion\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or protocol is cited, the pre-specified sample size (300) was not reached so the analysis is an unplanned interim analysis of 180 patients, and although a Chi-square plan is stated no p-values or formal comparative statistics are reported for the primary endpoint.",
+        "evidence_quote": "\"The study was interrupted at 180 patients (approximately 60 for each group) because of three episodes of rupture of Power Solo PICCs.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by the selective-reporting domain: the trial was terminated early at 180 of a planned 300 patients, no protocol/registration is cited, and the pre-specified Chi-square comparisons are reported without any statistical results. Additional concerns arise from undescribed randomization/allocation concealment and unblinded nurse assessment of partly subjective outcomes (occlusion, gravity-infusion difficulty)."
+  },
+  {
+    "paper_id": "manual:ea610909",
+    "paper_title": "7c16ad6d_s13063-020-04699-z",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit parallel-group pilot RCT with 1:1 allocation using computer-generated randomisation via a web-based service with randomly varied block sizes (two and four), prospectively registered (ACTRN12616001578493).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central web-based computer-generated allocation with varied block sizes ensured concealment until study entry, and baseline demographic/clinical characteristics were balanced (the imbalance in inserter experience reflects the novelty of the device, not allocation failure).",
+        "evidence_quote": "\"Patients who agreed to participate were randomised via computer-generated randomisation immediately before PICC insertion via a web-based service ... to ensure allocation concealment until study entry. Patients were randomly assigned in a 1:1 ratio with randomly varied block sizes of two and four.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Inserters, patients and treating clinicians were unblinded and 5/111 (5%) did not receive the allocated PICC; inserters were markedly less experienced with the intervention device (29% had never inserted it) which could affect performance, although intention-to-treat analysis was used.",
+        "evidence_quote": "\"It was not possible to blind the PICC inserters, patients, or healthcare professionals caring for the patients enrolled in the study.\" ... \"The PICC inserters were more experienced at inserting the standard care PICC\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome definitions were standardised and infection/thrombosis adjudicators and the analyst were blinded, but PICC failure (e.g. decision to remove, occlusion, dislodgement) was determined by unblinded treating clinicians and data collected by an unblinded research nurse, and thrombus was only ascertained in symptomatic patients.",
+        "evidence_quote": "\"The infection control physician (adjudicating infection outcomes), radiologist (adjudicating thrombosis outcomes), and data analyst were blinded to the study allocation.\" ... \"The decision to take blood cultures and remove PICCs was made by the medical officer treating the patient.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "No withdrawals and no missing primary outcome data; the 13 (12%) patients censored on transfer were balanced across groups (7 control, 6 intervention) and handled by survival analysis.",
+        "evidence_quote": "\"No patients withdrew from the study and there was no missing data.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "Trial was prospectively registered and the protocol published a priori, with pre-specified feasibility and clinical outcomes reported in line with CONSORT; funder (device manufacturer) had no role in analysis or reporting.",
+        "evidence_quote": "\"Prospectively registered on 16 November 2016. The trial protocol was published a priori\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomisation, data completeness and pre-registration were strong, but inability to blind inserters/clinicians/patients, substantially lower inserter experience with the intervention device, a 5% non-adherence rate, and clinician-driven (unblinded) determination of PICC failure raise some concerns. Overall risk is therefore 'some concerns', driven by domains 2 and 4."
+  }
+]

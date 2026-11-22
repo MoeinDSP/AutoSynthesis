@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people who use tobacco, what is the effect of behavioural support on tobacco-use cessation compared with matched brief-advice or no-behavioural-support controls, while retaining three intervention-combination subgroups\u2014behavioural support alone, behavioural support plus nicotine replacement therapy (NRT), and behavioural support plus varenicline\u2014within one pooled analysis?",
+  "treatment_label": "Behavioural support, classified as (1) behavioural support alone, (2) behavioural support + NRT, or (3) behavioural support + varenicline",
+  "control_label": "Matched control: brief advice or no intervention for behavioural support alone; brief advice + NRT or NRT without intensive behavioural support for behavioural support + NRT; varenicline alone or varenicline without intensive behavioural support for behavioural support + varenicline",
+  "outcome_description": "Tobacco-use cessation measured as abstinence from smoking or other tobacco use at the study-defined follow-up, including continuous/prolonged abstinence or point-prevalence abstinence verified biochemically or by self-report. Prefer the most rigorous available cessation definition within each study (continuous/prolonged over point prevalence; biochemically verified over self-report) and extract the longest reported follow-up unless a common review-defined follow-up is required. Pool all eligible cessation results as one target construct, with intervention-combination category entered as a prespecified subgroup.",
+  "positive_direction": "A positive effect means that behavioural support, with or without matched pharmacotherapy, increases tobacco-use cessation relative to its matched control condition.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "behavioural support tobacco cessation controlled trial abstinence",
+    "smoking cessation counselling brief advice randomized trial",
+    "behavioural support nicotine replacement varenicline cessation trial"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of people who use tobacco that evaluate behavioural support intended to promote tobacco-use cessation, either alone or combined with NRT or varenicline.",
+    "Studies containing a matched comparison condition consisting of brief advice, no intervention, NRT with absent or minimal behavioural support, or varenicline with absent or minimal behavioural support.",
+    "Studies reporting a quantitative tobacco-cessation or abstinence outcome from which an effect size can be calculated."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between a behavioural-support treatment condition and an eligible matched control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as event counts or proportions, means and standard deviations, t/F-values, or odds ratios.",
+    "Completely unrelated to behavioural support for tobacco-use cessation."
+  ],
+  "moderators_to_extract": [
+    "Intervention-combination subgroup (behavioural support alone; behavioural support + NRT; behavioural support + varenicline)",
+    "Behavioural-support intensity and delivery mode (number/duration of contacts; individual, group, telephone, digital, or mixed)",
+    "Comparator type and intensity (no intervention, brief advice, or matched pharmacotherapy with minimal/no behavioural support)",
+    "Abstinence definition and biochemical verification status",
+    "Follow-up duration",
+    "Participant and tobacco-use characteristics, including tobacco product and population setting"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Conduct one pooled analysis with three prespecified intervention-combination subgroups: behavioural support alone versus brief advice/no intervention; behavioural support + NRT versus brief advice/minimal support + NRT; and behavioural support + varenicline versus varenicline alone/minimal support. Preserve each study arm as a separate comparison row. When multiple eligible behavioural-support variants share one control arm, include every eligible variant and divide the shared control group proportionally across comparisons (splitting both the control sample size and cessation-event count as closely as integer constraints permit) so participants are not double-counted; do not select or discard intervention variants. Keep matched pharmacotherapy balanced between intervention and control arms. Use a random-effects model with subgroup estimates and an overall pooled estimate, assess heterogeneity (tau-squared and I-squared), test subgroup differences, and conduct sensitivity analyses for abstinence definition, verification, follow-up duration, risk of bias, and alternative handling of correlated multi-arm comparisons where feasible.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "tobacco-use cessation"
+}

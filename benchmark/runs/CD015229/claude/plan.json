@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of a single sympathetic nerve block, compared with standard care, on pain score at 14 days post-intervention?",
+  "treatment_label": "Single sympathetic nerve block (e.g. stellate ganglion, lumbar sympathetic, celiac plexus, or paravertebral sympathetic block)",
+  "control_label": "Standard care (usual pharmacological/conservative management, sham block, or placebo injection)",
+  "outcome_description": "Patient-reported pain intensity score measured at approximately 14 days (\u00b1a few days) after the single sympathetic nerve block, on any continuous pain scale (e.g. VAS 0-100, NRS 0-10, pain subscale of a composite instrument). Only the ~14-day assessment is extracted; other timepoints (e.g. 24 hours, 1 month, 3 months) are handled in separate analyses of this review.",
+  "positive_direction": "A positive effect size means the single sympathetic nerve block group had LOWER pain scores (less pain) at 14 days than the standard care group \u2014 i.e. the block reduced pain.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "sympathetic nerve block randomized controlled trial pain score",
+    "stellate ganglion block versus standard care pain outcome trial",
+    "lumbar sympathetic block single injection pain intensity VAS trial"
+  ],
+  "inclusion_criteria": [
+    "Human study in which patients received a single sympathetic nerve block (any target: stellate ganglion, lumbar sympathetic chain, celiac/splanchnic plexus, thoracic sympathetic, etc.) for any painful condition",
+    "Includes a comparison group receiving standard care, usual treatment, sham, or placebo injection",
+    "Reports any quantitative pain-intensity outcome at or near 14 days (approximately 1-3 weeks) that can be converted into an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, case report, or purely theoretical/protocol paper)",
+    "No comparison between a sympathetic block (treatment) condition and a standard care / sham / control condition",
+    "No quantitative outcome data usable for an effect size (no means with SDs/SEs/CIs, t or F statistics, proportions, or odds ratios)",
+    "Completely unrelated to sympathetic nerve blockade or to pain outcomes"
+  ],
+  "moderators_to_extract": [
+    "Anatomical target of the sympathetic block (stellate ganglion, lumbar, celiac, other)",
+    "Underlying pain condition (CRPS, cancer pain, postherpetic neuralgia, ischemic/vascular pain, other)",
+    "Comparator type (active standard care vs sham/placebo injection)",
+    "Pain scale used (VAS vs NRS vs other)",
+    "Study design (randomized vs non-randomized/quasi-experimental)",
+    "Sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "User explicitly requested pooling as a mean difference (MD) on the raw pain-score scale. Extract post-intervention means and SDs (or convert from SE/CI/IQR) at the ~14-day timepoint only; sign effects so that a positive MD indicates lower pain (benefit) in the sympathetic block arm. If a study reports multiple pain measures at 14 days, prefer the primary/overall pain-intensity scale.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pain score at 14 days"
+}

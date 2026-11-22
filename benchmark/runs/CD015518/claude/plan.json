@@ -1,0 +1,39 @@
+{
+  "research_question": "Does resistance training delivered during anticancer therapy, compared with no training (usual care/waitlist/non-exercise control), reduce cancer-related fatigue assessed at 12 weeks or less in people with cancer?",
+  "treatment_label": "Resistance (strength) training during anticancer therapy",
+  "control_label": "No training (usual care, waitlist, or non-exercise control)",
+  "outcome_description": "Cancer-related fatigue measured with any validated self-report instrument (e.g. FACIT-F/FACT-F fatigue subscale, EORTC QLQ-C30 fatigue scale, Brief Fatigue Inventory, Piper Fatigue Scale, MFI, FSI, POMS fatigue subscale) at a post-intervention or follow-up assessment occurring 12 weeks or less from baseline/randomization. Scores are oriented so that higher = more fatigue (reverse-oriented scales such as FACIT-F are rescored accordingly).",
+  "positive_direction": "A positive Hedges g / SMD means the resistance training group had LESS cancer-related fatigue than the no-training control group (i.e. resistance training reduced fatigue).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "resistance training cancer-related fatigue randomized controlled trial",
+    "strength training during chemotherapy fatigue outcome patients with cancer",
+    "progressive resistance exercise radiotherapy fatigue trial effect"
+  ],
+  "inclusion_criteria": [
+    "Participants are people diagnosed with any type or stage of cancer who are undergoing anticancer therapy (chemotherapy, radiotherapy, hormonal, targeted, or immunotherapy) during the intervention period",
+    "The study evaluates a resistance/strength training intervention (alone or as a clearly identifiable component of an exercise programme) compared with a non-exercising control group such as usual care, waitlist, attention control, or stretching/education only",
+    "The study reports some quantitative measure of fatigue at an assessment point of 12 weeks or less from baseline (means and SDs, change scores, t/F statistics, or other data from which an effect size can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, conference abstract without data, or purely theoretical/narrative paper)",
+    "No comparison between a resistance-training condition and a non-training control condition (e.g. single-arm pre-post studies, or comparisons only between two active exercise arms)",
+    "No quantitative fatigue outcome data from which an effect size can be computed (no means+SDs, t/F values, proportions, or odds ratios reported or derivable)",
+    "Fatigue reported only at follow-up windows later than 12 weeks post-baseline, or the study is completely unrelated to resistance training and cancer-related fatigue (e.g. non-cancer populations, no fatigue outcome)"
+  ],
+  "moderators_to_extract": [
+    "Cancer type (breast, prostate, mixed, haematological, other)",
+    "Type of anticancer therapy during the intervention (chemotherapy, radiotherapy, hormonal/other)",
+    "Intervention modality (resistance training only vs combined aerobic + resistance)",
+    "Supervision and setting (supervised in-person, home-based/unsupervised, hybrid)",
+    "Intervention duration and weekly session frequency/dose",
+    "Fatigue instrument used (FACIT-F, EORTC QLQ-C30, BFI, PFS, MFI, other)",
+    "Sample size category and risk-of-bias/attrition level"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardized mean difference (Hedges g-corrected SMD) because studies use heterogeneous fatigue instruments. Where only change-from-baseline means are available, compute SMD from change scores using baseline or pooled SDs. Reverse the sign for scales where higher = better (e.g. FACIT-F, FACT-F, EORTC functional orientation) so that a positive effect always indicates less fatigue with resistance training. Random-effects (REML) model with Knapp-Hartung adjustment; heterogeneity via tau-squared and I-squared; publication bias via funnel plot and Egger's test.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cancer-related fatigue"
+}

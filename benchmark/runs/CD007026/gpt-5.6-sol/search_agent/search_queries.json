@@ -1,0 +1,16 @@
+{
+  "user_prompt": "Meta-analysis of randomised placebo-controlled trials of Cerebrolysin (or Cortexin) in adults with acute ischaemic stroke.\n\nOutcome: all-cause death (mortality from any cause) during the trial follow-up, as the number of participants who died out of the number randomised in each arm. Use the longest follow-up the trial reports for mortality (for example day 90 or the end of the trial).\n\nEffect measure: Risk Ratio (RR), Cerebrolysin or Cortexin versus placebo, using event counts. Values below 1 favour the treatment group.\n\nOutcome rules:\n- Treatment arm = Cerebrolysin (or Cortexin) as an add-on or alone. Control arm = placebo (saline). If a trial has several treatment dose groups, add the events and the participants across the dose groups and compare them against the single placebo group once, so the placebo participants are not counted twice.\n- Use deaths from any cause, including deaths reported in the safety or adverse-events section. Do not use stroke-related deaths only, and do not use functional outcomes (mRS, NIHSS, Barthel).\n- Use the randomised group sizes if the analysed Ns are not reported.\n- If a trial reports zero deaths in both arms, keep it in the extraction but note it.\n\nInclude all trials found in the uploaded papers. Do not exclude a trial because of its dose, its duration, or because it also tested another drug together with Cerebrolysin (for example alteplase). Exclude only reviews, protocols and trials without a placebo control.",
+  "planned_search_queries": [
+    "Cerebrolysin acute ischemic stroke randomized placebo mortality trial",
+    "Cortexin acute ischaemic stroke placebo controlled death trial",
+    "neuroprotective peptide acute ischemic stroke Cerebrolysin Cortexin randomized controlled outcome"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "Cerebrolysin acute ischemic stroke randomized saline placebo mortality trial",
+    "Cerebrolysin acute ischaemic stroke placebo controlled death outcome",
+    "Cerebrolysin acute stroke randomized trial deaths adverse events",
+    "Cortexin acute ischemic stroke randomized saline placebo mortality trial",
+    "Cortexin acute ischaemic stroke placebo controlled death outcome"
+  ]
+}

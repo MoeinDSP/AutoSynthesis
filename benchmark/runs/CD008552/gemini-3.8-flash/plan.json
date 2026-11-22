@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of child-feeding interventions compared to no-intervention controls on children's short-term vegetable intake (<12 months follow-up)?",
+  "treatment_label": "Child-feeding intervention",
+  "control_label": "No-intervention control",
+  "outcome_description": "Children's vegetable intake measured short-term (<12 months following intervention, assessed via grams consumed, portions, daily frequency, or feeding trial intake)",
+  "positive_direction": "A positive effect size indicates higher vegetable intake in the child-feeding intervention group compared to the control group.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "child feeding intervention vegetable intake trial",
+    "children vegetable consumption feeding intervention controlled comparison",
+    "preschool child vegetable intake feeding practice quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Empirical controlled studies evaluating child-feeding interventions (e.g., repeated exposure, sensory education, parent feeding guidance) aimed at promoting vegetable consumption in children.",
+    "Inclusion of a no-intervention, waitlist, or usual-care control group for comparison.",
+    "Quantitative reporting of children's vegetable intake assessed short-term (<12 months post-intervention)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded).",
+    "No comparison between a child-feeding intervention and a no-intervention or standard-care control group.",
+    "No extractable quantitative outcome data for vegetable intake (means and SDs, change scores, or test statistics required to calculate an effect size).",
+    "Outcomes evaluated exclusively at \u226512 months post-intervention, or study completely unrelated to child vegetable consumption."
+  ],
+  "moderators_to_extract": [
+    "Intervention strategy (e.g., repeated exposure, sensory play, parent training, multicomponent)",
+    "Setting (e.g., home, preschool/daycare, school, laboratory)",
+    "Child age group (e.g., infants/toddlers 0-2y, preschoolers 3-5y, school-age 6-12y)",
+    "Outcome measurement method (e.g., weighed intake/plate waste, food diary/recall, food frequency questionnaire)",
+    "Timing of post-intervention assessment (e.g., immediate post-test vs. 1-6 months follow-up)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Standardized mean difference (SMD / Hedges' g) will be calculated to pool diverse measurement scales of vegetable intake (e.g., grams consumed, portions per day, dietary frequency, plate waste).",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "vegetable intake"
+}

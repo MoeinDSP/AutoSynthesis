@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of indicated interventions compared with control on suicidal ideation measured immediately postintervention among young people up to age 25 in education settings?",
+  "treatment_label": "Indicated intervention",
+  "control_label": "Control (treatment-as-usual, waitlist, or active control)",
+  "outcome_description": "Suicidal ideation measured immediately at postintervention (end of intervention)",
+  "positive_direction": "A positive effect size indicates greater reduction in suicidal ideation in the indicated intervention group compared to the control group (favoring intervention)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "indicated suicide intervention school college youth trial",
+    "indicated intervention suicidal ideation students randomized controlled",
+    "targeted suicide prevention young people education setting trial"
+  ],
+  "inclusion_criteria": [
+    "Empirical studies evaluating an indicated intervention targeting youth or young adults (up to age 25) with existing suicidal ideation, self-harm history, or early risk signs in an education setting (e.g., middle/high school, college, university)",
+    "Comparison of the indicated intervention against a control group (e.g., treatment-as-usual, waitlist, attention control, or minimal intervention)",
+    "Quantitative assessment of suicidal ideation measured immediately at the end of the intervention (postintervention)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, commentaries, or theoretical papers)",
+    "Universal or purely selective interventions that do not target symptomatic/at-risk youth showing early signs or suicidal ideation/self-harm history, or studies outside education settings / with mean age > 25",
+    "No comparison between an indicated intervention and a control condition, or lack of quantitative suicidal ideation data at postintervention to calculate an effect size",
+    "Completely unrelated to suicide prevention interventions among young people"
+  ],
+  "moderators_to_extract": [
+    "Education level (secondary/high school vs. postsecondary/college/university)",
+    "Control condition type (waitlist, treatment-as-usual, attention/active control)",
+    "Intervention delivery format (individual, group, digital/computerized)",
+    "Intervention duration or number of sessions",
+    "Mean age of participants"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Extract each indicated intervention arm separately against shared control in multi-arm trials. If sample size per group is unreported in a randomized trial, assume a 50/50 split between arms and document this assumption.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "suicidal ideation"
+}

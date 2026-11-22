@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:9a64996e",
+    "paper_title": "3c959176_1748-717X-5-31",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a prospective, randomized, double-blind, placebo-controlled trial in which patients were stratified and randomly assigned in a 1:1 ratio to receive either the study drug or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although pre-packaged identical medications labeled only by patient numbers were provided by the sponsor, the exact method of sequence generation was not reported, raising some concerns.",
+        "evidence_quote": "Patients were stratified by age, stage, and whole pelvis radiotherapy technique. Patients were randomly assigned in a double blind fashion to receive study drug or placebo in a 1: 1 ratio... Pre-packaged (blinded) study medication differing solely in the patient numbers on the medication package was provided by the sponser."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The study was double-blind using an identical placebo, treating clinicians and patients were unaware of assignment, and analysis followed the intention-to-treat principle with no reported protocol deviations.",
+        "evidence_quote": "In the other control group, an the identical-appearing placebo was administered in the same schedule. Neither the patient nor the treating physician knew if the patient was on the study drug or placebo... Patients who took < 80% of the medication were considered non-compliant, but were included in the intent-to-treat analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 63 randomized patients completed the study and had complete outcome data analyzed, leaving no missing outcome data.",
+        "evidence_quote": "Between January 2007 and April 2009, sixty-three patients were randomly allocated to receive lactobacillus acidophilus plus bifidobacterium bifidum (Infloran\u00ae) in 32 patients or a placebo in 31 patients (Fig 1). All 63 patients were eligible and assessable."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Patients, treating physicians, and laboratory technicians were blinded to treatment allocation, and standardized objective criteria (NCI CTC v2.0 and lab assessments) were used.",
+        "evidence_quote": "Neither the patient nor the treating physician knew if the patient was on the study drug or placebo. Patients were evaluated weekly for the severity of diarrhea according to the National Cancer Institute Common Toxicity Criteria; NCI CTC version 2.0... Stool consistency was objectively defined by the technician in the laboratory and cell counts were analyzed by fresh stool examination (wet mount)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The reported outcomes directly correspond to the prespecified primary and secondary endpoints defined in the Methods section, with no indication of selective reporting.",
+        "evidence_quote": "The primary endpoint was to reduce the incidence of diarrhea, defined by a CTC grade 2 or more, and the need for antidiarrheal medication."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The overall risk of bias is judged as 'some concerns' due to insufficient reporting of the specific method used to generate the random allocation sequence in Domain 1, despite appropriate double-blinding, complete outcome data, and objective outcome assessment."
+  },
+  {
+    "paper_id": "manual:6c36a563",
+    "paper_title": "eb81569c_int-j-radi-v14n3p205-en",
+    "design_classification": "randomized",
+    "design_rationale": "The authors describe the study as a randomized trial and state that 'Simple randomization was used to allocate patients to three groups'.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although simple randomization was reported, the exact method of sequence generation and allocation concealment was not described.",
+        "evidence_quote": "Simple randomization was used to allocate patients to three groups: group one received probiotics... group two took a combination of probiotic and honey... group three was the control group received two placebo capsules per day..."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "While placebo capsules matched probiotics, group two received open-label honey without a honey placebo for the other arms, meaning patients and staff were not blinded across all interventions.",
+        "evidence_quote": "Placebo capsules containing 500 mg of corn starch, with the same size, shape and color of probiotic capsules were purchased... group two took a combination of probiotic and honey (two probiotic capsules and 30 grams honey per day... group three was the control group received two placebo capsules per day..."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Eleven of 78 enrolled patients (14%) were excluded due to failure to follow-up without reporting group-specific attrition or conducting an intention-to-treat analysis to account for missingness.",
+        "evidence_quote": "Among 78 patients involved in this study, 11 patients were excluded for failure to follow up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were patient-reported or assessed by a single evaluator who was likely aware of group assignment due to the open-label nature of the honey component.",
+        "evidence_quote": "The patients evaluated for the daily number of bowel movement (defecation), diarrhea grade, stool consistency score, the need for antidiarrheal medication and bloating weekly by one person."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although registered in IRCT, the registration was retrospective (trial conducted 2012-2013, registered in 2015), precluding confirmation of a pre-specified analysis plan.",
+        "evidence_quote": "This study was registered in the Iranian Registry of Clinical Trials (IRCT2015030421338N1)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "The overall risk of bias is high due to substantial post-randomization exclusions for loss to follow-up without reporting group breakdown or addressing missing data, compounded by concerns regarding lack of blinding and allocation concealment details."
+  },
+  {
+    "paper_id": "manual:0afd28ca",
+    "paper_title": "6ab6b937_PIIS0261561413002744",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly assigned using permuted blocks of 2, 4, or 6 to placebo or probiotic regimens.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The research nurse both knew the coding system and assigned patients to groups, which raises potential concerns about allocation concealment.",
+        "evidence_quote": "Patients were block-randomized by the research nurse and received a standard dose of Bifilact\u00ae probiotics or placebo according to the random list generated by blocks of 2, 4, or 6 patients, according to random permutations. ... Only the nurse knew the coding system, the nurse also assigned the patient to a group, according to the randomization list."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, treating dieticians, and caregivers were blinded with matched bottles, and deviations from intended interventions were minimal with high adherence.",
+        "evidence_quote": "All the bottles had a similar appearance; they were all identified by the commercial brand Bifilact\u00ae. Also the group, either A, B or C, was circled on that bottle... The two registered dieticians and caregivers were blinded to these processes to preserve the double blind."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 17 out of 246 randomized participants (6.9%) dropped out before starting treatment, and dropout reasons are clearly documented and balanced across groups.",
+        "evidence_quote": "A total of 246 Patients were randomized... 229 patients were analyzed... 17 patients were excluded (Fig. 1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated criteria (WHO and NCI scales) were used and outcome assessors (dieticians and clinicians) were fully blinded to treatment allocation.",
+        "evidence_quote": "Patients were trained to record their digestive symptoms daily with a standardized scale and they met a registered dietician and radiation oncologist every week during treatment. ... The registered dietician also analyzed the patient's logbook to translate what the patient had recorded into official WHO or NCI grading..."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A protocol amendment mid-trial added an extra treatment arm based on interim analysis findings, and key positive conclusions focus on post-hoc timepoints (e.g., at 60 days) despite the overall primary endpoint not being statistically significant (p = 0.13).",
+        "evidence_quote": "Following preliminary results that revealed a reduction in maximum-grade diarrheal toxicity on weeks 2 and 6 (p = 0.03) for the Bifilact\u00ae treatment group, it was decided to continue recruiting as planned... Moreover, another random block using higher probiotics dosage to the randomization was added with preservation of the double blind."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial has some concerns regarding the randomization process due to unclear allocation concealment (the research nurse who enrolled patients knew the code) and selective reporting/protocol changes (adding a third arm mid-study after an interim look, and highlighting a 60-day finding despite a non-significant overall primary outcome)."
+  },
+  {
+    "paper_id": "manual:5e1933a3",
+    "paper_title": "fd710591_PIIS0360301607045105",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a multicenter, double-blind, randomized, placebo-controlled trial where patients were randomized in blocks and stratified by tumor type.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although blocked and stratified randomization was reported, the specific method of random sequence generation and allocation concealment was not detailed.",
+        "evidence_quote": "Randomization was done in blocks and stratified by tumor type."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "A substantial proportion of randomized participants (33 of 118, ~28%) were excluded post-randomization due to premature withdrawal, protocol violations, and non-compliance, violating the intention-to-treat principle.",
+        "evidence_quote": "Subsequent review determined that 33 of the total number of patients were ineligible and were excluded from the study. Of these 33 patients, 17 withdrew prematurely for personal reasons, 11 were excluded for protocol violations, and 5 were excluded for a lack of compliance."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Over 25% of randomized participants were excluded from the primary analysis, and missingness could plausibly be related to treatment tolerance or lack of efficacy.",
+        "evidence_quote": "Between November 2002 and December 2005 a total of 118 patients were randomly allocated to either the active product or placebo. Subsequent review determined that 33 of the total number of patients were ineligible and were excluded from the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcome assessment was objective and standardized using Common Toxicity Criteria and Bristol scale logs in a blinded trial with an identical placebo.",
+        "evidence_quote": "The primary endpoint was to reduce the incidence of diarrhea, defined by a Common Toxicity Criteria Grade of 2 or greater or the need for loperamide. ... This was a placebo-controlled, double-blind, randomized clinical trial in two parallel groups."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no mention of a pre-registered protocol or analysis plan, and early trial termination occurred before reaching the targeted sample size.",
+        "evidence_quote": "The accrual goal was 154 patients, with 77 in each treatment group. ... However, because of difficulties with recruitment, enrollment was closed after 3 years and before the planned sample size had been achieved."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "The overall risk of bias is high due to substantial post-randomization exclusions (33 of 118 patients, 28%) including withdrawals, protocol violations, and non-compliance, which were omitted from the analysis rather than analyzed under an intention-to-treat approach."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of early (started before 7 days of postnatal age), low-dose systemic dexamethasone (cumulative dose below 2 mg/kg), compared with placebo or no treatment, on the combined outcome of death or bronchopulmonary dysplasia (BPD) at 36 weeks' postmenstrual age in preterm infants at risk of BPD?  Effect measure: pool as a risk ratio (RR) using a fixed-effect Mantel-Haenszel model if available, otherwise random effects. RR < 1 means fewer infants died or had BPD with dexamethasone (favours dexamethasone).  Outcome: number of infants who died or had BPD at 36 weeks' postmenstrual age (events) out of the number randomised to each arm (total). - Use the combined outcome \"death or BPD\". Do not use BPD alone among survivors, death alone, or BPD at 28 days of age. - BPD at 36 weeks means oxygen requirement at 36 weeks' postmenstrual age; the number of infants dead before that time must be added to the number with BPD. If a paper reports death and BPD in survivors separately, sum them and use the number randomised as the denominator. - If a paper reports only \"chronic lung disease at 36 weeks\" or \"oxygen dependence at 36 weeks\" together with deaths, treat these as BPD. - Start of treatment must be before 7 days of life. Cumulative dexamethasone dose must be under 2 mg/kg over the whole course; compute the cumulative dose from the dose, schedule and duration given in the paper if it is not stated. Exclude trials whose cumulative dose is 2 mg/kg or more, or whose treatment begins at 7 days or later, from this group. - Control: placebo or no treatment. Exclude trials whose control is another steroid or a different dexamethasone dose. - Multi-arm trials: use the low-dose dexamethasone arm and the placebo/no-treatment arm only, and ignore other steroid arms (or combine arms that fall in the same dose category). - Assign arms by treatment description; use the number randomised as the denominator (intention-to-treat). - Include only randomised controlled trials in infants born before 37 weeks. Exclude trials of hydrocortisone, inhaled or intratracheal steroids, and trials of dexamethasone only for extubation in infants already ventilator-dependent after 7 days.  Do not pool BPD alone, mortality alone, cerebral palsy, neurodevelopmental outcome, infection, hypertension, hyperglycaemia or growth.",
+  "planned_search_queries": [
+    "early low dose dexamethasone preterm infants trial",
+    "dexamethasone bronchopulmonary dysplasia randomized trial",
+    "early systemic dexamethasone premature death BPD controlled"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "early low dose dexamethasone preterm infants bronchopulmonary dysplasia randomized trial",
+    "early systemic dexamethasone premature infants death BPD placebo controlled trial",
+    "low dose dexamethasone preterm neonates chronic lung disease mortality trial",
+    "early dexamethasone very low birth weight bronchopulmonary dysplasia clinical trial",
+    "early low dose dexamethasone premature infants bronchopulmonary dysplasia outcome trial"
+  ]
+}

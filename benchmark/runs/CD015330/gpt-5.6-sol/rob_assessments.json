@@ -1,0 +1,508 @@
+[
+  {
+    "paper_id": "manual:d8efc076",
+    "paper_title": "68366169_0890117117733342",
+    "design_classification": "randomized",
+    "design_rationale": "This was a family-cluster randomized controlled trial; software allocated family clusters, stratified by community, to early or delayed intervention groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Family clusters were allocated by software with stratification by community, allocation was concealed until baseline measurements were complete, and the single reported baseline imbalance is compatible with chance.",
+        "evidence_quote": "Randomization of family clusters (stratified as Hispanic, Somali, or Sudanese community) was achieved using software that allocated participants to either an early or delayed intervention group. Randomization status was revealed to participants and research staff only after completion of baseline measurements."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and interventionists were unblinded, two allocated families never initiated intervention, contamination of controls was suspected, and the report does not clearly establish a strict intention-to-treat analysis, although fidelity and adherence among participating families were high.",
+        "evidence_quote": "Intervention group assignments could not be masked to interventionists and participants because of the logistical need for coordination among families."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome attrition was substantial at the primary 12-month endpoint and higher by 24 months, and reliance on simple carry-forward and multiple imputation sensitivity methods does not demonstrate that results were unbiased by missingness.",
+        "evidence_quote": "Of the initial 151 persons, loss to follow-up was 16 (11%) at 6 months, 28 (19%) at 12 months (the primary end point), and 48 (32%) at 24 months."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Physical activity was objectively measured and outcomes were assessed consistently, but dietary quality relied on a single supervised 24-hour recall at each time point and unblinded participants could alter self-reported intake after a behavioral intervention.",
+        "evidence_quote": "For logistical reasons in this community-based study, only a single 24-hour dietary recall measure was obtained for each participant at every measurement point."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and primary outcomes were identified, but no prespecified analysis plan is provided and multiple time points, subgroup analyses, outcome components, and imputation approaches created opportunities for selective reporting.",
+        "evidence_quote": "The trial is registered at ClinicalTrials.gov NCT01952808."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial missing outcome data affected 19% of participants at the primary 12-month endpoint and 32% at 24 months without convincing evidence that missingness could not bias results. Additional concerns arise from unblinding and possible contamination, self-reported dietary assessment, and analytical/reporting flexibility."
+  },
+  {
+    "paper_id": "manual:96b1c368",
+    "paper_title": "2e88a7c8_ajph.94.9.1538",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports random assignment: girls were individually randomized in year 1, and classes were randomized thereafter because of scheduling constraints.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was described as random, but the sequence-generation and concealment methods were not reported, the unit changed from individuals to classes after year 1, and several baseline imbalances were present.",
+        "evidence_quote": "In year 1 of the study, individual girls were randomly assigned to experimental classes (PATH) or to traditional physical education control classes (PED)... Because of scheduling difficulties at the schools after year 1, random assignment thereafter was performed by class."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and teachers were necessarily aware of assignment, same-school contamination was possible, attendance differed by intervention, intervention delivery varied by site, and the analysis neither accounted for class clustering nor clearly followed intention-to-treat principles.",
+        "evidence_quote": "The fact that experimental and control participants were located in the same school was also of concern owing to possible contamination of control classes."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome availability varied substantially and differentially across measures because of transfers and absences, with no sensitivity analysis or other evidence showing that missingness could not bias results.",
+        "evidence_quote": "Because of pervasive problems with student transfers and absences, the sample sizes varied among tests."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Most physiological measures used standard procedures and trained staff, but assessor blinding was not reported and several behavioral outcomes were self-reported by participants who knew their intervention assignment.",
+        "evidence_quote": "Self-administered anonymous questionnaires were completed by participants before and after the intervention."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified analysis plan was reported, many outcomes were tested at an unadjusted significance threshold, and clustering from class randomization was not modeled, leaving scope for selective reporting or analysis.",
+        "evidence_quote": "A P value of .05 was chosen for significance and was used for all statistical comparisons in the study."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial missing outcome data without analyses addressing missingness and concerns about deviations/analysis, including possible contamination, differential attendance, variable delivery, and failure to account for cluster randomization. Additional concerns arise from incompletely described allocation and lack of prespecification."
+  },
+  {
+    "paper_id": "manual:88d7a420",
+    "paper_title": "968a531d_archpediatrics.2009.2",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster-randomized controlled trial in which schools (or co-located school locations) were explicitly randomly assigned to intervention or control using SPSS, with stratification by urbanization.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The cluster allocation sequence was generated using statistical software and stratified, but allocation concealment was not described, and several baseline imbalances\u2014including boys' weight and girls' height and screen viewing\u2014raise some concern about the randomization process in a trial with only 18 clusters.",
+        "evidence_quote": "Schools were randomly assigned to either the intervention or control group. Randomization took place at the school level or at the location level (in case 2 schools were located in the same city) and was stratified by degree of urbanization, using SPSS statistical software (SPSS Inc, Chicago, Illinois)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and schools necessarily knew whether they received the behavioral curriculum, implementation was described as demanding, and intervention fidelity was not adequately quantified here; however, analyses were reported as intention-to-treat and there is no clear evidence of outcome-relevant deviations or contamination.",
+        "evidence_quote": "All analyses were performed according to the intention-to-treat principle."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The analysis included students with baseline data and at least one follow-up, missing values were not imputed, and the supplied report does not provide sufficient outcome-specific attrition or sensitivity analyses to establish that missingness could not bias results.",
+        "evidence_quote": "In total, we obtained data from 1108 students (ie, anthropometric or behavioral data at baseline and at least 1 followup measurement)... Missing values were not imputed."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcome measurement was standardized, but anthropometric assessors were not blinded and could plausibly influence skinfold and waist measurements, while behavioral outcomes were unblinded self-reports susceptible to intervention-aware reporting; the authors also acknowledged questionnaire sensitivity and completion problems.",
+        "evidence_quote": "All measurements were performed within a 6-week period according to a standardized protocol by a trained research team, which was not blinded to the group assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, and numerous outcomes, component measures, follow-up times, and sex-stratified analyses create scope for selective emphasis, although the tables report both significant and nonsignificant results broadly.",
+        "evidence_quote": "We have presented differences in the sum of skinfold and separate skinfold thickness measurements. Because these separate analyses increase type I error, the results for the separate skinfold thickness measurements should be interpreted with caution."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because outcome measurement could be influenced by knowledge of intervention assignment: assessors were unblinded for partly judgment-dependent anthropometry, and behavioral outcomes were unblinded self-reports. Additional concerns arise from unreported allocation concealment, incomplete information on missing outcomes and intervention fidelity, and potential multiplicity/selective reporting."
+  },
+  {
+    "paper_id": "manual:38c3e649",
+    "paper_title": "c92b4f6e_j.amepre.2010.07.017",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster/group-randomized controlled trial in which 12 high schools were explicitly randomized to intervention or control conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Schools were explicitly randomized, but the sequence-generation and allocation-concealment methods were not reported, and race/ethnicity differed significantly between arms at baseline despite adjustment in analysis.",
+        "evidence_quote": "High schools were recruited into the study on the condition that they would participate as either control or intervention sites and were randomized into these conditions."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding was infeasible and intervention participation varied, while the report does not explicitly state an intention-to-treat estimand or analysis, although participants appear to have been analyzed by assigned condition and no major unintended deviations are described.",
+        "evidence_quote": "The majority of the girls (80.8%) participated in five to seven sessions (range zero to seven)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Overall follow-up retention was high but differential by arm, and 26% lacked a baseline or follow-up DXA assessment, with no reported sensitivity analysis establishing that missingness could not bias the body-composition result.",
+        "evidence_quote": "The high level of response (94% at follow-up) and the strong evaluation tools are study strengths, although 26% of the girls were missing DXA assessments of body composition at either baseline or follow-up assessments."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Objective body-composition measurements and established questionnaires were used consistently, but many behavioral and psychosocial outcomes were self-reported by participants who necessarily knew their condition, making differential reporting plausible.",
+        "evidence_quote": "Other measures were assessed with the New Moves survey... Most survey items were from previous studies and had high reliability and/or validity."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The study reported numerous outcomes, scales, time points, and unadjusted hypothesis tests, and the provided report gives no prespecified analysis plan sufficient to exclude selective emphasis among many eligible results; several highlighted findings were borderline significant.",
+        "evidence_quote": "Additionally, pvalues have not been adjusted for multiple testing."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because selective reporting is a major concern given the many outcomes, time points, and unadjusted analyses without a clearly documented prespecified analysis plan. Additional concerns arise from incompletely described randomization/concealment, lack of explicit intention-to-treat reporting, missing DXA data, and unblinded self-reported outcomes."
+  },
+  {
+    "paper_id": "manual:4f5c6301",
+    "paper_title": "0c788bec_j.jadohealth.2010.11.243",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports that consenting participants were assigned to intervention or control using a computer-generated random-number assignment.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used and reported baseline characteristics were similar, but allocation concealment was not described.",
+        "evidence_quote": "After obtaining informed consent, subjects were randomly assigned to the intervention group or the control group on the basis of a computer-generated random number assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew which Web content they received, adherence averaged only about 71%, and the report does not clearly state that analyses followed intention-to-treat, although adherence was similar between groups.",
+        "evidence_quote": "The average weekly log on rate was 71.8% (5.74 sessions) for the intervention group and 71.3% (5.7 sessions) for the control group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were complete at all follow-ups for 50 of 54 analyzed participants (93%), and those lost to follow-up did not differ on measured baseline variables.",
+        "evidence_quote": "A total of 50 children and their families (93%) completed baseline and all follow-up measures. No significant differences were found in baseline variables between adolescents who provided follow-up data and adolescents who were lost to followup."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were measured similarly across groups and several were objective, but some significant outcomes relied on participant-reported food diaries or knowledge questionnaires, participants were unblinded, and assessor blinding for anthropometric and blood-pressure outcomes was not reported.",
+        "evidence_quote": "These limitations include convenience sampling, parents with high education, use of self-report measures, involving only Chinese American adolescents, and follow-up for only 6 months after the intervention."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No prespecified protocol or analysis plan is reported, numerous outcomes and time points were examined, and significant mixed-model findings were followed by multiple within-group t tests without a reported multiplicity adjustment, creating substantial scope for selective analysis and emphasis.",
+        "evidence_quote": "To examine the efficacy of the intervention on three follow-up times (T0-T1, T0-T2, T0-T3), t tests were used."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial risk of selective reporting across numerous outcomes, follow-up times, and analyses without a reported prespecified analysis plan or multiplicity control. Additional concerns arise from unreported allocation concealment, incomplete adherence/unclear intention-to-treat analysis, and unblinded or self-reported outcome measurement."
+  },
+  {
+    "paper_id": "manual:2f610019",
+    "paper_title": "a8f32618_j.orcp.2017.07.004",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster-randomized trial in which ten schools were explicitly randomly assigned 1:1 to the New Moves intervention or observation using paper slips selected by school principals.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Schools were allocated by a random paper-slip draw, but allocation concealment is not clearly described, blocked allocation with only ten schools may have made the final assignments predictable, and intervention arms differed at baseline in socioeconomic status and weight.",
+        "evidence_quote": "School names were assigned to paper slips and then randomly selected by the school principals to assign each school to the intervention or control groups. The randomization was not performed with replacement but was blocked, ultimately ensuring an equal sample size between both groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and coordinators were unblinded, adherence to the behavioral intervention was very low, one intervention school did not receive the maintenance phase, and the reported analysis with imputed outcomes does not clearly preserve an effect-of-assignment estimate unaffected by these substantial deviations.",
+        "evidence_quote": "As a measure of adherence, the proportion of girls participating in more than 70% of sessions was 32.9% (n = 43) in the intervention phase, and 19.1% (n = 25) in the maintenance phase."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The authors included all randomized participants and imputed missing values, but they do not report outcome availability by arm or establish that missingness could not depend on outcomes; this is particularly concerning given low participation and one school's absence from maintenance.",
+        "evidence_quote": "Missing data were explored using a combination of graphical displays involving univariate, bivariate and multivariate methods. Imputation was performed using a k-nearest neighbors algorithm (n = 5)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome was an appropriate validated self-report scale administered consistently, but participants and the research team administering questionnaires were unblinded in a behavioral trial, so knowledge of assignment could plausibly influence reported body-shape concerns.",
+        "evidence_quote": "There was no blinding regarding intervention assignments and assessment, but blinding was present during data analysis."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered only in September 2015 after recruitment began in February 2014, and no prespecified protocol or analysis plan is provided to rule out selection among outcome time points, transformations, imputations, or analyses.",
+        "evidence_quote": "The trial was registered at the Brazilian Registry of Clinical Trials in September 2015 (registration number: RBR-6ddpb3)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial intervention deviations and very low adherence, together with unblinded assessment of the subjective primary outcome. Additional concerns arise from incompletely described concealment, insufficient reporting of missing outcomes, and retrospective trial registration."
+  },
+  {
+    "paper_id": "manual:ebc51d36",
+    "paper_title": "86e39b2a_j.ypmed.2009.04.007",
+    "design_classification": "randomized",
+    "design_rationale": "The 33 consenting boys were explicitly randomized to intervention or active comparison using a computer-based number-producing algorithm.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used and baseline measurements preceded randomization, but allocation concealment was not described and the very small sample showed appreciable baseline differences on several outcomes.",
+        "evidence_quote": "Of the 60 invited to participate, 33 consented and were randomized, using a computer-based number producing algorithm, to either the intervention (FILA Program) or active comparison group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers could not be blinded, intervention exposure was incomplete (especially lunchtime attendance), and two curriculum sessions were cancelled, although analyses were reported as intention-to-treat and no clearly outcome-affecting deviations were identified.",
+        "evidence_quote": "Data were analyzed using SPSS version 16 using intention-to-treat principles."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Nearly complete data were available for BMI and most outcomes (32/33 retained and reportedly complete), but only 72% of accelerometer data were usable and the text does not establish that this missingness was unrelated to physical-activity outcomes.",
+        "evidence_quote": "One hundred percent of data were collected at baseline and follow-up for all measurements, except for objectively measured physical activity. For objectively measured physical activity, 72% of data collected were useable."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were measured in both groups using standardized or validated methods by trained independent assessors blinded to allocation, limiting differential measurement bias, although some secondary behavioral outcomes were self-reported.",
+        "evidence_quote": "Trained independent assessors, blind to group allocation, conducted the measurements following standardized protocols."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary and secondary outcomes and ANCOVA approach are described, but no preregistration or prespecified statistical analysis plan is reported, and numerous outcome measures and subgrouped physical-activity metrics leave scope for selective reporting or analysis.",
+        "evidence_quote": "The primary outcome was BMI, and secondary outcomes included waist circumference, percentage body fat, cardiorespiratory fitness, objectively measured physical activity and small screen recreation time."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Concerns arise from unreported allocation concealment, imperfect intervention attendance and implementation, substantial unusable accelerometer data, and the absence of reported preregistration or a prespecified analysis plan; blinded standardized outcome assessment reduces measurement concerns."
+  },
+  {
+    "paper_id": "manual:79be0158",
+    "paper_title": "b6827986_jamapediatrics.2013.1100",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized individually to the volunteering intervention or wait-list control by coin flip after consent.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random coin-flip sequence was used after consent and baseline characteristics were similar, but the report does not state who performed the flip or whether allocation was concealed until assignment.",
+        "evidence_quote": "Randomization was done by a coin flip that assigned each individual to either the intervention or control condition after consent was obtained."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew whether they volunteered, and the paper does not report an intention-to-treat analysis or sufficiently describe adherence and deviations, although no specific outcome-affecting co-interventions are identified.",
+        "evidence_quote": "We were not able to conduct the study as a double-blind study, because participants could obviously discern whether they were in the volunteering arm or the control group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Postintervention data were missing for 16 of 106 participants for BMI and 21 of 106 for biomarkers, with more dropout in the intervention group and acknowledged potential selection bias, while no sensitivity analysis addressed informative missingness.",
+        "evidence_quote": "Finally, there were more dropouts in the intervention group compared with the control group, and those who dropped out were either not able to or chose not to complete the postintervention measures; hence, there may be some selection biases in this sample."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "BMI and laboratory biomarkers were objective, appropriate measures collected identically at baseline and follow-up, making differential measurement from knowledge of assignment unlikely despite no explicit assessor-blinding statement.",
+        "evidence_quote": "The follow-up data collection was identical to the baseline assessment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although the trial was registered and the stated primary outcomes were reported, the article does not establish prospective registration or provide a prespecified analysis plan ruling out selection among transformations or analyses.",
+        "evidence_quote": "Trial Registration: clinicaltrials.gov Identifier: NCT01698034"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial and differential postrandomization missing outcome data could plausibly bias the estimated intervention effects. Additional concerns arise from incompletely reported allocation concealment, lack of clear intention-to-treat analysis, participant awareness of assignment, and limited information on analysis prespecification."
+  },
+  {
+    "paper_id": "manual:0adca97e",
+    "paper_title": "ac3c2d19_main",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster randomized controlled trial in which 10 schools were pair-matched and then randomly allocated within pairs using folded numbered papers drawn from a bag by an individual not involved in the project.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence generation and independent allocation were explicitly randomized and baseline assessment preceded assignment, but concealment was not fully described and the authors report statistically significant baseline group differences that may indicate imbalance with only 10 randomized clusters.",
+        "evidence_quote": "The schools were pair matched based on geographic location, size and demographics and randomized within pairs by an individual not involved in the research project. For instance, the numbers one or two were written on individual small papers then folded, and added to a plastic bag."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers could not realistically be blinded to this behavioral school program, and adherence or intervention-related deviations were not reported, although schools remained assigned throughout and the analysis was described as intention-to-treat.",
+        "evidence_quote": "Schools remained in their allocated group for the duration of the study... To minimize the problem of participation bias, all statistical analyses followed the intention-to-treat principle."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Follow-up outcome data were missing for a large and different proportion of participants in the two groups (37.3% intervention and 50.4% control), and comparisons limited to measured baseline characteristics do not establish that missingness could not bias the effect estimate.",
+        "evidence_quote": "At the 6-month post-intervention assessments, 89 (62.7%) and 55 (49.6%) girls were retained in the intervention and control groups, respectively."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, BMI, was objectively derived from standardized weight and height measurements applied equally across groups, and trained follow-up assessors were blinded to allocation, although behavioral secondary outcomes were self-reported.",
+        "evidence_quote": "Weight and height were measured using a portable digital scale (Plenna\u00ae S\u00e3o Paulo, Brazil) and a stadiometer (Alturaexata\u00ae Minas Gerais, Brazil)... Trained undergraduate and graduate students conducted follow-up assessments blinded to group allocation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and BMI was prospectively identified as primary, but no prespecified statistical analysis plan is provided here, many secondary outcomes and tests were conducted without multiplicity correction, and selective choice among eligible analyses cannot be excluded.",
+        "evidence_quote": "This study was registered in ClinicalTrials.gov (NCT02228447)... However, some limitations should be noted: ... no correction for the substantial number of tests conducted."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven principally by extensive and differential loss to follow-up, with only 62.7% of the intervention group and 49.6% of the control group retained. Additional concerns arise from baseline imbalances, limited information about deviations/adherence, and potential selective reporting across numerous analyses."
+  },
+  {
+    "paper_id": "manual:db2c3e09",
+    "paper_title": "eca1fbf4_s0091-7435%2803%2900057-4",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster-randomized study because the six participating schools were explicitly randomly assigned, three each, to intervention and control conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Although schools were randomized, the sequence generation and allocation concealment were not described, and girls were recruited after school assignment with knowledge of condition, producing substantial baseline differences in age, grade, ethnicity, and BMI that raise strong concerns about post-randomization recruitment and the integrity of group comparability.",
+        "evidence_quote": "Although schools were randomly assigned to conditions, because of logistical and scheduling issues, girls were recruited after the schools were randomized. Thus, girls in the intervention schools knew that they were enrolling in an alternative physical education class, New Moves."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their assigned condition and outcomes were analyzed among available responders rather than with a clearly reported intention-to-treat strategy, although no specific intervention deviations likely to bias outcomes were documented.",
+        "evidence_quote": "Girls in the intervention schools knew that they were enrolling in an alternative physical education class, New Moves. Girls in the control schools were recruited to participate in a research study about eating and exercise patterns of teens."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome retention was high and balanced between groups, reasons for attrition were reported, and responders and nonresponders did not differ on key measured baseline characteristics.",
+        "evidence_quote": "In April 2001, the 8-month follow-up assessment was conducted with 180 girls for a response rate of 89% (88% in control schools and 89% in intervention schools) from baseline to follow-up... Responders and nonresponders did not differ at baseline across age, race/ethnicity, and BMI."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Most behavioral and psychosocial outcomes were self-reported by unblinded participants who knew their assignment, so intervention-related expectations could differentially influence responses; only BMI was objectively measured by trained staff, whose blinding was not reported.",
+        "evidence_quote": "Limitations of the current study\u2019s evaluation design include... the use of self-report measures to assess variables such as physical activity."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified analysis plan was reported, and many outcomes, time points, and analytic choices were available, creating scope for selective reporting despite presentation of a broad outcome table.",
+        "evidence_quote": "Assessments of girls in the intervention and control schools at baseline, postintervention, and 8-month follow-up focused on changes in a range of behavioral, personal, and socio environmental variables."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by post-randomization recruitment with participants aware of school assignment and marked baseline imbalances, as well as reliance on self-reported outcomes from unblinded participants. Additional concerns arise from unclear intention-to-treat analysis and absence of a prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:8f570341",
+    "paper_title": "6f70b09b_s003329171400289x",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster-randomized trial: grades were randomly assigned to intervention versus control and intervention classes were randomly assigned among the three programs.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Grades and classes were explicitly randomized, but the sequence-generation method and allocation concealment were not reported, and several baseline imbalances occurred, including strong grade imbalance between intervention and control groups.",
+        "evidence_quote": "Allocation of grade (7 and 8) to either programs or control condition was completed at random, as was allocation of individual intervention classes to the respective programs."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and presenters necessarily knew the assigned behavioral program, fidelity was not independently assessed, and the analyzed sample excluded participants without at least three matched waves rather than clearly following intention-to-treat, although no specific intervention-related deviations were reported.",
+        "evidence_quote": "Fifth, independent adherence assessments of presenter program fidelity were not completed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Analyses retained 1316 of 1441 baseline participants (91%), missingness was similar among groups, and retention was unrelated to baseline primary outcomes, but the restrictive matching rule excluded 9% and only 1018 participants had 12-month data, leaving some residual concern about outcome-dependent missingness.",
+        "evidence_quote": "Thus while 1441 participants completed baseline measures, the analyses were conducted with a total sample of 1316 participants or 91% of the baseline sample. The proportion of missing data was consistent across the four groups and logistic regression analyses showed there were no baseline differences on our primary outcome variables between participants who completed a minimum of three waves of data collection and those who did not."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Most outcomes used established and internally reliable measures and health assessments were performed privately by research assistants, but many outcomes were self-reported by unblinded participants and some measures were subjective or had limitations, including poor reliability of eating concern in boys and non-objective physical activity/dieting measures.",
+        "evidence_quote": "Second, it would have been preferable to have more objective measures of dieting and physical activity."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or prespecified analysis plan is reported, while numerous outcomes, time points, interactions, subgroup analyses, and post-hoc contrasts were examined, creating substantial scope for selective reporting; the abstract and conclusions emphasize favorable findings despite many null or adverse comparisons.",
+        "evidence_quote": "The primary outcome variables were weight concerns and BMI, whilst secondary outcome variables included risk factors for eating disorders (e.g. eating concerns, media internalization) and obesity (e.g. physical activity, screen time)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial risk of selective reporting across numerous outcomes, time points, subgroup interactions, and post-hoc contrasts without a reported protocol or prespecified analysis plan. Additional concerns arise from incompletely described allocation concealment, lack of fidelity assessment and clear intention-to-treat analysis, attrition, and largely self-reported outcomes in unblinded participants."
+  }
+]

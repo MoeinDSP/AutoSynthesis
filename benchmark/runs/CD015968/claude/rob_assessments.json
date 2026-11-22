@@ -1,0 +1,140 @@
+[
+  {
+    "paper_id": "manual:a0f498a1",
+    "paper_title": "301c7168_1-s2.0-S1976131708600389-main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that the 65 mother\u2013child dyads were allocated to experimental or control conditions by a random mechanism: \"The 65 participants were randomly assigned to either the experimental or the control group by flipping a coin.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuinely random method (coin flip) was used and baseline demographic and outcome homogeneity was formally tested with no significant differences, but coin-flipping performed at the point of enrollment provides no described allocation concealment, so concealment from the investigators (who also delivered the intervention) cannot be verified.",
+        "evidence_quote": "\"The 65 participants were randomly assigned to either the experimental or the control group by flipping a coin.\" ... \"there were no meaningful differences in gender, age, breastfeeding history, a mother's occupation, parental obesity, and the children's height and weight between the two groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and intervention providers were necessarily aware of allocation (control mothers were told they would receive the program later, and control children received only the child component), contamination within a single school is acknowledged by the authors, the investigators themselves delivered the intervention, and no intention-to-treat or adherence information (e.g., attendance at the group session, completion of phone counselling) is reported.",
+        "evidence_quote": "\"although attempts were made as much as possible to preclude the dissemination problem, this study could not be fully free from this issue because: (a) the study was conducted in one elementary school; and (b) the children in the control group might have influenced their mothers.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Analysed numbers equal the randomized numbers, implying no attrition, but no flow diagram or explicit statement about dropouts/missing measurements is given despite the authors noting that participants in such programs \"tend to drop out,\" so completeness must be inferred rather than verified.",
+        "evidence_quote": "\"There were 32 subjects in the experimental group and 33 subjects in the control group.\" ... Tables report \"Experimental group (n = 32)\" and \"Control group (n = 33)\" at both pre- and post-test."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Anthropometric and body-fat outcomes were measured with standardized devices by separate trained assessors (triplicate measurements), which is a strength, but assessor blinding to group allocation is never stated, abdominal circumference by tape measure is assessor-dependent, and the key self-control outcome is a self-report questionnaire completed by unblinded children, which is susceptible to response bias.",
+        "evidence_quote": "\"the investigators in this study served as intervention providers but did not serve as evaluators of the program... five research assistants whose major was nursing served as evaluators and measured the outcome variables... each assistant took responsibility for exclusively gauging one of the five measures.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned, the self-control instrument was modified post hoc (six items deleted \"to obtain the highest level of reliability\"), and only F statistics without effect sizes or confidence intervals are reported, although all four pre-stated outcomes do appear to be reported.",
+        "evidence_quote": "\"significant effects of the intervention on the four dependent variables (i.e., self-control behavior, obesity index, abdominal circumference, body fat percentage) were explored using analysis of covariance\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used a genuine random mechanism (coin flip) with demonstrated baseline homogeneity and no apparent attrition, the study is at high overall risk of bias driven by Domain 2: participants, mothers, and the investigator-providers were all unblinded, the authors themselves acknowledge likely contamination/dissemination between experimental and control families within a single school, and no adherence or intention-to-treat details are reported. Remaining domains (allocation concealment, missing data, unblinded self-report outcome, and absence of pre-registration) each raise some concerns."
+  },
+  {
+    "paper_id": "manual:abd0cfff",
+    "paper_title": "447b88e8_nihms682007",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"Adolescents were randomized at baseline into the stepped-down care (SDC) or the enhanced usual care (EUC) group. Simple randomization to study arm was determined by a computer using a permutated block algorithm and was stratified within the primary care provider site.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated permuted-block randomization stratified by clinic site, performed at the baseline visit after consent, and baseline characteristics did not differ between groups, suggesting adequate sequence generation and no evidence of allocation problems.",
+        "evidence_quote": "\"Simple randomization to study arm was determined by a computer using a permutated block algorithm and was stratified within the primary care provider site.\" ... \"Baseline characteristics did not differ by treatment group and sex.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, parents and providers were necessarily aware of allocation in this behavioural trial and implementation deviated substantially from the intended stepped-down design (87% never stepped down), although an intention-to-treat analysis using all available data was applied.",
+        "evidence_quote": "\"Only 13% of intervention participants succeeded in stepping down from step 1 to step 2 or step 3.\" ... \"Intent-to-treat analyses were conducted using available data and assuming data were missing at random.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition occurred (at least 13% dropped out of the intervention arm; the trial anticipated 25% attrition) and the exact retention per arm/outcome is only shown in a flow figure not reproduced in the text; missingness was handled by mixed models under an unverified missing-at-random assumption, and DXA/biometric outcomes likely had more loss.",
+        "evidence_quote": "\"Intent-to-treat analyses were conducted using available data and assuming data were missing at random.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes were objective anthropometric and laboratory measures (calibrated scale, stadiometer, DXA, automated BP, blood assays) obtained with standardized protocols identically in both arms, so assessor knowledge is unlikely to have influenced measurement even though blinding of assessors is not explicitly reported.",
+        "evidence_quote": "\"Height (without shoes) was measured using a stadiometer and weight was measured using a calibrated digital scale... Measurement procedures were standardized and validated.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol/pre-specified analysis plan is cited, multiple BMI operationalizations (BMI, BMIz, % over median BMI, DXA, waist) and many biometric outcomes are reported, and the headline finding rests on sex-stratified analyses that were powered at only 70%, raising concerns about selective emphasis of subgroup results.",
+        "evidence_quote": "\"Analyses were stratified by sex given previous research findings (2,23).\" ... \"We had 70% power with 25 per group for analyses stratified by sex.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and objective outcome measurement were well handled, but the trial raises some concerns from unblinded behavioural delivery with major deviation from the intended stepped-down design (only 13% stepped down), incompletely reported attrition handled under an untested missing-at-random assumption, and absence of a cited registration/protocol with the key result derived from underpowered sex-stratified subgroup analyses. No domain reached high risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:18a74e0c",
+    "paper_title": "72ef9cb1_pone.0125673",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a three-arm randomized controlled pilot trial with an explicitly described computer-generated allocation sequence: \"the randomization sequence was computer-generated in variable blocks of six,\" with trial registration (ChiCTR-TRC-12002624).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated sequence with variable blocks of six, allocation administered by a paediatrician with a research assistant blinded to assignment overseeing recruitment/enrolment, and baseline demographics were comparable across arms (though some baseline differences in BP/BMI, p=.015\u2013.045, are plausibly chance in a small pilot).",
+        "evidence_quote": "\"To ensure balanced allocation, the randomization sequence was computer-generated in variable blocks of six. A paediatrician assigned subjects to interventions according to the randomization assignment. A research assistant, who was blinded to randomization assignment, oversaw recruitment, enrolment, and follow up.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and providers were necessarily aware of allocation in this behavioural trial, adherence to the intervention was incomplete (only 14/16 read the curriculum, 71% completed all lessons; sLMP attendance often late), and no intention-to-treat analysis is explicitly described.",
+        "evidence_quote": "\"All subjects logged in to the system but only 14 out of 16 subjects read the curriculum (87.5%). Among the 14 subjects, the majority (71%) completed all lessons.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 48 randomized subjects in all three arms completed the baseline, week 12 and week 24 visits, so outcome data were essentially complete (two earlier exclusions occurred around enrolment).",
+        "evidence_quote": "\"All 16 recruited subjects completed visits at baseline (T0), mid-point (T12) and at the end of study (T24).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Anthropometric secondary outcomes are objective and measured identically, but the primary feasibility/satisfaction outcomes and several secondary measures (physical activity, dietary knowledge, DASS) are self-reported by unblinded participants, and the authors themselves flag reliability concerns; no blinding of outcome assessors is described.",
+        "evidence_quote": "\"It is also possible that the self-report measures used to determine feasibility of the interventions and subject satisfaction could lack reliability and validity.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and a protocol is provided, which reduces concern, but a large number of secondary outcomes at multiple time points were analysed with several approaches (Kruskal\u2013Wallis, post hoc Mann\u2013Whitney, repeated measures ANOVA) and post hoc power calculations were added, leaving some scope for selective reporting of analyses.",
+        "evidence_quote": "\"Using the BMI as the outcome of interest, the post hoc calculation of the calibrated observed power was determined to be 0.122.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and outcome completeness were well handled (computer-generated blocked sequence; 48/48 completed all visits), but the unblinded behavioural design with incomplete intervention adherence, reliance on self-reported feasibility/satisfaction and behavioural measures, and multiple exploratory secondary analyses raise some concerns. Overall risk is therefore \"some concerns,\" driven by domains 2, 4 and 5; no domain reached high risk."
+  }
+]

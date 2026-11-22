@@ -1,0 +1,38 @@
+{
+  "research_question": "Among pregnant women, what is the effect of any iron-containing supplement, compared with the same supplement without iron or with no treatment/placebo, on maternal iron-deficiency anaemia at term, defined as haemoglobin <110 g/L plus at least one additional laboratory indicator of iron deficiency, assessed at 37 weeks' gestation or later?",
+  "treatment_label": "Any iron-containing supplement during pregnancy",
+  "control_label": "The same supplement without iron, placebo, or no treatment",
+  "outcome_description": "Maternal iron-deficiency anaemia at term: haemoglobin <110 g/L together with at least one additional laboratory indicator of iron deficiency, measured at 37 weeks' gestation or later. Extract the number of women meeting this binary definition and the number assessed in each arm.",
+  "positive_direction": "A positive effect means that iron-containing supplementation reduces maternal iron-deficiency anaemia at term compared with the control condition.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "pregnancy iron supplementation controlled trial maternal iron deficiency anaemia term",
+    "antenatal iron supplement placebo trial haemoglobin ferritin 37 weeks",
+    "prenatal iron-containing supplement quantitative comparison maternal anaemia delivery"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of pregnant participants comparing an iron-containing supplement with the same supplement without iron, placebo, or no treatment.",
+    "Studies reporting maternal haemoglobin at 37 weeks' gestation or later plus at least one additional laboratory indicator of iron deficiency, allowing identification of iron-deficiency anaemia at term.",
+    "Studies providing quantitative outcome information relevant to the comparison, regardless of publication status, language, setting, supplement formulation, dose, or duration."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded.",
+    "No comparison between an iron-containing treatment condition and an eligible control condition.",
+    "No quantitative outcome data that can produce an effect size, such as means and SDs, t/F-values, proportions, or odds ratios.",
+    "Completely unrelated to iron-containing supplementation in pregnancy or maternal iron-deficiency anaemia at term."
+  ],
+  "moderators_to_extract": [
+    "Iron dose and dosing frequency",
+    "Timing of supplementation initiation and treatment duration",
+    "Supplement formulation and co-interventions",
+    "Baseline maternal anaemia or iron-deficiency status",
+    "Gestational age at outcome assessment",
+    "Study design and risk-of-bias classification"
+  ],
+  "search_start_year": 1940,
+  "effect_size_note": "Treat the outcome as binary using events and total participants per arm, oriented so positive values favor iron supplementation. Apply the prespecified diagnostic definition: haemoglobin <110 g/L plus at least one additional laboratory marker of iron deficiency at 37 weeks' gestation or later. If a trial reports zero events in both arms, classify its effect as not estimable and exclude it from quantitative pooling while retaining it in the qualitative review and documenting the exclusion. For multi-arm trials, avoid double-counting shared controls by combining eligible iron arms when clinically appropriate or splitting the shared control according to standard methods. Use a random-effects model, report 95% confidence intervals, heterogeneity statistics, sensitivity analyses for risk of bias and effect-size assumptions, and assess small-study effects when enough studies are available.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "maternal iron-deficiency anaemia at term"
+}

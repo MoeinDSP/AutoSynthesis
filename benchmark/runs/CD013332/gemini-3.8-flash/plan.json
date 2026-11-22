@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of an implantable gentamicin-collagen sponge placed in the sternotomy wound, compared with no topical antimicrobial, on superficial surgical site infection (SSI) in adults undergoing cardiac surgery?",
+  "treatment_label": "Implantable gentamicin-collagen sponge",
+  "control_label": "No topical antimicrobial (routine care or placebo)",
+  "outcome_description": "Incidence of superficial sternal surgical site infection (SSI) within 30 to 90 days postoperatively",
+  "positive_direction": "Reduced risk of superficial surgical site infection favoring the gentamicin-collagen sponge group",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "gentamicin collagen sponge sternotomy superficial surgical site infection trial",
+    "gentamicin impregnated collagen implant cardiac surgery sternal wound infection randomized",
+    "gentamicin fleece sternal infection controlled comparison cardiac surgery"
+  ],
+  "inclusion_criteria": [
+    "Adult patients undergoing cardiac surgery involving median sternotomy",
+    "Intervention arm receiving an implantable gentamicin-collagen sponge/fleece placed in the sternal wound during closure",
+    "Reports quantitative incidence of superficial surgical site infection (SSI) for both intervention and control arms"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, comments, or theoretical papers)",
+    "No comparison between an implantable gentamicin-collagen sponge and a control group without topical antimicrobial",
+    "No quantitative outcome data reported specifically for superficial surgical site infection (e.g., only reporting total SSI or deep SSI/mediastinitis without superficial SSI breakdown)",
+    "Completely unrelated to cardiac surgery or sternotomy procedures in adults"
+  ],
+  "moderators_to_extract": [
+    "Type of cardiac surgery (isolated CABG vs. mixed/valve surgery)",
+    "Number or dose of gentamicin-collagen sponges used",
+    "Diabetes prevalence among participants",
+    "Study design (blinded RCT vs. open-label RCT vs. prospective controlled trial)",
+    "Sternal closure technique (e.g., standard wire vs. rigid fixation)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Extracted as dichotomous event counts (number of superficial surgical site infections and total patients per arm) and pooled as Risk Ratio (RR).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "superficial surgical site infection"
+}

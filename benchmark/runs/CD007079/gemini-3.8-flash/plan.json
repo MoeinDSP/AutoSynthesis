@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of high-dose calcium supplementation, compared with placebo or no treatment, on preterm birth before 37 weeks' gestation in the dose-stratified analysis?",
+  "treatment_label": "High-dose calcium supplementation (at least 1 g/day)",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Preterm birth before 37 weeks' gestation in the high-dose calcium supplementation subgroup",
+  "positive_direction": "A lower incidence of preterm birth in the high-dose calcium group relative to the control group (risk ratio < 1.0, reflecting beneficial reduction in preterm delivery risk).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "calcium supplementation pregnancy preterm birth randomized trial",
+    "high dose calcium pregnant women preterm delivery controlled trial",
+    "calcium supplementation gestational age preterm birth randomized"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials evaluating high-dose calcium supplementation (at least 1 g/day elemental calcium) in pregnant women compared with placebo or no treatment.",
+    "Studies reporting quantitative data on preterm birth before 37 completed weeks of gestation for intervention and control groups."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, opinion pieces, or study protocols).",
+    "No comparison between high-dose calcium supplementation and a placebo or no-treatment control arm (e.g. trials only evaluating low-dose calcium < 1 g/day, multi-nutrient interventions where calcium cannot be isolated, or non-comparative studies).",
+    "No quantitative outcome data reporting preterm birth events (< 37 weeks) and sample sizes per arm that allow calculation of risk ratios.",
+    "Completely unrelated to calcium supplementation during pregnancy or perinatal health outcomes."
+  ],
+  "moderators_to_extract": [
+    "Baseline dietary calcium intake (low-calcium diet vs adequate dietary calcium)",
+    "Baseline risk of pre-eclampsia / gestational hypertension (high-risk vs average/low-risk population)",
+    "Specific calcium dose administered (e.g., 1.5 g/day vs 2.0 g/day)",
+    "Timing of supplementation initiation during gestation (before 20 weeks vs 20 weeks or later)",
+    "Study setting / country income level (low- or middle-income vs high-income country)"
+  ],
+  "search_start_year": 1985,
+  "effect_size_note": "Risk Ratio (RR) calculated from preterm birth events (<37 weeks) and total randomized per arm. Trials with zero events in both arms are non-estimable and excluded from RR pooling. Analysis is restricted to the high-dose calcium subgroup (>= 1000 mg/day).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "preterm birth before 37 weeks"
+}

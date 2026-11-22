@@ -1,0 +1,38 @@
+{
+  "research_question": "Among infants aged 12 months or younger, what is the effect of prophylactic skin-care interventions applied during infancy, compared with standard skin care or no skin-care intervention, on the risk of developing eczema by 1 to 3 years of age?",
+  "treatment_label": "Prophylactic skin-care intervention during infancy (such as emollients, moisturizers, barrier-enhancing products, or structured skin-care regimens)",
+  "control_label": "Standard/usual skin care, placebo or minimal skin care, or no skin-care intervention",
+  "outcome_description": "Incident eczema (atopic dermatitis) assessed between 1 and 3 years of age, including clinician-diagnosed, validated criteria-based, or parent-reported eczema incidence or prevalence representing development of eczema after intervention initiation.",
+  "positive_direction": "A positive effect size means that prophylactic skin care during infancy lowers the risk of developing eczema by 1 to 3 years of age compared with standard skin care or no intervention.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "infant emollient eczema prevention controlled trial",
+    "infancy skin care atopic dermatitis prevention experiment",
+    "baby moisturizer skin barrier eczema incidence comparison"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies enrolling infants aged 12 months or younger at initiation and evaluating a prophylactic skin-care intervention applied during infancy.",
+    "Studies including a standard-care, minimal-care, placebo, or no-intervention comparator and reporting eczema or atopic dermatitis occurrence at an assessment between ages 1 and 3 years.",
+    "Studies reporting quantitative data sufficient, directly or after author contact or derivation, to estimate an intervention effect on eczema development; all publication languages, settings, and publication statuses are eligible."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, narrative reviews, protocols without results, and theoretical papers.",
+    "No comparison between a skin-care treatment condition and a standard-care, placebo/minimal-care, or no-intervention control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as means and standard deviations, t/F-values, proportions or event counts, or odds ratios (including data unobtainable after reasonable author contact).",
+    "Completely unrelated to prophylactic skin care in infancy or to subsequent eczema/atopic dermatitis development."
+  ],
+  "moderators_to_extract": [
+    "Type and components of skin-care intervention (e.g., emollient alone, barrier-enhancing formulation, bathing regimen)",
+    "Infant eczema-risk status (general population versus high familial or clinical risk)",
+    "Age at intervention initiation and intervention duration",
+    "Adherence, frequency, and amount of product application",
+    "Eczema ascertainment method and exact follow-up age",
+    "Study design, setting, and geographic region"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Extract eczema event counts and denominators at the eligible follow-up assessment and calculate comparative effects with direction harmonized so that positive values favor prophylactic skin care. When studies report multiple eligible assessments between ages 1 and 3 years, prespecify a single independent estimate per cohort for the primary pool (prefer the assessment closest to age 2 years, with sensitivity analyses using the earliest and latest eligible assessments). Account for clustering in cluster-randomized studies, avoid double-counting shared control groups, and use adjusted estimates when they appropriately preserve randomization or control prespecified confounding in nonrandomized studies.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "development of eczema"
+}

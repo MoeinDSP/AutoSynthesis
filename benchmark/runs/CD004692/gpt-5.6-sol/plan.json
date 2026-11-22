@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with depression, including major depressive disorder, depressive symptoms, or depression occurring in a medical or neurological condition, what is the effect of omega-3 polyunsaturated fatty acid supplementation (EPA, DHA, or EPA+DHA), compared with placebo, on end-of-treatment quality of life in randomised placebo-controlled trials?",
+  "treatment_label": "Omega-3 polyunsaturated fatty acid supplementation (EPA, DHA, or EPA+DHA capsules/supplements)",
+  "control_label": "Placebo",
+  "outcome_description": "End-of-treatment quality of life measured using one quality-of-life instrument per trial, preferentially the total or overall score. Extract mean, SD, and analysed n for each arm. Orient all instruments so higher raw scores indicate better quality of life, reversing scores/signs where necessary. Convert SEs to SDs when needed. Do not include depression severity, treatment response, dropouts, or adverse events as outcomes.",
+  "positive_direction": "A positive Hedges' g indicates worse quality of life with omega-3 relative to placebo (favours placebo); under the user-specified sign convention, a negative Hedges' g indicates better quality of life with omega-3 (favours omega-3).",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "omega-3 EPA DHA depression placebo randomized trial quality of life",
+    "n-3 PUFA depressive symptoms controlled trial quality of life",
+    "fish oil depression placebo experiment quality of life outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomised, placebo-controlled trials comparing oral EPA, DHA, or an EPA+DHA omega-3 supplement with placebo in adults (generally age 18 years or older).",
+    "Participants have major depressive disorder, clinically relevant depressive symptoms, or depression in the context of a medical or neurological condition.",
+    "The study reports an end-of-treatment quantitative quality-of-life outcome, or sufficient information from which an effect size can be derived or obtained from authors."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between an omega-3 treatment condition and a placebo control condition, or treatment allocation is not randomised.",
+    "No quantitative quality-of-life outcome data capable of producing an effect size; means and SDs (including SDs derivable from SEs), t/F values, proportions, or odds ratios are required.",
+    "Completely unrelated to omega-3 supplementation, depression in adults, or quality of life."
+  ],
+  "moderators_to_extract": [
+    "Omega-3 formulation (EPA only, DHA only, or EPA+DHA) and EPA:DHA composition",
+    "Daily omega-3 dose",
+    "Depression population/context (primary depressive disorder, depressive symptoms, medical condition, or neurological condition)",
+    "Treatment duration",
+    "Quality-of-life instrument and score type",
+    "Trial risk-of-bias domain ratings"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool standardised mean differences as Hedges' g using a random-effects model. Calculate effects using the user-specified orientation so g < 0 denotes better quality of life with omega-3 and g > 0 favours placebo, despite orienting each underlying scale so higher raw scores denote better quality of life; operationally, use placebo minus omega-3 after scale orientation (or multiply the conventional omega-3-minus-placebo SMD by -1). Use end-of-treatment means, SDs, and n. Select one quality-of-life measure per trial, preferring the total or overall score. Convert SE to SD as SD = SE \u00d7 sqrt(n). For trials with multiple eligible omega-3 arms or multiple eligible patient groups sharing one placebo group, enter each comparison as a separate row and divide the shared placebo n equally across comparisons while retaining the placebo mean and SD. Account for the resulting dependence where feasible in sensitivity analysis, and do not pool depression severity, response, attrition, or adverse-event outcomes.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "quality of life"
+}

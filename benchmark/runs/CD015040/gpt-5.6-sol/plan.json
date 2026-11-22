@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with post-traumatic stress disorder (PTSD), what is the effect of active repetitive transcranial magnetic stimulation (rTMS), including conventional rTMS, deep TMS, and theta-burst stimulation, versus sham stimulation on change in validated PTSD symptom severity from baseline to the assessment immediately after the treatment course?",
+  "treatment_label": "Active rTMS (including conventional rTMS, deep TMS, and theta-burst stimulation)",
+  "control_label": "Sham rTMS (sham coil or sham stimulation)",
+  "outcome_description": "Change in total PTSD symptom severity from baseline to the assessment closest to and immediately after completion of treatment, measured with the trial's primary validated PTSD scale (e.g., CAPS, PCL, or Davidson Trauma Scale). Extract the intention-to-treat or trial primary-analysis mean change, SD of change, and analysed/randomised n per arm. Prefer directly reported change scores. If only baseline and post-treatment means and SDs are available, derive mean change as post-treatment minus baseline and derive SD_change = sqrt(SD_baseline^2 + SD_post^2 - 2 \u00d7 0.5 \u00d7 SD_baseline \u00d7 SD_post), explicitly marking it as derived. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n), after checking table footnotes. Use scales oriented so higher values indicate worse PTSD and reverse signs for oppositely oriented scales. Use the number randomised or included in the primary analysis, drawing from participant-flow diagrams or results tables when necessary. For multi-arm trials, retain active rTMS and sham arms only; combine two eligible active arms into one group using standard pooled-group formulas and count the shared sham group once. Pool SMDs as Hedges' g with a random-effects model. Do not include later follow-up assessments or non-PTSD outcomes.",
+  "positive_direction": "A positive Hedges' g indicates less improvement (or greater worsening) in PTSD symptom severity with active rTMS than with sham and therefore favours sham; a negative Hedges' g indicates a greater reduction with active rTMS and favours rTMS, as prespecified by the user.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "PTSD repetitive transcranial magnetic stimulation sham randomized trial",
+    "posttraumatic stress disorder deep TMS sham controlled symptoms",
+    "PTSD theta burst stimulation sham randomized outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomised study comparing active rTMS (including conventional rTMS, deep TMS, or theta-burst stimulation) with sham stimulation in adults diagnosed with PTSD.",
+    "Reports a validated quantitative measure of PTSD symptom severity at baseline and immediately after the treatment course, or directly reports change over that interval.",
+    "Provides, or permits derivation of, quantitative data for the intention-to-treat or trial primary-analysis population sufficient to calculate a standardised mean difference."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between an active rTMS treatment condition and a sham control condition, including open-label and uncontrolled studies or trials without a sham arm.",
+    "No quantitative outcome data capable of producing an effect size, such as means with SDs/SEs, change statistics, t/F values, proportions, or odds ratios, and such data cannot be derived or obtained.",
+    "Completely unrelated to active rTMS treatment of PTSD symptom severity in adults, or reports only non-PTSD outcomes or only follow-up assessments weeks or months after treatment."
+  ],
+  "moderators_to_extract": [
+    "Stimulation modality (conventional rTMS, deep TMS, intermittent or continuous theta-burst stimulation)",
+    "Stimulation target and laterality",
+    "Stimulation parameters and treatment dose (frequency/pattern, intensity, pulses, sessions)",
+    "PTSD assessment instrument and clinician-rated versus self-reported format",
+    "Participant characteristics (mean age, sex/gender distribution, trauma type, baseline PTSD severity, comorbidity)",
+    "Risk-of-bias and analysis characteristics (blinding/sham method, attrition, missing-data/primary-analysis approach)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "For each study, calculate Hedges' g from change scores defined as post-treatment minus baseline, using active rTMS minus sham, so g < 0 represents a greater symptom reduction and favours active rTMS. Apply the small-sample correction and pool using a random-effects model, reporting the heterogeneity estimator, 95% CI, tau-squared, and I-squared. Prefer the trial's intention-to-treat or primary-analysis estimate and accept mixed models, LOCF, multiple imputation, or all-randomised analyses without requiring an explicit imputation statement. If change-score SDs must be derived, assume a baseline-post correlation of 0.5 and identify these values as derived; consider sensitivity analyses using alternative plausible correlations. For multiple eligible active arms sharing one sham arm, combine active-arm means and SDs with standard formulas before effect-size calculation, summing active-arm sample sizes and using the sham group once.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "PTSD symptom severity"
+}

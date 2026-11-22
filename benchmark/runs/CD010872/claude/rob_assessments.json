@@ -1,0 +1,462 @@
+[
+  {
+    "paper_id": "manual:1db02471",
+    "paper_title": "c9b97fa5_archsurg.139.11.1148",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit prospective randomized controlled trial: \"Randomization was by patient, stratified by surgeon within each clinical center, using the method of randomly permuted blocks,\" with a sealed-envelope allocation system and a randomization list prepared by an independent statistician.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Randomly permuted blocks with variable undisclosed block size, list prepared by an independent statistician, sealed envelopes opened only immediately before treatment, and baseline characteristics were comparable.",
+        "evidence_quote": "\"Randomization was by patient, stratified by surgeon within each clinical center, using the method of randomly permuted blocks. A variable and undisclosed block size was used to reduce selection bias. A statistician who was not otherwise involved in the conduct of the study prepared the randomization list.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons could not be blinded and the primary outcome (time to hemostasis) depends on the unblinded surgeon's judgment and co-interventions (control agents varied by surgeon, repeated applications, pressure/cautery), though an ITT analysis was also reported and was consistent with the efficacy-evaluable analysis.",
+        "evidence_quote": "\"The study was single-blind, as the nature of the compared treatments made it impossible for the surgeon to be blinded.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 5 of 121 randomized patients were excluded from the prespecified efficacy-evaluable analysis (3 Crosseal, 2 control, balanced), and results for the full all-patients-randomized/ITT population were also reported and similar.",
+        "evidence_quote": "\"The 121 patients comprised the all-patients-randomized group (ie, ITT group), of whom 116 were evaluable for efficacy.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (time to hemostasis) was determined subjectively by the unblinded operating surgeon (\"When the surgeon believed hemostasis was achieved...\"), and imaging for abdominal collections was ordered unblinded and only in symptomatic patients, so outcome ascertainment could plausibly be influenced by knowledge of the assigned agent.",
+        "evidence_quote": "\"Only patients with clinical findings suggestive of an abdominal fluid collection underwent imaging studies, which were necessarily requested in an unblinded manner, and asymptomatic bilomas may have gone undetected.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A prespecified statistical analysis plan, a priori complication definitions, and FDA monitoring reduce concern, but no trial registration/protocol is available, abstract and results text report discrepant P values for the primary outcome (.06 vs .006), and many secondary/subgroup analyses were reported.",
+        "evidence_quote": "\"The terms included in the model, prespecified in the statistical analysis plan, were treatment, surgeon, surgeon \u00d7 treatment interaction, preoperative platelet count, type of liver resection, and whether argon beam coagulation was used.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Allocation and attrition were well handled, but the trial was unavoidably unblinded for the operating surgeon, who also subjectively determined the primary outcome (time to hemostasis) and triggered unblinded imaging for secondary complication outcomes, giving high risk in the outcome-measurement domain. Combined with some concerns about co-interventions/heterogeneous control agents and absence of an accessible protocol/registration, the overall risk of bias is high."
+  },
+  {
+    "paper_id": "manual:e6737863",
+    "paper_title": "d03491ef_bf02067005",
+    "design_classification": "randomized",
+    "design_rationale": "Patients undergoing elective hepatectomy were explicitly randomly allocated intraoperatively, via a sealed-envelope procedure, to microcrystalline collagen powder or fibrin glue (\"62 patients ... were randomly allocated to receive either CL or FG\"; \"through sealed envelope procedure, patients were allocated to the CL ... or FG ... group\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation occurred intraoperatively using sealed envelopes (plausibly concealed) and baseline characteristics were balanced, but the method of sequence generation is not described and the envelopes are not stated to be opaque, sequentially numbered, or prepared by a third party.",
+        "evidence_quote": "Then, through sealed envelope procedure, patients were allocated to the CL (AVITENE\u00ae...) or FG (BERIPLAST\u00ae P...) group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of surgeons was impossible (the agents differ visibly in preparation and application), and co-interventions after failure of hemostasis were left to surgeon discretion (\"ad libitum\"), which could differentially affect outcomes; no intention-to-treat statement is given, though all 62 randomized patients appear analysed in their assigned groups.",
+        "evidence_quote": "If bleeding from the cut surface continued, further management for hemostasis was decided by the surgeons (N.N., H.K., Y.C.) ad libitum."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 62 randomized patients (31 per group) appear in the outcome tables for hemostatic efficacy, rebleeding, bile leakage, morbidity and mortality, with no reported withdrawals or losses to follow-up.",
+        "evidence_quote": "The clinical characteristics of patients for the CL (n = 31) and FG (n = 31) groups is shown in Table 1."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary hemostatic outcome was a subjective intraoperative visual judgment (\"appeared to be completely dry\") made by the unblinded operating surgeons who knew which agent was applied, creating substantial potential for assessor bias; hard outcomes (rebleeding, death) are more objective but assessment procedures are not described.",
+        "evidence_quote": "In both the CL and the FG groups, the agents were judged to be effective in terms of hemostasis during surgery if the cut surface of liver appeared to be completely dry."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or pre-registration is cited, no primary outcome or sample-size calculation is defined, many outcomes/subgroups are reported, and the favourable conclusion for FG rests on a post hoc subgroup of the 52 patients with a dry cut surface.",
+        "evidence_quote": "Of the 52 patients with a dry cut surface of the liver during surgery, 3 patients in the CL group encountered rebleeding (n = 1) or bile leakage (n = 2) from the cut surface postoperatively, while no such complications were noted in the FG group."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by D4: the principal efficacy outcome (a \"completely dry\" cut surface) was a subjective visual assessment by unblinded operating surgeons, who also decided additional hemostatic measures ad libitum. Additional concerns arise from unreported sequence generation, absence of a protocol/primary outcome, and reliance on a post hoc subgroup to support the conclusion favouring fibrin glue."
+  },
+  {
+    "paper_id": "manual:1848e642",
+    "paper_title": "e7915cc7_hpb.12009",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a \"prospective, non-inferiority, multicentre, two-arm, randomized, patient-blinded study\" with a pre-generated 1:1 allocation scheme stratified by centre and cirrhosis, using sequentially opened sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although allocation was concealed in sealed sequential envelopes and stratified, a documented randomization error occurred and the resulting 32:18 split markedly deviates from the intended 1:1 allocation, with a (non-significant) imbalance in bleeding severity and bleeding area favouring the experimental arm.",
+        "evidence_quote": "\"After 14 patients had been randomized, it was discovered that the randomization was not a true permuted block randomization. Consequently, a new randomization code was produced and used to randomize subsequent patients (n = 36).\" ... \"Of these, 50 met the intraoperative criteria and were randomized to study treatment (32 to the Veriset\u2122 group and 18 to the TachoSil\u00ae control group).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Only patients (not surgeons/assessors) were blinded, so the operating surgeons delivering and timing the intervention knew the assignment and the control device was deliberately handled differently (mandatory 3-min compression), though an ITT analysis was used and deviations were limited to one patient.",
+        "evidence_quote": "\"In one patient, haemostasis was achieved using an argon beam rather than with the control treatment as the investigator felt it was in the best interests of the patient to do so.\" ... \"All effectiveness analyses were performed using the intent-to-treat population, which included all randomized patients.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome was intraoperative and available for essentially all randomized patients, but some analyses excluded patients (three excluded for \"data entry errors\"; control denominators of 17 rather than 18, and 16 for satisfaction) without full explanation of the impact.",
+        "evidence_quote": "\"Note: Three patients were excluded from the analysis because of potential data entry errors (i.e. values outside the normal range).\" ... \"Of the 32 patients treated with the Veriset\u2122 patch, 30 (94%...) achieved haemostasis within 3 min, compared with 12 (71%) of the 17 control group subjects\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (time to haemostasis) was assessed by unblinded investigators using systematically different assessment schedules between arms (first inspection at 30 s vs 3 min), structurally guaranteeing a minimum 3-min time in the control group and making the headline between-group difference partly an artefact of measurement rather than effect.",
+        "evidence_quote": "\"In control subjects, the initial assessments were made at 3 min after the application of the patch, followed by assessments every 30 s ... Differences in the timing of the initial assessment reflect differences in the manufacturers' recommended application procedures for the respective products.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary endpoints are prespecified in the text, but no trial registration or protocol is cited, several post hoc analyses were added, the trial was designed as non-inferiority yet powered/reported for superiority, and the sponsor (device manufacturer) was involved in writing.",
+        "evidence_quote": "\"Post hoc effectiveness analyses were conducted to address the imbalance between groups at baseline in bleeding severity and area, and the difference and discrepancy in the first observation period following application of the device\" ... \"This study was sponsored by Covidien, Inc.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by outcome measurement (D4): the primary endpoint of time to haemostasis was assessed unblinded and with systematically different inspection schedules (30 s vs a mandated 3 min in controls), which structurally favoured the sponsor's device. Additional concerns arise from a documented randomization error with a 32:18 allocation imbalance, unblinded surgeons, exclusions from some analyses, and absence of a registered protocol in a manufacturer-sponsored trial."
+  },
+  {
+    "paper_id": "manual:aa59170e",
+    "paper_title": "395e40c1_j.jamcollsurg.2014.09.019",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 2:1 random allocation of intraoperatively eligible patients to Fibrocaps plus gelatin sponge vs gelatin sponge alone, stratified by surgical indication and blocked within site (\"randomized 2:1; Fibrocaps vs gelatin sponge\"; \"Randomization was stratified by the 4 surgical indications and blocked within site\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random, stratified, block allocation with good baseline balance, but the method of sequence generation and, critically, allocation concealment are not described (site-level blocking could permit prediction of upcoming assignments by unblinded investigators).",
+        "evidence_quote": "\"Randomization was stratified by the 4 surgical indications and blocked within site.\" ... \"Patient characteristics differed by surgical indication but were well balanced between treatment arms within each indication\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and staff delivering treatment were unblinded and had discretion over application method, manual pressure, sponge replacement and rescue measures, creating potential for performance/co-intervention effects; analysis included all treated patients (2\u20133 randomized but untreated patients excluded), which approximates but is not strictly intention-to-treat.",
+        "evidence_quote": "\"The primary limitation of this study is the single-blind study design, which enabled the treating surgeons to be aware of the assigned treatments.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary intraoperative outcome (time to hemostasis during a 5-minute window) was available for essentially all treated patients, with discontinuations occurring only during later safety follow-up.",
+        "evidence_quote": "\"Two ineligible patients were not treated. Most (96%) patients completed the study... Patients discontinuing during follow-up were included in study analyses.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome is a subjective visual assessment of hemostasis made at 30-second intervals by the unblinded treating surgeon in a sponsor-funded superiority trial, so outcome ascertainment could plausibly be influenced by knowledge of the assigned treatment despite standardized assessment procedures.",
+        "evidence_quote": "\"Time to hemostasis measurements began with application of study treatment and occurred every 30 seconds until hemostasis was achieved (ie, blood from the TTH evaluation site was no longer observed seeping through or around the gelatin sponge)\"; \"it was not possible to blind the investigator or surgeons involved in the care of the patient.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "Primary and secondary endpoints, sample-size assumptions, and a pre-specified hierarchical multiplicity-controlled testing strategy are clearly described and reported as planned for a registered regulatory phase 3 trial, with all four indications and both efficacy and safety outcomes reported.",
+        "evidence_quote": "\"The primary efficacy end point was TTH within a 5-minute assessment period... These 3 secondary efficacy end points were tested using a hierarchical, step-down, closed testing procedure for pairwise comparisons to control the overall significance level at 0.05 (2-sided).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by D4: the primary outcome (time to hemostasis) was a subjective, visually judged endpoint assessed by unblinded treating surgeons in a single-blind, sponsor-funded superiority trial. Randomization/stratification, outcome completeness and pre-specified analysis plans were otherwise sound, with only minor concerns about undescribed allocation concealment and unblinded intervention delivery."
+  },
+  {
+    "paper_id": "manual:a3a09dd8",
+    "paper_title": "43a7816c_j.jamcollsurg.2015.12.007",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit intraoperative 1:1 random allocation via a centralized interactive voice/web response system using randomly permuted blocks in a multicenter open-label RCT (NCT01192022).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central IVRS/web randomization with permuted blocks concealed allocation until assignment, and baseline characteristics were similar between arms.",
+        "evidence_quote": "\"A centralized interactive voice or web response system was used for intraoperative randomization (using the method of randomly permuted blocks) to conceal allocation until assignment.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Open-label design means surgeons/assessors knew the assigned product, and aspects of care such as reapplication of pressure, number of patches, and timing judgments were surgeon-dependent, though analysis followed the randomized assignment (full analysis set).",
+        "evidence_quote": "\"Blinding was not possible due to the difference in appearance of the 2 products.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome was assessed intraoperatively in essentially all randomized adults, and the few missing values were handled conservatively (counted as non-hemostasis; censoring/median imputation for time to hemostasis).",
+        "evidence_quote": "\"Patients with missing time to hemostasis were counted as not having achieved hemostasis at 3 minutes.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Hemostasis (\"no visible bleeding\") at 3 minutes is a somewhat subjective surgeon-judged assessment made by unblinded assessors with no independent/blinded adjudication reported, which could favor the sponsor's product.",
+        "evidence_quote": "\"The primary end point was the proportion of adult patients with intraoperative hemostasis (no visible bleeding) at the target area within 3 minutes of application of the first treatment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT01192022) with a clearly pre-specified primary end point, pre-stated sample size/power assumptions, and pre-specified analysis model; reported outcomes match the stated plan.",
+        "evidence_quote": "\"Primary end point was the proportion of adult patients with intraoperative hemostasis at the target bleeding site within 3 minutes of application of treatment. ... ClinicalTrials.gov ID NCT01192022.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation, missing-data handling, and outcome reporting were well handled in this registered multicenter RCT, but the open-label design with unblinded, surgeon-judged assessment of \"no visible bleeding\" and surgeon-dependent application/pressure raises some concerns (D2, D4). Overall risk is therefore \"some concerns,\" driven by lack of blinding of a partly subjective, industry-relevant outcome."
+  },
+  {
+    "paper_id": "manual:d15b6d2f",
+    "paper_title": "ca6cede0_j.jss.2014.12.011",
+    "design_classification": "randomized",
+    "design_rationale": "Two prospective trials in which patients with a suitable target bleeding site were explicitly randomized 2:1 to Fibrocaps plus gelatin sponge or gelatin sponge alone (\"patients ... were randomized within each study in a 2:1 ratio\"), registered as NCT01256164 and NCT01256190.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is stated with a 2:1 ratio and baseline characteristics appear balanced (all comparison P values non-significant), but no details are given on sequence generation or allocation concealment (intraoperative allocation makes concealment a real issue).",
+        "evidence_quote": "\"patients with mild or moderate bleeding during an open surgical procedure that necessitated the use of an adjunct to hemostasis were randomized within each study in a 2:1 ratio to treatment with Fibrocaps plus gelatin sponge ... or gelatin sponge alone\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Analyses were ITT and co-interventions were standardized, but the trials were only single-blind \u2014 the surgeons who applied the treatment and assessed bleeding necessarily knew the assignment, and re-application rules differed in substance between arms, so performance effects on the subjective hemostasis judgment cannot be excluded.",
+        "evidence_quote": "\"two randomized, single-blind controlled trials\"; \"Efficacy analyses were performed on an intent-to-treat basis, and safety analyses included all treated patients.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary intraoperative outcome (time to hemostasis) was available for essentially all 126 randomized patients; the four later discontinuations occurred during the 28-day safety follow-up and do not affect the primary endpoint.",
+        "evidence_quote": "\"One patient randomized to the sponge-alone arm in FC-002 NL did not receive study treatment. ... Data for this patient are not included in this table or in the safety analyses but are included in the efficacy analyses\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome is a subjective, surgeon-judged assessment of bleeding made in minute-by-minute increments by unblinded operating surgeons in a sponsor-run, single-blind (patient-only blinded) trial, so outcome assessment could plausibly be influenced by knowledge of the assigned treatment.",
+        "evidence_quote": "\"Assessment of hemostasis was made by carefully checking for bleeding through or around the gelatin sponge, starting at 1 min after application of study treatment and recurring every 1 min until hemostasis had been achieved or 10 min had elapsed\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Both trials were prospectively registered with a clearly pre-specified primary endpoint and powered sample size, but the planned sample sizes (90 and 60) were not reached (70 and 56), results were reported for both mean and median TTH plus multiple unpowered subgroup analyses by surgical indication, and no protocol/SAP is provided to confirm these analyses were pre-specified.",
+        "evidence_quote": "\"The primary efficacy end point for each study was mean TTH in the Fibrocaps arm, as compared with that in the sponge-alone arm. Secondary efficacy end points were the incidence of hemostasis within 3, 5, and 10 min.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by D4: the primary endpoint (time to hemostasis) was a subjective, repeated visual judgment made by unblinded operating surgeons in single-blind, industry-sponsored trials. Additional some-concerns arise from unreported allocation sequence generation/concealment, lack of operator blinding, and under-enrollment relative to the powered sample size with multiple unpowered subgroup analyses."
+  },
+  {
+    "paper_id": "manual:ed51be4a",
+    "paper_title": "a2584ff5_j.surg.2010.02.008",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes intra-operative random allocation to TachoSil or argon beam coagulation via a centralized telephone/computer randomization system: \"randomization to either TachoSil or ABC was performed by calling a centralized telephone randomization system\" in an \"open, computer-randomized, prospective, multicenter, parallel-group trial.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was generated and concealed via a centralized telephone randomization service run by an independent CRO, performed intra-operatively only after primary hemostasis was achieved (so allocation could not be foreseen), and baseline patient, laboratory and intra-operative characteristics were comparable between groups.",
+        "evidence_quote": "\"Subsequently, randomization to either TachoSil or ABC was performed by calling a centralized telephone randomization system.\" ... \"Study groups were comparable for all patient and procedural characteristics.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was unavoidably open-label, the comparator ABC was not protocolized (\"done according to the routine of the centers\", producing a significant centre effect), and the TachoSil arm involved manual compression for 3 minutes that itself can stop bleeding \u2014 co-intervention/performance differences that could affect the timed outcome; an ITT analysis was nonetheless used and confirmed per protocol.",
+        "evidence_quote": "\"Whereas the application of TachoSil was clearly defined, the execution of the ABC was not. This may be a reason why there was a significant center effect on the primary efficacy end point\" ... \"It has to be considered as well that TachoSil was pressed against the liver surface, whereas the argon beam was only painted on the surface. It is well known that pressure alone can stop bleeding\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The intra-operative primary endpoint appears essentially complete for all 119 randomized patients, but substantial missingness affects secondary endpoints (drainage haemoglobin missing for one third of patients; 14 missing prothrombin times per arm) with no sensitivity analysis or discussion of the impact of missingness.",
+        "evidence_quote": "\"Data on hemoglobin in drainage were not available for one third of the patients.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome \u2014 time to hemostasis judged as \"no visible bleeding\" \u2014 is a subjective assessment made by the unblinded operating surgeon who knew the allocated treatment and, as a sponsor-relevant efficacy endpoint, this knowledge could plausibly influence judgement of the exact time point of hemostasis; additionally the coarse assessment schedule (3, 4, 5, 8, 9, 10 min) interacts with the fixed 3-minute TachoSil compression period.",
+        "evidence_quote": "\"This trial was open, because blinding for surgeons and outcome assessors was not possible owing to the nature of the interventions and the primary end point.\" ... \"Hemostasis was achieved when there was no visible bleeding from the resection wound.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (EudraCT 2008-006407-23) with a pre-specified primary endpoint, sample size and ITT plan, but registration post-dates conduct (patients enrolled March\u2013August 2003; registration number from 2008) and no protocol is available for checking; the primary endpoint is also reported in multiple analytic forms (log-rank, parametric ratio, centre-controlled estimate, per-protocol) and the industry sponsor designed the protocol and performed the analysis.",
+        "evidence_quote": "\"The trial protocol and amendments were prepared by Nycomed International Medical Affairs (Roskilde, Denmark). This study was approved by the local ethics committees and registered under EudraCT number 2008-006407-23.\" ... \"randomized in the study from March to August 2003\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation concealment via centralized telephone randomization was robust and baseline groups were comparable, the overall judgment is driven by high risk in outcome measurement: the subjective primary endpoint (time to visible hemostasis) was assessed by unblinded surgeons in an open trial, compounded by a non-standardized comparator arm, the inherent compressive effect of the TachoSil patch, missing secondary-outcome data, and sponsor-conducted design/analysis with retrospective trial registration."
+  },
+  {
+    "paper_id": "manual:84705d12",
+    "paper_title": "947ac3be_s00423-005-0543-x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective, randomised, open, controlled multicentre trial: \"Patients were randomly allocated to the two test treatments. Randomisation was done after liver resection and primary haemostatic treatment. Allocation was concealed by the use of sealed treatment-code envelopes.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed with sealed code envelopes and demographic/baseline data were reported as similar, but the method of sequence generation (and any stratification by centre) is not described, and there are notable imbalances in target-area size and use of the Pringle manoeuvre \u2014 prognostically relevant factors for time to haemostasis.",
+        "evidence_quote": "\"Patients were randomly allocated to the two test treatments... Allocation was concealed by the use of sealed treatment-code envelopes, which were opened when the patients had fulfilled the eligibility criteria.\" / \"Apart from the use of a Pringle manoeuvre (not done in 25 TachoSil and 17 argon beamer patients) and the size of the target area (mean 84 cm2 for TachoSil and 65 cm for argon beamer), the variables were similar\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and patients were necessarily unblinded and the comparator was delivered non-uniformly (\"routine of the centre\", with one centre averaging 9.5 min of application), and the authors themselves acknowledge differential post-operative management (drain removal) arising from awareness of assignment; however, an appropriate ITT analysis of all 121 randomised and treated patients was used (PP identical to ITT).",
+        "evidence_quote": "\"The trial was open, since the appearance of TachoSil precluded blinding.\" / \"Management of haemorrhagic sites in the argon beamer group was done in accordance with the routine of the centre.\" / \"This could, however, relate to the physicians\u2019 being more cautious in removing the abdominal drain from test patients (TachoSil) than from patients who received standard treatment (argon beamer).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary intraoperative outcome was obtained for all randomised and treated patients, with the PP population identical to the ITT population and a participant flow diagram presented, indicating essentially no attrition for the primary endpoint.",
+        "evidence_quote": "\"The 121 patients that received test treatment constituted the ITT, safety and PP populations.\" / \"Analysis of all efficacy end points was planned for both the ITT and per-protocol (PP) population; the PP population was, however, identical to the ITT population.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (time to haemostasis) was a subjective judgement of \"no visible bleeding\" made by unblinded investigators who had a plausible expectation about the novel product, and secondary outcomes such as drainage duration were likewise influenced by unblinded clinician decisions \u2014 the authors concede the risk of biased observation.",
+        "evidence_quote": "\"Assessments were performed by inspection of target sites for bleeding.\" / \"The trial was open, since the appearance of TachoSil precluded blinding.\" / \"However, trials with an open design are prone to the risk of biased observation.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A pre-specified primary endpoint, sample-size calculation and trial ID are reported and the planned ITT/PP analyses are described, but the protocol/registration is not publicly verifiable, recruitment was stopped early (121 of a planned 140) and several additional exploratory/supportive analyses (parametric survival, centre-adjusted, Cochran\u2013Mantel\u2013Haenszel) and data recodings were applied, leaving some flexibility in the reported result.",
+        "evidence_quote": "\"Time recordings were made only at the time points 3, 4, 5, 8, 9 and 10 min after the start of test treatment. If time to haemostasis was less than 3 min, it was set to 3 min; if time to haemostasis was 6 or 7 min, it was set to 8 min. This was done to make data consistent with protocol.\" / \"An explorative, parametric, survival analysis that took account of the interval censoring was performed.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D4: the open-label design meant the subjective primary outcome (visually assessed time to haemostasis) and clinician-determined secondary outcomes were measured by unblinded assessors, a limitation the authors themselves acknowledge. Additional concerns arise from undescribed sequence generation with baseline imbalance in target-area size and Pringle manoeuvre use, non-standardised comparator delivery with acknowledged differential post-operative drain management, and early termination of recruitment with multiple exploratory analyses; missing outcome data were not a concern."
+  },
+  {
+    "paper_id": "manual:3d7c96b9",
+    "paper_title": "b0d30fe2_s00423-014-1203-9",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 intraoperative random allocation using center-stratified block randomization lists generated by RandList software and concealed in sealed, numbered, opaque envelopes; registered as NCT00918619.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated, center-stratified block randomization lists with concealed sequentially numbered opaque sealed envelopes opened only after intraoperative eligibility was confirmed, and baseline demographic, laboratory, histopathologic and intraoperative characteristics were well balanced.",
+        "evidence_quote": "\"A 1:1 intraoperative randomization was performed using identical looking, sealed, and numbered opaque envelopes. Randomization was stratified by study center. Lists with a block size of 4 were generated for each participating center prior to the initiation of the study using the Software RandList... The sequence of opening the envelopes was monitored regularly.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons/investigators necessarily knew the assigned product and controlled co-interventions (additional fleeces/patches, rescue hemostatic measures with \"all measures allowed without restrictions\"), and the primary analysis was per-protocol (excluding one improper-use patient) rather than ITT, although the ITT analysis was also performed and gave concordant results and randomization occurred only after transection and primary hemostasis.",
+        "evidence_quote": "\"The analysis was based on the per protocol population and repeated for the intent-to-treat population, since in a noninferiority trial use of the per protocol analysis set is generally seen as the conservative approach.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data were available for 127 of 128 randomized patients (one post-randomization exclusion for a dry resection area and one per-protocol exclusion for improper application), a negligible and balanced amount of missingness unlikely to bias the effect estimate.",
+        "evidence_quote": "\"Thus, 127 patients (COLL: n=62 and CBFS: n=65) received a study intervention and were available for evaluation.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (visual absence of bleeding) was a subjective judgment made by the unblinded operating surgeon, and the assessment schedule differed systematically between arms (CBFS not inspected until 3 min, COLL inspected every minute from 0), so knowledge of the assigned product could plausibly have influenced outcome ascertainment.",
+        "evidence_quote": "\"Due to the appearance of the products used and the differences in their application, blinding of the primary outcome assessor was not possible... Another limitation could be that the measurement of the time to hemostasis is a subjective assessment and prone to bias.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT00918619) with a previously published protocol specifying the primary endpoint, the \u221210 % noninferiority margin, analysis populations and secondary endpoints, all of which are reported as planned.",
+        "evidence_quote": "\"To show transparency the protocol of the ... (ESSCALIVER) study was registered at http://www.clinicaltrials.gov (identifier: NCT00918619), and the study protocol was published previously [19].\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Allocation concealment, follow-up completeness and pre-registration were strong, but the primary outcome \u2014 surgeon-judged visual hemostasis \u2014 was assessed subjectively by an unblinded operator using a different inspection schedule in each arm, giving a high risk of detection bias (D4). Additional some-concerns arise from unblinded surgeons' control of co-interventions and a per-protocol primary analysis, so the overall judgment is high risk of bias, driven by outcome measurement."
+  },
+  {
+    "paper_id": "manual:cc4698f1",
+    "paper_title": "e54d604c_s11605-018-3852-4",
+    "design_classification": "randomized",
+    "design_rationale": "Phase III multicenter trial with explicit 1:1 random allocation to FS Grifols or Surgicel\u00ae (\"Treatments were randomly assigned using statistics software function\"; NCT01754480).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation by statistical software is stated and baseline characteristics appear balanced, but there is no description of allocation concealment (no mention of central/sealed-envelope allocation), and randomization occurred intraoperatively after the surgeon judged bleeding to be \"moderate\", leaving concealment unverifiable.",
+        "evidence_quote": "\"Treatments were randomly assigned using statistics software function. Due to the differences between the two treatments, blinding of investigators was not possible following randomization.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The trial was unavoidably open-label for surgeons/investigators, there were substantial and differential major protocol deviations in treatment application (30 in FS Grifols vs 11 in Surgicel\u00ae, including one centre mis-assembling spray tips), and the primary efficacy endpoint was analysed in the per-protocol rather than the intention-to-treat population, so the effect estimate is not based on an appropriate ITT-type analysis.",
+        "evidence_quote": "\"The primary efficacy endpoint was analyzed in the PP population... Most of the exclusions were due to a major protocol deviation in study treatment application (30/35 in the FS Grifols group; 11/19 in the Surgicel\u00ae group).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary hemostasis outcome was assessed intraoperatively so data were essentially complete for all randomized patients (163 vs 162 in the ITT/safety populations); later discontinuations (9.8% vs 5.6%) affected only follow-up safety outcomes.",
+        "evidence_quote": "\"Patients randomized (ITT population) 52 49 111 113 163 162 ... Patients valid for safety population 52 49 111 113 163 162\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Cessation of bleeding and the time-to-hemostasis category were judged intraoperatively by unblinded surgeon-investigators (blinding impossible given the different product formats), and this subjective, time-sensitive assessment could readily be influenced by knowledge of the assigned agent; TTH was not even precisely measured but inferred between assessment points.",
+        "evidence_quote": "\"Due to the differences between the two treatments, blinding of investigators was not possible following randomization.\" / \"The precise TTH was not expressly determined, but if hemostasis was not achieved at an assessment time point, but was reached at the next one, then it was inferred that the true TTH lied between those two assessment time points.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered with a pre-specified primary endpoint, but results are presented across multiple populations (ITT and PP) and multiple time-point operationalizations with no adjustment for multiple testing, and the pre-specified non-inferiority design was converted to superiority claims, raising the possibility of selective emphasis; the study was also sponsored and co-authored by the manufacturer.",
+        "evidence_quote": "\"All statistical testing were two-sided at the alpha = 0.05 level without adjustments for multiple testing.\" / \"The superiority for the secondary endpoints was tested once the non-inferiority for the primary efficacy endpoint was demonstrated.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although this was a registered multicentre randomized trial with balanced baseline characteristics and virtually complete primary outcome data, it is at high risk of bias overall because blinding was impossible, the subjective intraoperative hemostasis/time-to-hemostasis outcome was assessed by unblinded surgeon-investigators (D4), and the primary endpoint was analysed per-protocol with substantially more treatment-application deviations excluded from the FS Grifols arm (D2). Manufacturer funding/authorship and unadjusted multiple testing add further concerns."
+  }
+]

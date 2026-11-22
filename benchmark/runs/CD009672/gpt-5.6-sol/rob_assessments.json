@@ -1,0 +1,416 @@
+[
+  {
+    "paper_id": "manual:8310d9bd",
+    "paper_title": "a8331ba8_13697130902748967",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that recruited subjects were randomized to estradiol or placebo using a centrally provided computer-generated allocation list.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence and broadly balanced baseline characteristics support random allocation, but the report does not explain how allocation was concealed before assignment, and time since menopause differed slightly between groups.",
+        "evidence_quote": "Randomization was by a centrally provided computer-generated list."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was double-blind with similar compliance, but the primary analysis excluded five randomized participants who never started treatment and used last observation carried forward rather than a strict intention-to-treat analysis.",
+        "evidence_quote": "Only the patients who never started treatment (one in the E2 group and four in the placebo group) were excluded from the efficacy analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was modest but differential between groups, and the primary analysis addressed missing observations using last observation carried forward, whose validity depends on an unverified assumption about outcomes after dropout.",
+        "evidence_quote": "Overall, 14 subjects did not complete the study, four in the E2 group and 10 in the placebo group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Hot-flush frequency was measured prospectively and identically in both groups using daily diary cards, and double blinding reduced the likelihood that participants' knowledge of treatment assignment influenced this subjective outcome.",
+        "evidence_quote": "This multicenter, double-blind, randomized, placebo-controlled study was conducted in symptomatic postmenopausal Asian women"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome, time point, and statistical test are clearly identified, but no preregistration or prespecified statistical analysis plan is reported to rule out selection among analyses, including FAS, FAS-LOCF, and per-protocol approaches.",
+        "evidence_quote": "The primary efficacy variable was the relative change in the frequency of all hot flushes from baseline to week 12."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The trial used an explicit computer-generated random sequence and double blinding, but allocation concealment was not described, the efficacy analysis excluded randomized participants and used LOCF amid differential attrition, and no preregistration or analysis plan was reported."
+  },
+  {
+    "paper_id": "manual:4b904596",
+    "paper_title": "99bee520_epj-08-3184",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly describes random assignment of 90 women to three intervention groups, so it is assessed with RoB 2.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment and coded, identical tubes are reported, but the method used to generate the allocation sequence is not described clearly enough to establish that it was genuinely random.",
+        "evidence_quote": "To conceal allocation, all the tubes were prepared the same and were named A, B, C. Those who entered the study randomly received the creams."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and study personnel were reported as blinded and all groups followed the same dosing schedule, but adherence, intervention-related deviations, and use of intention-to-treat analysis were not reported; the analyzed sample appears to exclude participants lost to follow-up.",
+        "evidence_quote": "Physicians, pathologists, and patients were all unaware of prescribed medications for patients (the study was doubleblind)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for 17 of 90 randomized women (18.9%), with unequal losses across groups and only the vague reason of failure to follow up, and no sensitivity analysis or evidence that missingness was unrelated to outcomes was provided.",
+        "evidence_quote": "In this study, 90 postmenopausal women were divided into three groups consisting of 30 individuals; finally, we had 27 individuals in the lubricant group, 22 in Premarin, and 24 in the royal jelly group (Figure 1). The reason for losing some individuals was not to follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The blinded pathologist and standardized MENQOL instrument support unbiased assessment, but quality-of-life outcomes were self-reported through interviews and the credibility of participant blinding is uncertain because the creams may have differed in sensory or handling characteristics.",
+        "evidence_quote": "The questionnaire was completed by women residents before and at the end of the intervention period for each of the subjects by individual interviews."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The trial was registered only after recruitment and follow-up had ended, multiple outcomes and comparisons were available, and the report contains substantial inconsistencies between tables and narrative claims, creating a high risk of selective choice of outcomes or analyses.",
+        "evidence_quote": "This double-blind randomized controlled clinical trial was carried out ... from January 2013 to January 2014. ... Clinical trial registration: ... IRCT code: 2014112220043n1."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial and differential missing outcome data without appropriate handling and high risk of selective reporting from retrospective registration, multiple eligible outcomes/analyses, and internally inconsistent reporting. Additional concerns arise from inadequately described sequence generation, absence of a clearly reported intention-to-treat analysis, and uncertain blinding for subjective outcomes."
+  },
+  {
+    "paper_id": "manual:daaefe7d",
+    "paper_title": "398f6bca_GME.0000000000001131",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports 1:1:1 random assignment using permuted blocks, stratification by site, and implementation through a secure web-based database and computerized dispensing system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used permuted blocks stratified by site, was implemented through secure computerized systems, and reported baseline characteristics were comparable across groups.",
+        "evidence_quote": "Randomization by permuted blocks of 9 and stratified by site was conducted in a secure Web based database, and implemented via a computerized inventory system for dispensing identical-appearing tablets in bottles and gel in tubes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, personnel, and providers were blinded with matching placebo products; adherence was monitored and reasonably high, and the modified intention-to-treat analysis included participants regardless of adherence when follow-up outcome data were available.",
+        "evidence_quote": "Participants, study personnel, and clinical providers were blinded to treatment assignments."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 97% to 99% of randomized participants, making material bias from missing outcomes unlikely.",
+        "evidence_quote": "Data on one or more domains of the MENQOL were available on 301 women (>99%) at baseline and 298 (99%) at 4 and/or 12 weeks of follow-up. Similarly for the PHQ-8 and GAD-7, data were available on 301 (>99%) women at baseline and 297 (97%) at follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The validated self-report outcome instruments were administered consistently across groups, and double blinding plus identical-appearing treatments reduced the likelihood that participant knowledge influenced outcome reporting.",
+        "evidence_quote": "The MENQOL is a 29-item self-report measure of QOL designed to capture information on the presence and bother of symptoms, feelings, and experiences in the four domains of vasomotor, physical, psychosocial, and sexual functioning among midlife women in the menopause transition."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "MENQOL was specified a priori and the reported models are described, but this secondary analysis included several domains, mood outcomes, time points, subgroup interactions, and sensitivity analyses without a cited public prespecified analysis plan sufficient to rule out selective reporting.",
+        "evidence_quote": "Menopause QOL was specified a priori as a secondary outcome, measured as change from baseline to 12 weeks in the total Menopause-Specific Qualify of Life (MENQOL) questionnaire."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial had robust randomization and concealment, double blinding, appropriate and consistent outcome measurement, and nearly complete follow-up. Some concerns remain about selective reporting because this secondary analysis examined multiple outcomes and analyses without a sufficiently documented prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:6704b48a",
+    "paper_title": "46431f7b_GME.0000000000001446",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that, after baseline evaluation, the 96 participants were randomly divided 1:1 into estriol and control groups, although the sequence-generation method is not described.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation and equal group sizes are reported, but the sequence-generation method and allocation concealment are not described, so the integrity of the randomization process cannot be fully established.",
+        "evidence_quote": "After the baseline evaluation (T0), the sample was 1:1 randomly divided into two groups: the study group (group A) and the control group (group B)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants were evidently unblinded in this no-placebo comparison, and the reported complete-case analysis excluded 12 estriol-assigned women who refused or discontinued treatment rather than retaining them in their assigned group, which could materially affect patient-reported outcomes.",
+        "evidence_quote": "However, after the baseline evaluation and randomization, six (12.7%) women from group A withdrew from the study refusing estriol ovule treatment, and six (12.7%) women reported adverse events consisting of vaginal burning occurring during the first week of the vaginal estriol administration. Therefore they also dropped out of the study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for 25% of the estriol group versus 8.3% of controls, and estriol-group missingness was related to treatment refusal and adverse effects, making bias plausible with no sensitivity analysis or other evidence that results were robust to missingness.",
+        "evidence_quote": "Consequently, 36 and 44 women from group A and group B, respectively, completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although VMI was assessed by a blinded clinician and validated instruments were used, the key quality-of-life and sexual-function outcomes were self-reported by participants who knew whether they received vaginal estriol, and the absence of placebo made differential reporting likely.",
+        "evidence_quote": "Among the limitations of our study, apart from those mentioned above, was the lack of a placebo group."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, while multiple time points, instruments, domains, items, and intra- and intergroup analyses offered substantial scope for selective reporting.",
+        "evidence_quote": "The VMI, SF-36, and FSFI total scores obtained at T0 were compared with T1 and T2 scores through paired Student\u2019s t test."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by differential and intervention-related attrition with complete-case rather than intention-to-treat analysis, plus unblinded self-reported quality-of-life and sexual-function outcomes in a no-placebo trial. Randomization concealment and prospective outcome/analysis specification were also insufficiently reported."
+  },
+  {
+    "paper_id": "manual:51bb512f",
+    "paper_title": "7228fe09_jamainternmed.2018.0116",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, three-arm, double-blind placebo-controlled trial; allocation used site-stratified permuted blocks and a secure web-based database with computerized dispensing.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used site-stratified permuted blocks, was implemented through a secure web-based database and computerized dispensing system, and baseline characteristics were comparable across groups.",
+        "evidence_quote": "Randomization by permuted blocks of 9 and stratified by site was conducted via secure web-based database, and implemented by a computerized inventory system for dispensing identical-appearing tablets in bottles and gel in tubes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and study personnel were blinded with matching placebos, adherence was high and similar across groups, and the modified intention-to-treat analysis retained randomized participants regardless of adherence when follow-up outcome data were available.",
+        "evidence_quote": "Participants, study personnel, and clinicians were blinded to treatment assignments."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data were available for 294 of 302 randomized participants (97%), making material bias from missing outcomes unlikely.",
+        "evidence_quote": "Study retention was high: 294 of 302 (97%) women provided primary analysis data."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary symptom outcome was measured identically in all groups using a defined severity scale, and participant self-assessment was unlikely to be differentially influenced because treatments were matched and participants were blinded.",
+        "evidence_quote": "The primary outcome was severity of the most bothersome symptom (MBS) defined by the participant at trial enrollment as vulvovaginal itching, pain, dryness, irritation, or pain with penetration. Severity was rated 0 to 3, signifying none, mild, moderate, or severe."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary and secondary outcomes were explicitly distinguished from post hoc outcomes, and the primary analysis and multiplicity threshold were prespecified, with no evident selective reporting.",
+        "evidence_quote": "Prespecified secondary outcomes were composite Vaginal Symptom Index (VSI), satisfaction with treatment received (Likert scale: 0 = not satisfied to 10 = completely satisfied), meaningful benefit from the study medications (yes or no), Female Sexual Function Index (FSFI), Female Sexual Distress Scale\u2013Revised Item 1, VMI, and pH. Post hoc secondary outcomes were severity of pain with penetration, and vaginal dryness."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias is low. Randomization and concealment were robust, participants and personnel were blinded, primary outcome completeness was 97%, measurement was consistent, and prospective registration plus clear identification of prespecified versus post hoc outcomes reduces concern about selective reporting."
+  },
+  {
+    "paper_id": "manual:8efbc5d2",
+    "paper_title": "5d275919_jwh.2005.14.391",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports that eligible participants were assigned double-blind to four treatment groups using a computerized random-number-generating program.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computerized random-number sequence was used and reported baseline characteristics were similar, but allocation concealment until assignment was not described and the markedly unequal arm sizes in this very small trial leave some uncertainty.",
+        "evidence_quote": "subjects were randomized, double-blind, into four treatment groups... using a computerized program generating random numbers."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was described as double-blind, but the success and implementation of blinding, adherence, post-randomization deviations, and use of an intention-to-treat analysis were not reported.",
+        "evidence_quote": "After giving informed consent and being screened for eligibility criteria, subjects were randomized, double-blind, into four treatment groups"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Most reported analyses appear to include all 32 randomized women, but at least one QOL outcome omits one placebo participant and the paper does not fully account for outcome-specific missingness.",
+        "evidence_quote": "Of the 32 women randomized, 12 were randomized to DHEA alone, 5 to ET, 9 to DHEA-ET, and 6 to placebo."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were measured consistently across groups using appropriate objective instruments and standardized assays, while self-reported QOL used a validated questionnaire in a double-blind, placebo-controlled setting.",
+        "evidence_quote": "Muscle mass was determined by MRI... Ankle plantar flexor strength and endurance were tested using a Biodex isokinetic dynamometer."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, and numerous outcomes, operationalizations, within-group tests, and between-group analyses create scope for selective reporting.",
+        "evidence_quote": "Main outcome measures of lower extremity muscle (calf) mass, functional muscle parameters, serum hormone and lipid levels, and quality of life (QOL) were obtained at baseline and after treatment."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Random sequence generation and outcome measurement were generally sound, but allocation concealment, adherence/analysis of deviations, complete accounting for missing outcomes, and protection against selective reporting were insufficiently documented."
+  },
+  {
+    "paper_id": "manual:7d354a1d",
+    "paper_title": "b4f53e08_S0002-9378%2812%2990828-5",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that women were blindly and randomly allocated to transdermal estradiol or placebo, so it is a randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is stated and baseline outcome scores were similar, but the sequence-generation and allocation-concealment methods are not reported, and small baseline differences in weight and height were observed.",
+        "evidence_quote": "The women were blindly and randomly allocated to either transdermal estradiol therapy, 50 \u03bcg/24 hours, or placebo given as patches twice a week."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The use of placebo patches and description as double-blind reduce concern about behavioral deviations, but blinding procedures and success were not fully described, and efficacy analyses excluded protocol violators, withdrawals, and poor-compliance cases rather than using an intention-to-treat analysis.",
+        "evidence_quote": "Two hundred forty-two women were randomized, and 223 were analyzed for efficacy (n = 112 for estradiol and n = 111 for placebo)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were unavailable for 19 of 242 randomized women, with somewhat greater and outcome-related withdrawal in the placebo group, although attrition was modest and completers and withdrawals were reportedly similar on measured characteristics.",
+        "evidence_quote": "Ten of the patients withdrew while receiving placebo, mainly because of insufficient therapeutic effect and one had poor compliance."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Quality of life was measured identically in both groups using standardized self-administered questionnaires under double-blind placebo-controlled conditions, with forms sent to an independent nurse for quality control.",
+        "evidence_quote": "The quality-of-life evaluation was performed with self-administered questionnaires, filled in at the clinic, and mailed to an independent nurse for quality control."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or prospective registration is reported, and numerous questionnaire totals, subscales, and time points created scope for selective reporting, although the hierarchical testing strategy and alpha threshold were described.",
+        "evidence_quote": "The first analysis was based on the overall or total scores. In cases of statistically significant differences p < 0.01 a second analysis was performed in a similar fashion with the subscales or dimensions of the questionnaires."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns because sequence generation and allocation concealment were not described, the efficacy analysis excluded randomized participants with potentially outcome-related attrition, and no prespecified protocol or registration was reported. Outcome measurement itself was well standardized and blinded."
+  },
+  {
+    "paper_id": "manual:9f4bd456",
+    "paper_title": "4b5d5b65_s0029-7844%2803%2900764-6",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly reports random allocation using a computer-generated SAS Proc Plan schedule, with women assigned in blocks of six to one of three ring groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated blocked randomization schedule was used and baseline characteristics were broadly comparable, but allocation concealment until assignment was not described and some baseline differences were present.",
+        "evidence_quote": "A randomization schedule was generated with the SAS Proc Plan (SAS Institute, Cary, NC). Women who met the inclusion and exclusion criteria were randomized in blocks of six"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The study was described as double-blind and used placebo rings, reducing awareness-related deviations, but the analysis excluded eight randomized women without postbaseline data and used modified intention-to-treat rather than analyzing all randomized participants in assigned groups.",
+        "evidence_quote": "The primary efficacy analysis was based on a modified intent-to-treat population, which included all randomized participants with a baseline measurement of moderate to severe vasomotor symptoms who had a vaginal ring inserted and who had at least one moderate to severe vasomotor symptoms evaluation during the study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was substantial and markedly differential by treatment group, especially placebo, while last observation carried forward was used without evidence that missing outcomes were independent of their true values, creating a plausible risk of biased efficacy estimates.",
+        "evidence_quote": "Fourteen women in the E2 vaginal ring 50-\u03bcg group (12.4%), 11 in the E2 vaginal ring 100-\u03bcg group (9.8%), and 29 in the placebo vaginal ring group (26.9%) discontinued treatment."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Vasomotor symptoms were measured consistently using daily diaries and a prespecified scale, but they were participant-reported and the report does not explain how blinding was maintained or evaluated despite potentially recognizable estrogen effects and unequal symptom improvement.",
+        "evidence_quote": "The primary efficacy variable was the frequency and severity of moderate to severe vasomotor symptoms, as recorded on daily diary cards with a 4-point scale"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and analysis are described, including an FDA-requested timing change, but no prospective registration or publicly available statistical analysis plan is reported and numerous time points, outcome formulations, and secondary measures leave scope for selective reporting.",
+        "evidence_quote": "The primary end point was the mean change in the number of moderate to severe vasomotor symptoms from baseline to weeks 4, 8, and 12, with last observation carried forward. (Although the study was designed as a 13-week trial, the moderate to severe vasomotor symptoms analysis was done at week 12 to accommodate a request from the US Food and Drug Administration.)"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because attrition was substantial and strongly differential (26.9% with placebo versus 9.8\u201312.4% with estradiol), with modified intention-to-treat and last-observation-carried-forward analyses that do not establish robustness to missing outcomes. Additional concerns arise from unreported allocation concealment, possible unblinding of subjective outcomes, and lack of prospective registration or an accessible analysis plan."
+  },
+  {
+    "paper_id": "manual:e89fbb15",
+    "paper_title": "d8c6639e_s12905-020-01031-4",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:1 using a computer-generated block randomization sequence, so the study is a randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated blocked sequence was used, allocation was concealed in identical opaque envelopes by an independent nurse, and reported baseline characteristics were broadly comparable.",
+        "evidence_quote": "A computer generated block of four randomizations was used to randomize participants into two groups in a 1:1 ratio. The allocation and concealment of placebo and the drugs into identical opaque envelopes were done by a nurse who was not involved in contacting with patients or analyzing any data."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and study personnel were blinded with a visually identical placebo, adherence among completers exceeded 90%, and the analysis followed intention-to-treat principles with multiple imputation.",
+        "evidence_quote": "The treatment effect was evaluated with intention-to-treat analysis, with missing data assumed by multiple imputation method."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Nine of 67 participants (13.4%) discontinued, including withdrawals potentially related to treatment concerns or adverse effects, and although multiple imputation was used, the assumptions and sensitivity of results to missingness were not reported.",
+        "evidence_quote": "Nine participants, 5 in the estrogens arm and 4 in the placebo arm, discontinued from the study during the 12-week protocol."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was measured in both groups with the same validated self-report FSFI instrument, and participant blinding with a visually identical placebo reduced the likelihood that outcome reports were influenced by assigned intervention.",
+        "evidence_quote": "The Thai version of the Female Sexual Function Index questionnaire was validated in previous study among Thai postmenopausal women, aged 40\u201360 years, with high reliability coefficients and internal consistency (r = 0.79\u20130.86, Cronbach\u2019s alpha value = 0.82)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the primary outcome was identified, but the report does not provide a protocol or prespecified statistical analysis plan sufficient to exclude selective choice among multiple FSFI domains, secondary outcomes, and eligible analyses.",
+        "evidence_quote": "Trial registration: Thai Clinical Trial Registry identification number TCTR20180219001, prospectively registered since 2018-02-19 11:33:21."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by 13.4% attrition without reported sensitivity analyses for the multiple-imputation assumptions and incomplete information to rule out selective reporting. Randomization, blinding, and primary-outcome measurement were otherwise well described and judged low risk."
+  }
+]

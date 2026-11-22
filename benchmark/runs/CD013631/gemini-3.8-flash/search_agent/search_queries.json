@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of probiotics (single-strain or multi-strain probiotic supplements, probiotic-containing foods such as probiotic yoghurt, soy milk or honey; not prebiotics or synbiotics) compared with placebo or no treatment on kidney function, measured as serum creatinine, at 8 to 24 weeks in people with chronic kidney disease (any stage, including diabetic nephropathy and dialysis)?\n\nEffect measure: pool as a mean difference (MD) in mg/dL using a random-effects model. MD < 0 means lower serum creatinine with probiotics (favours probiotics).\n\nOutcome: serum creatinine in mg/dL at the end of treatment, extracted as the mean, SD and number of participants per arm.\n- Use the end-of-treatment value (mean and SD) when the paper reports one. If the paper reports only the change from baseline (mean change and SD of change) for each arm, use those instead, and record that change scores were used. Do not mix the end value of one arm with the change score of the other within a study.\n- Treatment duration in the trial should be about 8 to 24 weeks; if a trial has more than one follow-up, use the last one within 24 weeks.\n- Convert all values to mg/dL (\u00b5mol/L \u00f7 88.4). Record the original unit and the conversion applied.\n- If variability is reported as SE or SEM, convert to SD = SE \u00d7 \u221an for that arm. Check table footnotes for whether \"\u00b1\" is SD or SE.\n- Read signs carefully: a change score is end minus baseline, so a fall in creatinine is negative. Do not drop minus signs, and do not read a decimal such as 0.2 as 2.\n- Arms: assign probiotic vs placebo/no-treatment by group definition, not by column position. Many tables list the placebo group first. If the paper's table headings were lost in extraction, use the group definitions in the text to decide which column is which arm, and state that you inferred it.\n- Trials with more than two arms: use the probiotic arm and the placebo/no-treatment arm; combine several probiotic arms by pooling means and SDs; ignore arms with other supplements.\n\nDo not pool GFR/eGFR, albuminuria or proteinuria, inflammation markers, lipids, glucose, gut-microbiota outcomes or adverse events. Include only randomised controlled trials in people with CKD; exclude trials in people without kidney disease, trials of prebiotics or synbiotics, and comparisons between two probiotics.",
+  "planned_search_queries": [
+    "probiotics chronic kidney disease randomized trial serum creatinine",
+    "probiotic supplementation kidney function controlled trial creatinine",
+    "probiotics placebo clinical trial hemodialysis nephropathy creatinine"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "probiotics chronic kidney disease placebo controlled trial serum creatinine",
+    "probiotic supplementation CKD randomized trial creatinine outcome",
+    "probiotics renal disease placebo comparison creatinine level",
+    "probiotics kidney function clinical trial serum creatinine effect",
+    "probiotic therapy nephropathy double blind trial creatinine"
+  ]
+}

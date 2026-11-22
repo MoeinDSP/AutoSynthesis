@@ -1,0 +1,38 @@
+{
+  "research_question": "Among term or preterm neonates up to 28 days of age with clinically or electrographically diagnosed seizures, what is the effect of phenobarbital (phenobarbitone), compared with levetiracetam, when assigned as first-line anti-seizure medication, on all-cause mortality from randomisation through discharge from the initial hospital or NICU stay?",
+  "treatment_label": "Phenobarbital (phenobarbitone) as first-line anti-seizure medication",
+  "control_label": "Levetiracetam as first-line anti-seizure medication",
+  "outcome_description": "All-cause mortality before discharge from the initial hospital or NICU stay, measured as the number of randomised or analysed infants who died from any cause between randomisation and discharge divided by the corresponding arm denominator. Use the number randomised when reported; otherwise use the number analysed. Include explicitly reported zero-death arms as zero events, but exclude a study from this outcome if mortality is not reported. Do not use deaths after discharge or mortality measured at 3, 6, or 12 months. Preserve original randomised assignment in crossover, rescue-switch, or add-on-after-nonresponse trials, and include only the phenobarbital and levetiracetam arms of multi-arm trials.",
+  "positive_direction": "A positive treatment effect (RR greater than 1 for phenobarbital divided by levetiracetam) means more in-hospital deaths with phenobarbital and therefore favours levetiracetam; RR less than 1 means fewer deaths with phenobarbital and favours phenobarbital.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "neonatal seizures phenobarbital levetiracetam randomized trial mortality",
+    "newborn seizures phenobarbitone levetiracetam controlled comparison death",
+    "neonate first-line antiseizure phenobarbital levetiracetam quasi-randomized outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomised or quasi-randomised comparative trials enrolling term or preterm neonates up to 28 days old with clinically or electrographically diagnosed seizures.",
+    "Phenobarbital or phenobarbitone and levetiracetam are assigned as the competing first-line anti-seizure treatments; eligible arms may be extracted from multi-arm trials.",
+    "The report provides quantitative all-cause mortality data during the initial hospital or NICU stay for both eligible arms, including explicitly reported zero events, with usable arm denominators."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-empirical publications.",
+    "No eligible treatment-versus-control comparison: exclude non-randomised/non-quasi-randomised comparisons, seizure-prophylaxis trials, trials in which the relevant arms are not phenobarbital and levetiracetam, and comparisons in which these drugs are given only as add-on therapy after failure of a different first drug.",
+    "No quantitative outcome data capable of producing an effect size: exclude reports that do not report in-hospital/NICU all-cause death counts or otherwise provide usable event totals and arm denominators; do not infer zero deaths from silence. Means and SDs, t/F-values, proportions, or odds ratios would be acceptable generally only if they permit recovery of the required mortality comparison.",
+    "Completely unrelated to the research topic or population, including studies outside neonates with seizures and reports limited to seizure control, time to seizure cessation, EEG outcomes, adverse events, neurodevelopment, mechanical ventilation, or post-discharge mortality without eligible predischarge mortality data."
+  ],
+  "moderators_to_extract": [
+    "Gestational-age composition (term, preterm, or mixed)",
+    "Seizure ascertainment method (clinical, electrographic, or both)",
+    "Allocation method (randomised versus quasi-randomised)",
+    "Mortality denominator type (number randomised versus number analysed)",
+    "Crossover/rescue-switch or add-on-after-nonresponse design versus no switching",
+    "Underlying seizure aetiology or illness severity, as reported"
+  ],
+  "search_start_year": 1999,
+  "effect_size_note": "Pool arm-level binary data as a risk ratio calculated as risk in phenobarbital divided by risk in levetiracetam, retaining phenobarbital as the treatment arm regardless of table or figure column order. Use original randomised groups (intention-to-treat assignment) when infants cross over, switch, or receive the other drug as rescue/add-on. Prefer numbers randomised as denominators and otherwise use numbers analysed. Retain studies with an explicitly reported zero-event arm; apply the prespecified meta-analytic method's standard handling of zero cells. Studies with zero events in both arms contribute no estimable comparative RR under conventional RR methods and should be documented even if omitted from the pooled estimate. For multi-arm studies, extract only phenobarbital and levetiracetam arms and ignore other drug arms. Report RR > 1 as increased mortality with phenobarbital (favouring levetiracetam).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality before hospital discharge"
+}

@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of statins (HMG-CoA reductase inhibitors, e.g. pravastatin, atorvastatin, rosuvastatin, fluvastatin, lovastatin, cerivastatin, simvastatin), compared with placebo or no statin treatment (with other treatments given equally to both arms), on proteinuria at the end of treatment in adults with chronic kidney disease not requiring dialysis?  Effect measure: pool as a mean difference (MD) in grams per 24 hours (g/24 h) using a random-effects model. MD < 0 means lower proteinuria with statin (favours statin).  Outcome: urinary protein excretion (24-hour urinary protein or, if that is the study's only measure of urinary protein loss, 24-hour urinary albumin excretion) measured at the end of the treatment period. Extract the final (end-of-treatment) mean, SD and number of participants for each arm. - Use end-of-treatment values, not change from baseline and not baseline values. If several follow-up times are reported, use the last on-treatment timepoint (end of the randomised treatment period, before any washout, crossover or withdrawal phase). - Convert all values to g/24 h (e.g. mg/24 h \u00f7 1000; mg/day = mg/24 h). Record the original units and the conversion applied. - If variability is reported as SE/SEM, convert to SD = SE \u00d7 \u221an for that arm. Check table footnotes and the statistics section for whether \"\u00b1\" is SD or SEM. - If end-of-treatment values appear only in a figure, read the mean and error bar for each arm from the figure, and convert SEM to SD if the error bars are SEM. - Multiple reports of the same trial (same authors, centre, intervention and recruitment period): extract once, from the report with the full randomised sample, and do not add companion or interim reports as separate studies. - Multi-arm trials or trials with a non-CKD control group: use only the CKD participants randomised to statin vs placebo/no statin.  Do not pool kidney function (eGFR, creatinine clearance, serum creatinine), cholesterol/lipid outcomes, cardiovascular events, death, adverse events or urinary podocytes. Exclude people on dialysis or with a kidney transplant, and exclude comparisons of statin vs another statin or vs a different active drug.",
+  "planned_search_queries": [
+    "statin chronic kidney disease proteinuria randomized controlled trial",
+    "HMG-CoA reductase inhibitor CKD urinary protein placebo trial",
+    "atorvastatin pravastatin rosuvastatin renal disease albuminuria controlled study"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "statin non-dialysis chronic kidney disease proteinuria randomized trial",
+    "HMG-CoA reductase inhibitor CKD urinary protein excretion placebo controlled trial",
+    "atorvastatin pravastatin simvastatin chronic renal disease proteinuria trial",
+    "rosuvastatin fluvastatin lovastatin cerivastatin CKD albuminuria controlled trial",
+    "statin chronic renal insufficiency 24-hour urinary protein quantitative comparison"
+  ]
+}

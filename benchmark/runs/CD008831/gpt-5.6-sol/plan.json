@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people with cancer receiving radiotherapy, with or without concurrent chemotherapy, what is the effect of probiotics compared with placebo on the incidence of grade 2 or higher diarrhoea?",
+  "treatment_label": "Probiotics administered during radiotherapy (with or without chemotherapy)",
+  "control_label": "Placebo administered during radiotherapy (with or without chemotherapy)",
+  "outcome_description": "Incidence of grade 2 or higher diarrhoea during radiotherapy or the study-defined follow-up period, based on a recognized toxicity grading system or an author-defined threshold that is clearly equivalent to grade 2 or higher.",
+  "positive_direction": "A positive effect size means probiotics reduce the incidence of grade 2 or higher diarrhoea compared with placebo and therefore favor probiotics.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "probiotics placebo radiotherapy cancer diarrhoea trial",
+    "probiotic controlled chemoradiotherapy cancer grade 2 diarrhea",
+    "probiotics radiation induced diarrhoea cancer quantitative comparison"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of people with cancer receiving radiotherapy, with or without chemotherapy, that evaluate a probiotic intervention against placebo.",
+    "Studies reporting the incidence or sufficient quantitative information about grade 2 or higher diarrhoea, or a clearly equivalent moderate-to-severe diarrhoea threshold.",
+    "Studies involving any cancer type, radiotherapy technique, probiotic species or formulation, dose, treatment duration, setting, language, publication status, or participant age."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded.",
+    "No comparison between a probiotic treatment condition and a placebo control condition.",
+    "No quantitative outcome data that can produce an effect size; extractable means and SDs, t/F-values, proportions/event counts, or odds ratios are required.",
+    "Completely unrelated to probiotics, cancer radiotherapy, or treatment-associated grade 2 or higher diarrhoea."
+  ],
+  "moderators_to_extract": [
+    "Cancer type and anatomical radiotherapy field",
+    "Use of concurrent chemotherapy and chemotherapy regimen",
+    "Probiotic formulation, species/strain composition, dose, and duration",
+    "Radiotherapy modality and total dose/fractionation",
+    "Diarrhoea grading system and outcome-assessment time point",
+    "Participant characteristics and baseline risk, including age and prior gastrointestinal comorbidity"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Treat the endpoint as dichotomous and extract numbers of participants with grade 2 or higher diarrhoea and total participants by arm wherever possible; also capture reported adjusted or unadjusted relative effect estimates and confidence intervals when event counts are unavailable. Harmonize toxicity definitions so that only grade 2 or higher, or a clearly equivalent threshold, is included. Orient all effects so positive values favor probiotics. Use one eligible estimate per independent sample in the primary synthesis, address multi-arm studies without double-counting placebo participants, and examine alternative grading definitions or assessment windows in sensitivity analyses.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "incidence of grade 2 or higher diarrhoea"
+}

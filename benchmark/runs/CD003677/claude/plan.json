@@ -1,0 +1,38 @@
+{
+  "research_question": "In women undergoing hysterectomy for benign gynaecological disease, does a laparoscopic approach (laparoscopically assisted vaginal hysterectomy, total laparoscopic hysterectomy, or laparoscopic hysterectomy of unspecified type), compared with vaginal hysterectomy, change the odds of requiring a blood transfusion during the operation and hospital stay or up to the end of follow-up?",
+  "treatment_label": "Laparoscopic hysterectomy (LAVH, TLH, or laparoscopic hysterectomy of unspecified type)",
+  "control_label": "Vaginal hysterectomy",
+  "outcome_description": "Number of women who received a blood transfusion (any transfusion, intra-operative or post-operative) out of the number randomised to each arm, recorded during the operation and the hospital stay or up to the end of follow-up. Events and arm totals are extracted as counts; the number randomised is the denominator (intention-to-treat). Blood loss volume, haemoglobin drop, and haematoma are not used. Trials with zero transfusions in both arms are recorded as zero-event rows with their arm sizes. In multi-arm trials comparing more than one laparoscopic approach with a single vaginal hysterectomy group, each laparoscopic approach forms its own comparison and the vaginal group's size and events are split equally between them. Abdominal and robotic hysterectomy arms are ignored.",
+  "positive_direction": "An odds ratio greater than 1 means MORE women required a blood transfusion in the laparoscopic hysterectomy group than in the vaginal hysterectomy group (i.e. a result unfavourable to laparoscopic hysterectomy); an OR below 1 means fewer transfusions with laparoscopic hysterectomy.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "laparoscopic hysterectomy versus vaginal hysterectomy randomised controlled trial benign disease",
+    "laparoscopically assisted vaginal hysterectomy trial blood transfusion complications",
+    "total laparoscopic hysterectomy vaginal hysterectomy comparison surgical outcomes trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in women undergoing hysterectomy for benign gynaecological disease",
+    "Compares a laparoscopic approach to hysterectomy (LAVH, TLH, or unspecified laparoscopic) with vaginal hysterectomy",
+    "Reports some quantitative peri-operative outcome data, including blood transfusion counts (or zero events) per arm"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, or purely theoretical/protocol paper)",
+    "No comparison between a laparoscopic hysterectomy arm and a vaginal hysterectomy control arm (e.g. only abdominal or robotic hysterectomy comparators), or non-randomised design",
+    "No quantitative outcome data from which an effect size can be computed (no event counts/proportions, means+SDs, t/F values, or odds ratios)",
+    "Completely unrelated to the research topic (e.g. hysterectomy for malignancy, non-hysterectomy gynaecological surgery)"
+  ],
+  "moderators_to_extract": [
+    "Type of laparoscopic approach (LAVH vs TLH vs unspecified)",
+    "Sample size category (number randomised)",
+    "Publication year",
+    "Country / healthcare setting",
+    "Primary indication (fibroids, prolapse, abnormal bleeding, mixed)",
+    "Risk of bias / allocation concealment adequacy"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as an odds ratio using a fixed-effect Mantel-Haenszel model where available, otherwise random effects. Compute the OR directly from event counts with laparoscopic hysterectomy as the treatment group and vaginal hysterectomy as the control group; assign arms by procedure description, not column position. Double-zero trials are retained as visible rows but contribute no weight. Do not pool operating time, hospital stay, other complications, return to normal activities, conversion to laparotomy, pain, or cost.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "blood transfusion"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women undergoing assisted reproduction with IVF or ICSI, what is the effect of testosterone pretreatment before ovarian stimulation, compared with placebo or no pretreatment, on live birth per woman randomised, using ongoing pregnancy only when live birth is not reported?",
+  "treatment_label": "Testosterone pretreatment before ovarian stimulation (e.g. transdermal testosterone gel or patch)",
+  "control_label": "Placebo or no pretreatment",
+  "outcome_description": "Dichotomous live birth per woman randomised; if live birth is unavailable, ongoing pregnancy per woman randomised will be used as the prespecified substitute. Clinical pregnancy, miscarriage, multiple pregnancy, oocyte numbers, adverse effects, and all other outcomes will not be pooled.",
+  "positive_direction": "A positive effect (odds ratio greater than 1; equivalently a positively signed log odds ratio) means higher odds of live birth or, when live birth is not reported, ongoing pregnancy with testosterone pretreatment than with placebo or no treatment.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "testosterone pretreatment IVF ICSI randomized trial live birth",
+    "transdermal testosterone gel patch ovarian stimulation controlled pregnancy outcome",
+    "androgen pretreatment assisted reproduction placebo trial ongoing pregnancy"
+  ],
+  "inclusion_criteria": [
+    "Original empirical comparative studies of women undergoing IVF or ICSI that evaluate testosterone pretreatment before ovarian stimulation against placebo or no pretreatment.",
+    "Studies reporting live birth per woman randomised, or ongoing pregnancy per woman randomised when live birth is not reported, with sufficient quantitative dichotomous data to estimate an odds ratio.",
+    "Any testosterone dose, route, or pretreatment duration and any broadly relevant assisted-reproduction population, including women characterised as poor ovarian responders."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers will be excluded.",
+    "No eligible comparison between testosterone pretreatment and placebo or no treatment; this includes DHEA trials and comparisons of testosterone against another active intervention.",
+    "No quantitative outcome data capable of producing an effect size (e.g. event counts/proportions or a reported odds ratio; for continuous outcomes, means plus SDs or t/F statistics would ordinarily qualify, but such outcomes are outside this review). Studies reporting only clinical pregnancy, miscarriage, multiple pregnancy, oocyte numbers, adverse effects, or another non-target outcome will be excluded.",
+    "Completely unrelated to testosterone pretreatment before ovarian stimulation in women undergoing IVF or ICSI, including studies not reporting live birth or the prespecified ongoing-pregnancy substitute."
+  ],
+  "moderators_to_extract": [
+    "Testosterone pretreatment duration",
+    "Testosterone dose and route/formulation (gel, patch, or other)",
+    "Participant ovarian-response or ovarian-reserve eligibility criteria",
+    "Assisted-reproduction method (IVF, ICSI, or mixed)",
+    "Mean participant age",
+    "Control type (placebo versus no treatment)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool dichotomous outcomes as odds ratios on an intention-to-treat denominator of women randomised. Prefer live birth; use ongoing pregnancy only if live birth is not reported, so that each study contributes only one target estimate. For trials with several eligible testosterone-duration arms sharing one control group, include each testosterone arm as a separate comparison and divide the control sample size and control events as equally as possible among comparisons to avoid double counting; retain the original event proportion, using integer allocation where required. Do not pool clinical pregnancy or any other outcome. Use a random-effects model with 95% confidence intervals; assess heterogeneity with tau-squared and I-squared, perform sensitivity analyses by risk of bias and outcome substitution where feasible, and assess small-study effects only if enough studies are available. Document study selection with a PRISMA 2020 flow diagram and report excluded full texts with reasons.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "live birth or ongoing pregnancy"
+}

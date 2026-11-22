@@ -1,0 +1,38 @@
+{
+  "research_question": "In children and adolescents (aged 0\u201319 years) with overweight or obesity, what is the effect of digital health / technology-driven or technology-assisted interventions added to conventional care, compared with conventional care alone, on waist circumference (cm) at end of study?",
+  "treatment_label": "Digital health / technology-assisted intervention plus conventional care",
+  "control_label": "Conventional care alone",
+  "outcome_description": "Waist circumference measured in centimetres at the end of the intervention/study period (including waist circumference z-score or percentile where reported as the study's waist measure) in children and adolescents with overweight or obesity.",
+  "positive_direction": "A positive Hedges g means the technology-assisted intervention added to conventional care produced a greater reduction in waist circumference (smaller waist circumference) than conventional care alone.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "digital health intervention childhood obesity waist circumference randomized trial",
+    "mHealth app adolescent overweight weight management controlled trial anthropometric outcomes",
+    "telehealth exergame internet-based program pediatric obesity waist circumference effect"
+  ],
+  "inclusion_criteria": [
+    "Participants are children or adolescents aged 0\u201319 years with overweight or obesity (or a weight-management population including such youth)",
+    "Study evaluates any digital, technology-driven or technology-assisted component (app, website, SMS, telehealth, wearable, exergame, social media, e-learning) delivered alongside or as an addition to usual/conventional care, compared with a control group receiving conventional care or no digital component",
+    "Reports quantitative waist circumference (or waist-related anthropometric) data at end of study, or data sufficient to compute an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a treatment condition and a control/comparison condition (single-arm or pre-post only designs without a control group)",
+    "No quantitative outcome data from which an effect size can be computed (no means with SDs, t/F statistics, proportions, or odds ratios)",
+    "Completely unrelated to the research topic (e.g. adults only, no technology component, or no weight/anthropometric outcome)"
+  ],
+  "moderators_to_extract": [
+    "Type of digital technology (app, web, SMS, telehealth, wearable, exergame)",
+    "Intervention duration (weeks/months)",
+    "Mean participant age or age group (child vs adolescent)",
+    "Study design (RCT vs non-randomized controlled)",
+    "Sample size category",
+    "Country/setting (clinical vs community vs school)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "waist circumference"
+}

@@ -1,0 +1,18 @@
+user_prompt,retrieved_count,screened_in_count,screened_out_count,eligible_count,included_count,overlap_with_original_count,overlap_with_original_pct
+"In adults with overweight or obesity, what is the effect of intermittent fasting (time-restricted eating, alternate-day fasting, modified alternate-day fasting, 5:2 or other periodic fasting), compared with regular dietary advice (for example continuous daily calorie restriction or standard healthy-eating advice for weight loss), on percentage weight change from baseline at short-term follow-up (up to 12 months)?
+
+Effect measure: pool as a mean difference (MD) in percentage points using a random-effects model. MD < 0 means more weight loss with intermittent fasting (favours intermittent fasting).
+
+Outcome: percentage change in body weight from baseline, intermittent fasting versus regular dietary advice.
+- Use percentage weight change from baseline. If a study reports weight change only in kg, convert it to percentage of baseline weight for each arm (change in kg / baseline weight in kg x 100) and say so.
+- Use the longest follow-up up to and including 12 months after randomisation. Do not use assessments after 12 months.
+- Accept any of these data formats, in this order of preference:
+  1. Arm-level means with SDs (or SE/CI, converted to SD).
+  2. The estimated between-group difference (intermittent fasting minus regular dietary advice) with its 95% CI or SE, from any analysis model; derive SE from the 95% CI as (upper - lower) / 3.92.
+- Numbers of participants: use the numbers analysed if stated; otherwise use the randomised numbers per arm.
+- Comparator must be regular dietary advice. If a trial also has a no-intervention or waiting-list arm, use only the regular dietary advice arm. If a trial has several intermittent fasting arms, combine them into one intermittent fasting group (pool means and SDs, sum participants) and compare once with the regular dietary advice group.
+- For cluster-randomised trials, use estimates adjusted for clustering if reported.
+- Assign arms by intervention description, not by column position.
+- Include randomised controlled trials and cluster-randomised trials in adults (18 years or older) with overweight or obesity, with or without comorbidities (for example type 2 diabetes, kidney disease or fatty liver disease), with an intervention of at least four weeks. Exclude cross-over and quasi-randomised trials.
+
+Do not pool weight in kg as a separate outcome, BMI, waist circumference, the proportion reaching 5% weight loss, quality of life, adverse events, glycaemic or lipid outcomes, or any outcome other than percentage weight change.",160,29,131,19,15,N/A (no gt_papers.csv provided),N/A

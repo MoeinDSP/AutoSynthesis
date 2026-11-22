@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of behavioural support, compared with brief advice or no intervention, on tobacco use cessation?",
+  "treatment_label": "Behavioural support (alone or with pharmacotherapy)",
+  "control_label": "Brief advice or no intervention (with matched pharmacotherapy where applicable)",
+  "outcome_description": "Tobacco use cessation rate (abstinence from smoking/tobacco)",
+  "positive_direction": "Higher cessation rates (greater abstinence) in the behavioural support group compared to the control group",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "behavioural support smoking cessation randomized trial",
+    "behavioral counseling tobacco cessation controlled comparison",
+    "behavioural intervention tobacco abstinence trial effect"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies examining behavioural support interventions for smoking or tobacco use cessation",
+    "Studies comparing behavioural support (with or without matched pharmacotherapy) against brief advice, usual care, or minimal/no intervention",
+    "Reporting quantitative cessation or abstinence rates or related tobacco use cessation measures"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, opinion pieces, and theoretical papers are excluded)",
+    "No comparison between a behavioural support intervention and a brief advice or control condition",
+    "No quantitative cessation or abstinence outcome data available to calculate an effect size",
+    "Completely unrelated to tobacco use cessation or behavioural support"
+  ],
+  "moderators_to_extract": [
+    "Intervention combination subgroup (behavioural support alone, behavioural support + NRT, behavioural support + varenicline)",
+    "Behavioural support delivery modality (individual counseling, group therapy, telephone support, digital/text)",
+    "Control condition type (brief advice, usual care, self-help, no intervention)",
+    "Biochemical verification of abstinence (verified vs self-report only)",
+    "Follow-up duration of cessation assessment (e.g., 6 months, 12 months)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "For trials testing multiple behavioural support variants against a single shared control arm, divide the control group sample size and event count proportionally across comparisons to prevent double-counting of control participants. Subgroups are structured by co-intervention: behavioural support alone vs brief advice/control; behavioural support + NRT vs brief advice/control + NRT; and behavioural support + varenicline vs varenicline alone.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "tobacco use cessation"
+}

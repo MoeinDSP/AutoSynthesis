@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of non-valved PICCs compared with valved PICCs on catheter occlusion across people of any age requiring a PICC?",
+  "treatment_label": "Non-valved PICCs (open-ended)",
+  "control_label": "Valved PICCs (integrated proximal or distal valve)",
+  "outcome_description": "Catheter occlusion during catheter dwell time (number of participants or catheters with occlusion)",
+  "positive_direction": "Lower incidence of catheter occlusion, favoring non-valved PICCs",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "valved non-valved PICC catheter occlusion trial",
+    "valved open-ended peripherally inserted central catheter occlusion comparison",
+    "PICC integrated valve occlusion randomized controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Empirical studies in humans of any age requiring a peripherally inserted central catheter (PICC)",
+    "Compares non-valved (open-ended) PICCs directly against PICCs with integrated valve technology (proximal or distal valves)",
+    "Reports quantitative data on catheter occlusion occurring during catheter dwell time"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, opinion pieces, conference abstracts without full data, and theoretical papers are excluded)",
+    "No comparison between non-valved PICCs and valved PICCs (e.g., single-arm studies, or comparisons solely investigating catheter material, tip design, or taper without a valve vs. no-valve comparison)",
+    "No quantitative outcome data that can produce an effect size for catheter occlusion (event counts, proportions, odds ratios, or risk ratios not reported)",
+    "Completely unrelated to PICC valve design or vascular access outcomes"
+  ],
+  "moderators_to_extract": [
+    "Valve location (proximal vs. distal valve technology)",
+    "Patient population (adult, pediatric, neonatal, or mixed)",
+    "Flushing or heparin locking protocol used",
+    "Catheter lumen configuration (single- vs. multi-lumen)",
+    "Study design (randomized controlled trial vs. prospective/retrospective cohort)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Dichotomous outcome: number of participants or catheters experiencing occlusion during catheter dwell time. If a trial contains multiple valved-catheter arms, combine them into a single comparator group.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "catheter occlusion"
+}

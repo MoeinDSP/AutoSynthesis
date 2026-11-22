@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults (\u226518 years) admitted to the intensive care unit \u2014 including after cardiac arrest, with acute respiratory failure or ARDS, with septic shock, or receiving mechanical ventilation \u2014 does a higher (liberal) fraction of inspired oxygen or arterial oxygenation target, compared with a lower (conservative) target, affect all-cause mortality at the longest follow-up reported?",
+  "treatment_label": "Higher / liberal oxygen target (e.g. SpO2 >96%, PaO2 >13 kPa, high FiO2, hyperoxia)",
+  "control_label": "Lower / conservative or low-normal oxygen target",
+  "outcome_description": "All-cause mortality: number of participants who died from any cause (events) out of the number randomised to each arm (intention-to-treat denominator), taken at the longest follow-up with a death count for all randomised participants (e.g. 180-day, 90-day, hospital discharge; use 28- or 30-day only if nothing later is reported). ICU mortality is used only if no later all-cause death count exists. In factorial trials, all participants assigned a higher oxygen target are compared with all assigned a lower oxygen target, summed across the other randomised factor.",
+  "positive_direction": "A risk ratio above 1 (positive log RR) means more deaths in the higher/liberal oxygen arm than in the lower/conservative arm \u2014 i.e. liberal oxygen is associated with higher all-cause mortality (harm). RR below 1 means fewer deaths with the higher oxygen target.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "conservative versus liberal oxygen therapy randomised trial critically ill mortality",
+    "oxygenation target randomized controlled trial mechanical ventilation ICU mortality",
+    "hyperoxia normoxia trial cardiac arrest ARDS septic shock mortality outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial (including factorial and cluster-randomised designs) comparing a higher/liberal oxygen fraction or arterial oxygenation target with a lower/conservative target",
+    "Adult participants (\u226518 years, or predominantly adult) who are critically ill or admitted to an ICU, including post-cardiac-arrest, acute respiratory failure/ARDS, sepsis/septic shock, or mechanically ventilated patients",
+    "Reports death counts (any cause) per randomised arm, or data from which mortality events and totals can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, narrative review, protocol without results, or purely theoretical/modelling paper)",
+    "No comparison between a higher-oxygen-target condition and a lower-oxygen-target control condition (e.g. single-arm, observational without comparator, or trials of different delivery devices at the same oxygen target)",
+    "No quantitative outcome data permitting effect-size calculation (no mortality events and denominators, or no extractable proportions/risk estimates)",
+    "Unrelated to the research topic: hyperbaric oxygen therapy, high-flow nasal oxygen versus conventional oxygen as a device comparison, neonatal or paediatric populations, or non-critically-ill/outpatient settings"
+  ],
+  "moderators_to_extract": [
+    "Patient population (post-cardiac-arrest, ARDS/acute respiratory failure, sepsis/septic shock, mixed ICU, mechanically ventilated)",
+    "Oxygenation target definition and separation achieved between arms (SpO2 vs PaO2 vs FiO2; magnitude of difference)",
+    "Follow-up timepoint used for mortality (ICU, hospital discharge, 28/30-day, 90-day, 180-day)",
+    "Trial size category (number randomised: <100, 100-999, \u22651000)",
+    "Risk of bias / blinding status and single- versus multi-centre design",
+    "Publication year and factorial versus simple parallel-group design"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio with a random-effects model (DerSimonian\u2013Laird or REML, with Hartung\u2013Knapp adjustment considered). Events = deaths from any cause at the longest reported follow-up; totals = number randomised to each arm (ITT). Arms assigned by the oxygen target described, not by column position or labelling as 'intervention'. Factorial trials collapsed across the non-oxygen factor. Do not pool serious adverse events, ventilator-free days, organ dysfunction scores, neurological outcome, or length of stay.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

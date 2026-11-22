@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults, what is the effect of atorvastatin, compared with placebo or no treatment, on withdrawal due to adverse effects?",
+  "treatment_label": "Atorvastatin",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Withdrawal or discontinuation from the study or assigned treatment because of adverse effects, analyzed as a binary outcome (number of adults withdrawing due to adverse effects out of the number randomized or otherwise included in each comparison group).",
+  "positive_direction": "A positive effect means atorvastatin is favored because it results in fewer withdrawals due to adverse effects than placebo or no treatment.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "atorvastatin placebo trial withdrawal adverse effects",
+    "atorvastatin controlled study discontinuation adverse events",
+    "atorvastatin no treatment comparison adverse effect withdrawal"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies in adults that evaluate atorvastatin and include a placebo or no-treatment comparison group.",
+    "Studies reporting withdrawal or treatment discontinuation due to adverse effects, or sufficient quantitative information from which this outcome can be derived.",
+    "Any treatment duration, atorvastatin dose, clinical indication, care setting, publication status, or language, provided the study is broadly relevant and supplies usable comparative data."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between atorvastatin and a placebo or no-treatment control condition.",
+    "No quantitative outcome data that can produce an effect size; for example, no group-specific event counts or proportions, means and standard deviations, t/F-values, or reported odds ratios or other usable comparative estimates.",
+    "Completely unrelated to atorvastatin use, adult participants, or withdrawal due to adverse effects."
+  ],
+  "moderators_to_extract": [
+    "Atorvastatin dose",
+    "Treatment and follow-up duration",
+    "Participant clinical indication or baseline cardiovascular-risk category",
+    "Comparator type (placebo versus no treatment)",
+    "Study design and blinding",
+    "Mean participant age and sex distribution"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Treat withdrawal due to adverse effects as a dichotomous outcome. Extract randomized denominators and event counts by arm preferentially using an intention-to-treat framework; record each study's reported effect estimate when counts are unavailable. Harmonize coding so positive effects favor atorvastatin (fewer withdrawals). For multi-arm studies, avoid double-counting shared controls by combining eligible atorvastatin arms when clinically appropriate or splitting the shared control. Document zero-event handling and assess sensitivity to continuity-correction choices.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "withdrawal due to adverse effects"
+}

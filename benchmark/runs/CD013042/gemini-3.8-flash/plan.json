@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of manual therapy, prescribed exercises, or both, compared with minimal or no intervention (e.g. wait-and-see, advice, placebo or usual GP care), on pain intensity at the end of the intervention in adults with lateral elbow pain (tennis elbow)?",
+  "treatment_label": "Manual therapy, prescribed exercises, or combined therapy",
+  "control_label": "Minimal or no intervention (wait-and-see, advice, placebo, or usual GP care)",
+  "outcome_description": "Pain intensity at the end of the intervention period, measured on a 0 to 10 scale (or converted from a 0 to 100 VAS by dividing by 10), where lower scores represent lower pain intensity",
+  "positive_direction": "A positive effect size indicates greater pain reduction (lower pain intensity) favoring manual therapy/exercise over minimal or no intervention",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "tennis elbow manual therapy exercise controlled trial",
+    "lateral epicondylitis exercise physical therapy wait and see trial",
+    "lateral elbow pain manual therapy exercise pain outcome trial"
+  ],
+  "inclusion_criteria": [
+    "Adults diagnosed with lateral elbow pain (tennis elbow or lateral epicondylitis)",
+    "Randomized or controlled trials evaluating manual therapy, prescribed exercises, or both compared to minimal or no intervention (e.g., wait-and-see, advice, placebo, or usual GP care)",
+    "Quantitative measurement of pain intensity at the end of the intervention period (e.g., visual analogue scale or numerical rating scale)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded)",
+    "No comparison between eligible intervention (manual therapy and/or exercise) and minimal/no intervention (e.g. comparisons limited to glucocorticoid injection, braces alone, or other active treatments)",
+    "No quantitative outcome data to calculate mean difference in pain intensity at the end of intervention (means, standard deviations, sample sizes, or convertible statistics missing)",
+    "Completely unrelated to adults with lateral elbow pain (tennis elbow / lateral epicondylitis)"
+  ],
+  "moderators_to_extract": [
+    "Intervention modality (manual therapy alone, exercise alone, or combined manual therapy and exercise)",
+    "Control condition type (wait-and-see, placebo, advice, or usual GP care)",
+    "Intervention duration in weeks",
+    "Mean symptom duration / baseline chronicity",
+    "Mean participant age"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Mean difference (MD) on a 0-10 scale; 0-100 VAS scores converted to 0-10 by dividing by 10. Evaluated strictly at the end of the intervention period.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pain intensity"
+}

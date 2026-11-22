@@ -1,0 +1,370 @@
+[
+  {
+    "paper_id": "manual:416812b0",
+    "paper_title": "eb9d4f61_0003-4819-133-4-200008150-00006",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized, double-blind, placebo-controlled trial in which \"A research consultant prepared the randomization code and the packages of medication,\" with participants allocated to zinc acetate or placebo lozenges.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed via identical numbered packages prepared by an independent consultant, but the sequence-generation method is not described, and baseline imbalances in sex (18/25 vs 12/23 female), ethnicity (5 vs 11 black) and baseline severity score (10.8 vs 8.9) are notable in this small sample.",
+        "evidence_quote": "A research consultant prepared the randomization code and the packages of medication (18). The packages were identical in appearance except for the randomization numbers. A research assistant who was blinded to treatment assignments distributed the study medication."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blinding was implemented and formally tested (guess rates near chance) and adherence checked by lozenge count, but markedly different side-effect profiles (dry mouth, constipation) could partially unblind participants reporting entirely subjective symptom outcomes, and the analysis excluded the 2 dropouts rather than being intention-to-treat.",
+        "evidence_quote": "Compared with placebo recipients, zinc recipients reported more mouth dryness (18 vs. 6 [72% vs. 26%]; P = 0.003) and constipation (6 vs. 0 [24% vs. 0%]; P = 0.02)"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary symptom-duration data were available for 48/50 (96%) with reasons given, but substantial and differential missingness affected the secondary cytokine outcomes (e.g., only 22 zinc and 17 placebo for interleukin-1 receptor antagonist; 16 for neopterin) without explanation of why samples were unavailable.",
+        "evidence_quote": "Two participants in the placebo group dropped out on day 2. We therefore had complete data on 48 participants."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is wholly self-reported by blinded participants using an identical daily log in both groups, which is appropriate, but outcome ascertainment depends on self-report that could be influenced by residual unblinding from distinctive side effects; no objective (e.g., virologic) corroboration was obtained.",
+        "evidence_quote": "Every day, the participants graded each symptom as 0 for none, 1 for mild, 2 for moderate, and 3 for severe... Resolution of cold symptoms was defined as resolution of all symptoms (a total symptom score of 0) or resolution of all but one mild symptom (a total symptom score of 1)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary endpoint and a priori sample-size calculation are stated and all 10 individual symptoms plus three cytokines are reported, but there is no reference to a pre-registered protocol or analysis plan, multiple outcome operationalizations and tests (parametric/nonparametric choices made post hoc by normality testing) were used, and post hoc explanations are offered for the null cytokine findings.",
+        "evidence_quote": "Our primary end point was the average duration of cold symptoms. Secondary end points were plasma levels of zinc and proinflammatory cytokines."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small (n=50) double-blind placebo-controlled trial used concealed, identically appearing numbered packages and formally verified blinding, with near-complete primary outcome data, but no domain is clearly at low risk: the randomization sequence method is unspecified with notable baseline imbalances, zinc-specific side effects (dry mouth, constipation) could partially unblind participants reporting entirely subjective outcomes, cytokine data were substantially missing, and there is no pre-registered protocol. Overall judgment is \"some concerns,\" driven by unspecified sequence generation/baseline imbalance and potential functional unblinding of self-reported outcomes."
+  },
+  {
+    "paper_id": "manual:0d9d89ad",
+    "paper_title": "8633cadf_528803",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized, double-blind, placebo-controlled trial in which a research consultant prepared a randomization code and identical-appearing medication packages for allocation of 50 volunteers to zinc acetate or placebo lozenges.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation appears concealed via identical coded packages and an independent consultant, and baseline demographics look balanced, but the actual method of sequence generation is not described and baseline symptom severity/ICAM-1 differed (zinc group more severe at outset), leaving residual uncertainty.",
+        "evidence_quote": "\"A research consultant prepared the randomization code and the packages of medication [21]. The packages were identical in appearance except for the randomization numbers. A research assistant who was blinded to treatment assignments distributed the study medication.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Blinding of participants and staff was maintained and formally tested (few correct guesses, no between-group difference), adherence was objectively verified by lozenge count and comparable, and all 25 participants per group appear analyzed for the primary outcome.",
+        "evidence_quote": "\"The placebo and zinc lozenges were identical in weight, appearance, flavor, and texture... Adherence to therapy was determined by lozenge count. The average number of lozenges taken daily was 6.9 in the zinc group and 6.5 in the placebo group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome (duration of cold symptoms) was reported for all 50 randomized participants with no apparent attrition, although a few biomarker assays had n = 23\u201324, a trivial amount of missingness unlikely to bias the secondary results.",
+        "evidence_quote": "\"Zinc group (n = 25) | Placebo group (n = 25)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is a subjective self-reported symptom diary; blinding appeared adequate and was empirically verified, and plasma assays were objective, but reliance on participant self-report with a prior-expectation-laden intervention (and the authors' own strong prior findings) leaves some concern.",
+        "evidence_quote": "\"Participants were asked to complete a daily log documenting the severity of symptoms... Every day the subjects graded each symptom as 0 for none, 1 for mild, 2 for moderate, or 3 for severe.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary endpoints and an a priori sample-size calculation are stated, but no trial registration or protocol is cited, and multiple symptom-specific durations, severity analyses, and a post hoc \"completely blinded subjects\" subgroup analysis were reported without correction, allowing some scope for selective reporting.",
+        "evidence_quote": "\"Our primary end point was the average duration of cold symptoms. Secondary end points were plasma levels of (1) zinc; (2) soluble interleukin (IL)\u20131 receptor antagonist (sIL-1ra) and soluble tumor necrosis factor (TNF) receptor (sTNF-R) 1; and (3) the plasma adhesion molecules...\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind placebo-controlled trial had well-matched lozenges, verified blinding, complete primary outcome data, and objective adherence checks, but the randomization sequence generation is unreported with some baseline imbalance in symptom severity, the primary outcome is participant-reported, and there is no registered protocol alongside multiple reported outcomes and a post hoc blinded-subject subgroup analysis. These issues yield an overall judgment of some concerns, with no single domain reaching high risk."
+  },
+  {
+    "paper_id": "manual:c60a71be",
+    "paper_title": "3c6f1ab3_030006059202000305",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of participants to treatment arms by a third party using a randomization table: \"Randomization by a third party was used to assign the 87 participants to treatment groups. A pharmacist, using a randomization table provided by the study statistician, packaged containers for individual subjects...\" It is described as a randomized, placebo-controlled, double-blind trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A third-party randomization table with pharmacist-prepared identical containers suggests adequate generation and concealment, but no detail is given on sequence type (block/stratification) or how the list was kept secure, and a baseline imbalance in age range (ZGG 18\u201340 vs placebo 18\u201324) and sex distribution is noted without formal baseline testing of all prognostic factors (e.g., day of entry).",
+        "evidence_quote": "\"Randomization by a third party was used to assign the 87 participants to treatment groups. A pharmacist, using a randomization table provided by the study statistician, packaged containers for individual subjects with lozenges according to the production run number and subject identification number.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients, investigators and pharmacist was maintained (patients' guesses were no better than chance, \u03c7\u00b2=0.8975) and adherence was high, but the analysis was restricted to \"evaluable\" patients rather than intention-to-treat, excluding 14 of 87 randomized participants, including some who withdrew for reasons plausibly related to the intervention (nausea, doubted efficacy).",
+        "evidence_quote": "\"A total of eight ZGG- and six placebo-treated patients withdrew from the trial leaving 35 and 38 evaluable patients, respectively.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "16% of randomized participants (14/87) were excluded from analysis with no imputation or sensitivity analysis; loss was differential (8 ZGG vs 6 placebo) and at least some withdrawals (nausea, doubted efficacy, failure to attend follow-up) are plausibly related to the true symptom-duration outcome, and the small sample makes the borderline main result (P<0.05) vulnerable to this missingness.",
+        "evidence_quote": "\"A total of eight ZGG- and six placebo-treated patients withdrew from the trial leaving 35 and 38 evaluable patients, respectively... Other reasons for withdrawing were: failure to appear at follow-up (three ZGG- and one placebo-treated patient); efficacy doubted by the patient (one ZGG- and one placebo-treated patient); nausea (one ZGG- and one placebo-treated patient)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes are self-reported subjective symptom diaries collected identically in both arms under successful blinding, which mitigates bias; however, the active lozenge's distinctive astringent/zinc taste (explicitly acknowledged as a formulation issue, with the placebo deliberately matched using tannic acid) leaves residual potential for outcome-reporting influence, and the \"complete disappearance of all symptoms\" endpoint was applied by unblinded-to-nothing self-report without verification.",
+        "evidence_quote": "\"All patients kept diaries recording the severity of their symptoms... They were instructed to rate the severity of 10 cold symptoms on a scale of 0 \u2013 3 (0, none; 1, mild; 2, moderate; and 3, severe)\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or pre-registration is available, and the paper reports a large number of flexible outcome operationalizations and subgroup analyses (10 individual symptoms by frequency and by severity, multiple time points, day-1 vs day-2 entry subgroups, post hoc \"true placebo\" reasoning, and speculation about day-0 patients with n=2 per arm), with the headline claims resting on the most favourable subgroup; the a priori claim is asserted but unverifiable and the study was sponsored by the lozenge developer (first/last authors of Godfrey Science & Design).",
+        "evidence_quote": "\"Anecdotal evidence suggested that the earlier ZGG treatment was initiated the shorter was the duration of the cold. It was planned a priori to test the effect of day of entry on duration of the cold after entering study.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by missing outcome data (16% of randomized participants excluded from a non-ITT \"evaluable\" analysis, differentially and partly for intervention-related reasons) and by selective reporting (no protocol/registration, many outcome operationalizations and subgroup analyses, with emphasis on the most favourable day-of-entry subgroup, in a sponsor-conducted trial). Blinding appeared successful and adherence was high, but these strengths do not offset the attrition and reporting concerns given the small sample and borderline primary result."
+  },
+  {
+    "paper_id": "manual:af4455df",
+    "paper_title": "f6b6b763_hirt-et-al-2000-zinc-nasal-gel-for-the-treatment-of-common-cold-symptoms-a-double-blind-placebo-controlled-trial",
+    "design_classification": "randomized",
+    "design_rationale": "The paper states participants were \"randomly assigned to receive either zinc nasal gel (n = 108) or placebo (n = 105)\" in a double-blind, placebo-controlled design.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no detail on sequence generation, allocation concealment, stratification by site, or baseline characteristics (no baseline table or comparability data) is reported.",
+        "evidence_quote": "\"The study population consisted of 213 subjects; they were randomly assigned to receive either zinc nasal gel (n = 108) or placebo (n = 105).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blinding with identical placebo is described, but a similar proportion reported tingling/burning (potentially unblinding), adherence and co-intervention use were not verified, and no intention-to-treat analysis is described.",
+        "evidence_quote": "\"Both gels were dispensed in a double-blind fashion in metered doses of 120 \u00b5l in applicators supplied by Botanical Laboratories\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "No information is provided on withdrawals, dropouts, diary completion, or the number analysed in each arm; with self-completed diaries and up to 9 days of follow-up, loss to follow-up is likely and its absence from reporting precludes any reassurance that results are unbiased.",
+        "evidence_quote": "\"Subjects were asked to return to their study site within 24 hours of symptom resolution for verification and followup.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The outcome is a self-reported symptom diary, appropriate and applied identically to both groups under blinding, but subjective and vulnerable if blinding was compromised by the gel's local sensation; no virologic or objective confirmation of cold was obtained.",
+        "evidence_quote": "\"Twice each day (at 9 a.m. and 9 p.m.), patients graded each of nine symptoms on a scale of 0 (absent) to 3 (severe).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or pre-registration is cited, no statistical analysis plan or test is specified, results are reported only as means with implausibly small SDs and a vague p<0.05, and severity scores collected but never reported\u2014indicating selective and incompletely specified reporting.",
+        "evidence_quote": "\"The mean resolution time was 2.3 days (\u00b10.9) for the zinc patients and 9.0 days (\u00b12.5) for the controls... The difference was statistically significant (p < 0.05).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by complete absence of information on participant flow/missing outcome data and by selective, incompletely specified reporting (no protocol, no stated statistical test, unreported symptom-severity outcomes, implausibly precise effect estimates). Randomization, blinding, and subjective diary-based outcome assessment add further concerns due to sparse methodological reporting."
+  },
+  {
+    "paper_id": "manual:bf63f6fe",
+    "paper_title": "1d56bdc4_jama.279.24.1962",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective, randomized, double-masked, placebo-controlled trial with a computer-generated randomization code held by a pharmacist: \"A computer-generated randomization code was provided to the pharmacist, who held the code and prepared the packages of medication.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated sequence was used with allocation concealed by a pharmacist and identical packaging; the few baseline imbalances (asthma P=.10, vitamin use P=.08, cough P=.03, initial severity P=.03) are plausibly chance findings among many comparisons and were examined in adjusted analyses that did not change conclusions.",
+        "evidence_quote": "\"A computer-generated randomization code was provided to the pharmacist, who held the code and prepared the packages of medication. The packages were identical in appearance, except for the identifying code number, and were distributed to the study personnel, all of whom were masked to the group assignments.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Masking was demonstrably imperfect (zinc recipients guessed assignment correctly more often, likely due to taste), so participants were partly aware of their condition; however, intention-to-treat analysis was used, adherence was similar between groups (83.3% vs 82.5%, P=.45), and the direction of any unmasking bias would favour zinc rather than the observed null result.",
+        "evidence_quote": "\"A significantly higher proportion of students receiving zinc (46% [55/119]) guessed correctly than did controls (24% [30/123]); P = .001) on day 2.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for essentially all 249 randomized participants, with only 8 (2 placebo, 6 zinc) having unresolved symptoms at final checkup, appropriately handled as censored observations in Kaplan-Meier/Cox survival analyses; the small, balanced amount of incomplete follow-up is unlikely to bias the result.",
+        "evidence_quote": "\"Ten students' (3 placebo, 7 active) colds did not resolve during the period of observation. Thus, statistical methods for incomplete data were used... Two students, who were determined to be ineligible after assignment, were included in these analyses, in keeping with the intent-to-treat principle\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is entirely self-reported (subjective symptom scores by children, sometimes overridden by parents, with no objective virologic or physical measures), and partial unmasking means self-assessors may have been influenced by knowledge of assignment, though the measurement procedure was identical across groups and data collectors were masked.",
+        "evidence_quote": "\"Students graded each symptom on a numerical scale of 0 to 3 each day, but parents occasionally questioned the symptom rating assigned by students. In cases of dispute, the parent's evaluation was used instead of the child's.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (time to resolution of all symptoms) and analysis plan appear prespecified with an a priori power calculation and prespecified grade-level subgroups, and results for all 9 symptoms plus adverse effects are fully reported, but no protocol or trial registration is available to verify the analysis plan, and some analyses (e.g., the October-enrollment subgroup) appear post hoc; the industry funding (Quigley Corporation) adds residual concern, though the null finding runs against sponsor interest.",
+        "evidence_quote": "\"The projected sample size of 220 ensured a power of at least 98% to detect differences... The design ensured that the 2-sided, type I error rate would not exceed 0.05.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, adequately powered RCT used computer-generated concealed allocation, intention-to-treat analysis and near-complete follow-up, but carries some concerns because masking was incompletely successful (zinc recipients guessed assignment correctly far more often, probably from taste), the sole outcome was subjective self-reported symptom scores with occasional parental override, and no protocol/registration is available to confirm the prespecified analysis plan. No domain reached high risk, and the identified biases would, if anything, favour zinc rather than explain the observed null effect."
+  },
+  {
+    "paper_id": "manual:da6cd299",
+    "paper_title": "2ac31811_qjmed%2Fhcg004",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized, double-blind, placebo-controlled trial with a computer-generated randomization code prepared by an independent company in blocks of 10 (5 zinc, 5 placebo), concealed until treatment assignment.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "An independent third party generated a computer-based allocation sequence that remained concealed until assignment, and baseline age, sex, total symptom scores and individual symptom prevalence were comparable between groups.",
+        "evidence_quote": "\"An independent company, Botanicals International, prepared a computer-generated randomization code for the hand-held nasal pumps that remained concealed until the treatment assignment. This company was the only party that knew of the actual treatment assignment before enrolment. Randomization was performed in blocks of 10 (5 zinc and 5 placebo).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Although double-blind with an ITT analysis, the placebo was never validated as indistinguishable in taste/smell, blinding was only probed on day 1, and adherence (pump weight factor) was significantly greater in the zinc group, raising the possibility of partial unblinding and differential behaviour/co-intervention (covert cold remedy use is acknowledged as unexcludable).",
+        "evidence_quote": "\"Compliance with the study drug was better in the zinc group compared to the placebo group (weight factor 1.5 [1\u20132] vs. 1.2 [1\u20131.3], p = 0.01)... The placebo used has not been shown previously to have no perceived difference in taste or smell from Zicam.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 2 of 80 randomized participants (2.5%, both placebo) were lost to follow-up, and all 78 remaining patients were contacted daily and returned their symptom charts, so missingness is too small to bias the effect estimate.",
+        "evidence_quote": "\"An intention-to-treat analysis of the primary outcome measure, the time to cold resolution, was performed for all enrolled patients, except two from the placebo group who were lost to follow-up and did not return their symptoms scores charts.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary and secondary outcomes were entirely self-reported, subjective symptom scores/durations recorded by participants whose blinding may have eroded over time (assessed only on day 1), although the scale was validated, applied identically in both arms, and the outcome assessor was blinded until data collection was complete.",
+        "evidence_quote": "\"Third, assessment of response depended entirely on subjective measures, as was the case in most previous studies for treatment of the common cold... patients were asked if they knew which drug they were taking only on the first day and not at the end of the study. Therefore, patients may have changed their opinion during the course of the study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, and the paper reports many flexible outcome operationalizations (time to resolution of all symptoms vs. \"all but any one symptom\", 10 individual symptoms, post-hoc composite \"nasal\"/\"throat\" symptom scores, and a rhinovirus-PCR-positive subgroup), with some results only described as \"data not shown\".",
+        "evidence_quote": "\"In a separate analysis, scores for nasal drainage and nasal congestion were combined and assessed as 'nasal symptoms' and scores for sore throat, scratchy throat and hoarseness were combined and assessed as 'throat symptoms'.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were well executed by an independent party and attrition was negligible, but the trial carries some concerns because the primary outcome was entirely participant-reported and blinding was validated only on day 1 (with significantly greater adherence in the zinc arm suggesting possible unmasking), and because no pre-registered protocol/analysis plan supports the numerous outcome operationalizations and subgroup analyses reported. These concerns in D2, D4 and D5, none rising to 'high', yield an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:b818820b",
+    "paper_title": "f26fa9ea_s0002-9343%2801%2900765-3",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a randomized, double-blind, placebo-controlled trial in which participants were randomly assigned to 0.12% zinc sulfate or isotonic placebo spray, with randomly ordered blocks of four prepared by the manufacturer.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed via identical coded bottles and a manufacturer-held key, but the sequence generation method is not described in detail and a baseline imbalance in symptom severity (zinc 6.8 vs placebo 7.7, P = 0.08) required post hoc adjustment, raising some concern.",
+        "evidence_quote": "\"The active and placebo nasal spray bottles were randomly placed in blocks of four by the manufacturer... The manufacturer held the randomization key until all participants had completed the protocol\"; \"There was a modest difference in the total symptom score between the two groups at the time of enrollment\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Blinding of participants and personnel was maintained and formally verified, compliance was similar across groups, and although co-medication use differed somewhat, sensitivity analyses restricted to non-users gave the same results.",
+        "evidence_quote": "\"All study personnel were blinded to the group assignments\"; \"During the exit interview, 22 (27%) participants in the zinc group and 18 (23%) in the placebo group guessed that they received the zinc preparation (P = 0.59)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Diary data had missing entries requiring imputation and the number of participants with complete diaries per group is not clearly tabulated (e.g., only 50 vs 56 reached the day-6 call), although sensitivity analyses with alternative imputation produced unchanged results.",
+        "evidence_quote": "\"For determining resolution, missing symptoms were assumed to be zero for the primary analysis, but the analyses were repeated after imputing missing values based on the previous and subsequent days.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were self-reported symptom diaries using a validated, standardized instrument applied identically in both groups, and outcome assessors/participants were blinded with blinding success documented.",
+        "evidence_quote": "\"Eight symptoms were evaluated based on a modification of criteria developed and validated by Jackson et al.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol/registration is cited, the planned sample size (240) was not reached due to early termination of recruitment, and the key severity analyses were explicitly post hoc with multiple symptom-score operationalizations and daily comparisons reported.",
+        "evidence_quote": "\"In a posthoc analysis, total symptom scores were further analyzed using analysis of covariance (ANCOVA) to adjust for the observed differences in symptom severity at baseline.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-blinded placebo-controlled trial has low risk for intervention deviations and outcome measurement, but some concerns arise from an undescribed sequence-generation method with baseline symptom-severity imbalance, imputation of missing diary data, and reliance on post hoc ANCOVA analyses without a cited protocol and with early termination of recruitment below the planned sample size. No single domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:c1f1a90f",
+    "paper_title": "a0d2b577_s0011-393x%2898%2985058-3",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a \"randomized, double-masked, placebo-controlled study\" in which 102 volunteers were allocated to zinc acetate lozenges (n=52) or placebo (n=49).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation-concealment procedure is described, although reported baseline balance on sex, race/ethnicity, allergy status and age is consistent with chance.",
+        "evidence_quote": "The subjects of this randomized, double-masked, placebo-controlled study were 102 volunteers recruited from the campus of the University of Texas at Austin through posted announcements."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Masking was attempted with a bitterness-matched placebo, but some subjects reported metallic/chalky taste suggesting possible unmasking in a wholly self-reported-outcome trial, and no assessment of blinding success, adherence monitoring, or intention-to-treat analysis framework is reported.",
+        "evidence_quote": "To achieve masking, sucrose octaacetate (0.169 mg) was used in the placebo, and both the placebo and zinc lozenges were peppermint flavored. A review of subjects' diary entries revealed that 4 subjects noted a chalky taste, 4 experienced a metallic aftertaste, and 3 complained of an upset stomach"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 1 of 102 participants (<1%) lacked outcome data, far too few to bias the effect estimates.",
+        "evidence_quote": "Patient diaries were completed by 101 subjects; 1 subject was lost to follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were entirely self-reported symptom diaries (assessor = participant), so any partial unmasking from taste could influence reporting, though the method of measurement was identical across groups.",
+        "evidence_quote": "The purpose of our study was to subjectively evaluate the effects of zinc acetate lozenges on the duration and severity of common cold symptoms"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No pre-registration or pre-specified analysis plan is reported; a single primary outcome is not clearly defined, and 11 individual symptoms \u00d7 duration and severity plus subgroup/interaction analyses by allergy status were tested without multiplicity adjustment, with the headline allergy-subgroup finding appearing selectively emphasized (study funded and lozenges supplied by the manufacturer).",
+        "evidence_quote": "ANOVA procedures were used to determine whether the number of days of symptoms or the symptom severity ratings differed with respect to treatment group and allergy test status considered simultaneously."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by selective reporting: no protocol/pre-specified primary outcome, many untested-for-multiplicity symptom-level and subgroup (allergy status) analyses, and industry sponsorship. Additional concerns arise from undescribed randomization/allocation concealment and reliance on self-reported outcomes with possibly imperfect masking (metallic/chalky taste), partly offset by negligible attrition."
+  }
+]

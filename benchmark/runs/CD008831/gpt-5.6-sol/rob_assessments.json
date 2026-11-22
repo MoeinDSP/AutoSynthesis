@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:13543452",
+    "paper_title": "a09676a1_1748-717X-5-31",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports that 63 patients were randomly assigned in a 1:1 ratio to probiotic or placebo in a prospective double-blind, placebo-controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment, stratification, and blinded numbered medication packages are reported, but the method used to generate the allocation sequence and whether allocation was securely concealed are not described; measured baseline differences were not statistically significant, although performance status showed some imbalance.",
+        "evidence_quote": "Patients were stratified by age, stage, and whole pelvis radiotherapy technique. Patients were randomly assigned in a double blind fashion to receive study drug or placebo in a 1: 1 ratio."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and treating physicians were blinded with an identical placebo, adherence was monitored, and noncompliant participants were retained in the stated intention-to-treat analysis, with no reported differential deviations.",
+        "evidence_quote": "Neither the patient nor the treating physician knew if the patient was on the study drug or placebo... Patients who took < 80% of the medication were considered non-compliant, but were included in the intent-to-treat analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were reported as available for every randomized participant, with all 63 patients described as eligible and assessable and analyzed in their allocated group.",
+        "evidence_quote": "All 63 patients were eligible and assessable."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Diarrhea was measured weekly in both groups using the prespecified NCI CTC v2.0 criteria in a double-blind trial, making differential measurement unlikely; stool consistency also had an objective laboratory definition.",
+        "evidence_quote": "Patients were evaluated weekly for the severity of diarrhea according to the National Cancer Institute Common Toxicity Criteria; NCI CTC version 2.0."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and statistical tests are described, but no preregistration or prespecified statistical analysis plan is reported, and several related outcomes were assessed, leaving uncertainty about selection among eligible measurements or analyses.",
+        "evidence_quote": "The primary endpoint was to reduce the incidence of diarrhea, defined by a CTC grade 2 or more, and the need for antidiarrheal medication."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by absent details on random-sequence generation/allocation concealment and lack of trial registration or an accessible prespecified analysis plan. Blinding, complete outcome data, intention-to-treat analysis, and standardized outcome assessment otherwise support low risk in the remaining domains."
+  },
+  {
+    "paper_id": "manual:4dcf0c4a",
+    "paper_title": "4423e6ac_int-j-radi-v14n3p205-en",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that simple randomization was used to allocate patients among three intervention groups, although the sequence-generation method is not described.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is stated, but neither the method used to generate the sequence nor allocation concealment is reported, while the reported baseline characteristics do not show statistically significant group differences.",
+        "evidence_quote": "Simple randomization was used to allocate patients to three groups"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Honey was visibly administered only in one active arm and probiotic adverse effects such as bloating could reveal assignment, blinding is not reported, and 11 post-enrollment failures to follow up were excluded rather than clearly analyzed by intention to treat.",
+        "evidence_quote": "Among 78 patients involved in this study, 11 patients were excluded for failure to follow up."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were unavailable for 11 of 78 enrolled patients (14.1%), with no arm-specific accounting, reasons beyond failure to follow up, or sensitivity analysis to establish that missingness did not bias the results.",
+        "evidence_quote": "Among 78 patients involved in this study, 11 patients were excluded for failure to follow up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although validated diarrhea and stool-consistency scales were applied similarly across groups, outcomes included patient-reported symptoms and weekly assessment by one person without reported blinding, and obvious honey administration and treatment-related bloating could disclose assignment and influence assessment.",
+        "evidence_quote": "The patients evaluated for the daily number of bowel movement (defecation), diarrhea grade, stool consistency score, the need for antidiarrheal medication and bloating weekly by one person."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The registry identifier indicates retrospective registration after the study was conducted, and numerous outcomes, weekly time points, pairwise comparisons, and statistical methods were available without a reported prespecified analysis plan, creating substantial scope for selective reporting.",
+        "evidence_quote": "This study was registered in the Iranian Registry of Clinical Trials (IRCT2015030421338N1)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial attrition was handled by excluding participants without adequate explanation or sensitivity analysis, blinding was absent or unclear for subjective outcomes in distinguishable interventions, and retrospective registration with multiple outcomes and analyses creates substantial selective-reporting risk. The randomization and concealment procedures were also insufficiently described."
+  },
+  {
+    "paper_id": "manual:15033e10",
+    "paper_title": "a7f03e6c_PIIS0261561413002744",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports block randomization using random lists generated with blocks of 2, 4, or 6 patients and random permutations.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random block sequence and broadly balanced baseline characteristics were reported, but allocation concealment is questionable because the same unblinded research nurse knew the coding system, held the randomization list, assigned patients, and dispensed bottles.",
+        "evidence_quote": "Only the nurse knew the coding system, the nurse also assigned the patient to a group, according to the randomization list. She would also hand out the bottle to the patient every week."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and caregivers were intended to be blinded, adherence exceeded 90%, and co-interventions were similar, but 17 randomized participants were excluded from analysis and no intention-to-treat analysis or exclusion details are adequately reported in the supplied text.",
+        "evidence_quote": "A total of 246 Patients were randomized... 229 patients were analyzed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were analyzed for 229 of 246 randomized participants (93.1%), but the reasons for the 17 exclusions and their distribution by randomized group are not provided in the supplied text, leaving some potential for bias.",
+        "evidence_quote": "Between December 2006 and September 2010, 246 patients were randomly assigned at the UHC-HDQ. Seventeen patients were excluded (Fig. 1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Diarrhea was measured daily with prespecified standardized WHO criteria applied consistently across groups, and participants, dieticians, and caregivers were blinded to assignment, limiting differential measurement.",
+        "evidence_quote": "Patients were asked to note daily bowel movements, stool consistency, abdominal pain, bowel incontinence and any other digestive problems they experienced... The registered dietician also analyzed the patient\u2019s logbook to translate what the patient had recorded into official WHO or NCI grading."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The overall primary comparison was nonsignificant, yet the paper emphasized a selected 60-day contrast and post hoc surgery subgroup findings; the trial registration identifier was retrospective relative to 2006\u20132010 recruitment, and the design was modified after an interim analysis, creating substantial scope for selective reporting.",
+        "evidence_quote": "Despite the fact that our primary endpoint is not confirmed by the data... patients with a standard dose of Bifilact experienced less of the moderate to severe diarrhea than the placebo group at the end of, or during the two weeks following treatment."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by selective emphasis on a 60-day comparison and post hoc subgroup results despite a nonsignificant primary overall analysis, alongside retrospective registration and an interim design modification. Additional concerns arise from questionable allocation concealment and exclusion of 17 randomized participants without adequate details or a clear intention-to-treat analysis."
+  },
+  {
+    "paper_id": "manual:9768ff02",
+    "paper_title": "0070272c_PIIS0360301607045105",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that patients were randomized in a placebo-controlled, double-blind, two-parallel-group trial, with randomization performed in blocks and stratified by tumor type.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Block randomization stratified by tumor type was reported and groups were described as well matched, but the method used to generate the sequence and allocation-concealment procedures were not reported.",
+        "evidence_quote": "Randomization was done in blocks and stratified by tumor type."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Although the trial was double-blind with a matching placebo and standardized co-interventions, 33 of 118 randomized patients were excluded after allocation, including for withdrawal, protocol violations, and noncompliance, so the reported analysis was not intention-to-treat and could be biased by post-randomization exclusions.",
+        "evidence_quote": "Subsequent review determined that 33 of the total number of patients were ineligible and were excluded from the study. Of these 33 patients, 17 withdrew prematurely for personal reasons, 11 were excluded for protocol violations, and 5 were excluded for a lack of compliance."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Primary outcome results were reported for only 85 of 118 randomized patients after 33 post-randomization exclusions, and no evidence was provided that this substantial missingness was unrelated to outcomes or balanced by assigned group.",
+        "evidence_quote": "Between November 2002 and December 2005 a total of 118 patients were randomly allocated to either the active product or placebo... The remaining 85 patients constituted the subject of this study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Diarrhea and stool consistency were measured with prespecified, established criteria applied equally across groups, with daily patient diaries, weekly evaluation by the same investigator, and double blinding limiting differential assessment.",
+        "evidence_quote": "The protocol called for the weekly evaluation of all patients by the same investigator... They recorded the number of bowel movements and stool consistency every day in a patient diary."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary endpoints and statistical methods were described, but no preregistration or accessible prespecified analysis plan was reported, and numerous secondary outcomes, thresholds, subgroup analyses, and modeling choices created scope for selective reporting.",
+        "evidence_quote": "All analyses were also repeated stratifying by center, body weight (normal, overweight, obese), and primary cancer site (endometrial or cervical). In addition, a Cox regression analysis was performed to explore the influence of several factors in the time to the occurrence of Grade 2 or worse diarrhea."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because 33 of 118 randomized participants were excluded after allocation and the analysis was restricted to 85 participants, creating high risk from deviations from intended interventions and missing outcome data. Additional concerns arise from incomplete reporting of allocation concealment and the absence of a reported preregistration or prespecified analysis plan."
+  }
+]

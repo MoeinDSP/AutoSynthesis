@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with renal stones, what is the effect of percutaneous nephrolithotomy (PCNL, including standard, mini-, super-mini and micro-PCNL) compared with retrograde intrarenal surgery (RIRS, flexible ureteroscopy with laser lithotripsy) on postoperative pain measured by visual analogue scale on the day of surgery (postoperative day 0, i.e. the first assessment within ~24 h, preferably the earliest value at or after 6 h)?",
+  "treatment_label": "Percutaneous nephrolithotomy (PCNL: standard, mini-, super-mini or micro-PCNL)",
+  "control_label": "Retrograde intrarenal surgery (RIRS / flexible ureteroscopy with laser lithotripsy)",
+  "outcome_description": "Postoperative pain intensity on the day of surgery (postoperative day 0), measured on a visual analogue scale scored 0\u201310 (or 1\u201310; 0\u2013100 mm VAS rescaled to 0\u201310 with the conversion recorded), extracted as mean, SD and n per arm for each of the PCNL and RIRS arms. The day-of-surgery value is the first postoperative pain assessment within about 24 hours of the procedure (e.g. 1 h, 6 h, 8 h, 12 h). Where several same-day times are reported, use the earliest value at or after 6 h; if only a 1-hour value exists, use that; if a single untimed postoperative VAS is reported, treat it as the day-of-surgery value. Values at 24 h, 'first postoperative day morning', 48 h or later are NOT used. In trials with more than two arms, only the PCNL-type and RIRS arms are extracted. SD (not SE) is required \u2014 table footnotes are checked to determine whether '\u00b1' denotes SD or SE, and SE is converted to SD (SD = SE \u00d7 \u221an) when necessary. Group labelling is verified against table column headers and group definitions (some papers label RIRS as 'Group 1') so that the sign of the mean difference is consistent across studies.",
+  "positive_direction": "A positive mean difference means a HIGHER day-of-surgery VAS pain score (more pain) after PCNL than after RIRS \u2014 i.e. the result favours RIRS. A negative MD means less pain after PCNL (favours PCNL).",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "percutaneous nephrolithotomy versus retrograde intrarenal surgery randomized trial postoperative pain VAS",
+    "mini-PCNL flexible ureteroscopy laser lithotripsy renal stones randomized controlled comparison outcomes",
+    "micro-PCNL super-mini PCNL versus RIRS kidney stone trial visual analogue scale pain"
+  ],
+  "inclusion_criteria": [
+    "Randomised trial in adults (\u226518 years) with renal (kidney) stones comparing any form of percutaneous nephrolithotomy (standard, mini-, super-mini, micro-PCNL) with retrograde intrarenal surgery / flexible ureteroscopy with laser lithotripsy",
+    "Reports some quantitative postoperative pain outcome, including a visual analogue (or numeric rating) pain score assessed on the day of surgery or at a first postoperative assessment within about 24 hours",
+    "Reports data sufficient to derive a mean difference for at least one arm pair (mean and SD or SE, or convertible statistics such as median/IQR, t/F values, or confidence intervals), with multi-arm trials contributing only their PCNL-type and RIRS arms"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, letter, opinion piece, conference abstract without data, or purely theoretical/modelling paper)",
+    "No comparison between a PCNL-type treatment arm and an RIRS/flexible ureteroscopy control arm (e.g. single-arm series, or comparisons only with ESWL, open/laparoscopic surgery, or non-randomised designs when only randomised trials are eligible)",
+    "No quantitative outcome data from which an effect size can be computed (no means with SD/SE, no t/F statistics, no proportions or odds ratios; pain reported only narratively or as 'significant/not significant')",
+    "Completely unrelated to the research topic, or population is paediatric (children/adolescents), or the only pain data available are for later timepoints (day 1, days 2\u20137) or for other outcomes (analgesic consumption, hospital stay, stone-free rate, complications, operating time)"
+  ],
+  "moderators_to_extract": [
+    "PCNL subtype (standard vs mini- vs super-mini vs micro-PCNL / tract size)",
+    "Timing of the day-of-surgery pain assessment (1 h, 6 h, 8 h, 12 h, untimed)",
+    "Original VAS scale range and whether rescaling from 0\u2013100 mm was applied",
+    "Mean stone size / stone burden category and stone location",
+    "Anaesthesia and analgesia protocol (standardised vs on-demand analgesia; regional vs general)",
+    "Sample size category and country/region of the trial"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as a raw mean difference (MD) in VAS points on a 0\u201310 scale using a DerSimonian\u2013Laird/REML random-effects model with 95% CIs; heterogeneity assessed with tau\u00b2, I\u00b2 and prediction interval. All studies must be expressed on the same VAS direction (higher = more pain) and the same 0\u201310 metric (0\u2013100 mm VAS divided by 10, with the SD divided by 10 as well; conversion recorded per study). PCNL is always the treatment arm and RIRS the control arm, and the difference is computed as mean_PCNL \u2212 mean_RIRS WITHOUT sign-flipping, so that a positive MD means more pain after PCNL (favours RIRS), exactly as specified by the user. For this reason higher_score_is_worse is set to False purely to preserve the user's requested sign convention (no automatic inversion), even though a higher VAS clinically denotes worse pain. Group assignment is verified against each paper's table headers because some trials label RIRS as 'Group 1'. SDs are extracted rather than SEs (footnotes checked; SD = SE \u00d7 \u221an if needed); medians with IQR/range are converted using standard approximations when no mean/SD is given. Only one day-of-surgery estimate per trial enters the analysis; multi-arm trials contribute a single PCNL-type arm versus the RIRS arm (if several PCNL variants exist, arms are combined or the primary PCNL arm is used, recorded as a moderator). Sensitivity analyses: leave-one-out, exclusion of studies needing scale conversion or median-to-mean conversion, and restriction to assessments at \u22656 h. Publication bias examined with a funnel plot and Egger's test if \u226510 studies.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "postoperative pain VAS on the day of surgery (postoperative day 0)"
+}

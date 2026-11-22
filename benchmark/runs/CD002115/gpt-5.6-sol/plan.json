@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people with constipation, what is the effect of probiotics, compared with no active treatment, placebo, or usual care, on the proportion of participants reporting improvement in constipation? This review is restricted to the probiotics subgroup and excludes assessment-based nursing interventions and other distinct conservative intervention types.",
+  "treatment_label": "Probiotics",
+  "control_label": "No active treatment, placebo, or usual care",
+  "outcome_description": "Dichotomous self-reported improvement in constipation, defined according to each trial's reported participant-level improvement criterion; extract the number of participants improved and the total number randomized in each arm.",
+  "positive_direction": "A Risk Ratio greater than 1 means that self-reported improvement in constipation is more likely with probiotics than with no active treatment, placebo, or usual care, and therefore favors probiotics.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "probiotics constipation randomized trial improvement",
+    "probiotic constipation placebo controlled participants improved",
+    "probiotics functional constipation usual care quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies enrolling participants with constipation and evaluating a probiotic intervention against no active treatment, placebo, or usual care.",
+    "Studies reporting self-reported constipation improvement as a participant-level dichotomous outcome, or providing data from which the number improved and randomized per arm can be obtained.",
+    "Any participant age, constipation subtype, probiotic species or formulation, treatment duration, care setting, publication status, or language, provided the study is broadly relevant and supplies usable comparative quantitative data."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between a probiotic treatment and an eligible control condition.",
+    "No quantitative outcome data capable of producing an effect size; specifically, no usable numbers improved and denominators, means and SDs, t/F-values, proportions, or odds ratios, and required dichotomous data cannot be obtained.",
+    "Completely unrelated to probiotics and constipation, or evaluates only a different conservative intervention type, including the assessment-based nursing intervention subgroup."
+  ],
+  "moderators_to_extract": [
+    "Participant age group and constipation subtype or diagnostic criteria",
+    "Probiotic species/strain, single-strain versus multi-strain formulation, and dose",
+    "Control type: placebo, no active treatment, or usual care",
+    "Treatment duration and timing of outcome assessment",
+    "Study design and risk-of-bias domains, including randomization, allocation concealment, blinding, missing outcome data, and selective reporting",
+    "Definition used for self-reported improvement and analysis population"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "For each trial, calculate the Risk Ratio as (participants with self-reported improvement / total randomized) in the probiotic arm divided by the corresponding proportion in the control arm. Use total randomized per arm as requested (intention-to-treat denominator), retaining participants with missing outcome data in the denominator unless the trial supplies an explicit randomized-arm event count under another prespecified assumption. Pool log Risk Ratios with inverse-variance weighting, preferably using a random-effects model with a prespecified heterogeneity estimator and 95% confidence intervals; report I\u00b2, tau\u00b2, and Cochran's Q. Apply a continuity correction only when required for a study containing a zero-event arm; studies with zero events in both arms do not estimate a conventional RR and should be handled transparently in sensitivity analysis. Keep eligible comparator types in the probiotics analysis and examine control type as a moderator where data permit. Do not combine assessment-based nursing interventions with probiotics. Use one eligible effect per independent participant sample and address multi-arm trials without double-counting shared controls. Conduct duplicate screening and extraction, document the PRISMA 2020 flow, assess risk of bias with an appropriate randomized-trial tool, and assess publication bias only when enough studies are available.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-reported improvement in constipation"
+}

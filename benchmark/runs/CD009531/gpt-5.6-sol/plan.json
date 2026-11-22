@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with severe mental illness (bipolar disorder, schizophrenia, schizoaffective disorder, or other psychotic disorders) treated in community or outpatient settings, what is the effect of collaborative care versus usual care on the mental-health domain of health-related quality of life at the follow-up closest to, but no later than, 6 months? Include eligible trials identified in the uploaded papers.",
+  "treatment_label": "Collaborative care",
+  "control_label": "Usual care",
+  "outcome_description": "Mental-health-domain health-related quality of life measured using one eligible endpoint score per trial: SF-12 or SF-36 Mental Component Summary (MCS), or WHOQOL-BREF psychological domain. Extract post-intervention group means and SDs at 6 months, or the nearest earlier follow-up when 6-month data are unavailable; do not use follow-ups later than 6 months. Exclude physical-health components/domains, overall or total quality-of-life scores, symptom scales, functioning scales, and satisfaction scales. Use analysed group Ns when reported and randomised group sizes otherwise; convert SEs or 95% CIs to SDs using group n when necessary.",
+  "positive_direction": "A positive Hedges' g means mental-health-related quality of life is better with collaborative care than with usual care.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "collaborative care severe mental illness randomized trial quality of life",
+    "collaborative care schizophrenia psychosis controlled trial mental quality of life",
+    "collaborative care bipolar disorder outpatient experiment quality of life"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials comparing collaborative care with usual care in adults with bipolar disorder, schizophrenia, schizoaffective disorder, or another psychotic disorder.",
+    "Participants are treated in community or outpatient settings, with no restriction by diagnosis subtype, country, or eligible quality-of-life instrument.",
+    "Reports a quantitative mental-health quality-of-life endpoint at 6 months or the nearest earlier follow-up, using the SF-12/SF-36 MCS or WHOQOL-BREF psychological domain, with data sufficient or convertible for effect-size estimation; eligible trials identified in the uploaded papers will be included."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and study protocols.",
+    "No comparison between collaborative care and a usual-care control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as endpoint means with SDs (including SDs derivable from SEs or 95% CIs using group n), t/F statistics, proportions, or odds ratios.",
+    "Completely unrelated to collaborative care, severe mental illness, community/outpatient treatment, or the prespecified mental-health quality-of-life outcome."
+  ],
+  "moderators_to_extract": [
+    "diagnostic group",
+    "collaborative-care model and components",
+    "community versus outpatient setting",
+    "country or healthcare system",
+    "follow-up timing used",
+    "quality-of-life instrument/domain used"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool Standardised Mean Differences using small-sample-corrected Hedges' g, calculated as collaborative care minus usual care from post-intervention endpoint means and SDs. Standardise because eligible trials use different scales. Select exactly one score per trial, prioritising an eligible score under the prespecified rules and preventing double counting; include only SF-12/SF-36 MCS or WHOQOL-BREF psychological domain. Select the 6-month assessment when available, otherwise the nearest earlier assessment; never use a follow-up after 6 months. Use analysed Ns where available and randomised group sizes otherwise. Convert reported SE to SD as SE \u00d7 sqrt(n); derive SD from a group-specific 95% CI around a mean using the corresponding critical value and group n. Orient all effects so positive values favour collaborative care. Conduct PRISMA 2020 study selection and reporting, duplicate screening/extraction where feasible, random-effects pooling, heterogeneity assessment (tau-squared, I-squared, and prediction interval where estimable), sensitivity analyses for imputed/derived SDs or substituted randomised Ns, influence/outlier checks, and risk-of-bias assessment with RoB 2.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "mental-health-related quality of life"
+}

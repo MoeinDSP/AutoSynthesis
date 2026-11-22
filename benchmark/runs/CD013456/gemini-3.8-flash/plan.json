@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of psychosocial interventions compared with an inactive control on PTSD symptom severity immediately after treatment in adults who have experienced rape or sexual assault?",
+  "treatment_label": "Psychosocial intervention",
+  "control_label": "Inactive control (wait-list, usual care, or assessment only)",
+  "outcome_description": "Post-traumatic stress disorder (PTSD) symptom severity measured on a continuous validated scale (clinician-administered like CAPS or primary self-report like PDS, PCL, PSS-SR, IES-R) immediately after treatment completion.",
+  "positive_direction": "Greater reduction in PTSD symptom severity (fewer PTSD symptoms) favoring the psychosocial intervention over inactive control",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "psychosocial intervention PTSD sexual assault trial",
+    "cognitive behavioral therapy rape PTSD controlled trial",
+    "prolonged exposure sexual assault PTSD randomized outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating psychosocial interventions (including CBT, prolonged exposure, CPT, stress inoculation, EMDR, narrative exposure, or brief/computerised programmes) compared with an inactive control (wait-list, treatment as usual, no treatment, or assessment only).",
+    "Adults (aged 18 or older) who have experienced rape or sexual assault in adulthood.",
+    "Quantitative continuous assessment of PTSD symptom severity measured immediately post-treatment on a validated scale."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocol papers, editorials, qualitative studies, or theoretical papers).",
+    "Non-randomised studies or trials comparing active interventions without an inactive control condition.",
+    "Studies focusing exclusively on childhood sexual abuse, military or combat trauma without adult sexual assault, or non-adult populations (<18 years).",
+    "Absence of quantitative post-treatment PTSD outcome data sufficient to calculate an effect size (e.g., missing means, SDs, sample sizes, or test statistics)."
+  ],
+  "moderators_to_extract": [
+    "Intervention type (e.g., prolonged exposure, CBT, CPT, EMDR, brief/digital)",
+    "Control condition type (wait-list, usual care, assessment only, no treatment)",
+    "Outcome measurement type (clinician-administered interview vs self-report scale)",
+    "Delivery format (individual, group, or self-guided/computerised)",
+    "Number of intervention sessions or treatment duration"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Post-treatment PTSD symptom scores pooled as standardised mean difference (SMD, Hedges' g) using a random-effects model. With higher_score_is_worse set to True, positive effect sizes represent greater symptom reduction favoring the psychosocial intervention. Extract end-of-treatment values using clinician-administered scales preferentially, or primary self-report total scores. Multi-arm trials split control sample size across active comparisons.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "PTSD symptom severity"
+}

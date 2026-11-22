@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of a fluoropyrimidine-based chemotherapy combination, compared with gemcitabine plus nab-paclitaxel, on overall survival in adults with advanced pancreatic cancer?",
+  "treatment_label": "fluoropyrimidine-based combination chemotherapy",
+  "control_label": "gemcitabine plus nab-paclitaxel",
+  "outcome_description": "Overall survival (OS) evaluated via time-to-event survival analysis (Cox proportional hazards model)",
+  "positive_direction": "A positive effect indicates improved overall survival (longer survival duration / reduced mortality risk) favoring the fluoropyrimidine-based combination regimen over gemcitabine plus nab-paclitaxel.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "fluoropyrimidine gemcitabine nab-paclitaxel pancreatic cancer trial",
+    "fluoropyrimidine combination gemcitabine nab-paclitaxel advanced pancreatic survival",
+    "FOLFIRINOX or S-1 gemcitabine nab-paclitaxel pancreatic adenocarcinoma randomized"
+  ],
+  "inclusion_criteria": [
+    "Adult patients (aged 18 or older) with advanced, locally advanced, or metastatic pancreatic cancer.",
+    "Comparative studies evaluating a fluoropyrimidine-based combination chemotherapy regimen against gemcitabine plus nab-paclitaxel.",
+    "Reporting quantitative overall survival data derived from time-to-event survival analysis."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, conference abstracts without data, editorials, commentaries, and narrative reviews are excluded).",
+    "No comparison between a fluoropyrimidine-based combination regimen and gemcitabine plus nab-paclitaxel (e.g. trials comparing different doses or schedules of gemcitabine plus nab-paclitaxel against each other, or comparisons with best supportive care, gemcitabine monotherapy, or fluoropyrimidine monotherapy).",
+    "No quantitative time-to-event overall survival outcome data usable to derive an effect size (lacking hazard ratios, risk ratios with confidence intervals, or Cox survival model outputs).",
+    "Completely unrelated to advanced pancreatic cancer or chemotherapy interventions."
+  ],
+  "moderators_to_extract": [
+    "Specific fluoropyrimidine regimen (e.g., FOLFIRINOX/mFOLFIRINOX, S-1 plus nab-paclitaxel, capecitabine combinations)",
+    "Line of therapy (first-line vs second-line or subsequent)",
+    "Study design (randomized controlled trial vs prospective comparative cohort)",
+    "Geographic region / study population (e.g., East Asia vs North America/Europe)",
+    "Disease stage distribution (percentage of metastatic vs locally advanced disease)"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Extract Risk Ratio (RR) or Hazard Ratio (HR) with 95% confidence interval or log-hazard ratio and standard error directly from Cox proportional hazards / time-to-event survival analysis for overall survival.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall survival"
+}

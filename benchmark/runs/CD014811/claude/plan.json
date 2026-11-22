@@ -1,0 +1,39 @@
+{
+  "research_question": "In adults hospitalised with acute heart failure, what is the effect of continuous intravenous infusion of a loop diuretic (furosemide, torsemide or bumetanide) compared with intermittent bolus injection of the same loop diuretic on net weight loss (kilograms) during the in-hospital treatment period?",
+  "treatment_label": "Continuous intravenous infusion of loop diuretic",
+  "control_label": "Intermittent bolus injection of the same loop diuretic",
+  "outcome_description": "Net weight loss in kilograms during the in-hospital treatment period (e.g. at 72 hours, at discharge, or until resolution of congestion/decompensation), extracted as mean, SD and n per arm. Weight loss expressed as a positive number of kilograms lost; sign reversed if the paper reports loss as a negative change. Percentage weight change not used. Pounds converted to kilograms (\u00f72.205). SE/SEM converted to SD = SE \u00d7 \u221an; medians with IQR converted to mean and SD with a standard method (stated when done). If n analysed for weight is not reported, the number randomised per arm is used (stated when done). Where a trial reports multiple periods, the longest period within the hospital stay is used and the period is stated. In factorial or multi-arm trials (e.g. continuous vs bolus crossed with low vs high dose), dose arms are combined within each delivery mode so that all continuous-infusion participants form one group and all bolus participants the other (summing n, pooling means and SDs). Arms are assigned by delivery mode, not column position.",
+  "positive_direction": "A positive mean difference (in kilograms) means greater net weight loss with continuous intravenous infusion than with intermittent bolus injection, i.e. the result favours continuous infusion.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "continuous infusion versus bolus furosemide acute heart failure randomized trial",
+    "loop diuretic continuous intravenous infusion intermittent bolus decompensated heart failure weight loss",
+    "torsemide bumetanide continuous infusion bolus injection hospitalized heart failure controlled trial diuresis"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial (including crossover and factorial designs) in hospitalised adults with acute or acutely decompensated heart failure",
+    "Compares continuous intravenous infusion of a loop diuretic (furosemide, torsemide or bumetanide) with intermittent bolus injection of the same loop diuretic",
+    "Reports some quantitative data on body weight change / net weight loss during the treatment period (mean and SD/SE, median and IQR, or data allowing an effect size to be computed)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, commentary, theoretical or modelling paper, case report)",
+    "No comparison between a continuous-infusion treatment arm and a bolus control arm (e.g. single-arm, observational without comparator, or comparison of a loop diuretic against another drug, ultrafiltration, or placebo)",
+    "No quantitative outcome data usable for an effect size (no means+SDs, SE, median+IQR, t/F values, or other extractable statistics for weight change)",
+    "Completely unrelated to the research topic (not loop diuretic administration mode in hospitalised adults with acute heart failure; e.g. paediatric, outpatient chronic heart failure, or non-cardiac populations)"
+  ],
+  "moderators_to_extract": [
+    "Loop diuretic agent (furosemide, torsemide, bumetanide)",
+    "Duration/timepoint of weight measurement (e.g. 48h, 72h, discharge)",
+    "Total daily diuretic dose equivalence or dose strategy (low vs high, fixed vs titrated)",
+    "Sample size category (<50, 50-150, >150 randomised)",
+    "Study design (parallel, crossover, factorial; single vs multicentre)",
+    "Baseline renal function / eGFR or presence of cardiorenal syndrome",
+    "Publication year"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a raw mean difference in kilograms with a random-effects model (DerSimonian-Laird or REML, with Hartung-Knapp adjustment considered given the expected small number of trials). Orientation: continuous infusion minus bolus, so MD > 0 favours continuous infusion. Weight loss entered as positive kilograms lost. Only this single outcome is pooled; urine output, fluid balance, mortality, length of stay, readmission and renal function are not pooled.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "net weight loss (kg)"
+}

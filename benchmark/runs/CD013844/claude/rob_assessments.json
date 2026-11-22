@@ -1,0 +1,476 @@
+[
+  {
+    "paper_id": "manual:0035c339",
+    "paper_title": "6f69f75a_1-s2.0-S0005789405801145-main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states participants with active suicidal ideation were randomly assigned to a brief problem-orientation video intervention or a matched health-video control (\"randomly assigned to receive a brief problem-orientation intervention or a control procedure\"; \"participants completed the self-report questionnaires and were randomized to one of two conditions\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but the sequence-generation method and allocation concealment are not described; baseline equivalence was formally examined and no significant group intercept differences were found, which is reassuring but insufficient to rule out allocation problems.",
+        "evidence_quote": "\"Following the interview, participants completed several self-report questionnaires and were randomized to one of two conditions: problem orientation treatment or control.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The control video was time-matched (reducing demand/attention confounds), but participants were inevitably aware of content and the outcomes were self-reported; no information is given on blinding of participants to study aims, protocol adherence (e.g., PSSM completion rates), or whether analysis was intention-to-treat.",
+        "evidence_quote": "\"Those assigned to the control condition received a video matched for time that focused on current health issues such as proper diet, exercise, and sleep habits but with no reference to coping strategies or methods for dealing with health issues.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was substantial and increased to roughly a third (and up to 59% at the final follow-up) in a distressed suicidal sample; although dropout was reportedly balanced across groups and latent growth curve modeling was used, missingness of this magnitude in a self-reported symptom outcome plausibly biases the estimated trajectories.",
+        "evidence_quote": "\"The dropout rate increased across the follow-ups (FU; FU1 = 13% attrition; FU2 = 18% attrition; FU3 = 33% attrition; FU4 = 59% attrition)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes used well-validated instruments (BSS, BDI, BHS, SPSI-R) administered identically across groups, but all primary outcomes were participant self-report in an unblinded intervention, so knowledge of assignment could influence responding.",
+        "evidence_quote": "\"These assessments included completion of self-report measures related to suicide, depression, hopelessness, and problem solving.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Hypotheses and a priori contrasts are stated and both positive and null findings are reported, but there is no protocol/pre-registration, multiple outcome measures and time points were analyzed separately, and supplementary categorical \"clinical significance\" analyses suggest some analytic flexibility.",
+        "evidence_quote": "\"There were two main study hypotheses. First, the intervention was expected to increase the use of positive coping mechanisms... Second, participants assigned to the treatment condition were expected to report decreased suicidal ideation, depression, and hopelessness.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven principally by substantial and escalating attrition (13%\u201359% across follow-ups) in a distressed suicidal sample, which the latent growth curve approach can mitigate but not eliminate. Additional concerns include undescribed randomization/allocation-concealment procedures, unblinded participants with exclusively self-reported outcomes, and absence of a pre-registered analysis plan despite multiple outcomes and time points."
+  },
+  {
+    "paper_id": "manual:7a2d1f7f",
+    "paper_title": "f4f786e8_64_74",
+    "design_classification": "randomized",
+    "design_rationale": "Candidates were explicitly stratified by baseline self-harm ideation score and randomly assigned to the structured writing intervention or an assessment-only control group (\"They were stratified and randomly assigned to the intervention or the control group, based on their self-harm ideation score\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Allocation occurred before consent and participants were told their group's conditions before agreeing (only 33/56 allocated students enrolled), so concealment was effectively absent and self-selection could follow allocation; baseline imbalances were also sizeable (SHI U=30.50, p=.05, r=.35; NMR d=.65; AAQ-II d=.75), all favouring the control group.",
+        "evidence_quote": "\"They were stratified and randomly assigned to the intervention or the control group, based on their self-harm ideation score and were requested to participate in the study, after explaining the criteria of the group they were assigned.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and researchers were necessarily aware of assignment to an active writing programme versus a no-activity assessment-only control (raising expectancy/demand effects on self-report outcomes), and the analysis was not intention-to-treat since dropouts and post-randomization exclusions were removed rather than analysed as randomized.",
+        "evidence_quote": "\"Participants in the control group were not required to do the writing tasks, but only the baseline and follow-up assessments.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 22 of the 56 randomized (and 22 of 33 enrolled) contributed data, with markedly differential post-randomization exclusion based on a baseline outcome value (7/18 intervention vs 2/13 control), and no sensitivity analysis or evidence that results were robust to this attrition.",
+        "evidence_quote": "\"One participant from each group did not show up on the appointed day and dropped out of the study. Furthermore, data of participants with baseline SHI scores of zero (intervention group : n=7, control group : n=2) were excluded from the analysis\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All outcomes were self-reported by unblinded participants who knew whether they had received an emotion-focused programme, and the primary self-harm ideation measure was an ad hoc scale with no established reliability or validity.",
+        "evidence_quote": "\"The last limitation concerns the index of selfharm that was used, which was specially developed for this study. To date, there are no data on the reliability or the validity of this index.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No pre-registration or protocol is cited, multiple outcomes, two follow-up time points and differing analytic approaches (Friedman within-group tests for SHI vs mixed ANOVA for emotion indices) were used, with marginally significant findings emphasised and a post hoc baseline-score exclusion rule applied, indicating substantial scope for selective reporting.",
+        "evidence_quote": "\"Results of rANOVA indicated significant group-time interactions in both NMR and AAQ-II scores (F2=3.74, p=.032, \u03b7p2=.16 ; F2=3.44, p=.042, \u03b7p2=.15\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was stratified and described as random, randomization preceded consent with group details disclosed, baseline differences were large, and only 22 of 56 randomized participants were analysed after differential post-randomization exclusions based on a baseline outcome value. Combined with unblinded self-report outcomes including an unvalidated bespoke self-harm scale and no pre-registered analysis plan, the study is at high risk of bias overall."
+  },
+  {
+    "paper_id": "manual:46f8ba69",
+    "paper_title": "8b95f115_2021TheEffectofBriefMindfulnessMeditationonSuicidalIdeationStressandSleepQuality",
+    "design_classification": "randomized",
+    "design_rationale": "The authors describe a registered randomized controlled trial in which 64 screened students were \"randomly assigned to one of the two groups using a random number generated and randomly grouped by SPSS\" (BMM vs. wait-list control).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used, but allocation concealment is not described and there was a statistically significant baseline imbalance on one key outcome (actigraphic sleep efficiency) in a very small sample.",
+        "evidence_quote": "\"Sixty four participants were recruited for the present study after the interviewing and screening process, and were randomly assigned to one of the two groups using a random number generated and randomly grouped by SPSS.\" ... \"Sleep efficiency in the BMM group was significantly higher than in the control group at baseline (85.46 \u00b1 3.66 vs. 82.09 \u00b1 5.88; t = 2.62, p < 0.01)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants necessarily knew whether they were meditating or waiting (no active/placebo control), co-interventions in the wait-list group were unmonitored, adherence was incomplete (up to two missed sessions; manipulation-check scores ~2.3/5 suggesting weak engagement), and analyses were per-protocol (only completers analyzed) rather than intention-to-treat.",
+        "evidence_quote": "\"we failed to include an active control manipulation, such as a relaxation training group, which limited the distinction between intervention effects and placebo effects\" ... \"during the experiment, we did not monitor the control group to ensure they were not engaging in any related interventions, although they were asked not to\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was low (60/64, ~6%) and actigraphy losses were for technical reasons, but excluded participants were omitted without ITT analysis or comparison of dropouts, and the per-group distribution/reasons for the four exclusions are not fully reported.",
+        "evidence_quote": "\"Sixty participants who completed all group sessions and with an absence of less than three self-help sessions were included in current study\" ... \"There were three missing values in the post-test due to instrument failure.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Primary outcomes are self-reported by unblinded participants aware of their allocation, and two self-report measures showed unacceptably poor internal consistency (PSS \u03b1 = 0.37/0.38; PSQI \u03b1 = 0.61/0.53), although cortisol and actigraphy provide some objective corroboration.",
+        "evidence_quote": "\"the Cronbach's alphas for the PSS and PSQI in this study were lower than 0.7, which made the results of these two questionnaires less reliable\" ... \"The intervention had a single-blind design, and participants did not know the true purpose of the experiment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ChiCTR1800016081) and all outcome tables appear reported, but no pre-specified primary outcome or analysis plan is cited, many outcome operationalizations were tested, and emphasis was shifted post hoc toward within-group significant measures while non-significant between-group effects are framed favourably in the abstract.",
+        "evidence_quote": "\"Due to the low reliability of the PSS in this study, we primarily referred to the results for salivary cortisol levels.\" ... \"Due to the low reliability of the PSQI in this study, we primarily referred to the results for 7-day sleep actigraphy patterns.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization was computer-generated and attrition minimal, the trial used an unblinded wait-list (no active/placebo control) with unmonitored co-interventions and completer-only analysis, and relied heavily on participant-reported outcomes, two of which had unacceptably low reliability. These issues in D2 and D4, compounded by a baseline imbalance in sleep efficiency and underpowered, selectively emphasized within-group analyses, yield an overall high risk of bias."
+  },
+  {
+    "paper_id": "manual:51af954d",
+    "paper_title": "408ed59f_24694193.2019.1578300",
+    "design_classification": "non_randomized",
+    "design_rationale": "The authors explicitly describe the study as a \"quasiexperimental pre-post test design with control group\" with participants \"recruited through purposive sampling technique\"; although the text contains a bare mention that participants \"were randomly assigned to two groups,\" no allocation sequence generation or concealment procedure is described and the design is self-labelled quasi-experimental, so it cannot be treated as a randomized trial.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Baseline suicidal ideation differed notably between groups (4.79 vs 3.98) and no statistical comparison of baseline characteristics by group, nor any adjustment for confounders (gender, violence history, parenting style, income) was performed; comparability is merely asserted.",
+        "evidence_quote": "\"Respondents in the two groups were broadly similar; the difference was in the intervention received.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias in selection of participants into the study",
+        "judgment": "serious",
+        "rationale": "Participants were enrolled by purposive (non-probability) sampling from two schools with no stated eligibility criteria, screening cut-offs, or flow of recruitment, and the two conditions appear to map onto different schools/classes, so selection may be related to both intervention and outcome.",
+        "evidence_quote": "\"The participants were 86 adolescents from class XI who were recruited through purposive sampling technique.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "All 86 participants (43 per group) appear in the analyses with no attrition reported, but the paper gives no explicit account of dropouts, missing items, or how any missing data were handled.",
+        "evidence_quote": "\"Table 3. Effect TKN, CBT, and PL on suicidal ideation adolescents (n = 43 peoples).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "moderate",
+        "rationale": "Groups are defined by intervention received and classification was prospective, but the content, dose, duration, and providers of TKN, CBT and PL are never described, and labelling is inconsistent (Table 4 calls group 2 \"TKN + Latihan Mandiri\"; Table 2 labels the TKN-only results \"Intervention 1\").",
+        "evidence_quote": "\"While intervention group 1 received the training received by mental health nurses (TKN), CBT, and PL, intervention group 2 received only TKN.\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "Although the Beck Scale for Suicide Ideation is a validated instrument, outcome assessment was unblinded and apparently conducted by the researchers delivering the intervention, with no reported validation/translation or scoring details, and the implausible reduction to a mean of 0.21 (\"none\") suggests reporting/assessment reactivity.",
+        "evidence_quote": "\"Data were collected using the Beck Scale for Suicide Ideation.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "serious",
+        "rationale": "Participants and providers were necessarily aware of condition, no fidelity monitoring, co-intervention control, or adherence data are reported, and no intention-to-treat framework is described for this unblinded behavioral intervention.",
+        "evidence_quote": "\"Participants were randomly assigned to two groups and three measurements were performed: pre-test, treatment, and posttest.\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "serious",
+        "rationale": "There is no protocol or pre-registration, no stated primary outcome or analysis plan, multiple tests (Wilcoxon, Friedman, Mann-Whitney) were applied without correction, and tables are internally inconsistent (group labels and mean differences, e.g. 2.07 vs 3.26), indicating selective/flexible reporting.",
+        "evidence_quote": "\"The data were analyzed using the Wilcoxon test, the Friedman test, and the Mann-Whitney test.\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "This quasi-experimental, purposively sampled study is at serious risk of bias driven by uncontrolled confounding (notably unequal baseline suicidal ideation and no adjustment), non-probability selection into conditions, unblinded delivery and self-report outcome assessment without fidelity data, and absence of a protocol with internally inconsistent, multiply-tested results. Reporting is sparse throughout (no intervention descriptions, no attrition account), so the large reported benefit of TKN+CBT+PL cannot be considered reliably attributable to the intervention."
+  },
+  {
+    "paper_id": "manual:1f7c443d",
+    "paper_title": "83cef4b0_BRB3-10-e01621",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a three-arm randomized controlled trial in which \"participants were randomized in blocks of three to either DBT_ZYT or SGT or WL group by a computer program.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used and baseline measures were balanced, but allocation concealment is not described and permuted blocks of three in an unblinded group-therapy setting are potentially predictable.",
+        "evidence_quote": "After enrollment, participants were randomized in blocks of three to either DBT_ZYT or SGT or WL group by a computer program... One-way ANOVA and independent-sample t test showed that all the baseline assessments did not significantly differ among groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were unblinded (inevitable for group psychotherapy) and no treatment-fidelity/adherence ratings were provided, though an intention-to-treat analysis was used and co-interventions (drugs, outside therapy) were recorded and did not differ between groups.",
+        "evidence_quote": "it was difficult to keep the participants as well as the therapists blind to study hypotheses, therefore, we are unable to rule out the possible placebo effect from the true intervention efficacy. Fourth, we have failed to provide adherence ratings for either treatment groups."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Dropout was 12\u201316% per arm at post-treatment with further loss at follow-up, and dropouts differed systematically from completers on age and on ALL baseline severity measures, violating the stated MCAR assumption underlying the last-observation-carried-forward imputation, so results could plausibly be biased by missingness.",
+        "evidence_quote": "There were also significant differences on all of the baseline assessments between completers (n = 83) and noncompleters (n = 14)... the missing data were imputed using the last observation carried forward method. This method assumes that missing values are missing completely at random"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were validated self-report instruments applied identically across arms by an assessor blind to allocation, but participants themselves were unblinded and all primary outcomes were self-reported, raising risk of differential reporting (expectancy/social desirability) between active and wait-list arms.",
+        "evidence_quote": "The last limitation was related to the reliance on self-report outcomes, which may attenuate the validity of causal conclusions due to social desirability effect, inadequate introspective ability, and other response biases."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, many outcomes (4 scales plus 10 SCL-90-R subscales) and multiple analytic approaches were examined, and the authors explicitly justify switching emphasis to repeated-measures/paired tests after between-group comparisons at post-treatment and follow-up were non-significant.",
+        "evidence_quote": "As repeated measures ANOVA could control for factors that cause variability between subjects, it is more powerful to detect changes in mean scores over three time points between groups, we reported outcome analyses using repeated measures ANOVA and paired-sample t test."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by missing outcome data: 12\u201316% dropout per arm with dropouts differing significantly from completers on age and on every baseline severity measure, handled by last-observation-carried-forward under an MCAR assumption that the paper's own data contradict. Additional concerns arise from unconcealed/blocked allocation, unblinded participants and therapists with no adherence ratings, exclusively self-reported outcomes, and absent pre-registration with a post hoc shift toward within-group repeated-measures analyses after non-significant between-group comparisons."
+  },
+  {
+    "paper_id": "manual:39fbf9b4",
+    "paper_title": "40b02aff_ebmental-20-76",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit parallel randomised controlled trial with computer-generated random number allocation stratified by school (\"This was done via an online randomisation computer program set up by an independent statistician... used a random number generator to produce a randomisation list\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and allocation concealment were adequate (central computerised allocation after baseline assessment), but notable baseline imbalances in prognostically important factors (history of suicide attempt, medication use) in a very small sample raise some concerns, albeit plausibly due to chance.",
+        "evidence_quote": "\"This program used a random number generator to produce a randomisation list, which was stratified by school. The program did not allow knowledge of treatment next to be allocated before the participant details were entered into the computer.\" ... \"twice as many people in the intervention group had a history of suicide attempt than controls.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial and differential attrition (50% intervention vs 29% control at 22 weeks, 30% vs 12.5% at 10 weeks) with no sensitivity/imputation analyses reported means bias due to missing outcome data in this suicidality population cannot be excluded.",
+        "evidence_quote": "\"There was also a high dropout rate (50% in the intervention group and 29% in the control group by 22-week follow-up), which resulted in large amounts of missing data for outcome measures, particularly the measure of CBT skill acquisition.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome used a validated instrument (SIQ) administered identically in both arms by blinded research assistants, limiting measurement bias despite participant self-report.",
+        "evidence_quote": "\"The research assistants (EB, GC and KT) conducting outcome assessments and the statistician conducting the analysis (HPY), however, remained blind to treatment allocation during the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and school staff were necessarily unblinded and co-interventions (TAU) differed substantially between arms (e.g., headspace contact 43% vs 5%, medication 14% vs 32%), though analysis was by original assigned groups; low intervention adherence (average 5/8 modules) adds concern about the effect of assignment vs adherence.",
+        "evidence_quote": "\"Because of the nature of the intervention, it was not possible for school staff to be blind to intervention.\" ... \"Analysis was by original assignment groups.\" ... \"A smaller proportion was seeing a psychiatrist (0% control; 16% Reframe-IT) ... or a headspace clinician (43% control; 5% Reframe-IT).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a published protocol and the pre-specified primary outcome is reported, but the post hoc, non-prespecified correlational mediation analyses across 15 variable combinations and the deviation from the planned powered analysis introduce some concern about selective reporting of the supplementary findings.",
+        "evidence_quote": "\"The trial has been registered (ACTRN12613000864729; 5 August 2013), and the protocol for the trial has been published.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomisation, allocation concealment and blinded outcome assessment were well executed, the trial is at high overall risk of bias driven by substantial differential attrition (50% intervention vs 29% control at 22 weeks) with no sensitivity analyses for missing data. Additional concerns arise from baseline imbalance in suicide-attempt history, unequal co-interventions/TAU between arms, severe underpowering (50 of 169 planned participants), and post hoc mediation analyses."
+  },
+  {
+    "paper_id": "manual:69c2899c",
+    "paper_title": "e660142f_j.1440-1819.2009.01991.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that the 73 screened depressed students with suicidal risk \"were randomly assigned to the IPT-A-IN and the TAU programs\" (title also claims a randomized study), so random allocation to conditions is reported, despite an inconsistent self-description as a \"case\u2013control study\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is asserted but no method of sequence generation or allocation concealment is described, the paper elsewhere calls itself a \"case\u2013control study\", and there was a baseline imbalance in anxiety scores between arms.",
+        "evidence_quote": "\"a total of 73 depressed students with suicidal risk were recruited into the intervention program, and they were randomly assigned to the IPT-A-IN and the TAU programs\" ... \"Before intervention, the students in the TAU group had a higher anxiety score on the BAI than those in the IPT-A-IN group (t = 0.76, P < 0.05).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and providers were necessarily aware of allocation; the two arms were delivered by entirely different providers (trained counselors/interns vs. schoolteachers) and with markedly different intensity/contact time, three TAU participants dropped out and had their teachers swapped mid-course, and no intention-to-treat analysis is described (analysis appears to exclude or alter non-adherent participants).",
+        "evidence_quote": "\"Three participants in the TAU group dropped out... In light of these two special cases, other school teachers replaced the previous teachers and these two participants could then continue once-weekly sessions.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The paper claims no withdrawals yet also reports three TAU drop-outs and two referrals to hospital, and the analysed sample sizes per outcome are not reported, so completeness of outcome data cannot be verified.",
+        "evidence_quote": "\"No students refused to participate in the treatment programs or withdrew from the study during the 6-week sessions... Three participants in the TAU group dropped out.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes were self-report Beck scales completed by unblinded participants who knew whether they received the intensive, attention-rich IPT program or routine teacher support, and evaluators were blinded only to pre-intervention scores (not to allocation) while assisting with questionnaire completion and scoring.",
+        "evidence_quote": "\"The post-intervention assessments were conducted by the evaluators who were blind to the results of pre-intervention assessments. Assessment tools were self-report scales, therefore, evaluators would remind students who had omissions in the questionnaire and help to calculate the total scores.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned; four outcome scales were analysed post hoc with ANCOVA and reported with inconsistent/implausible statistics (e.g., \"t = 0.76, P < 0.05\"), leaving scope for selective reporting.",
+        "evidence_quote": "\"the post-intervention scores on BDI, BSS, BAI and BHS between the IPT-A-IN and TAU groups were compared on ANCOVA, with the pre-intervention scores used as covariates.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by unblinded participants reporting their own outcomes on self-report Beck scales (D4) and by substantially differing intervention delivery/intensity across arms with mid-study provider changes and no intention-to-treat analysis (D2). Unreported randomization and concealment methods, a baseline anxiety imbalance, inconsistent drop-out reporting, and absence of pre-registration add further concerns."
+  },
+  {
+    "paper_id": "manual:8233b437",
+    "paper_title": "ae948523_nihms-1621226",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned to CAMS (n=33) or TAU (n=29) within a registered SMART-design RCT, using an adaptive-biased coin randomization procedure balancing on medication use, prior attempt, and gender.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A recognized covariate-adaptive randomization method was used with balancing on key prognostic factors, baseline characteristics did not differ significantly between arms, and the trial was prospectively registered with IRB and DSMB oversight; allocation concealment is not explicitly described but baseline comparability and the sequential adaptive algorithm make subversion unlikely.",
+        "evidence_quote": "Both treatments were balanced in terms of psychotropic medication use, presence of a past suicide attempt, and gender utilizing an adaptive-biased coin design (Wei & Lachin, 1988)... There were no significant differences between the conditions on any baseline clinical, diagnostic, or demographic variables"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were necessarily unblinded, and critically the same seven counselors delivered both arms while receiving CAMS training and weekly consultation from the CAMS developer (who is a co-author and co-owner of CAMS-care), creating potential for differential enthusiasm/performance; however, fidelity was objectively verified (CAMS adherence M=4.32 vs TAU M=1.09) and intention-to-treat analysis was used for the weekly measures.",
+        "evidence_quote": "The overall average therapist adherence rating for the CAMS condition exceeded the required score of 3 (M = 4.32; SD = 1.54) while that of the TAU condition (M = 1.09; SD = .84) was well below the cutoff score... HLM/HGLM data from all participants (the intent-to-treat sample) were utilized"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Overall treatment dropout was 22.6% with a non-trivial (though non-significant) imbalance between arms (CAMS 27.3% vs TAU 17.2%), and pre/post outcomes such as the BHS/SSI were analysed on reduced samples (e.g., 29 CAMS vs 23 TAU at post, ANCOVA df=48); pattern-mixture sensitivity analyses supported robustness for the weekly depression and SI outcomes, but not for all endpoints.",
+        "evidence_quote": "Differences in treatment dropout between the CAMS (27.3%) and the TAU (17.2%) conditions were not statistically significant... Pattern mixture models (Hedeker & Gibbons, 1997) indicated that analyses on intervention effects for depression and suicidal ideation were not sensitive to missing data patterns"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary response instrument (CGI-S/CGI-I) and the significant weekly outcomes were rated by the treating counselors and by unblinded self-reporting participants rather than by the blind Independent Evaluator, and the CGI scales were newly devised for this study; because therapists knew which condition they were delivering and were trained/consulted by the CAMS developer, clinician-rated and session-based outcomes could readily be influenced, and notably the blinded-IE pre/post measures (SSI, BHS) showed no between-group effects.",
+        "evidence_quote": "The CGI (Guy, 1976) was the primary instrument for assessing treatment response. At the end of each treatment session, counselors rated... The CGI-S/CGI-I rating scales were developed for this study with respect to suicidal risk specifically."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial was registered (NCT02442869), the paper does not identify a single pre-specified primary endpoint consistently (the CGI is called \"the primary instrument\" yet NSSI and others are also labelled \"primary outcome measure\"), many outcomes and five candidate moderators were tested with numerous interaction contrasts and flexible model choices (HLM/HGLM, zero-altered, covariate selection \"if significant\"), and the emphasized conclusions rest on marginal p-values (.035\u2013.046) and post hoc moderator analyses in an underpowered feasibility sample.",
+        "evidence_quote": "potential baseline covariates such as BPD features, level of distress, age, gender, and previous suicide attempts were tested and, if significant, included subsequently in all models... Alpha was set at .05 to preserve power."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Despite sound randomization with balanced baselines, verified treatment fidelity, and ITT analysis, the study is at high risk of bias because the significant findings derive from unblinded clinician-rated (CGI, newly created for this study) and self-report session measures delivered by therapists trained and supervised by the CAMS developer, while blinded-evaluator pre/post outcomes showed no group differences. This is compounded by extensive multiplicity across outcomes, moderators, and flexible model/covariate selection in a small underpowered feasibility sample with ~23% differential dropout."
+  },
+  {
+    "paper_id": "manual:51f3e032",
+    "paper_title": "1ce72cd7_nihms396505",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to DBT or optimized treatment-as-usual using a computerized urn randomization procedure stratified on gender, recent NSSI/suicide attempt, and medication use: \"Participants were randomly assigned to treatment conditions using a computerized urn randomization procedure (Stout, Wirtz, Carbonari, & Del Boca, 1994).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-implemented urn randomization with stratification was used and baseline demographic, diagnostic, and outcome variables were comparable across arms (only a non-significant age trend, p = .07), consistent with chance; concealment is implied by the computerized procedure although not described in detail.",
+        "evidence_quote": "\"Participants were randomly assigned to treatment conditions using a computerized urn randomization procedure (Stout, Wirtz, Carbonari, & Del Boca, 1994), controlling for gender, presence of NSSI or a suicide attempt within the last eight weeks, and psychotropic medication use at baseline.\" ... \"Pre-treatment differences on parametric measures were compared using t-tests or Chi Square/Fisher's exact test and revealed no significant differences between conditions on any demographic, diagnostic, or pretreatment dependent variable.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, therapists and supervisors were necessarily aware of allocation in this open psychotherapy trial, the comparator was unstandardized and unmonitored for adherence (treatment diffusion unassessed), and delivered dose differed (more group sessions in DBT), though analyses were ITT and credibility ratings, individual-session counts and dropout did not differ.",
+        "evidence_quote": "\"the O-TAU condition was not monitored or coded for adherence\" ... \"Additionally, O-TAU sessions were not rated for DBT adherence and therefore the study failed to address treatment diffusion.\" ... \"DBT participants attended significantly more group sessions (DBT: M = 12.48, SD = 10.0; O-TAU: M = 5.0, SD = 6.3 ... p < .01, d = 0.90)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Treatment dropout was substantial (35\u201347%) and Table 2 denominators indicate incomplete follow-up assessments with exact per-wave retention not clearly reported, but mixed-effects/ITT analyses, incentivized follow-up assessment of dropouts, and pattern-mixture sensitivity analyses showing no dependency on retention mitigate the concern.",
+        "evidence_quote": "\"Approximately 35% of the DBT group (11/31) and 47% of the O-TAU group (15/32) dropped out before completing 7 months of therapy\" ... \"Application of the pattern mixture model indicated no significant dependency of the treatment effect on retention (t(59) = 1.39, p = 0.17) and total hours in treatment (t(55) = 1.12, p = 0.26).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Interview-based outcomes were obtained by blinded, reliability-trained independent assessors with good ICCs, but two of the three a priori primary outcomes (suicidality on the SBQ-23 and depression on the BDI-II) and social adjustment were self-reported by unblinded participants who knew they were receiving the \"experimental\" DBT package, which can bias subjective outcome reporting.",
+        "evidence_quote": "\"Potential participants were interviewed by independent assessors who were blind to treatment condition and held masters or doctoral degrees in clinical psychology.\" ... \"The coefficient alpha was .86 for this study.\" (BDI-II)"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes were declared a priori and both NSSI measures were reported, but no trial registration or protocol is cited, the analytic model was selected after inspecting the data, NSSI was re-specified as a zero-inflated count after low base rates, and a post hoc median-split moderator plus multiple time-point contrasts and clinical-significance analyses allow flexibility in the reported results.",
+        "evidence_quote": "\"Three a priori primary outcomes were examined: suicidality, depression, and NSSI.\" ... \"HLM was used if the change appeared linear; otherwise, an MMANOVA approach was used.\" ... \"GAF scores were converted into a dichotomous variable using a median split\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization was well executed (computerized urn procedure with balanced baseline characteristics) and ITT mixed-effects analyses with pattern-mixture sensitivity checks were used, but concerns remain across four domains: an unblinded, unmonitored/non-adherence-coded comparator with unequal group-session dose, substantial treatment dropout (35\u201347%) with incompletely documented assessment retention, reliance on participant self-report for two of three primary outcomes, and absence of a registered protocol alongside data-driven model choice and post hoc median-split moderation. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:385d3e43",
+    "paper_title": "ec3a9949_suli.32.4.428.22335",
+    "design_classification": "randomized",
+    "design_rationale": "Participants screened for suicidality were explicitly randomly allocated to three writing conditions: \"They were randomly assigned to reinterpret or to write and rewrite traumatic events/emotions, or to write about innocuous topics,\" and the Procedure states Experimenter 2 \"randomly assigned participants to one of the three conditions.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is asserted and occurred after baseline measurement with sealed envelopes (suggesting some concealment), and completers did not differ on demographics, but the sequence-generation method is never described and no baseline comparison on the primary outcome measures by arm is reported for the full randomized sample.",
+        "evidence_quote": "\"Then Experimenter 2 administered the pretest questions ... randomly assigned participants to one of the three conditions, and gave them a sealed envelope containing their day 1 writing instructions.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and experimenters were necessarily aware of the writing condition, the authors' own manipulation checks show the intended contrast between the two experimental conditions (and partly with controls, whose insight/causal word use rose) was not achieved, and analyses were restricted to completers rather than intention-to-treat.",
+        "evidence_quote": "\"A second limitation is that the writing instructions for the two experimental groups were too similar; percentages of cognitive change words were similar for both the cognitive change and the exposure conditions... Therefore, the writing instructions for the exposure and the cognitive change groups may not have been robust enough to cause an effect.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Roughly 19% of randomized participants (23/121) lacked complete outcome data, attrition was unevenly distributed across arms at posttest (1 cognitive change, 4 exposure, 5 control), and missingness was demonstrably related to baseline depression and external pressure (i.e., to the outcomes themselves), with no sensitivity or imputation analysis reported.",
+        "evidence_quote": "\"Finally, the fact that noncompleters were more depressed and stressed than completers means that those who had the most potential for improvement were lost to attrition.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes used psychometrically validated self-report instruments applied identically to all arms, but they are self-assessed by unblinded participants (plus self-reported health-centre visits, which the authors note may be reactive), and follow-up assessment setting differed from pre/post assessment.",
+        "evidence_quote": "\"Another limitation was that the followup questionnaires were mailed and completed at home rather than in the laboratory. Participants may have felt differently because of the location.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no pre-registration or analysis plan, a large number of outcome instruments, subscales and time points were analysed (depression, ASIQ, six SSF items, BRFL, ATQ-R, PANAS, health visits, follow-up questions), and the authors report a post hoc re-analysis pooling the two experimental arms, creating scope for selective reporting\u2014though the reporting of null primary findings is reassuring.",
+        "evidence_quote": "\"Therefore, the data from the two experimental groups were combined into one experimental group to assess whether the combined experimental group would produce significant findings compared to the control group.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by missing outcome data (D3): ~19% attrition that was differential across arms and demonstrably related to baseline depression and external pressure, analysed as completers-only with no sensitivity analysis. This is compounded by some concerns in all other domains\u2014undescribed sequence generation, a failed/weak manipulation with unblinded participants, unblinded self-report outcomes, and many outcome measures analysed without a pre-specified plan."
+  }
+]

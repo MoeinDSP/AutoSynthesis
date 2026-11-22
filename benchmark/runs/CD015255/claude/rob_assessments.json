@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:afe4e853",
+    "paper_title": "e478541c_6EF62011BD76414CB99E11BDCC13AE77",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that the 62 patients diagnosed with chronic otitis media with effusion were randomly assigned to three groups (\"Ef\u00fczyonlu otitis media tan\u0131s\u0131 konan hastalar rastgele \u00fc\u00e7 gruba ayr\u0131ld\u0131\" / \"The patients were randomly assigned to three groups\"), indicating a parallel-group randomized trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation concealment is described, and although baseline risk factors were reported as similar, the control group was notably younger (4.58 vs 5.80/6.57 years), a prognostically relevant difference.",
+        "evidence_quote": "Ef\u00fczyonlu otitis media tan\u0131s\u0131 konan hastalar rastgele \u00fc\u00e7 gruba ayr\u0131ld\u0131. ... \u00dc\u00e7 grup da hasta veya ailesinde alerji \u00f6yk\u00fcs\u00fc, s\u0131k \u00fcst solunum yolu enfeksiyonu ge\u00e7irme \u00f6yk\u00fcs\u00fc, kre\u015fe gitme, pasif sigara i\u00e7icili\u011fi ... a\u00e7\u0131s\u0131ndan benzer verilere sahipti (p>0.05)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or prospective registration is cited, multiple outcomes/time points (otoscopy, tympanogram type, mean middle-ear pressure, per-ear right/left and combined) are reported, and analysis was by ear rather than by patient without accounting for clustering, leaving scope for selective reporting.",
+        "evidence_quote": "D\u00f6rd\u00fcnc\u00fc ve sekizinci haftalarda, gruplar aras\u0131ndaki iyile\u015fme oranlar\u0131n\u0131n istatistiksel kar\u015f\u0131la\u015ft\u0131r\u0131lmas\u0131nda \"Fisher's exact test\" kullan\u0131ld\u0131."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The control group received no treatment and no placebo nasal spray, so patients, families and treating clinicians were unblinded; no information is given on adherence (8 weeks of antibiotic/spray), co-interventions, or whether an intention-to-treat analysis was used.",
+        "evidence_quote": "Grup 3 (n=22) ise, kontrol grubu olarak tedavisiz izlendi."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Denominators of ears at week 4 and 8 appear to match baseline, suggesting complete follow-up, but no flow of participants, withdrawals or losses to follow-up is explicitly reported over the 8-week period.",
+        "evidence_quote": "\u00c7al\u0131\u015fmaya ... toplam 62 hasta al\u0131nd\u0131. ... Grup 1'deki hastalar\u0131n 17'sinde \u00e7ift, \u00fc\u00e7\u00fcnde tek tarafl\u0131 (toplam 37 kulak) EOM vard\u0131."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Resolution was defined partly by subjective pneumatic otoscopy performed by unblinded investigators in an open-label trial with an untreated control arm, so outcome assessment could plausibly be influenced by knowledge of allocation (tympanometry is objective, but no blinded assessor is described).",
+        "evidence_quote": "Pn\u00f6motik otoskopide zar hareketinin ve timpanogramda tip A e\u011frisinin ... izlenmesi EOM'nin iyile\u015fmesi olarak kabul edildi."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the open-label design with an untreated (no-placebo) control arm and unblinded, partly subjective outcome assessment (pneumatic otoscopy), plus no information on adherence or ITT analysis. Additional concerns arise from undescribed randomization/allocation concealment, unreported participant flow, absence of a protocol, and per-ear analysis ignoring clustering."
+  },
+  {
+    "paper_id": "manual:af8a8958",
+    "paper_title": "16f44dff_Efficacy_and_cost-effectiveness_analysis_of_steroi",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports allocation of 160 children to four parallel arms by block randomization using computer-generated random numbers, and is registered as a clinical trial (NCT03590912).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A legitimate computer-generated random sequence was used and baseline age/gender were comparable, but allocation concealment (e.g., sealed opaque envelopes, central allocation) is never described and fixed blocks of four with four known arms make upcoming allocations partly predictable.",
+        "evidence_quote": "\"The children who fulfilled the selection criteria were randomly divided into four parallel groups by block randomization, with blocks of four by a resident not involved in the study. The blocks were generated randomly by an author, who was not directly involved in treatment of patient, according to computer generated random numbers.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label (no placebo; observation arm clearly unblinded to participants, carers and treating clinicians), adherence to the month-long nasal spray/oral steroid regimens was not reported or measured, and no intention-to-treat framework or handling of co-interventions is described.",
+        "evidence_quote": "\"Parent/guardian and participants of group D were counselled about the condition and its management options and were advised for observation for a month without active treatment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data appear complete for all 160 randomized children (40 per group), but no flow diagram, withdrawals, or exclusions are reported, raising the possibility that participants lost to follow-up were replaced to reach the target of 40 per arm rather than analysed as randomized.",
+        "evidence_quote": "\"There were a total of 160 participants in the study divided equally into four groups, thus each group consisting of 40 children. ... Telephone calls were made every week to reduce the loss of follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was an objective, pre-specified tympanometric criterion (A/As/C vs B curve) applied identically in all arms and assessed by otolaryngologists blinded to study participation and therefore to allocation.",
+        "evidence_quote": "\"Children were re-evaluated with clinical examination including otoscopy and tympanometry during follow-up by consultant otolaryngologist who were not aware whether the children were subjected to study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although the trial was prospectively registered and the outcome definition pre-specified, no protocol/analysis plan is available for comparison, post-hoc pairwise analyses are reported, and some statistics appear internally inconsistent (e.g., antibiotic-arm improvement reported as 32.5% in Table 2 but 17.5%/one-third variably in the text), suggesting flexibility in reporting.",
+        "evidence_quote": "\"Further analysis with Bonferroni correction revealed that the rate of improvement in group B was significantly higher but was not so in group C. ... Further ad-hoc analysis by Tukey method was done between each pair of groups which showed all the comparisons were statistically significant\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered four-arm randomized trial used computer-generated block randomization and a blinded, objective tympanometric outcome, but allocation concealment is undescribed with predictable blocks of four, the design was open-label with no placebo control and no adherence/ITT details, participant flow is not documented, and some reported results/post-hoc analyses are inconsistently presented. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:53607ea4",
+    "paper_title": "9faaf9cd_epj-09-4890",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a randomized controlled trial with participants \"randomly assigned into three groups\" (montelukast, mometasone, no-treatment control), registered at ClinicalTrials.gov (NCT02541760).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation concealment is described, and group sizes are notably unequal (59/40/44) with some age imbalance, so the process cannot be verified.",
+        "evidence_quote": "\"Participants were randomly assigned into three groups.\" ... \"The age of the patients in inhaled mometason was slightly higher in comparison with montelukast and the control group.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "No placebo or blinding of participants, carers or clinicians (an untreated control and two differently administered active drugs), no information on adherence/co-interventions, and no statement of intention-to-treat analysis.",
+        "evidence_quote": "\"The first group received 4 ml montelukast daily for one month, and the second group received inhaled mometasone: one puff in each side of nose for one month. The third group received no treatment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data appear available for all 143 randomized children, but the flow diagram content is not reproduced in the text and no explicit account of dropouts/losses to follow-up is given (gender counts also sum inconsistently: 87+57=144).",
+        "evidence_quote": "\"We studied 143 children in this study.\" ... \"A flow diagram of the children in this study is shown in Figure 1.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Tympanometry is an appropriate objective measure applied in all groups, but the categorization into complete/partial/no improvement is undefined and assessors were apparently unblinded to the open-label allocation, allowing some judgment-related bias.",
+        "evidence_quote": "\"All patients had undergone tympanometry at the start of study and after one month to confirm the OME and to evaluate the response to treatment. Patients in each group were divided into complete improvement, partial improvement, and no improvement patients.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial is registered, but the abstract mentions audiometry while the methods report tympanometry, no pre-specified primary outcome or analysis plan is described, and results are reported only as a single crude chi-square without adjustment or subgroup pre-specification.",
+        "evidence_quote": "\"This study is registered at ClinicalTrials.gov with ClinicalTrials.gov Identifier: NCT02541760.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 2: the trial was open-label with an untreated control group, no placebo, and no information on adherence, co-interventions or intention-to-treat analysis. Additional some-concerns arise from undescribed sequence generation/allocation concealment, an unreported participant flow, unblinded and undefined outcome categorization, and inconsistency between the registered/abstracted (audiometry) and reported (tympanometry) outcome."
+  },
+  {
+    "paper_id": "manual:a58a157e",
+    "paper_title": "c6807e33_JRMS-16-509",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes allocation to case/control groups using a random number table in a prospective clinical trial: \"The arrangement of cases in the case or control group was performed using random number table.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "No placebo spray was given to controls, so patients/parents were necessarily aware of assignment\u2014critical since the primary symptom outcome was parent-reported improvement\u2014and no information is provided on adherence or intention-to-treat analysis; the stated \"single blinded\" design is never operationalized.",
+        "evidence_quote": "The approach to case group was the same, with the combina tion of nasal beclomethasone spray for 4 weeks"
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random number table was used, but there is no description of allocation concealment, and baseline reporting is limited (mean ages differ by ~1 year with no SD-based test detail, and baseline symptom history differed markedly: 56.5% vs 39.1% reported hearing loss), raising uncertainty.",
+        "evidence_quote": "The arrangement of cases in the case or control group was performed using random number table."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "14 of 106 recruited children (13%) were excluded\u2014partly for \"absence in the follow up dates,\" i.e., loss to follow-up\u2014with no breakdown by group or analysis of whether missingness was related to outcome.",
+        "evidence_quote": "During the study, 14 subjects were excluded because of the presence of the exclusion criteria. Finally we completed our data with 92 patients; 46 subjects in each group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The symptom/hearing-quality outcome was subjectively elicited directly from unblinded patients and parents, and otoscopic grading was done by the unblinded research team; although tympanometry was performed by a single audiologist, blinding of assessors is not stated.",
+        "evidence_quote": "any improvement or worsening of complaints was directly asked from them and/or their parents ... The research team filled all questionnaires and controlled all otoscopies during this process."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or trial registration is cited and no primary outcome is pre-specified; multiple outcome operationalizations (parent-reported improvement, retraction grade, right/left ear tympanometry, four remission categories) were analysed and reported selectively, with the single null result (right ear) explained post hoc.",
+        "evidence_quote": "But, for the only time, we could not find a significant difference in the improvement of right ear tympanometries between the two groups after treatment (p = 0.136)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used a random number table, the absence of a placebo spray left patients, parents and the assessing research team aware of assignment, which is critical given that key outcomes were parent-reported symptom/hearing improvement and clinician-graded otoscopy (D2 and D4 high). Combined with unexplained group-level handling of 14 exclusions/losses, no allocation concealment detail, and no pre-registered primary outcome amid multiple analysed endpoints, the overall risk of bias is high."
+  },
+  {
+    "paper_id": "manual:f841ed11",
+    "paper_title": "c6d769af_s43163-022-00225-x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of 168 children into two equal groups using a computer-generated table of random numbers (\"A computer-generated table of random numbers was used for group assignment\"), and self-describes as a \"randomized controlled clinical trial.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Denominators of 84 per group are retained at baseline, 2 weeks and 1 month, implying complete follow-up, but the paper provides no participant flow, no statement about withdrawals or losses to follow-up, and some counts/percentages in the tables are internally inconsistent, so complete data cannot be fully verified.",
+        "evidence_quote": "\"First group N=84 | Second group N=84\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label with no placebo/saline spray in the control arm, so caregivers, patients and treating clinicians knew the assigned condition, and no information is given on adherence, co-interventions, or whether an intention-to-treat analysis was used.",
+        "evidence_quote": "\"The 2nd group was treated by amoxicillin\u2013clavulanate 90 mg/kg/day for 4 weeks.\" ... \"Proper health education was provided to the parents for proper use of nasal spray, and the first dose was given in the clinic.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Tympanometry and pure-tone audiometry are appropriate and applied identically in both arms, but no blinding of outcome assessors is reported in this open-label trial and the primary outcome (tympanogram type categorization) and pure-tone audiometry in young children involve subjective judgment that could be influenced by knowledge of allocation.",
+        "evidence_quote": "\"Follow-up was done after 2 and 4 weeks clinically and by tympanometry and audiometry.\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Although a computer-generated random number sequence was used, allocation concealment is never described (and the digit-based rule could be foreseeable if applied at enrolment), and there is a large baseline imbalance in age (~1.6 years with SDs ~1.7 in groups of 84, which would be highly statistically significant and is not tested or discussed) in a condition where age strongly predicts spontaneous resolution, suggesting a problem with the randomization process.",
+        "evidence_quote": "\"A computer-generated table of random numbers was used for group assignment; if the last digit of the random number was from 0 to 4, assignment was to the 1st group (study group), and if the last digit was from 5 to 9, assignment was to the 2nd group (control group).\" ... \"The mean age of the 1st group was 4.28 1.74, while the mean age in the 2nd group was 5.91 1.62.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, multiple outcome operationalizations exist (right vs left ear, tympanogram type vs air\u2013bone gap, 2-week vs 4-week timepoints) with p-values reported for only some comparisons and apparently transposed/inconsistent between text and tables, indicating a high risk of selective reporting of results.",
+        "evidence_quote": "\"The diference was statistically significant (p = 0.0001) (Table 2).\" ... \"The diference was statistically significant (p = 0.006) (Table 3).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 1 (no allocation concealment described plus a substantial, untested baseline age imbalance between arms in a condition where age predicts spontaneous resolution) and Domain 5 (no registration/protocol, selective and internally inconsistent reporting of p-values across ears, timepoints and outcome measures). Additional some_concerns arise from the open-label design without a placebo spray, unblinded outcome assessment, and absent participant flow information."
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with chronic kidney disease not requiring dialysis, what is the effect of statin therapy (HMG-CoA reductase inhibitors) versus placebo or no statin treatment, with co-interventions given equally to both arms, on end-of-treatment urinary protein excretion?",
+  "treatment_label": "Statin therapy (e.g., pravastatin, atorvastatin, rosuvastatin, fluvastatin, lovastatin, cerivastatin, or simvastatin) in adults with non-dialysis chronic kidney disease",
+  "control_label": "Placebo or no statin treatment, with all other treatments applied equally between arms",
+  "outcome_description": "Proteinuria at the end of the randomized treatment period, measured as 24-hour urinary protein excretion or, only when it is the study's sole measure of urinary protein loss, 24-hour urinary albumin excretion. Extract the final end-of-treatment mean, SD, and analyzed participant count for each eligible arm. Use the last on-treatment assessment before any washout, crossover, or withdrawal phase; do not use baseline or change-from-baseline values. Standardize values to g/24 h (including mg/24 h or mg/day divided by 1000), while recording original units and conversions. Convert SE/SEM to SD using SD = SE \u00d7 square root of n after checking table footnotes and methods; eligible figure-only data may be digitized, with error bars interpreted and converted appropriately. For duplicate or companion reports, retain one trial-level dataset from the report containing the full randomized sample. In multi-arm studies, include only eligible CKD statin and placebo/no-statin arms. Do not analyze kidney function, lipids, cardiovascular events, mortality, adverse events, or urinary podocytes.",
+  "positive_direction": "For directionally harmonized standardized effects, a positive Hedges g would mean less end-of-treatment proteinuria with statin therapy than with placebo or no statin and therefore favor statin; for the user-specified raw mean difference in g/24 h, however, a negative MD means less proteinuria and favors statin.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "statin chronic kidney disease proteinuria randomized trial",
+    "HMG-CoA reductase inhibitor urinary protein excretion placebo controlled",
+    "pravastatin atorvastatin rosuvastatin simvastatin CKD albuminuria trial"
+  ],
+  "inclusion_criteria": [
+    "Original empirical comparative studies of adults with chronic kidney disease not requiring dialysis that evaluate a statin against placebo or no statin, with other treatments provided equally across eligible arms.",
+    "Studies reporting end-of-treatment 24-hour urinary protein excretion, or 24-hour urinary albumin excretion when it is the only urinary protein-loss measure, with quantitative information potentially usable to calculate an effect size.",
+    "Any eligible statin, CKD cause, treatment duration, publication status, language, or setting, including multi-arm studies when the relevant CKD statin and placebo/no-statin arms can be isolated."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between an eligible statin treatment and a placebo or no-statin control condition; this includes statin-versus-statin and statin-versus-other-active-drug comparisons without an eligible control.",
+    "No quantitative end-of-treatment outcome data capable of producing an effect size (e.g., arm means with SD/SE, suitable t/F statistics, proportions, or odds ratios), after reasonable derivation or figure extraction.",
+    "Completely unrelated to the research topic, or involving only dialysis recipients, kidney-transplant recipients, non-CKD participants, ineligible urinary outcomes, or outcomes other than proteinuria/albuminuria without separately extractable eligible CKD data."
+  ],
+  "moderators_to_extract": [
+    "Specific statin and dose/intensity",
+    "Underlying CKD etiology and clinical population (e.g., diabetic versus non-diabetic CKD)",
+    "Baseline proteinuria or albuminuria level",
+    "Treatment duration and timing of the final on-treatment assessment",
+    "Control type (placebo versus no statin)",
+    "Concomitant renin-angiotensin-system blockade or other equally applied kidney-protective therapy"
+  ],
+  "search_start_year": 1976,
+  "effect_size_note": "Pool the raw mean difference (statin minus control) in end-of-treatment urinary protein excretion, expressed in g/24 h, using a random-effects model. Thus MD < 0 indicates lower proteinuria and favors statin. Use final values only, not baseline values or change scores. Prefer 24-hour total urinary protein; use 24-hour urinary albumin only if it is the study's sole urinary protein-loss measure. Convert mg/24 h or mg/day to g/24 h by dividing by 1000 and document original units and conversion. Convert arm-level SE/SEM to SD as SD = SE \u00d7 sqrt(n), after verifying whether reported \u00b1 values or figure error bars are SD or SEM. Digitize eligible final means and error bars from figures if necessary. Use the last on-treatment timepoint before washout, crossover, or withdrawal. Avoid double-counting multiple reports by linking reports at the trial level and extracting once from the report with the full randomized sample. For multi-arm trials, include only eligible CKD statin and placebo/no-statin arms and handle any shared control without double-counting if more than one eligible statin arm is retained. Assess heterogeneity with tau-squared and I-squared, report the pooled MD with 95% CI and prediction interval when estimable, inspect influence/outliers, and conduct sensitivity analyses for albumin-versus-total-protein measurement, figure-derived data, and high risk of bias. Assess risk of bias using an appropriate randomized-trial tool where applicable and assess small-study effects with funnel plots and regression tests only when enough studies are available.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "proteinuria"
+}

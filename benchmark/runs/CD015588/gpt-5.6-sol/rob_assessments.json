@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:b24710b2",
+    "paper_title": "e56afc9a_1-s2.0-S0085253815562741-main",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that patients were randomized in a double-blind manner to placebo, dapagliflozin 5 mg, or dapagliflozin 10 mg, with stratification by pre-enrollment antihyperglycemic therapy.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment and stratification are reported and baseline characteristics were generally balanced, but the sequence-generation method and allocation-concealment mechanism are not described.",
+        "evidence_quote": "On day 1, patients were randomized in a double-blind manner to either placebo, dapagliflozin 5-mg, or dapagliflozin 10-mg daily... Randomization was stratified based on pre-enrollment antihyperglycemic therapy."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding and protocolized rescue therapy reduce concern, but rescue medication and insulin adjustments could represent post-randomization deviations, and the primary analysis excluded post-rescue data and used LOCF rather than a clearly stated intention-to-treat estimand.",
+        "evidence_quote": "For patients with no week 24 measurement or rescue before week 24, the last available post-baseline measurement (last observation carried forward) before rescue and before week 24 was used."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The week-24 primary endpoint included nearly all randomized patients through LOCF, but completion was differential across groups and the imputation may not remove bias if discontinuation was outcome-related.",
+        "evidence_quote": "The short-term completion rate was lower for placebo (73.8%) than for dapagliflozin 5-mg (86.7%) and 10-mg (81.2%) groups, the main difference being higher rate of discontinuations for adverse events for placebo during the first 24 weeks than for dapagliflozin."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, HbA1c, is an objective and appropriate laboratory measure assessed consistently by a central laboratory, while double blinding limits influence from knowledge of allocation.",
+        "evidence_quote": "A central laboratory evaluated the assays for the efficacy and safety outcomes, using high-performance liquid chromatography for HbA1c."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the primary endpoint and main analysis are explicitly identified, but the supplied report does not establish a prospectively finalized analysis plan and reports several eligible sensitivity, repeated-measures, rescue-excluded, and rescue-included analyses.",
+        "evidence_quote": "Several sensitivity analyses (completers, longitudinal repeated-measure analysis with or without data after rescue) were performed."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by absent details on sequence generation and allocation concealment, differential attrition handled with LOCF, exclusion of post-rescue observations, and incomplete assurance against selective analysis reporting. Outcome measurement itself was objective, centralized, and unlikely to be biased."
+  },
+  {
+    "paper_id": "manual:b99c0bc3",
+    "paper_title": "b390b74f_dom.13413",
+    "design_classification": "randomized",
+    "design_rationale": "This was explicitly described as a randomized, double-blind, two-arm placebo-controlled trial with 1:1 assignment through an IVRS/IWRS.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Central IVRS/IWRS assignment likely concealed allocation, but the method used to generate the random sequence is not reported and there was a potentially meaningful baseline HbA1c imbalance (8.33% versus 8.03%).",
+        "evidence_quote": "Eligible patients were assigned a unique randomization code using an interactive voice response system (IVRS) or interactive web response system (IWRS)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blinding and matching placebo reduced the likelihood of behavior-related deviations, but the full analysis set excluded randomized participants without requisite measurements and the primary estimand censored observations after rescue medication or treatment discontinuation rather than using all randomized follow-up under assignment.",
+        "evidence_quote": "The primary analysis included measurements before rescue medication or discontinuation of double-blind study medication."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Week-24 HbA1c measurements were available for 142/160 and 134/161 randomized participants, and the MMRM relied on an unverified missing-at-random assumption, although retention was high and sensitivity analyses were reportedly conducted.",
+        "evidence_quote": "The primary efficacy analysis (change from baseline in HbA1c at Week 24) was based on a mixed effects model with repeated measures (MMRM) using 'direct likelihood', which assumed missing data were missing at random."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "HbA1c is an objective laboratory outcome measured on the same schedule in both groups, and double-blinding with matching placebo makes differential measurement unlikely.",
+        "evidence_quote": "This was a randomized, double-blind, two-arm, parallel group, placebo-controlled, multinational, Phase 3 study."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, identified a single primary outcome and time point, described a prespecified MMRM and multiplicity procedure, and reported sensitivity analyses, leaving little indication of selective reporting despite the protocol not being reproduced in the supplied text.",
+        "evidence_quote": "This study is registered on ClinicalTrials.gov (NCT02413398). The study protocol is available online: http://astrazenecagrouptrials.pharmacm.com."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incomplete reporting of sequence generation, analysis that excluded or censored some post-randomization observations, and reliance on a missing-at-random assumption with modestly differential Week-24 outcome availability. Objective outcome measurement and prospective specification reduce concerns in the remaining domains."
+  },
+  {
+    "paper_id": "manual:60ad7ccf",
+    "paper_title": "d2a5f6fb_j.ajkd.2019.03.417",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports 1:1 random assignment to bexagliflozin or placebo, stratified by prespecified factors, using a central interactive web response system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A centrally implemented, stratified 1:1 randomization process with allocation codes held by an independent statistician supports sequence generation and concealment, and reported baseline characteristics were generally balanced.",
+        "evidence_quote": "Randomization and study drug allocation were performed through a central interactive web response system... Allocation codes were maintained by a designated statistician not involved in study operations."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, investigators, and the sponsor were blinded; rescue therapy was protocol-defined and the effectiveness analysis followed intention-to-treat principles, with a prespecified approach to post-rescue HbA1c values.",
+        "evidence_quote": "Investigators, patients, and the sponsor team remained blinded to allocation groups for the duration of the trial... Effectiveness analyses were performed in an intention-to-treat manner."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Week-24 primary-outcome data were available for nearly all randomized participants (152/157 and 149/155), with similarly low attrition between groups and a repeated-measures model using available observations.",
+        "evidence_quote": "Study Week Number of Participants Placebo 155 154 150 149 Bexagliflozin 157 154 153 152"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, laboratory-measured HbA1c, is objective and appropriate, and double blinding plus centralized laboratory processing makes differential measurement unlikely.",
+        "evidence_quote": "The primary end point was change in percent HbA1c level from baseline to week 24... Samples for laboratory testing were processed at regional central facilities."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and analysis are clearly specified and the trial was prospectively registered, but the protocol and statistical analysis plan were unavailable for verification and multiple outcomes and analytic choices, including rescue-medication handling, leave some potential for selective reporting.",
+        "evidence_quote": "The trial was registered with ClinicalTrials.gov (NCT02836873)... Other supporting documents (study protocol, statistical analysis plan, informed consent form, clinical study report, and analytic code) will not be available."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial had robust centralized randomization, allocation concealment, double blinding, minimal and balanced missing outcome data, and objective outcome measurement. Overall risk is some concerns because the unavailable protocol and statistical analysis plan prevent full verification that reported outcomes and analyses were selected without bias."
+  },
+  {
+    "paper_id": "manual:d15ef230",
+    "paper_title": "64c163af_NEJMoa1811744",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:1 using randomly permuted blocks, stratified by screening estimated-GFR category, to canagliflozin or matching placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was explicitly random and baseline characteristics were similar, but the report does not state how the allocation sequence was concealed until assignment.",
+        "evidence_quote": "The patients were randomly assigned in a double-blind fashion (1:1) to receive either canagliflozin (100 mg orally once daily) or matching placebo with the use of randomly permuted blocks, with stratification according to the category of estimated GFR"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and trial personnel were blinded with matching placebo, and the primary and secondary efficacy outcomes were analyzed in the intention-to-treat population despite treatment discontinuation.",
+        "evidence_quote": "In the intention-to-treat population, we used a stratified Cox proportional-hazards model to analyze the primary and secondary outcomes"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was nearly complete, vital status was known for 99.9%, and sensitivity analysis imputing missing data produced essentially identical results.",
+        "evidence_quote": "A total of 4361 patients (99.1%) were either alive with follow-up at the end of the trial or had died before the final follow-up visit. Consent was withdrawn by 16 patients (0.4%), and vital status was ascertained for all but 6 patients (4395 [99.9%])."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary renal and cardiovascular outcomes were objectively defined, measured consistently using central laboratory assessment where applicable, and adjudicated by independent committees blinded to assignment.",
+        "evidence_quote": "All renal and cardiovascular outcomes that were part of the primary and secondary outcomes, as well as key safety outcomes ... were adjudicated by independent adjudication committees whose members were unaware of trial-group assignments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary outcome, hierarchically ordered secondary outcomes, interim analysis, stopping criteria, and statistical methods were prespecified in a registered trial protocol, and the reported analyses follow that plan.",
+        "evidence_quote": "Secondary outcomes that were planned for sequential hierarchical testing were specified in the following order"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the absence of explicit information about allocation concealment. Blinding, intention-to-treat analysis, near-complete follow-up, blinded objective outcome adjudication, and prespecified outcomes and analyses otherwise support low risk."
+  },
+  {
+    "paper_id": "manual:0db1b408",
+    "paper_title": "2df9522c_NEJMoa2024816",
+    "design_classification": "randomized",
+    "design_rationale": "This was explicitly described as a randomized, double-blind, placebo-controlled trial, with assignment according to a sequestered fixed-randomization schedule using balanced blocks and an interactive voice- or Web-response system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The sequence used balanced blocks and stratification, allocation was implemented through a sequestered schedule and centralized interactive response system, and reported baseline characteristics were balanced between groups.",
+        "evidence_quote": "Participants were randomly assigned to receive dapagliflozin (10 mg once daily) or matching placebo, in accordance with the sequestered, fixed-randomization schedule, with the use of balanced blocks to ensure an approximate 1:1 ratio of the two regimens."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and trial personnel were blinded with identically packaged treatments, discontinuation was similar between groups, and the primary efficacy analysis used the intention-to-treat population including all randomized participants.",
+        "evidence_quote": "Participants and all trial personnel (except the members of the independent data monitoring committee) were unaware of the trial-group assignments. Dapagliflozin and placebo were packaged identically, with uniform tablet appearance, labeling, and administration schedules."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was nearly complete, with 99.7% completing the trial, only 0.3% withdrawing consent, and vital status missing for only 0.1%.",
+        "evidence_quote": "In all, 4289 participants (99.7%) completed the trial (i.e., were alive with follow-up data available at the trial completion visit or had died during follow-up). A total of 11 participants (0.3%) withdrew consent, and vital status was ascertained for all but 5 participants (0.1%)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary composite used objective clinical and laboratory criteria applied consistently, with blinded independent adjudication or central laboratory ascertainment.",
+        "evidence_quote": "An independent committee whose members were unaware of the trial-group assignments adjudicated all primary and secondary outcomes, except for a sustained decline in the estimated GFR of at least 50% and a sustained estimated GFR of less than 15 ml per minute per 1.73 m2, which were ascertained from central laboratory measurements."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered, its protocol and complete prespecified statistical analysis plan were available, and primary and secondary outcomes were analyzed under a prespecified hierarchy controlling type I error; the documented protocol change concerned removal of an interim analysis rather than selective outcome reporting.",
+        "evidence_quote": "The analytical approach and power calculations have been published previously, and the complete prespecified statistical analysis plan is available with the protocol at NEJM.org."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias is low. Randomization and concealment were robust, blinding and objective outcome ascertainment minimized deviations and measurement bias, follow-up was nearly complete, and analyses and outcome reporting followed a prespecified plan."
+  },
+  {
+    "paper_id": "manual:7bba7938",
+    "paper_title": "75e428d0_NEJMoa2204233",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, parallel-group trial; participants were assigned to empagliflozin or matching placebo using minimization with a 10% stochastic element.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence used a randomized minimization procedure and baseline characteristics were well balanced, but the report does not explicitly describe allocation concealment until assignment.",
+        "evidence_quote": "Randomization was performed with the use of a minimization process with a 10% stochastic element."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The double-blind, matching-placebo design limited awareness-related deviations, adherence and crossover were reported, and all randomized participants were analyzed according to intention to treat.",
+        "evidence_quote": "All the analyses were performed according to the intention-to-treat principle and included data from all patients who had undergone randomization."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was nearly complete, with 99.1% completing final follow-up or dying during follow-up and only 0.3% missing vital status plus 0.6% withdrawing consent.",
+        "evidence_quote": "In total, 6552 patients (99.1%) were alive and completed final follow-up or had died during followup. Vital status was missing for 18 patients (0.3%), and 39 patients (0.6%) withdrew consent."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary outcome used objective clinical events and laboratory thresholds assessed consistently, while relevant clinical events were adjudicated by clinicians blinded to treatment assignment.",
+        "evidence_quote": "All events of death, potential hospitalizations for heart failure, myocardial infarction, stroke, liver injury, ketoacidosis, lower-limb amputation, acute kidney injury, and serious genital infections were adjudicated by clinicians who were unaware of trial-group assignments, with the use of prespecified definitions and source documents collected from trial sites."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary and secondary outcomes, subgroup analyses, interim stopping rules, statistical models, and multiplicity adjustment were prespecified in a publicly available protocol and statistical analysis plan, reducing scope for selective reporting.",
+        "evidence_quote": "The protocol and the full statistical analysis plan are available at www.empakidney.org."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns because allocation concealment was not explicitly described, although randomized stochastic minimization, balanced baseline groups, double blinding, intention-to-treat analysis, nearly complete follow-up, blinded outcome adjudication, and prespecified analyses otherwise indicate low risk."
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of probiotics, compared with placebo, on the incidence of grade 2 or higher diarrhoea in people with cancer receiving radiotherapy (with or without chemotherapy)?",
+  "treatment_label": "Probiotics",
+  "control_label": "Placebo",
+  "outcome_description": "Incidence of grade 2 or higher radiation-induced diarrhoea",
+  "positive_direction": "A positive effect size indicates a higher incidence of grade 2 or higher diarrhoea in the probiotic group compared to placebo, whereas a negative effect size indicates a lower incidence of diarrhoea (favouring probiotics).",
+  "search_queries": [
+    "probiotics cancer radiotherapy diarrhea randomized controlled trial",
+    "probiotic pelvic radiation chemotherapy diarrhea clinical trial",
+    "probiotics radiation induced diarrhea cancer placebo trial"
+  ],
+  "inclusion_criteria": [
+    "Patients with cancer undergoing radiotherapy with or without concurrent chemotherapy",
+    "Evaluation of probiotic supplementation compared against a placebo or control condition",
+    "Quantitative assessment of diarrhea incidence, severity, or grade"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (e.g., systematic reviews, meta-analyses, narrative reviews, study protocols, editorials, and commentary pieces)",
+    "No comparison between a probiotic treatment group and a placebo or control group",
+    "No quantitative outcome data reported that can produce an effect size (such as incidence counts, proportions, odds ratios, or risk ratios for diarrhoea)",
+    "Completely unrelated to cancer radiotherapy or probiotic interventions"
+  ],
+  "moderators_to_extract": [
+    "Concomitant chemotherapy status (radiotherapy alone vs. concurrent chemoradiotherapy)",
+    "Cancer primary site/tumour location (e.g., pelvic, cervical, prostate, colorectal)",
+    "Probiotic formulation (single-strain vs. multi-strain / bacterial species)",
+    "Probiotic daily dosage and duration of administration",
+    "Grading criteria used for diarrhoea assessment (e.g., CTCAE, WHO, RTOG)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "grade 2 or higher diarrhoea"
+}

@@ -1,0 +1,646 @@
+[
+  {
+    "paper_id": "manual:7b71d62f",
+    "paper_title": "0187af19_AOG.0000000000000604",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"The research nurse performed central telephone randomization with sequentially numbered, opaque, sealed envelopes. Randomization was performed in a two-to-one (adjustable single-incision sling:transobturator sling) design,\" in a registered single-blinded multicenter RCT (NTR 2558).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment appears adequate (central telephone randomization with sequentially numbered opaque sealed envelopes) and baseline characteristics were balanced, but the method of generating the random sequence (e.g., computer-generated list, stratification/blocking by centre) is never described, leaving some uncertainty; the reported baseline table is also sparse (no BMI, parity, menopausal status).",
+        "evidence_quote": "\"The research nurse performed central telephone randomization with sequentially numbered, opaque, sealed envelopes. Randomization was performed in a two-to-one (adjustable single-incision sling:transobturator sling) design.\" ... \"No statistically significant differences in baseline characteristics between groups were found.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were effectively blinded (sham groin incisions, concealed allocation until 6 weeks) and analysis was intention-to-treat with a strict protocolised analgesia regimen, but surgeons and ward staff were necessarily unblinded (a learning-curve/technical-difficulty issue arose with the new device, with two intraoperative sling replacements and three cross-overs), which could have influenced peri-operative care affecting pain.",
+        "evidence_quote": "\"Three women, originally assigned to an adjustable single-incision sling, mistakenly received a transobturator sling but were analyzed according to the intention-to-treat principle.\" ... \"Blinding of women was secured by not informing them on the randomization result before the procedure until 6 weeks postoperatively and by the additional use of two small (2-mm) sham 'incisions' in the groin\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Follow-up for the primary pain outcome and 12-month cure was high (~94\u201396%) and balanced between arms, but nine randomized women (8 pre-treatment withdrawals plus 1 exclusion) were dropped from the denominator despite the stated ITT approach, the objective cure denominators are notably smaller (87/44), and no sensitivity analysis for missingness is reported.",
+        "evidence_quote": "\"Early in the study, eight women, four in the adjustable single-incision sling group and four in the transobturator sling group, refrained from surgery shortly after randomization. One woman in the transobturator sling group erroneously received two randomization numbers and was excluded.\" ... \"95.8% (92/96) of the adjustable single-incision sling group and 94.1% (48/51) of the transobturator sling group attended the 12-month follow-up visit\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The VAS is an appropriate, self-reported outcome collected from blinded patients by independent assessors, but the authors acknowledge subjective/variable timing of the early VAS measurements, and because weekly VAS self-reports continued to 6 weeks while unblinding occurred at 6 weeks, plus outcome assessors' blinding is not explicitly stated, some measurement concern remains.",
+        "evidence_quote": "\"the timing at which the first score on a visual analog scale was obtained after surgery with spinal analgesia was somewhat subjective. This may have affected the proper timing to perform the 1- and 2-hour postsurgery scores on a visual analog scale.\" ... \"An independent research nurse or physician performed all trial assessments\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary outcome and a priori sample size, and multiplicity was corrected, but the sample size was changed mid-study, the primary outcome was powered for the 24-hour score yet reported at 12 time points, and the pre-specified protocol/registry outcomes were not directly verifiable against the many secondary analyses presented (including post hoc subgroups such as de novo dyspareunia).",
+        "evidence_quote": "\"registered in the Dutch trial register (http://www.trialregister.nl NTR: 2558)\" ... \"As a result of this unexpected pretreatment dropout early in the inclusion phase, we decided to expand our inclusion to 156 women\" ... \"Bonferroni correction was used to correct overestimation in multiple testing.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered, multicentre, single-blinded 2:1 RCT has notable strengths (concealed central randomization, sham groin incisions to blind patients, ITT analysis, ~95% follow-up, validated instruments, independent assessors), but no domain reaches clearly low risk: the random sequence generation method is unreported, surgeons were unblinded amid an acknowledged learning curve with cross-overs, nine randomized women were excluded from the ITT denominator, early VAS timing was admittedly subjective, and the sample size was altered mid-trial with many reported time points/secondary outcomes. The overall judgment is therefore 'some concerns', driven by these cumulative reporting and measurement uncertainties rather than any single critical flaw."
+  },
+  {
+    "paper_id": "manual:2ed192cd",
+    "paper_title": "8dcede5e_ijcem0049755",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective randomized controlled trial in which consecutive eligible patients were allocated to Needleless vs TOT surgery by random selection of opaque labelled envelopes drawn by a non-surgical lab assistant.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation used opaque envelopes drawn by non-surgical staff and baseline characteristics were well balanced (all P>0.05), but the sequence-generation method is not described, envelopes were not stated to be sealed/sequentially numbered, and the enrollment numbers are inconsistently reported (179 enrolled vs 164 \"randomized\"), leaving concealment uncertain.",
+        "evidence_quote": "\"group assignments were made and the surgical methods were selected via random selection of opaque labelingenvelope by lab assistant (a total of 200 envelopes, 100 for group A, 100 for group B...)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "This was an unavoidably open-label surgical trial in which patients, surgeons and care providers knew the assigned procedure, and protocolised differences in co-interventions (catheter indwelling 2 days in TOT vs 1 day in Needleless) could influence subjective pain and length-of-stay outcomes; no intention-to-treat analysis is described, as 15 patients were simply excluded.",
+        "evidence_quote": "\"patients and their families were informed of surgical methods and related surgical risks before operation and signed the consent of the surgery; and the surgeon was informed of the surgical approach at the beginning of surgery.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 8% of enrolled participants were lost to follow-up and excluded from all analyses, with no breakdown by group, no reasons given, and no sensitivity analysis, so bias from missingness cannot be excluded.",
+        "evidence_quote": "\"Among 179 cases of patients enrolled, 15 cases were lost to follow up. Therefore, 164 cases of patients were enrolled in this research actually.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Key outcomes (VAS pain, PGI-I, ICIQ-SF) are subjective and self-reported by patients who knew which operation they received, no blinding of patients or outcome assessors is reported, and the principal claimed benefits (pain, subjective cure) are precisely those most susceptible to such knowledge.",
+        "evidence_quote": "\"the main index was Patient Global Impression of Improvement (PGI-I), 1 h-pad test and ICIQ-SF scores, secondaryindex included pain scores in VAS of groin and femoribus internus\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although primary and secondary outcomes are specified in the text, no trial registration or pre-specified analysis plan is cited, no sample-size calculation is given, and many outcomes across multiple time points are reported, so selective reporting cannot be ruled out.",
+        "evidence_quote": "\"Main outcome measurements included operating time, intraoperative hemorrhage volume and visual analog scale (VAS) pain scores at 24 h after operation; secondary outcome measurements included residual urine volume, length of stay...\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by unblinded patient-reported primary outcomes (VAS pain, PGI-I, ICIQ-SF) in an open-label surgical trial where patients and surgeons knew the allocation. Additional concerns include incompletely described sequence generation/concealment, 15 participants lost to follow-up and excluded without group detail or ITT analysis, and absence of a registered protocol or sample-size calculation."
+  },
+  {
+    "paper_id": "manual:802f5eb2",
+    "paper_title": "7018aa20_j.ajog.2015.01.040",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a pragmatic RCT in which 225 women were allocated 1:1 by computer-generated random allocation with concealment, stratified by centre (\"Women were randomized, in a 1:1 ratio, to receive either MiniArc or Monarc. Computer-generated random allocation was concealed and stratified by center.\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated random sequence with concealed allocation stratified by centre, and baseline characteristics were balanced across arms apart from one marginal difference (PGI-S, P=.04) consistent with chance given many comparisons.",
+        "evidence_quote": "\"Women were randomized, in a 1:1 ratio, to receive either MiniArc or Monarc. Computer-generated random allocation was concealed and stratified by center.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Neither patients nor surgeons were blinded (unavoidable for differing surgical approaches), and although co-interventions (anaesthesia, analgesia protocol, voiding assessment, cystoscopy) were standardized, the report does not clearly state an intention-to-treat analysis and analyses appear based on available cases rather than all randomized participants.",
+        "evidence_quote": "\"Participants and clinicians were not masked to treatment allocation.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Objective cure at 12 months was available for only ~89/112 and 90/113 participants (about 20% missing, partly because urodynamics/cough stress testing was declined), though a worst-case sensitivity analysis assuming all missing were failures gave similar between-arm results, mitigating but not eliminating concern.",
+        "evidence_quote": "\"Assuming all missing data were failures, similar subjective and objective cure rates were observed between the 2 treatment arms at 6 or 12 months\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures were validated and applied equally, but assessors were not blinded to allocation and the authors acknowledge the cough stress test was non-standardized (variable bladder volumes), creating potential for assessor-influenced measurement of the primary objective outcome.",
+        "evidence_quote": "\"We acknowledge the limitations of a nonstandardized cough stress test as the objective outcomes... although they were not blinded to the treatment allocation.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (ACTRN12608000624381) with a pre-specified primary outcome (12-month objective cure), a priori power calculation, and all pre-specified secondary outcomes and time points appear reported per CONSORT.",
+        "evidence_quote": "\"the trial was registered with the Australian New Zealand Clinical Trials Registry (ACTRN12608000624381)... Primary outcome at 12 months was objective cure.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and reporting were robust (concealed computer-generated allocation, prospective registration, pre-specified primary outcome), but the trial was unblinded for participants, surgeons and outcome assessors, used a non-standardized cough stress test, and had roughly 20% missing objective outcome data at 12 months without a clearly stated intention-to-treat analysis. These issues yield \"some concerns\" overall, partially mitigated by a worst-case sensitivity analysis and validated patient-reported measures."
+  },
+  {
+    "paper_id": "manual:b226fdcb",
+    "paper_title": "c6938436_j.ejogrb.2012.06.022",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"Randomisation was stratified by centre using number-allocation software: allocation to each group was performed via telephone randomisation,\" with 137 women randomised to SIMS-Ajust (n=69) or TVT-O (n=68) in a multicentre prospective RCT registered on clinicaltrials.gov.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Sequence was computer-generated and stratified by centre with central (telephone) allocation, giving adequate concealment, and the modest baseline differences (e.g., age 49.4 vs 52.6 years; MUI 17.6% vs 8.7%) are of the magnitude expected by chance in a trial of 137 participants.",
+        "evidence_quote": "\"Randomisation was stratified by centre using numberallocation software: allocation to each group was performed via telephone randomisation.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and surgeons were necessarily unblinded, and the two arms differed systematically in a powerful co-intervention (local vs general anaesthesia) that is itself strongly related to the primary pain outcome; moreover 30% of the Ajust arm opted out of LA to GA, so the intended intervention package was not uniformly delivered, although all women received their assigned sling and an intention-to-treat analysis with a standardised postoperative analgesia protocol was used.",
+        "evidence_quote": "\"Blinding of women was not possible as only the Ajust procedure (study arm) was done under LA... Seventy per cent of women in the Ajust group underwent the procedure under LA (n = 48/69).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were essentially complete: all 137 randomised women received their allocated procedure and attended 4\u20136 month follow-up, with 97.1% returning valid questionnaires and only trivial missing items (e.g., one missing blood-loss value).",
+        "evidence_quote": "\"All women received their assigned procedure and were available for their 4\u20136 months follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome is a subjective self-reported VAS pain score (plus self-reported PGI-I success and recovery times) collected from women who unavoidably knew both their procedure and their anaesthetic type, so outcome assessment could readily be influenced by knowledge of the intervention; blinding of the follow-up researcher does not mitigate bias in a participant-reported outcome, and part of the data were gathered by telephone interview.",
+        "evidence_quote": "\"Blinding of women was not possible as only the Ajust procedure (study arm) was done under LA... The primary outcome measure was the postoperative pain profile assessed using a 10-point visual analogue scale (VAS; 0\u201310).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with an a priori primary outcome, power calculation and Bonferroni-corrected analysis, but no analysis plan is available for verification, the primary pain outcome was reported at five rather than the four pre-specified time points plus a composite \"total pain profile\", and numerous secondary outcomes and an apparently post hoc LA-versus-GA subgroup analysis are reported, with industry consultancy/preceptorship conflicts declared.",
+        "evidence_quote": "\"the protocol was registered on the public domain (www.clinicaltrials.gov) in October 2009\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Randomisation and follow-up were strong (central computer-generated, centre-stratified allocation; 100% retention at 4\u20136 months; ITT analysis), but the trial is at high risk of bias for its primary outcome because the self-reported VAS pain score was measured in fully unblinded participants whose arms differed by anaesthetic technique (LA for Ajust vs GA for TVT-O), confounding the intervention effect with a co-intervention directly affecting pain. Residual concerns about non-uniform delivery of the intended intervention (30% of Ajust patients opted for GA) and about multiple outcomes/subgroup analyses without an inspectable analysis plan reinforce this judgment."
+  },
+  {
+    "paper_id": "manual:45cbd3c8",
+    "paper_title": "696f8707_j.ejogrb.2018.09.032",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports computer-generated block randomisation with concealed allocation of 246 women to MiniArc or TVT Abbrevo, with trial registration (ACTRN12611001151921) and CONSORT reporting.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated block randomisation with concealed allocation was used and baseline characteristics were balanced across the 30+ variables reported (two nominally significant differences, ICIQ OAB p=0.04 and ALPP p=0.03, are consistent with chance given the number of comparisons).",
+        "evidence_quote": "Randomisation was achieved using computer-generated blocks of 4\u20138, with concealed allocation."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and patients were unblinded, and a mid-trial device/technique change (3 patients received the newly introduced \"Miniarc Pro\" tensioning device, which the surgeon felt gave inadequate tension and accounted for 2 of the MiniArc failures) represents a deviation arising from the trial context; analysis was stated to be intention-to-treat, which mitigates but does not remove the concern.",
+        "evidence_quote": "Surgeons or patients were not blinded once allocation was revealed. ... Two of these occurred in the 3 patients who underwent the Miniarc pro sling. This was a newly introduced tensioning device which was commercially introduced during the study period."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Of 246 randomised, outcomes are reported for only 90 vs 93 at 12 months (~26% attrition), and the confounder-adjusted analyses are based on as few as 103\u2013131 participants, i.e. well under half the randomised sample; although baseline characteristics of 12-month completers were balanced, no sensitivity/imputation analysis addresses whether cure rates (which are outcome-dependent, as failures sought repeat surgery or withdrew) were biased by missingness, so the stated intention-to-treat analysis was not in fact achieved.",
+        "evidence_quote": "Obj Cure 6 months (n = 103) ... Another woman who was randomized to TVT Abbrevo did not have improvement of her symptoms after surgery and developed severe de novo urgency. She withdrew from the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary objective outcome (cough stress test) was assessed by a clinician reported to be unaware of the sling used and by a different team member than the operating surgeon, but the authors acknowledge the stress test was non-standardised, and subjective/PRO outcomes came from unblinded patients who knew which procedure they received (groin pain differences would readily unblind them).",
+        "evidence_quote": "We acknowledge that a non-standardized cough stress test as the objective outcome may be a limitation. The clinician performing the post-operative assessments was not aware of the sling used..."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ACTRN12611001151921) with a pre-specified primary outcome (objective cure at 6 months) and sample size, but no protocol is provided for verification, the pre-specified one-sided alpha/non-inferiority framing in the abstract differs from the two-sided alpha described in the Methods, the achieved sample (246) and attrition allowance differ between abstract (15%) and Methods (25%), and multiple subgroup presentations (\"sling only\" vs \"all\", 6 and 12 months) are reported without correction.",
+        "evidence_quote": "The primary outcome at 6 months was objective cure. Secondary outcomes were subjective cure, failure rate, reoperation rate, and changes in ICIQ UI SF, ICIQ OAB, IIQ7, PISQ-12, and PGII."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was properly randomised and concealed with balanced baseline characteristics and a blinded outcome assessor, the overall risk is high because of substantial and outcome-related missing data: only 90/121 and 93/125 participants contributed 12-month data (~26% attrition) and adjusted analyses used as few as 103 participants, with no sensitivity analysis despite the stated intention-to-treat approach. Additional some-concerns arise from unblinded surgeons/patients with a mid-trial device change (Miniarc Pro), a non-standardised cough stress test, and incompletely verifiable pre-specification of analyses."
+  },
+  {
+    "paper_id": "manual:f1e2742a",
+    "paper_title": "3bfeb123_j.eururo.2014.07.027",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a prospective multicentre randomized controlled trial in which \"Patients were randomly allocated in a 1:1 ratio to either a MiniArc or Monarc procedure, stratified by center and in blocks of different size (ie, four or six).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Neither patients nor surgeons/assessors were blinded, which is relevant for self-reported pain and global impression outcomes, and two patients received the wrong (swapped) procedure; however, analysis was by intention to treat and the deviations were minimal and unlikely to have arisen from the trial context in a systematic way.",
+        "evidence_quote": "\"In the Monarc group, one patient underwent MiniArc and vice versa, as the surgeon had understood that was the allocated intervention.\" / \"In this study, neither patients nor assessors were blinded to the treatment.\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Randomization was 1:1 with center stratification and variable block sizes (four or six), baseline characteristics were well balanced (only a non-significant difference in postmenopausal status), and the trial was registered and externally monitored/audited; allocation-concealment mechanism is not explicitly described but variable block sizes and external monitoring make concealment plausible.",
+        "evidence_quote": "\"Patients were randomly allocated in a 1:1 ratio to either a MiniArc or Monarc procedure, stratified by center and in blocks of different size (ie, four or six).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 86/97 and 87/96 participants at 12 months (~10% attrition, as anticipated in the sample-size calculation), balanced across arms and consistent with the CONSORT flow diagram, making bias from missingness unlikely.",
+        "evidence_quote": "\"Anticipating an attrition rate of 10% of patients who would not be evaluable at the primary midterm end point at 12 mo, we planned to include 192 patients in this trial.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures were validated and applied identically (PGI-I, VAS, cough stress test), but the primary subjective cure and co-primary self-reported pain outcomes were collected from unblinded patients and assessed by unblinded assessors, which could influence these subjective outcomes.",
+        "evidence_quote": "\"In this study, neither patients nor assessors were blinded to the treatment... Hence, it was decided not to blind patients and assessors.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NTR3783) with pre-specified primary/co-primary outcomes, non-inferiority margin and sample size, but the protocol/analysis plan is not provided for verification, numerous secondary outcomes and subgroup time points are reported, and industry sponsorship with multiple author consultancies for the device manufacturer raises residual concern.",
+        "evidence_quote": "\"The trial was supported by an unrestricted research grant of American Medical Systems, Minneapolis, MN, USA.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, registered, externally monitored multicentre RCT had sound stratified block randomization, balanced baseline characteristics, low and balanced attrition, and intention-to-treat analysis, but no blinding of patients or assessors for subjective primary outcomes (PGI-I cure and self-reported VAS pain), minor intervention crossovers, and industry sponsorship/device-maker consultancies without an available protocol. These issues yield 'some concerns' in domains 2, 4 and 5, driving an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:ce9e9d6a",
+    "paper_title": "7e270ff1_jog.13143",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 209 patients to three surgical arms using a computer-generated randomization list with concealment (\"Randomization was performed with the use of a computer-generated randomization list and stratified by the study director\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and concealed until surgery, but Table 1 shows statistically significant baseline imbalances in parity, BMI, and menopausal status (and the narrative text incorrectly states there were no significant differences), which is not clearly consistent with chance in a stratified randomized trial.",
+        "evidence_quote": "\"Randomization was performed with the use of a computer-generated randomization list and stratified by the study director... The sequence was concealed from all investigators until the interventions were assigned for this purpose sequentially by a trial nurse on the morning of the surgery.\" / Table 1: \"Parity ... P = 0.002\", \"Body mass index (kg/m2) ... P < 0.001\", \"Menopausal status ... 0.029\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and outcome assessors were blinded and an intention-to-treat analysis was used, but surgeons necessarily knew the assigned procedure and the paper provides no data on crossovers, non-receipt of the allocated procedure, or protocol deviations (concomitant prolapse surgery was also performed in some patients).",
+        "evidence_quote": "\"The protocol had a double blind design; that is, patients and data assessors were blinded to treatment assigned up to the 12-month follow-up visit.\" / \"Analysis was done on an intention-to-treat basis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes used validated/standardized measures (ICIQ-UI-SF, PGI-I, standing cough stress test) applied identically across arms, with both patients and assessors blinded to allocation.",
+        "evidence_quote": "\"patients and data assessors were blinded to treatment assigned up to the 12-month follow-up visit\" / \"objective success was defined with the negative standing cough stress test with a comfortably full bladder\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All randomized patients appear in the analysis denominators (70/69/70), but dropouts were handled by last-observation-carried-forward and the number/reasons for loss to follow-up per arm are not reported in the text (only in a flow chart), so the extent and impact of missingness cannot be verified.",
+        "evidence_quote": "\"In order to strictly follow the intention-to-treat principle, the last observation of each patient who dropped out of the study was used for statistical analysis. This method could bias results according to the timing of patient dropout.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospective trial registration or publicly available pre-specified analysis plan is cited, a primary outcome is not clearly designated among many reported subjective/objective/complication measures, and at least one planned outcome (12-month voiding difficulty) was not reported.",
+        "evidence_quote": "\"The trial protocol was approved by the Medical Research Ethics Committee, the Faculty of Medicine, Ain Shams University.\" / \"Voiding difficulty at 12 months was not reported, and this might have been underestimated by the patients.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This blinded three-arm RCT used computer-generated, concealed allocation and blinded, standardized outcome assessment, but raises some concerns from significant baseline imbalances (parity, BMI, menopausal status) that are contradicted by the text, LOCF handling of dropouts with incompletely reported attrition, and absence of prospective registration/pre-specified primary outcome with one outcome unreported. No single domain reached high risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:70a7ff2c",
+    "paper_title": "1e73d17a_jwh.2015.5416",
+    "design_classification": "randomized",
+    "design_rationale": "Patients were explicitly allocated to TVT-O vs SIS using a computer-generated random number table (\"Patients were divided by a simple randomization ... Using a computer table generation of random numbers\"), so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence is reported and baseline characteristics were similar (all p > 0.05), but the description of the method is internally confusing (simple \"after\" stratified randomization) and no allocation concealment mechanism (sealed envelopes, central allocation) is described in this single-surgeon consecutive-enrolment setting.",
+        "evidence_quote": "Patients were divided by a simple randomization (after a stratified randomization to control all the baseline covariates between the two study arms) in the two treatment groups. Using a computer table generation of random numbers"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No blinding of patients or surgeon is reported (open surgical trial where awareness could influence self-reported sexual function/QoL), and the analysis was per-protocol (only the 42 completers analysed) rather than intention-to-treat, although no cross-over or intervention deviations were described.",
+        "evidence_quote": "A single experienced surgeon performed all the procedures under epidural anesthesia as per the manufacturer\u2019s instructions."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "12.5% (6/48) of randomized patients were lost to follow-up and excluded with no reasons given per arm, no comparison of their baseline characteristics, and no sensitivity analysis, which is non-trivial in a trial of only 48 participants.",
+        "evidence_quote": "6 patients were later excluded from the study because they were lost to follow-up, and a total of 42 patients (21 in TVT-O group and 21 in SIS group) completed the study protocol."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were measured with validated, identically administered self-report instruments (FSFI, ICIQ-SF), but patients were unblinded to their assigned procedure and self-reported subjective outcomes could be influenced by this knowledge; objective continence assessment was also by the unblinded treating team.",
+        "evidence_quote": "the participants were asked to complete the Italian versions of the FSFI questionnaires for the assessment of sexual function and the ICIQ-SF questionnaires"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, multiple timepoints and seven FSFI sub-scores plus ICIQ offer analytic flexibility, and the inconsistent/transposed numbers between abstract, text (6 vs 12 months) and Table 2 (e.g., continence rates of 90.4%/85.7% assigned to different arms, SD values swapped) indicate unreliable, selectively presented reporting; between-group comparisons are only given as \"p > 0.05\" without effect estimates.",
+        "evidence_quote": "Both groups were evaluated with the same questionnaires after 6 and 12 months of treatment ... The 6 months postoperative results indicated that the total FSFI scores increased from 23.96 \u2013 5.56 to 28.09 \u2013 3.34 for the TVT-O group"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by domain 5: there is no pre-registration or pre-specified primary outcome, many outcomes/timepoints were available, and the reported numbers are internally inconsistent between abstract, text and tables (continence rates and SDs transposed; 6- vs 12-month results conflated). Additional concerns arise from an unclearly described allocation/concealment procedure, absent blinding with per-protocol analysis, and 12.5% unexplained loss to follow-up in a small (n=48) trial."
+  },
+  {
+    "paper_id": "manual:48030b7a",
+    "paper_title": "c1eaebfe_nau.23546",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"participants were randomly allocated to the SIMS or the TOT groups by a simple randomization procedure using a random number generator computer program,\" with sealed opaque envelopes and trial registration (NCT01094353).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer random number generator sequence, allocation concealed in consecutively numbered sealed opaque envelopes opened only in the operating room, performed by a blinded nurse, and baseline demographics/clinical characteristics were similar (all P > 0.07).",
+        "evidence_quote": "\"the participants were randomly allocated to the SIMS or the TOT groups by a simple randomization procedure using a random number generator computer program... Group assignment was concealed in consecutively numbered, sealed, opaque envelopes that were opened in the operating room just before the procedure.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and almost certainly participants were aware of the allocated procedure (different incisions/anesthesia) and no blinding of patients or care providers is described; however, both ITT and per-protocol analyses were reported and surgeons were experienced in both techniques, so deviations beyond the surgical procedure itself are unlikely to be large.",
+        "evidence_quote": "\"The procedures were performed by surgeons experienced in both techniques... We used per protocol and intention to treat analysis, considering two scenarios: missing data as failures and missing data as successes.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "37% loss to follow-up at 3 years (only 82/130 analysed), and the conclusion is sensitive to assumptions about missingness \u2014 objective cure differed significantly when missing data were treated as failures but not when treated as successes, indicating results could be biased by the substantial attrition.",
+        "evidence_quote": "\"From 130 patients, 82 (n = 41 in each arm) completed the 3-year follow-up. Loss of follow-up was 37%.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were appropriate and standardized (cough stress test, 20-min pad weight test, validated IQOL/UDI-6), but no blinding of outcome assessors or patients is reported, and subjective cure/QoL are self-reported by unblinded participants.",
+        "evidence_quote": "\"Objective cure was defined as the absence of urinary leakage in the 250 mL CST and in the 20-min PWT at 36 months. Subjective cure was measured by a simple question...\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with pre-specified primary/secondary outcomes and a sample-size calculation, but multiple analysis scenarios (per-protocol plus two ITT imputations) and multiple QoL subscale comparisons were reported without a stated pre-specified primary analysis, and the protocol itself was not available for comparison.",
+        "evidence_quote": "\"it was registered in ClinicalTrials.gov (NCT01094353)... We used per protocol and intention to treat analysis, considering two scenarios: missing data as failures and missing data as successes.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization and allocation concealment were well executed and outcomes were measured with standardized, validated instruments, 37% loss to follow-up at 3 years with conclusions that reverse depending on how missing data are imputed places the study at high risk of bias from missing outcome data. Lack of blinding of participants, surgeons, and assessors and flexibility in the reported analyses add further concerns."
+  },
+  {
+    "paper_id": "manual:dd456530",
+    "paper_title": "5c196690_s00192-015-2895-2",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective randomized controlled trial in which \"Patients were randomized by envelope technique at the time of surgery to either a TOT or SIS antiincontinence procedure,\" with a CONSORT flow diagram and trial registration (NCT02506309).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was by \"envelope technique\" with no detail on sequence generation or whether envelopes were sealed, sequentially numbered and opaque, although baseline characteristics (age, BMI, parity, ICIQ-SF) were balanced and consistent with chance.",
+        "evidence_quote": "Patients were randomized by envelope technique at the time of surgery to either a TOT or SIS antiincontinence procedure."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly non-blinded and, critically, each arm was performed by a different surgeon (confounding surgeon with intervention), and no intention-to-treat statement is given; however all participants received the assigned sling with no further surgery and no crossovers are reported.",
+        "evidence_quote": "This nonblinded study involved a Caucasian Czech (central European) population... All TOT operations were performed by one seasoned surgeon... All SIS surgeries were performed by another specialist"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 96.7% of randomized participants with only 3 losses balanced across arms, too few to plausibly bias the effect estimates.",
+        "evidence_quote": "Ninety women (96.7 %) completed a minimum of 1 year's observation (range 12.1\u201315.1 months) with 3 patients Blost to follow-up^, 1 from the SIS group and 2 among the TOT group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures were appropriate and standardized and assessment was by an \"independent clinician,\" but the study was non-blinded, so patient-reported outcomes (PGI-I, ICIQ-SF, VAS pain) and possibly the assessor's knowledge of the procedure (visible single vs double incision) could have influenced measurement.",
+        "evidence_quote": "Follow-up visits 1 year after surgery performed by an independent clinician included evaluation of objective cure confirmed by negative standardized CST."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes were pre-specified in the text and the trial is registered, but registration (NCT02506309) appears to have occurred in 2015, after enrolment (2012\u20132013) and thus retrospectively, so prospective protocol-based verification of the analysis plan is not possible.",
+        "evidence_quote": "our study protocol was approved and registered according to Consolidated Standards of Reporting Trials guidelines on ClinicalTrials.gov (no. NCT02506309)"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered RCT had balanced baseline characteristics and near-complete 1-year follow-up, but concerns remain over the sparsely described envelope randomization, the non-blinded design with each arm performed by a different surgeon, subjective patient-reported outcomes assessed without blinding, and apparently retrospective trial registration. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:e79f5e5e",
+    "paper_title": "ed336e9d_s00192-016-3012-x",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 100 women to TVT-O or Ajust using a randomization sequence prepared by an external statistician and concealed in sealed, sequentially numbered envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation sequence was generated by an external statistician and concealed in sealed sequentially numbered envelopes opened shortly before surgery, and baseline characteristics were similar between groups.",
+        "evidence_quote": "\"For randomization, pieces of paper showing the randomization allocation prepared by an external statistician and marked from 1 to 100 were placed in sealed envelopes which were put in a box and opened sequentially from the first one (marked 1)... The envelope was opened shortly before the procedure.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "All patients received the allocated surgery and ITT analyses were performed, but neither patients nor surgeons/assessors were blinded, which could influence subjective outcomes such as pain and satisfaction.",
+        "evidence_quote": "\"The patients were not blinded.\" / \"Each patient received the planned surgery as allocated (there was no need to convert planned surgery to another type). In the intention-to-treat analysis, all randomized patients were analysed.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 4 of 100 randomized patients lacked 1-year data (96% follow-up), reasons were documented and unrelated to outcome (deaths, illness, refusal), and sensitivity analyses (LFCF, LOCF, best/worst-case ITT) gave consistent results.",
+        "evidence_quote": "\"At the 1 year, 47 patients were evaluated in the TVT-O group and 49 in the Ajust group... For missing data, intention-to-treat analysis was also performed.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes used standardized, appropriate measures (cough stress test, ICIQ-UI SF) applied identically in both arms, but there was no blinding of patients or outcome assessors, and no mention of independent/blinded assessment, which may bias the subjective (self-reported) cure and satisfaction/pain outcomes.",
+        "evidence_quote": "\"Another weakness of the study was that the patients were not blinded.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes and an a priori power calculation are clearly stated, but no trial registration number or published protocol is cited and multiple analytic approaches (complete case, LFCF, LOCF, two ITT scenarios) were reported, leaving some potential for selective reporting.",
+        "evidence_quote": "\"The study was only intended to establish differences in objective and subjective cure rates between the TVT-O and Ajust groups.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were adequate and follow-up was nearly complete with robust sensitivity analyses, but the absence of patient/assessor blinding (affecting subjective cure, pain and satisfaction outcomes) and the lack of a cited pre-registered protocol raise some concerns. No single domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:b698baba",
+    "paper_title": "69e1a797_s00192-018-3624-4",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with computer-generated block randomization and 1:1 allocation: \"Subjects were randomized using a computer-generated block randomization sequence with allocation to receive either the transobturator tape (TOT) inside-out technique or single-incision needleless midurethral sling in a 1:1 ratio design performed via a series of sealed opaque envelopes.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated block randomization sequence with 1:1 allocation was concealed in sealed opaque envelopes, and the reported baseline characteristics (age, BMI, parity, SUI duration, delivery pattern, menopausal status) did not differ significantly between arms, consistent with chance.",
+        "evidence_quote": "\"Subjects were randomized using a computer-generated block randomization sequence with allocation to receive either the transobturator tape (TOT) inside-out technique or single-incision needleless midurethral sling in a 1:1 ratio design performed via a series of sealed opaque envelopes.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients were blinded and sham groin incisions were used, and all operations were done by one experienced surgeon per manufacturer instructions, but the surgeon/care providers were necessarily unblinded and the analysis was not strictly intention-to-treat (90 were randomized to SIMS but the arm is analysed as n=89, with the participant lost to follow-up \"considered excluded from the study\" rather than retained).",
+        "evidence_quote": "\"In addition, sham bilateral incisions in the groin at the skin exit point mimicking TVT-O were made in the patients who underwent the SIMS procedure... One patient in the SIMS was lost to follow-up after 1 year and therefore was considered excluded from the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only one of 179 randomized participants (<1%) was lost to follow-up, an attrition level far too small to plausibly bias the ~85\u201390% cure rate estimates, and a CONSORT flow diagram accounts for all patients.",
+        "evidence_quote": "\"One patient in the SIMS was lost to follow-up after 1 year and therefore was considered excluded from the study. Figure 1 shows the CONSORT flow chart accounting for all patients including those lost to follow-up and not meeting the inclusion criteria.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were appropriate and identically applied (negative cough-stress test; validated ICIQ-SF) with assessors blinded to procedure type, but the sham incisions cannot mask the vaginal findings/mesh configuration at examination and the key pain/complication outcomes are patient-reported and clinician-coded with the IUGA/ICS system the authors themselves note has poor inter-rater reliability.",
+        "evidence_quote": "\"Assessors were blinded to the prior procedure type and perioperative complications. A consensus was made in case of any discrepancy between the two assessors.\" ... \"Tunitsky et al. assessed the inter-rater reliability of the IUGA/ICS classification system and found it had poor interrater reliability (\u03ba = 0.15\u20130.78).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes are prospectively defined in the text and an a priori sample size calculation is given, but no trial registration number or published protocol is cited, and many complication subcategories (category/time/site/pain) were tested with multiple comparisons and highlighted selectively (e.g., the p = 0.024 pain finding), leaving scope for selective reporting.",
+        "evidence_quote": "\"We aimed to assess the differences in objective and subjective cure rates between the TOT and SIMS groups as the primary outcome of the current study.\" (no trial registry identifier or protocol reported anywhere in the paper)"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This single-centre RCT had a robust, concealed computer-generated randomization procedure, balanced baseline characteristics, near-complete follow-up (1/179 lost), patient blinding with sham incisions, and blinded outcome assessors. Overall judgment of \"some concerns\" is driven by the unblinded single operating surgeon with a non-strict intention-to-treat analysis (D2), reliance on a complication-coding system with acknowledged poor inter-rater reliability and examinations that may not be fully maskable (D4), and the absence of any prospective trial registration/protocol alongside numerous multiplicity-prone complication comparisons (D5)."
+  },
+  {
+    "paper_id": "manual:7cfd5c3b",
+    "paper_title": "297f27e2_s00192-019-04145-y",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective randomized controlled trial in which \"patients were divided into two groups by a simple randomization procedure using a random number generator computer program,\" with allocation concealed in sealed opaque envelopes and registration at ClinicalTrials.gov (NCT02540525).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and concealment were adequately described and baseline characteristics were balanced, but the marked imbalance in group sizes (58 vs 47) under simple randomization with a planned 45 per group is unexplained and raises mild concern about the integrity of the allocation process.",
+        "evidence_quote": "\"The patients were divided into two groups by a simple randomization procedure using a random number generator computer program. Randomization was performed at the moment of inclusion by a nurse blinded to the subject's history. Group assignment was concealed in consecutively numbered, sealed, opaque envelopes that were opened in the operating room just before the procedure.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 10% of outcome data were missing (5/58 SIMS, 6/47 TOT) and the missingness was plausibly related to the outcome (patients withdrew because they felt cured) yet were imputed as failures, which the authors themselves acknowledge \"impaired\" the analysis; a per-protocol analysis was also presented alongside ITT.",
+        "evidence_quote": "\"Of the 11 patients who did not complete the study... One died of heart failure, and the other ten withdrew because they thought they were cured (i.e., achieved continence). Thus, these patients, who did not complete the study, were considered as therapeutic failure in the data analysis.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and patients were necessarily unblinded to the sling type and surgeon expertise varied (\"performed in university hospitals and therefore by surgeons with different expertise\"), though an intention-to-treat analysis was reported and no cross-overs or co-interventions were described.",
+        "evidence_quote": "\"The analysis was performed in two ways: per protocol, in which the analysis included only those patients who completed the protocol, and intention to treat, in which all patients who started the protocol were analyzed including those who did not complete follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures were appropriate and applied identically in both groups, but no blinding of outcome assessors or patients is described, which is particularly relevant for the subjective cure, quality-of-life questionnaires and subjective complications (e.g., dyspareunia, de novo urgency).",
+        "evidence_quote": "\"The subjective UI cures were evaluated through clinical complaints, and objective cures were evaluated by the simplified pad test.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the primary non-inferiority margin and power calculation were pre-specified, but no protocol is referenced for comparison, the achieved sample deviated from the planned 45/group, and multiple analyses (per-protocol and ITT, several cure definitions, multiple QoL subscales) were reported without adjustment, so selective reporting cannot be excluded.",
+        "evidence_quote": "\"enrolled at Clinicaltrials.gov (NCT02540525)... The power calculation was performed assuming an objective cure rate of 90% for the TOT. A noninferiority margin of 15% was considered\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered RCT used computer-generated randomization with concealed opaque envelopes and achieved balanced baseline characteristics, but no domain is clearly at low risk: group sizes were unexpectedly unequal, patients and assessors were unblinded (important for the subjective cure and QoL endpoints), ~10% of participants were lost and imputed as treatment failures despite reporting continence, and multiple analyses were presented without a published protocol. These issues together yield an overall judgment of some concerns rather than high risk."
+  },
+  {
+    "paper_id": "manual:17ffa5bd",
+    "paper_title": "8345d7be_s00404-015-3949-x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 368 women with SUI to Ajust\u00ae or TVT-O\u2122: \"The patients were simply randomized using table of random numbers,\" with 184 per arm.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and patients were necessarily aware of the assigned procedure and surgeon experience differed markedly between the two techniques (>200 vs >20 cases), a co-intervention/expertise imbalance; no mention of intention-to-treat analysis or handling of crossovers, although all randomized patients appear analysed.",
+        "evidence_quote": "All surgeons were highly experienced and had performed more than 200 surgeries of TVT-O\u2122 and more than 20 surgeries of Ajust\u00ae individually."
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random sequence (random number table) is described and baseline characteristics appear balanced (all P > 0.05), but no allocation concealment mechanism (e.g., sealed opaque envelopes, central allocation) is reported, and the exactly equal 184/184 split with simple randomization is unusual.",
+        "evidence_quote": "The patients were simply randomized using table of random numbers, and they received Ajust\u00ae (Bard) procedure or TVT-O\u2122 (Johnson & Johnson) procedure"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Complete 12-month follow-up is reported for all 368 randomized patients with denominators of 184 in both arms, indicating essentially no missing outcome data (though the flow diagram details cannot be verified).",
+        "evidence_quote": "All patients received 12 months\u2019 follow-up"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome assessors for the PGI-I/ICIQ-SF/VAS were reported blinded and measures were standard, but the primary outcome (subjective cure) and pain are patient-reported and patients were not blinded (TVT-O leaves additional groin puncture incisions), so knowledge of the procedure could influence responses.",
+        "evidence_quote": "Scale filling and VAS measurement were conducted by trained professionals, and they were blinded to the surgical approaches."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary endpoints and an a priori sample-size calculation are stated, but no trial registration or pre-specified protocol is cited, and multiple outcomes/time points (pain at 4 time points, several cure definitions) leave scope for selective reporting; internal inconsistencies in reported numbers (e.g., objective cure 90.7 vs 94.5 %, recovery time 9.89 vs 19.89 days) raise further concern.",
+        "evidence_quote": "The primary endpoint was the subjective cure (defined as \u2018\u2018very much improved\u2019\u2019 or \u2018\u2018much improved\u2019\u2019 on the PGI-I scale) at 12 months after surgery."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This single-centre RCT used a random number table with balanced baseline characteristics and complete 12-month follow-up, but allocation concealment is unreported, patients were unblinded for patient-reported primary outcomes, surgeon experience differed substantially between arms, and there is no registered protocol (with some numerical inconsistencies in the results). No single domain reached high risk, so the overall judgment is some concerns."
+  }
+]

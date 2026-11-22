@@ -1,0 +1,38 @@
+{
+  "research_question": "Among pregnant women, new mothers, or other primary caregivers, what is the effect of oral-hygiene, diet, or feeding-practice advice, compared with standard care or no advice, on the risk that their children have caries in any primary tooth at the longest reported follow-up?",
+  "treatment_label": "Oral-hygiene, diet, or feeding-practice advice delivered to pregnant women, new mothers, or other primary caregivers",
+  "control_label": "Standard care or no advice",
+  "outcome_description": "Binary child-level presence of dental caries in any primary tooth at the longest follow-up reported: number of children with caries divided by number of children assessed in each arm. Use each trial's own caries definition and record it (e.g., any primary-tooth decay, dmft or dmfs >0, cavitated lesions, dentinal decay, or white-spot lesions), preferring the definition that captures any carious lesion in any primary tooth. Do not use outcomes restricted to a subset of teeth. Convert reported percentages to counts using the arm-specific number assessed; use the number randomized only when the assessed denominator is unavailable and flag this choice. Combine eligible advice intervention arms while counting a shared control only once; exclude intervention arms that add fluoride or another active dental treatment when an advice-only arm is available. For cluster-randomized trials, use an adjusted risk ratio or odds ratio as reported when available. Pool risk ratios using a random-effects model, with advice as the numerator and standard care/no advice as the denominator. Do not pool mean dmft/dmfs severity, tooth- or surface-level counts, restricted front-tooth outcomes, bacterial counts, behavior, knowledge, or adverse events.",
+  "positive_direction": "A favorable treatment effect means fewer children have caries after caregiver advice than after standard care or no advice; on the requested ratio scale this corresponds to RR < 1 (if expressed as a positively oriented standardized effect, positive would mean the advice favors prevention of caries).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "caregiver oral hygiene diet feeding advice child dental caries randomized trial",
+    "pregnant women mothers caries prevention counselling controlled trial children primary teeth",
+    "motivational interviewing family centred oral health promotion early childhood caries trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials, including individually randomized and cluster-randomized trials, involving pregnant women, new mothers, or other primary caregivers of children with primary teeth or children subsequently followed into the primary dentition period.",
+    "Interventions broadly involving oral-hygiene, diet, or feeding-practice advice, counselling, motivational interviewing, family-centred health promotion, brushing/diet counselling, or feedback, compared with standard care or no advice.",
+    "Reports a quantitative child-level binary outcome for caries in any primary tooth at a follow-up time, or provides enough information to derive the number of children with caries and the number assessed."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-empirical reports are excluded.",
+    "No comparison between an eligible advice treatment condition and a standard-care or no-advice control condition, including uncontrolled studies.",
+    "No quantitative outcome data that can produce an effect size: arm-level events and totals, convertible proportions, means plus SDs, t/F-values, proportions, odds ratios, or risk ratios are unavailable; for this specified binary outcome, studies reporting only mean dmft/dmfs, numbers of affected teeth/surfaces, or other non-child-level caries measures are excluded.",
+    "Completely unrelated to caregiver-delivered oral-hygiene, diet, or feeding advice and caries in children's primary teeth; also exclude fluoride-varnish-only or xylitol-only trials, arms that combine advice with an additional active treatment when no advice-only contrast is available, and studies reporting only restricted tooth subsets (such as the upper front four teeth), bacterial counts, behavior, knowledge, or adverse events."
+  ],
+  "moderators_to_extract": [
+    "Caregiver group and timing of intervention delivery (pregnancy, postpartum/new mother, or other primary caregiver stage)",
+    "Advice modality/content (motivational interviewing, family-centred promotion, brushing advice, diet/feeding counselling, photograph-based feedback, or multicomponent advice)",
+    "Trial design and unit of randomization (individual versus cluster randomized)",
+    "Child age and duration of follow-up at outcome assessment",
+    "Trial-specific caries case definition and diagnostic threshold",
+    "Control condition (usual/standard care versus no advice)"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Primary synthesis: arm-level risk ratio (RR) for a child having caries, calculated as risk in the advice group divided by risk in the standard-care/no-advice group, and pooled with a random-effects model. RR < 1 favors advice. Use the longest follow-up per trial. Use children assessed as denominators, or children randomized if assessed counts are unavailable and document this. Convert percentages to integer event counts using arm-specific denominators with transparent rounding. Combine eligible advice-only arms and count a shared control once. For cluster-randomized trials, preferentially use the reported cluster-adjusted RR; if only an adjusted OR is reported, retain it as the reported adjusted effect rather than treating it as an unadjusted RR, and address metric compatibility explicitly in synthesis/sensitivity analysis. Record the exact caries definition used by each trial and prefer any-lesion/any-primary-tooth definitions.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "presence of dental caries in any primary tooth"
+}

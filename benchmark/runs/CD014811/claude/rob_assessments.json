@@ -1,0 +1,246 @@
+[
+  {
+    "paper_id": "manual:3fabca30",
+    "paper_title": "208508d7_ehf2.13286",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with computer-generated allocation: \"The patients were randomized to receive the fixed total dose of furosemide either as an intravenous bolus injection (BI) within 5 min every day or a 6 h intravenous continuous infusion (CI). Randomization was performed using the sequentially numbered cases by computer-generated scheme.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used and baseline characteristics were well balanced across all 40+ reported variables, but the mechanism of allocation concealment (e.g., sealed opaque envelopes, central allocation) is not described, so concealment until assignment cannot be verified.",
+        "evidence_quote": "\"Randomization was performed using the sequentially numbered cases by computer-generated scheme.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The trial was explicitly unblinded (patients and treating clinicians knew whether furosemide was given as bolus or 6 h infusion), and although the authors state analyses were intention-to-treat, 13 randomized patients who deviated (dose adjustment or renal replacement therapy during the intervention) were in fact excluded from analysis, so the analysis was not ITT and deviations plausibly related to treatment response were removed.",
+        "evidence_quote": "\"Eight patients in the BI group and five in the CI group dropped out because of undergoing renal replacement or dose adjustment during the intervention. After exclusion, a total of 81 patients were included in this study\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "13 of 94 randomized patients (~14%) lacked outcome data, and the reasons for missingness (need for renal replacement therapy, diuretic dose adjustment) are plausibly related to the true outcome (decongestion/diuretic response) and could differ by arm (8 BI vs 5 CI), with no sensitivity analysis provided.",
+        "evidence_quote": "\"Eight patients in the BI group and five in the CI group dropped out because of undergoing renal replacement or dose adjustment during the intervention.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (freedom from congestion by clinical examination of jugular venous pressure, orthopnoea and oedema) and co-primary dyspnoea Borg score are subjective and were assessed by unblinded clinicians and patients, with no mention of blinded outcome adjudication; length of hospitalization was also determined by unblinded treating physicians.",
+        "evidence_quote": "\"the study was conducted at a single medical institution and was not blinded, which may produce potential bias\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number or pre-specified analysis plan/protocol is cited, no sample-size calculation is reported, and numerous outcomes, time points and eGFR subgroups are reported (with a minor inconsistency: total net urinary output P = 0.007 in the abstract vs P = 0.01 in Table 2), so selective reporting from multiple eligible analyses cannot be excluded.",
+        "evidence_quote": "\"After receiving approval from the hospital ethics committee, adult patients (18\u201390 years) ... were selected for inclusion in the study between June 2016 and July 2019.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the absence of blinding combined with subjective, clinician-assessed primary endpoints (freedom from congestion, Borg dyspnoea score, length of stay) and by post-randomization exclusion of 13/94 participants who deviated from protocol despite a stated intention-to-treat approach. Randomization appears adequate with well-balanced baseline characteristics, but unconcealed allocation, outcome-related missing data, and the lack of a registered protocol or power calculation add further concerns."
+  },
+  {
+    "paper_id": "manual:63dbd796",
+    "paper_title": "b2ae12a9_j.amjcard.2010.01.355",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective, open-label, single-center randomized trial with 1:1 allocation using a computer-generated randomization scheme (\"Patients were then randomized in a 1:1 ratio using a computer-generated scheme\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated 1:1 sequence was used, but allocation concealment is never described (open-label trial), and there were substantial baseline imbalances (gender p=0.005, plus diabetes, systolic blood pressure, ejection fraction, creatinine) that the authors themselves concede may confound results.",
+        "evidence_quote": "\"Patients were then randomized in a 1:1 ratio using a computer-generated scheme... By chance, randomization did not adequately balance baseline covariates between the 2 treatment arms, potentially allowing for confounding of the results.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label so patients and treating physicians knew the assignment, and dose titration, co-medication and electrolyte repletion were left to attending-physician discretion (a potential co-intervention pathway), although there were no protocol violations, total furosemide doses were identical between arms, and an intention-to-treat analysis was used.",
+        "evidence_quote": "\"Subsequent titration of furosemide dose was at the discretion of the attending physician... Electrolyte repletion was left to the discretion of the physician of record... There were no protocol violations... Analysis for all end points was performed on an intention-to-treat basis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were complete for all 41 randomized patients through discharge, with no losses to follow-up and all patients surviving to discharge.",
+        "evidence_quote": "\"Follow-up was 100% at discharge.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (change in serum creatinine) is an objective laboratory measure obtained identically in both arms, but the trial was unblinded and some secondary outcomes (urine output, length of stay, electrolyte repletion decisions) are susceptible to influence from knowledge of assignment; no blinded outcome assessment is described.",
+        "evidence_quote": "\"The study was not blinded, which may introduce bias, although we used objective outcomes measures that should have been relatively unaffected by knowledge of treatment assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A pre-specified primary outcome and a priori power calculation are reported, but no trial registration or protocol is cited, multiple secondary outcomes/time points are analyzed without adjustment, and the enrolled sample (41) fell just short of the planned 42, so selective reporting cannot be excluded.",
+        "evidence_quote": "\"An estimated 42 patients were required to detect a clinically significant difference in the primary outcome of 0.3 mg/dl with power of 80%... We enrolled and randomized 41 patients.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small open-label randomized pilot trial used computer-generated allocation with complete follow-up and intention-to-treat analysis, but raises some concerns across four domains: unreported allocation concealment with acknowledged baseline covariate imbalance (notably gender, p=0.005), lack of blinding with physician-discretionary co-interventions, unblinded outcome assessment, and absence of a cited protocol/registration alongside multiple secondary analyses. No single domain reached high risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:80399b7e",
+    "paper_title": "a4dda2c1_jgc-17-06-359",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although the text states patients were \"randomly divided into two groups,\" the study is described as a single-centre review of existing medical records with exactly 20 patients per arm, no randomization procedure, allocation concealment, or trial registration described, and the authors themselves interpret group membership as a marker of disease severity (confounding by indication); it is therefore treated as a non-randomized (retrospective comparative) study.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "No adjustment for any confounders was performed (only unadjusted t-tests/chi-square), and the infusion group had significantly lower baseline systolic blood pressure and numerically higher NT-proBNP, with the authors conceding the infusion group may simply have been frailer/sicker \u2014 classic confounding by indication.",
+        "evidence_quote": "\"the infusion group could be somewhat frailer at baseline than the bolus group. In other words, the mode of administration of furosemide is merely a marker of disease severity.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Patients were a convenience sample of 40 consecutively hospitalized patients at one centre with stated exclusion criteria, but no information is given on how many eligible patients were screened or how the exactly balanced 20/20 groups were derived, and follow-up started at hospitalization (aligned with intervention start), so some selection bias cannot be excluded.",
+        "evidence_quote": "\"This was a single-center study of 40 Caucasian men and women who were hospitalized to the internal medicine ward... Exclusion criteria were malignancy-induced HF and chronic renal failure which required loop diuretics.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "moderate",
+        "rationale": "The two administration modes were clearly defined and documented in records, but the dose ranges were extremely wide and non-equivalent between arms (20\u2013100 mg/day bolus vs 100\u2013500 mg infusion), so \"infusion\" is confounded with much higher furosemide dose rather than being a clean classification of administration mode.",
+        "evidence_quote": "\"Bolus injections were given one or several times a day in total daily doses of between 20 to 100 mg furosemide. Continuous infusions were given typically between 4 to 10 hours a day at doses of 100 to 500 mg furosemide\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "serious",
+        "rationale": "No information is provided on co-interventions, crossover between administration modes, treatment duration, or adherence during hospitalization, and in routine care clinicians could switch modes or escalate therapy differentially in sicker (infusion) patients; no per-protocol or ITT-type analytic framework is described.",
+        "evidence_quote": "\"A thorough investigation of all the patient's medical records during the time of hospitalization, re-hospitalizations within 30 days, and deaths within 90 days of discharge gave the relevant data to analyze.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "Mortality appears complete for all 40 patients, but there is substantial unexplained missingness in secondary variables (e.g., BMI n = 15/15, ECG n = 16/18, weight at discharge n = 18/18) and re-admission data available for only 17 and 15 patients, with no handling of missingness described.",
+        "evidence_quote": "\"BMI, kg/m2 | 15 | 26.7 \u00b1 1.2 | 15 | 25.1 \u00b1 0.9 | 0.31\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "moderate",
+        "rationale": "All-cause mortality at 90 days is an objective outcome unlikely to be influenced by knowledge of treatment, but outcomes were ascertained by unblinded chart review with no stated blinding of assessors, no source of death ascertainment specified, and no cause-of-death adjudication.",
+        "evidence_quote": "\"Eight out of twenty patients in the infusion group were dead three months after discharge from the hospital, while two out of twenty patients in the bolus group were dead after three months.\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "serious",
+        "rationale": "There is no protocol, pre-registration or pre-specified primary outcome; many outcomes and time points (30-day readmission, 90-day mortality, weight, NT-proBNP, creatinine, eGFR) were tested with unadjusted multiple comparisons in a sample of 40, and the single significant result (mortality, P = 0.03) is highlighted as the \"main finding,\" raising strong concern about selective reporting/multiplicity.",
+        "evidence_quote": "\"The main finding of this study was that the mortality at three months after discharge from the hospital was significantly higher in the group of HF patients receiving furosemide as continuous infusions\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall risk of bias is serious, driven by uncontrolled confounding by indication (sicker, hypotensive patients received infusions, with no adjustment), unclear handling of deviations/co-interventions, and absence of any pre-specified protocol in a very small (n = 40) single-centre record-based comparison with multiple unadjusted tests. The headline mortality difference is therefore highly susceptible to confounding and selective reporting."
+  },
+  {
+    "paper_id": "manual:17fd591d",
+    "paper_title": "fcb17b56_NEJMoa1005419",
+    "design_classification": "randomized",
+    "design_rationale": "The DOSE trial explicitly describes a prospective, double-blind, randomized, controlled 2x2 factorial trial with 1:1:1:1 allocation using permuted blocks stratified by clinical site.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation used permuted blocks stratified by site in a 1:1:1:1 ratio with a double-blind double-dummy design (implying concealed assignment via central coordinating center), and baseline characteristics were well balanced across all four groups.",
+        "evidence_quote": "\"Randomization was performed with the use of permuted blocks, stratified according to clinical site... All P values are greater than 0.05 for the comparisons of baseline characteristics across groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding was robust (double-dummy, concealed assignment maintained at 48 h and after 72 h) and analysis was intention-to-treat, but the protocol-permitted dose adjustments and switches to open-label oral diuretics at 48 h, plus pre-randomization open-label diuretic therapy, occurred differentially between groups and are acknowledged by the authors as possibly affecting 72-hour end points.",
+        "evidence_quote": "\"many participants received open-label diuretic therapy during the period before randomization, and the trial also allowed for adjustments in the diuretic dosing strategy after 48 hours of the randomly assigned strategy. These adjustments may have affected the observed differences between groups at the 72-hour end points.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Secondary end point denominators indicate modest missingness (e.g., 143\u2013155 of 151\u2013157 per group) and no explicit CONSORT-style accounting of missing coprimary end-point data or sensitivity analyses is given in the text, though the amount missing appears small and balanced across groups.",
+        "evidence_quote": "\"Freedom from congestion at 72 hr \u2014 no./total no. (%) | 22/153 (14) | 22/144 (15)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were a standardized patient-reported visual-analogue scale collected identically in all groups under maintained double-blinding, and creatinine/biomarkers were measured at a central core laboratory, so assessors could not be influenced by knowledge of assignment.",
+        "evidence_quote": "\"An assessment of biomarkers, including creatinine, cystatin C, and N-terminal probrain natriuretic peptide, was performed at a central core laboratory\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered (NCT00577135) with the protocol and statistical analysis plan publicly available, coprimary end points and significance thresholds were prespecified, and prespecified secondary end points were reported with appropriate caution about multiplicity.",
+        "evidence_quote": "\"The study protocol, including the statistical analysis plan, is available at NEJM.org... the prespecified threshold for significance for each end point was a P value of less than 0.025.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, registered, double-blind factorial RCT had low risk for randomization, outcome measurement, and reporting, but protocol-permitted dose adjustments/open-label crossover at 48 hours (occurring differentially by group) and incompletely documented missing outcome data raise some concerns. Overall risk is therefore \"some concerns,\" driven by the deviations-from-intervention and missing-data domains."
+  },
+  {
+    "paper_id": "manual:87c3f180",
+    "paper_title": "49e0faf9_s00059-015-4327-y",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 43 ADHF patients to three furosemide regimens: \"Patients were randomized to the therapeutic regimens by an initial computer algorithm blinded to the treating physicians.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence with regimens prepared in advance by an independent team suggests adequate generation/concealment, but no details of sequence concealment mechanism are given and there is a statistically significant baseline imbalance in \u03b2-blocker use (p=0.02) plus non-significant imbalances in baseline creatinine and ischemic etiology in a very small (n=43) trial.",
+        "evidence_quote": "\"Patients were randomized to the therapeutic regimens by an initial computer algorithm blinded to the treating physicians.\" \u2026 \"\u03b2-Blocker, n (%) 9 (60) 4 (28.6) 11 (78.6) 0.02\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of treating physicians is claimed but implausible without placebo infusions since the three regimens (twice-daily bolus, 16-h continuous infusion, 30-min furosemide+hypertonic saline) are overtly distinguishable, post-48-h care was at unblinded clinicians' discretion, and no intention-to-treat analysis or co-intervention monitoring is described (though all 43 randomized patients appear analysed and total furosemide doses were similar).",
+        "evidence_quote": "\"All of the treating physicians were blinded to the diuretic regimens.\" \u2026 \"After this period, adjustment of the diuretic regimen was left to the treating physician\u2019s discretion on the basis of the patients\u2019 clinical response.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 43 randomized patients (15+14+14) appear in the baseline and outcome tables with no reported withdrawals or losses, so outcome data appear essentially complete, although no formal flow diagram is provided.",
+        "evidence_quote": "\"A total of 43 patients who presented with ADHF were randomized into three groups: (a) continuous infusion (cIV) \u2026 (n=15); (b) bolus injections (bI) \u2026 (n = 14); (c) \u2026 (HSS) \u2026 (n=14).\" \"All patients were followed up daily until they became compensated.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Serum creatinine and weight are objective and measured identically across groups, but the primary positive finding\u2014length of hospitalization\u2014and the definition of the \"compensated state\" depend on clinician discharge decisions by physicians who were in practice likely aware of the administered regimen, and no blinded outcome adjudication is described.",
+        "evidence_quote": "\"Prespecified study endpoints included the following: changes in body weight as an indicator of fluid loss, changes in the serum creatinine level from baseline to 48 h and from baseline to compensated state, and length of hospital stay.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Endpoints are described as prespecified, but there is no trial-registration number or available protocol, no designated primary outcome or sample-size calculation, and multiple creatinine operationalizations plus post hoc pairwise testing are reported, so selective reporting cannot be excluded.",
+        "evidence_quote": "\"Prespecified study endpoints included the following: changes in body weight \u2026 changes in the serum creatinine level from baseline to 48 h and from baseline to compensated state, and length of hospital stay.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small single-centre randomized trial (n=43) used a computer-generated allocation sequence with complete outcome data, but concerns arise from an unexplained significant baseline imbalance in \u03b2-blocker use, implausible/undocumented blinding of overtly different regimens with post-48-h treatment left to clinician discretion, a clinician-dependent primary positive outcome (length of stay), and absence of a registered protocol or prespecified primary endpoint. No single domain reached \"high\" risk, so the overall judgment is some concerns."
+  }
+]

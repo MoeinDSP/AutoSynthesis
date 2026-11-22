@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of extracorporeal shock wave lithotripsy (ESWL) compared with retrograde intrarenal surgery (RIRS) on treatment success at three months in adults with kidney stones?",
+  "treatment_label": "Extracorporeal shock wave lithotripsy (ESWL)",
+  "control_label": "Retrograde intrarenal surgery (RIRS)",
+  "outcome_description": "Treatment success (stone-free or absence of clinically significant residual fragments, as defined by trial imaging) at approximately three months follow-up, analyzed on an intention-to-treat basis.",
+  "positive_direction": "Higher treatment success rate favoring ESWL over RIRS (RR > 1 favors ESWL; RR < 1 favors RIRS)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "extracorporeal shock wave lithotripsy retrograde intrarenal surgery renal stones randomized trial",
+    "ESWL RIRS kidney stones stone free rate trial",
+    "shock wave lithotripsy flexible ureteroscopy renal calculi comparison trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials comparing extracorporeal shock wave lithotripsy (ESWL/SWL) with retrograde intrarenal surgery (RIRS/flexible ureteroscopy)",
+    "Adult participants diagnosed with renal (kidney) calculi",
+    "Reporting quantitative data on treatment success or stone-free rates at or near three-month follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and narrative reviews are excluded)",
+    "No direct comparison between ESWL and RIRS (e.g., comparisons solely between ESWL and PCNL, or studies evaluating ureteral calculi rather than renal stones)",
+    "No quantitative outcome data reported that permits calculation of treatment success or stone-free rates",
+    "Studies conducted exclusively in pediatric populations (<18 years of age) or completely unrelated topics"
+  ],
+  "moderators_to_extract": [
+    "Stone size or stone burden (mm or surface area)",
+    "Stone location (e.g., lower pole vs. non-lower pole)",
+    "Definition of treatment success (complete stone clearance vs. residual fragments <=4 mm)",
+    "Imaging modality used to assess stone-free status (CT, KUB radiography, ultrasound)",
+    "Actual follow-up timepoint of assessment (e.g., 1, 3, or 6 months)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk ratio (RR) of treatment success calculated as ESWL divided by RIRS; RR < 1 favors RIRS, and RR > 1 favors ESWL.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "treatment success"
+}

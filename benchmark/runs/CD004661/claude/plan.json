@@ -1,0 +1,39 @@
+{
+  "research_question": "In women at risk of preterm birth, does antenatal magnesium sulphate given for fetal neuroprotection, compared with placebo, reduce cerebral palsy in their children assessed at about 18 months to 2 years' corrected age?",
+  "treatment_label": "Antenatal magnesium sulphate (for fetal neuroprotection)",
+  "control_label": "Placebo",
+  "outcome_description": "Number of children diagnosed with cerebral palsy (trial's own diagnosis, e.g. abnormalities of tone with loss of motor function, or an overall neurological diagnosis by a paediatric assessor) out of the number of children assessed/counted in each arm at the first follow-up reported between 18 months and 2 years' corrected age. Denominator is the paper's own denominator for this outcome (children with data on cerebral palsy preferred; otherwise surviving children assessed, live births with data, or number randomised, stated as such). Children are counted, not mothers or pregnancies; multiple magnesium dose regimens are combined into one magnesium group with the placebo group used once. School-age follow-up is not used.",
+  "positive_direction": "A positive effect (RR below 1) means fewer children developed cerebral palsy after antenatal magnesium sulphate than after placebo, i.e. the result favours magnesium sulphate.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "antenatal magnesium sulphate neuroprotection preterm birth cerebral palsy randomised trial",
+    "magnesium sulfate fetal neuroprotection placebo-controlled trial preterm infant outcome 2 years",
+    "magnesium sulphate before preterm birth cerebral palsy children follow-up controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised placebo-controlled trial of antenatal magnesium sulphate given to women at risk of preterm birth with a neuroprotective intent",
+    "Reports childhood neurodevelopmental follow-up including cerebral palsy at roughly 18 months to 2 years' corrected age",
+    "Reports quantitative data allowing extraction of cerebral palsy events and totals per arm (counts, proportions, or percentages convertible to counts)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, protocol, or purely theoretical/modelling paper)",
+    "No comparison between antenatal magnesium sulphate and a placebo control (e.g. comparison of two magnesium regimens, magnesium versus another active drug, or magnesium given solely for pre-eclampsia/eclampsia or tocolysis without placebo neuroprotection comparison)",
+    "No quantitative outcome data from which an effect size can be computed (no events/totals, proportions, means+SDs, t/F values, or odds/risk ratios)",
+    "Completely unrelated to antenatal magnesium sulphate and child neurological outcome after preterm birth"
+  ],
+  "moderators_to_extract": [
+    "Gestational age at randomisation (threshold for eligibility)",
+    "Total magnesium sulphate dose regimen (loading dose with/without maintenance infusion)",
+    "Indication for treatment (imminent preterm birth, preterm prelabour rupture of membranes, fetal growth restriction)",
+    "Timing/age at follow-up assessment (months corrected age)",
+    "Denominator type used (children with CP data, surviving children assessed, live births, or randomised)",
+    "Risk of bias / loss to follow-up rate",
+    "Sample size category (number of children assessed)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio (magnesium \u00f7 placebo) using a fixed-effect Mantel-Haenszel model where available, otherwise random effects. RR < 1 favours magnesium sulphate. Do not pool death, death or cerebral palsy combined, substantial gross motor dysfunction, blindness, deafness, maternal outcomes, or adverse events.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cerebral palsy"
+}

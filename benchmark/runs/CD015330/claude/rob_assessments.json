@@ -1,0 +1,508 @@
+[
+  {
+    "paper_id": "manual:8eccf2f5",
+    "paper_title": "157acc45_0890117117733342",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized controlled trial with families as the unit of randomization, allocation performed by randomization software with stratification by community, and registration at ClinicalTrials.gov (NCT01952808).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Software-based stratified random allocation of family clusters with allocation concealed until after baseline measures, and baseline characteristics were comparable except one marginal ethnicity/age-group imbalance consistent with chance.",
+        "evidence_quote": "\"Randomization of family clusters (stratified as Hispanic, Somali, or Sudanese community) was achieved using software that allocated participants to either an early or delayed intervention group. Randomization status was revealed to participants and research staff only after completion of baseline measurements.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and interventionists were necessarily unblinded, and the authors themselves report likely intervention diffusion to the delayed-intervention control group through community social networks; analysis appears to be of randomized participants with imputation, but strict ITT is not explicitly stated.",
+        "evidence_quote": "\"The observed improvements in several variables among the control group, despite no significant improvement in secular trends, suggest that intervention diffusion to the control group occurred in this study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Loss to follow-up was 19% at the primary 12-month end point and 32% at 24 months, with only 77% providing valid accelerometer data; imputation methods were used and robustness checked, but differential attrition by arm and reasons for missingness are not detailed.",
+        "evidence_quote": "\"Of the initial 151 persons, loss to follow-up was 16 (11%) at 6 months, 28 (19%) at 12 months (the primary end point), and 48 (32%) at 24 months\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Physical activity was objectively measured and data managers/analysts were masked, but dietary quality relied on a single self-reported 24-hour recall per time point from unblinded participants (sometimes staff/interpreter assisted), making the primary dietary outcome susceptible to reporting bias and measurement error.",
+        "evidence_quote": "\"For logistical reasons in this community-based study, only a single 24-hour dietary recall measure was obtained for each participant at every measurement point.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and primary outcomes/analysis plan were prespecified in a published protocol, but numerous outcomes, time points, and post hoc adult/adolescent subgroup analyses were reported without adjustment for multiplicity, and some reported mediating components (e.g., empty calories, greens and beans, sugar-sweetened beverage goal) appear to be selected secondary analyses not in the stated primary plan.",
+        "evidence_quote": "\"We performed additional subgroup analysis to evaluate outcomes separately for adults and adolescents.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization was well conducted and concealed, but the trial carries some concerns from unavoidable unblinding with documented intervention diffusion to controls, substantial attrition (19% at the primary 12-month endpoint, 32% at 24 months), reliance on a single self-reported 24-hour dietary recall for the key positive finding, and multiple unadjusted outcomes/subgroup analyses. No single domain reached high risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:ef96eabf",
+    "paper_title": "49371551_ajph.94.9.1538",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation to conditions: in year 1 \"individual girls were randomly assigned to experimental classes (PATH) or to traditional physical education control classes (PED),\" and thereafter \"random assignment ... was performed by class\" (cluster randomization), so RoB 2 applies, albeit with a changed/constrained allocation procedure.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "The allocation method changed mid-study and was constrained by school scheduling, no sequence generation or concealment details are given, group sizes are markedly unbalanced (310 vs 132), and several baseline variables differed significantly (age, % body fat, self-perception of health, socioeconomic status), suggesting allocation was not a properly concealed random process.",
+        "evidence_quote": "\"Because of scheduling difficulties at the schools after year 1, random assignment thereafter was performed by class. ... Time constraints created by scheduling limitations in the schools limited the number of classes that could serve as controls.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants, teachers and investigators were necessarily aware of allocation, intervention delivery was non-standardized across sites, contamination between same-school PATH and PED classes was acknowledged, and analyses were restricted to available cases rather than an intention-to-treat population.",
+        "evidence_quote": "\"it was not possible to provide identical sequences of the program at each study site\" ... \"The fact that experimental and control participants were located in the same school was also of concern owing to possible contamination of control classes.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial and differential missingness is evident (e.g., total serum cholesterol n=234/310 PATH vs 86/132 PED; heart health knowledge n=281 vs 94; SES n=180 vs 72), with no attrition flow, no comparison of completers vs non-completers, and no sensitivity analysis for missingness.",
+        "evidence_quote": "\"Because of pervasive problems with student transfers and absences, the sample sizes varied among tests.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Measures were standardized with documented reliability/validity, but assessors were members of the investigation team with no stated blinding to group, and subjective, self-reported outcomes (breakfast eating, diet, physical activity, self-perceived health) from unblinded participants are susceptible to reporting bias; skinfold-based body fat and auscultatory blood pressure are also assessor-influenceable.",
+        "evidence_quote": "\"Research staff members (Queens College faculty and graduate assistants) were trained in measurement procedures and administered all tests to the participants. To minimize intertester variation, research staff members were assigned to the same testing stations throughout the study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or protocol is cited, no primary outcome is designated among many physiological, knowledge and lifestyle measures, multiple comparisons were made without adjustment, and the cluster-randomized design was analyzed with individual-level t tests/chi-square, leaving scope for selective reporting of significant findings.",
+        "evidence_quote": "\"A P value of .05 was chosen for significance and was used for all statistical comparisons in the study.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by a compromised randomization process (switch from individual to class-level assignment constrained by school scheduling, unbalanced groups, and significant baseline differences in age, body fat, SES and self-perceived health), acknowledged contamination and non-uniform intervention delivery with unblinded participants, and pervasive, differential missing outcome data without any sensitivity analysis. Additional concerns about unblinded outcome assessment of partly self-reported outcomes and unregistered, multiplicity-prone analyses reinforce this judgment."
+  },
+  {
+    "paper_id": "manual:a9ec3131",
+    "paper_title": "be00923a_archpediatrics.2009.2",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster-randomized controlled trial: \"Schools were randomly assigned to either the intervention or control group. Randomization took place at the school level or at the location level ... and was stratified by degree of urbanization, using SPSS statistical software.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation sequence was computer-generated and stratified, but cluster randomization of only 18 schools produced statistically significant baseline imbalances in weight, height and screen-viewing, and allocation concealment at the cluster/individual recruitment level is not described (students consented after schools were assigned), raising possible recruitment bias.",
+        "evidence_quote": "\"Schools were randomly assigned to either the intervention or control group. Randomization took place at the school level or at the location level ... stratified by degree of urbanization, using SPSS statistical software\" ... \"Mean baseline data stratified by sex revealed significant differences between intervention and control schools with regard to body weight (boys), body height (girls), and screen-viewing behavior (girls).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, teachers and schools were necessarily aware of allocation in this behavioral trial and implementation fidelity was imperfect, though an appropriate intention-to-treat analysis was used and control schools simply continued the regular curriculum.",
+        "evidence_quote": "\"All analyses were performed according to the intention-to-treat principle.\" ... \"our process evaluation among teachers indicated that implementation required more time than expected and was perceived as being demanding\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition over the 20-month follow-up is only shown in a flow figure (not quantified in the text), missing data were not imputed and no sensitivity or dropout-comparison analysis is reported, so bias from attrition in a long-term school trial cannot be excluded.",
+        "evidence_quote": "\"In total, we obtained data from 1108 students (ie, anthropometric or behavioral data at baseline and at least 1 follow-up measurement)\" ... \"Missing values were not imputed.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcome assessors (who also delivered the intervention materials) were unblinded for the subjectively-sensitive skinfold/waist measurements, and the key behavioral outcomes were self-reported by unblinded adolescents using non-validated, possibly insensitive questionnaires, making differential measurement error likely.",
+        "evidence_quote": "\"All measurements were performed within a 6-week period according to a standardized protocol by a trained research team, which was not blinded to the group assignment.\" ... \"The use of self-report questionnaires to assess behavioral change is subject to limitations ... doubt remains as to whether observed changes in self-reported measures reflect behavioral changes.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A published design paper exists, but the power calculation was based on body weight while conclusions rest on multiple skinfold, waist, BMI and behavioral outcomes at three time points stratified by sex without adjustment for multiplicity, creating scope for selective emphasis of significant results.",
+        "evidence_quote": "\"Because these separate analyses increase type I error, the results for the separate skinfold thickness measurements should be interpreted with caution.\" ... \"Sample size calculation was based on changes in body weight.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by unblinded outcome assessment (research assistants who delivered the intervention also performed anthropometry) combined with unblinded self-reported behavioral outcomes from non-validated questionnaires. Additional concerns arise from baseline imbalances under cluster randomization of only 18 schools, unimputed long-term missing data, and multiplicity across many outcomes and time points without pre-specified adjustment."
+  },
+  {
+    "paper_id": "manual:c9ec753f",
+    "paper_title": "3a08c400_j.amepre.2010.07.017",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a group-randomized controlled trial in which 12 recruited high schools were randomized to intervention or control conditions (\"High schools were recruited into the study on the condition that they would participate as either control or intervention sites and were randomized into these conditions\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Schools were randomized, but no detail is given on the sequence-generation method or allocation concealment, only 12 clusters were randomized (6 per arm), and baseline racial/ethnic composition differed significantly between arms (p=0.046), raising mild concerns about chance imbalance.",
+        "evidence_quote": "\"High schools were recruited into the study on the condition that they would participate as either control or intervention sites and were randomized into these conditions.\" ... Race/ethnicity \"p-value 0.046\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Girls, teachers and intervention staff were necessarily aware of allocation in this behavioral school program and control PE teachers' activities were uncontrolled/unmeasured; although adherence was high (91% attended \u226580% of classes) and analyses used the assigned condition with school as a random effect, no formal intention-to-treat statement or co-intervention monitoring is reported.",
+        "evidence_quote": "\"Teachers within control schools did not receive training on New Moves until after the study period and were free to conduct their physical education classes as they desired during the study period.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Survey outcome retention was excellent (94%) and differential attrition was small, but 26% missing DXA body-composition data (a primary outcome) with reasons only narratively described and no sensitivity analysis reported raises some concern for that outcome.",
+        "evidence_quote": "\"the overall response at follow-up was 94% (intervention, 97%; control, 91%)\" ... \"although 26% of the girls were missing DXA assessments of body composition at either baseline or follow-up assessments\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Body composition (DXA, height/weight) was objectively measured identically across arms, but most of the statistically significant outcomes (sedentary time by recall, portion control, unhealthy weight control behaviors, body image, perceived support) were self-reported by unblinded participants who knew they received the program, creating potential for social-desirability/response bias; assessor blinding is not reported.",
+        "evidence_quote": "\"Other measures were assessed with the New Moves survey... Most survey items were from previous studies and had high reliability and/or validity.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT00250497) and a broad set of hypothesized outcomes is reported in full tables, but dozens of outcomes at two timepoints were tested without adjustment for multiplicity and no pre-specified primary outcome/analysis plan is cited, so selective emphasis on the significant findings cannot be excluded.",
+        "evidence_quote": "\"Additionally, p-values have not been adjusted for multiple testing.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted group-randomized trial has high retention and objective anthropometric measures, but randomization details are unreported with a significant baseline race/ethnicity imbalance across only 12 clusters, most significant outcomes were self-reported by unblinded participants, 26% lacked DXA data, and many unadjusted multiple comparisons were performed. No single domain reaches high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:3e1cc5e2",
+    "paper_title": "8be41457_j.jadohealth.2010.11.243",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that after consent \"subjects were randomly assigned to the intervention group or the control group on the basis of a computer-generated random number assignment,\" with an attention-control Web site comparator.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "An adequate random sequence (computer-generated) is described, but allocation concealment is not mentioned and the mixed-model results show large, highly significant between-group main effects for BMI (-5.15, p=.001) and actigraphy counts (-59.56, p=.001), which is difficult to reconcile with the claim of baseline equivalence in a 54-participant trial.",
+        "evidence_quote": "\"subjects were randomly assigned to the intervention group or the control group on the basis of a computer-generated random number assignment\"; \"There was no difference in baseline variables and log on rate between the groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An attention-control Web site reduces awareness of assignment, but nine consenting families who never logged on appear to have been dropped before analysis (timing relative to randomization unclear), the mean weekly log-on rate was only ~72% of sessions, and no intention-to-treat analysis is explicitly described.",
+        "evidence_quote": "\"Initially, 63 adolescents and their families agreed to participate in the study; however, nine children and their families never logged on to the Web site, leaving a total of 54 families. Of these, 27 subjects were assigned to either the intervention or control group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 93% of randomized/analysed participants, attrition was balanced-appearing with no baseline differences between completers and dropouts, and mixed-effects models accommodate incomplete repeated measures.",
+        "evidence_quote": "\"A total of 50 children and their families (93%) completed baseline and all follow-up measures. No significant differences were found in baseline variables between adolescents who provided follow-up data and adolescents who were lost to follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Several key outcomes (fruit/vegetable intake via 3-day diary, knowledge, self-efficacy) are self-reported by unblinded participants, and anthropometric/BP measurements (notably manual sphygmomanometer and circumferences) were taken by research assistants with no stated blinding to allocation.",
+        "evidence_quote": "\"These limitations include convenience sampling, parents with high education, use of self-report measures\"; \"Personal data collection for weight, height, blood pressure, and circumferences were done within the same week of online data collection by a trained research assistant.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol is cited; the power analysis designates BMI as the primary outcome but the abstract and conclusions emphasize the many secondary outcomes that reached significance, and numerous outcomes were tested with uncorrected follow-up t tests, raising concerns about selective emphasis/multiplicity.",
+        "evidence_quote": "\"A minimum of 27 participants per group provides power of .80 at an alpha of .05 to detect a moderate difference in BMI between the two groups between baseline and 8-month follow-up\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small RCT used computer-generated randomization and an attention-matched control with low attrition (93% retention), but concerns remain across several domains: unreported allocation concealment alongside apparently large between-group main effects, exclusion of nine consenting non-logging families without a stated ITT analysis, reliance on self-reported outcomes with unblinded assessors, and absence of a registered protocol with primary-outcome (BMI) null results de-emphasized relative to multiple significant secondary outcomes. No single domain was judged high, so the overall rating is some concerns."
+  },
+  {
+    "paper_id": "manual:fe2a94e3",
+    "paper_title": "5c340d13_j.orcp.2017.07.004",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster-randomized controlled trial: ten schools were randomly allocated 1:1 to the Brazilian New Moves program or observation via paper slips drawn by school principals, with blocked randomization.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random allocation method at the cluster level is described (blocked drawing of paper slips, 1:1), but it was performed by school principals with no described concealment mechanism, and baseline imbalance was present in socioeconomic status and weight \u2014 a known hazard with only 10 clusters.",
+        "evidence_quote": "\"School names were assigned to paper slips and then randomly selected by the school principals to assign each school to the intervention or control groups... Measured baseline variables were balanced between randomization arms, with the exception of social class and weight (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, teachers and deliverers were necessarily aware of assignment and adherence to the program was very low (32.9% intervention phase, 19.1% maintenance; one intervention school skipped the maintenance phase entirely), although an intention-to-treat analysis including all 270 randomized participants was appropriately applied for the effect of assignment.",
+        "evidence_quote": "\"Adherence was low during the intervention (32.9%) and maintenance (19.1%) phases of the program... Our analyses also followed an intention to treat protocol by performing a sensitivity analysis where all subjects were included regardless of their follow-up time or intervention.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 270 randomized participants were analyzed, but this was achieved by k-nearest-neighbour imputation of an unreported quantity of missing follow-up data (the flowchart figure is not legible in the text), and no sensitivity analysis comparing imputed versus complete-case results is presented.",
+        "evidence_quote": "\"Imputation was performed using a k-nearest neighbors algorithm (n = 5)... all 270 initial subjects undergoing randomization were included in the analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (BSQ) and self-esteem are self-reported by unblinded participants and, departing from the original protocol, the questionnaires were administered by the unblinded research team rather than self-completed, which could influence responding; validated instruments and objective BMI partly mitigate this, and analysts were blinded.",
+        "evidence_quote": "\"There was no blinding regarding intervention assignments and assessment, but blinding was present during data analysis... questionnaires were applied by the research team since students demonstrated difficulty reading and understanding self-report questionnaires.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and a single primary outcome (BSQ) with pre-specified secondary outcomes and sample size was declared, but registration occurred in September 2015 \u2014 after recruitment began (Feb 2014) and after most interventions were completed \u2014 so prospective protocol verification is not possible; extensive exploratory analytic steps (MIC, NMF, normalization, imputation) also allow analytic flexibility.",
+        "evidence_quote": "\"The trial was registered at the Brazilian Registry of Clinical Trials in September 2015 (registration number: RBR-6ddpb3).\" / \"Recruitment occurred between February 2014 and March 2015.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "All five RoB 2 domains raise some concerns rather than high risk: cluster allocation was random but unconcealed with baseline imbalance in SES and weight across only 10 clusters; participants and assessors were unblinded with researcher-administered self-report primary outcomes; adherence was very low; missing data were handled by unexplained imputation; and registration was retrospective. Since no single domain reaches 'high' but none is clearly 'low', the overall judgment is some concerns \u2014 most relevant here because the trial reported null findings, which unblinding and low adherence would tend to produce rather than exaggerate."
+  },
+  {
+    "paper_id": "manual:5953f144",
+    "paper_title": "50b1122b_j.ypmed.2009.04.007",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of individual participants: \"Of the 60 invited to participate, 33 consented and were randomized, using a computer-based number producing algorithm, to either the intervention (FILA Program) or active comparison group\" in a 6-month, 2-arm parallel group pilot RCT.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used and baseline measures were taken prior to randomization, but allocation concealment is not described and there are substantial baseline imbalances in the primary and key secondary adiposity outcomes (BMI, waist, body fat) in this very small sample.",
+        "evidence_quote": "\"33 consented and were randomized, using a computer-based number producing algorithm, to either the intervention (FILA Program) or active comparison group\"; baseline BMI 22.8 (4.1) vs 20.4 (4.1); waist 80.7 (10.8) vs 72.6 (11.8); body fat 20.7 (7.1) vs 15.6 (6.9)"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An appropriate intention-to-treat analysis was used, but participants and deliverers were necessarily unblinded, the intervention was largely delivered by the study's primary author (risk of performance/co-intervention effects), and adherence to the lunchtime physical activity component was low (~40\u201344% attendance), with two curriculum sessions cancelled.",
+        "evidence_quote": "\"All curriculum sessions, except for two, were implemented as planned... In the first half of the program, 13 of the 14-planned lunchtime sessions were implemented (93%), with an average attendance of 40%\"; \"most curriculum sessions delivered by the researcher (primary author)\"; \"Data were analyzed using SPSS version 16 using intention-to-treat principles.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Retention for the primary outcome (BMI) was near complete (97%), but roughly a quarter of accelerometer-based physical activity data were unusable (n=12 and n=11 per arm at follow-up) with no analysis of whether missingness differed by group or related to the outcome.",
+        "evidence_quote": "\"Thirty-two boys (97%) were retained... One hundred percent of data were collected at baseline and follow-up for all measurements, except for objectively measured physical activity. For objectively measured physical activity, 72% of data collected were useable.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Anthropometry and accelerometry were objective and assessed by blinded, trained assessors using validated instruments, but several secondary outcomes (screen time, sweetened beverage and fruit consumption) were self-reported by unblinded participants who knew they were receiving a healthy-lifestyle program, raising the possibility of socially desirable responding.",
+        "evidence_quote": "\"Trained independent assessors, blind to group allocation, conducted the measurements following standardized protocols\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary outcome and directional hypotheses were pre-specified and all listed outcomes appear reported, but no trial registration or protocol is cited, many outcome operationalizations (e.g., multiple accelerometer-derived variables, composite imputation method chosen post hoc) were analysed, and emphasis shifted to effect sizes/\"trends\" rather than the pre-specified statistical tests.",
+        "evidence_quote": "\"The primary outcome was BMI, and secondary outcomes included waist circumference, percentage body fat, cardiorespiratory fitness, objectively measured physical activity and small screen recreation time.\"; \"As a pilot study this RCT was not adequately powered to detect statistically significant differences between groups. As such, standardized effect sizes were calculated to demonstrate effects and trends.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small pilot RCT used computer-generated randomization, blinded objective assessors, validated measures and intention-to-treat analysis, but raises some concerns in every domain: unreported allocation concealment with notable baseline adiposity imbalance, delivery by the primary author with low adherence to lunchtime sessions, ~28% unusable accelerometer data, some self-reported outcomes from unblinded participants, and no registered protocol with emphasis on effect sizes/trends. No single domain reaches high risk, so the overall judgment is \"some concerns\", though the pilot's small sample means findings are hypothesis-generating only."
+  },
+  {
+    "paper_id": "manual:035b6827",
+    "paper_title": "1ce2566e_jamapediatrics.2013.1100",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were individually allocated to volunteering vs wait-list control by coin flip after consent: \"Randomization was done by a coin flip that assigned each individual to either the intervention or control condition after consent was obtained.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was genuinely random (coin flip) and baseline demographic, psychosocial and physiological characteristics were similar across arms, but a coin flip performed by unspecified personnel provides no documented allocation-concealment mechanism.",
+        "evidence_quote": "\"We randomly assigned 52 study participants to volunteer in the fall semester (intervention group) or not until the spring semester (n = 54, waitlist control group). Randomization was done by a coin flip that assigned each individual to either the intervention or control condition after consent was obtained.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and staff were necessarily unblinded, adherence to the expected 1\u20131.5 h/week volunteering is not reported, and the analysis of follow-up outcomes adjusted for baseline appears restricted to completers rather than a true intention-to-treat analysis.",
+        "evidence_quote": "\"We were not able to conduct the study as a double-blind study, because participants could obviously discern whether they were in the volunteering arm or the control group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Roughly 15\u201321% of outcome data were missing (BMI: 42/52 vs 48/54; blood markers: 41/52 vs 44/54) with differential, larger attrition in the intervention arm, and the authors themselves acknowledge possible selection bias with no sensitivity analysis provided.",
+        "evidence_quote": "\"Finally, there were more dropouts in the intervention group compared with the control group, and those who dropped out were either not able to or chose not to complete the postintervention measures; hence, there may be some selection biases in this sample.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes were objective biomarkers and anthropometrics measured identically in both arms by standard laboratory assays and trained phlebotomists, making assessor knowledge of allocation unlikely to bias measurement.",
+        "evidence_quote": "\"Research assistants measured students\u2019 height and weight, and antecubital blood draws were performed by trained phlebotomists. ... The follow-up data collection was identical to the baseline assessment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT01698034) and four prespecified cardiovascular markers were all reported, but registration occurred around/after study completion, multiple outcomes and untransformed/log-transformed analyses were available, and the mediation analyses were explicitly exploratory/post hoc.",
+        "evidence_quote": "\"Trial Registration: clinicaltrials.gov Identifier: NCT01698034\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was truly random with balanced baseline characteristics and outcomes were objective biomarkers, substantial and differential attrition (15\u201321% missing outcome data, greater in the intervention arm, acknowledged by the authors as a possible source of selection bias) with no sensitivity analysis drives a high overall risk of bias. Unavoidable lack of blinding, unreported adherence, and probable completer-only analysis in a small sample add further concerns."
+  },
+  {
+    "paper_id": "manual:2f77a926",
+    "paper_title": "a695ecad_main",
+    "design_classification": "randomized",
+    "design_rationale": "The study is an explicitly described cluster randomized controlled trial in which 10 pair-matched schools were randomly allocated (lottery with folded numbered papers) by a person not involved in the project to intervention or control.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was by a valid lottery method performed after baseline assessment by an independent person, but the authors themselves report baseline differences between groups (and cluster randomization of only 10 schools makes imbalance likely), raising some concerns.",
+        "evidence_quote": "\"The schools were pair matched based on geographic location, size and demographics and randomized within pairs by an individual not involved in the research project... although groups were randomized after baseline assessments, statistical differences between groups at baseline were detected and may have influenced the study findings\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and deliverers necessarily knew their allocation in this behavioral school program and no fidelity/contamination data are reported, though analysis followed intention-to-treat principles.",
+        "evidence_quote": "\"all statistical analyses followed the intention-to-treat principle\"; \"Schools remained in their allocated group for the duration of the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was very large (~37% and ~50%) and differential between arms, and dietary records were additionally excluded for implausible energy intake; although retained vs dropped participants did not differ on sociodemographics, such substantial differential missingness could plausibly bias results.",
+        "evidence_quote": "\"At the 6-month post-intervention assessments, 89 (62.7%) and 55 (49.6%) girls were retained in the intervention and control groups, respectively\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Anthropometric primary outcome was objectively measured by blinded assessors, but secondary behavioral outcomes relied on participant self-report by unblinded participants using questionnaires with modest internal consistency (\u03b1 = 0.50\u20130.73).",
+        "evidence_quote": "\"Trained undergraduate and graduate students conducted follow-up assessments blinded to group allocation\"; \"the use of self-report measures to assess changes in health behaviors\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered with a pre-specified primary outcome (BMI) and a published protocol, but very many secondary outcomes were tested without multiplicity correction, so the significant findings reported may be selected from multiple analyses.",
+        "evidence_quote": "\"This study was registered in ClinicalTrials.gov (NCT02228447) and reported according to the CONSORT checklist\"; \"no correction for the substantial number of tests conducted\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven principally by severe and differential loss to follow-up at 6 months post-intervention (62.7% vs 49.6% retention), compounded by acknowledged baseline imbalance between the 10 randomized clusters, reliance on self-reported behavioral outcomes from unblinded participants, and many uncorrected statistical tests in an underpowered sample."
+  },
+  {
+    "paper_id": "manual:fe0e1aac",
+    "paper_title": "b7e1921f_s0091-7435%2803%2900057-4",
+    "design_classification": "randomized",
+    "design_rationale": "Six schools were explicitly randomly allocated to intervention or control conditions (\"Six schools were equally randomized into intervention and control conditions\"), making this a cluster-randomized trial assessed with RoB 2.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Although clusters were randomized, individual participants were identified and recruited after allocation with knowledge of condition (classic cluster-RCT recruitment bias), and marked baseline imbalances in age, grade, ethnicity and BMI were present, which the authors themselves attribute to this post-randomization recruitment.",
+        "evidence_quote": "\"Although schools were randomly assigned to conditions, because of logistical and scheduling issues, girls were recruited after the schools were randomized. Thus, girls in the intervention schools knew that they were enrolling in an alternative physical education class, New Moves.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and implementing staff were necessarily aware of condition (inherent to a PE-class intervention), control girls received only minimal materials, and no intention-to-treat/fidelity quantification of deviations is reported, though analyses included all assessed participants by assigned school.",
+        "evidence_quote": "\"girls in the intervention schools knew that they were enrolling in an alternative physical education class, New Moves. Girls in the control schools were recruited to participate in a research study about eating and exercise patterns of teens.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Retention was high (94% post, 89% follow-up) and balanced across arms, with evidence that responders and non-responders did not differ on key baseline characteristics.",
+        "evidence_quote": "\"the 8-month follow-up assessment was conducted with 180 girls for a response rate of 89% (88% in control schools and 89% in intervention schools)... Responders and nonresponders did not differ at baseline across age, race/ethnicity, and BMI.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Most primary outcomes (physical activity, eating, self-perceptions, stage of change) were self-reported by unblinded participants aware of their condition, and several measures had modest reliability, although BMI was objectively measured with standardized procedures identically across arms.",
+        "evidence_quote": "\"Limitations of the current study's evaluation design include ... a lack of measures sensitive to changes in body composition, the use of self-report measures to assess variables such as physical activity\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol or pre-specified primary outcome is reported; a very large number of outcomes were analysed with no adjustment for multiplicity, and a post hoc weighted stage-of-change metric is emphasised alongside narrative \"hypothesized direction\" framing, though the full outcome table is presented.",
+        "evidence_quote": "\"For the majority of outcome variables, differences between intervention and control schools were not statistically significant, but were in the hypothesized direction (Table 4).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the randomization domain: only six schools were randomized and participants were recruited into each arm after allocation with knowledge of condition, producing substantial baseline imbalance in age, grade, ethnicity and BMI. Additional concerns arise from unblinded self-reported outcomes and the absence of pre-specified primary outcomes amid many analysed variables."
+  },
+  {
+    "paper_id": "manual:57dc97b9",
+    "paper_title": "5debf7c0_s003329171400289x",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a randomized controlled trial in which grade level within each school was randomly allocated to intervention vs. control and individual intervention classes were randomly allocated to one of three programs (\"Allocation of grade (7 and 8) to either programs or control condition was completed at random, as was allocation of individual intervention classes to the respective programs\"), i.e., a cluster-randomized design.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Although allocation is stated to be random, the method of sequence generation and any allocation concealment are not described, the control condition is systematically confounded with school grade/age (73% of controls were grade 8 vs 70% of intervention participants in grade 7), and several baseline imbalances (girls' BMI and regular eating; boys' perfectionism) were found, indicating the randomization did not produce comparable groups.",
+        "evidence_quote": "\"A higher proportion of control students was from grade 8 (73%) rather than grade 7 (27%), while a higher proportion of intervention participants was in grade 7 (70%) rather than grade 8 (30%).\" ... \"despite the use of randomization, baseline differences were found and were conservatively managed with the use of these scores as a covariate\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, presenters and control classes were necessarily aware of condition (control received no intervention at all), contamination between classes in the same school is acknowledged, program fidelity was not independently assessed, and analyses were of matched completers with baseline covariate adjustment rather than a clearly specified intention-to-treat approach.",
+        "evidence_quote": "\"While this approach might carry the risk of students from differing classes in the same school discussing their respective program content, leading to contamination effects...\" ... \"independent adherence assessments of presenter program fidelity were not completed.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Although 91% of the baseline sample was retained and missingness appeared balanced with no baseline differences on primary outcomes, only 653 girls and 365 boys (about 77% of the analysed sample) had 12-month follow-up data used for the key clinical-significance outcome, and the ID-coding problem imposed by the ethics board interfered with accurate matching across waves.",
+        "evidence_quote": "\"while 1441 participants completed baseline measures, the analyses were conducted with a total sample of 1316 participants or 91% of the baseline sample... The proportion of missing data was consistent across the four groups and logistic regression analyses showed there were no baseline differences on our primary outcome variables between participants who completed a minimum of three waves\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were well-validated and measured identically across groups (and BMI/height/weight were objectively assessed), but nearly all risk-factor outcomes were self-reported by unblinded participants who knew whether they had received a program, raising potential for demand characteristics.",
+        "evidence_quote": "\"it would have been preferable to have more objective measures of dieting and physical activity\" ... \"Care was taken to ensure that participants were not able to view their measurements\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes are prospectively nominated and null findings (BMI; weight concern vs control) are reported, but no trial registration or published protocol is cited, and a very large number of outcomes, time points, gender splits, post-hoc contrasts and additional analyses (clinical caseness, state and class effects) were tested, creating scope for selective emphasis of the reported results.",
+        "evidence_quote": "\"The primary outcome variables were weight concerns and BMI, whilst secondary outcome variables included risk factors for eating disorders (e.g. eating concerns, media internalization) and obesity (e.g. physical activity, screen time).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 1: although allocation was reported as random, the sequence generation and concealment are undescribed, the control condition was systematically confounded with school grade (controls predominantly grade 8, intervention participants predominantly grade 7), and multiple baseline imbalances were acknowledged by the authors. The remaining domains raise some concerns from unblinded self-report outcomes, acknowledged contamination and unassessed fidelity, attrition by the 12-month follow-up, and the absence of a cited protocol/registration alongside numerous outcomes and post-hoc contrasts."
+  }
+]

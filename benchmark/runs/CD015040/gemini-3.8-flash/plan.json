@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of active treatment compared with sham on PTSD symptom severity change from baseline to post-treatment in intention-to-treat analyses with missing data imputation?",
+  "treatment_label": "Active treatment",
+  "control_label": "Sham control",
+  "outcome_description": "PTSD symptom severity change from baseline to immediately post-treatment assessed by a validated clinician-administered or self-report scale (intention-to-treat with imputation)",
+  "positive_direction": "Greater reduction in PTSD symptom severity in the active treatment group compared to sham control (favoring active treatment)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "active sham PTSD symptom severity controlled trial",
+    "active versus sham posttraumatic stress disorder trial outcome",
+    "PTSD active sham experiment quantitative effect"
+  ],
+  "inclusion_criteria": [
+    "Original empirical trials comparing an active intervention to a sham control condition in individuals with PTSD",
+    "Assessment of PTSD symptom severity from baseline to post-treatment using a validated scale (e.g., CAPS, PCL)",
+    "Quantitative data reported or derivable for intention-to-treat (ITT) analysis with missing value imputation"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded)",
+    "No comparison between an active treatment and a sham control condition",
+    "No quantitative outcome data that can produce an effect size for PTSD symptom severity (e.g., missing means, SDs, test statistics, or model estimates)",
+    "Completely unrelated to PTSD or sham-controlled intervention research"
+  ],
+  "moderators_to_extract": [
+    "Intervention modality (e.g., rTMS, tDCS, stellate ganglion block, neurofeedback)",
+    "Imputation/ITT analytic method (e.g., mixed-model repeated measures, multiple imputation, baseline-observation-carried-forward)",
+    "PTSD outcome assessment instrument (e.g., CAPS-5, PCL-5)",
+    "Population type (e.g., military/veteran vs. civilian)",
+    "Number of treatment sessions / intervention duration"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Intention-to-treat (ITT) analysis of change in PTSD symptom severity from baseline to post-treatment with missing data handled via imputation or mixed models, rather than per-protocol/completer analysis.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "PTSD symptom severity"
+}

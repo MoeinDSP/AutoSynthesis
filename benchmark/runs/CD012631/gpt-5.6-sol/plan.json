@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults aged 18 years or older admitted to an intensive care unit\u2014including patients after cardiac arrest, with acute respiratory failure or ARDS, with septic shock, or receiving mechanical ventilation\u2014what is the effect of assignment to a higher (liberal) inspired-oxygen fraction or arterial oxygenation target versus a lower (conservative) target on all-cause mortality at the longest follow-up reported?",
+  "treatment_label": "Higher (liberal) inspired-oxygen fraction or arterial oxygenation target",
+  "control_label": "Lower (conservative or low-normal) inspired-oxygen fraction or arterial oxygenation target",
+  "outcome_description": "All-cause mortality, measured as the number of participants who died from any cause out of the number randomised to each oxygen-target arm, using the longest follow-up with a death count reported by each trial (for example, 90 days, 180 days, or hospital discharge; use 28- or 30-day mortality only if no later count is available). Prefer a later all-cause mortality count over ICU mortality. Use intention-to-treat denominators (all participants randomised), even if mortality is reported for fewer participants. For factorial trials, combine all cells assigned to the higher oxygen target and compare them with all cells assigned to the lower target, summing across the other randomised factor.",
+  "positive_direction": "An effect above the null\u2014positive log risk ratio, corresponding to RR > 1\u2014means more deaths with the higher/liberal oxygen target and therefore favors the lower/conservative oxygen target; RR < 1 means fewer deaths with the higher/liberal target.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "intensive care liberal conservative oxygen target randomized mortality",
+    "critical illness higher lower oxygenation target controlled trial death",
+    "mechanical ventilation ARDS cardiac arrest sepsis oxygen target randomized trial mortality"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling adults aged 18 years or older who are admitted to an intensive care unit or an equivalent critical-care setting, including relevant cardiac-arrest, acute respiratory failure or ARDS, septic-shock, and mechanically ventilated populations.",
+    "Trials that randomly compare a higher/liberal inspired-oxygen fraction or arterial oxygenation target with a lower/conservative or low-normal target; classify arms from the assigned oxygen target rather than column position or the authors' intervention/control terminology.",
+    "Trials reporting, or providing sufficient quantitative information to obtain, an all-cause death count and randomised denominator for each oxygen-target group at one or more follow-up times."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers; also exclude non-randomised studies.",
+    "No comparison between a higher/liberal oxygen or oxygenation target and a lower/conservative target, including hyperbaric oxygen trials, high-flow nasal oxygen trials, and comparisons of oxygen-delivery devices at the same target.",
+    "No quantitative all-cause mortality data capable of producing an effect size, such as arm-level death proportions/counts or an extractable risk ratio or odds ratio with adequate denominator information.",
+    "Completely unrelated to the research topic, or exclusively conducted in neonates or children; studies reporting only nonmortality outcomes such as serious adverse events, ventilator-free days, organ dysfunction, neurological outcome, or length of stay are ineligible."
+  ],
+  "moderators_to_extract": [
+    "Clinical population or ICU indication (post-cardiac arrest, acute respiratory failure/ARDS, septic shock, mechanically ventilated mixed ICU, or other)",
+    "Achieved or assigned separation in oxygen exposure (FiO2, SpO2, PaO2, or target category)",
+    "Mortality follow-up point used (hospital discharge, 28\u201330 days, 90 days, 180 days, or other longest follow-up)",
+    "Ventilation status at baseline (invasively ventilated, noninvasively supported, mixed, or not reported)",
+    "Trial design (simple parallel-group versus factorial)",
+    "Risk-of-bias category, particularly allocation concealment, missing mortality data, and deviations from assigned oxygen targets"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool arm-level all-cause mortality as a risk ratio (RR) with a random-effects model. Orient comparisons as higher/liberal oxygen divided by lower/conservative oxygen, so RR > 1 indicates more deaths with higher oxygen. Use the longest available follow-up death count for all randomised participants; do not use ICU mortality if a later death count exists, and use 28- or 30-day mortality only when no later count is reported. Use number randomised as the denominator under intention-to-treat; where mortality status is available for fewer participants, retain the full randomised denominator as instructed. In factorial trials, collapse across the other randomised factor by summing deaths and randomised totals within all higher-oxygen cells and within all lower-oxygen cells. Do not pool serious adverse events, ventilator-free days, organ dysfunction scores, neurological outcomes, length of stay, or intermediate mortality time points. Report pooled RR with 95% CI, between-study variance (tau-squared), I-squared, prediction interval when estimable, and conduct sensitivity analyses for risk of bias and follow-up definition. Follow PRISMA 2020 with duplicate screening/extraction, a study-flow diagram, excluded full-text reasons, protocol registration, and trial-level risk-of-bias assessment using RoB 2.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

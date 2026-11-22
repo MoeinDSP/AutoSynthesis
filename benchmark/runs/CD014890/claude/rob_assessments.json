@@ -1,0 +1,324 @@
+[
+  {
+    "paper_id": "manual:2dfb6b48",
+    "paper_title": "e40672fa_1-s2.0-S0885200615300247-main",
+    "design_classification": "randomized",
+    "design_rationale": "Teachers/classrooms were explicitly randomly assigned to conditions: \"42 preschool teachers and 252 children from their classrooms were randomly assigned at the class level to either a highly specified content-related book reading intervention or a practice-as-usual shared book reading condition\" and \"We randomly selected 24 teachers to implement the interactive content-enriched shared book reading curricular intervention and 24 for the comparison condition.\" This is a cluster-randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation at the class level is explicitly stated and extensive baseline equivalence checks (child- and teacher-level demographics, all four pretest measures) showed no significant differences, but the sequence-generation method and allocation concealment are never described, and post-randomization withdrawal of 6 teacher clusters (creating a 23 vs 19 imbalance) could have disturbed the randomized balance.",
+        "evidence_quote": "\"We randomly selected 24 teachers to implement the interactive content-enriched shared book reading curricular intervention and 24 for the comparison condition referred to as business-as-usual (BAU). Six teachers withdrew before the intervention began ... reducing our total number to 42 teacher participants (treatment, n = 23; BAU, n = 19).\" ... \"No statistically significant differences emerged between the two groups on any children demographic variables.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Teachers and assessors could not be blinded (inherent to a classroom curriculum trial) and the intervention arm additionally received 8 hours of PD, three researcher meetings, monthly visits and coaching that the BAU arm did not, so performance/attention effects are confounded with the curriculum; fidelity was only moderate (mean 2.83/4, as low as 1.85) and intervention and BAU teachers co-existed on some campuses, raising contamination potential, although all analyses retained participants as assigned.",
+        "evidence_quote": "\"Across observations, fidelity of implementation scores ranged from 1.85 to 3.44 (mean = 2.83).\" ... \"Professional development was not provided because researchers did not want to alter teachers' typical shared book reading practices.\" ... \"Teachers were introduced to ... the importance of not discussing the intervention curriculum with non-treatment teachers (some campuses included an intervention and business-as-usual teacher).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for roughly 92\u201399% of the 252 randomized children (234 of 252 at posttest on most measures), attrition was balanced across arms, and the authors formally tested and found no completer/non-completer differences on demographic characteristics, making bias from missingness unlikely.",
+        "evidence_quote": "\"Due to missing data, we further examined any potential differences between completers (i.e., 249 children on PPVT-4; 238 children on EVT-2) and non-completers (i.e., 3 children on PPVT-4; 14 children on EVT-2) on the demographic variables. No statistically significant differences were found between the completers and non-completers on any of the demographic characteristics.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Standardized co-normed instruments (PPVT-4, EVT-2) were administered identically with trained, mastery-certified assessors, but assessor blinding to condition is never stated (graduate assistants also videotaped BAU classrooms, so awareness is plausible), and the significant effects were confined to researcher-developed proximal measures that test only the intervention's own taught words \u2014 an outcome definitionally favorable to the treatment arm and partly subjectively scored (0\u20132 expressive scale).",
+        "evidence_quote": "\"All student participants were individually administered the battery of English vocabulary assessments by trained bilingual (Spanish/English) graduate research assistants/assessors (n = 6) ... All bilingual data collectors participated in a 2-day training with practice opportunities before pre- and post-test data collection and were required to demonstrate 100% mastery on all measures prior to each testing interval.\" ... \"researchers used a stratified, random sampling procedure selecting one target word from each of the 18 weekly topics taught during the intervention\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, and although all four prespecified outcomes (two distal, two proximal) are transparently reported including the null standardized results, the multilevel models involve many analyst-chosen covariates, post hoc fidelity models, and post hoc percentage-of-maximum rescaling of the proximal measures, leaving flexibility in the reported analysis unverifiable.",
+        "evidence_quote": "\"We specifically wanted to know what was the effect of the WORLD preschool shared-book reading curricular intervention and pedagogical approach on proximal and distal receptive and expressive vocabulary outcomes of DLLs\" ... \"We entered treatment teachers fidelity scores in the previously estimated multilevel models separately as a Level-2 predicator.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This cluster-randomized trial has clear strengths \u2014 explicit class-level randomization, verified baseline equivalence on child, teacher and all pretest measures, minimal and non-differential attrition, and appropriate multilevel analysis accounting for nesting \u2014 but no domain reaches \"low\" apart from missing data. Concerns arise from unreported sequence generation/allocation concealment plus post-randomization cluster withdrawal (D1), unblinded teachers with intervention-only professional development and coaching plus only moderate fidelity (D2), unstated assessor blinding with the significant effects confined to researcher-developed measures of the curriculum's own taught words (D4), and absence of pre-registration with flexible covariate/post hoc analyses (D5); overall judgment is therefore \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:2f71e021",
+    "paper_title": "dd4ef983_2014_JSLHR-L-13-0277",
+    "design_classification": "randomized",
+    "design_rationale": "Children meeting inclusion criteria were allocated to monolingual treatment, bilingual treatment, or delayed-treatment control via an explicit random sequence generated with the Research Randomizer website and concealed in sealed numbered envelopes: \"Random assignment was accomplished using the 'Research Randomizer' website (http://www.randomizer.org), generating six sets of six numbers per set... The order of randomization was kept in sealed numbered envelopes.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A proper random sequence with concealed sealed envelopes was used, but one participant was deliberately assigned to the control condition outside randomization and a statistically significant baseline imbalance on expressive vocabulary (EOWPVT, an outcome-relevant measure) existed in the very small sample (n = 29).",
+        "evidence_quote": "\"The order of randomization was kept in sealed numbered envelopes. Once a participant met all inclusionary criteria, his or her envelope was opened, revealing the treatment condition... This participant was selected to serve as a delayed-treatment control without random assignment.\" ... \"no significant differences were found between the groups on these intake language measures with the exception of the EOWPVT, on which the control group scored significantly higher than the other two groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, parents and treating SLPs were necessarily unblinded, the bilingual intervention was delivered with low and variable fidelity (only ~14% of models in the home language), parents in both arms reportedly applied unsanctioned co-interventions at home, and five randomized children who withdrew were excluded rather than analysed on an intention-to-treat basis.",
+        "evidence_quote": "\"It proved difficult in many cases to keep the parents involved, and this required continuous prompts in many cases... On average, only 14% of vocabulary targets that were presented in the bilingual sessions were in the home language (14 of 101 models).\" ... \"many parents reported using this strategy [switching to French at home] in spite of our explicit recommendations against it.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "A key outcome (home-language MLUw) was missing for roughly a third of participants (21 of 29 analysed) with differential availability across groups and plausible dependence on language background/interpreter availability, maintenance data were entirely absent for the control group, and post-randomization withdrawals (concentrated in the bilingual arm, reportedly due to low parental motivation \u2014 a reason plausibly related to the intervention and outcome) were excluded without sensitivity analysis.",
+        "evidence_quote": "\"five children who qualified for the intervention phase withdrew from the study... Two had been assigned to bilingual treatment and one to monolingual treatment.\" ... \"Every effort was made to secure interpreters to record and transcribe L1 spontaneous language samples for each child, resulting in completion of such samples for 21 children at pre- and posttest: eight in the MT group, eight in the BT group, and five in the NT group.\" ... \"The NT group was not administered the maintenance probe at this time.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Primary French probes were administered and scored by blinded assessors with reliability checks, but the home-language MLUw outcome was transcribed by unblinded-status interpreters with no reliability verification, and the authors themselves question the cross-linguistic validity of MLUw as an outcome metric.",
+        "evidence_quote": "\"Posttreatment assessment and scoring were done by research assistants blinded to the children's treatment conditions.\" ... \"Language samples in the home languages were recorded, transcribed, and analyzed for MLUw by interpreters trained for this study. The reliability of their transcriptions could not be rechecked for lack of resources and manpower.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited despite being labelled a randomized control trial, and many outcome operationalizations (two probes, three standardized tests, MLUw/MLUm in two languages, three time points) with differing analytic approaches (ANOVA of difference scores, repeated-measures ANOVA, nonparametric tests) create scope for selective reporting, although primary probes were designated in advance and null results are transparently reported.",
+        "evidence_quote": "\"These are the main outcome measures of this study, although pre- and postscores are also reported for other language measures.\" ... \"Treatment outcomes for these nonrandomized implementations of the intervention are not reported here.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although this trial used genuine randomization with concealed envelopes and blinded outcome assessment, it is at high overall risk of bias driven by missing outcome data: the home-language outcome was available for only 21 of 29 children with differential availability across arms, maintenance data were absent for the control group, and post-randomization withdrawals (mostly from the bilingual arm, for motivation-related reasons) were excluded without intention-to-treat or sensitivity analysis. Additional some-concerns arise from one non-randomized control allocation plus a baseline EOWPVT imbalance, low and variable fidelity of the bilingual intervention with unsanctioned parental co-interventions, and absence of pre-registration amid many outcome and analysis options."
+  },
+  {
+    "paper_id": "manual:505ecd14",
+    "paper_title": "ab863cfb_19345747.2016.1171935",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports individual-level random assignment of 115 second-language-learner children to an 18-week language intervention or a business-as-usual control group, with CONSORT-style participant flow reporting (\"One hundred and fifteen children ... were randomly assigned to a business-as-usual control group or to an 18-week intervention program\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Individual-level randomization is clearly stated and baseline language, nonverbal IQ, age and gender appear well balanced, but the method of sequence generation and whether allocation was concealed from those enrolling children are never described.",
+        "evidence_quote": "\"The children were randomized on an individual level to a treatment or a control condition.\" ... \"The intervention and control groups showed no noteworthy differences in the pre-test scores on any of the outcome measures.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Teachers, children and (presumably) parents were necessarily aware of allocation, 14 classrooms contained both intervention and control children creating a real risk of contamination that was only mitigated by instruction, ~10% of sampled sessions were not delivered, and no explicit intention-to-treat statement is given (though ML estimation with all randomized children approximates ITT and fidelity monitoring was reasonably thorough).",
+        "evidence_quote": "\"Among these, fourteen classes ended up having both children receiving the intervention and children distributed to the control group. In these cases, preferably, the teachers from other classes were responsible for the intervention. If this was not possible, to avoid problems related to treatment diffusion, the teachers who participated in the intervention had thorough instructions about the dangers of diffusion.\" ... \"53 of the 59 sessions had been conducted, yielding an implementation rate of 90%.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Full-information maximum likelihood was used and a CONSORT flow diagram exists, but the figure is not readable in the available text and the article reports no numbers or reasons for attrition at post-test or 7-month follow-up (group Ns of 58/57 vs. some per-measure means suggest some loss), so the extent and differentiality of missingness cannot be verified.",
+        "evidence_quote": "\"using latent autoregressive models (Structural Equation Models) with maximum-likelihood estimation to handle missing data\" ... \"The flow of participants through the trial is presented in Figure 1, in accordance with CONSORT guidelines\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were standardized, psychometrically sound and identically administered across groups, but blinding of the research assistants/scorers to allocation is never stated, which matters for the judgment-dependent expressive measures (word-definition scoring, Bus Story narrative) and for the custom taught-vocabulary test that is intrinsically favourable to the trained condition.",
+        "evidence_quote": "\"All testing was performed individually in Norwegian with each child. Trained research assistants performed the testing, and the tests were administered in a fixed order.\" ... \"The children's retellings were transcribed verbatim and assigned scores based on the vocabulary/key words and story structure.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-analysis plan is mentioned, and the decision to split the a-priori hypothesised single general-language factor into expressive and receptive factors was made after inspecting post-test data, giving analytic flexibility; however, all five outcome measures plus the custom test are reported at both post-tests, including the null receptive findings.",
+        "evidence_quote": "\"Because of this difference at the first posttest, we chose to analyze the effects of the language training separately for the two factors.\" ... \"Interaction analyses between group affiliation and pre-test scores were performed for each of the latent factors\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This is a well-conducted individually randomized trial with balanced baselines, documented fidelity monitoring, standardized outcomes and transparent reporting of null receptive-language results, but no domain is clearly low risk: allocation-concealment procedures, attrition figures, assessor blinding and any pre-registered analysis plan are unreported, and co-location of intervention and control children in 14 classrooms raises contamination concerns. The overall judgment is therefore \"some concerns\", driven by unreported methodological safeguards and post hoc factor-structure-driven analysis choices rather than any single serious flaw."
+  },
+  {
+    "paper_id": "manual:a7809a16",
+    "paper_title": "3251887e_0002831208320790",
+    "design_classification": "randomized",
+    "design_rationale": "Schools (clusters) were explicitly randomly assigned to enhanced (treatment) or typical-practice (control) conditions: \"Random assignment was performed among the 28 elementary schools in the district meeting these criteria\" and \"randomly assigned the selected schools to either the control (typical practice) or experimental (enhanced or best practices) setting\"; the primary treatment-vs-control contrast is therefore a cluster-randomized trial (program type TBE vs SEI was not randomized, making that secondary contrast quasi-experimental).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Schools were randomized but the sequence-generation method and allocation concealment are not described, five schools were dropped after randomization, and there was a statistically significant baseline imbalance in initial oral proficiency between SEI-E and SEI-T (ES = 0.40), which the authors themselves acknowledge as a limitation.",
+        "evidence_quote": "\"Random assignment was performed among the 28 elementary schools in the district meeting these criteria. Because we encountered a low return rate of parental consent forms at some schools and fewer students enrolled in SEI at some of the schools than initially anticipated, we were forced to eliminate 5 schools.\" ... \"Although and because random assignments were used in our study, limitations were present in that students in SEI-T classrooms were already equipped with higher proficiency in L2 oral skills by the time of school entry\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Teachers, paraprofessionals, parents and researchers were necessarily aware of condition and the treatment schools received extensive co-interventions (professional development, parent training, extra time, added personnel), fidelity was monitored only in treatment schools (mean 81/96, SD 14, indicating variable implementation), and the analysis was restricted to students continuously enrolled rather than an intention-to-treat sample.",
+        "evidence_quote": "\"To ensure the quality of implementation in the TBE-E and SEI-E conditions, intervention validity checks were completed three times a year (beginning, middle, and end) by two observers trained by the research team of this project.\" ... \"In general, the 45-minute ESL instruction in the typical-practice group varied across classrooms.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only complete cases were analysed\u2014534 of roughly 800 targeted students (~33% attrition owing to mobility, consent, and program switching)\u2014with no attrition breakdown by arm and no sensitivity analysis showing results are robust to missingness, and the attrition arose partly from program/condition-related factors (low consent return in SEI, students leaving their initial placement).",
+        "evidence_quote": "\"In the present analyses, only those who participated in all three rounds of assessments were included. ... The total number of students who met this designated criterion was 534\" ... \"we were not able to study the least stable part of the student population because of a high mobility rate (nearly 35%).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The WLPB-R subtests are standardized, appropriate and identically administered across groups, but assessments were partly conducted by project paraprofessionals who also delivered the intervention and no blinding of assessors to condition is reported, creating potential for assessor influence despite the objective scoring format.",
+        "evidence_quote": "\"An additional 15 paraprofessionals bilingual in Spanish and English were hired for assistance with the project, and they also assisted with assessments along with testers.\" ... \"Both of the tests were administered individually outside the classroom to minimize distraction, and the testers were well trained.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered analysis plan or protocol is cited; the outcome operationalization (composite of PV and LC rather than separate latent indicators) and the growth-model specification were chosen post hoc, and school-level clustering appears unmodelled despite cluster randomization, leaving scope for analytic flexibility (though multiplicity was addressed with Benjamini-Hochberg correction).",
+        "evidence_quote": "\"Further analysis of the data as a second-order growth model ... resulted in a low observations/parameters ratio (Bentler & Chou, 1987). Therefore, to reduce the complexity of the model, we computed a composite score as an observed variable for each time point.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although schools were randomly assigned and the outcome measure was a well-validated standardized battery, the overall judgment is high risk, driven by substantial and differentially generated attrition (complete-case analysis of 534 of ~800 students, ~35% mobility, schools dropped post-randomization, no per-arm attrition or sensitivity analysis). Additional concerns arise from unreported allocation concealment with baseline imbalance in the SEI comparison, unblinded delivery with treatment-only fidelity monitoring and bundled co-interventions, non-blinded project-affiliated testers, and post hoc outcome compositing/model specification without a pre-specified protocol."
+  },
+  {
+    "paper_id": "manual:0a713d30",
+    "paper_title": "def57e8c_a0031780",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that \"Ninety-four children were randomly assigned either to a control condition (HighScope Preschool Curriculum) or to receive small-group pull-out instruction... in English or initially in Spanish,\" and \"Children were randomly assigned to one of three intervention conditions,\" so RoB 2 applies (secondary moderation analysis of an RCT).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is asserted but the sequence-generation method and allocation concealment are not described, and pretest means show some non-trivial group differences (e.g., English Definitional Vocabulary 26.78 control vs 35.69 transitional; Spanish Elision 4.27 English-only vs 3.38 transitional) that are not formally tested, though plausibly chance given the small sample.",
+        "evidence_quote": "Children were randomly assigned to one of three intervention conditions."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Implementation fidelity and attendance were documented and balanced across conditions, but interventionists/teachers necessarily knew the assigned condition (pull-out small-group vs business-as-usual), and no intention-to-treat analysis or handling of the ~14% missed sessions is described.",
+        "evidence_quote": "Children in both the English-only and the transitional conditions were present for 86% of all sessions... Across interventionists, 90%\u201398% of the rated sessions received a score of 5, indicating that the intervention was provided to children as intended."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No attrition flow is reported (no information on how many of the originally randomized children completed posttest, or whether any data were missing/imputed), so completeness of outcome data cannot be verified even though analyses appear to use the full N = 94 (63 per pairwise contrast).",
+        "evidence_quote": "Note. N = 94."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were standardized, psychometrically validated emergent-literacy subtests administered identically (counterbalanced by language) in both groups by trained assessors blind to condition, with adequate-to-high internal consistency.",
+        "evidence_quote": "These research assistants were not involved in the implementation of the intervention, and they had no knowledge of the intervention conditions to which children were assigned."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "This is an unregistered secondary moderation analysis of previously published trial data involving many outcomes and 40+ interaction tests across two contrasts and two languages with no correction for multiplicity, and the authors themselves note the study was \"relatively underpowered to detect moderation effects,\" creating high risk that reported significant interactions are selectively emphasized/chance findings.",
+        "evidence_quote": "Of the 15 significant intervention effects, only four cross-language Initial Skill \u00d7 Intervention Condition interactions were significant."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although the underlying trial used random assignment with blinded, well-validated outcome assessment, the overall judgment is high risk, driven by Domain 5: this is an unregistered secondary subgroup/moderation analysis with many outcomes and dozens of uncorrected interaction tests in an admittedly underpowered sample. Additional some-concerns ratings arise from undescribed randomization/allocation procedures, unreported attrition, and unavoidable non-blinding of participants and interventionists."
+  },
+  {
+    "paper_id": "manual:ad85dcc7",
+    "paper_title": "69debe2a_j.ecresq.2017.12.008",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a cluster randomized controlled trial in which 31 classes from 12 kindergartens were randomly assigned to treatment (16 classes) or control (15 classes) using blocked randomization at the class level, blocked by city, kindergarten ranking, and entry age cohort (\"instead of complete randomization, we used a blocked randomization process at the class level\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Blocked cluster randomization is reported and baseline vocabulary/age/gender were balanced, but the actual sequence-generation mechanism and allocation concealment are not described, and in this cluster design the individual children to be tested were selected within classes (\"we randomly selected 8\u20139 Uyghur children to test\") apparently after cluster allocation, raising potential identification/recruitment bias.",
+        "evidence_quote": "\"instead of complete randomization, we used a blocked randomization process at the class level, blocked by city, the kindergarten ranking, and children's entry age cohort... There were no significant differences in children's ages, genders, or Uyghur or Chinese vocabulary scores between the treatment and control group at the beginning of the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Fidelity was monitored every three weeks and no contamination was detected, but teachers and schools were necessarily unblinded, the control group received no attention/active comparator (so extra instructional time, teacher training and repeated researcher visits could produce expectancy/Hawthorne effects), fidelity was partly teacher self-reported, and no explicit intention-to-treat statement is given.",
+        "evidence_quote": "\"The control group did not use any of the material provided to the treatment group. The teachers of treatment group reported that they were able to complete 82\u201390% of the curriculum plan... each weekday the XJP classes had an extra 20 min of language learning over the control classes, who used the same block of time for more general-purpose learning or free play\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was small (17/256, ~7%, balanced across arms: 127/134 vs 112/122 at wave 3), the reason given was unrelated to the intervention (family relocation), growth models use all available waves, and a multiple-imputation sensitivity analysis reproduced the findings.",
+        "evidence_quote": "\"we lost seventeen children in the second and third waves of tests. We ran the analysis with multiple imputations (Rubin, 2004) and found that the results of the XJP efficacy were consistent with the findings of models without imputed data\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome assessors were blinded and the same standardized protocols were used in both arms, but the instruments were unvalidated translations with one key outcome showing weak reliability (Uyghur EVT \u03b1 = 0.66) and strong floor effects requiring Tobit modelling, which introduces measurement-related uncertainty in the estimated effects.",
+        "evidence_quote": "\"The testers were blind to treatment and control conditions.\" ... \"though the psychometric properties of the vocabulary assessments used were acceptable, these are novel instruments that have not been standardized for this population or, in the case of the Uyghur assessments, for any group.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial pre-registration or analysis plan is mentioned; four outcome measures were tested with differing model specifications chosen post hoc (covariates and three-way interactions retained only where significant), the headline 0.68 effect size derives from a coefficient not shown in the tables, and the main abstract claims rest on 2 of 4 outcomes plus subgroup interactions the paper itself notes were underpowered.",
+        "evidence_quote": "\"Although the interaction terms of Excellent \u00d7 T (\u03b314) and Excellent \u00d7 XJP (\u03b305) were not statistically significant ... we keep them in the final model for the significant three-way interaction (Excellent \u00d7 T \u00d7 XJP).\" ... \"The unstandardized coefficient of 9.46 for the interaction of XJP and T (not reported in Table 2) corresponds to an effect size of 68% of a standard deviation per year.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "This cluster RCT was reasonably well executed in terms of blocked randomization, baseline balance, blinded testers, fidelity monitoring and low attrition with imputation checks, but the overall judgment is driven by high risk in selective reporting: there is no pre-registration or pre-specified analysis plan, four outcomes were analysed with post-hoc model specifications (covariates and three-way interactions retained only when significant), and the headline effect size comes from a coefficient not reported in the tables. Additional some-concerns arise from undescribed allocation concealment, an inactive no-treatment control with unblinded teachers and extra instructional time, and unvalidated translated vocabulary instruments with floor effects and low reliability for one key outcome."
+  },
+  {
+    "paper_id": "manual:624d053e",
+    "paper_title": "cd700304_spencer-et-al-2020-early-efficacy-of-multitiered-dual-language-instruction-promoting-preschoolers-spanish-and-english",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a cluster-randomized design in which intact Head Start classrooms were randomly assigned to treatment or control: \"The classrooms were randomly assigned to treatment and control groups at the completion of the consenting and screening process, resulting in 12 classrooms in the treatment group and 13 in the control group.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Cluster randomization occurred after consent/screening (reducing identification bias), but no detail is given on sequence generation or allocation concealment, and baseline imbalances favoring the treatment group were present on two of 15 pretests (Spanish Vocab B g = .53; Spanish EV g = .54) with several other non-trivial differences (up to g = .46), although pretest-adjusted analyses were used.",
+        "evidence_quote": "\"The classrooms were randomly assigned to treatment and control groups at the completion of the consenting and screening process, resulting in 12 classrooms in the treatment group and 13 in the control group.\" ... \"except for Spanish Vocabulary B, for which the treatment group had a significantly higher pretest mean (g = .53)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Teachers, children, and research staff were aware of condition, and substantial deviations occurred in the treatment arm (10 eligible children received only large-group instruction, chosen non-systematically by teachers; nine children received no Spanish instruction), although all randomized children were analyzed as assigned (intention-to-treat-like) and fidelity for delivered lessons was high (91%\u201398%); monitoring of the \"business as usual\" control condition was acknowledged as limited.",
+        "evidence_quote": "\"Although 10 of the 43 children who were identified as needing Tier 2 small-group support only received large-group instruction, these 10 children were included as research participants because they received part of the intended intervention\" ... \"In the three treatment classrooms that did not have a Spanish-speaking teacher or teaching assistant, the children only received English large- and small-group lessons\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were essentially complete (<1% missing) and the only attrition was 2 control children who moved away prior to the intervention, making bias from missingness implausible.",
+        "evidence_quote": "\"Less than 1% of the scores were missing overall (18/2754 = 0.0065, or 0.65%), and all available data were used in the multilevel model results that follow.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcome assessors were unblinded, were the same staff who coached teachers and observed fidelity, and several key outcomes (narrative retell scored in real time, researcher-designed proximal vocabulary measures, ASC answer ratings) involve subjective judgment, so knowledge of condition could plausibly have influenced scoring; no inter-rater reliability for scoring is reported.",
+        "evidence_quote": "\"Because they were all needed to observe fidelity, support teachers delivery of the intervention, and collect data, they were not blind to assignment.\" ... \"The RAs scored the children's retells in real time\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or analysis plan is cited, 15 outcome measures were tested with multiple possible operationalizations, and the chosen scoring rule (best of three parallel forms) plus repeated administrations across four time points create flexibility in the reported result, although all 15 outcomes including null results appear to be reported transparently.",
+        "evidence_quote": "\"the children were administered three of the NLM Listening parallel forms in a single session... However, only the retell with the highest score was used in the analysis\" ... \"Six parallel forms were administered, three at pre-intervention... The highest score was used for analysis.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by outcome measurement: research assistants who scored the subjectively rated language outcomes in real time also coached teachers and observed fidelity and were explicitly not blind to condition. Additional concerns arise from unreported allocation-concealment details with some baseline imbalance, treatment-arm deviations (10 children received only large-group instruction and three classrooms delivered no Spanish lessons), and absence of a pre-registered analysis plan across 15 outcomes; missing outcome data were negligible."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of treatment of acute malnutrition (wasting) in children aged 6 to 59 months delivered by lay health workers compared with health professionals in health facilities on recovery from wasting?",
+  "treatment_label": "Lay health worker delivered treatment",
+  "control_label": "Health professional facility-based treatment",
+  "outcome_description": "Proportion of children aged 6 to 59 months who recovered or were discharged cured from acute malnutrition/wasting at the end of treatment (using trial's own definition of recovery/cure).",
+  "positive_direction": "Higher recovery or cure rate among children treated by lay health workers compared with health professionals (RR > 1).",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "community health workers acute malnutrition wasting treatment trial",
+    "lay health worker severe acute malnutrition recovery controlled trial",
+    "community management acute malnutrition health facility comparison"
+  ],
+  "inclusion_criteria": [
+    "Children aged 6 to 59 months with acute malnutrition (wasting, including severe or moderate acute malnutrition).",
+    "Empirical comparative studies (randomised controlled trials, cluster-randomised trials, or non-randomised comparative studies) comparing treatment delivered by lay/community health workers versus health professionals in facilities.",
+    "Reports quantitative data on recovery or cure at the end of treatment."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols).",
+    "No comparison between lay health worker delivery and facility-based health professional delivery (e.g. both arms delivered by lay workers, or single-arm intervention studies).",
+    "No quantitative data on recovery or cure rates from acute malnutrition that allow computation of an effect size.",
+    "Studies conducted exclusively in adult populations or evaluating solely prevention of malnutrition rather than treatment of existing wasting."
+  ],
+  "moderators_to_extract": [
+    "Severity of acute malnutrition (SAM vs MAM vs combined)",
+    "Study design (individual RCT vs cluster RCT vs non-randomised controlled study)",
+    "Cadre of lay provider (paid community health worker vs unpaid volunteer)",
+    "Geographic region / country",
+    "Cluster adjustment status (adjusted in primary study vs unadjusted with ICC correction)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Risk ratio (RR) of recovery calculated as the risk of cure/recovery in the lay health worker arm divided by the risk in the health professional arm. For cluster-randomised trials without reported cluster adjustment, standard errors of log RR are inflated using design effect 1 + (m - 1) * ICC with assumed ICC = 0.02 (sensitivity analysis at 0.05). Arms oriented such that RR > 1 indicates higher recovery with lay health workers.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "recovery from wasting"
+}

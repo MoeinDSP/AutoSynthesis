@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people with acute stroke during hospital admission, what is the effect of multifaceted implementation interventions, compared with no implementation intervention or usual practice, on adherence to evidence-based recommendations for processes of care?",
+  "treatment_label": "Multifaceted implementation intervention (at least two implementation components, such as education, audit and feedback, local champions, protocols or clinical pathways, with or without care-delivery changes)",
+  "control_label": "No implementation intervention, usual care, or practice as normal",
+  "outcome_description": "The trial's primary adherence or quality-of-care process measure during the acute-stroke hospital admission, expressed as the post-intervention proportion of patients or eligible patients receiving the recommended process of care (number adherent/events divided by number of patients/totals in each arm) at the end of the intervention period. If several process measures are reported, select and document the trial-designated primary measure; if no measure is explicitly designated primary, apply a prespecified hierarchy based on the measure most central to the intervention and clearly document the choice. Do not use baseline data or patient clinical outcomes, costs, staff knowledge or satisfaction, or adherence measured after discharge.",
+  "positive_direction": "A positive treatment effect (RR greater than 1; equivalently, a positive log RR) means that the multifaceted implementation intervention increased adherence to evidence-based acute-stroke care compared with usual practice or no implementation intervention.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "acute stroke multifaceted implementation intervention randomized trial adherence",
+    "stroke hospital implementation education audit feedback champions controlled trial process of care",
+    "acute stroke clinical pathway protocol implementation cluster randomized quality of care"
+  ],
+  "inclusion_criteria": [
+    "Original randomised or cluster-randomised trials conducted in an acute-stroke hospital setting and comparing a multifaceted implementation intervention with no implementation intervention, usual care, or practice as normal.",
+    "Interventions comprising at least two implementation components, including combinations of education, audit and feedback, local champions, protocols, clinical pathways, or changes in care delivery.",
+    "Studies reporting a quantitative post-intervention, in-admission adherence or quality-of-care process outcome for patients or eligible patients, with data sufficient to estimate an effect size or a cluster-adjusted relative effect."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers), completely unrelated to acute-stroke hospital care, or conducted only in other conditions/settings.",
+    "No eligible comparison between a multifaceted implementation intervention and a control receiving no implementation intervention, usual care, or practice as normal; this includes uncontrolled before-and-after studies, nonrandomised studies, single-component interventions, and controls receiving another implementation strategy.",
+    "No quantitative outcome data capable of producing an effect size (such as events and totals, means and SDs, t/F-values, proportions, odds ratios, risk ratios, or an adjusted estimate with confidence interval).",
+    "Reports only ineligible outcomes, including death, disability, length of stay, other patient clinical outcomes, costs, staff knowledge or satisfaction, baseline-only adherence, or adherence measured after the hospital admission."
+  ],
+  "moderators_to_extract": [
+    "Randomisation unit and design (individual versus cluster randomised)",
+    "Implementation components and number of components",
+    "Primary process-of-care domain (for example thrombolysis, stroke-unit care, protocol bundle, or secondary-prevention process delivered in hospital)",
+    "Stroke population and eligibility definition (ischaemic, haemorrhagic, or mixed acute stroke)",
+    "Intervention duration and time from implementation start to outcome assessment",
+    "Risk-of-bias features and cluster-analysis method, including reported or assumed ICC and average cluster size"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool adherence as a risk ratio (RR = intervention risk/control risk) with a random-effects model fitted on the log-RR scale and report pooled RR with 95% CI and heterogeneity. Extract post-intervention patient-level events and totals, not hospitals or clusters; for before-and-after presentations, use only the post-intervention period. For multi-arm trials, retain the eligible multifaceted-intervention and control groups and combine multiple eligible intervention arms while avoiding double-counting the control. For cluster-randomised trials, preferentially use a reported cluster-adjusted RR and its CI, deriving SE[log(RR)] from the CI. If only an adjusted OR is reported, convert it to an RR only when baseline control risk is available; otherwise do not treat it as an RR and seek compatible data. If no adjusted relative effect is available, calculate the patient-level log RR and inflate its variance (equivalently its SE by the square root) using design effect DE = 1 + (average cluster size - 1) \u00d7 ICC; use the trial-reported ICC or, if absent, assume ICC = 0.05 and label this assumption. Conduct sensitivity analyses for the assumed ICC and, where feasible, outcome-selection decisions. Record the selected primary process measure for every trial. Assess risk of bias with RoB 2 (including the cluster-trial variant), inspect reporting bias where the number of studies permits, and report study selection and exclusions using a PRISMA 2020 flow diagram.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "in-hospital adherence to evidence-based acute-stroke care"
+}

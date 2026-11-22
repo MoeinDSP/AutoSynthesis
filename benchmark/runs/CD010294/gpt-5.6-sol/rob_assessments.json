@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:07fb7479",
+    "paper_title": "6716069d_cjasn-18-036",
+    "design_classification": "randomized",
+    "design_rationale": "The phase A population was explicitly assigned in a 1:1 ratio to tolvaptan or matching placebo and described as randomized, double-blind, and placebo-controlled.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation and broadly similar baseline characteristics are reported, but the main text defers the sequence-generation procedure to unavailable supplemental methods and does not describe allocation concealment; some prognostic imbalances were also present.",
+        "evidence_quote": "The phase A population was randomized to tolvaptan or a matching placebo in a 1:1 ratio (see the Supplemental Methods for the randomization procedure)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Despite double blinding, conspicuous aquaretic effects could reveal assignment, six tolvaptan participants had pharmacokinetically verified nonadherence, and the modified intention-to-treat/observed-values analysis was not a full intention-to-treat analysis, although adherence by returned medication was generally high.",
+        "evidence_quote": "At month 12, five additional participants (for a total of six of 40 participants [15%]) had DM-4103 concentrations indicating limited to no dosing within the previous weeks."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 91 randomized participants contributed baseline and at least one postbaseline efficacy assessment, week-1 coprimary outcomes were available for nearly all participants, and 92% completed the randomized phase, making material bias from missing outcome data unlikely for the principal outcomes.",
+        "evidence_quote": "All randomized participants took \u22651 dose of the study drug and had a baseline and \u22651 postbaseline efficacy evaluation and were therefore included in the safety and primary efficacy analyses."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The coprimary laboratory outcomes were objectively measured using standardized collection, and the principal imaging outcome was assessed centrally by readers blinded to treatment assignment, with the same methods used across arms.",
+        "evidence_quote": "Scans were read at a central laboratory by individuals blinded to treatment assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial was registered and endpoints were identified, all between-group statistical comparisons were explicitly post hoc and exploratory, and numerous alternative analyses and outcome time points create substantial opportunity for selective reporting.",
+        "evidence_quote": "As the study was designed without formal efficacy testing, statistical comparisons between treatment groups (described in the Supplemental Methods) were post hoc and exploratory."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the reported between-group statistical comparisons were post hoc and exploratory amid multiple outcomes, time points, and alternative analyses, creating high risk of selective reporting. Additional concerns arise from incompletely reported allocation methods, likely functional unblinding from aquaretic effects, verified nonadherence, and use of a modified rather than full intention-to-treat analysis."
+  },
+  {
+    "paper_id": "manual:ad5a3fc4",
+    "paper_title": "00ab885b_main",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that subjects were randomized in a 1:1:1:1 ratio to three active tolvaptan regimens or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation and balanced baseline characteristics were reported, but the method used to generate the sequence and conceal allocation was not described.",
+        "evidence_quote": "subjects were randomized in a 1:1:1:1 ratio to tolvaptan MR 80 mg once daily (QD), tolvaptan MR 50 mg QD, tolvaptan IR 60/30 mg in a daily split dose, or placebo"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-dummy masking reduced the risk of behavior-related deviations, but adherence differed substantially across groups and the observed-case analysis may not fully preserve assignment despite a sensitivity analysis including off-treatment data.",
+        "evidence_quote": "The frequency of subject-reported >90% medication compliance in each treatment group was as follows: MR 50 mg, 82.2%; MR 80 mg, 73.3%; IR 60/30 mg, 54.5%; and placebo, 69.8%"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Week-3 primary outcome data were available for about 94% of randomized participants, attrition was limited, and an all-data sensitivity analysis produced similar week-3 findings.",
+        "evidence_quote": "Mean percentage changes in TKV from baseline to week 3 in the sensitivity analysis were similar to those obtained in the primary analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively measured by scheduled magnetic resonance imaging in a double-blind, placebo-masked trial, making differential measurement unlikely.",
+        "evidence_quote": "Magnetic resonance imaging to assess kidney volume was performed during the screening period, at week 3, and at week 8."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Endpoints and hierarchical analyses were described as prespecified and the trial was registered, but no accessible protocol or prespecified statistical analysis plan is presented to rule out selective choice among analyses, and one secondary endpoint was changed to domain-level reporting.",
+        "evidence_quote": "To comply with ADPKD-UIS scoring instructions, the latter endpoint was replaced with reporting of individual ADPKD-UIS domain scores"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by absent details on sequence generation/allocation concealment, substantial differential adherence with an observed-case primary analysis, and incomplete assurance against selective reporting. Missing primary-outcome data were limited and outcome measurement was objective and masked."
+  },
+  {
+    "paper_id": "manual:7c4ba40b",
+    "paper_title": "5ccb94de_NEJMoa1205511",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that 1445 patients were randomly assigned centrally in a 2:1 ratio to tolvaptan or placebo, with prespecified stratification factors.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Central random assignment with stratification and balanced baseline characteristics supports a valid process, but the report does not specify how the random sequence was generated or explicitly state that allocation was concealed until enrollment.",
+        "evidence_quote": "Randomization was carried out centrally, with patients randomly assigned in a 2:1 ratio to receive tolvaptan or placebo and with stratification according to hypertension status (present vs. absent), creatinine clearance (<80 vs. \u226580 ml per minute), total kidney volume (<1000 vs. \u22651000 ml), and geographic area."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was double-blind and analyses were described as intention-to-treat, but marked aquaretic effects could reveal treatment assignment and discontinuation was differential (23.0% versus 13.8%), while efficacy analyses used data obtained during treatment and censored patients at withdrawal.",
+        "evidence_quote": "The primary analyses of all efficacy end points were prespecified as intention-to-treat analyses of data obtained during the treatment period, with sensitivity analyses that included pretreatment and post-treatment data in the intention-to-treat population."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary outcome was unavailable for 9.6% of randomized participants because of early withdrawal without measurable follow-up MRI, with substantially greater treatment discontinuation in the tolvaptan arm due largely to adverse events, making outcome-dependent differential missingness plausible.",
+        "evidence_quote": "The primary efficacy analysis included 1307 of the 1445 patients (90.4%), with 138 patients excluded because of early withdrawal and a lack of measurable follow-up MRI scans."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively measured using standardized serial MRI scans on the same schedule across groups in a double-blind placebo-controlled trial, making differential measurement unlikely.",
+        "evidence_quote": "Standardized MRI scans of the kidneys were obtained, as described in the protocol, at baseline and at months 12, 24, and 36 (\u00b12 weeks)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary outcome, analysis model, sensitivity analyses, and hierarchical sequential testing were prespecified in a publicly registered trial and an available, previously published protocol, with authors attesting fidelity to that protocol.",
+        "evidence_quote": "The primary analyses of all efficacy end points were prespecified as intention-to-treat analyses of data obtained during the treatment period, with sensitivity analyses that included pretreatment and post-treatment data in the intention-to-treat population. Study end points were ordered hierarchically and tested sequentially with the use of gatekeeping procedures."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by missing primary-outcome MRI data for 9.6% of randomized participants amid differential, adverse-event-related discontinuation, making bias from missingness plausible. There are also some concerns about incompletely reported sequence generation/concealment and possible unblinding and deviations related to conspicuous aquaretic effects."
+  },
+  {
+    "paper_id": "manual:da554ede",
+    "paper_title": "3e5992a3_NEJMoa1710030",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 1370 eligible participants were randomly assigned in a 1:1 ratio to tolvaptan or matching placebo, with stratification by baseline estimated GFR, age, and total kidney volume.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment, stratification, matching placebo, and balanced baseline characteristics are reported, but the method used to generate the allocation sequence and the mechanism ensuring allocation concealment are not described in the supplied text.",
+        "evidence_quote": "Patients who could take tolvaptan at daily morning and afternoon doses of 60 mg and 30 mg, respectively, or 90 mg and 30 mg, respectively, were randomly assigned in a 1:1 ratio, in a double-blind fashion, to receive tolvaptan or matching placebo for 12 months."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was double-blind and efficacy analyses followed a modified intention-to-treat approach, but recognizable aquaretic and hepatic effects could reveal assignment and treatment discontinuation was substantially more common with tolvaptan, while 39 randomized participants were excluded from the primary analysis.",
+        "evidence_quote": "During the double-blind period, adverse events led to the discontinuation of the trial regimen in 65 of 681 patients (9.5%) receiving tolvaptan, as compared with 15 of 685 (2.2%) receiving placebo."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data were available for 97.2% of randomized participants, month-12 completion was nearly identical between groups, and prespecified sensitivity analyses supported the primary result, making material bias from missing outcomes unlikely.",
+        "evidence_quote": "Of the 1370 patients who underwent randomization, 1331 (97.2%) were included in the primary efficacy analysis, 1362 (99.4%) in the key secondary efficacy analysis, and 1366 (99.7%) in the safety analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Estimated GFR was derived from centrally measured serum creatinine using a standardized method and prespecified equation, with repeated baseline and follow-up measurements applied consistently across blinded groups.",
+        "evidence_quote": "Serum creatinine levels were measured centrally with the use of the isotope dilution mass spectrometry\u2013traceable enzymatic method and were reported to two decimal points."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, its protocol and statistical analysis plan were available, outcomes were hierarchically ordered, and the primary analysis and sensitivity/subgroup analyses were described as prespecified, reducing concern about selective reporting.",
+        "evidence_quote": "The end points of the trial were ordered hierarchically and tested sequentially with gatekeeping procedures; if the primary end point was found to be significant, analysis of the secondary end point would be justified."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by absent details on sequence generation/allocation concealment and by differential treatment discontinuation with possible unblinding from characteristic adverse effects. Missing outcome data were limited, outcome measurement was objective and standardized, and prospective protocol-based reporting reduced concerns in the remaining domains."
+  }
+]

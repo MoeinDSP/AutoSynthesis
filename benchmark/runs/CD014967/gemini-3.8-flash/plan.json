@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of phenobarbital compared with levetiracetam, each used as first-line anti-seizure medication, on all-cause mortality before hospital discharge in neonates with seizures?",
+  "treatment_label": "Phenobarbital",
+  "control_label": "Levetiracetam",
+  "outcome_description": "All-cause mortality prior to hospital discharge (number of neonates who died from any cause between randomisation and initial hospital/NICU discharge out of the total randomised or analysed in each arm)",
+  "positive_direction": "Higher risk of all-cause mortality before discharge with phenobarbital compared to levetiracetam (RR > 1 indicates higher mortality with phenobarbital, favouring levetiracetam)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "phenobarbital levetiracetam neonatal seizures randomized trial",
+    "phenobarbitone levetiracetam newborn seizures mortality trial",
+    "levetiracetam vs phenobarbital neonates controlled comparison"
+  ],
+  "inclusion_criteria": [
+    "Randomised or quasi-randomised controlled trials involving neonates (up to 28 days of age, term or preterm) with clinically or electrographically diagnosed seizures",
+    "Direct comparison of phenobarbital (or phenobarbitone) versus levetiracetam as first-line anti-seizure monotherapy",
+    "Reporting of all-cause mortality prior to hospital discharge or initial NICU discharge for the randomised/analysed groups"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, comments, or study protocols without results)",
+    "Studies not evaluating phenobarbital versus levetiracetam as first-line anti-seizure medication (e.g. seizure prophylaxis, second-line or add-on therapy after failure of a prior drug, or non-comparative cohorts)",
+    "No quantitative outcome data reported on all-cause mortality before hospital/NICU discharge (studies omitting mortality reporting entirely are excluded rather than imputed as zero)",
+    "Non-neonatal populations (older infants or pediatric patients) or completely unrelated clinical topics"
+  ],
+  "moderators_to_extract": [
+    "Gestational age (term vs preterm neonates)",
+    "Seizure diagnosis method (electrographic/aEEG vs clinical diagnosis)",
+    "Seizure etiology (proportion with hypoxic-ischemic encephalopathy)",
+    "Drug dosing and titration regimens",
+    "Study risk of bias / trial quality"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Risk Ratio (RR) calculated as the risk of mortality in the phenobarbital arm divided by the risk in the levetiracetam arm. RR > 1 indicates higher mortality with phenobarbital (favours levetiracetam). Analyses follow intention-to-treat principles based on the original randomized arm, including in crossover or add-on settings. Studies with zero events in an arm are retained with zero events.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality before hospital discharge"
+}

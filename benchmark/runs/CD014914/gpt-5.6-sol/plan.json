@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults and children with a naturally acquired common cold or acute upper respiratory tract infection, does zinc treatment initiated after symptom onset, compared with placebo, reduce the duration of the illness in randomized placebo-controlled trials?",
+  "treatment_label": "Zinc initiated after symptom onset (one main zinc arm per trial; lozenge, nasal gel, or nasal spray)",
+  "control_label": "Matching placebo group",
+  "outcome_description": "Overall cold duration in days from the start of treatment until complete symptom resolution or until the participant was considered well, according to each study's primary definition. Extract the mean, SD, and randomized group size for one main zinc arm and one placebo arm. Convert a reported SE or 95% CI to an SD using the relevant group size. Do not use individual-symptom resolution times, symptom-severity scores, cytokine outcomes, prevention outcomes, or median-only duration data. Pool unscaled mean differences calculated as zinc minus placebo, so negative MD values favor zinc.",
+  "positive_direction": "For a direction-harmonized Hedges g, a positive value would mean that zinc shortens overall cold duration and therefore favors zinc; for the requested untransformed mean difference in days (zinc minus placebo), negative values favor zinc.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "zinc common cold randomized placebo trial duration",
+    "zinc lozenge upper respiratory infection controlled trial days resolution",
+    "intranasal zinc gel spray common cold placebo duration"
+  ],
+  "inclusion_criteria": [
+    "Original randomized placebo-controlled trials comparing zinc with placebo in adults or children with a naturally acquired common cold or acute upper respiratory tract infection, with treatment begun after symptom onset.",
+    "Trials of any eligible zinc route, formulation, dose, or age group, including lozenges, nasal gel, and nasal spray; include eligible trials identified in the uploaded papers.",
+    "Studies reporting a quantitative overall illness-duration outcome in days from treatment initiation to resolution or being well, with extractable or derivable mean, variability, and randomized group-size data for zinc and placebo."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, narrative reviews, protocols, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between a zinc treatment group and a placebo control group, including uncontrolled trials and comparisons lacking a placebo arm.",
+    "No quantitative overall-cold-duration data capable of producing the requested effect size: exclude reports without means and SDs or SDs derivable from SEs/95% CIs and group sizes; exclude median-only reports rather than converting medians to means.",
+    "Completely unrelated to treatment of a naturally acquired common cold/acute upper respiratory tract infection after symptom onset, including prevention or long-term supplementation outcomes and reports limited to individual symptoms, severity scores, or biomarkers."
+  ],
+  "moderators_to_extract": [
+    "Route and formulation of zinc administration (lozenge, nasal gel, or nasal spray)",
+    "Elemental zinc dose and dosing frequency",
+    "Participant age group (children, adults, or mixed)",
+    "Time from symptom onset to treatment initiation",
+    "Definition used for overall illness resolution",
+    "Zinc salt or compound and placebo composition"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "Use the mean difference in days without rescaling: MD = mean duration in the zinc group minus mean duration in the placebo group. Thus, negative MD values favor zinc. Use randomized group sizes with the mean and SD; derive SD from SE as SD = SE \u00d7 sqrt(n), or from a two-sided 95% CI around a group mean as SD = sqrt(n) \u00d7 (upper limit \u2212 lower limit)/(2 \u00d7 t critical value with n\u22121 degrees of freedom), using 1.96 only when an appropriate t value cannot be applied. Select the primary overall-cold-duration definition. Use one main zinc arm and one placebo arm per trial; when several zinc doses are reported, select the arm matching the paper's main treatment regimen. Do not combine multiple zinc arms, convert medians, rescale days, or pool prevention outcomes. Pool MDs with 95% CIs, assess heterogeneity (tau-squared, I-squared, and Cochran Q), use a random-effects model as the primary synthesis with a fixed-effect sensitivity analysis when appropriate, investigate prespecified moderators if enough studies are available, assess risk of bias with RoB 2, and examine small-study effects with funnel plots and an appropriate asymmetry test only when at least 10 studies are available. Report selection and exclusions in a PRISMA 2020 flow diagram and provide study characteristics, outcome-selection decisions, and certainty of evidence.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall cold duration"
+}

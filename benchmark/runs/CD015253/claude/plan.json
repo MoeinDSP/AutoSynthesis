@@ -1,0 +1,38 @@
+{
+  "research_question": "In children with otitis media with effusion (OME), does autoinflation (Valsalva-type middle ear inflation through the nose using a balloon, carnival blower or commercial device), compared with watchful waiting or no treatment, reduce the proportion with persistent middle ear effusion at the first follow-up at or before 6 weeks?",
+  "treatment_label": "Autoinflation (nasal balloon, carnival blower or commercial autoinflation device)",
+  "control_label": "Watchful waiting / no treatment / standard care only",
+  "outcome_description": "Number of children (or ears, as reported) with persistent middle ear effusion at the first follow-up at or before 6 weeks, out of the number randomised in each arm. Persistence is defined as a flat (type B) tympanogram, type B or C2 tympanogram, or effusion still visible on pneumatic otoscopy; resolution/improvement is its complement (if a paper reports numbers resolved or improved, convert to persistence as total minus resolved). Use the follow-up closest to 4 weeks within the 2-6 week window; if several times are reported in that window, use the latest one. Prefer per-child data; if only per-ear data are reported for children with bilateral disease, divide both events and totals by the design effect 1 + (average ears per child - 1) x 0.5 and note that the adjustment was applied.",
+  "positive_direction": "A positive Hedges g (equivalently RR &lt; 1) means autoinflation produced less persistent middle ear effusion than watchful waiting/no treatment at up to 6 weeks, i.e. the result favours autoinflation.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "autoinflation otitis media with effusion randomised trial children",
+    "nasal balloon Politzer middle ear inflation glue ear controlled trial",
+    "autoinflation tympanogram resolution effusion children outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in children (under 18 years) with otitis media with effusion / glue ear",
+    "Compares an autoinflation intervention (nasal balloon, carnival blower, or commercial autoinflation device) with watchful waiting, no treatment or standard care only (multi-arm trials: autoinflation and no-treatment arms only)",
+    "Reports any quantitative data allowing calculation of the proportion with persistent or resolved middle ear effusion (tympanometry or pneumatic otoscopy) at a follow-up at or before 6 weeks"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, theoretical or methodological paper); duplicate reports of the same trial are counted once, although a separate pilot trial reported in the same document counts as its own study",
+    "No comparison between autoinflation and an untreated control condition (e.g. control is sham autoinflation, placebo, or another active treatment; or autoinflation given as an add-on to other treatment in only one arm)",
+    "No quantitative outcome data from which an effect size can be computed (no events/totals, proportions, means+SDs, t/F values or odds ratios for effusion persistence at or before 6 weeks)",
+    "Unrelated to the research topic: adults, surgical treatments (grommets/ventilation tubes, adenoidectomy), or outcomes limited to hearing, symptoms, quality of life, adverse events, or persistence only at 6 weeks to 3 months or later"
+  ],
+  "moderators_to_extract": [
+    "Autoinflation device type (nasal balloon vs carnival blower vs commercial device)",
+    "Unit of analysis (per child vs per ear with design-effect adjustment)",
+    "Diagnostic criterion for persistence (type B tympanogram, B or C2, pneumatic otoscopy)",
+    "Exact follow-up timing within the 2-6 week window",
+    "Setting (primary care vs secondary/ENT clinic)",
+    "Sample size category and risk of bias / allocation concealment"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool as a risk ratio with a random-effects model (DerSimonian-Laird or REML), events = children (or design-effect-adjusted ears) with persistent effusion, totals = number per arm. RR &lt; 1 favours autoinflation. Per-ear data adjusted by the design effect 1 + (mean ears per child - 1) x 0.5; per-child data preferred where both are available.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "persistent otitis media with effusion at up to 6 weeks"
+}

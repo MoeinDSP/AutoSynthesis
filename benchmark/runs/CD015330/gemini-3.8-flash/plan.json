@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of dietary and physical activity interventions, compared with control, on BMI at short-term follow-up in adolescents aged 12 to 18?",
+  "treatment_label": "Dietary and physical activity intervention",
+  "control_label": "Control (usual care, waitlist, or no intervention)",
+  "outcome_description": "Body mass index (BMI, BMI z-score, or BMI percentile) measured at short-term follow-up",
+  "positive_direction": "A positive effect size indicates a greater reduction in BMI in the intervention group compared to the control group (favoring the dietary and physical activity intervention).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "diet physical activity adolescent BMI intervention trial",
+    "combined dietary physical activity adolescents body mass index controlled trial",
+    "lifestyle intervention adolescent BMI comparison evaluation"
+  ],
+  "inclusion_criteria": [
+    "Studies evaluating combined dietary and physical activity interventions in adolescents aged 12 to 18 years",
+    "Controlled study designs (randomized controlled trials, non-randomized controlled trials, or quasi-experimental controlled studies) comparing the intervention to a control group",
+    "Studies reporting quantitative body mass index (BMI, BMI z-score, or BMI percentile) outcomes at short-term follow-up, either as raw group means and SDs or adjusted mean differences with SE/CI"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, commentaries, or theoretical papers)",
+    "No comparison between an intervention group and a concurrent control condition",
+    "No quantitative outcome data on BMI or weight status that can be used to calculate an effect size",
+    "Completely unrelated to combined dietary and physical activity interventions in adolescents aged 12 to 18"
+  ],
+  "moderators_to_extract": [
+    "Study design (RCT vs non-randomized / quasi-experimental)",
+    "Intervention setting (school, healthcare/clinical, community, home)",
+    "Baseline weight status (universal/general population vs overweight/obese target population)",
+    "Intervention duration (in weeks or months)",
+    "Follow-up timing within short-term window (immediate post-intervention vs up to 6 months)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Where studies report adjusted mean differences with standard errors or confidence intervals (e.g., from ANCOVA or regression models) instead of unadjusted group means and standard deviations, extract the adjusted mean difference and standard error/CI directly.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "body mass index"
+}

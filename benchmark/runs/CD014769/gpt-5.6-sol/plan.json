@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults receiving statins for primary prevention, what is the effect of rosuvastatin, atorvastatin, or pravastatin versus placebo on the number of participants experiencing deep vein thrombosis during follow-up, using venous thromboembolism or a composite of DVT or pulmonary embolism only when no separate DVT count is reported, with random-effects odds ratios pooled separately by statin type and no overall estimate across statins?",
+  "treatment_label": "Statin therapy for primary prevention, analyzed in separate rosuvastatin, atorvastatin, and pravastatin subgroups",
+  "control_label": "Placebo",
+  "outcome_description": "Number of randomized participants with at least one DVT event during trial follow-up, out of the number randomized in each arm. Use the paper's participant-level DVT count when available. If no separate DVT count is given, use the reported participant count for VTE or 'DVT or pulmonary embolism' and record the exact outcome definition. Prefer adjudicated or definite events; count participants rather than episodes. Extract zero events when explicitly reported, with randomized arm denominators. Search the full report, including results text, safety/adverse-event and secondary-outcome tables, and appendices. Exclude a trial from outcome synthesis if no venous-thrombosis outcome is reported anywhere in the full PDF. Do not use pulmonary embolism alone, bleeding, myopathy, mortality, or other outcomes.",
+  "positive_direction": "A positive standardized effect would mean fewer DVT or eligible VTE events with the statin than with placebo; for the requested odds-ratio analysis, treatment benefit is represented by OR < 1.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "statin placebo randomized trial deep vein thrombosis events",
+    "rosuvastatin atorvastatin pravastatin placebo venous thromboembolism trial",
+    "statin primary prevention controlled trial DVT VTE outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomized, placebo-controlled trials comparing rosuvastatin, atorvastatin, or pravastatin with placebo in adults receiving the statin for primary prevention.",
+    "Trials reporting a participant-level count for DVT or, if separate DVT data are unavailable, VTE or a composite of DVT or pulmonary embolism during follow-up, including explicitly reported zero events.",
+    "Reports with randomized arm totals and sufficient quantitative event information to calculate a statin-versus-placebo odds ratio."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No randomized comparison between an eligible statin treatment arm and a placebo control arm.",
+    "No quantitative participant-level venous-thrombosis outcome data capable of producing an effect size, such as event counts and arm totals, proportions, or an odds ratio; this includes full reports that do not mention any venous-thrombosis outcome.",
+    "Completely unrelated to the research topic, including nonadult populations, non-primary-prevention statin use, statins other than rosuvastatin, atorvastatin, or pravastatin, or reports limited to pulmonary embolism alone or unrelated outcomes."
+  ],
+  "moderators_to_extract": [
+    "Statin type and dose",
+    "Length of follow-up",
+    "Exact venous-thrombosis outcome definition used (DVT, VTE, or DVT-or-pulmonary-embolism composite)",
+    "Event ascertainment and adjudication status",
+    "Population baseline thrombotic and cardiovascular risk characteristics",
+    "Trial sample size"
+  ],
+  "search_start_year": 1985,
+  "effect_size_note": "Extract 2\u00d72 data as participants with an eligible event and participants without an event, using the number randomized as each arm's denominator and assigning arms by treatment identity rather than table position. Calculate odds ratios for statin versus placebo so OR < 1 indicates fewer events with statin. Pool with a random-effects model separately within rosuvastatin, atorvastatin, and pravastatin subgroups. Do not calculate a combined estimate across statin types. Retain eligible double-zero trials in the extraction table and report them, but handle them according to the prespecified zero-event method because they do not directly inform a conventional odds ratio; document any continuity correction or alternative random-effects binary-data method used. Record the exact substituted definition whenever VTE or 'DVT or pulmonary embolism' is used because separate DVT counts are unavailable. Prefer adjudicated or definite participant counts, never episode counts.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "deep vein thrombosis"
+}

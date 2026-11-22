@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of probiotics, compared with no active treatment, placebo, or usual care, on self-reported improvement in constipation (proportion of participants improved)?",
+  "treatment_label": "Probiotics",
+  "control_label": "Placebo, no active treatment, or usual care",
+  "outcome_description": "Proportion of participants with self-reported improvement in constipation symptoms",
+  "positive_direction": "A risk ratio greater than 1.0 (RR > 1) indicates a higher likelihood of self-reported improvement in constipation in the probiotics group compared to control.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "probiotics constipation improvement trial",
+    "probiotic treatment functional constipation controlled comparison",
+    "probiotics placebo constipation outcome quantitative"
+  ],
+  "inclusion_criteria": [
+    "Empirical trials evaluating the effect of probiotics on constipation",
+    "Comparison of a probiotic intervention group to a placebo, no active treatment, or usual care control group",
+    "Reporting quantitative data on self-reported improvement or global symptom improvement in constipation"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded)",
+    "No comparison between a probiotic intervention and an inactive control condition (e.g., placebo, no active treatment, or usual care), or evaluating non-probiotic interventions (such as assessment-based nursing interventions)",
+    "No quantitative outcome data to calculate a risk ratio (missing event counts and sample sizes for self-reported improvement)",
+    "Completely unrelated to the treatment of constipation"
+  ],
+  "moderators_to_extract": [
+    "probiotic strain composition (single-strain vs. multi-strain)",
+    "daily dose (CFU/day)",
+    "intervention duration (weeks)",
+    "patient population (adults, pediatric, elderly, or functional constipation definition)",
+    "control condition type (placebo vs. usual care / no treatment)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Binary outcome pooled as Risk Ratio (RR) using the number of participants reporting improvement in constipation out of the total randomized per arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-reported improvement in constipation"
+}

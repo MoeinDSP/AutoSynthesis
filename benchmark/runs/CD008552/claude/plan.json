@@ -1,0 +1,40 @@
+{
+  "research_question": "What is the short-term effect (<12 months post-intervention) of child-feeding interventions, compared with no-intervention control, on children's vegetable intake?",
+  "treatment_label": "Child-feeding intervention (e.g. repeated exposure, parent feeding-practice training, rewards/modelling, nutrition education targeting feeding)",
+  "control_label": "No-intervention / usual care control",
+  "outcome_description": "Children's vegetable intake measured within 12 months of intervention end, by any quantitative measure (grams consumed, servings/day, portions, frequency of intake, weighed plate waste, 24-h recall, food frequency questionnaire, parent- or child-reported vegetable consumption, or vegetable acceptance/consumption at a test meal).",
+  "positive_direction": "A positive Hedges g means children receiving the feeding intervention consumed MORE vegetables than no-intervention controls at short-term follow-up.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "child feeding intervention vegetable intake randomized controlled trial",
+    "repeated exposure vegetable consumption children experiment",
+    "parent feeding practices nutrition education trial children vegetable intake outcome"
+  ],
+  "inclusion_criteria": [
+    "Study involves children (infancy through adolescence) and delivers some form of feeding, parent-feeding, or child nutrition intervention",
+    "Reports some quantitative measure of vegetable intake, consumption, or acceptance (alone or within fruit-and-vegetable measures)",
+    "Includes a comparison group that received no intervention, usual care, waitlist, or minimal/attention control"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, or purely theoretical paper)",
+    "No comparison between an intervention condition and a control condition (e.g. single-arm pre-post only)",
+    "No quantitative outcome data usable for an effect size (no means+SDs, t/F values, proportions, or odds ratios reported or derivable)",
+    "Reports only long-term follow-up data collected 12 months or more after the intervention ended, with no short-term (<12 month) vegetable intake measure",
+    "Completely unrelated to child feeding or children's vegetable intake"
+  ],
+  "moderators_to_extract": [
+    "Intervention type (repeated exposure, reward/modelling, parent training, multicomponent education)",
+    "Child age group (infant/preschool/school-age/adolescent)",
+    "Intervention setting (home, childcare/preschool, school, clinic)",
+    "Outcome measurement method (objective weighed intake vs self/parent report)",
+    "Intervention duration and length of follow-up (weeks)",
+    "Sample size category",
+    "Study design (RCT vs quasi-experimental)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a standardized mean difference (Hedges g-corrected SMD) because studies use heterogeneous vegetable intake metrics (grams, servings, frequency scores). Where a study reports both vegetable-only and combined fruit-and-vegetable intake, prefer the vegetable-only measure. Use only the earliest post-intervention assessment occurring less than 12 months after intervention end; exclude \u226512-month follow-up data.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "children's vegetable intake"
+}

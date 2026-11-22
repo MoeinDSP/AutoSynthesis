@@ -1,0 +1,38 @@
+{
+  "research_question": "In women with recurrent urinary tract infections, do cranberry products (juice, capsules, tablets or powder, any dose) compared with placebo, no treatment or a non-active control reduce the proportion of participants experiencing at least one symptomatic, culture-verified UTI during follow-up?",
+  "treatment_label": "Cranberry product (juice, capsules, tablets or powder, any dose)",
+  "control_label": "Placebo, no treatment or non-active control",
+  "outcome_description": "Number of participants with at least one symptomatic, culture-verified urinary tract infection during the whole study follow-up period (events) out of the number of participants analysed in each arm (total). Participants, not episodes; intention-to-treat sample where reported, otherwise the analysed sample as reported by the paper. Where UTI is reported at several follow-up times, the total over the whole study period (longest on-treatment follow-up) is used. Multi-arm trials with several cranberry arms are combined by summing events and participants; only placebo/no-treatment arms serve as control. Asymptomatic bacteriuria, bacteriuria alone, symptoms-only definitions, adverse effects, adherence, dropouts, urinary E. coli counts and antibiotic use are not pooled.",
+  "positive_direction": "A positive Hedges g (equivalently a risk ratio below 1) means fewer women experienced a symptomatic, culture-verified UTI in the cranberry arm than in the placebo/no-treatment arm \u2014 i.e. the result favours cranberry.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cranberry recurrent urinary tract infection randomized controlled trial women",
+    "cranberry juice capsules prevention UTI placebo trial",
+    "proanthocyanidin cranberry supplement urinary tract infection prophylaxis trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in women with a history of recurrent urinary tract infection (e.g. 2 or more episodes in a year or 3 or more in two years), including both currently infected and infection-free women at baseline",
+    "Compares any cranberry product (juice, capsules, tablets, powder, any dose) with placebo, no treatment or another non-active control",
+    "Reports quantitative data allowing calculation of the number of participants with at least one symptomatic, culture-verified UTI out of the number analysed in each arm"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, theoretical or protocol paper)",
+    "No comparison between a cranberry treatment arm and a placebo/no-treatment/non-active control arm (e.g. cranberry versus antibiotic or cranberry versus probiotic only), or not a randomised controlled trial",
+    "No quantitative outcome data from which an effect size can be computed (no participant-level event counts, proportions, or odds/risk ratios for symptomatic culture-verified UTI; episode counts or incidence rates only)",
+    "Population outside scope (children, pregnant women, institutionalised older people, neurogenic bladder, indwelling catheters) or completely unrelated to cranberry and urinary tract infection"
+  ],
+  "moderators_to_extract": [
+    "Cranberry formulation (juice vs capsule/tablet/powder)",
+    "Dose or proanthocyanidin content",
+    "Duration of treatment/follow-up",
+    "Control type (placebo vs no treatment/non-active)",
+    "Baseline infection status (currently infected vs infection-free)",
+    "Sample size category and risk-of-bias rating"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio with a random-effects model (DerSimonian\u2013Laird or REML) on participant-level event counts; RR < 1 favours cranberry. Combine multiple cranberry arms by summing events and totals; use only placebo/no-treatment arms as control.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "symptomatic culture-verified urinary tract infection"
+}

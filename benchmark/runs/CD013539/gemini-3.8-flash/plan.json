@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of bevacizumab biosimilar compared with bevacizumab originator on progression-free survival in adults with cancer?",
+  "treatment_label": "bevacizumab biosimilar",
+  "control_label": "bevacizumab originator",
+  "outcome_description": "Progression-free survival (PFS) assessed as hazard ratio (HR) of disease progression or death.",
+  "positive_direction": "Favorable progression-free survival for bevacizumab biosimilar (lower hazard of disease progression or death compared to originator bevacizumab).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "bevacizumab biosimilar originator progression-free survival trial",
+    "bevacizumab biosimilar reference product cancer comparative trial",
+    "bevacizumab biosimilar randomized controlled trial progression-free survival"
+  ],
+  "inclusion_criteria": [
+    "Comparative clinical trials or randomized controlled trials evaluating adult cancer patients.",
+    "Direct comparison of any bevacizumab biosimilar to originator (reference) bevacizumab.",
+    "Quantitative progression-free survival data reported as hazard ratios with confidence intervals or standard errors."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, conference abstracts without extractable data, editorials, and commentary).",
+    "No direct comparison between a bevacizumab biosimilar and originator bevacizumab.",
+    "No quantitative outcome data that can produce a progression-free survival hazard ratio and associated measure of variance (95% CI or SE).",
+    "Preclinical, in vitro, animal studies, or studies completely unrelated to bevacizumab biosimilar evaluation in cancer."
+  ],
+  "moderators_to_extract": [
+    "cancer type and stage (e.g., advanced non-small cell lung cancer, metastatic colorectal cancer)",
+    "specific biosimilar agent / investigational product name",
+    "concurrent chemotherapy backbone regimen",
+    "sample size (total randomized patients)",
+    "blinded versus open-label trial design"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Hazard ratios (HR) and corresponding 95% confidence intervals or standard errors extracted directly from trial-reported Cox proportional hazards survival models for progression-free survival.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "progression-free survival"
+}

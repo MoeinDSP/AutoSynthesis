@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people with cancer receiving anticancer therapy, what is the effect of resistance training, compared with no training, on cancer-related fatigue measured at 12 weeks or less?",
+  "treatment_label": "Resistance training during anticancer therapy",
+  "control_label": "No training during anticancer therapy (including usual care, wait-list, or attention control without structured exercise)",
+  "outcome_description": "Cancer-related fatigue assessed with any validated self-report, clinician-rated, or performance-linked fatigue instrument at an assessment time of 12 weeks or less. If multiple eligible measurements are reported within this window, prespecify a hierarchy to avoid double-counting (prefer the time point closest to 12 weeks, then the study-designated primary fatigue instrument). Fatigue outcomes measured after 12 weeks are not eligible for this analysis.",
+  "positive_direction": "A positive standardized mean difference means that resistance training reduced cancer-related fatigue compared with no training.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cancer resistance training fatigue controlled trial",
+    "oncology strength exercise fatigue quantitative comparison",
+    "anticancer therapy resistance exercise fatigue intervention"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of people with any cancer type receiving anticancer therapy that evaluate a resistance-training intervention, whether resistance training is delivered alone or as a clearly identifiable component of a broader program",
+    "Studies with a no-training comparator, including usual care, wait-list, or an attention control without structured exercise",
+    "Studies reporting cancer-related fatigue at 12 weeks or less with quantitative data sufficient, directly or after author contact or standard conversion, to calculate an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded",
+    "No comparison between a resistance-training treatment condition and a no-training control condition",
+    "No quantitative fatigue outcome data capable of producing an effect size, such as means and standard deviations, t/F-values, proportions, or odds ratios",
+    "Completely unrelated to resistance training during anticancer therapy, cancer-related fatigue, or people with cancer; fatigue measurements taken only after 12 weeks are also ineligible for this analysis"
+  ],
+  "moderators_to_extract": [
+    "Cancer type and stage",
+    "Type of anticancer therapy",
+    "Resistance-training dose and characteristics (frequency, intensity, duration, supervision, and resistance-only versus multicomponent program)",
+    "Fatigue instrument and assessment time within the 12-week window",
+    "Study design and control type",
+    "Participant age, sex distribution, and baseline fatigue severity"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool standardized mean differences across fatigue instruments. Orient all scales so that positive effects favor resistance training despite higher raw fatigue scores indicating worse fatigue; use Hedges-corrected standardized effects where supported by the analysis software. For multi-arm studies, avoid double-counting shared controls by combining eligible intervention arms or appropriately splitting/modeling the shared comparator. Use one eligible fatigue effect per independent sample in the primary pool, following the prespecified time-point and instrument hierarchy.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cancer-related fatigue"
+}

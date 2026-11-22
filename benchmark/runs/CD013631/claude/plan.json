@@ -1,0 +1,38 @@
+{
+  "research_question": "In people with chronic kidney disease (any stage, including diabetic nephropathy and dialysis), what is the effect of probiotic supplementation (single- or multi-strain supplements or probiotic-containing foods) compared with placebo or no treatment on kidney function measured as serum creatinine (mg/dL) after approximately 8 to 24 weeks of treatment?",
+  "treatment_label": "Probiotic supplementation (single- or multi-strain capsules/sachets or probiotic-containing foods such as probiotic yoghurt, soy milk or honey)",
+  "control_label": "Placebo or no treatment (no probiotic)",
+  "outcome_description": "Serum creatinine in mg/dL at the end of treatment (8-24 weeks), extracted as mean, SD and n per arm. Use the end-of-treatment value when reported; if only change from baseline is reported, use the mean change and SD of change for both arms (never mix end values with change scores within a study) and record that change scores were used. If a trial has multiple follow-ups, use the last one within 24 weeks. Convert \u00b5mol/L to mg/dL by dividing by 88.4 and record the original unit and conversion. Convert SE/SEM to SD as SE \u00d7 \u221an, checking table footnotes for whether \"\u00b1\" denotes SD or SE. Preserve minus signs on change scores (a fall in creatinine is negative) and decimal places exactly. Assign arms by group definition rather than column position (placebo is often listed first); if headings were lost, infer the arm from the text and state the inference. In multi-arm trials, use the probiotic and placebo/no-treatment arms, pooling multiple probiotic arms (combined mean and SD) and ignoring arms receiving other supplements.",
+  "positive_direction": "A positive effect size means probiotics lowered serum creatinine relative to placebo/no treatment (better kidney function; corresponds to the user's convention of MD &lt; 0 mg/dL favouring probiotics).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "probiotic supplementation chronic kidney disease randomized controlled trial serum creatinine",
+    "probiotic yoghurt hemodialysis diabetic nephropathy trial kidney function outcome",
+    "Lactobacillus Bifidobacterium placebo-controlled trial CKD creatinine urea effect"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in people with chronic kidney disease of any stage, including diabetic nephropathy, peritoneal dialysis or haemodialysis",
+    "Compares a probiotic intervention (supplement or probiotic-containing food) with placebo or no treatment",
+    "Reports quantitative serum creatinine data (mean and SD/SE, or data allowing an effect size) at an end-of-treatment timepoint of roughly 8 to 24 weeks"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, protocol or purely theoretical paper)",
+    "No comparison between a probiotic condition and a placebo/no-treatment control (e.g. single-arm studies, or head-to-head comparisons of two probiotics)",
+    "No quantitative outcome data usable for an effect size (no means with SD/SE, t/F values, or other extractable statistics for serum creatinine)",
+    "Unrelated to the research topic: participants without kidney disease, or interventions consisting of prebiotics or synbiotics only"
+  ],
+  "moderators_to_extract": [
+    "CKD stage / dialysis status (non-dialysis CKD, diabetic nephropathy, haemodialysis, peritoneal dialysis)",
+    "Probiotic formulation (single-strain vs multi-strain) and delivery vehicle (capsule/sachet vs food)",
+    "Treatment duration in weeks",
+    "Daily dose (CFU/day)",
+    "Data type used (end-of-treatment value vs change from baseline) and original unit/conversion",
+    "Sample size category and risk-of-bias / blinding (placebo-controlled vs no-treatment control)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a mean difference (MD) in mg/dL using a random-effects model (DerSimonian-Laird or REML, with Hartung-Knapp adjustment considered). All values standardised to mg/dL (\u00b5mol/L \u00f7 88.4). SE/SEM converted to SD via SE \u00d7 \u221an. Signs preserved for change-from-baseline data. The user's convention is MD &lt; 0 = lower creatinine with probiotics = favours probiotics; because higher creatinine is worse, the internally signed effect is oriented so that a positive value favours probiotics.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serum creatinine"
+}

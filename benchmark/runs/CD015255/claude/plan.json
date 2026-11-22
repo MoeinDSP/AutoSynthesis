@@ -1,0 +1,39 @@
+{
+  "research_question": "In children with otitis media with effusion (OME), does intranasal corticosteroid treatment (e.g. mometasone, beclomethasone, budesonide, fluticasone), given alone or added to a co-treatment that both arms receive equally, reduce the persistence of middle ear effusion at the first assessment up to 1 month (\u22646 weeks) after starting treatment, compared with no steroid treatment (no treatment or the same co-treatment alone)?",
+  "treatment_label": "Intranasal corticosteroid spray (\u00b1 co-treatment given equally to both arms)",
+  "control_label": "No steroid treatment (no treatment, watchful waiting, or the same co-treatment alone)",
+  "outcome_description": "Number of children (or ears, if reported per ear with both ears combined) with persistent middle ear effusion at the first assessment up to 1 month (\u22646 weeks) after starting treatment, extracted as event counts and totals per arm. Persistence = effusion still present at follow-up: type B tympanogram (or type C2 / non-type-A if that is how the study defines treatment failure), \"not cured\", \"no improvement\", or \"persistent effusion\" on otoscopy/otomicroscopy. Resolution/cure = type A tympanogram or complete clearance of effusion. If a study reports resolution, cure, or improvement, convert to persistence as total minus resolved. If the headline result is a multi-category or ordinal scale (complete remission / partial remission / no change / exacerbation), derive persistence counts from the post-treatment tympanogram-type or cure/no-cure table per arm rather than discarding the study. For trials with more than two arms, use only the intranasal-steroid arm and the no-steroid arm receiving the same co-treatment; ignore oral-steroid, montelukast, antihistamine-only and other active arms.",
+  "positive_direction": "A positive effect (RR &lt; 1) means fewer children/ears with persistent middle ear effusion in the intranasal steroid arm than in the no-steroid arm \u2014 i.e. the result favours intranasal steroids (more resolution of OME) at up to 1 month.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "intranasal corticosteroid otitis media with effusion children randomized trial",
+    "nasal steroid spray glue ear middle ear effusion treatment outcome",
+    "mometasone beclomethasone budesonide fluticasone nasal spray otitis media effusion tympanogram controlled"
+  ],
+  "inclusion_criteria": [
+    "Studies of children (or predominantly paediatric samples) with otitis media with effusion / glue ear / secretory otitis media",
+    "Includes an intranasal (nasal spray or nasal drop) corticosteroid arm compared with an arm not receiving intranasal steroid (no treatment, watchful waiting, or the same co-treatment alone)",
+    "Reports some quantitative outcome on effusion status (e.g. tympanogram type, cure/resolution/persistence counts, or data from which persistence counts can be derived) at or before about 6 weeks"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, case report, or purely theoretical/modelling paper)",
+    "No comparison between an intranasal steroid condition and a no-steroid control condition (single-arm or before-after only), or the control arm received a placebo nasal spray, or the steroid was oral/systemic/intratympanic rather than intranasal",
+    "No quantitative outcome data from which an effect size can be computed (no event counts per arm, proportions, means+SDs, or test statistics convertible to a risk ratio)",
+    "Completely unrelated to otitis media with effusion in children, or reports only excluded outcomes (hearing thresholds/air-bone gap, symptom or parent-reported improvement, quality of life, adverse events) or only outcomes measured after 6 weeks"
+  ],
+  "moderators_to_extract": [
+    "Specific intranasal corticosteroid agent and dose",
+    "Co-treatment given equally to both arms (e.g. antibiotic, none)",
+    "Type of control (no treatment/watchful waiting vs co-treatment alone)",
+    "Unit of analysis (children vs ears)",
+    "Definition of persistence (tympanogram type B only vs non-type-A vs otoscopic/clinical 'not cured')",
+    "Treatment duration and exact timing of first assessment (weeks)",
+    "Sample size category and risk-of-bias / randomisation and blinding status"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool as a risk ratio (RR) with a random-effects model (DerSimonian\u2013Laird or REML), using event counts (persistent effusion) and totals per arm. RR &lt; 1 favours intranasal steroids. Where results are reported per ear, sum right and left ear events and totals; never use a single ear. Where resolution/cure is reported, derive persistence as total minus resolved. Apply a continuity correction only where a zero cell prevents estimation, and consider Peto OR or Mantel\u2013Haenszel without correction in sensitivity analysis. Only the first assessment \u22646 weeks after treatment start is used from each trial.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "persistent otitis media with effusion at up to 1 month"
+}

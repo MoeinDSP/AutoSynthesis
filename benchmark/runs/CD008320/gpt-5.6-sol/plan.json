@@ -1,0 +1,38 @@
+{
+  "research_question": "Among participants with uremic pruritus, what is the effect of any kappa-opioid agonist (including difelikefalin, nalbuphine, or nalfurafine), compared with placebo, on pruritus severity measured on a 0\u201310 cm visual analogue scale in parallel-group studies, pooling all eligible agonists as one drug class?",
+  "treatment_label": "Kappa-opioid agonist therapy (all eligible drugs pooled as one class)",
+  "control_label": "Placebo",
+  "outcome_description": "Pruritus severity measured on a 0\u201310 cm VAS in participants with uremic pruritus. Extract post-treatment means and SDs, or change-from-baseline means and SDs when appropriate and consistently poolable; harmonize any equivalent VAS units to 0\u201310 cm. Lower raw scores indicate less severe pruritus and a better outcome.",
+  "positive_direction": "A positive effect means that kappa-opioid agonist treatment produces lower pruritus severity than placebo (i.e., favors the kappa-opioid agonist class).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "uremic pruritus kappa opioid agonist placebo trial",
+    "difelikefalin nalbuphine nalfurafine pruritus controlled study",
+    "hemodialysis pruritus kappa agonist placebo quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies enrolling participants with uremic or chronic kidney disease\u2013associated pruritus.",
+    "Parallel-group studies comparing a kappa-opioid agonist, including difelikefalin, nalbuphine, nalfurafine, or another drug in this class, with placebo.",
+    "Studies reporting quantitative pruritus severity data measured on a 0\u201310 cm VAS, or an exactly convertible equivalent, sufficient or potentially sufficient for effect-size calculation."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No eligible parallel-group comparison between a kappa-opioid agonist treatment and placebo; crossover-design studies are excluded as a separate analysis in the review.",
+    "No quantitative outcome data capable of producing an effect size, such as means with SDs, convertible t/F statistics, proportions, or odds ratios, including data unobtainable after reasonable author contact.",
+    "Completely unrelated to kappa-opioid agonist treatment, uremic pruritus, or the specified pruritus-severity outcome."
+  ],
+  "moderators_to_extract": [
+    "Specific kappa-opioid agonist and dose/regimen",
+    "Participant kidney-disease context, including hemodialysis, peritoneal dialysis, or nondialysis CKD",
+    "Treatment duration and outcome-assessment time",
+    "Baseline pruritus severity",
+    "Study design characteristics, including randomization and blinding",
+    "Risk-of-bias domain ratings"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool all eligible kappa-opioid agonists together as one class using a mean difference on the common 0\u201310 cm VAS. Harmonize scales to 0\u201310 cm before pooling. Orient effects so values favoring treatment correspond to lower pruritus severity. Use an appropriate random-effects model for the primary analysis; do not perform or include the fixed-effect sensitivity analysis requested to remain separate. Do not pool crossover studies in this analysis. Avoid double-counting participants when studies report multiple doses, time points, or publications by combining eligible treatment arms or selecting the prespecified primary/relevant assessment according to a documented hierarchy.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pruritus severity"
+}

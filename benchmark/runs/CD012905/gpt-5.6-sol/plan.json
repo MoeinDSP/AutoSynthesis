@@ -1,0 +1,38 @@
+{
+  "research_question": "Across all patient populations, what is the effect of fenoldopam versus placebo or saline control on the development of acute kidney injury (AKI), with cardiac-surgery patients treated as a prespecified subgroup rather than as the sole eligible population?",
+  "treatment_label": "Fenoldopam",
+  "control_label": "Placebo or saline control",
+  "outcome_description": "Development of acute kidney injury as a binary trial outcome, using each trial's reported number of participants with AKI and total number randomized in each arm. Pool risk ratios on an intention-to-treat/randomized-denominator basis where possible; include all patient populations and conduct a prespecified cardiac-surgery subgroup analysis.",
+  "positive_direction": "An effect favoring fenoldopam means a lower risk of developing AKI than with placebo or saline (RR < 1; equivalently, a positively oriented transformed effect would indicate AKI prevention by fenoldopam).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "fenoldopam acute kidney injury randomized trial placebo saline",
+    "fenoldopam renal injury controlled trial AKI events",
+    "fenoldopam kidney protection placebo saline clinical trial"
+  ],
+  "inclusion_criteria": [
+    "Original controlled clinical trials in any patient population that compare fenoldopam with placebo or saline and report randomized treatment groups.",
+    "Participants of any age and clinical setting, including but not limited to cardiac surgery, other surgery, critical illness, sepsis, and patients receiving nephrotoxic or contrast-related procedures.",
+    "Quantitative data on incident AKI, acute renal failure, or an equivalent trial-defined acute renal-injury endpoint, with AKI events and randomized totals per arm available directly or derivable from the report."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between a fenoldopam treatment condition and a placebo or saline control condition.",
+    "No quantitative outcome data capable of producing an effect size; in particular, no usable AKI event counts and arm totals (or other extractable data such as proportions or odds ratios from which these can be obtained), with means/SDs or t/F values alone insufficient for the requested binary RR unless they permit recovery of event data.",
+    "Completely unrelated to fenoldopam and development of acute kidney injury."
+  ],
+  "moderators_to_extract": [
+    "Patient population/clinical setting, with cardiac surgery coded as a prespecified subgroup",
+    "Trial-defined AKI definition and diagnostic threshold",
+    "Fenoldopam dose, administration route, and treatment duration",
+    "Baseline renal function and baseline AKI-risk profile",
+    "Age group (adult, pediatric, or mixed)",
+    "Timing of AKI assessment/follow-up window"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool study-level risk ratios using reported AKI events and total randomized per arm. Prefer intention-to-treat denominators; document attrition and any departures from randomized denominators. Prespecify handling of zero-event arms and double-zero-event trials, use a random-effects primary model with a fixed-effect sensitivity analysis, report 95% confidence intervals and prediction intervals where estimable, assess heterogeneity, risk of bias, small-study effects when enough studies are available, and perform the cardiac-surgery subgroup analysis separately while retaining all eligible populations in the overall synthesis.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "acute kidney injury"
+}

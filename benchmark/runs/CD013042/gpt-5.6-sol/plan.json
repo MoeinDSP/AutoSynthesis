@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with lateral elbow pain (tennis elbow/lateral epicondylalgia), what is the effect at the first end-of-treatment assessment of manual therapy, prescribed exercise, or their combination, compared with minimal or no intervention, on mean pain intensity?",
+  "treatment_label": "Manual therapy (manipulation, mobilisation, or soft-tissue techniques), prescribed exercise, or combined manual therapy plus exercise",
+  "control_label": "Minimal or no intervention (wait-and-see, advice only, stretching/advice without an active exercise programme, placebo or sham, or usual GP care)",
+  "outcome_description": "Mean pain intensity on a 0\u201310 scale at the first assessment at the end of the intervention period (typically 6\u20138 weeks), using the trial's primary pain measure when identified; otherwise use the most relevant reported measure among pain at rest, pain with activity, or pain during maximum grip. Extract mean, SD, and number analysed per arm. Prefer end-of-intervention values; if only mean change and SD of change are available, use change scores for both arms and label them as such. If only an adjusted between-group difference and 95% or 99% CI are available, extract that estimate and derive SE as CI width/3.92 or CI width/5.15, respectively, noting use of an adjusted estimate. Do not mix endpoint and change values within a trial. If pain-specific analysed n is absent, use randomized arm sizes or flow-diagram arm sizes and document this. Convert SEM/SE to SD using SD = SE \u00d7 sqrt(n), after checking table footnotes. Exclude data available only in figures. Do not include later follow-up assessments or outcomes of disability, grip strength, quality of life, treatment success, withdrawals, or adverse events.",
+  "positive_direction": "For any standardized effect calculation, a positive Hedges g means lower pain intensity with the active treatment than with minimal/no intervention and therefore favors treatment; for the user-requested raw mean difference oriented as treatment minus control, the corresponding favorable effect is MD < 0.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "lateral epicondylalgia manual therapy exercise randomized trial pain",
+    "tennis elbow mobilisation manipulation controlled trial pain",
+    "lateral elbow pain prescribed exercise sham usual care quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling adults with lateral elbow pain, tennis elbow, or lateral epicondylalgia.",
+    "At least one eligible active arm using manual therapy, prescribed exercise, or their combination and at least one minimal/no-intervention comparator such as wait-and-see, advice only, placebo/sham, or usual GP care.",
+    "Quantitative pain-intensity data at the first end-of-intervention assessment that can be placed on a 0\u201310 scale or otherwise used to estimate the requested between-group mean difference."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and nonrandomized studies.",
+    "No eligible comparison between an active treatment and a minimal/no-intervention control; this includes controls receiving another active manual-therapy or exercise programme, an injection, or a drug.",
+    "No quantitative outcome data capable of producing an effect size (such as means and SDs, convertible SEs, t/F statistics, proportions, odds ratios, or an adjusted difference with CI); trials with usable data only in a figure are excluded.",
+    "Completely unrelated to adult lateral elbow pain or to the specified manual-therapy/exercise interventions and pain-intensity outcome."
+  ],
+  "moderators_to_extract": [
+    "Active intervention category (manual therapy, prescribed exercise, or combination)",
+    "Manual-therapy/exercise technique, dose, frequency, and total treatment duration",
+    "Pain-measure context (rest, activity, maximum-grip pain, or other primary pain measure)",
+    "Comparator type (wait-and-see, advice/stretching only, placebo/sham, or usual GP care)",
+    "Timing of the first end-of-treatment assessment",
+    "Risk-of-bias domains, including randomization, allocation concealment, missing outcome data, and outcome measurement"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool raw mean differences with a random-effects model after harmonizing pain to a 0\u201310 scale. Convert 0\u2013100 mm VAS means and SDs by dividing each by 10. Orient every MD as treatment minus control, so MD < 0 indicates less pain and favors active treatment; invert estimates reported as control minus treatment. Prefer endpoint means/SDs, but use change scores for both arms when endpoint data are unavailable and clearly identify them. Use an adjusted between-group estimate when it is the only usable result, deriving SE from a 95% CI as width/3.92 or from a 99% CI as width/5.15. Never mix endpoint and change scores within a trial. Convert SE/SEM to SD as SE \u00d7 sqrt(n). Do not leave n blank: if outcome-specific analysed n is unavailable, use randomized arm n or flow-diagram n and state this. For eligible multi-arm trials, include each eligible active arm versus the shared minimal-intervention control and split the control n equally across comparisons while retaining its mean and SD; alternatively combine eligible active arms using standard formulas and use the control once, documenting the prespecified choice. Exclude trials whose relevant numerical results are only displayed in a figure. Assess heterogeneity with tau-squared and I-squared, report the pooled MD with 95% CI, and conduct intervention-category subgroup analyses when data permit.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pain intensity"
+}

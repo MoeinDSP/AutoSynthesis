@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with renal (kidney) stones, what is the effect of extracorporeal shock wave lithotripsy (ESWL/SWL), compared with retrograde intrarenal surgery (RIRS; flexible ureteroscopy with laser lithotripsy), on treatment success at approximately three months?",
+  "treatment_label": "Extracorporeal shock wave lithotripsy (ESWL/SWL)",
+  "control_label": "Retrograde intrarenal surgery (RIRS; flexible ureteroscopy with laser lithotripsy)",
+  "outcome_description": "Binary treatment success at the three-month follow-up: number of participants successfully treated out of the number randomised in each arm. Success is stone-free status or freedom from clinically significant residual fragments, using each trial's imaging method (CT, ultrasound, or X-ray) and its own threshold (for example, completely stone-free or residual fragments \u22644 mm); record the exact definition. Prefer the assessment at three months; if unavailable, use the reported assessment closest to three months and record its timing. Use outcomes after the full planned treatment course when multiple ESWL or RIRS sessions are allowed. Convert percentages to event counts using the number analysed in the arm, and convert reported failures/residual-stone events to successes by total minus failures. Use the number randomised as the intention-to-treat denominator and assign arms from treatment descriptions rather than column position. For multi-arm trials, extract only ESWL and RIRS arms and ignore PCNL. Abstract-only data are eligible and must be flagged as such. Do not extract or pool operating time, hospital stay, complications, re-treatment, pain, stone-size reduction, or quality of life.",
+  "positive_direction": "An RR greater than 1 means a higher treatment-success rate with ESWL than with RIRS and therefore favours ESWL; an RR less than 1 means lower success with ESWL and favours RIRS.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "extracorporeal shock wave lithotripsy retrograde intrarenal surgery randomized trial renal stones",
+    "ESWL flexible ureteroscopy laser lithotripsy controlled trial kidney stones",
+    "SWL RIRS randomised comparison stone free rate adults"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling adults with renal (kidney) stones and directly comparing ESWL/SWL with RIRS or flexible ureteroscopy with laser lithotripsy; multi-arm trials including PCNL are eligible if ESWL and RIRS arms can be extracted.",
+    "Trials reporting treatment success, stone-free status, clinically insignificant residual fragments, or residual-stone failure at about three months, or at the available follow-up closest to three months, with sufficient quantitative information to derive success events and denominators.",
+    "Full reports and conference abstracts in any language or publication status are eligible; regimens allowing multiple sessions are eligible when success after the full planned treatment course is reported."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, observational studies, and non-randomised trials.",
+    "No comparison between an ESWL/SWL treatment arm and a RIRS/flexible-ureteroscopy-with-laser control arm; this includes ESWL-versus-PCNL-only trials.",
+    "No quantitative outcome data from which a treatment-success effect size can be produced, such as arm-level events and totals, convertible percentages, failures plus totals, or other statistics sufficient to reconstruct these data.",
+    "Completely unrelated to the research topic or ineligible population/site, including paediatric-only studies and studies limited to ureteral rather than renal stones."
+  ],
+  "moderators_to_extract": [
+    "Trial-level definition of treatment success and allowable residual-fragment threshold",
+    "Imaging modality used to assess success (CT, ultrasound, X-ray, or combination)",
+    "Actual follow-up time used relative to three months",
+    "Stone characteristics, including size category, number, and renal location",
+    "Treatment-course characteristics, including permitted number of ESWL or RIRS sessions and laser/ESWL protocol",
+    "Publication format and study characteristics, including full article versus conference abstract, sample size, and risk-of-bias domains"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool arm-level treatment-success risks as a risk ratio calculated ESWL divided by RIRS using a random-effects model. Use intention-to-treat denominators (number randomised); where outcome data are missing, do not silently replace the randomised denominator with completers, and document any assumptions needed to derive event counts. Preserve and report each trial's success definition, imaging method, and actual follow-up. Convert percentages to counts using the stated arm denominator, with transparent rounding; convert failures to successes as total minus failures. Extract only ESWL and RIRS arms from eligible multi-arm trials. RR < 1 indicates lower success with ESWL and favours RIRS.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "treatment success"
+}

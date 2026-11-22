@@ -1,0 +1,38 @@
+{
+  "research_question": "Among hospitalised adults who smoke, what is the effect of bupropion versus placebo or no bupropion/usual care on smoking abstinence at the longest reported follow-up of at least six months? Include only randomised controlled trials and pool arm-level abstinence risks with a random-effects risk ratio.",
+  "treatment_label": "Bupropion, with any co-intervention such as counselling permitted only when delivered comparably in both arms",
+  "control_label": "Placebo or no bupropion/usual care, without another smoking-cessation drug such as nicotine replacement therapy or varenicline",
+  "outcome_description": "Smoking abstinence at the single longest follow-up reported that is at least six months after randomisation (for example, use 12 months rather than 6 months when both are available); exclude outcomes at three months or earlier. Extract the number abstinent (events) and number randomised (total) in each eligible arm. Use the strictest reported abstinence definition, prioritising sustained or continuous abstinence and biochemical validation when available; otherwise use point-prevalence abstinence, and record the exact definition and validation method. Do not accept reduced smoking as abstinence. Apply an intention-to-treat smoking-trial rule: retain everyone randomised in the denominator and classify losses to follow-up as smoking. Convert reported percentages to event counts using the arm-specific randomised denominator; when only analysed denominators appear in outcome tables, use arm-specific randomised counts from the participant-flow diagram where available and document the numbers used. In multi-arm trials, extract only the bupropion and eligible placebo/no-bupropion arms, selecting arms that differ only by bupropion when counselling or another nonpharmacological co-intervention is common to both. Assign arms according to treatment received, not table column position. Pool only this abstinence outcome using a random-effects RR; do not pool short-term quitting, adverse events, cardiovascular events, withdrawal symptoms, or other outcomes.",
+  "positive_direction": "A positive treatment effect (RR greater than 1; equivalently a positive effect on the log-RR scale) means that smoking abstinence is more common with bupropion than with control and therefore favours bupropion.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "bupropion hospitalised smokers randomized placebo smoking abstinence trial",
+    "bupropion inpatient smoking cessation controlled trial follow-up",
+    "bupropion cardiovascular admission smoking abstinence randomized trial"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling adults who smoke while hospitalised for any reason, including cardiovascular admissions.",
+    "Trials comparing bupropion with placebo or no bupropion/usual care, with shared counselling or other nonpharmacological support allowed when comparable between the selected arms.",
+    "Trials reporting quantitative smoking-abstinence data at a follow-up of at least six months that can be expressed as abstinent participants out of participants randomised by arm."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible treatment-control comparison: exclude nonrandomised studies; outpatient-only populations; non-drug intervention trials; studies without a bupropion arm and placebo/no-bupropion usual-care arm; and comparisons in which the control receives another smoking-cessation drug such as nicotine replacement therapy or varenicline.",
+    "No quantitative outcome data capable of producing an effect size (such as arm-level means and SDs, t/F-values, proportions, odds ratios, or\u2014specifically for this review\u2014abstinence event counts or convertible quit percentages with arm denominators) at six months or longer.",
+    "Completely unrelated to the research topic, or reports only ineligible outcomes such as smoking reduction, abstinence before six months, adverse events, cardiovascular events, or withdrawal symptoms without eligible long-term smoking-abstinence data."
+  ],
+  "moderators_to_extract": [
+    "Reason for hospitalisation, including cardiovascular versus other admission",
+    "Longest eligible follow-up duration",
+    "Abstinence definition and timeframe: sustained/continuous versus point prevalence",
+    "Biochemical validation of abstinence versus self-report only",
+    "Type and intensity of counselling or other common co-intervention",
+    "Control condition: placebo versus no bupropion/usual care"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "For each study, calculate the risk ratio as (abstinent/randomised in the bupropion arm) divided by (abstinent/randomised in the control arm), using all randomised participants as denominators and treating participants lost to follow-up as smokers. Pool RRs with a random-effects model and report 95% confidence intervals. Use the longest eligible follow-up only and the strictest available abstinence definition. Record any percentage-to-count conversions, denominator substitutions from flow diagrams, biochemical validation, and arm-selection decisions. Address zero-event cells with a prespecified standard continuity correction when needed and perform sensitivity analysis if sparse data permit. Assess heterogeneity with tau-squared and I-squared, inspect influence/outliers where the number of studies permits, and assess small-study effects only when enough studies are available. Conduct risk-of-bias assessment using RoB 2 and report the search and selection process in a PRISMA 2020 flow diagram.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "smoking abstinence"
+}

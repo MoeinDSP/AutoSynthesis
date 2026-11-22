@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of daily cotrimoxazole combined with another antimalarial drug (mefloquine or dihydroartemisinin-piperaquine), compared with daily cotrimoxazole alone or with placebo, on low birth weight (<2500 g) in HIV-positive pregnant women?",
+  "treatment_label": "Daily cotrimoxazole plus antimalarial (mefloquine or dihydroartemisinin-piperaquine)",
+  "control_label": "Daily cotrimoxazole alone or with placebo",
+  "outcome_description": "Incidence of low birth weight (<2500 g) in infants born to HIV-positive pregnant women",
+  "positive_direction": "A lower incidence or risk of low birth weight in the combination therapy arm compared to control (favoring cotrimoxazole plus antimalarial)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cotrimoxazole mefloquine dihydroartemisinin pregnancy malaria trial",
+    "HIV pregnant women cotrimoxazole antimalarial low birth weight controlled trial",
+    "cotrimoxazole chemoprophylaxis combination malaria pregnancy randomized outcome"
+  ],
+  "inclusion_criteria": [
+    "Studies evaluating HIV-positive pregnant women receiving daily cotrimoxazole prophylaxis (CTXp)",
+    "Intervention evaluating daily cotrimoxazole combined with an additional antimalarial drug (such as mefloquine or dihydroartemisinin-piperaquine) versus daily cotrimoxazole alone or with placebo",
+    "Empirical comparative studies reporting quantitative birth weight outcomes, specifically low birth weight (<2500 g)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols without results)",
+    "No comparison between cotrimoxazole combined with an antimalarial and cotrimoxazole alone or with placebo",
+    "No quantitative outcome data on low birth weight (<2500 g) or birth weight from which risk ratios or event counts can be extracted",
+    "Completely unrelated to malaria chemoprevention in HIV-positive pregnant women"
+  ],
+  "moderators_to_extract": [
+    "Specific antimalarial co-administered (e.g., mefloquine vs. dihydroartemisinin-piperaquine)",
+    "Control regimen (cotrimoxazole alone vs. cotrimoxazole plus placebo)",
+    "Geographic region and local malaria transmission intensity",
+    "Maternal antiretroviral therapy (ART) status or regimen",
+    "Trial sample size"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Risk Ratio (RR) pooled using reported low birth weight events (<2500 g) and total randomized participants per arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Low birth weight (<2500 g)"
+}

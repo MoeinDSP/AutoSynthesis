@@ -1,0 +1,200 @@
+[
+  {
+    "paper_id": "manual:5fa7d0e1",
+    "paper_title": "be006a72_0193945914539737",
+    "design_classification": "non_randomized",
+    "design_rationale": "Four schools were chosen by purposive sampling and allocated at the school (cluster) level to intervention or comparison; individual participants self-selected via poster/letter recruitment, and the authors explicitly state \"our participants could not be randomly sampled due to the nature of the study environment,\" so this is a quasi-experimental pre\u2013post comparison-group design.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Allocation was by school with only two schools per arm and very unequal group sizes (32 vs. 66), baseline differences existed on subjective itching severity, and no multivariable adjustment for prognostic factors (AD severity, clustering, socioeconomic context) was performed beyond a single post hoc ANCOVA on itching.",
+        "evidence_quote": "\"Results for the comparison of groups showed that general characteristics and atopy measures (except 'subjective itching severity') were similar for the test and comparison groups\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The SACP was clearly specified (six 40-min group education lessons plus structured case management, with contents and providers tabulated) and group status was determined prospectively by school, so misclassification is unlikely.",
+        "evidence_quote": "\"Part I. Group education was conducted in six lessons. Each lesson was carried out for 40 min.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "serious",
+        "rationale": "Participants, parents, and the delivering health teachers were necessarily aware of group status in a non-blinded educational intervention, no information is given on the comparison group's co-interventions, adherence/fidelity, or dose received, and analyses excluded dropouts rather than following an intention-to-treat principle.",
+        "evidence_quote": "\"Thus, 98 dyads (32 test groups; 66 control groups) were included in the analysis.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "serious",
+        "rationale": "Roughly 19% of enrolled dyads (23/121) were lost, for reasons plausibly related to outcome (disbelief in improvement; refusal to complete post-survey), and no sensitivity or imputation analysis was conducted to show results were robust to missingness; follow-up data were also collected only in the test group.",
+        "evidence_quote": "\"A further 15 dyads (4 test groups; 11 control groups) withdrew their consent and were also excluded.\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "All outcomes\u2014including the \"objective\" SCORAD severity\u2014were reported by unblinded parents (or children) who knew their group, and intervention-group parents received specific training in severity measurement and knowledge content from the same health teacher, creating differential assessment between groups for the key positive finding (parental knowledge).",
+        "evidence_quote": "\"The OAS assessment was carried out by parents in the home setting... Parents were also provided with one-on-one education on 'measuring methods for atopic dermatitis severity' by a health teacher during part 2 of the intervention\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "Six hypotheses were pre-stated, but there is no protocol or registration, numerous outcomes were assessed at three time points with mixed parametric/non-parametric tests, hypothesis numbering is internally inconsistent in the Results, and emphasis shifts to within-group and follow-up comparisons (parental efficacy) after the between-group tests were null.",
+        "evidence_quote": "\"The mean scores showed that parental knowledge of AD was significantly greater in the test group than in the comparison group, p = .039. Thus, Hypothesis 4 is supported by the data.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "serious",
+        "rationale": "Participants were volunteers recruited by posters/letters at purposively selected schools, and post-enrollment exclusions and consent withdrawals were differential and outcome-related (e.g., test-group parents withdrawing because they did not believe symptoms could improve), so selection into the analyzed sample plausibly relates to both condition and outcome.",
+        "evidence_quote": "\"The main reason for withdrawal among test group participants was the refusal to believe they could improve the symptoms of atopy in their children.\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "This non-randomized, school-allocated pre\u2013post comparison study carries serious risk of bias from uncontrolled confounding (two schools per arm, unequal groups, baseline itching difference, no adjustment), volunteer/differential-attrition selection, ~19% outcome-related missing data, and wholly unblinded self-reported outcomes assessed by parents who were themselves trained within the intervention. Together with incomplete pre-specification of analyses, the single significant finding (parental knowledge) cannot be confidently attributed to the SACP."
+  },
+  {
+    "paper_id": "manual:eede48a4",
+    "paper_title": "6a04a117_j.1525-1470.2006.00277.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized controlled trial in which \"A random number generator was used to place the participants into either the intervention group or control group.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine random sequence generator was used, but there is no description of allocation concealment, and baseline balance is only partly reportable (IDQOL baseline 8.63 control vs 11.00 intervention, with no baseline comparison statistics or demographic table by arm).",
+        "evidence_quote": "A random number generator was used to place the participants into either the intervention group or control group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants, parents and the researcher-educators were necessarily aware of allocation in this unblinded education trial, the same researchers \"educate, support, and motivate\" the intervention group (co-interventions such as increased compliance/wet-wrapping encouragement), and no intention-to-treat or per-protocol analysis framework or adherence data are reported.",
+        "evidence_quote": "The interventional group undertook the education program through a 2-hour workshop, together with their normal management regimen... The control group received the usual care including routine education, medical consultation, and management."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was low (3/61, ~5%) with stated reasons, but it is not reported from which arm the losses came, the handling of missing values in the ANCOVA is unclear, and subgroup analyses (CDLQI n=23, IDQOL n=38) further reduce available data.",
+        "evidence_quote": "Three participants were lost to follow-up at week 4 and week 12 (change of address and unable to contact them) but their data were included in the analysis at baseline and as missing values at week 4 and week 12."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (SCORAD) is a clinician-rated scale with subjective components (pruritus, sleep loss, extent/severity grading) and nothing indicates the assessors were blinded to allocation \u2014 indeed the researchers delivering the education appear to have performed assessments \u2014 while QOL/DFI were self/parent-reported by unblinded participants, making knowledge of assignment a plausible influence on the large observed SCORAD differences.",
+        "evidence_quote": "At the week 4 and week 12 visits, both groups were assessed by using the clinical SCORAD assessment tool to determine the severity of their eczema"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, multiple outcome instruments and time points were analysed, and an emphasised significant finding is reported in a small age subgroup (CDLQI, n=23) that was not clearly pre-specified, raising the possibility of selective reporting.",
+        "evidence_quote": "A sample size of 12 per group is required to have a power of 80% to detect a difference in means of 15.00 for the SCORAD score (primary outcome measure)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used a random number generator and attrition was low, the trial was entirely unblinded with no evidence of blinded SCORAD assessment by the same researchers who delivered and motivated the intervention, giving high risk in both the deviations (D2) and outcome measurement (D4) domains. Combined with unreported allocation concealment, unclear handling of missing data, and absence of a pre-registered analysis plan with emphasis on a small subgroup result, the overall risk of bias is high."
+  },
+  {
+    "paper_id": "manual:663cc58e",
+    "paper_title": "03d88e00_jdv.13519",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized controlled trial with allocation by random number generation: \"participants were divided using the method of random number generation into two groups: intervention and control.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random sequence was generated but allocation concealment is not described, and baseline differences on three psychological measures (stress, state and trait anxiety) were statistically significant and unexplained by the authors, suggesting the randomization may have been problematic.",
+        "evidence_quote": "\"participants were divided using the method of random number generation into two groups\" ... \"We did find statistically significant differences between the intervention and the control groups in the result they achieved at their first visit when tested using PSS (P = 0.017) and STAI both in anxiety as a state (P = 0.017) and as a personality trait (P = 0.036).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and care providers were necessarily unblinded in this educational intervention, the control group sought differential co-intervention (additional education), and the analysis appears to be of completers only rather than intention-to-treat.",
+        "evidence_quote": "\"We found a statistically significant difference between the intervention and the control group regarding additional education (P = 0.007) (outside the structured educational programme) between the two visits: the control group educated itself more between the visits.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 6/134 (4.5%) participants were lost, a proportion too small to plausibly bias the sizeable observed effects, and final group sizes were balanced.",
+        "evidence_quote": "\"Six participants withdrew from the study; so the study was completed by 64 participants in the intervention and 64 in the control group\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Primary outcomes were assessed by unblinded physicians (SCORAD) and by unblinded parents (PO-SCORAD, pruritus, sleep, stress, anxiety, FDLQI), so knowledge of allocation\u2014in a trial whose intervention explicitly targeted parental perceptions\u2014could readily have influenced these subjective measurements.",
+        "evidence_quote": "\"At the second visit, the physician-assessed the severity of the disease using SCORAD index and recorded the use of the topical corticosteroid treatment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, multiple outcome operationalizations and many item-level sub-analyses are reported without adjustment, and analyses compared post-intervention means between groups rather than the stated \"change\" outcomes.",
+        "evidence_quote": "\"The primary outcome was the change in the severity of eczema assessed using SCORAD and PO SCORAD index and changes of symptom scores for pruritus and sleeplessness.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven principally by outcome measurement: all primary and secondary outcomes were subjective and assessed by unblinded physicians and parents who knew the allocation. This is compounded by unexplained significant baseline imbalance in stress/anxiety, unreported allocation concealment, differential co-intervention (more self-education in the control arm), apparent completer-only analysis, and absence of a pre-registered protocol or analysis plan."
+  },
+  {
+    "paper_id": "manual:bc3c4051",
+    "paper_title": "f2ec0ac0_pde.13362",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a multicenter, open-label, randomized controlled parallel trial with 1:1 allocation using a randomization table (\"All participants were randomized in a 1:1 simple, nonstratified randomization scheme generated using randomization tables\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random sequence (randomization tables) was used and baseline characteristics were comparable, but allocation concealment is not described and the marked group-size imbalance (293 vs 249) arising from a stated 1:1 scheme is unexplained.",
+        "evidence_quote": "\"All participants were randomized in a 1:1 simple, nonstratified randomization scheme generated using randomization tables.\" ... \"542 children were eligible to participate and were randomized to the intervention group (n = 293) or control group (n = 249).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label (unavoidable for an education intervention) and co-interventions were unrestricted and not reported by arm, with no explicit intention-to-treat statement, so differential care or behaviour linked to knowledge of allocation cannot be excluded.",
+        "evidence_quote": "\"During the study, neither participants nor trainers could be blinded, because they were aware of the education or training received.\" ... \"Patients received therapy and diet recommendations based on their individual disease severity, with no restrictions in the study protocol.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "No flow of participants, dropouts, or follow-up completion rates are reported; SCORAD analyses appear to use all randomized numbers despite an anticipated 30% dropout, and questionnaire analyses include only 235/293 and 195/249 participants with no explanation or sensitivity analysis for the missing data.",
+        "evidence_quote": "\"Assuming a 30% dropout rate, a sample size of 580 participants was chosen\" ... \"Of these, 542 were randomized and analyzed: 293 in the TPE group and 249 in the control group.\" ... emollient questionnaire \"Intervention group(n = 235) Control group(n = 195)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (SCORAD) is a clinician-rated, partly subjective measure assessed by unblinded investigators aware of allocation, and secondary knowledge outcomes used a non-validated self-report questionnaire, creating substantial potential for assessor and reporting bias.",
+        "evidence_quote": "\"The third limitation is that the investigators were not blinded during the study, which may have influenced the results.\" ... \"the validity and reliability of the questionnaire regarding emollients used in our study were not established.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, and multiple outcome operationalizations (absolute scores vs change scores at 3 and 6 months, nine questionnaire items) were analysed with emphasis on the significant change-score comparisons, raising the possibility of selective reporting.",
+        "evidence_quote": "\"Disease severity was the primary outcome measure and was assessed using the SCORAD index.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by unblinded assessment of a subjective clinician-rated primary outcome (SCORAD) plus a non-validated knowledge questionnaire, and by unreported/unexplained attrition (no participant flow, inconsistent analysis denominators despite an anticipated 30% dropout). Additional concerns relate to undescribed allocation concealment with unexplained arm imbalance (293 vs 249), unrestricted co-interventions, and absence of a registered protocol or pre-specified analysis plan."
+  }
+]

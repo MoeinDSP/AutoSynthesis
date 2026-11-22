@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults who have experienced rape or sexual assault, what is the immediate post-treatment effect of psychosocial interventions, compared with an inactive control (wait-list, usual care, no treatment, or assessment only), on continuous total PTSD symptom severity in randomised controlled trials? Include all eligible randomised trials in the uploaded papers and use the first assessment after treatment ends.",
+  "treatment_label": "Psychosocial intervention for rape- or sexual-assault-related PTSD symptoms (including CBT, prolonged exposure, cognitive processing therapy, EMDR, memory reconsolidation, and other psychosocial approaches)",
+  "control_label": "Inactive control (wait-list, usual care, no treatment, or assessment-only)",
+  "outcome_description": "PTSD symptom severity measured as a continuous total score at the first assessment immediately after treatment ended, using one measure per trial: preferentially the clinician-administered PTSD scale, or otherwise the main self-report PTSD scale (e.g., CAPS, PSS-I, PSS-SR, PDS, IES-R, or PCL). Extract the reported analysed mean, variability, and sample size for each arm; prefer intention-to-treat data, but accept completer or per-protocol data when that is all that is reported. Convert SE to SD when necessary. Do not use later follow-up assessments. For mixed-trauma samples, use the sexual-assault subgroup when separately reported; otherwise use the whole trial sample. Include each eligible active arm as a separate comparison with the shared inactive control and account for the resulting dependency in analysis.",
+  "positive_direction": "A positive Hedges' g means higher (worse) PTSD symptom severity in the psychosocial-intervention arm than in the inactive-control arm and therefore favors the inactive control; a negative value means fewer PTSD symptoms with the intervention and favors the intervention.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "rape sexual assault psychosocial intervention randomized controlled trial PTSD symptoms",
+    "sexual violence psychotherapy trial controlled PTSD symptom outcome",
+    "rape survivor trauma treatment randomised waitlist usual care quantitative"
+  ],
+  "inclusion_criteria": [
+    "Original randomised trial broadly evaluating any psychosocial intervention against an eligible inactive control in adults who experienced rape or sexual assault; mixed-trauma trials are eligible when they include sexual-assault participants.",
+    "Reports PTSD symptom severity at the first post-treatment assessment using a continuous total score and provides, or permits derivation of, arm-level mean, SD (including conversion from SE), and analysed sample size.",
+    "Any psychosocial therapy type, treatment length, delivery format, and setting is eligible; sexual-assault subgroup data are used when reported separately, otherwise whole-sample data are eligible."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and study protocols; non-randomised studies are also excluded.",
+    "No eligible comparison between a psychosocial treatment and an inactive control condition; trials comparing only with another active treatment are excluded.",
+    "No quantitative continuous PTSD outcome data capable of producing the requested effect size (arm means, SDs or convertible SEs, and sample sizes, or sufficient equivalent statistics such as t/F values); studies reporting only unusable data, proportions, or odds ratios are excluded for this continuous-outcome synthesis.",
+    "Completely unrelated to psychosocial treatment of post-traumatic stress symptoms among adults who experienced rape or sexual assault."
+  ],
+  "moderators_to_extract": [
+    "psychosocial intervention type",
+    "control type (wait-list, usual care, no treatment, or assessment only)",
+    "PTSD measure type (clinician-administered versus self-report)",
+    "analysis population (intention-to-treat versus completer/per-protocol)",
+    "sample composition (sexual-assault-only versus mixed-trauma whole sample versus separately reported sexual-assault subgroup)",
+    "treatment duration and delivery setting"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Calculate the standardised mean difference as Hedges' g using intervention minus control at immediate post-treatment. Preserve the requested orientation: negative values indicate lower PTSD symptom severity and benefit from intervention; positive values indicate worse PTSD symptoms with intervention. Use total scores only and one PTSD measure per trial, prioritising clinician-administered scales. Convert SE to SD. For trials with multiple eligible active arms sharing one control, retain each active-versus-control comparison and adjust for shared-control dependency (e.g., split the control sample size for conventional pairwise pooling or use a multilevel/robust-variance model). Prefer random-effects pooling; assess heterogeneity with tau-squared, I-squared, and a prediction interval when estimable, conduct sensitivity analyses for analysis population and shared-control handling, inspect small-study effects when enough studies are available, assess risk of bias with RoB 2, and report study selection and synthesis according to PRISMA 2020.",
+  "target_effect_measure": "HEDGES_G",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "PTSD symptom severity"
+}

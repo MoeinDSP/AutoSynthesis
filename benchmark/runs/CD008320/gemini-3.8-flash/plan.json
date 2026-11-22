@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of kappa-opioid agonists compared with placebo on pruritus severity (0-10 cm VAS) in participants with uremic pruritus in parallel-group trials?",
+  "treatment_label": "kappa-opioid agonist",
+  "control_label": "placebo",
+  "outcome_description": "Pruritus severity measured on a 0-10 cm Visual Analogue Scale (VAS)",
+  "positive_direction": "A positive effect size indicates greater reduction in pruritus severity, favoring the kappa-opioid agonist over placebo.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "kappa opioid agonist uremic pruritus trial",
+    "difelikefalin nalbuphine nalfurafine pruritus randomized controlled trial",
+    "kappa opioid receptor hemodialysis pruritus VAS quantitative effect"
+  ],
+  "inclusion_criteria": [
+    "Participants with uremic pruritus / chronic kidney disease-associated pruritus receiving a kappa-opioid agonist or placebo",
+    "Parallel-group controlled trial design comparing a kappa-opioid agonist (e.g., difelikefalin, nalbuphine, nalfurafine) against placebo",
+    "Reporting quantitative measurement of pruritus severity using a Visual Analogue Scale (VAS)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, letters, and theoretical papers are excluded)",
+    "No comparison between a kappa-opioid agonist and a placebo control group",
+    "No quantitative pruritus outcome data sufficient to calculate an effect size (means and standard deviations or standard errors required)",
+    "Non-parallel designs (e.g., crossover trials) or completely unrelated patient populations/conditions"
+  ],
+  "moderators_to_extract": [
+    "specific drug agent (difelikefalin, nalbuphine, nalfurafine)",
+    "route of administration (intravenous vs oral)",
+    "treatment duration in weeks",
+    "baseline pruritus severity score",
+    "sample size"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Mean difference (MD) on the 0-10 cm Visual Analogue Scale (VAS) for pruritus severity, pooled using random-effects meta-analysis across parallel-group trials.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pruritus severity"
+}

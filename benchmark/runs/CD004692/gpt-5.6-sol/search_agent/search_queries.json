@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of omega-3 polyunsaturated fatty acids (n-3 PUFAs: EPA, DHA or a combination, as capsules or supplements), compared with placebo, on quality of life in adults with depression (including major depressive disorder, depressive symptoms, or depression in a medical or neurological condition)?  Pool as a standardised mean difference (SMD, Hedges' g), random effects. SMD < 0 means better quality of life with omega-3 (favours omega-3).  Extract the end-of-treatment mean, SD and n per arm for one quality-of-life measure per trial (prefer the total or overall score). Orient every scale so that a higher score means better quality of life (reverse the sign of scales where a higher score means worse), then compute the SMD so that negative = better with omega-3. If a trial has several omega-3 arms (for example EPA only and EPA+DHA) or several patient groups against one placebo group, give each arm or group its own row and split the placebo group's n equally across them. Convert SE to SD where needed. Use only randomised placebo-controlled trials in adults; do not pool depression severity, response, dropouts or adverse events.",
+  "planned_search_queries": [
+    "omega-3 EPA DHA depression placebo randomized quality of life trial",
+    "n-3 PUFA depressive symptoms placebo controlled quality of life outcome",
+    "fish oil supplementation depression placebo trial quality of life"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "omega-3 supplementation depression placebo randomized trial quality of life",
+    "EPA DHA major depressive disorder placebo controlled quality of life",
+    "n-3 PUFA depressive symptoms placebo trial health-related quality of life",
+    "fish oil supplementation depression placebo randomized quality of life outcome",
+    "EPA DHA comorbid depression placebo controlled trial wellbeing"
+  ]
+}

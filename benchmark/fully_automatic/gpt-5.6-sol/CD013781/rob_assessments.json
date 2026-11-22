@@ -1,0 +1,200 @@
+[
+  {
+    "paper_id": "deep_research:6440368",
+    "paper_title": "Preoperative levosimendan decreases mortality and the development of low cardiac output in high-risk patients with severe left ventricular dysfunction undergoing coronary artery bypass grafting with cardiopulmonary bypass",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that eligible patients were randomly assigned to receive preoperative levosimendan or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although random assignment was reported, the sequence-generation and allocation-concealment methods were not described, and no baseline comparison was provided.",
+        "evidence_quote": "were randomly assigned to receive levosimendan ... or a placebo"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Use of placebo suggests an effort to prevent deviations related to treatment awareness, but blinding, protocol deviations, and the analysis population (including whether intention-to-treat analysis was used) were not reported.",
+        "evidence_quote": "randomly assigned to receive levosimendan ... or a placebo"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The abstract reports enrollment totals and group outcome rates but does not state whether outcome data were available for all randomized participants or whether exclusions or loss to follow-up occurred.",
+        "evidence_quote": "a total of 252 patients were enrolled (127 in the levosimendan group and 125 in the control group)"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Mortality is an objective outcome, but definitions and ascertainment procedures for LCOS, complicated CPB weaning, and treatment requirements were not reported, nor was blinding of outcome assessors.",
+        "evidence_quote": "Individuals treated with levosimendan exhibited a lower incidence of complicated weaning from CPB ... decreased mortality ... and a lower incidence of LCOS"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration, prespecified protocol, or statistical analysis plan is reported, and several outcomes were analyzed, leaving uncertainty about selective choice of outcomes or analyses.",
+        "evidence_quote": "To evaluate the effects of preoperative treatment with levosimendan on 30-day mortality, the risk of developing LCOS and the requirement for inotropes, vasopressors and intra-aortic balloon pumps"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial is explicitly randomized, but the abstract omits details on sequence generation, allocation concealment, blinding, analysis population, completeness of outcome data, and outcome definitions. With no domain clearly at high risk but unresolved concerns across all five RoB 2 domains, the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "deep_research:7826783",
+    "paper_title": "Levosimendan reduces heart failure after cardiac surgery: a prospective, randomized, placebo-controlled trial",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that patients were randomized to receive either a 24-hour levosimendan infusion or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although allocation is explicitly described as randomized, the abstract does not report the sequence-generation method, allocation concealment, or baseline comparability.",
+        "evidence_quote": "Patients were randomized to receive a 24-hr infusion of placebo or levosimendan"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Use of a placebo suggests an effort to maintain intended treatment assignment, but the abstract does not explicitly describe blinding, intervention deviations, crossover, adherence, or whether analysis followed intention-to-treat principles.",
+        "evidence_quote": "Prospective, randomized, placebo-controlled clinical study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Results appear to use approximately 100 patients per arm out of 200 randomized, but participant flow, exclusions, and completeness of outcome ascertainment are not explicitly reported in the abstract.",
+        "evidence_quote": "Two hundred patients assigned to undergo heart valve or combined heart valve and coronary artery bypass grafting surgery."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary heart-failure outcome was prospectively defined using largely objective clinical criteria, and there is no indication that it was measured differently between randomized groups.",
+        "evidence_quote": "Heart failure was defined as cardiac index <2.0 L/min/m2 or failure to wean from cardiopulmonary bypass necessitating inotrope administration for at least 2 hrs postoperatively."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The abstract reports a defined primary outcome and several secondary outcomes, but no preregistration, protocol, or prespecified statistical analysis plan is provided to exclude selective choice among eligible measurements or analyses.",
+        "evidence_quote": "To investigate whether levosimendan diminishes the incidence of heart failure after cardiac surgery."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns because the abstract confirms random assignment and uses an objective primary outcome, but does not adequately describe sequence generation or concealment, blinding and intervention adherence, missing-data handling, intention-to-treat analysis, or prespecification of outcomes and analyses."
+  },
+  {
+    "paper_id": "deep_research:3217486",
+    "paper_title": "Study of Levosimendan During Off-Pump Coronary Artery Bypass Grafting in Patients with LV Dysfunction: A Double-Blind Randomized Study",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although described as randomized, allocation was based on medical record numbers, a deterministic quasi-random method rather than an explicitly generated random sequence; therefore the study is assessed with ROBINS-I.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "Assignment by medical record number was not truly random and could permit baseline confounding, although the authors reported that measured demographic, preoperative, and medication characteristics were comparable between groups.",
+        "evidence_quote": "Patients were randomly assigned according to the medical record numbers"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Prospective enrollment under explicit eligibility criteria reduces concern, but the recruitment process (including whether enrollment was consecutive and whether assignment was knowable before enrollment) is insufficiently reported, and medical-record-number allocation may have been foreseeable.",
+        "evidence_quote": "Patients with coronary artery disease (CAD) and low LVEF (<30%) scheduled to undergo OPCABG were prospectively enrolled in the study at our institute."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The levosimendan and placebo interventions were clearly defined, administered prospectively using the same method, and unlikely to have been misclassified.",
+        "evidence_quote": "group L or a placebo (Inj. Multivitamin-10 ml, NBZ Pharma) dissolved in NS to mimic the color of levosimendan in group C. The method of administration was similar in both groups."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "Placebo color matching, double blinding, and standardized perioperative care reduce concern, but blinding procedures and analysis according to initial assignment are not fully described, while post-assignment rescue treatments differed substantially and could affect downstream outcomes such as length of stay.",
+        "evidence_quote": "Anesthetic management and surgical procedures were same in both the groups."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "low",
+        "rationale": "All 50 enrolled participants were included in the analysis, with no reported loss to follow-up or missing outcome data through the stated study period.",
+        "evidence_quote": "The data from these 50 patients were included in statistical analysis."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "moderate",
+        "rationale": "Hemodynamic outcomes were objectively measured under a common schedule, but some clinical outcomes and management decisions (inotrope, IABP, CPB, ICU discharge) could be influenced by knowledge of treatment, and the paper does not clarify who was blinded or whether standardized decision criteria were used for all such outcomes.",
+        "evidence_quote": "All patients underwent continuous monitoring of HR, ABP, pulse oximetry, cardiac index (CI), and pulmonary capillary wedge pressure (PCWP)."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "serious",
+        "rationale": "No protocol or prespecified analysis plan is reported despite numerous outcomes, repeated time points, and flexible comparisons, and the analysis used simple t tests/ANOVA without a clearly prespecified repeated-measures or multiplicity strategy, creating substantial scope for selective reporting.",
+        "evidence_quote": "Student's t-test and analysis of variance (ANOVA) were used to determine the differences between the groups. P-value < 0.05 was considered significant."
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall ROBINS-I risk is serious, driven by substantial potential for selective reporting across many outcomes and time points without a reported protocol or prespecified analysis plan. Additional moderate concerns arise from quasi-random assignment by medical record number, incompletely described recruitment/blinding, intervention-related rescue care, and potentially judgment-sensitive outcome assessment."
+  },
+  {
+    "paper_id": "pubmed:33127531",
+    "paper_title": "Association between levosimendan, postoperative AKI, and mortality in cardiac surgery: Insights from the LEVO-CTS trial.",
+    "design_classification": "randomized",
+    "design_rationale": "The parent LEVO-CTS trial explicitly randomized participants 1:1 to levosimendan or matching placebo; this report is a post-hoc analysis of those randomized treatment groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Treatment allocation was explicitly randomized 1:1, but this report does not describe sequence generation or allocation concealment, and it does not present treatment-arm baseline comparisons relevant to this analysis.",
+        "evidence_quote": "Patients were randomized 1:1 to receive a 24-hour intravenous infusion of levosimendan or matching placebo beginning immediately prior to surgery."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Use of matching placebo likely blinded participants and clinicians, but the levosimendan analyses used a modified intention-to-treat population of 828 rather than all 882 randomized participants, with insufficient information about exclusions or intervention deviations.",
+        "evidence_quote": "Descriptive analyses were performed using the LEVO-CTS intention to treat (ITT) population after excluding patients without both pre- and post-operative creatinine values recorded (n=854/882 included), while regression and descriptive analyses involving levosimendan were performed using the modified intention to treat (mITT) population (n=828 included)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "AKI outcome data were unavailable for 28 of 882 randomized patients, and levosimendan analyses included only 828 participants; no sensitivity analysis or evidence that missingness was unrelated to outcomes was reported.",
+        "evidence_quote": "Descriptive analyses were performed using the LEVO-CTS intention to treat (ITT) population after excluding patients without both pre- and post-operative creatinine values recorded (n=854/882 included), while regression and descriptive analyses involving levosimendan were performed using the modified intention to treat (mITT) population (n=828 included)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "AKI was measured objectively and consistently from prospectively collected serum creatinine and renal-replacement-therapy data using a prespecified modified AKIN definition, making differential assessment by randomized treatment unlikely.",
+        "evidence_quote": "A modified AKIN classification was used, based solely on creatinine data and not urine output... For the classification of AKI, the highest 5-day postoperative value of creatinine was used in addition to the use of renal replacement therapy."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "This was an explicitly post-hoc, non-preregistered analysis with several eligible AKI definitions, populations, outcomes, covariate models, and interaction analyses, creating substantial scope for selective reporting; the authors also acknowledge multiple-comparison error.",
+        "evidence_quote": "First, as a post-hoc observational analysis of clinical trial data, there is significant potential for residual confounding as LEVO-CTS was not designed specifically to examine the outcome of postoperative AKI. Further, as with any subgroup analysis of clinical trial data, multiple comparison testing may lead to an increased likelihood of error."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the explicitly post-hoc analysis and substantial flexibility in AKI definitions, analysis populations, endpoints, and modeling without a reported prespecified analysis plan. Additional concerns arise from incomplete reporting of allocation methods and exclusion of randomized participants from the AKI and levosimendan analyses."
+  }
+]

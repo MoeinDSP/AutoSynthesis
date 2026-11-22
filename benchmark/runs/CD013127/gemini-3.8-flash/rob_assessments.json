@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:b5189bf8",
+    "paper_title": "c5e18386_1-s2.0-S1322769620300548-main",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly assigned to either the experimental group or a waitlisted control group using a random allocation sequence table.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although a random allocation sequence was generated and assigned by research assistants, the method of sequence generation is not fully detailed and allocation concealment is not explicitly described.",
+        "evidence_quote": "The first author (HSYM) generated a random allocation sequence table. Two research assistants were responsible for then enrolling and assigning the participants to either the experimental group or a waitlisted control group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The intervention was delivered as scheduled in this educational trial, the waitlist design had appropriate controls, and analysis adhered to an intention-to-treat approach.",
+        "evidence_quote": "IBM SPSS-Statistics 23 was used for the data analysis, which was conducted on an intention-to-treat basis. The missing data for every outcome measure were imputed by using the last-observationcarried-forward method."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was very low across both groups (over 92% retention at follow-up) and missing data were handled using intention-to-treat analysis with last observation carried forward.",
+        "evidence_quote": "In the experimental group, 168 of the 182 students completed MHFA training and the posttest questionnaire during mid-2017, and 167 students completed the follow-up questionnaire early in 2018. Meanwhile, 175 and 165 of the 176 students in the control group completed the post-test and follow-up questionnaires, respectively."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were self-reported questionnaires in an unblinded trial where participants were aware of their intervention group assignment, potentially introducing social desirability or expectation bias.",
+        "evidence_quote": "Self-administrated questionnaires were used to collect data immediately after randomisation (pre-test), after participation in the 12-hour MHFA programme (post-test), and six months after completion (follow-up)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no mention of a pre-registered trial protocol or pre-specified statistical analysis plan to confirm that reporting was free from selective outcome reporting.",
+        "evidence_quote": "A repeated-measures analysis of variance with Greenhouse-Geisser correction was used to investigate the effectiveness of MHFA training. Table 2 provides the means, standard deviations, within-subject variances, and effect sizes of the outcome measures."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study is judged to have some concerns overall due to insufficient details regarding allocation concealment, the reliance on subjective self-report questionnaires in an unblinded educational setting, and the absence of a pre-registered trial protocol."
+  },
+  {
+    "paper_id": "manual:2f0c4f30",
+    "paper_title": "ad584667_1471-244x-10-51",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a cluster randomized trial where 16 schools were paired and randomly allocated to intervention or wait-list control using Random.org.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Allocation concealment was compromised because schools knew their assignment prior to baseline measurement, and two non-adherent schools had their allocations swapped post-randomization, leading to exclusion of these clusters from primary analyses.",
+        "evidence_quote": "Using the Random Integers option of Random.org, one school in each pair was randomly assigned to the immediate group and the other school to the wait-list group... After randomization and before baseline questionnaires, two schools decided that they were unable to follow the allocation because of changes in timetabling constraints... it was agreed to swap the allocation for these two schools (one from intervention to control and the other from control to intervention), resulting in 14, rather than 16 schools receiving the intervention as randomized."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and school staff were unblinded to assignment, and two clusters swapped conditions and were excluded from the main analysis rather than analyzed under a strict intention-to-treat approach.",
+        "evidence_quote": "Blinding of participants was not possible. Post-test and follow-up questionnaires were self-completed by teachers who knew whether they had completed the training or not."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "There was substantial attrition across follow-up points (22-28% for teachers and 24% for students), and while mixed-effects models handle missing at random, missingness could still depend on unobserved outcomes.",
+        "evidence_quote": "Twenty-two percent of teachers did not complete the post-test questionnaire and 28% the follow-up questionnaire. In relation to the students, 24% did not complete the follow-up questionnaire."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes were assessed via self-report questionnaires by participants who were fully aware of their intervention status, introducing a high risk of reporting bias and social desirability.",
+        "evidence_quote": "Blinding of participants was not possible. Post-test and follow-up questionnaires were self-completed by teachers who knew whether they had completed the training or not."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A vast number of individual outcomes and items were analyzed without correction for multiple testing, and scale analyses were altered post-hoc when principal components could not be replicated.",
+        "evidence_quote": "These items were intended to be analyzed as scales based on a previous principal components analysis [14]. However, because the principal components could not be replicated in the teacher data, the responses to these questions were analyzed as individual items... Although there were many statistically significant findings, these must be viewed in the context of the large number of outcome measures investigated."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "The study is at high overall risk of bias due to serious issues in the randomization process (swapping allocations for two non-adherent schools and cluster exclusion) and high risk of bias in outcome measurement arising from unblinded subjective self-reports."
+  },
+  {
+    "paper_id": "manual:958b2f22",
+    "paper_title": "00ecdf33_00048674.2010.516426",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly allocated using a computerized random number generator (Random.org) into one of three parallel groups (e-learning CD, printed manual, or waiting list control).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Randomization was performed using a computerized random sequence generator and allocation was concealed until after baseline assessments were completed.",
+        "evidence_quote": "A computerized random number generator (Random Integers option in Random.org) was used to carry out a simple randomization procedure... The allocation sequence was concealed from J.F. until it was time to advise participants of their random assignment and send educational materials as required; that is, after baseline data was collected."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants could not be blinded given the nature of educational materials, there is no evidence of protocol deviations affecting intended delivery, and an intention-to-treat approach with mixed-effects models was used.",
+        "evidence_quote": "Blinding of participants was not possible... An intention-to-treat approach was used, with all participants included in the analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Overall attrition was low (9% at post-test, 13% at follow-up) and appropriate mixed-effects models valid under missing at random were employed.",
+        "evidence_quote": "Nine per cent of participants did not complete the post-test questionnaire and 13% the follow-up questionnaire. An intention-to-treat approach was used, with all participants included in the analyses."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "All outcomes were self-reported via online questionnaires by participants who were aware of their intervention group assignment, which could be influenced by social desirability or awareness of condition.",
+        "evidence_quote": "The effects of the interventions were evaluated using online questionnaires pre- and post-training and at 6-months follow up. The questionnaires covered mental health knowledge, stigmatizing attitudes, confi dence in providing help to others, actions taken to implement mental health fi rst aid and participant mental health."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Multiple outcome scores (beliefs about treatment, confidence, stigma scales) were dichotomized based on distributions observed in the data, introducing some risk of selective analysis choices.",
+        "evidence_quote": "The trial has been registered with the Australian and New Zealand Clinical Trials Registry (ACTRN12608000188336)... Several continuous scales were dichotomized post hoc (e.g., 'Because the baseline scores were highly skewed with ceiling effects, these were dichotomized... Because of skew in the distribution, the principal component scores were dichotomized at the median')."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study had sound randomization and low attrition, but outcome measurement relied on unblinded participant self-reports and multiple outcome scales underwent data-dependent dichotomization."
+  },
+  {
+    "paper_id": "manual:bd40b0f5",
+    "paper_title": "7e970ab8_journal.pone.0100911",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly allocated to either immediate Mental Health First Aid training or a 6-month waiting-list control group using the Random Integers function on random.org.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Sequence generation was conducted using an online random number generator, allocation was centralized and concealed until assignment, and baseline characteristics were comparable between groups.",
+        "evidence_quote": "The coordinator created a list of participants who had given informed consent and completed the questionnaires. Each participant was given a specific ID-number on the list, which was then sent to one of the researchers (BS) who performed the randomization procedure by using the Random Integers option at the http://random.org website [29]. The participants where anonymous to the researchers."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants were aware of assignment due to the nature of the educational intervention versus waitlist, deviations from the intended intervention were not evident and an intention-to-treat approach was appropriately employed.",
+        "evidence_quote": "A randomized controlled trial was planned with the control group placed on a waiting list during a 6 month follow-up... Intention to treat analyses were performed in the RCT."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Substantial attrition occurred at the 6-month follow-up (approximately 32% lost in both arms), and while multiple imputation was applied, missingness could still plausibly be related to true outcome values under a missing-not-at-random scenario.",
+        "evidence_quote": "At the six month follow up 64 participants in the experimental group and 65 in the control group had not completed the questionnaires... The multiple imputation module in IBM SPSS was used to impute follow-up data regarding outcomes for participants who completed the baseline assessments but did not participate in the follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were self-reported via questionnaires by participants who were necessarily unblinded to their intervention or waitlist status, introducing potential social desirability or reporting bias.",
+        "evidence_quote": "The pre-test assessment was administered by mailed questionnaires with reply envelopes sent to participants in the month prior to the intervention. The follow-up assessment was made in the same way six months after completion of the training. The same self \u2013 report questionnaires as in the Australian studies have been used"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospective protocol or pre-registration with a detailed statistical analysis plan is cited, raising some concerns for selective reporting across multiple measured scales and items.",
+        "evidence_quote": "The primary outcome is whether individuals trained in MHFA compared to waiting \u2013 list controls improved their readiness to provide actual help to people with mental disorders. Secondary outcomes are if the training lead to more: 1. knowledge about mental disorders and their treatment, 2. knowledge about how to behave and act when with a person with a mental disorder, 3. selfconfidence in helping a person with a mental disorder, 4. positive attitudes towards people with mental disorders."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study had an adequate randomization procedure, but some concerns arise due to substantial missing outcome data (approximately 32% attrition handled via multiple imputation), reliance on subjective self-report questionnaires from unblinded participants, and lack of a documented pre-registered statistical analysis plan."
+  },
+  {
+    "paper_id": "manual:601fa45d",
+    "paper_title": "b4deefd9_s00127-016-1176-9",
+    "design_classification": "randomized",
+    "design_rationale": "The study is explicitly described as a randomized trial with participants allocated to the intervention or waitlist control group using a computer-generated concealed randomization sequence with variable block size.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated with concealed sequence by an independent researcher, and baseline characteristics were comparable between groups.",
+        "evidence_quote": "An independent researcher provided the randomization by a computer-generated concealed randomization sequence with variable block size."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants could not be blinded given the nature of the educational intervention, but an intention-to-treat approach was used and there is no evidence of important protocol deviations affecting the trial.",
+        "evidence_quote": "Intention to treat analysis was performed (in the RCT). Imputations were estimated based on outcomes for participants who did not complete the assessments."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "There was substantial loss to follow-up that was differential between groups (40% vs 29%), and imputation based only on age and gender may not fully account for missingness related to the true value of the outcomes.",
+        "evidence_quote": "At 6 months follow-up 117 (40 %) participants in the intervention group and 80 (29 %) in the control group had not completed the questionnaire."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were self-reported by unblinded participants who were aware of their intervention status, which could plausibly influence their reported confidence and attitudes.",
+        "evidence_quote": "However, neither the participants, the assessors (the trial being a self-report study) nor the instructors were blinded."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was pre-registered and reported results correspond to the pre-specified primary and secondary outcomes.",
+        "evidence_quote": "The protocol was registered at https://clinicaltrials.gov on the 25th of April 2015, identifier NCT02334020."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "The overall risk of bias is high due to substantial and differential missing outcome data at 6 months follow-up (40% attrition in intervention vs 29% in control), alongside some concerns regarding unblinded self-reported outcomes."
+  }
+]

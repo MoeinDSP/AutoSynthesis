@@ -1,0 +1,38 @@
+{
+  "research_question": "Among preterm infants born before 37 weeks and at risk of bronchopulmonary dysplasia (BPD), what is the effect of early systemic low-dose dexamethasone, initiated before 7 days of postnatal age and with a cumulative course dose below 2 mg/kg, compared with placebo or no treatment, on the composite outcome of death or BPD (oxygen requirement/chronic lung disease) at 36 weeks' postmenstrual age?",
+  "treatment_label": "Early low-dose systemic dexamethasone (started before postnatal day 7; cumulative course dose <2 mg/kg)",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Composite binary outcome of death before 36 weeks' postmenstrual age or BPD at 36 weeks' postmenstrual age, where BPD is oxygen requirement, oxygen dependence, or chronic lung disease at 36 weeks. Extract events and total randomised in each eligible arm using intention-to-treat denominators. If death and BPD among survivors are reported separately, sum the mutually exclusive counts of deaths before assessment and surviving infants with BPD, and use the number randomised as the denominator. Do not substitute BPD alone, death alone, BPD at 28 days, or any other clinical or developmental outcome. Pool risk ratios with a fixed-effect Mantel-Haenszel model when available; otherwise use a random-effects model. RR <1 favours dexamethasone.",
+  "positive_direction": "A positive standardized effect direction means that early low-dose systemic dexamethasone reduces the risk of the composite outcome of death or BPD at 36 weeks' postmenstrual age relative to placebo or no treatment; for the requested risk-ratio analysis, this beneficial effect corresponds to RR <1.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "preterm infants early systemic dexamethasone randomized controlled trial bronchopulmonary dysplasia death",
+    "neonatal low dose dexamethasone placebo trial chronic lung disease 36 weeks",
+    "premature infants early dexamethasone controlled trial oxygen dependence mortality"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling infants born before 37 weeks' gestation and at risk of BPD, with an eligible dexamethasone arm and a placebo or no-treatment control arm.",
+    "Systemic dexamethasone initiated before 7 completed postnatal days, with cumulative dose below 2 mg/kg over the entire course; calculate cumulative dose from dose, frequency, schedule, and duration when it is not explicitly stated.",
+    "Quantitative arm-level data permitting derivation of the composite number who died before 36 weeks' postmenstrual age or had BPD/oxygen dependence/chronic lung disease at 36 weeks, with the number randomised available as the denominator."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-original reports.",
+    "No eligible comparison between early low-dose systemic dexamethasone and placebo or no treatment; this includes non-randomised studies and controls receiving another steroid or a different dexamethasone dose.",
+    "No quantitative outcome data capable of producing an effect size, such as arm-level event counts and totals, proportions, odds ratios, or other statistics from which the death-or-BPD risk ratio can be derived; also exclude reports limited to BPD among survivors, death alone, BPD at 28 days, or non-target outcomes.",
+    "Completely unrelated to the research topic, or clinically ineligible because infants were not preterm, dexamethasone began at age 7 days or later, cumulative dexamethasone dose was at least 2 mg/kg, the intervention was hydrocortisone or an inhaled/intratracheal steroid, or dexamethasone was used only for extubation in infants already ventilator-dependent after 7 days."
+  ],
+  "moderators_to_extract": [
+    "Gestational age and birth-weight distribution",
+    "Postnatal age at dexamethasone initiation",
+    "Calculated cumulative dexamethasone dose and dosing schedule",
+    "Baseline respiratory support or ventilation status and underlying BPD risk",
+    "BPD definition/wording at 36 weeks (oxygen requirement, oxygen dependence, or chronic lung disease)",
+    "Trial characteristics, including placebo versus no-treatment control and publication year"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Primary synthesis: arm-level risk ratio for death or BPD at 36 weeks' postmenstrual age, using events divided by number randomised (intention-to-treat). Apply a fixed-effect Mantel-Haenszel model if available; otherwise use a random-effects model. Orient interpretation so RR <1 favours dexamethasone. For multi-arm trials, retain only the eligible low-dose dexamethasone and placebo/no-treatment arms; combine arms within the same eligible dose category when appropriate and ignore ineligible steroid or dose arms. Verify initiation before day 7 and calculate total cumulative dose across the full regimen when necessary. Do not pool BPD alone, mortality alone, cerebral palsy, neurodevelopment, infection, hypertension, hyperglycaemia, or growth outcomes.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "death or BPD at 36 weeks' postmenstrual age"
+}

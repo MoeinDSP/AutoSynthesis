@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults receiving maintenance haemodialysis or peritoneal dialysis, what is the effect of structured exercise training (aerobic, resistance, combined, or other structured exercise delivered during or between dialysis sessions), compared with usual care/no exercise or placebo/sham exercise, on lower-limb functional strength measured as the time in seconds to complete a five-repetition (or eligible five-to-ten-repetition) timed sit-to-stand test at the end of the intervention?",
+  "treatment_label": "Structured exercise training during or between dialysis sessions (aerobic, resistance, combined, or other structured exercise)",
+  "control_label": "No exercise/usual care or placebo exercise such as stretching or sham exercise",
+  "outcome_description": "Time in seconds to complete five repetitions of a timed sit-to-stand test (or an eligible timed five-to-ten-repetition version), assessed at the end of the exercise programme. Extract mean, SD, and number analysed or randomised per arm. Prefer end-of-intervention values; if only change-from-baseline mean and SD are reported, use change scores for both arms and identify this explicitly. Do not mix endpoint and change data across arms. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n), verify table footnotes defining \u00b1, and convert all times to seconds. Exclude fixed-duration sit-to-stand repetition counts (including 30- and 60-second tests), repetitions-per-time results, post-programme follow-up, timed up-and-go, six-minute walk, and all other outcomes.",
+  "positive_direction": "For sign-harmonised standardized effects, a positive Hedges g would mean better sit-to-stand performance with exercise, specifically a shorter completion time than control. For the requested raw mean difference reported as exercise minus control, however, MD < 0 seconds indicates better performance and favours exercise.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "dialysis exercise randomized trial sit-to-stand time",
+    "haemodialysis resistance aerobic training controlled five times sit to stand",
+    "peritoneal dialysis structured exercise trial chair stand seconds"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials, including eligible theses and dissertations, enrolling adults receiving maintenance haemodialysis or peritoneal dialysis.",
+    "Trials comparing eligible structured exercise training delivered during or between dialysis sessions with no exercise/usual care or a placebo/sham exercise condition.",
+    "Trials reporting a timed five-repetition sit-to-stand test, or an eligible timed five-to-ten-repetition sit-to-stand variant, with quantitative data sufficient to derive an arm-level mean difference in seconds."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised trial, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and non-randomised studies.",
+    "No eligible comparison between exercise training and no exercise/usual care or placebo/sham exercise; exclude controls receiving a different active exercise or another active intervention.",
+    "No quantitative outcome data capable of producing an effect size (for this outcome, arm-level means with SDs or convertible SE/SEM and sample sizes; generally, means plus SDs, t/F values, proportions, or odds ratios are required).",
+    "Completely unrelated to the research topic, or involving kidney transplant recipients/non-dialysis kidney disease without separable maintenance-dialysis data; also exclude fixed-duration sit-to-stand counts, repetitions-per-time outcomes, timed up-and-go, six-minute walk, and non-sit-to-stand outcomes."
+  ],
+  "moderators_to_extract": [
+    "Dialysis modality (haemodialysis versus peritoneal dialysis)",
+    "Exercise mode (aerobic, resistance, combined, or other structured exercise)",
+    "Exercise delivery timing/context (intradialytic versus interdialytic/home/centre-based)",
+    "Programme duration and prescribed frequency/intensity",
+    "Comparator type (usual care/no exercise versus placebo/stretching/sham)",
+    "Sit-to-stand version and data type used (five-repetition versus five-to-ten-repetition; endpoint versus change score)"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool raw mean differences in seconds using a random-effects model, calculated as exercise minus control; therefore MD < 0 favours exercise. Use end-of-intervention mean, SD, and n. If only change-from-baseline data are available, use mean change and SD of change for both arms and flag this; never mix endpoint and change values across arms. Use the measurement at programme completion, not later follow-up. Convert SE/SEM to SD as SE \u00d7 sqrt(n), check whether \u00b1 denotes SD or SE, and convert units to seconds. For multi-arm or factorial trials, combine eligible exercise arms and separately combine eligible control arms using standard pooled mean/SD formulas and summed n, or select the uniquely matching arm and document the decision; ensure a shared control is used only once. Assign arms from treatment descriptions rather than column order. Use the reported analysed or randomised n as appropriate. Do not pool 30-/60-second sit-to-stand counts or any other outcome.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "timed sit-to-stand completion time"
+}

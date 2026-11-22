@@ -1,0 +1,39 @@
+{
+  "research_question": "In women undergoing surgery for stress or stress-predominant urinary incontinence, do single-incision mid-urethral slings (any device except TVT-Secur) achieve higher rates of subjective cure or improvement of incontinence at 12 months than transobturator mid-urethral slings (TOT/TVT-O)?",
+  "treatment_label": "Single-incision mini-sling (SIS; e.g. Ajust, Needleless/Contasure, MiniArc, Ophira, Altis, Solyx \u2014 excluding TVT-Secur)",
+  "control_label": "Transobturator mid-urethral sling (TOT/TVT-O, inside-out or outside-in)",
+  "outcome_description": "Number of women reporting subjective (patient-reported) cure or improvement of stress urinary incontinence out of the number analysed in each arm at the 12-month follow-up. Patient-reported success is defined as the paper defines it (e.g. no stress leakage on questionnaire such as ICIQ-UI/UDI-6/ISI, 'very much better' or 'much better' on PGI-I/global impression of improvement, or satisfaction-based success). Objective cure measures (cough stress test, pad test, urodynamics) are not used. If a report covers longer follow-up (24 or 36 months), the 12-month figures are extracted from its tables/figures; if 12 months is unavailable, the closest earlier assessment of at least 6 months is used. Arms are assigned by device description, not column position, with SIS always the treatment arm. For trials with more than one eligible single-incision arm, each SIS arm is compared with the shared TOT group whose events and sample size are divided equally across comparisons; any TVT-Secur arm is ignored. Multiple reports of the same trial are extracted once, preferring the report giving the 12-month subjective result.",
+  "positive_direction": "A positive effect (RR > 1) means a greater proportion of women were subjectively cured or improved with the single-incision sling than with the transobturator sling.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "single-incision mini-sling versus transobturator tape randomized trial stress urinary incontinence",
+    "MiniArc Ajust Solyx Altis Ophira Contasure needleless TVT-O comparison subjective cure",
+    "mid-urethral sling randomised controlled trial women stress incontinence 12 month cure rate"
+  ],
+  "inclusion_criteria": [
+    "Studies of adult women treated surgically for stress or stress-predominant urinary incontinence",
+    "Compares a single-incision mini-sling device (other than TVT-Secur alone) with a transobturator mid-urethral sling (TOT or TVT-O)",
+    "Reports some quantitative patient-reported cure/improvement or success data at a follow-up of roughly 6 months or more (event counts, proportions, or data from which they can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion or purely theoretical/protocol paper)",
+    "No comparison between a single-incision sling arm and a transobturator sling control arm (e.g. TVT-Secur only, or sling versus colposuspension, bulking agents or retropubic sling, or single-arm case series)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts/proportions, means+SDs, t/F values or odds ratios)",
+    "Completely unrelated to surgical treatment of female stress urinary incontinence"
+  ],
+  "moderators_to_extract": [
+    "Single-incision device type (MiniArc, Ajust, Solyx, Altis, Ophira, Contasure-Needleless, other)",
+    "Transobturator comparator route (inside-out TVT-O vs outside-in TOT)",
+    "Definition of subjective success (no leakage on questionnaire vs global impression vs satisfaction)",
+    "Follow-up timepoint actually used (12 months vs closest earlier \u22656 months)",
+    "Sample size category (total randomised)",
+    "Risk of bias / allocation concealment and blinding",
+    "Publication year and country/region"
+  ],
+  "search_start_year": 2005,
+  "effect_size_note": "Pool as a risk ratio of subjective cure/improvement, SIS divided by TOT, using event counts and number analysed per arm; RR > 1 favours the single-incision sling. Random-effects pooling on the log RR scale.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "subjective cure or improvement of stress urinary incontinence at 12 months"
+}

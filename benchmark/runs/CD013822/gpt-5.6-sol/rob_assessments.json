@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:74463775",
+    "paper_title": "21269a78_cam4.525",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly used computer-generated random numbers to assign participants to intervention or control, with stratification by age, cancer history, and educational level.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated and stratified, assignment was performed by an assistant without participant contact, and concealment was maintained until intervention assignment; baseline characteristics were generally balanced apart from one plausible chance difference.",
+        "evidence_quote": "The research assistant, who had no contact with the participants, generated the random assignment sequence, and assigned the participants (recruited by the researchers) to one or other group. This method ensured blinding up to the point when interventions were assigned."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers were necessarily unblinded, participants could seek additional information, and the primary analysis excluded randomized participants without follow-up rather than clearly using intention-to-treat, although intervention delivery was standardized and monitored.",
+        "evidence_quote": "The participants and the researchers administering the intervention had knowledge of the group to which each participant had been assigned."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Primary-outcome data were unavailable for 79 of 434 randomized participants (18.2%), with similar but substantial losses in both groups, and participants unreachable after three calls were excluded without evidence that missingness was unrelated to outcome or sensitivity analyses addressing it.",
+        "evidence_quote": "Numbers of women assigned to the standard information (control) and experimental information (intervention) groups were 216 and 218, respectively. Of these totals, 178 of the control and 177 of the IG were included in the analyses of knowledge, anxiety/depression, attitude, and decision."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Knowledge was measured identically with a structured questionnaire adapted from an existing instrument, but it was closely aligned with the intervention leaflet and participant-reported responses could be influenced by awareness of assignment; blinding of telephone outcome interviewers was not reported.",
+        "evidence_quote": "One month after the first interview the second was carried out, by telephone, with the object of evaluating again their knowledge, attitudes, decision, anxiety/depression and fear of cancer."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered only after recruitment began, and knowledge was reported using multiple eligible operationalizations and analyses, so prospective specification of the selected primary result cannot be confirmed from the article despite availability of a protocol supplement.",
+        "evidence_quote": "Participants were recruited between January 2011 and September 2012. The study was registered (ClinicalTrials. gov Identifier: NCT01335906) in April 2011."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial missing primary-outcome data (18.2% of randomized participants) analyzed only among completers without evidence excluding outcome-related missingness. Additional concerns arise from lack of participant/provider blinding, non-ITT analysis, potentially unblinded outcome collection, and unclear prospective specification of the reported knowledge analyses."
+  },
+  {
+    "paper_id": "manual:8e5e2033",
+    "paper_title": "c392c553_Dtsch_Arztebl_Int-112-0061",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports computer-assisted random selection and random allocation of women to receive the new versus old leaflet.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was explicitly random and groups were generally comparable, but the method of sequence generation and concealment from the unblinded study team were not described in enough detail, and marital status differed at baseline.",
+        "evidence_quote": "The 24 participants from each practice were selected by a computer-assisted random procedure, and the group allotment process was also random... The participants and their family physicians were blinded with respect to group allotment, but the study team was not."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and family physicians were blinded to group allotment, the interventions were mailed without active clinician involvement, and the prespecified primary analysis retained non-native German speakers according to protocol, with no reported intervention-related deviations.",
+        "evidence_quote": "The participants and their family physicians were blinded with respect to group allotment, but the study team was not."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary outcome was observed for only 353 of 792 randomized women (44.6%), and no evidence was provided that questionnaire nonresponse was unrelated to the outcome despite equal response counts between groups.",
+        "evidence_quote": "Questionnaires were sent to 792 women (396 per group)... 185 questionnaires were filled out and returned by each of the two groups (response rate, 46.7%)... 178 questionnaires from group A and 175 from group B were evaluable (total, 353)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary outcome was a straightforward self-reported yes/no question administered identically to both groups, and participants were blinded to group allotment, limiting differential measurement bias.",
+        "evidence_quote": "The primary endpoint was the yes-or-no question whether the participant would decide to undergo screening if invited to do so right now, at the time of questioning."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the primary analysis was protocol-specified, but secondary modeling allowed systematic interaction testing and backward elimination without multiplicity correction, creating selective-reporting risk for exploratory findings.",
+        "evidence_quote": "The statistical analysis was predetermined only with respect to the primary analysis and the establishment of secondary endpoints. No correction for multiplicity was made in the model search."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because primary outcome data were available for fewer than half of randomized participants, with no demonstration that nonresponse was unrelated to willingness to undergo screening. Additional concerns arise from incompletely described allocation concealment and flexible exploratory interaction analyses."
+  },
+  {
+    "paper_id": "manual:25de9413",
+    "paper_title": "264dad39_j.pec.2020.06.032",
+    "design_classification": "randomized",
+    "design_rationale": "Participants who consented were explicitly assigned to leaflet or control conditions using computer-generated random numbers.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence and comparable observed baseline characteristics support random allocation, but concealment until assignment was not described and the unexplained 54:46 allocation leaves some uncertainty about implementation.",
+        "evidence_quote": "Women who provided consent and their e-mail address were randomised to the intervention condition (leaflet) or the control condition (no leaflet) by computer-generated random numbers."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew whether they received the leaflet, adherence to reading it was not verified, and analyses appear to use follow-up completers rather than an intention-to-treat population, although no specific intervention-related deviations were reported.",
+        "evidence_quote": "Two weeks after completing their first questionnaire, participants in the intervention group were asked to read an online information leaflet... Participants in the control condition did not receive this leaflet."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The main analyses excluded substantial and different proportions of randomized participants (988/1312 completed both questionnaires; 531/703 intervention versus 457/609 control), with no sensitivity analysis showing that missingness could not bias the effects; implicit-association outcomes were available for only about half of analyzed participants.",
+        "evidence_quote": "The 1312 included participants were randomised to the leaflet (n = 703, 54 %) and the control condition (n = 609, 46 %)... In total, 988 participants (92 %) completed the second questionnaire."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Knowledge, attitudes, and attendance were measured consistently with prespecified instruments or administrative data, but the unblinded self-reported outcomes could be influenced by participants' awareness of receiving the leaflet, and the priming measure had notable exclusions and uncertain validity for this context.",
+        "evidence_quote": "Screening knowledge, explicit attitudes, and implicit associations were assessed through web-based questionnaires, at baseline and two weeks later. Actual screening attendance data were collected."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospective registration or analysis protocol is reported, while multiple outcomes, categorizations, subgroup analyses, correlations, and repeated-measures models created scope for selective reporting or analysis.",
+        "evidence_quote": "T-tests and chi-square tests were performed to test for differences between the two randomised groups in attendance, explicit attitudes, implicit associations, knowledge, and informed choice."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial post-randomization missing outcome data and complete-case analyses without evidence that missingness was non-informative. Additional concerns arise from unreported allocation concealment, lack of participant blinding and adherence verification, and absence of a reported prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:80c916a4",
+    "paper_title": "47d61bd1_journal.pone.0214057",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster-randomized controlled trial: 40 Basic Health Areas were allocated 1:1 to intervention or control using computer-generated blocks of size two, followed by random sampling of women within each area.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The cluster sequence was computer-generated by an independent statistician and recruiters were blinded, but concealment until cluster assignment was not explicitly described, participants were recruited after cluster randomization, and several baseline attitude measures differed between groups.",
+        "evidence_quote": "The random allocation sequence was generated by a statistician with no contact with the participants (MR)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew which visibly different leaflet they received, and the complete-case analysis excluded post-randomization losses rather than following a strict intention-to-treat approach, although adherence among analyzed participants was high and no intervention-related deviations were reported.",
+        "evidence_quote": "The main analysis included all women that had completed the pre- and post-intervention questionnaires with no missing data."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 400 of 524 baseline respondents completed the post-intervention questionnaire (76.3%), with no imputation or adequate demonstration that missingness was unrelated to outcomes; moreover, only 37.6% of invited eligible women completed the study, creating substantial potential for attrition-related bias.",
+        "evidence_quote": "The post-intervention questionnaire was completed by 400 women, 203 in the intervention group and 197 in the control group, which represents a response rate of 37.6% among the invited and eligible women."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were measured identically across groups with largely established instruments, but the primary outcome was self-reported, participants were aware of leaflet content, and most translated questionnaire items lacked formal cross-cultural validation, allowing differential response or comprehension effects.",
+        "evidence_quote": "Although we did not perform a cross-cultural adaptation/ validation, given that most of the original questions were short, precise and formulated in simple language, we think that the results would have not changed much if a panel of experts had performed this task."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial had a published protocol and prospective registry, the authors state that analyses followed the protocol, and the predefined primary outcome and its components were reported, providing little evidence of selective reporting.",
+        "evidence_quote": "We performed the statistical analysis as planned in the protocol [14]."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial post-randomization missing outcome data were analyzed using complete cases without convincing evidence that missingness could not bias the effect estimate. Additional concerns arise from incompletely reported allocation concealment, departures from strict intention-to-treat analysis, and participant-reported outcomes assessed with knowledge of intervention content."
+  },
+  {
+    "paper_id": "manual:625a6b08",
+    "paper_title": "6c2f0c7d_S0140-6736%2815%2960123-4",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized parallel-group trial using a computer-generated allocation sequence with permuted blocks and concealed allocation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated by an independent programmer, concealed from recruiters until after recruitment, and the reported baseline characteristics were broadly balanced.",
+        "evidence_quote": "A programmer who had no contact with participants generated the randomisation sequence using a computer system that was inaccessible until after recruitment; therefore, interviewers were unaware of the materials that women would receive (ensuring allocation concealment)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants were masked to which booklet was the intervention, adherence was high and similar between groups, no material deviations were reported, and analyses retained participants in their randomized groups apart from missing outcomes.",
+        "evidence_quote": "Women knew they would receive one of two versions of an information booklet but did not know how these differed or which one was the intervention."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary-outcome data were available for 817 of 879 quantitative participants (93%), attrition and incomplete responses were balanced between groups, and multiple-imputation sensitivity analyses did not change the findings.",
+        "evidence_quote": "Results for informed choice and its components did not change when missing values were imputed (data not shown)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified informed-choice outcome used standardized knowledge, attitude, and intention measures administered identically in both groups, while interviewers were kept unaware of assignment during relevant assessment and analysts were blinded.",
+        "evidence_quote": "We designed the follow-up interview to ensure the group assignment was unclear to the interviewer until the final question. Researchers who analysed data were unaware of the random allocation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, had a published protocol, and the primary outcome definition, scoring thresholds, and primary analysis were specified a priori, with alternative conceptual-knowledge analysis clearly identified as sensitivity analysis.",
+        "evidence_quote": "We scored answers with a marking scheme that we developed a priori (appendix p 25). We set a threshold a priori to define adequate knowledge for informed choice."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias is low: randomization and concealment were robust, masking and outcome assessment were appropriate, missing data were limited and balanced with supportive sensitivity analyses, and the primary outcome and analysis were prespecified."
+  }
+]

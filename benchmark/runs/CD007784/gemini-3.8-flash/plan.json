@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of statins compared with placebo or no statin treatment on end-of-treatment proteinuria in adults with chronic kidney disease not requiring dialysis?",
+  "treatment_label": "Statin (HMG-CoA reductase inhibitor)",
+  "control_label": "Placebo or no statin",
+  "outcome_description": "Urinary protein excretion in grams per 24 hours (g/24 h) at the end of treatment (or 24-hour urinary albumin excretion if protein excretion is not reported)",
+  "positive_direction": "A positive effect size indicates lower proteinuria (reduced 24-hour urinary protein excretion) favoring statin therapy over control",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "statin chronic kidney disease proteinuria randomized trial",
+    "HMG-CoA reductase inhibitor CKD urinary protein excretion clinical trial",
+    "atorvastatin pravastatin non-dialysis CKD proteinuria controlled study"
+  ],
+  "inclusion_criteria": [
+    "Adults with chronic kidney disease not requiring renal replacement therapy (dialysis or kidney transplant)",
+    "Randomized controlled trial or clinical study comparing statin monotherapy to placebo or no statin control",
+    "Quantitative reporting of urinary protein excretion (or urinary albumin excretion) at the end of the treatment period"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and animal/in vitro studies)",
+    "Studies conducted in dialysis-dependent patients or kidney transplant recipients",
+    "No comparison between a statin and placebo or untreated control (e.g., head-to-head statin comparisons or statin vs another active agent)",
+    "No quantitative end-of-treatment proteinuria or urinary protein/albumin excretion data extractable to compute mean difference"
+  ],
+  "moderators_to_extract": [
+    "Specific statin agent and daily dose/intensity",
+    "Treatment duration / follow-up length",
+    "Underlying CKD etiology (diabetic vs non-diabetic CKD)",
+    "Baseline renal function (eGFR or CKD stage)",
+    "Control type (placebo vs untreated control)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as mean difference (MD) in g/24 h using end-of-treatment values from the final on-treatment timepoint. Convert mg/24 h to g/24 h by dividing by 1000. Convert SE to SD using SD = SE * sqrt(n).",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "proteinuria"
+}

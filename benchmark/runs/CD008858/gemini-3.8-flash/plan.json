@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of live attenuated herpes zoster vaccine (Oka/Merck zoster vaccine, Zostavax), compared with placebo, on the occurrence of adverse events in adults aged 50 years or older?",
+  "treatment_label": "Live attenuated herpes zoster vaccine (Zostavax)",
+  "control_label": "Placebo",
+  "outcome_description": "Number of participants who experienced one or more adverse events of any type (injection-site or systemic, vaccine-related or not) during the short-term post-vaccination safety follow-up period out of the total number randomised or vaccinated in each arm.",
+  "positive_direction": "Fewer participants experiencing adverse events in the vaccine group compared with the placebo group (favoring vaccine).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "live attenuated herpes zoster vaccine zostavax placebo adverse events randomized trial",
+    "oka merck zoster vaccine safety tolerability controlled trial quantitative outcome",
+    "herpes zoster vaccine placebo randomized clinical trial adverse effects comparison"
+  ],
+  "inclusion_criteria": [
+    "Randomised placebo-controlled trials evaluating live attenuated herpes zoster vaccine (Oka/Merck, Zostavax) in adults aged 50 years or older.",
+    "Studies reporting the number of participants experiencing one or more adverse events of any type (injection-site or systemic, vaccine-related or not) during short-term post-vaccination safety follow-up."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, and conference abstracts without quantitative data).",
+    "No comparison between live attenuated zoster vaccine and placebo (e.g. trials evaluating recombinant subunit zoster vaccine [Shingrix], head-to-head comparisons of different active vaccines, or single-arm non-comparative studies).",
+    "No extractable quantitative outcome data on adverse events (missing counts or proportions of participants with adverse events).",
+    "Completely unrelated to live attenuated herpes zoster vaccination or safety outcomes in adults aged 50 years or older."
+  ],
+  "moderators_to_extract": [
+    "Participant age group / mean age (e.g., 50-59 years vs 60+ years)",
+    "Safety follow-up duration (e.g., days 0-28 vs days 0-42 post-vaccination)",
+    "Safety cohort type (substudy cohort vs total randomised trial population)",
+    "Vaccine potency / dose (potency level in plaque-forming units)",
+    "Sample size category"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Risk ratio (RR) pooled using a random-effects model. An RR > 1 indicates a higher risk of adverse events in the live attenuated zoster vaccine group compared with placebo.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "any adverse event"
+}

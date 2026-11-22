@@ -1,0 +1,39 @@
+{
+  "research_question": "What is the effect of atorvastatin, compared with placebo or no treatment, on withdrawal due to adverse effects in adults?",
+  "treatment_label": "Atorvastatin",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Withdrawal (discontinuation) from the study due to adverse effects/events, i.e. the number of randomized participants in each arm who stopped the assigned drug or dropped out because of adverse events, intolerance, or side effects (including myalgia, liver enzyme elevation, gastrointestinal complaints). Extracted as event counts per arm and pooled as an odds ratio.",
+  "positive_direction": "A positive effect (pooled estimate favoring the treatment) means FEWER withdrawals due to adverse effects with atorvastatin than with placebo or no treatment \u2014 i.e. atorvastatin is better tolerated. A negative effect means atorvastatin caused more adverse-effect-related withdrawals.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "atorvastatin placebo randomized controlled trial adverse events withdrawal",
+    "atorvastatin trial discontinuation due to adverse effects tolerability",
+    "atorvastatin versus placebo safety dropout myalgia liver enzymes trial"
+  ],
+  "inclusion_criteria": [
+    "Studies in adults (18+) that administered atorvastatin at any dose or duration and included a placebo, untreated, or usual-care comparison group",
+    "Reports any quantitative data on withdrawals, discontinuations, or dropouts attributable to adverse effects/events (or sufficient safety data to derive them), in any clinical population",
+    "Any controlled or comparative empirical design (randomized or non-randomized), any language, any publication year from the search start"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, guideline, or purely theoretical/modeling paper)",
+    "No comparison between an atorvastatin condition and a placebo/no-treatment/usual-care control condition (e.g. single-arm studies, or only active-comparator statin-vs-statin comparisons)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts or proportions per arm, no means+SDs, t/F values, or odds/risk ratios reported)",
+    "Completely unrelated to the research topic (e.g. non-human/in vitro only, pediatric-only samples, or no atorvastatin exposure)"
+  ],
+  "moderators_to_extract": [
+    "Atorvastatin daily dose (low/moderate/high intensity)",
+    "Treatment duration / follow-up length",
+    "Clinical population (primary prevention, secondary prevention/CVD, diabetes, other)",
+    "Control type (placebo vs no treatment/usual care)",
+    "Mean age of sample",
+    "Total sample size category",
+    "Risk of bias / randomization and blinding status"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Primary pooling as an odds ratio from 2x2 event counts (withdrawals due to adverse effects vs. remaining participants) per arm, using a random-effects model (Mantel-Haenszel or inverse variance on the log OR). Apply a continuity correction or Peto-style handling for zero-event arms, which are expected to be common for this rare-event tolerability outcome. An OR below 1 favors atorvastatin (fewer adverse-effect withdrawals); effects are signed so that a positive pooled value indicates the outcome favors atorvastatin.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "withdrawal due to adverse effects"
+}

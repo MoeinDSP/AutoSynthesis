@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with type 2 diabetes and chronic kidney disease (including cardiovascular outcome trial populations that enrolled people with preserved kidney function), what is the effect of SGLT2 inhibitors compared with placebo on the risk of non-fatal myocardial infarction, pooled as a time-to-first-event hazard ratio?",
+  "treatment_label": "SGLT2 inhibitor (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, bexagliflozin or similar; combined doses)",
+  "control_label": "Placebo",
+  "outcome_description": "Time-to-first-event hazard ratio for NON-FATAL myocardial infarction (not fatal MI, not fatal+non-fatal combined \"any MI\"), SGLT2 inhibitor versus placebo, with 95% confidence interval, taken from the main results text, a results table, a figure of secondary/exploratory outcomes, or a supplementary results table. The CI is converted to a standard error of the log HR; hazard ratios are NOT reconstructed from event counts (papers reporting non-fatal MI only as counts are excluded from pooling and noted). Where HRs are reported for multiple populations (e.g. whole trial and a CKD subgroup), the whole randomised population estimate is used; where multiple SGLT2 inhibitor doses exist, the combined-dose or pooled treatment arm versus placebo HR is used; the longest reported follow-up is used; HRs reported as placebo versus SGLT2 inhibitor are inverted (HR to 1/HR with the interval swapped and reversed).",
+  "positive_direction": "A hazard ratio below 1 (equivalently a positive pooled effect in the favours-treatment orientation) means fewer non-fatal myocardial infarctions with the SGLT2 inhibitor than with placebo, i.e. the result favours the SGLT2 inhibitor.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "SGLT2 inhibitor placebo randomized trial non-fatal myocardial infarction chronic kidney disease",
+    "canagliflozin dapagliflozin empagliflozin cardiovascular outcome trial type 2 diabetes hazard ratio myocardial infarction",
+    "ertugliflozin bexagliflozin placebo-controlled trial kidney disease cardiovascular outcomes diabetes"
+  ],
+  "inclusion_criteria": [
+    "Randomised placebo-controlled trial of an SGLT2 inhibitor in adults, including type 2 diabetes and/or chronic kidney disease populations and cardiovascular or kidney outcome trials whose population included people with chronic kidney disease",
+    "Reports a cardiovascular outcome that includes myocardial infarction, with some quantitative result (hazard ratio with confidence interval, or event data) for the SGLT2 inhibitor versus placebo comparison",
+    "Any dose, any follow-up duration, any publication of the trial including secondary/subgroup or supplementary analyses reporting non-fatal myocardial infarction"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, pooled network analyses, editorials, commentaries, opinion pieces, protocols and theoretical or modelling papers",
+    "No comparison between an SGLT2 inhibitor treatment arm and a placebo control arm (e.g. active-comparator trials, single-arm or observational cohorts, trials of other drug classes such as GLP-1 receptor agonists or DPP-4 inhibitors)",
+    "No quantitative outcome data from which an effect size can be derived for non-fatal myocardial infarction (no reported hazard ratio with 95% CI / standard error; non-fatal MI reported only as raw event counts, since HRs are not reconstructed from counts)",
+    "Completely unrelated to the research topic (not about SGLT2 inhibitors or not reporting myocardial infarction / cardiovascular outcomes), or reports only fatal MI, any (fatal + non-fatal) MI, stroke, cardiovascular death, heart failure, kidney outcomes or adverse events"
+  ],
+  "moderators_to_extract": [
+    "Specific SGLT2 inhibitor agent and dose regimen",
+    "Trial population type (dedicated CKD/kidney outcome trial vs cardiovascular outcome trial vs mixed diabetes population)",
+    "Baseline mean eGFR / proportion with eGFR <60 mL/min/1.73 m2 or albuminuria",
+    "Median follow-up duration (years)",
+    "Proportion with established atherosclerotic cardiovascular disease at baseline",
+    "Trial size (number randomised) and number of non-fatal MI events"
+  ],
+  "search_start_year": 2008,
+  "effect_size_note": "Pool log hazard ratios with inverse-variance random-effects (DerSimonian-Laird/REML); SE(log HR) = (ln(upper CI) - ln(lower CI)) / 3.92. Use combined-dose HR, whole randomised population, longest follow-up; invert placebo-referenced HRs. Exclude trials reporting non-fatal MI only as event counts and report them narratively.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "non-fatal myocardial infarction"
+}

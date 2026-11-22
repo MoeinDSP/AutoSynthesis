@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of remotely delivered cognitive behavioural therapy compared with treatment as usual or waiting-list control on functional disability at the end of treatment in adults with chronic non-headache pain?",
+  "treatment_label": "Remotely delivered CBT",
+  "control_label": "Treatment as usual or waiting-list control",
+  "outcome_description": "Functional disability or physical functioning at the end of treatment (immediate post-treatment assessment)",
+  "positive_direction": "A positive effect indicates greater reduction in disability (less functional disability, favouring remotely delivered CBT)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "remote internet CBT chronic pain disability trial",
+    "digital cognitive behavioral therapy chronic pain functional disability randomized",
+    "telehealth CBT chronic low back pain fibromyalgia disability controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating remotely delivered CBT (internet, app, telephone, or video-delivered) compared to treatment as usual, waiting list, or usual care plus waiting list",
+    "Adults (aged 18 or older) with chronic non-headache pain conditions (such as low back pain, fibromyalgia, osteoarthritis, or mixed chronic pain)",
+    "Quantitative assessment of functional disability or physical functioning measured at the immediate post-treatment endpoint"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, and theoretical papers are excluded)",
+    "No comparison between remotely delivered CBT and an inactive/usual care control (e.g. trials comparing solely against an active psychological therapy or attention control)",
+    "No quantitative outcome data on functional disability or physical function suitable for effect size calculation",
+    "Studies in pediatric populations (<18 years), exclusively headache/migraine populations, or involving face-to-face CBT delivery"
+  ],
+  "moderators_to_extract": [
+    "Chronic pain condition / clinical population",
+    "Delivery modality (internet-based, app-based, telephone, video-delivered)",
+    "Degree of therapist guidance (guided vs. unguided/self-directed)",
+    "Control condition type (waiting list vs. treatment as usual)",
+    "Specific disability scale used (e.g. RMDQ, PDI, Oswestry, SF-36 PF)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Extracted as post-treatment mean, SD, and N per arm. Disability measures where higher scores indicate worse disability are retained in raw form; physical functioning scales where higher scores indicate better functioning are reversed (multiplied by -1) prior to pooling so all scales align in direction.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "functional disability"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of iron-fortified condiments or seasonings compared with the same condiment without added iron on serum or plasma ferritin concentration in children and adults?",
+  "treatment_label": "Iron-fortified condiment or seasoning",
+  "control_label": "Unfortified condiment or seasoning (same condiment without added iron)",
+  "outcome_description": "Serum or plasma ferritin concentration at end of intervention, measured in \u00b5g/L (ng/mL)",
+  "positive_direction": "Higher serum or plasma ferritin concentration in the iron-fortified condiment group compared to the unfortified control group (favours fortification)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "iron fortified condiment seasoning ferritin randomized trial",
+    "iron fortification soy sauce fish sauce salt ferritin clinical trial",
+    "iron fortified seasoning condiment plasma serum ferritin controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised or cluster-randomised controlled trials evaluating iron-fortified condiments or seasonings (e.g., fortified soy sauce, fish sauce, curry powder, salt, or other condiments) in children or adults",
+    "Comparison group receiving the same condiment or seasoning without added iron (or with other micronutrients added equally to both arms)",
+    "Quantitative reporting of serum or plasma ferritin concentration at follow-up or change from baseline"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols)",
+    "No comparison between an iron-fortified condiment/seasoning and an unfortified condiment control (e.g., control received iron supplements or another fortified food)",
+    "Non-randomised designs, observational studies, animal studies, or laboratory/in vitro investigations",
+    "No quantitative outcome data on serum or plasma ferritin concentration enabling calculation of mean difference (means, SDs, SEs, or sample sizes missing)"
+  ],
+  "moderators_to_extract": [
+    "Type of condiment or seasoning (e.g., soy sauce, fish sauce, salt, curry powder)",
+    "Iron fortificant compound (e.g., NaFeEDTA, ferrous sulfate, ferric sodium EDTA)",
+    "Target population age category (children, adolescents, adults, pregnant women)",
+    "Intervention duration in weeks or months",
+    "Study design (individually randomised vs cluster-randomised)",
+    "Baseline ferritin level / iron deficiency prevalence"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool as mean difference (MD) in \u00b5g/L (equal to ng/mL) using a random-effects model. Extract end-of-intervention mean, SD, and n per arm. If only change from baseline is reported, use change scores for both arms. If multiple follow-up times are reported, use the last one. Convert all values to \u00b5g/L (e.g., pmol/L \u00d7 0.445). Convert SE to SD (SD = SE \u00d7 \u221an). For cluster-randomised trials, adjust sample sizes using the design effect: 1 + (average cluster size \u2212 1) \u00d7 ICC.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serum or plasma ferritin concentration"
+}

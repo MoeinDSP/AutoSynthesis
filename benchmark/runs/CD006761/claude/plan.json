@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults undergoing surgery for symptomatic haemorrhoids, does LigaSure (vessel-sealing device) haemorrhoidectomy reduce operating time (minutes) compared with conventional excisional haemorrhoidectomy (scissors, diathermy/electrocautery, Milligan-Morgan or Ferguson technique)?",
+  "treatment_label": "LigaSure (vessel-sealing device) haemorrhoidectomy",
+  "control_label": "Conventional excisional haemorrhoidectomy (scissors, diathermy/electrocautery, Milligan-Morgan or Ferguson)",
+  "outcome_description": "Operating time in minutes, measured as duration of the haemorrhoidectomy procedure (e.g. from incision/start of excision to completion of the operation), reported as mean (SD) per arm or convertible statistics (median/IQR/range, SE, 95% CI, t or F values).",
+  "positive_direction": "A positive effect indicates that LigaSure haemorrhoidectomy results in a SHORTER operating time than conventional haemorrhoidectomy (i.e. favours LigaSure; equivalent to a raw mean difference below zero in minutes).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "LigaSure haemorrhoidectomy randomized trial operating time",
+    "vessel sealing device hemorrhoidectomy versus conventional Milligan-Morgan comparison",
+    "LigaSure versus diathermy hemorrhoidectomy operative time outcomes"
+  ],
+  "inclusion_criteria": [
+    "Studies of adults undergoing haemorrhoidectomy for symptomatic haemorrhoids (any grade) in which a LigaSure or similar vessel-sealing device technique is compared with a conventional excisional technique (scissors, diathermy/electrocautery, Milligan-Morgan, Ferguson or similar)",
+    "Any comparative design (randomised controlled trial, quasi-experimental, prospective or retrospective comparative cohort) reporting at least one quantitative outcome",
+    "Reports operating/operative time or other quantitative perioperative outcome data in a form allowing effect-size computation (means and SDs, medians with spread, t/F statistics, or proportions)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, letters, opinion pieces, case reports, theoretical or technique-description papers without data)",
+    "No comparison between a LigaSure/vessel-sealing treatment group and a conventional haemorrhoidectomy control group (single-arm or non-comparative studies)",
+    "No extractable quantitative outcome data to produce an effect size (no means+SDs, t/F values, proportions, odds ratios or convertible statistics)",
+    "Completely unrelated to the research topic (e.g. vessel-sealing devices used in non-haemorrhoid surgery, or haemorrhoid treatments such as stapled haemorrhoidopexy or rubber band ligation with no conventional-excision comparison)"
+  ],
+  "moderators_to_extract": [
+    "Study design (RCT vs non-randomised comparative)",
+    "Type of conventional comparator (scissors/cold steel, diathermy, Milligan-Morgan, Ferguson)",
+    "Haemorrhoid grade / disease severity",
+    "Anaesthesia type and day-case vs inpatient setting",
+    "Sample size category",
+    "Country/region and publication year"
+  ],
+  "search_start_year": 1998,
+  "effect_size_note": "Pool as a raw mean difference (MD) in minutes with a random-effects (DerSimonian-Laird/REML) model; MD < 0 favours LigaSure (shorter operation). Where only medians with IQR/range are reported, convert to mean and SD using standard methods (Wan et al. / Luo et al.). Assess heterogeneity with I-squared and tau-squared and inspect funnel plot/Egger's test if >=10 studies.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "operating time (minutes)"
+}

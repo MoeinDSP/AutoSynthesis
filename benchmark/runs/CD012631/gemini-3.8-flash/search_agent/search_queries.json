@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of a higher (liberal) fraction of inspired oxygen or arterial oxygenation target, compared with a lower (conservative) target, on all-cause mortality in adults (aged 18 or over) admitted to the intensive care unit, including patients after cardiac arrest, with acute respiratory failure or ARDS, with septic shock, or receiving mechanical ventilation?\n\nEffect measure: pool as a risk ratio (RR) using a random-effects model. RR > 1 means more deaths with the higher oxygen target.\n\nOutcome: number of participants who died from any cause (events) out of the number randomised to each arm (total), at the longest follow-up reported in the trial (for example 90 days, 180 days or hospital discharge; if only 28 or 30 days is reported, use that).\n- Higher oxygen arm = the group assigned the higher or liberal oxygen target or fraction (for example SpO2 above 96%, PaO2 above 13 kPa, or hyperoxia); lower arm = conservative or low-normal target. Assign arms by the target described, not by column position or by which is called \"intervention\".\n- Use the longest follow-up with a death count for all randomised participants. Do not use ICU mortality when a later death count exists.\n- Factorial trials: if a trial randomises oxygen and another factor (for example carbon dioxide target, or a drug), compare all participants assigned a higher oxygen target with all assigned a lower oxygen target, summing across the other factor. Do not compare one cell of the factorial with another.\n- Use the number randomised as the denominator (intention-to-treat). If a trial reports mortality for fewer participants than were randomised, use all randomised.\n- Include only randomised controlled trials of oxygen or oxygenation targets. Exclude trials of hyperbaric oxygen, high-flow nasal oxygen, trials of different devices at the same target, and trials in neonates or children.\n\nDo not pool serious adverse events, ventilator-free days, organ dysfunction scores, neurological outcome, length of stay or intermediate time points such as ICU mortality when a later all-cause mortality count exists.",
+  "planned_search_queries": [
+    "liberal conservative oxygen target intensive care mortality trial",
+    "hyperoxia normoxia randomized trial ICU mechanical ventilation mortality",
+    "oxygenation target critically ill ARDS cardiac arrest sepsis trial"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "liberal conservative oxygen target intensive care randomized controlled trial mortality",
+    "liberal versus conservative oxygenation targets critically ill mortality clinical trial",
+    "hyperoxia normoxia mechanical ventilation intensive care mortality trial outcome",
+    "high low oxygenation target adult intensive care randomized trial comparison",
+    "conservative liberal oxygen therapy critically ill randomized trial survival mortality"
+  ]
+}

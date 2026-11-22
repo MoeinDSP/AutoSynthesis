@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:33a4fa5f",
+    "paper_title": "07c3e69b_643",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: neonates were \"randomly assigned to receive either PB or LEV with a 1:1 allocation as per a computer-generated randomization schedule and using sequentially numbered, opaque and sealed envelopes.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated sequence with sequentially numbered, opaque, sealed envelopes opened by a clinician not involved in the study, and baseline characteristics were comparable between groups.",
+        "evidence_quote": "\"randomly assigned to receive either PB or LEV with a 1:1 allocation as per a computer-generated randomization schedule and using sequentially numbered, opaque and sealed envelopes. When an eligible neonate was eligible to be enrolled, the envelope was opened by a clinician who was not part of the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly open-label so treating clinicians (who also judged clinical seizure cessation and escalated/crossed over therapy) knew the assigned drug, and no ITT/per-protocol analysis plan is described, though drug protocols were standardized and all randomized neonates appear analysed.",
+        "evidence_quote": "\"Design: Open labelled, Randomized controlled trial.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome (seizure cessation at 24 h) appears available for all 100 randomized neonates; the few later LAMA/death events occurred after the 24-hour outcome window and denominators of 50 per group were used.",
+        "evidence_quote": "\"50 neonates were randomized to each group... In the LEV group, 47 were discharged, two left against medical advice, and one died.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The outcome was purely clinical seizure cessation without confirmatory EEG monitoring, assessed by unblinded clinicians in an open-label trial\u2014a subjective outcome whose assessment could readily be influenced by knowledge of the assigned drug.",
+        "evidence_quote": "\"The limitation of our study was that we did not perform electroencephalographic monitoring to document cessation of seizure activity.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Trial was registered (CTRI/2018/04/013161) with pre-specified primary and secondary outcomes, but registration occurred in 2018\u2014long after the study was conducted (Nov 2014\u2013Apr 2016)\u2014so retrospective registration precludes verification that analyses/outcomes were pre-specified; reported P values are also inconsistent (P<0.01 vs P<0.001).",
+        "evidence_quote": "\"Trial Registration: Clinical Trial Registry of India (CTRI/2018/04/013161).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Allocation and follow-up were sound, but the open-label design combined with a subjective, clinically-judged outcome (no EEG confirmation of seizure cessation) by unblinded clinicians gives high risk in the outcome-measurement domain. Retrospective trial registration adds some concerns about selective reporting, so the overall judgment is high risk of bias."
+  },
+  {
+    "paper_id": "manual:56f3aef2",
+    "paper_title": "6920d5aa_adminatharva,+08_IJCH_194_19+R4_OA",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes an open-label randomized controlled trial with computer-generated block randomization: \"Block randomization of 80 numbers in blocks of four was done using computer generated random numbers,\" with allocation in sealed, serially numbered opaque envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and concealment appear adequate, but with block randomization of 80 in blocks of four the final group sizes should be balanced (40/40), whereas 42 vs 38 were allocated, suggesting an unexplained deviation from the stated procedure; baseline characteristics were otherwise comparable.",
+        "evidence_quote": "\"Block randomization of 80 numbers in blocks of four was done using computer generated random numbers. They were put in serially numbered opaque envelopes and sealed. This was done by a person not involved in study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Treating clinicians and nurses were unblinded, which could influence the subjective decision to escalate dose, cross over, or attribute adverse effects (a key outcome), although an intention-to-treat analysis with protocol-defined cross-over was used.",
+        "evidence_quote": "\"Our trial was an open-label trial, so the doctors and nursing staff were aware of the treatment assignments.\" / \"Statistical analysis was done using intention to treat analysis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "For the 12-month neurodevelopmental outcomes only 48/80 (60%) randomized infants contributed data (18 deaths plus 14 lost to follow-up), with no sensitivity analysis or evidence that missingness was unrelated to outcome; EEG was also only obtained in 54 babies.",
+        "evidence_quote": "\"Among 62 discharged babies, 14 were lost to follow-up, and 48 babies (25 babies in LEV group and 23 babies in PB group) were followed at 3 months, 6 months, and 12 months.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Primary outcome (clinical seizure cessation, without bedside EEG) and adverse-effect/neurodevelopmental assessments were made by unblinded clinicians, and some follow-up outcomes were obtained by non-standardized telephone interview, so outcome ascertainment could be influenced by knowledge of the assigned drug.",
+        "evidence_quote": "\"Lack of blinding of clinical outcomes, inability to monitor serum drug level and cerebral function, small sample size, and unavailability of bedside EEG were the limitation of our study.\" / \"For those babies who could not come for follow-up, telephonic interviews of parents and local practitioners were conducted.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes are pre-specified in the paper, but no trial registration or protocol is cited, multiple outcome operationalizations and subgroup/etiology analyses are reported, and discrepancies exist (e.g., 31/38 reported as 81.5% rather than 81.6%), leaving selective reporting unverifiable.",
+        "evidence_quote": "\"The primary outcome variable was cessation of clinical seizure activity (no seizure for 5 days). Secondary outcome variables were time taken to control seizures, survival at discharge, short-term adverse effect and long-term neurodevelopmental outcome at 12 months (Amiel-Tison method), and EEG control of seizures.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was generated and concealed adequately, the trial was open-label with clinician-assessed clinical seizure control, adverse effects and developmental outcomes (some ascertained by telephone), and 40% of randomized infants were missing from the 12-month outcome analysis without sensitivity analyses. These high-risk judgments in the missing-data and outcome-measurement domains drive an overall high risk of bias."
+  },
+  {
+    "paper_id": "manual:773af6f5",
+    "paper_title": "47117aae_alipour,+11_6",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a double-blinded randomized placebo-controlled trial in which \"44 patients were randomly assigned to receive 200 mL/d of either soy milk containing Lactobacillus plantarum A7 or conventional soy milk for 8 weeks,\" with a CONSORT-style flowchart of random allocation and trial registry entry (IRCT201601027479N2).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted and baseline biochemical/anthropometric values were balanced, but no detail is given about the sequence generation method or allocation concealment, and one baseline variable (dietary carbohydrate intake) differed strongly between groups (P < .001), which raises mild concern.",
+        "evidence_quote": "\"A total of 44 participants were randomly allocated to the soy milk group (control) or probiotic soy milk group\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding with an identical-appearing comparator and objectively verified adherence (serum genistein, bottle counts) limits performance bias, but analyses appear to be per-protocol (4 randomized patients excluded, one for poor adherence; results reported only for the 40 completers) rather than intention-to-treat.",
+        "evidence_quote": "\"participants received sufficient bottles of soy milk for a 3-day period until the next visit, in a double-blinded design... Our protocol required a minimum intervention adherence of greater than 90%\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was small (4/44, 9%), balanced between arms (2 per group), and reasons were reported and unlikely to be related to the true outcome values.",
+        "evidence_quote": "\"Forty-four patients participated, and 40 completed the study (20 patients in each group)... Two men in the probiotic group were excluded because of hospitalization (n = 1) and loss to follow-up (n = 1). One man and 1 woman in the control group were also excluded due to poor adherence and loss to follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes are objective laboratory biomarkers (albumin-creatinine ratio, creatinine, eGFR, IL-18, sialic acid) measured identically in both groups with blinded assay personnel.",
+        "evidence_quote": "\"All the tests were performed in a blinded fashion, in pairs (before and after the intervention) at the same time, in the same analytic run, and in random order to reduce systematic error and interassay variability.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and multiple prespecified primary endpoints are all reported, but the registered protocol is not compared in the text, the sample size was powered on CRP (which is not reported), and a post hoc covariate adjustment for carbohydrate intake was introduced after observing baseline imbalance.",
+        "evidence_quote": "\"The study protocol was registered at the Iranian Registry of Clinical Trials (Register code: IRCT201601027479N2)\"; \"the probable effect of dietary carbohydrate intake was adjusted using the analysis of covariance test\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, registered RCT used objective blinded laboratory outcomes with minimal, balanced attrition, but it does not describe the random sequence generation or allocation concealment, shows a marked baseline imbalance in carbohydrate intake handled by post hoc ANCOVA, analyses only completers rather than by intention-to-treat, and does not report the CRP outcome on which the power calculation was based. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:6364655a",
+    "paper_title": "bb5e62b5_BN2019-3683548",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that the 30 term neonates were randomly allocated to the two drug arms: \"This was a randomized, one-blind prospective study\" and \"Newborns were randomly assigned to receive PB and LEV in a blinded manner,\" so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation-concealment procedure is described, and although baseline characteristics were reported as non-significant the sex distribution (4/11 vs 8/7) and 1-minute Apgar differ noticeably in a very small sample.",
+        "evidence_quote": "\"Newborns were randomly assigned to receive PB and LEV in a blinded manner.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Only single (\"one\") blinding is reported without specifying who was blinded, clinicians necessarily knew the drug administered, dose escalation was permitted for non-responders, and no intention-to-treat analytic framework is described (only within-group pre\u2013post comparisons).",
+        "evidence_quote": "\"This was a randomized, one-blind prospective study\"; \"with gradually increasing doses up to 40 mg/kg twice daily in case of nonresponse at initial doses\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 30 randomized neonates appear to contribute HNNE data at both baseline and one month, with no reported attrition or exclusions after randomization.",
+        "evidence_quote": "\"We included 30 neonates, 12 females and 18 males\"; both groups report n=15 at T0 and T1"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The HNNE is an examiner-administered, partly subjective assessment performed by the treating unit's own neonatologists with no statement that outcome assessors were blinded to drug allocation (the \"one-blind\" design implies assessors/clinicians were aware), so knowledge of the intervention could readily have influenced scoring in a study with an a priori expectation favouring levetiracetam.",
+        "evidence_quote": "\"The Hammersmith score was evaluated by trained neonatologists of our NICU\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, the total HNNE plus six subscales were each tested at multiple time points without adjustment for multiplicity, and the key comparison presented is within-group pre\u2013post change rather than the between-group contrast implied by the randomized design, with the abstract emphasizing selected subscales (\"tone and posture\") \u2014 indicating substantial risk of selective reporting.",
+        "evidence_quote": "\"The Hammersmith score and each single item showed better scores at T1, with significant differences between T0 and T1 (P = 0.001) in the LEV group.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by unblinded/undocumented assessment of a subjective examiner-rated outcome (HNNE) by the treating neonatologists and by evidence of selective reporting (no registration/pre-specified primary outcome, multiple subscale tests, and reliance on within-group pre\u2013post comparisons instead of the randomized between-group contrast). Unclear sequence generation and allocation concealment in a very small 15-vs-15 sample add further concerns."
+  },
+  {
+    "paper_id": "manual:ca762679",
+    "paper_title": "d46f8827_faysal_bas_it,+182-189",
+    "design_classification": "randomized",
+    "design_rationale": "The authors explicitly describe a randomized controlled trial in which 100 neonates were allocated to levetiracetam or phenobarbitone: \"After necessary exclusion and inclusion criteria randomization was done by simple random method; i.e. by lottery method with replacement.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random sequence generation method (lottery) is stated and baseline characteristics appear balanced (all p>0.05), but there is no description of allocation concealment, and \"lottery with replacement\" is an odd, possibly non-concealed procedure performed at the bedside.",
+        "evidence_quote": "\"After necessary exclusion and inclusion criteria randomization was done by simple random method; i.e.by lottery method with replacement.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The trial was open-label with no blinding of clinicians or assessors, co-interventions/rescue dosing differed between arms (repeat phenobarbitone loading doses described only for the control arm), and no intention-to-treat analysis or handling of crossover is described, so awareness of assignment could readily affect the clinically judged seizure outcome.",
+        "evidence_quote": "\"Intravenous loading dose (20mg/kg) of inj. Phenobarbital to control group and loading dose (50mg/kg) of inj. Levetiracetam to intervention group were given... Decision regarding further for treatment in case of treatment failure was made on the basis of institutional treatment protocol.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes appear reported for all 50 per group with no stated attrition, but there is no flow diagram, and ~18\u201322% of neonates left against medical advice (DORB) plus deaths, with no explanation of how these affected ascertainment of seizure control or hospital stay.",
+        "evidence_quote": "\"Discharged 37 (34.0) ... DORB 11 (22.0) 9 (18.0) ... Expired 2(4.0) 5(10.0)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (seizure cessation) was judged subjectively by clinical observation without EEG confirmation, by unblinded assessors aware of the allocated drug, making outcome assessment highly susceptible to bias.",
+        "evidence_quote": "\"Seizures were diagnosed clinically. No continuous EEG monitoring was performed at time of diagnosis and enrolment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned, no sample-size justification is given, and multiple outcome operationalizations (dichotomous control, categorized and mean time to control, hospital-stay categories) are reported with internally inconsistent tables, raising the possibility of selective reporting.",
+        "evidence_quote": "\"The outcome variables were seizure control, times taken to be seizure free, and hospital stay.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was reportedly random by lottery with balanced baseline characteristics, the trial was unblinded with asymmetric rescue/co-intervention protocols and no ITT analysis, and the primary outcome of seizure cessation was assessed purely clinically without EEG by assessors aware of the assigned drug. These high-risk domains, compounded by absent pre-registration and unexplained discharge-against-advice/mortality, place the study at high overall risk of bias."
+  },
+  {
+    "paper_id": "manual:ec96976a",
+    "paper_title": "8903ecc5_medip,+865-3403-1-CE",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes an open-label randomized controlled trial with allocation by computer-generated random numbers concealed in serially numbered opaque sealed envelopes: \"Randomization was done using computer generated numbers. Labelled slips were put in serially numbered opaque and sealed envelopes.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Sequence generation was computer-based with adequate concealment (serially numbered, opaque, sealed envelopes opened by an independent worker), and the reported baseline characteristics (gestational age, weight, HIE stage, pH, base deficit) were balanced, consistent with chance.",
+        "evidence_quote": "\"Randomization was done using computer generated numbers. Labelled slips were put in serially numbered opaque and sealed envelopes. They were opened when an eligible baby was enrolled by an independent worker, not worked in the study.\" ... \"Baseline characteristics were comparable in the two groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open label so the clinicians delivering care and deciding when to cross over or declare seizure control knew the assigned drug, which could influence co-intervention and crossover decisions, although crossover was protocol-specified and an intention-to-treat analysis was used.",
+        "evidence_quote": "\"The team members managing the babies were aware of the treatment allocation.\" ... \"It was done using intention to treat analysis on SPSS 10.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (clinical seizure control) was available for all 30 babies per group, but secondary outcomes had substantial attrition (down to 18/30 and 19/30 by 6 months, including deaths and loss to follow-up, with some follow-up only by telephone) and no sensitivity analysis for missingness was reported.",
+        "evidence_quote": "\"Abnormal neurological outcome Discharge 10/26 (38.46) 6/28 (21.4)\" ... \"3 Months 5/20 (25) 2/22 (9.09)\" ... \"6 Months 4/18 (22.22) 2/19 (10.5)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome was a subjective clinical judgment of seizure cessation (no continuous EEG/cerebral function monitoring) assessed by unblinded treating clinicians who knew the allocated drug, making outcome ascertainment susceptible to detection bias; the authors themselves acknowledge clinical recognition of neonatal seizures is unreliable.",
+        "evidence_quote": "\"Clinical control of seizure activity was the primary outcome variable of this study. Seizures were considered to be controlled if the baby was seizures free 24 hrs after last seizures.\" ... \"The team members managing the babies were aware of the treatment allocation.\" ... \"Also, we did not do cerebral function or continuous EEG monitoring.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes and an a priori sample size calculation are pre-specified in the text and reported, but no trial registration number or accessible protocol is cited, so selective reporting of analyses cannot be fully excluded.",
+        "evidence_quote": "\"Clinical control of seizure activity was the primary outcome variable of this study... Secondary outcomes were safety profile of levetiracetam, electrical seizures after control of clinical seizure, time taken to control seizures, and neurological examination till 6 months.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization and allocation concealment were adequate and baseline groups comparable, the trial was open label and the primary outcome \u2014 clinical cessation of seizures without continuous EEG/cerebral function monitoring \u2014 was assessed by unblinded treating clinicians, giving a high risk of detection bias (D4). Additional concerns arise from unblinded management/crossover decisions, substantial attrition in follow-up outcomes, and the absence of a registered protocol, yielding an overall high risk of bias."
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults undergoing surgery, what is the effect of ultrasound-guided erector spinae plane block (ESPB), compared with no block (general anaesthesia plus usual analgesia only and no injection), on cumulative postoperative opioid consumption during the first 24 hours after surgery?",
+  "treatment_label": "Ultrasound-guided erector spinae plane block (ESPB) plus general anaesthesia and usual analgesia",
+  "control_label": "No block: general anaesthesia and usual analgesia only, without sham, saline, or any other injection",
+  "outcome_description": "Cumulative postoperative opioid consumption from the end of surgery through 24 hours, including recovery-room and ward consumption from patient-controlled analgesia and rescue doses, expressed in milligrams of oral morphine equivalents (OME). Extract the mean, SD, and number randomised or analysed per arm as reported. Use already reported morphine-equivalent values when available; otherwise convert each opioid using standard published equianalgesic ratios, recording the original drug, dose, unit, route, and conversion factor. If multiple postoperative opioids are reported, convert each to OME and sum them. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n), verify table footnotes defining \u00b1, and estimate mean and SD from medians and IQRs using a standard published method while documenting the method. Use only the cumulative 24-hour postoperative value; exclude intraoperative doses and totals at other time points. Do not pool pain scores, time to first analgesic request, nausea/vomiting, block-related complications, chronic pain, or length of stay.",
+  "positive_direction": "After direction harmonisation, a positive standardized effect would indicate lower 24-hour opioid consumption with ESPB and therefore favour ESPB; for the requested raw mean difference calculated as ESPB minus control, values below 0 mg OME favour ESPB.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "erector spinae plane block randomized trial opioid consumption surgery",
+    "ultrasound guided ESPB controlled trial 24 hour morphine consumption",
+    "erector spinae block no block comparison postoperative opioid outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials in adults undergoing any surgical procedure that compare ultrasound-guided ESPB with a no-block control receiving general anaesthesia and usual analgesia only, without an injection.",
+    "Studies reporting cumulative postoperative opioid consumption over the first 24 hours after surgery, or sufficient numerical data from which the 24-hour mean, SD, and arm sample sizes can be obtained or estimated.",
+    "Studies using any postoperative opioid regimen, route, ESPB approach, local-anaesthetic drug, concentration, dose, or timing, provided consumption can be converted to milligrams of oral morphine equivalents."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised controlled trial, including systematic reviews, meta-analyses, narrative reviews, editorials, opinion pieces, protocols without results, case reports, and theoretical papers.",
+    "No eligible comparison between ESPB and a no-block control: exclude sham or saline injection controls, active regional-block or epidural comparators, studies without a no-block arm, and nonrandomised comparisons.",
+    "No quantitative 24-hour postoperative opioid-consumption data capable of producing an effect size, such as means with SDs or convertible SEs, medians with IQRs suitable for estimation, t/F statistics, proportions, or odds ratios; also exclude reports limited to noneligible time points or intraoperative opioid use.",
+    "Completely unrelated to ultrasound-guided ESPB in adult surgical patients, including paediatric-only studies; also exclude studies reporting only pain, analgesic-request timing, nausea/vomiting, complications, chronic pain, or length of stay without eligible opioid-consumption data."
+  ],
+  "moderators_to_extract": [
+    "Surgical procedure and anatomical region",
+    "ESPB level, unilateral versus bilateral placement, and block timing",
+    "Local-anaesthetic drug, concentration, volume, and total dose",
+    "Postoperative opioid drug, administration route, and analgesic protocol",
+    "Risk-of-bias domains and blinding status",
+    "Method used to derive OME mean and SD, including direct report, unit conversion, SE-to-SD conversion, or median/IQR estimation"
+  ],
+  "search_start_year": 2016,
+  "effect_size_note": "Pool the arm-level difference in cumulative 24-hour opioid consumption as a random-effects mean difference in mg oral morphine equivalents, calculated ESPB minus control; MD < 0 favours ESPB. Never pool unconverted raw opioid units. Record original opioid, dose, unit, route, and the published equianalgesic conversion factor for each study. Use the cumulative value from the end of surgery to 24 hours only and exclude intraoperative use. For multi-arm trials with multiple eligible ESPB groups and one control, preferably combine eligible ESPB groups using standard formulas for means and SDs; if separate comparisons are retained, split the control sample size equally so participants are not double-counted. Assign arms from treatment descriptions rather than table position, and use the number randomised or analysed as reported. Assess heterogeneity with tau-squared and I-squared, report a 95% confidence interval and prediction interval where estimable, conduct sensitivity analyses for imputed distributional data and conversion assumptions, and evaluate risk of bias with RoB 2 and certainty with GRADE in accordance with PRISMA 2020 reporting.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "24-hour postoperative opioid consumption"
+}

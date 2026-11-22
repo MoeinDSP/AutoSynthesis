@@ -1,0 +1,38 @@
+{
+  "research_question": "In older adults with hypertension, what is the effect of a higher blood pressure treatment target (approximately 150-160/95-100 mmHg) compared with a lower blood pressure treatment target (approximately 140/90 mmHg) on all-cause mortality?",
+  "treatment_label": "Higher blood pressure target arm (~150-160/95-100 mmHg; less intensively treated group as labelled by each trial)",
+  "control_label": "Lower blood pressure target arm (~140/90 mmHg; more intensively treated group as labelled by each trial)",
+  "outcome_description": "All-cause mortality (death from any cause) during trial follow-up, extracted as the number of deaths and the number randomized in each target arm. Cardiovascular mortality, non-cardiovascular mortality, stroke, myocardial infarction, heart failure, and adverse events are NOT part of this analysis.",
+  "positive_direction": "A positive effect (RR < 1 converted so that positive favours treatment) means the HIGHER blood pressure target arm had FEWER deaths from any cause than the lower blood pressure target arm, i.e. the less intensive target was associated with lower all-cause mortality.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "blood pressure target randomized trial older adults mortality",
+    "intensive versus standard blood pressure lowering elderly hypertension trial",
+    "higher versus lower systolic blood pressure goal hypertension controlled trial death"
+  ],
+  "inclusion_criteria": [
+    "Randomized or controlled trial comparing a higher blood pressure treatment target with a lower blood pressure treatment target in adults with hypertension (studies in older or mixed-age populations both acceptable)",
+    "Reports all-cause mortality (deaths) or data from which deaths per arm can be derived",
+    "Any setting, country, publication year, or follow-up duration; any antihypertensive drug class used to reach the targets"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a higher blood pressure target (treatment) condition and a lower blood pressure target (control) condition",
+    "No quantitative outcome data usable for an effect size (no deaths and totals per arm, no risk/odds ratio with uncertainty, or no means+SDs/t/F/proportions)",
+    "Completely unrelated to blood pressure targets and mortality in hypertension"
+  ],
+  "moderators_to_extract": [
+    "Mean baseline age of participants",
+    "Achieved systolic BP difference between arms (mmHg)",
+    "Mean follow-up duration (years)",
+    "Trial sample size category",
+    "Baseline comorbidity profile (e.g. diabetes, prior cardiovascular disease, frailty)",
+    "Publication year / trial decade"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Dichotomous event data: pool as Risk Ratio using each trial's reported number of deaths and total randomized per arm (higher-target arm as the exposure/treatment group). Use a random-effects model (DerSimonian-Laird or REML) on the log RR scale; apply standard continuity correction only for zero-event arms and consider Peto OR as a sensitivity analysis if events are rare. Do not reverse arm labelling: the higher (less intensive) target is always the treatment arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

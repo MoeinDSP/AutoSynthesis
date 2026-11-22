@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of exercise training (aerobic, resistance, or combined; intradialytic or interdialytic) compared with no exercise or placebo exercise on the five-repetition sit-to-stand test completion time (seconds) at the end of the intervention in adults undergoing maintenance dialysis?",
+  "treatment_label": "Exercise training (aerobic, resistance, or combined; intradialytic or interdialytic)",
+  "control_label": "No exercise, usual care, or placebo/sham exercise",
+  "outcome_description": "Five-repetition sit-to-stand test (5STS / STS-5) performance measured as the time in seconds taken to complete five full stands from a seated position at the end of the intervention period (a lower completion time indicates superior lower-limb physical function).",
+  "positive_direction": "A positive effect size indicates greater improvement (shorter completion time in seconds) in the exercise group compared with the control group, favoring exercise training.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "dialysis exercise training five repetition sit to stand trial",
+    "hemodialysis physical exercise 5-STS seconds controlled trial",
+    "maintenance dialysis exercise intervention sit to stand outcome"
+  ],
+  "inclusion_criteria": [
+    "Adults (aged 18 years or older) undergoing maintenance dialysis (hemodialysis or peritoneal dialysis).",
+    "Evaluation of any structured exercise training program (aerobic, resistance, or combined; delivered intradialytically or interdialytically) compared to a non-exercise, usual care, or placebo/sham control group.",
+    "Reporting quantitative post-intervention outcome data for the five-repetition sit-to-stand test measured as time in seconds to complete five repetitions."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (e.g., systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or protocol papers).",
+    "No concurrent non-exercise or sham control group (e.g., single-arm pre-post studies).",
+    "No quantitative data for the five-repetition sit-to-stand test measured in seconds (e.g., reporting only 30-second or 60-second sit-to-stand repetitions, or lacking extractable means and standard deviations).",
+    "Studies not involving adult maintenance dialysis patients or completely unrelated to exercise training."
+  ],
+  "moderators_to_extract": [
+    "Exercise modality (aerobic, resistance, combined)",
+    "Timing of exercise (intradialytic vs interdialytic)",
+    "Intervention duration in weeks",
+    "Dialysis modality (hemodialysis vs peritoneal dialysis)",
+    "Supervision status (fully supervised vs partially/unsupervised)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Effect sizes are standardized or mean differences in 5-repetition sit-to-stand completion time (seconds). Because a lower time in seconds reflects better functional performance, scores are inverted such that positive effect sizes represent superior performance in the exercise group relative to control.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Five-repetition sit-to-stand test time"
+}

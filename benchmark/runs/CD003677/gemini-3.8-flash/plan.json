@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of laparoscopic hysterectomy (LAVH, TLH, or unspecified LH), compared with vaginal hysterectomy, on the need for blood transfusion in women undergoing hysterectomy for benign gynaecological disease?",
+  "treatment_label": "Laparoscopic hysterectomy",
+  "control_label": "Vaginal hysterectomy",
+  "outcome_description": "Number of women who received a blood transfusion (intra-operative or post-operative) out of the total number randomised to each arm (intention-to-treat denominator)",
+  "positive_direction": "Fewer blood transfusions in laparoscopic hysterectomy compared to vaginal hysterectomy",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "laparoscopic vaginal hysterectomy blood transfusion randomized trial",
+    "laparoscopically assisted vaginal hysterectomy vaginal hysterectomy controlled trial",
+    "total laparoscopic hysterectomy vaginal hysterectomy transfusion outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials comparing any laparoscopic hysterectomy technique (TLH, LAVH, or unspecified LH) directly with vaginal hysterectomy in women undergoing surgery for benign gynaecological disease",
+    "Studies reporting quantitative data on the occurrence of blood transfusion (intra-operative or post-operative) by randomised group"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, comments, or conference abstracts lacking full data)",
+    "Non-randomised studies or studies without a direct comparison between laparoscopic hysterectomy and vaginal hysterectomy (including comparisons limited to abdominal or robotic hysterectomy)",
+    "Studies conducted exclusively in patients with gynaecological malignancies",
+    "No quantitative outcome data reported on blood transfusion events or arm sample sizes (denominators)"
+  ],
+  "moderators_to_extract": [
+    "Laparoscopic technique variant (TLH vs. LAVH vs. LH unspecified)",
+    "Mean uterine weight or uterine size inclusion threshold",
+    "Publication year",
+    "Geographic region or country",
+    "Definition/timing of transfusion assessed (intra-operative, post-operative, or both)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Odds ratio (OR) pooled using fixed-effect Mantel-Haenszel model (or random-effects model if unavailable). An OR > 1 indicates a higher odds of blood transfusion with laparoscopic hysterectomy; an OR < 1 indicates lower odds of blood transfusion with laparoscopic hysterectomy. Multi-arm trials with multiple laparoscopic arms share/split the vaginal hysterectomy sample size and events to prevent double-counting. Zero-event studies in both arms are recorded with arm sizes and retained.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Blood transfusion"
+}

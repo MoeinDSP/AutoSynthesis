@@ -1,0 +1,324 @@
+[
+  {
+    "paper_id": "manual:ee905796",
+    "paper_title": "9223128f_0003-4819-153-1-201007060-00004",
+    "design_classification": "randomized",
+    "design_rationale": "Participants who completed open-label prophylaxis were explicitly assigned 1:1 using a computer-generated, center-stratified permuted-block sequence with centralized telephone allocation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated with permuted blocks, stratified by center, and concealed through a centralized interactive voice-response system; reported baseline characteristics were well balanced.",
+        "evidence_quote": "The random assignment list was computer-generated in permuted blocks of 4, stratified by center, by a clinical research organization...; staff obtained allocation assignments at the time of treatment by using a telephone interactive voice-response system."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding and similar treatment durations reduce concern about behavioral deviations, but the primary efficacy analysis excluded randomized participants who received no double-blind treatment or lacked evaluable outcome imaging rather than using a true intention-to-treat analysis.",
+        "evidence_quote": "Because we did not conduct the primary efficacy analysis on a true intention-to-treat basis, we subsequently performed a post hoc sensitivity analysis on all randomly assigned patients."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Approximately 18% of randomized participants were excluded from the primary efficacy analysis, largely because of withdrawal or unevaluable/missing ultrasonography, and the post hoc sensitivity analyses depended on assumptions rather than observed outcomes, leaving meaningful potential for missing-data bias.",
+        "evidence_quote": "Approximately 18% (1090 of 6085) of all randomly assigned patients were unevaluable and were therefore excluded from the primary efficacy analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "VTE was measured with objective imaging under a standardized protocol, centrally read and adjudicated by reviewers blinded to treatment, and the same methods were applied across groups.",
+        "evidence_quote": "All scans were centrally read by reviewers... who were blinded to treatment assignment, clinical information, and the local interpretation of the scan. Discrepancies between local and central readings were centrally adjudicated in blinded sessions."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial was registered and had prespecified endpoints, investigators changed eligibility after interim unblinded efficacy and safety results and highlighted favorable subgroup findings, while also reporting a post hoc major-bleeding definition, creating substantial risk of data-informed result selection.",
+        "evidence_quote": "On the basis of these analyses, the DSMB recommended that the study as designed be terminated... The steering committee requested further analyses to identify whether any patients with level 2 immobility had increased risk for VTE... The steering committee therefore issued a protocol amendment that changed the eligibility criteria."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by exclusion of about 18% of randomized participants from the primary efficacy analysis and substantial data-informed changes and selective emphasis after interim analyses. Robust randomization, allocation concealment, blinding, and objective centralized outcome assessment mitigate\u2014but do not override\u2014these concerns."
+  },
+  {
+    "paper_id": "manual:59d4cc70",
+    "paper_title": "d887794e_main",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1 using variable permuted blocks through a central, concealed, web-based automated randomisation system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used variable permuted blocks and was implemented through a central concealed automated web system, with balanced baseline characteristics and no indication of randomization failure.",
+        "evidence_quote": "Randomisation was done in permuted blocks of variable size, using a central, concealed, web-based, automated randomisation system (RedCap, version 11.0.3)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants and investigators were unmasked, adherence was very high, deviations were limited, and efficacy analyses were reported as intention-to-treat with consistent per-protocol sensitivity analyses.",
+        "evidence_quote": "157 (99%) of 159 patients took the study medication up to day 35 without a discontinuation greater than 7 days."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Although only two participants withdrew, ascertainment of the imaging-dependent primary composite was substantially and differentially incomplete, particularly for CT pulmonary angiography in the control group, so missing outcomes could plausibly bias the estimated effect.",
+        "evidence_quote": "Of the rivaroxaban group, 116 (73%) patients had CT pulmonary angiogram performed and 135 (85%) had bilateral lower limb venous Doppler ultrasound on day 35. Of the control group, 90 (57%) patients had CT pulmonary angiogram and 119 (75%) had ultrasound."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome definitions and blinded central adjudication were appropriate, but the open-label design could influence symptom reporting and clinical ascertainment, while imaging completion differed between groups despite nominally identical assessment procedures.",
+        "evidence_quote": "The MICHELLE trial was an open-label study, with no masking of investigators or patients to group allocation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the statistical analysis plan was finalized before unblinding, but the primary outcome was amended during the trial to add arterial events and the paper does not establish that this change occurred without access to accumulating outcome data.",
+        "evidence_quote": "During the study, we added an amendment including arterial events for the primary outcome."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the imaging-dependent primary outcome had substantial, differential missing ascertainment, with markedly fewer CT angiograms and ultrasounds completed in the control group. Open-label outcome ascertainment and an in-trial amendment to the primary composite add further concerns despite sound randomization and blinded adjudication."
+  },
+  {
+    "paper_id": "manual:3f318173",
+    "paper_title": "fde6302a_NEJMoa1110899",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports 1:1 random assignment using a central telephone system and a computer-generated randomization list.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated and implemented centrally by telephone, supporting sequence randomness and concealment, and reported baseline characteristics were well balanced.",
+        "evidence_quote": "Randomization was performed through a central telephone system with the use of a computer-generated randomization list."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The double-blind, double-dummy design with identical-appearing kits limited awareness of assignment, and no important intervention deviations likely to affect outcomes were reported, although efficacy analysis excluded participants without evaluable outcome data as addressed in Domain 3.",
+        "evidence_quote": "The study medications were packaged in identical-appearing dispensing kits."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 4495 of 6528 randomized participants (about 69%) were evaluable for the primary efficacy outcome, largely because follow-up ultrasonography was missing or unevaluable, and the substantial missingness could plausibly depend on health status and true thrombosis outcome.",
+        "evidence_quote": "A total of 6528 subjects underwent randomization, 4495 of whom could be evaluated for the primary efficacy outcome"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were prespecified and measured systematically across groups, with ultrasound recordings and all efficacy and safety outcomes adjudicated centrally by assessors unaware of treatment assignment.",
+        "evidence_quote": "All compression ultrasound examinations were recorded for submission to an independent central adjudication committee whose members were unaware of the treatment assignments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered, its protocol and statistical analysis plan were available, and the paper reports the prespecified primary outcome and sequential testing strategy without evident selective choice among measurements or analyses.",
+        "evidence_quote": "The study protocol, including the statistical analysis plan, is available with the full text of this article at NEJM.org."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because primary efficacy outcome data were available for only about 69% of randomized participants, with substantial missing or unevaluable follow-up ultrasonography and no convincing evidence that missingness could not bias the effect estimate. Randomization, blinding, outcome adjudication, and prespecified reporting were otherwise robust."
+  },
+  {
+    "paper_id": "manual:d083cce7",
+    "paper_title": "dacef086_NEJMoa1111096",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized controlled trial; allocation used permuted blocks through an interactive voice-response system with stratification by center.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used permuted blocks and centralized interactive voice-response assignment, and the reported baseline characteristics were well balanced, supporting random sequence generation and concealment.",
+        "evidence_quote": "Randomization was performed in permuted blocks with the use of an interactive voice-response system, with stratification according to center."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-dummy blinding limited deviations arising from knowledge of assignment, but the primary day-10 efficacy analysis was per protocol and excluded participants with inadequate assessments or major protocol violations rather than using a full intention-to-treat analysis.",
+        "evidence_quote": "The per-protocol population was the primary population for the noninferiority analysis (at day 10), and the modified intention-to-treat population was the primary population for the superiority analysis (at day 35)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "A large proportion of randomized patients lacked adequate venous-thromboembolism assessment and were excluded from primary efficacy analyses, and the authors state that the effect of this missingness on findings is unclear.",
+        "evidence_quote": "The extent to which the lack of data for these patients may have influenced the findings of the trial is not clear."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were defined prospectively, assessed using standardized imaging and clinical criteria across groups, and adjudicated centrally by an independent committee blinded to treatment assignment.",
+        "evidence_quote": "All outcomes were assessed by an independent, central adjudication committee whose members were unaware of the study assignments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The coprimary outcomes, time points, analysis types, populations, and multiplicity approach were prespecified, and the published protocol was available, providing little indication of selective result reporting.",
+        "evidence_quote": "The primary day 10 analysis was prespecified to be a noninferiority analysis, and the primary day 35 analysis was prespecified to be a superiority analysis."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial missing primary efficacy outcome data led to exclusion of roughly one quarter of randomized participants, and the authors could not exclude an effect of missingness on the findings. The per-protocol day-10 analysis adds some concern, although randomization and blinded outcome adjudication were robust."
+  },
+  {
+    "paper_id": "manual:4627236a",
+    "paper_title": "bca5972d_NEJMoa1601747",
+    "design_classification": "randomized",
+    "design_rationale": "The APEX trial explicitly used an interactive voice-response system to randomly assign eligible patients to the two treatment regimens.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used permuted blocks with prespecified stratification and assignment through a centralized interactive voice-response system, while baseline characteristics were similar between groups.",
+        "evidence_quote": "An interactive voice-response system was used to randomly assign patients to receive one of two regimens."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind, double-dummy treatment should limit deviations caused by knowledge of assignment, but the main efficacy analysis excluded randomized participants who received no study drug or lacked adequate outcome assessment rather than using a full intention-to-treat analysis.",
+        "evidence_quote": "Patients were eligible to be included in the efficacy analyses if they had received at least one dose of a study medication and had an adequate assessment of venous thromboembolism."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary efficacy analysis excluded 15.4% of randomized patients because of missing or inadequate ultrasonography, with somewhat more exclusions in the betrixaban group, and the available sensitivity analyses do not establish that the result was unbiased under plausible outcome-dependent missingness.",
+        "evidence_quote": "1155 patients (15.4% of those who underwent randomization) were excluded from the efficacy analyses because they did not have a symptomatic event associated with venous thromboembolism and did not undergo ultrasonography between day 32 and day 47."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were prespecified and assessed consistently using objective imaging and standardized criteria by independent central adjudication committees blinded to treatment assignment.",
+        "evidence_quote": "All outcomes were assessed by an independent, central end-point adjudication committee whose members were unaware of treatment assignments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A protocol and prespecified hierarchical analysis plan were available and the failed first test was acknowledged, but the protocol and analysis plan were amended during the trial to create enriched cohorts and the paper emphasized favorable exploratory results from later cohorts and alternative central-laboratory definitions.",
+        "evidence_quote": "We also modified the statistical analysis plan by establishing two cohorts within the overall study population."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because 15.4% of randomized patients were excluded from the primary efficacy analysis for inadequate outcome assessment, creating a substantial risk of bias from missing outcome data. Additional concerns arise from the modified rather than full intention-to-treat analysis and mid-trial amendments followed by emphasis on exploratory findings."
+  },
+  {
+    "paper_id": "manual:1bcfd2fa",
+    "paper_title": "cc7a7b57_NEJMoa1805090",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned 1:1 to rivaroxaban or placebo using an interactive Web-based system with stratification and permuted blocks of four.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used permuted blocks through a centralized interactive Web-based system, concealment was adequate, and baseline characteristics were similar between groups.",
+        "evidence_quote": "Randomization was performed on the day of discharge from the hospital or the next day, with the use of an interactive Web-based system, with stratification according to country and creatinine clearance... Randomization was balanced in permuted blocks of four."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The placebo-controlled trial was double-blind, discontinuations and interruptions were reported and balanced, follow-up continued regardless of treatment adherence, and efficacy analyses followed intention-to-treat.",
+        "evidence_quote": "All the efficacy analyses were performed with the intention-to-treat population and included all data and outcomes from randomization through day 45."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for nearly all randomized participants, with only 5 of 12,024 excluded from the intention-to-treat analysis and the report noting a low loss-to-follow-up rate.",
+        "evidence_quote": "Of the 12,024 patients who underwent randomization, 12,019 were included in the intention-to-treat analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were defined using prespecified criteria, assessed consistently between groups, and adjudicated by a clinical events committee blinded to treatment assignment.",
+        "evidence_quote": "A clinical events committee, the members of which were unaware of the trial-group assignments, adjudicated all suspected episodes of venous thromboembolism, bleeding, myocardial infarction, and stroke and all deaths, with the use of prespecified criteria."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary and secondary outcomes, analysis model, follow-up period, interim analysis, and hierarchical testing strategy were prespecified, and the protocol and trial registration were available; the report appropriately labeled secondary analyses exploratory after the primary result was nonsignificant.",
+        "evidence_quote": "Since superiority was not established in the primary efficacy analysis, the prespecified secondary efficacy outcomes were assessed as exploratory analyses without adjustment for multiplicity."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias is low. Randomization and concealment were robust, the trial was double-blind with blinded outcome adjudication, outcome data were nearly complete and analyzed by intention to treat, and reporting followed prespecified outcomes and analyses."
+  },
+  {
+    "paper_id": "manual:12692bbf",
+    "paper_title": "26527443_pawm04_luba_ang",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 300 participants were randomized 1:1 to two prophylaxis-duration groups, although the sequence-generation and allocation-concealment methods were not described.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment and equal allocation were reported, but the sequence-generation and allocation-concealment methods were not described, and statistically significant baseline imbalances in smoking and dehydration raise some concern despite otherwise similar groups.",
+        "evidence_quote": "In stage 1 the patients where randomized in one of the two groups (I, II) 1:1."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open label, so participants and caregivers knew treatment duration; no deviations or dropouts during prophylaxis were reported, but intention-to-treat analysis and post-discharge adherence to the additional injections were not explicitly described.",
+        "evidence_quote": "A group of 300 patients over 40 years of age... was enrolled in the randomized open label study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was reported for all 300 randomized participants, with no dropouts during prophylaxis and complete three-month reporting.",
+        "evidence_quote": "During a further 3-month follow-up of all the 300 patients, death of unknown causes or deep-vein thrombosis were found in 17 (5.6%) patients."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Deep-vein thrombosis was measured consistently at prespecified times using an objective compression-ultrasound protocol and death is objective, but assessor blinding was not reported in this open-label trial and the authors acknowledge that the ultrasound equipment may have missed cases.",
+        "evidence_quote": "For confirmation or exclusion of deep vein thrombosis an ultrasound compression test in four points... was performed three times in each patient: on the day of admision, upon completion of prophylactic treatment, and upon completion of a 3-month follow-up."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Endpoints and general statistical methods were specified, but no protocol or prospective registration is reported and the paper presents a composite endpoint alongside component and subgroup descriptions, leaving possible analytical flexibility.",
+        "evidence_quote": "Lower extremity deep-vein thrombosis confirmed by a four point ultrasound compression test... or death regardless of its reason, were considered end points."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns. Concerns arise from unreported sequence generation and allocation concealment, the open-label design without explicit intention-to-treat or adherence information, lack of assessor-blinding information and potentially insensitive ultrasound equipment, and absence of a reported prespecified protocol or registration; follow-up was nevertheless complete."
+  }
+]

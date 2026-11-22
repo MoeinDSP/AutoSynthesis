@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:34ae1eac",
+    "paper_title": "33e54650_1471-2318-11-8",
+    "design_classification": "randomized",
+    "design_rationale": "The study is a post-hoc analysis of data from the PROSPER trial, which explicitly randomized 5804 participants aged 70-82 to pravastatin or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "PROSPER was a multicentre, double-blind, placebo-controlled randomized trial, and baseline characteristics showed no evidence of substantial imbalance.",
+        "evidence_quote": "This study was an analysis of incident VTE using data from the Prospective Study of Pravastatin in the Elderly at Risk (PROSPER), a randomized, double-blind, placebo-controlled trial of pravastatin in men and women aged 70-82."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind and placebo-controlled, minimizing the risk of deviations from the intended intervention, and participants were analyzed according to assigned group.",
+        "evidence_quote": "The Prospective Study of Pravastatin in the Elderly at Risk (PROSPER) was a multi-centre, randomized, double-blind, placebo-controlled trial of pravastatin in the prevention of vascular disease in the elderly [15]."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data on VTE events were tracked across the full cohort during follow-up, with only baseline warfarin users excluded as planned.",
+        "evidence_quote": "Where data were available from the entire cohort, analyses were carried out using cases and non-cases (n = 5627) not using warfarin at baseline, including 2834 patients allocated to pravastatin and 2865 to placebo."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "VTE outcomes were adjudicated by consensus of clinical assessors using objective criteria while the parent trial remained double-blinded.",
+        "evidence_quote": "For the present study the full medical records were retrieved for all suspected VTE in the PROSPER database and examined by three clinicians in a pre-planned post hoc analysis. Events were categorized as definite VTE if death from VTE was confirmed on the death certificate or if there was recorded evidence from investigations such as ultrasound venography ventilation perfusion lung scans or computed tomography pulmonary angiography."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "This was a post-hoc analysis examining an outcome (VTE) that was not a primary prespecified endpoint of the trial, and an independent prospective protocol/SAP for this specific secondary analysis was not registered beforehand.",
+        "evidence_quote": "For the present study the full medical records were retrieved for all suspected VTE in the PROSPER database and examined by three clinicians in a pre-planned post hoc analysis."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Although the study utilized data from a rigorous double-blind randomized placebo-controlled trial (PROSPER) with blinded outcome adjudication, the evaluation of incident VTE was a post-hoc analysis rather than a primary trial endpoint, leading to some concerns in Domain 5."
+  },
+  {
+    "paper_id": "manual:860fc737",
+    "paper_title": "ae0824a3_nejmoa0810177",
+    "design_classification": "randomized",
+    "design_rationale": "The study is explicitly described as a randomized, double-blind, placebo-controlled trial where eligible patients were randomly assigned in blocks of four in a 1:1 ratio to receive rosuvastatin or matching placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Patients were randomly assigned in blocks of four in a 1:1 ratio to receive rosuvastatin or matching placebo, and baseline characteristics between the two groups were well balanced.",
+        "evidence_quote": "Eligible patients were randomly assigned (in blocks of four in a 1:1 ratio) to receive either rosuvastatin, 10 mg daily, or matching placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind with matching placebo, blinding participants and personnel, and used an intention-to-treat approach for the primary analysis.",
+        "evidence_quote": "AURORA was a randomized, double-blind, placebo-controlled, multicenter trial... In the primary intention-to-treat analyses, which included all patients who underwent randomization, an unadjusted Cox proportional-hazards model was used to compare the study groups and calculate hazard ratios"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were complete for virtually all participants, with the authors explicitly stating that no patients were lost to follow-up.",
+        "evidence_quote": "The mean length of follow-up was 3.2 years (maximum, 5.6). No patients were lost to follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary and secondary clinical endpoints were adjudicated by a blinded clinical end-point committee using standardized criteria.",
+        "evidence_quote": "All myocardial infarctions, strokes, and deaths were reviewed and adjudicated by a clinical end-point committee whose members were unaware of the randomized treatment assignments, in order to ensure consistency of the event diagnosis."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The study followed a prospective trial registration and a predefined statistical analysis plan, with prespecified primary and secondary outcomes reported fully without indication of selective reporting.",
+        "evidence_quote": "The sponsor collected the trial data and analyzed them according to a predefined statistical analysis plan. The analyses were verified by Dr. A.H. Zwinderman, an independent statistician at the Department of Clinical Epidemiology, Biostatistics, and Bioinformatics, University of Amsterdam."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The AURORA trial is a well-designed and rigorously conducted randomized, double-blind, placebo-controlled clinical trial with complete follow-up and blinded event adjudication. All assessed RoB 2 domains have a low risk of bias."
+  },
+  {
+    "paper_id": "manual:02aa5587",
+    "paper_title": "108d9cf5_nejmoa0900241",
+    "design_classification": "randomized",
+    "design_rationale": "The study is a randomized, double-blind, placebo-controlled trial in which 17,802 participants were randomly allocated in a 1:1 ratio to rosuvastatin or matching placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Participants were randomized in a 1:1 ratio in a large double-blind multicenter trial, and baseline characteristics between groups were balanced with no evidence of allocation compromise.",
+        "evidence_quote": "JUPITER was a randomized, double-blind, placebo-controlled, multicenter trial that was conducted at 1315 sites in 26 countries... Potentially eligible subjects who remained willing to participate and demonstrated good compliance during a 4-week, placebo run-in phase were randomly assigned in a 1:1 ratio to receive either rosuvastatin, 20 mg daily, or matching placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and trial personnel were blinded via matching placebo, and analyses adhered to the intention-to-treat principle.",
+        "evidence_quote": "JUPITER was a randomized, double-blind, placebo-controlled, multicenter trial... All analyses of venous thromboembolism were performed on an intention-to-treat basis; only a participant's first diagnosed venous thromboembolism after randomization was included in the analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Follow-up was comprehensive across scheduled visits and closeout with nearly complete ascertainment for vital and thrombotic events over the trial duration.",
+        "evidence_quote": "Follow-up with respect to safety for the prespecified secondary end points (i.e., venous thromboembolism, diabetes, discontinuation of the study medication owing to an adverse event, bone fractures, any death, and death from noncardiovascular causes) continued in a blinded manner for each study participant until the date he or she appeared for a formal closeout visit and discontinued the study therapy."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Venous thromboembolism was confirmed using objective diagnostic imaging criteria, and the study was double-blind.",
+        "evidence_quote": "The protocol specified that when a new case of venous thromboembolism was identified, the site investigator would complete a form indicating the source of confirmation of the event, including a venous ultrasonogram or venogram for confirmation of deep-vein thrombosis and an angiogram, computed tomographic scan, or ventilation\u2013perfusion scan for confirmation of pulmonary embolism."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "Venous thromboembolism was a prespecified protocol end point analyzed according to an established protocol and registered trial plan.",
+        "evidence_quote": "The occurrence of venous thromboembolism was a protocol-specified secondary end point of the trial... (ClinicalTrials.gov number, NCT00239681.)"
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "This large, double-blind, randomized, placebo-controlled trial had a robust design with low risk of bias across all five RoB 2 domains, including blinded intervention delivery, objective outcome verification, and prespecified intention-to-treat analyses."
+  },
+  {
+    "paper_id": "manual:1b41621e",
+    "paper_title": "790303f9_NEJMoa1600176",
+    "design_classification": "randomized",
+    "design_rationale": "The HOPE-3 trial is explicitly described as a multicenter, double-blind, randomized, placebo-controlled trial in which 12,705 participants were randomly assigned in a 2-by-2 factorial design.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The trial is a randomized, double-blind, placebo-controlled trial with well-balanced baseline characteristics between groups, indicating successful random sequence generation and allocation concealment.",
+        "evidence_quote": "Participants who adhered to the assigned regimen and who did not have an unacceptable level of adverse events were randomly assigned to receive a fixed combination of candesartan at a dose of 16 mg per day and hydrochlorothiazide at a dose of 12.5 mg per day or placebo; participants were also randomly assigned to receive rosuvastatin at a dose of 10 mg per day or placebo"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The study was double-blind and placebo-controlled with minimal open-label statin contamination, and analyses adhered to an intention-to-treat framework.",
+        "evidence_quote": "The analyses were performed with the use of an intention-to-treat approach."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was exceptionally high with vital status known for over 99% of randomized participants, minimizing risk of attrition bias.",
+        "evidence_quote": "At the end of the trial, vital status was available for 99.1% of the participants (12,587)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The study was double-blind and all cardiovascular endpoints were objectively defined and formally adjudicated.",
+        "evidence_quote": "All cardiovascular events and cases of new-onset diabetes were documented and adjudicated."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered on ClinicalTrials.gov (NCT00468923), followed a prespecified protocol and statistical analysis plan, and reported both prespecified coprimary outcomes according to predefined alpha-allocation procedures.",
+        "evidence_quote": "The first coprimary outcome was the composite of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke, and the second coprimary outcome additionally included resuscitated cardiac arrest, heart failure, and revascularization. ... To preserve the overall type I error rate of 5% for the testing of both coprimary outcomes in both factorial comparisons, the first coprimary outcome was tested at a P value of 0.04 and the second at a P value of 0.02."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "HOPE-3 was a well-designed, large-scale, double-blind, randomized, placebo-controlled clinical trial with complete outcome follow-up, blinded adjudication of events, and low risk of bias across all five evaluated RoB 2 domains."
+  },
+  {
+    "paper_id": "manual:5cd7775e",
+    "paper_title": "d7c9e43e_thoraxjnl-2015-208017",
+    "design_classification": "randomized",
+    "design_rationale": "The study is a prospective follow-up of the SAILS multicentre trial, in which mechanically ventilated patients with sepsis-associated ARDS were randomly assigned to receive rosuvastatin or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The study was a randomized, placebo-controlled trial stratified by site with baseline characteristics well balanced between study groups.",
+        "evidence_quote": "Patients were randomised (stratified by hospital site) to receive either enteral rosuvastatin or placebo until the earliest of 3 days after ICU discharge, study day 28 or death."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The intervention was placebo-controlled, blinding of patients and clinicians was maintained, and standardized care protocols were followed across groups with no evidence of unintended deviations.",
+        "evidence_quote": "Patients were randomised (stratified by hospital site) to receive either enteral rosuvastatin or placebo until the earliest of 3 days after ICU discharge, study day 28 or death. These patients were managed with fluid conservative and lung-protective ventilation protocols, with similar average fluid balances and tidal volumes for both treatment groups."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Follow-up rates among eligible survivors were very high (98% at 6 months and 93% at 12 months) and sensitivity analyses accounting for pre-follow-up mortality confirmed robustness of findings.",
+        "evidence_quote": "At 6-month and 12-month follow-up, respectively, 238 and 237 survivors were eligible for follow-up, and 233 (98%) and 220 (93%) were assessed (figure 1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcome assessors were explicitly blinded to treatment allocation for both telephone-based patient-reported surveys and in-person physical performance testing.",
+        "evidence_quote": "At 6-month and 12-month follow-up, research personnel, blinded to treatment allocation, completed study assessments via phone... For patients undergoing in-person physical performance assessments at 6-month and 12-month follow-up, research staff, blinded to treatment allocation, collected baseline comorbidity status... and completed testing"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial had prospectively registered clinical trial numbers and followed an a priori written statistical analysis plan with pre-specified primary and secondary outcomes.",
+        "evidence_quote": "Analyses were performed using SAS V.9.3 (SAS Institute, Cary, North Carolina, USA) using data from all eligible consenting survivors according to an a priori written statistical analysis plan"
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "All domains were judged at low risk of bias because this study utilized robust randomized double-blind trial methodology, maintained blinded outcome assessment, had minimal missing outcome data among survivors, and adhered to an a priori statistical analysis plan."
+  },
+  {
+    "paper_id": "manual:608a5c65",
+    "paper_title": "cf67cdca_view",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a double-blind, multicenter randomized controlled trial (INSPIRATION-S) with a 2x2 factorial design, randomly assigning eligible patients to atorvastatin 20 mg daily versus matching placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The trial used a randomized allocation with restricted access to the randomization log, matching placebo, and baseline characteristics were balanced between groups.",
+        "evidence_quote": "Patients, investigators, and study physicians remained blinded to treatment assignment... Access to the randomization log was restricted and permitted only on an emergency basis, as requested by the Data Safety and Monitoring Board."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blind design with matching placebo ensured participants and trial personnel were unaware of assignment, and a modified intention-to-treat analysis (with per-protocol sensitivity analysis yielding consistent results) was conducted without indication of unbalanced deviations.",
+        "evidence_quote": "The study intervention was atorvastatin 20 mg once daily versus placebo... Patients, investigators, and study physicians remained blinded to treatment assignment... All randomized patients who met the eligibility criteria, did not withdraw consent, and received at least one dose of the assigned treatment were included in the primary analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data for the primary composite clinical outcome were available for 587 of 605 (97%) randomized patients, with minimal and balanced attrition that is unlikely to bias the findings.",
+        "evidence_quote": "From the predefined 626 target sample size, 605 patients were enrolled in the INSPIRATION-S study (303 randomized to atorvastatin and 302 randomized to placebo)... In the primary analysis, 587 patients were included... By 90-day follow-up, the composite efficacy outcome occurred in 96 (33.1%) patients assigned to atorvastatin and 113 (38.0%) patients assigned to placebo."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary composite endpoint comprised objective clinical events (mortality, ECMO, confirmed venous/arterial thrombosis) adjudicated by an independent clinical events committee blinded to treatment allocation.",
+        "evidence_quote": "Efficacy and safety outcomes were adjudicated by a clinical events committee who remained blinded to treatment assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT04486508) with a published design and statistical analysis plan, and reported results aligned with the prespecified primary composite efficacy outcome and analyses.",
+        "evidence_quote": "For this prespecified 90-day follow-up analysis, the main outcome was a composite of objectively confirmed venous thromboembolism (VTE), arterial thrombosis, treatment with ECMO, or all-cause mortality... Assessment of the 90-day composite efficacy outcome was prespecified to be performed via mixed-effects models with hazard ratio (HR) as the effect measure and accounting for the enrolling sites as a random effect."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The study is a well-conducted, double-blind, placebo-controlled randomized clinical trial with concealed allocation, blinded adjudication of objective clinical outcomes, minimal missing data, and analysis according to a prespecified protocol. All RoB 2 domains were judged to have a low risk of bias."
+  }
+]

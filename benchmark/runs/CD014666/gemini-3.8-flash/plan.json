@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of cognitive behavioural therapy (CBT) interventions, delivered alone or combined with exercise, compared with control, on fear of falling in community-dwelling older people, measured immediately after the intervention?",
+  "treatment_label": "CBT intervention (alone or combined with exercise)",
+  "control_label": "Control (usual care, waitlist, or attention/education control)",
+  "outcome_description": "Fear of falling or falls-related self-efficacy measured immediately post-intervention",
+  "positive_direction": "Reduced fear of falling / greater falls-related self-efficacy favoring the CBT intervention",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cognitive behavioral therapy fear of falling older adults randomized trial",
+    "matter of balance falls efficacy community elderly controlled trial",
+    "CBT exercise fear of falling intervention trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating cognitive behavioural therapy (CBT) or multicomponent behavioural programmes (alone or combined with exercise) in community-dwelling older adults aged 60 and older",
+    "Studies comparing the intervention against a control group (usual care, waitlist, no intervention, or an attention/discussion/education control)",
+    "Studies reporting quantitative post-intervention outcome data on fear of falling or falls-related self-efficacy/confidence"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, opinion pieces, or theoretical papers)",
+    "No comparison between an eligible CBT/behaviour-change intervention and a control condition (e.g., single-arm studies, or exercise/education-only arms with no cognitive-behavioural component)",
+    "No quantitative outcome data allowing calculation of an effect size for fear of falling or falls efficacy (e.g., lacking post-intervention means and SDs, sample sizes, or test statistics)",
+    "Completely unrelated to the research topic (e.g., institutionalized/hospitalized patients, participants under 60 years of age, or non-fall-related interventions)"
+  ],
+  "moderators_to_extract": [
+    "Intervention type (CBT alone vs CBT combined with exercise/multicomponent)",
+    "Control group type (inactive/usual care vs active/attention control)",
+    "Outcome measurement instrument (FES-I vs ABC/mFES vs single-item)",
+    "Intervention delivery format (group-based vs individual)",
+    "Intervention duration and session dose"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as SMD (Hedges' g) using a random-effects model. SMD < 0 indicates less fear of falling (favours intervention). For fear/concern scales (e.g., FES-I), higher scores mean more fear; for confidence/efficacy scales (e.g., ABC, mFES, FES-S), reverse score direction so lower values always indicate less fear. Instrument preference order: FES-I (or Short FES-I) > mFES / FES / FES-S / ABC > single-item question. Extract post-intervention means and SDs at the first assessment immediately after intervention completion. Divide shared control N equally for multi-arm CBT comparisons. Adjust for clustering in cluster-randomized trials if not already accounted for.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "fear of falling"
+}

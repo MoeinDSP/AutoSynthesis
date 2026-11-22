@@ -1,0 +1,35 @@
+{
+  "research_question": "What is the effect of a higher (liberal) fraction of inspired oxygen or arterial oxygenation target, compared with a lower (conservative) target, on all-cause mortality in adults admitted to the intensive care unit?",
+  "treatment_label": "Higher (liberal) oxygen target",
+  "control_label": "Lower (conservative) oxygen target",
+  "outcome_description": "All-cause mortality at longest reported follow-up (number of deaths divided by total randomised participants in each arm)",
+  "positive_direction": "Higher mortality risk (more deaths) in the higher (liberal) oxygen target group compared to the lower (conservative) oxygen target group",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "liberal conservative oxygen targets intensive care randomized trial mortality",
+    "hyperoxia normoxia mechanical ventilation critically ill trial mortality",
+    "higher lower oxygenation target ICU randomized controlled trial mortality"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating higher (liberal) versus lower (conservative) oxygen or arterial oxygenation targets in adult ICU patients",
+    "Reports all-cause mortality at the longest available follow-up for both treatment arms"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, or study protocols)",
+    "No comparison between higher (liberal) and lower (conservative) oxygen or oxygenation targets, or evaluating hyperbaric oxygen or different delivery devices at identical targets",
+    "No quantitative all-cause mortality data reported to calculate a risk ratio",
+    "Pediatric or neonatal populations (age under 18 years) or studies completely unrelated to intensive care oxygenation targets"
+  ],
+  "moderators_to_extract": [
+    "ICU patient population (post-cardiac arrest, ARDS/hypoxemic respiratory failure, sepsis/septic shock, undifferentiated mechanical ventilation)",
+    "Oxygen target metric and separation (target SpO2 or PaO2 ranges in liberal vs conservative arms)",
+    "Timing of mortality outcome (e.g., hospital discharge, 28/30 days, 90 days, 180 days)",
+    "Sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as risk ratio (RR) using random-effects model. RR > 1 indicates higher risk of all-cause mortality with the higher (liberal) oxygen target. Denominator is total randomised participants (ITT), using the longest follow-up reported.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

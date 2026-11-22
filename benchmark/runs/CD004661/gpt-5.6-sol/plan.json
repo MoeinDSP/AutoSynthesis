@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women at risk of preterm birth, what is the effect of antenatal magnesium sulphate administered specifically for fetal neuroprotection, compared with placebo, on cerebral palsy in their children at the first reported follow-up from 18 months through approximately 2 years' corrected age?",
+  "treatment_label": "Antenatal magnesium sulphate given to women at risk of preterm birth for fetal neuroprotection (combine multiple magnesium dose-regimen arms within a trial)",
+  "control_label": "Placebo",
+  "outcome_description": "Cerebral palsy in children, expressed as the number of children diagnosed with cerebral palsy (events) divided by the number of children assessed or counted for that outcome in each arm (total), at the trial's first follow-up between 18 months and approximately 2 years' corrected age. Use each trial's own cerebral palsy diagnosis (e.g., abnormal tone with loss of motor function or an overall neurological diagnosis by a paediatric assessor) and record the stated definition and assessor. Use the outcome-specific denominator reported by the paper\u2014prefer children with cerebral-palsy data if both this and another denominator are given; otherwise use the reported surviving children assessed, all live births with data, or, only if no other denominator is available, children randomised\u2014and state which denominator was used. Count children rather than mothers or pregnancies, including for multiple births. Convert percentages to event counts using the corresponding child denominator. Do not use school-age follow-up and do not pool death, the composite of death or cerebral palsy, substantial gross motor dysfunction, blindness, deafness, maternal outcomes, or adverse events.",
+  "positive_direction": "A positive standardized effect denotes fewer children with cerebral palsy after antenatal magnesium sulphate than after placebo and therefore favors magnesium sulphate; for the requested risk-ratio analysis, this favorable effect corresponds to RR below 1.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "antenatal magnesium sulphate neuroprotection preterm randomized placebo cerebral palsy trial",
+    "prenatal magnesium sulfate preterm birth controlled trial child cerebral palsy outcome",
+    "fetal neuroprotection magnesium sulphate placebo quantitative cerebral palsy follow-up"
+  ],
+  "inclusion_criteria": [
+    "Original randomized, placebo-controlled trials enrolling women at risk of preterm birth and comparing antenatal magnesium sulphate given specifically for fetal neuroprotection with placebo.",
+    "Trials reporting cerebral palsy in children at a first follow-up from 18 months through approximately 2 years' corrected age, using the trial's own diagnostic definition.",
+    "Reports providing, or permitting derivation of, arm-level numbers of children with cerebral palsy and corresponding child denominators; multiple magnesium dose-regimen arms are eligible and will be combined into one magnesium group."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible comparison between antenatal magnesium sulphate for fetal neuroprotection and placebo; this includes nonrandomized studies, trials using magnesium for pre-eclampsia or tocolysis, magnesium-versus-another-drug trials, and comparisons of magnesium regimens without a placebo arm.",
+    "No quantitative cerebral-palsy outcome data capable of producing an effect size, such as arm-level event counts/proportions with denominators, means and SDs, t/F statistics, or odds ratios; reports limited to death, death-or-cerebral-palsy composites, gross motor dysfunction, sensory outcomes, maternal outcomes, or adverse events are excluded.",
+    "Completely unrelated to antenatal magnesium sulphate, preterm-birth neuroprotection, or cerebral palsy in the children, or reporting cerebral palsy only at school age without an eligible 18-month-to-2-year assessment."
+  ],
+  "moderators_to_extract": [
+    "Gestational age at randomization or eligibility threshold",
+    "Magnesium sulphate loading and maintenance dose regimen",
+    "Reason for imminent preterm birth and baseline obstetric risk profile",
+    "Cerebral palsy diagnostic definition and assessor type",
+    "Outcome denominator type (children with assessment/data, surviving children, live births with data, or children randomised)",
+    "Exact corrected age and completeness of follow-up"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Extract child-level cerebral-palsy events and totals by randomized arm and pool magnesium sulphate divided by placebo as a risk ratio. Use a fixed-effect Mantel-Haenszel model when available; otherwise use a random-effects model. RR < 1 indicates fewer children with cerebral palsy and favors magnesium sulphate. Use the first eligible follow-up from 18 months to about 2 years' corrected age. Combine all eligible magnesium dose arms within a trial by summing events and totals, while entering the shared placebo group only once. Convert percentage-only results to counts using the stated arm-specific child denominator and document any rounding. Use the publication's cerebral-palsy definition and outcome-specific denominator, preferring the number of children with cerebral-palsy data; if only numbers randomised are available, use them and flag this. Treat the child as the analysis unit and record how multiple births and any clustering were handled. Assess risk of bias with RoB 2, examine clinical/methodological heterogeneity, report I\u00b2 and tau\u00b2 if a random-effects fallback is used, conduct sensitivity analyses by denominator type and risk of bias where feasible, inspect small-study effects only if at least 10 studies are available, and grade certainty using GRADE. Report study selection with a PRISMA 2020 flow diagram, excluded full texts with reasons, study characteristics, and a forest plot.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cerebral palsy"
+}

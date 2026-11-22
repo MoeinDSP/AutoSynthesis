@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children and adolescents aged 0\u201319 years with overweight or obesity, what is the effect at the end of the study of digital health, technology-driven, or technology-assisted interventions delivered in addition to conventional care, compared with conventional care alone, on waist circumference measured in centimeters?",
+  "treatment_label": "Digital health, technology-driven, or technology-assisted intervention plus conventional care",
+  "control_label": "Conventional care alone",
+  "outcome_description": "Waist circumference in centimeters at the end of the study (primary extraction: post-intervention endpoint; if necessary, convert reported units to centimeters). Pool all eligible instruments and standardized waist-measurement protocols as the same construct, while recording measurement site and protocol. When multiple eligible intervention arms share one control, combine sufficiently similar intervention arms or otherwise account for the shared control to avoid double counting. Prefer adjusted estimates where appropriately reported; otherwise extract endpoint means and SDs, or derive an effect from other sufficient quantitative statistics.",
+  "positive_direction": "A positive effect size means that digital/technology-assisted intervention plus conventional care produced a more favorable waist-circumference outcome\u2014specifically, a smaller waist circumference\u2014than conventional care alone at the end of the study.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "digital health intervention childhood obesity waist circumference controlled trial",
+    "mobile app telehealth wearable pediatric overweight waist circumference comparison",
+    "technology assisted obesity treatment adolescents waist circumference quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of participants aged 0\u201319 years identified as having overweight or obesity, including studies with broader age ranges when data for the eligible pediatric subgroup are separately available.",
+    "Studies evaluating a digital health, technology-driven, or technology-assisted intervention delivered alongside conventional care and comparing it with conventional care alone; eligible technologies may include mobile or web programs, telehealth, text messaging, wearables, connected devices, active video games, or other digital tools.",
+    "Studies reporting end-of-study waist circumference, or sufficient quantitative information from which a between-group effect on waist circumference can be calculated."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between a treatment condition consisting of a digital/technology-assisted intervention plus conventional care and a control condition receiving conventional care alone.",
+    "No quantitative outcome data capable of producing an effect size; studies lacking usable means and SDs, t/F-values, proportions, odds ratios, or other convertible statistics are excluded after reasonable attempts to obtain or derive the data.",
+    "Completely unrelated to digital or technology-assisted management of overweight or obesity in children or adolescents."
+  ],
+  "moderators_to_extract": [
+    "Participant age group and mean age",
+    "Intervention technology or delivery mode",
+    "Intervention duration and end-of-study timing",
+    "Intervention intensity and degree of human support",
+    "Study design and risk-of-bias category",
+    "Baseline obesity severity and waist circumference measurement protocol"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Because waist circumference is reported in a common unit, use the between-group mean difference in centimeters as the preferred effect metric, oriented so positive values favor treatment (control minus treatment at endpoint). If studies cannot be harmonized in centimeters or only provide standardized estimates, calculate a compatible standardized mean difference/Hedges g in a sensitivity or separate analysis rather than combining unlike metrics. Use a random-effects model, report 95% confidence and prediction intervals, quantify heterogeneity with tau-squared and I-squared, assess influence/outliers, and examine small-study effects when enough studies are available. Conduct risk-of-bias assessment with a design-appropriate tool and grade certainty of evidence using GRADE.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "waist circumference"
+}

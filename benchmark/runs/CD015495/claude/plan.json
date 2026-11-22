@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults aged 65 years and older with cancer, what is the effect of immune checkpoint inhibitors added to platinum-based chemotherapy, compared with platinum-based chemotherapy alone (with or without placebo), on overall survival at any time point?",
+  "treatment_label": "Immune checkpoint inhibitor plus platinum-based chemotherapy",
+  "control_label": "Platinum-based chemotherapy alone (with or without placebo)",
+  "outcome_description": "Overall survival (time from randomisation to death from any cause) in the subgroup of participants aged 65 years and older, reported at any time point / data cut-off. The effect estimate is the trial's own reported hazard ratio for overall survival in the older-age subgroup (log[HR] with standard error, or HR with 95% confidence interval), taken directly from the published survival analysis (Cox model / stratified log-rank). Include open-ended older-age subgroups (e.g. '\u226565 years', '65 years or older'), not narrower bands with an upper bound.",
+  "positive_direction": "A positive effect size means adding immune checkpoint inhibitors to platinum-based chemotherapy improved overall survival in people aged 65 and older \u2014 i.e. a lower hazard of death (HR < 1) compared with chemotherapy alone.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "immune checkpoint inhibitor plus platinum chemotherapy randomized trial overall survival elderly",
+    "PD-1 PD-L1 inhibitor chemotherapy versus chemotherapy alone older patients 65 years subgroup survival",
+    "pembrolizumab atezolizumab durvalumab nivolumab chemotherapy trial hazard ratio overall survival age subgroup"
+  ],
+  "inclusion_criteria": [
+    "Clinical trial or comparative study in cancer patients comparing an immune checkpoint inhibitor combined with platinum-based chemotherapy against chemotherapy alone (with or without placebo)",
+    "Reports overall survival data (hazard ratio with CI/SE, or data allowing an HR to be derived) for participants aged 65 years and older, either as a subgroup or as a wholly older-adult population",
+    "Any cancer type, any line of therapy, any publication year or language, including conference abstracts and subgroup/pooled analyses of randomised trials"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, or purely theoretical/modelling paper)",
+    "No comparison between an ICI-plus-chemotherapy arm and a chemotherapy-alone (or chemotherapy-plus-placebo) control arm, e.g. single-arm studies or ICI-monotherapy versus chemotherapy comparisons only",
+    "No quantitative outcome data from which an effect size can be computed (no HR with CI/SE, no survival curve or event/person-time data, no means+SDs, t/F values, proportions or odds ratios)",
+    "Completely unrelated to the research topic (not about immune checkpoint inhibitors with platinum chemotherapy and survival), or reports only a narrow age band with an upper bound (e.g. 65-74 years) with no open-ended \u226565 estimate"
+  ],
+  "moderators_to_extract": [
+    "Cancer type / primary tumour site",
+    "Specific ICI agent and target (PD-1, PD-L1, CTLA-4)",
+    "Line of therapy (first-line vs pretreated)",
+    "Age subgroup definition used (\u226565, \u226570, \u226575)",
+    "Trial sample size in the older-age subgroup",
+    "Risk of bias / blinding (placebo-controlled vs open-label) and publication year"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Extract the trial-reported hazard ratio for overall survival in the \u226565-year subgroup directly (log[HR] + SE, or HR with 95% CI converted to log[HR] and SE). Pool on the log-HR scale with inverse-variance random effects; HR < 1 favours ICI plus chemotherapy. Where multiple data cut-offs exist, use the most mature reported analysis; do not split by timepoint.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall survival"
+}

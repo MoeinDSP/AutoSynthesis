@@ -1,0 +1,38 @@
+{
+  "research_question": "Among acutely ill medical patients receiving venous thromboembolism prophylaxis, what is the effect of extended-duration anticoagulation versus standard-duration anticoagulation on major bleeding during short-term follow-up of 45 days or fewer, using only each trial's primary overall analysis?",
+  "treatment_label": "Extended-duration anticoagulation for venous thromboembolism prophylaxis",
+  "control_label": "Standard-duration anticoagulation for venous thromboembolism prophylaxis",
+  "outcome_description": "Major bleeding (event versus no event) occurring within 45 days or fewer, as reported in the trial's primary overall analysis. Extract the reported number of major bleeding events and total randomized participants in each arm. Exclude outcomes beyond 45 days and exclude COVID-19-only sensitivity analyses, same-extended-agent sensitivity analyses, subgroup analyses by sex, age, cancer history, D-dimer status, or infection status, symptomatic VTE, and all-cause mortality.",
+  "positive_direction": "For any standardized, treatment-oriented effect, a positive value means fewer major bleeding events with extended-duration anticoagulation than with standard-duration anticoagulation (i.e., the result favors extended-duration treatment). For the requested risk ratio itself, RR < 1 favors extended-duration anticoagulation and RR > 1 indicates greater bleeding harm with extended-duration anticoagulation.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "extended duration anticoagulation medical patients major bleeding randomized trial",
+    "prolonged thromboprophylaxis acutely ill medical patients bleeding controlled trial",
+    "extended venous thromboembolism prophylaxis medically ill major bleeding comparison"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of acutely ill medical patients receiving pharmacologic venous thromboembolism prophylaxis that compare extended-duration with standard-duration anticoagulation.",
+    "Studies reporting major bleeding within 45 days or fewer for the primary overall trial analysis.",
+    "Studies providing, or permitting derivation of, quantitative arm-level major bleeding events and randomized totals for the extended-duration and standard-duration groups."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between an extended-duration anticoagulation treatment condition and a standard-duration anticoagulation control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as arm-level events and totals, means and standard deviations, t/F values, proportions, or odds ratios.",
+    "Completely unrelated to the research topic or outside the prespecified primary short-term analysis, including outcomes after 45 days, COVID-19-only or same-extended-agent sensitivity analyses, subgroup analyses, symptomatic VTE, and all-cause mortality."
+  ],
+  "moderators_to_extract": [
+    "Anticoagulant agent and dose",
+    "Duration of extended and standard prophylaxis",
+    "Maximum major-bleeding follow-up time within the eligible 45-day window",
+    "Major bleeding definition or adjudication method",
+    "Patient population and index acute medical illness",
+    "Trial design and randomized sample size"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool dichotomous event/no-event data as a risk ratio (RR), based on each trial's reported number of major bleeding events and total randomized per arm (intention-to-treat randomized denominators where reported). Use only the primary overall analysis at 45 days or fewer. Because major bleeding is harmful, RR > 1 indicates more bleeding with extended-duration anticoagulation and RR < 1 favors extended-duration anticoagulation. Trials with zero major bleeding events in both arms are not estimable for the ratio measure and must be excluded from the pooled RR without adding a continuity correction; retain and describe them qualitatively and document their exclusion from pooling. Do not incorporate any specified sensitivity analysis, subgroup analysis, non-bleeding outcome, or follow-up beyond 45 days.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "major bleeding"
+}

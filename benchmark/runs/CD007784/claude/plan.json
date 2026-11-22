@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with chronic kidney disease not requiring dialysis, what is the effect of statin therapy (HMG-CoA reductase inhibitors), compared with placebo or no statin treatment (with other co-interventions given equally to both arms), on urinary protein excretion (proteinuria, g/24 h) at the end of the randomised treatment period?",
+  "treatment_label": "Statin (HMG-CoA reductase inhibitor: pravastatin, atorvastatin, rosuvastatin, fluvastatin, lovastatin, cerivastatin, simvastatin)",
+  "control_label": "Placebo or no statin treatment (other treatments equal in both arms)",
+  "outcome_description": "Urinary protein excretion at the end of treatment: 24-hour urinary protein excretion (or, when it is the study's only measure of urinary protein loss, 24-hour urinary albumin excretion), expressed in g/24 h. Extract the final (end-of-treatment) mean, SD and n per arm; use the last on-treatment timepoint before any washout, crossover or withdrawal phase; not change scores and not baseline values. Convert units to g/24 h (mg/24 h \u00f7 1000; mg/day = mg/24 h) and record original units and conversion. If variability is SE/SEM, convert SD = SE \u00d7 \u221an (check footnotes/statistics section for whether '\u00b1' is SD or SEM). If only a figure reports end-of-treatment values, read means and error bars from the figure, converting SEM to SD. For duplicate reports of the same trial, extract once from the report with the full randomised sample. For multi-arm trials or trials including non-CKD participants, use only the CKD participants randomised to statin vs placebo/no statin.",
+  "positive_direction": "A positive effect size means statin treatment resulted in LOWER proteinuria (less urinary protein excretion) than placebo/no statin, i.e. the result favours statins.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "statin proteinuria chronic kidney disease randomized trial",
+    "atorvastatin simvastatin pravastatin urinary protein excretion albuminuria controlled trial",
+    "HMG-CoA reductase inhibitor nondialysis CKD proteinuria placebo effect"
+  ],
+  "inclusion_criteria": [
+    "Adults with chronic kidney disease or kidney damage not requiring dialysis (including proteinuric/diabetic/non-diabetic nephropathy)",
+    "Compares a statin with placebo, usual care or no statin, with any other treatments given similarly to both groups",
+    "Reports some quantitative measure of urinary protein or albumin excretion (means with SD/SE, or data allowing an effect size to be computed)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion, commentary, theoretical or modelling paper, protocol without results)",
+    "No comparison between a statin arm and a placebo/no-statin control arm (e.g. statin vs another statin or vs a different active drug, single-arm or purely observational uncontrolled studies)",
+    "No usable quantitative outcome data for computing an effect size (no means+SD/SE, t/F statistics, proportions or odds ratios for urinary protein outcomes)",
+    "Population or topic unrelated to the question: dialysis-dependent or kidney transplant recipients, or no proteinuria/kidney outcome reported"
+  ],
+  "moderators_to_extract": [
+    "Statin type and daily dose",
+    "Treatment duration (weeks/months)",
+    "Baseline proteinuria level and CKD stage/eGFR",
+    "Diabetic vs non-diabetic kidney disease",
+    "Control type (placebo vs no treatment/usual care)",
+    "Sample size category and risk-of-bias/blinding status"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a mean difference (MD) in g/24 h using a random-effects model (DerSimonian-Laird/REML) with inverse-variance weighting. All arm means and SDs must be converted to g/24 h before pooling. On the raw scale a negative MD (lower proteinuria with statin) favours statins; because proteinuria is a 'higher = worse' measure, the sign is flipped internally so that a POSITIVE pooled value indicates benefit of statins. Report heterogeneity (I\u00b2, tau\u00b2), and conduct sensitivity analyses excluding figure-extracted data, SE-to-SD converted data, and albuminuria-only studies.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "proteinuria (24-hour urinary protein excretion, g/24 h)"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among trainees in randomised controlled trials, what is the effect of Mental Health First Aid (MHFA) training, compared with a waiting-list, no-training, or unrelated-activity control, on correct recognition of depression in a case vignette at the first follow-up occurring at least six months after training?",
+  "treatment_label": "Mental Health First Aid (MHFA) training, including face-to-face, e-learning, and other recognised MHFA delivery variants",
+  "control_label": "Waiting-list control, no training, or an unrelated control activity",
+  "outcome_description": "The proportion of trainees who correctly identify a vignette depicting a person with depression as depression or an equivalent diagnostic label (for example, major depression), assessed at the first available follow-up at or after six months. Recognition may be elicited by an open-ended item or a closed-choice item. Exclude recognition of other disorders, general knowledge scores, treatment beliefs, stigma, helping confidence or behaviour, and outcomes among recipients of help. For each eligible comparison, extract or derive the log odds ratio and its standard error, using one effect per trial.",
+  "positive_direction": "A positive log odds ratio (equivalently, OR > 1) means that correct depression recognition is more likely after MHFA training than under control and therefore favours MHFA.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "Mental Health First Aid depression vignette recognition randomized trial",
+    "MHFA depression recognition controlled trial follow-up",
+    "Mental Health First Aid diagnostic recognition experiment quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials, including individually randomised and cluster-randomised trials, in which participants receive MHFA training and are compared with waiting list, no training, or an unrelated activity.",
+    "Studies reporting depression-vignette recognition as depression or an equivalent diagnostic label through an open-ended or closed-choice response, with an assessment at six months or longer after training.",
+    "Studies providing, or allowing derivation of, quantitative data for an odds ratio of correct depression recognition at the eligible follow-up, including binary data, a reported odds ratio, or a convertible continuous recognition score."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers; also exclude non-randomised studies.",
+    "No comparison between an MHFA treatment condition and an eligible control condition, including uncontrolled trials.",
+    "No quantitative outcome data capable of producing an effect size: no usable means and standard deviations, t/F statistics, proportions or event counts, odds ratios, or equivalent information.",
+    "Completely unrelated to MHFA or to correct recognition of depression in a vignette at follow-up of at least six months; this includes outcomes limited to other disorders, knowledge, stigma, treatment beliefs, helping confidence or behaviour, immediate post-training assessment, or effects on people receiving help."
+  ],
+  "moderators_to_extract": [
+    "randomisation unit (individual versus cluster)",
+    "MHFA delivery mode (face-to-face, e-learning, blended, or other)",
+    "trainee population or setting",
+    "control type (waiting list, no training, or unrelated activity)",
+    "follow-up duration in months",
+    "recognition response format (open-ended versus closed choice)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool odds ratios using a random-effects model fitted to log odds ratios and their standard errors, and report pooled ORs with 95% confidence intervals and heterogeneity statistics. Select the first assessment at or after six months (for example, choose 6 rather than 24 months); do not use immediate post-training outcomes. If arm-level counts or percentages are available, compute the OR and standard error from correct/incorrect counts using the number analysed in each arm; if the analysed denominator is unclear, use the number randomised and flag this assumption. If percentages require reconstruction, derive event counts as transparently as possible and document rounding. If an OR and 95% CI are reported, use the reported estimate, preferentially a model adjusted for clustering or baseline, and calculate SE(log OR) = [log(upper CI) - log(lower CI)]/(2 \u00d7 1.96). If only a continuous recognition score is reported, calculate an SMD and convert it using log OR = SMD \u00d7 \u03c0/\u221a3, with SE(log OR) = SE(SMD) \u00d7 \u03c0/\u221a3; explicitly flag this conversion. For trials with multiple eligible MHFA groups, combine training arms into one group by summing events and participants for binary data and compare that combined group with the control once; use standard pooled formulas for continuous data if needed. For cluster-randomised trials, use the authors' cluster-adjusted OR when reported; otherwise adjust the variance/standard error using the design effect, based on the reported intracluster correlation and average cluster size where available, and document assumptions. Address zero cells with a prespecified continuity correction and examine sensitivity to the correction. Avoid double counting participants. Conduct sensitivity analyses excluding converted continuous outcomes, estimates using randomised rather than analysed denominators, estimates lacking adequate cluster adjustment, and studies at high risk of bias. Assess risk of bias with RoB 2, including the cluster-RCT variant where applicable; investigate heterogeneity through prespecified subgroup/meta-regression analyses only when study numbers permit; assess small-study effects with a funnel plot and an appropriate asymmetry test only if at least 10 studies are available. Follow PRISMA 2020 for searching, deduplication, dual screening, data extraction, reasons for full-text exclusion, flow reporting, and transparent reporting of deviations from the protocol.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "correct recognition of depression in a case vignette"
+}

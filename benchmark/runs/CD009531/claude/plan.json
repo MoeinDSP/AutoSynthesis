@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with severe mental illness (bipolar disorder, schizophrenia, schizoaffective disorder or other psychotic disorders) treated in community or outpatient settings, does collaborative care improve mental-health-domain health-related quality of life (SF-12/SF-36 Mental Component Summary or WHOQOL-BREF psychological domain) compared with usual care at the follow-up closest to and no later than 6 months?",
+  "treatment_label": "Collaborative care",
+  "control_label": "Usual care",
+  "outcome_description": "Mental-health domain health-related quality of life at the follow-up closest to 6 months and no later than 6 months, taken as an endpoint (post-intervention) mean and SD per group rather than change from baseline. One score per trial: SF-12 or SF-36 Mental Component Summary (MCS), or the WHOQOL-BREF psychological domain. Physical component/domain scores, overall or total quality-of-life scores, symptom scales, functioning scales and satisfaction scales are not eligible. Randomised group sizes are used when analysed Ns are not reported; SEs or 95% CIs are converted to SDs using the group n. Follow-ups at 12 months or longer are not used.",
+  "positive_direction": "A positive Hedges' g means collaborative care produced better mental-health-related quality of life (higher MCS or WHOQOL-BREF psychological domain score) than usual care.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "collaborative care severe mental illness randomised controlled trial quality of life",
+    "collaborative care bipolar disorder schizophrenia outpatient trial outcomes",
+    "care management intervention psychotic disorder usual care comparison SF-36 mental component"
+  ],
+  "inclusion_criteria": [
+    "Adults with severe mental illness (bipolar disorder, schizophrenia, schizoaffective disorder or other psychotic disorders) treated in community or outpatient settings",
+    "Randomised or controlled comparison of a collaborative care / collaborative care-like multicomponent care model against usual care",
+    "Reports some quantitative health-related quality-of-life outcome (any instrument, any country, any diagnosis mix) from which an effect size can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, theoretical paper, study protocol)",
+    "No comparison between a collaborative care condition and a usual-care control condition",
+    "No quantitative outcome data usable for an effect size (no means+SDs, SEs/CIs convertible to SDs, t/F values, proportions or odds ratios)",
+    "Completely unrelated to collaborative care for severe mental illness"
+  ],
+  "moderators_to_extract": [
+    "Quality-of-life instrument (SF-12 MCS, SF-36 MCS, WHOQOL-BREF psychological)",
+    "Primary diagnosis group (bipolar vs schizophrenia/psychotic vs mixed)",
+    "Follow-up timing in months",
+    "Country / health system setting",
+    "Sample size category",
+    "Intensity/components of collaborative care model"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool as Hedges' g (SMD), collaborative care minus usual care, computed from endpoint means and SDs per group. Convert reported SEs or 95% CIs to SDs using the group n; use randomised group sizes when analysed Ns are unavailable. One effect size per trial, from the follow-up at or nearest below 6 months.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "mental health-related quality of life"
+}

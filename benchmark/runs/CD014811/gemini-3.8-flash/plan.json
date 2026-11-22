@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of continuous intravenous infusion of loop diuretics compared with intravenous bolus injection on net weight loss in adults hospitalised with acute decompensated heart failure?",
+  "treatment_label": "Continuous intravenous infusion loop diuretics",
+  "control_label": "Intermittent intravenous bolus loop diuretics",
+  "outcome_description": "Net weight loss in kilograms from baseline to assessment timepoint (e.g., 24 to 72 hours or hospital discharge).",
+  "positive_direction": "Greater net weight loss in the continuous infusion group compared to the intermittent bolus group.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "continuous infusion bolus furosemide acute decompensated heart failure weight loss trial",
+    "continuous versus bolus intravenous loop diuretics acute heart failure randomized trial",
+    "furosemide continuous infusion intermittent bolus clinical trial weight loss kg"
+  ],
+  "inclusion_criteria": [
+    "Adults hospitalized with acute decompensated heart failure receiving intravenous loop diuretics.",
+    "Randomized or controlled clinical trials comparing continuous intravenous infusion with intermittent intravenous bolus injection of loop diuretics.",
+    "Reporting quantitative data on net weight loss (in kg) or baseline and post-treatment weight."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded).",
+    "No comparison between continuous intravenous infusion and intermittent bolus administration of loop diuretics.",
+    "No quantitative outcome data on net weight loss or body weight change from which an effect size can be calculated.",
+    "Completely unrelated to loop diuretic administration in hospitalized acute decompensated heart failure patients."
+  ],
+  "moderators_to_extract": [
+    "Loop diuretic agent (e.g., furosemide, torsemide, bumetanide)",
+    "Assessment timepoint for weight loss (e.g., 24h, 48h, 72h, or discharge)",
+    "Dosing strategy (equimolar/isodose comparison vs. flexible/titrated dosing)",
+    "Mean baseline left ventricular ejection fraction (HFrEF vs. HFpEF/mixed)",
+    "Mean daily diuretic dose (furosemide equivalents in mg)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Mean difference (MD) in kilograms of net weight loss (continuous minus bolus). Multi-arm trials with multiple continuous or bolus arms (e.g., high vs. low dose) should have arms of the same administration mode combined according to Cochrane guidelines.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "net weight loss"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children aged 6\u201359 months with acute malnutrition/wasting, including severe acute malnutrition (SAM) and moderate acute malnutrition (MAM), what is the effect of treatment delivered by lay health workers (community health workers, volunteers, or other non-professional providers), compared with treatment delivered by health professionals in health facilities, on recovery or cure by the end of treatment?",
+  "treatment_label": "Wasting treatment delivered by lay health workers (community health workers, volunteers, or other non-professional providers)",
+  "control_label": "Wasting treatment delivered by health professionals in health facilities",
+  "outcome_description": "Proportion of treated children who recovered or were cured from wasting at the end of treatment, using each study's own definition of recovery/cure (such as attaining a weight-for-height or mid-upper-arm-circumference threshold or discharge as cured). Prefer the whole-programme cure rate rather than a subgroup measure and use intention-to-treat denominators where available. Do not substitute improvement from severe wasting, defaulting, death, relapse, weight gain, length of stay, or coverage.",
+  "positive_direction": "A positive effect (RR greater than 1; equivalently, a positive log RR) means recovery or cure is more likely when treatment is delivered by lay health workers than when it is delivered by health professionals in health facilities.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "child acute malnutrition wasting community health worker treatment controlled trial recovery",
+    "severe moderate acute malnutrition lay health worker treatment comparative study cure",
+    "child wasting community volunteer versus health facility professional treatment recovery"
+  ],
+  "inclusion_criteria": [
+    "Original empirical randomized, cluster-randomized, controlled before-after, or other non-randomized comparative studies of children aged 6\u201359 months treated for wasting, MAM, or SAM.",
+    "Studies comparing a treatment arm delivered by lay health workers, community health workers, volunteers, or other non-professional providers with a treatment arm delivered by health professionals in health facilities; classify arms by the actual treatment provider.",
+    "Studies reporting recovery or cure at the end of treatment as events and numbers treated, or reporting a recoverable RR (with uncertainty where available), using the study's own recovery/cure definition."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-empirical publications.",
+    "No comparison between a lay-health-worker-delivered treatment condition and a health-professional-delivered treatment condition; this includes studies in which both arms are delivered by lay workers, single-arm studies, and prevention-only comparisons.",
+    "No quantitative recovery/cure outcome data capable of producing an effect size, such as events and denominators, means and SDs, t/F statistics, proportions, odds ratios, or a reported risk ratio with sufficient uncertainty information.",
+    "Completely unrelated to treatment of wasting/acute malnutrition in children aged 6\u201359 months, including adult-only studies and studies reporting only non-recovery outcomes such as improvement from severe wasting, coverage, defaulting, mortality, relapse, weight gain, or length of stay."
+  ],
+  "moderators_to_extract": [
+    "Study design (individual randomized, cluster-randomized, controlled before-after, or other non-randomized comparative)",
+    "Wasting severity enrolled (SAM, MAM, or mixed acute malnutrition)",
+    "Type and training/intensity of lay health worker provider",
+    "Treatment protocol and recovery/cure definition (including anthropometric criterion)",
+    "Care setting and country/region",
+    "Cluster adjustment status, reported or assumed ICC, and average cluster size"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool recovery as a risk ratio (RR), calculated as [children cured / children treated] in the lay-health-worker arm divided by [children cured / children treated] in the health-professional arm, preferably using intention-to-treat denominators. Analyze log RRs with a random-effects model and back-transform pooled estimates and confidence intervals; RR > 1 favors lay-health-worker delivery. Assign arms according to who delivered treatment, regardless of table or column order, and invert estimates reported in the reverse direction. If event counts and denominators are unavailable but a study reports an RR, use the reported RR and its uncertainty. If several recovery measures are reported, select the whole-programme cure/recovery rate rather than a subgroup measure. In multi-arm studies, include only the eligible lay-health-worker and health-professional arms. For clustered designs, use a trial-reported cluster-adjusted RR and confidence interval when available and do not adjust it again. Otherwise, adjust the variance of the log RR by multiplying it by the design effect DE = 1 + (average cluster size \u2212 1) \u00d7 ICC, using the reported ICC; if no ICC is reported, use ICC = 0.02 in the primary analysis and conduct a sensitivity analysis using ICC = 0.05. Report assumptions and all cluster adjustments. Pool no outcomes other than end-of-treatment recovery/cure from wasting.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "recovery from wasting"
+}

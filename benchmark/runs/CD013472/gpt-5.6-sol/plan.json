@@ -1,0 +1,38 @@
+{
+  "research_question": "Among preterm infants born before 37 completed weeks of gestation, what is the effect of music or voice interventions delivered during a session\u2014including recorded music, live singing, parental voice, or lullabies, with or without kangaroo care/skin-to-skin contact\u2014compared with standard care, the usual NICU environment, silence, or no music, on heart rate measured during the intervention? Include randomized controlled trials only and pool heart rate as a mean difference in beats per minute.",
+  "treatment_label": "Music or voice intervention during the session (recorded music, live singing, parental voice, or lullabies, with or without kangaroo care/skin-to-skin contact)",
+  "control_label": "Standard care, usual NICU environment, silence, or no music",
+  "outcome_description": "Heart rate in beats per minute measured while the music or voice intervention is being delivered. Extract the mean, SD, and number of infants in each arm. Prefer final heart-rate values measured during the intervention over change from baseline; if only mean change and SD of change are available, use change scores for both arms and record that choice, never mixing final values and change scores across arms. Exclude measurements taken before the session, immediately after it, or at later follow-up. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n), verifying table footnotes for the meaning of \u00b1, and convert heart rate to bpm if needed. For multiple eligible intervention arms sharing one control, combine intervention arms where appropriate or split the shared control equally so infants are not double-counted. For cross-over trials, use first-period results if reported; otherwise use reported combined paired data and flag the cross-over design. Use the reported randomized or analyzed number of infants and identify arms from treatment descriptions rather than column order. Do not pool oxygen saturation, respiratory rate, pain, weight gain, length of stay, sleep, feeding, neurodevelopment, or heart rate outside the intervention period.",
+  "positive_direction": "After direction harmonization, a positive standardized effect would mean a lower heart rate during the session with music or voice and therefore favor the intervention; for the requested raw mean difference calculated as intervention minus control, however, MD below 0 bpm favors music or voice.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "preterm infant music intervention randomized heart rate",
+    "premature neonate parental voice lullaby controlled trial heart rate",
+    "NICU live singing recorded music randomized trial cardiac rate"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling preterm infants born before 37 weeks of gestation and evaluating an eligible music or voice intervention, with or without kangaroo care/skin-to-skin contact.",
+    "An eligible comparison of the music or voice condition against standard care, usual NICU environment, silence, or no music.",
+    "Quantitative heart-rate data measured during delivery of the intervention that can be expressed or converted to beats per minute and used to calculate an arm-level mean difference."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, non-randomized studies, or studies only in term infants or older children.",
+    "No comparison between an eligible music or voice treatment and a standard-care, usual-environment, silence, or no-music control; this includes trials using another active intervention as the control.",
+    "No quantitative during-intervention heart-rate outcome data capable of producing an effect size (such as arm-level means with SD/SE/SEM and sample sizes, convertible test statistics, proportions, or odds ratios), including studies reporting heart rate only before, immediately after, or at later follow-up.",
+    "Completely unrelated to music/voice interventions in preterm infants or reporting only non-target outcomes such as oxygen saturation, respiratory rate, pain, weight gain, length of stay, sleep, feeding, or neurodevelopment."
+  ],
+  "moderators_to_extract": [
+    "Intervention type (recorded music, live singing, parental voice, or lullaby)",
+    "Co-intervention with kangaroo care/skin-to-skin contact versus music or voice alone",
+    "Gestational age and postmenstrual/postnatal age at intervention",
+    "Intervention dose and session characteristics (duration, frequency, intensity/volume)",
+    "Study design (parallel-group versus cross-over, including whether first-period or combined paired data were used)",
+    "Outcome-data format (final during-session value versus change from baseline)"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "Pool the unstandardized mean difference in beats per minute as intervention minus control, so MD < 0 indicates lower heart rate and favors music or voice. Use the pooling model supplied by the pipeline and report both fixed-effect and random-effects estimates when both are available. Prefer final during-intervention values; use change scores only when final values are unavailable and both arms report compatible change data. Convert SE/SEM to SD, preserve bpm units, account for shared controls without double-counting, and document cross-over data handling.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "heart rate during the intervention"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of erythropoiesis-stimulating agents (ESA), compared with placebo or usual care, on acute kidney injury?",
+  "treatment_label": "Erythropoiesis-stimulating agents (ESA)",
+  "control_label": "Placebo or usual care",
+  "outcome_description": "Incidence of acute kidney injury (AKI)",
+  "positive_direction": "A positive effect indicates a lower incidence or risk of acute kidney injury in the erythropoiesis-stimulating agent group compared to control (favoring ESA).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "erythropoietin acute kidney injury randomized controlled trial",
+    "erythropoiesis-stimulating agents AKI trial comparison",
+    "darbepoetin placebo acute kidney injury trial"
+  ],
+  "inclusion_criteria": [
+    "Controlled clinical trials evaluating erythropoiesis-stimulating agents (e.g., recombinant human erythropoietin, darbepoetin) compared with placebo or usual care",
+    "Studies conducted in human patient populations at risk of or evaluated for acute kidney injury",
+    "Reporting quantitative incidence or event counts of acute kidney injury"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded)",
+    "No comparison between an erythropoiesis-stimulating agent and a control condition (placebo, usual care, or no treatment)",
+    "No quantitative outcome data that can produce an effect size for acute kidney injury (e.g., event counts, proportions, odds ratios, or risk ratios)",
+    "Non-human (in vitro or animal) studies or studies completely unrelated to the research question"
+  ],
+  "moderators_to_extract": [
+    "Patient population / clinical setting (e.g., cardiac surgery, ICU/critically ill, contrast-induced nephropathy, trauma)",
+    "Specific ESA type (e.g., epoetin alfa, epoetin beta, darbepoetin alfa)",
+    "Timing and route of ESA administration (e.g., intravenous vs. subcutaneous; pre-operative vs. peri-operative)",
+    "AKI diagnostic criteria / definition (e.g., KDIGO, AKIN, RIFLE, serum creatinine threshold)",
+    "Control arm type (placebo vs. usual care / no treatment)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Trials reporting zero events in both arms are treated as not estimable and excluded from pooling.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "acute kidney injury"
+}

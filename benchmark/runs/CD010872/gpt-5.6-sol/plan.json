@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults undergoing liver (hepatic) resection, what is the effect of fibrin-based haemostatic agents (fibrin sealant, fibrin glue, fibrin patches, or fibrin-coated collagen), compared with non-fibrin haemostatic agents or techniques, on all-cause perioperative mortality?",
+  "treatment_label": "Fibrin-based haemostatic agent used during liver resection (fibrin sealant, fibrin glue, fibrin patch, or fibrin-coated collagen)",
+  "control_label": "Active non-fibrin haemostatic agent or technique used during liver resection (e.g., oxidised cellulose, non-fibrin collagen sponge, argon beam coagulation, electrocautery, or standard surgical haemostasis that includes an active haemostatic approach)",
+  "outcome_description": "All-cause perioperative mortality, measured as the number of participants who died in hospital or within approximately 30 to 90 days after liver resection, according to each trial's definition, divided by the number randomised in each arm. Use intention-to-treat denominators; if only treated or safety-population denominators are available, use them and flag this deviation. Include zero events with the arm total when explicitly reported; exclude a trial from this outcome if mortality is not reported. Do not use treatment-related mortality alone or late mortality at one year or later. Do not extract or pool blood loss, time to haemostasis, transfusion, bile leak, reoperation, infection, or any other outcome. For multi-arm trials, include the fibrin arm and combine multiple eligible non-fibrin comparator arms by summing deaths and participants.",
+  "positive_direction": "For standardized directional coding, a positive value would mean lower perioperative mortality and thus favor the fibrin-based agent; however, for the explicitly requested risk ratio (fibrin divided by non-fibrin), RR greater than 1 means more deaths with the fibrin-based agent and therefore favors the non-fibrin comparator, while RR less than 1 favors the fibrin-based agent.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "fibrin sealant liver resection randomized mortality trial",
+    "fibrin glue hepatic resection controlled haemostasis death",
+    "fibrin patch fibrin coated collagen hepatectomy randomized comparison"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling adults undergoing liver or hepatic resection and comparing a fibrin-based haemostatic agent with an active non-fibrin haemostatic agent or technique.",
+    "Trials reporting all-cause perioperative mortality in hospital or at approximately 30 to 90 days, with arm-level death counts and denominators sufficient to calculate a risk ratio, including explicitly reported zero-event arms.",
+    "Trials using any eligible fibrin formulation (sealant, glue, patch, or fibrin-coated collagen) and any active non-fibrin haemostatic comparator, regardless of publication language, setting, operative indication, or publication status."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible comparison between a fibrin-based treatment arm and a non-fibrin control condition; specifically exclude fibrin versus no haemostatic agent at all, comparisons of two fibrin agents, and non-randomised studies.",
+    "No quantitative all-cause perioperative mortality data capable of producing an effect size (arm-level events and denominators, or equivalent recoverable data); exclude reports that omit mortality, report only treatment-related deaths, or report only mortality at one year or later.",
+    "Completely unrelated to fibrin-based haemostasis during adult liver resection."
+  ],
+  "moderators_to_extract": [
+    "Type and formulation of fibrin-based agent",
+    "Type of non-fibrin comparator technique or agent",
+    "Perioperative mortality time window and definition (in-hospital, 30-day, 60-day, or 90-day)",
+    "Underlying indication for liver resection (malignant, benign, mixed, or transplant-related if eligible)",
+    "Extent of liver resection (major, minor, or mixed)",
+    "Denominator type used (randomised intention-to-treat, treated, or safety population)"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "Pool arm-level all-cause perioperative deaths using a random-effects risk-ratio model, calculated as risk in the fibrin-based arm divided by risk in the non-fibrin comparator arm. Thus RR > 1 indicates more deaths with fibrin-based treatment, RR < 1 indicates fewer deaths, and RR = 1 indicates no difference. Assign arms from treatment descriptions rather than table position. Use numbers randomised as denominators whenever available; otherwise use treated or safety populations and state this. For trials with two eligible non-fibrin arms, combine controls by summing events and participants. Retain explicitly reported zero events. Trials with zero events in both arms provide no information for a conventional RR and should be documented and handled according to the prespecified zero-event method rather than silently discarded; report the chosen continuity-correction or model-based approach and conduct a sensitivity analysis if feasible. Present pooled RR with 95% CI, heterogeneity estimates (tau-squared and I-squared), study weights, and prediction interval when estimable. Assess risk of bias using RoB 2, certainty using GRADE, and report study selection with a PRISMA 2020 flow diagram.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause perioperative mortality"
+}

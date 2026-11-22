@@ -1,0 +1,38 @@
+{
+  "research_question": "In neonates (\u226428 days of age, term or preterm) with clinically or electrographically diagnosed seizures, what is the effect of phenobarbital versus levetiracetam as first-line anti-seizure medication on all-cause mortality before hospital discharge?",
+  "treatment_label": "Phenobarbital (phenobarbitone) as first-line anti-seizure medication",
+  "control_label": "Levetiracetam as first-line anti-seizure medication",
+  "outcome_description": "All-cause mortality before hospital discharge: the number of infants who died from any cause between randomisation and discharge from hospital (or death during the initial NICU/hospital admission), out of the number randomised (or, if not reported, the number analysed) in each arm. Only in-hospital/pre-discharge deaths are used; mortality reported at 3, 6, or 12 months or any post-discharge death is not used. Zero-event arms are recorded as 0 events with the arm denominator; studies that do not report deaths at all are excluded rather than imputed as zero. Arms are assigned by drug name from the group definitions (not table/figure column order), with phenobarbital always the treatment arm; for cross-over or add-on-after-failure designs, infants are counted in their originally randomised group; in multi-arm trials only the phenobarbital and levetiracetam arms are used.",
+  "positive_direction": "A positive effect (RR below 1 after signing, i.e. a positive effect size) means fewer deaths before hospital discharge with phenobarbital than with levetiracetam \u2014 favouring phenobarbital. Conversely, RR > 1 means more deaths with phenobarbital, favouring levetiracetam.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "phenobarbital versus levetiracetam neonatal seizures randomized trial",
+    "levetiracetam first-line treatment neonatal seizures controlled trial mortality",
+    "phenobarbitone anticonvulsant neonatal seizures trial outcome neonates"
+  ],
+  "inclusion_criteria": [
+    "Randomised or quasi-randomised trial enrolling neonates (up to 28 days of age, term or preterm) with clinically or electrographically diagnosed seizures",
+    "Compares phenobarbital (phenobarbitone) with levetiracetam as first-line anti-seizure medication in at least two of its arms (multi-arm trials eligible, using only these two arms)",
+    "Reports any quantitative data on deaths/mortality during the initial hospital or NICU stay (including explicit zero-event counts) from which a risk ratio can be computed"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, theoretical or protocol-only paper)",
+    "No comparison between a treatment and a control condition (single-arm or uncontrolled case series, observational cohorts without a comparator, non-randomised/non-quasi-randomised designs)",
+    "No usable quantitative outcome data for computing an effect size (no event counts/denominators, proportions, risk/odds ratios, or means+SDs reported for mortality)",
+    "Unrelated to the research topic: trials of seizure prophylaxis rather than treatment, trials in which neither arm is phenobarbital or levetiracetam, comparisons of the two drugs only as add-on/second-line therapy after failure of a first drug, non-neonatal populations, or mortality reported only after discharge (3/6/12-month follow-up)"
+  ],
+  "moderators_to_extract": [
+    "Gestational age category (term vs preterm vs mixed)",
+    "Primary seizure aetiology (e.g. hypoxic-ischaemic encephalopathy vs mixed)",
+    "Levetiracetam loading dose and phenobarbital loading dose",
+    "Seizure diagnosis method (clinical vs EEG/aEEG-confirmed)",
+    "Randomisation type (randomised vs quasi-randomised) and blinding/risk of bias",
+    "Country/income setting and sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio with phenobarbital in the numerator and levetiracetam in the denominator, using in-hospital/pre-discharge all-cause death counts over the number randomised (or analysed if randomised numbers are unavailable). Expect sparse data and zero-event arms; use a method appropriate for rare events (e.g. Mantel-Haenszel without continuity correction where possible, retaining zero-event studies with their arm sizes). Do not pool seizure control, time to seizure cessation, EEG outcomes, adverse events, neurodevelopmental outcomes, or mechanical ventilation.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality before hospital discharge"
+}

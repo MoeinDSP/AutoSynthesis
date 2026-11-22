@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults undergoing surgery, what is the effect of an ultrasound-guided erector spinae plane block (ESPB) compared with no block (general anaesthesia plus usual analgesia, no injection) on cumulative postoperative opioid consumption during the first 24 hours after surgery, expressed in oral morphine equivalents (mg)?",
+  "treatment_label": "Ultrasound-guided erector spinae plane block (ESPB) with local anaesthetic, plus usual perioperative care",
+  "control_label": "No block (general anaesthesia and usual/standard analgesia only, no sham or saline injection)",
+  "outcome_description": "Cumulative postoperative opioid consumption over the first 24 hours after the end of surgery (recovery room plus ward, including patient-controlled analgesia and rescue doses), extracted as mean, SD and n per arm and converted to oral morphine equivalents in mg using standard published equianalgesic ratios (e.g. IV morphine, fentanyl, tramadol, pethidine, nalbuphine). Record original drug, dose, unit and conversion factor per study; sum multiple opioids after conversion; convert SE/SEM to SD (SD = SE x sqrt(n)) and estimate mean/SD from median and IQR with a standard method where needed. Do not use 2-hour or 48-hour totals or intraoperative opioid doses.",
+  "positive_direction": "A positive pooled effect means the ESPB group consumed LESS opioid in the first 24 hours than the no-block control group (i.e. ESPB is beneficial). Note that in the raw mean-difference metric requested by the user, a negative MD (fewer mg of oral morphine equivalents in the ESPB arm) is what favours ESPB.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "erector spinae plane block randomized controlled trial postoperative opioid consumption",
+    "ultrasound-guided erector spinae plane block morphine consumption 24 hours trial",
+    "erector spinae plane block versus no block general anesthesia analgesia outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults (>=18 years) undergoing any type of surgery",
+    "Compares an ultrasound-guided erector spinae plane block with a control group that received no block (no sham/saline injection)",
+    "Reports some quantitative measure of postoperative opioid consumption within roughly the first 24 postoperative hours (mean/SD, median/IQR, SE, or other extractable statistics)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, case report, protocol, or purely theoretical/technical paper)",
+    "No comparison between a treatment and a control condition, or the control group received a sham/saline block or another regional technique (other nerve/fascial plane block, epidural, wound infiltration) rather than no block",
+    "No quantitative outcome data from which an effect size can be computed (no means+SDs, medians+IQR, t/F values, proportions or odds ratios reported)",
+    "Completely unrelated to the research topic, or conducted exclusively in children/adolescents (<18 years)"
+  ],
+  "moderators_to_extract": [
+    "Surgery type (e.g. thoracic, cardiac, abdominal, spine, breast)",
+    "ESPB technique (single-shot vs catheter/continuous infusion; unilateral vs bilateral)",
+    "Local anaesthetic agent, concentration and total volume/dose",
+    "Index opioid used postoperatively and conversion factor applied",
+    "Mode of postoperative analgesia delivery (PCA vs nurse-administered rescue)",
+    "Sample size category and risk-of-bias / blinding status"
+  ],
+  "search_start_year": 2016,
+  "effect_size_note": "Pool as a mean difference (MD) in mg oral morphine equivalents using a random-effects model (DerSimonian-Laird or REML, with Knapp-Hartung adjustment considered). All arms must be converted to a common unit (mg oral morphine equivalents) before pooling; never mix raw units (mcg fentanyl, mg tramadol) in one pool. For multi-arm trials with several ESPB groups versus one control, either combine the ESPB arms into a single group or divide the control n equally across comparisons so control participants are not double-counted. Use the number randomised or analysed as reported and assign arms by treatment description, not table column position. Interpretation per user convention: MD < 0 = less opioid with ESPB = favours ESPB.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cumulative 24-hour postoperative opioid consumption (oral morphine equivalents, mg)"
+}

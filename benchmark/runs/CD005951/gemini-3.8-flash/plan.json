@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of antifibrinolytic drugs (tranexamic acid, aminocaproic acid or similar), compared with placebo or open (no-drug) control, on intracerebral haematoma expansion by 24 hours in adults with acute spontaneous (non-traumatic) intracerebral haemorrhage?",
+  "treatment_label": "Antifibrinolytic drugs (tranexamic acid, aminocaproic acid)",
+  "control_label": "Placebo or open (no-drug) control",
+  "outcome_description": "Number of participants with intracerebral haematoma expansion (events) out of total randomised participants (intention-to-treat denominator) assessed on repeat brain imaging at or around 24 hours after baseline scan, using the trial's reported expansion criteria",
+  "positive_direction": "Favours antifibrinolytic therapy (reduced risk of intracerebral haematoma expansion at 24 hours)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "tranexamic acid intracerebral hemorrhage hematoma expansion randomized trial",
+    "antifibrinolytic spontaneous intracerebral hemorrhage hematoma growth controlled trial",
+    "tranexamic acid ICH repeat CT haematoma expansion comparison"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials enrolling adult patients with acute spontaneous (non-traumatic) intracerebral haemorrhage",
+    "Comparison of an antifibrinolytic drug (such as tranexamic acid or aminocaproic acid) against placebo or open/usual care control",
+    "Reporting quantitative haematoma expansion incidence or counts on repeat brain neuroimaging at or around 24 hours post-baseline"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, protocols, and case series)",
+    "No randomised comparison between an antifibrinolytic agent and a placebo or open control (non-randomised studies, single-arm studies, or active comparators of other haemostatic agents such as rFVIIa, PCC, or platelet transfusion)",
+    "Traumatic intracranial haemorrhage, aneurysmal subarachnoid haemorrhage, or non-spontaneous ICH populations without separable spontaneous ICH subgroup data",
+    "No quantitative dichotomous outcome data on haematoma expansion at or around 24 hours (e.g. reporting only mean volume change without patient counts, or only late 90-day clinical outcomes)"
+  ],
+  "moderators_to_extract": [
+    "Specific antifibrinolytic drug and dosage regimen",
+    "Time window from symptom onset to treatment randomisation/administration",
+    "Definition and criteria for haematoma expansion (e.g., relative >=33%, absolute >=6 mL, or composite)",
+    "Control type (placebo-controlled double-blind vs open-label usual care)",
+    "Mean or median baseline haematoma volume"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk ratio (RR) pooled using a random-effects model (DerSimonian-Laird or REML/PMA). An RR < 1 indicates a lower incidence of haematoma expansion in the antifibrinolytic arm (favours treatment). Event counts are taken from trial-defined expansion criteria on repeat scan at ~24 hours; denominators are the full intention-to-treat randomised sample size per arm. Multi-arm trials with multiple active antifibrinolytic dosing groups are combined into a single active arm by summing events and total randomised participants.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "haematoma expansion"
+}

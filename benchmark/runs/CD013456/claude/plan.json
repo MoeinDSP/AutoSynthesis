@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults who experienced rape or sexual assault in adulthood, what is the effect of psychosocial interventions (CBT including prolonged exposure, cognitive processing therapy and stress inoculation training; behavioural/exposure-based therapies; EMDR, memory-reconsolidation, neurofeedback or narrative exposure approaches; and brief or low-intensity interventions such as psychoeducational videos or computerised programmes), compared with an inactive control (wait-list, usual care, no treatment, assessment only), on PTSD symptom severity measured on a continuous scale immediately after treatment?",
+  "treatment_label": "Psychosocial intervention (CBT/PE/CPT/SIT, exposure-based, EMDR, narrative exposure, neurofeedback, memory reconsolidation, or brief/low-intensity programmes)",
+  "control_label": "Inactive control (wait-list, usual care, no treatment, or assessment only)",
+  "outcome_description": "PTSD symptom severity on a continuous scale at the first post-treatment assessment (end of treatment). One measure per trial: prefer clinician-administered scales (e.g. CAPS), otherwise the trial's primary self-report PTSD scale (e.g. PDS, PCL, PSS-SR, IES-R); total scores only, not subscales. Extract mean, SD and n per arm (end-of-treatment values preferred over change scores; SE/SEM converted to SD = SE \u00d7 \u221an). Follow-up assessments (3, 6, 12 months) are not used.",
+  "positive_direction": "A positive Hedges' g means the psychosocial intervention group had LOWER PTSD symptom severity at post-treatment than the inactive control group \u2014 i.e. the effect favours the intervention (equivalent to a negative raw SMD in the user's sign convention).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "randomized controlled trial psychotherapy PTSD sexual assault rape survivors post-treatment outcome",
+    "prolonged exposure cognitive processing therapy EMDR rape victims PTSD symptoms trial wait-list",
+    "brief computerised psychoeducation intervention sexual assault PTSD severity controlled trial adults"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults (18+) in which all or a substantial majority of participants experienced rape or sexual assault in adulthood",
+    "Compares any psychosocial/psychological intervention (including brief or low-intensity programmes) with an inactive control condition such as wait-list, usual care, no treatment or assessment only",
+    "Reports quantitative PTSD symptom severity data on a continuous scale at a post-treatment assessment, or statistics from which an effect size can be computed"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion or purely theoretical/protocol paper)",
+    "No comparison between a treatment condition and an inactive control condition (e.g. single-arm studies, or trials whose only comparator is another active treatment, or non-randomised designs)",
+    "No quantitative outcome data permitting effect-size computation (no means with SDs/SEs, t/F values, proportions or odds ratios)",
+    "Unrelated to the research topic (e.g. samples restricted to childhood sexual abuse only, military/combat trauma without sexual assault, children or adolescents, or pharmacological interventions only)"
+  ],
+  "moderators_to_extract": [
+    "Intervention type (CBT/PE/CPT/SIT vs exposure-based vs EMDR/narrative/neurofeedback vs brief or low-intensity)",
+    "Control condition type (wait-list vs usual care vs no treatment/assessment only)",
+    "PTSD outcome measure type (clinician-administered vs self-report)",
+    "Number of treatment sessions / intervention intensity",
+    "Sample size category (total randomised)",
+    "Publication year and country/setting"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardised mean difference (Hedges' g) under a random-effects model (REML, Knapp\u2013Hartung adjustment), using post-treatment means, SDs and per-arm n. Because PTSD scales score higher = worse, effect sizes are sign-flipped so that a POSITIVE g favours the intervention (the user's convention of SMD < 0 favouring intervention is the mirror image). Multi-arm trials contribute each eligible active arm as a separate comparison against the shared inactive control, with the control n split equally across comparisons to avoid double-counting. Heterogeneity assessed with tau\u00b2, I\u00b2 and prediction intervals; small-study effects via funnel plot and Egger's test.",
+  "target_effect_measure": "HEDGES_G",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "PTSD symptom severity"
+}

@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of zinc compared with placebo on the duration of the common cold in people with a naturally acquired cold?",
+  "treatment_label": "Zinc supplementation (lozenges, tablets, or intranasal)",
+  "control_label": "Placebo",
+  "outcome_description": "Mean duration of the common cold in days from start of treatment or symptom onset to resolution",
+  "positive_direction": "Shorter duration of cold symptoms (favoring zinc over placebo)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "zinc common cold duration clinical trial",
+    "zinc lozenges cold symptoms randomized controlled trial",
+    "zinc treatment common cold days to resolution trial"
+  ],
+  "inclusion_criteria": [
+    "Empirical clinical trials evaluating zinc (oral lozenges, tablets, or intranasal preparations) compared to placebo in individuals with naturally acquired common cold",
+    "Studies reporting quantitative outcome data on the mean duration of the common cold in days from treatment start or symptom onset to resolution"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and narrative reviews are excluded)",
+    "No comparison between zinc and a placebo or control group",
+    "No quantitative outcome data allowing calculation of an effect size for cold duration (e.g., missing means, SDs, SEs, or equivalent statistics)",
+    "Unrelated to the research question, including prevention/prophylaxis studies, experimentally induced/inoculated colds, or studies reporting only symptom severity scores or adverse events without cold duration"
+  ],
+  "moderators_to_extract": [
+    "Zinc formulation and route (e.g., zinc acetate lozenges, zinc gluconate lozenges, tablets, intranasal)",
+    "Daily elemental zinc dose (mg/day)",
+    "Time from cold symptom onset to treatment initiation (e.g., <24 hours vs \u226524 hours)",
+    "Participant population (adults vs children/pediatric)",
+    "Trial definition and criteria for cold resolution"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Mean difference (MD) in days to resolution of common cold symptoms between zinc and placebo groups.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cold duration"
+}

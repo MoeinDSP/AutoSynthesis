@@ -1,0 +1,38 @@
+{
+  "research_question": "Among HIV-positive pregnant women, what is the effect of daily cotrimoxazole prophylaxis (CTXp) combined with an antimalarial drug (mefloquine or dihydroartemisinin-piperaquine), compared with CTXp alone or CTXp plus placebo (current standard of care), on the risk of low birth weight (<2500 g)?",
+  "treatment_label": "Daily CTXp plus mefloquine or dihydroartemisinin-piperaquine",
+  "control_label": "Daily CTXp alone or CTXp plus placebo (current standard of care)",
+  "outcome_description": "Low birth weight, defined as birth weight below 2500 g, analyzed as a dichotomous outcome using each eligible trial's reported number of low-birth-weight events and total randomized participants per arm. The primary synthesis will pool trial-level risk ratios under an intention-to-treat denominator where the necessary randomized-arm data are available.",
+  "positive_direction": "A positive treatment-oriented effect means that adding mefloquine or dihydroartemisinin-piperaquine to daily CTXp reduces the risk of low birth weight compared with CTXp alone or CTXp plus placebo; on the requested conventional RR scale, RR values below 1 favor the combined regimen.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cotrimoxazole mefloquine HIV pregnancy low birth weight trial",
+    "cotrimoxazole dihydroartemisinin piperaquine HIV pregnant controlled low birth weight",
+    "malaria prophylaxis HIV-positive pregnancy cotrimoxazole antimalarial randomized birth weight"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of HIV-positive pregnant women receiving daily cotrimoxazole prophylaxis that evaluate the addition of mefloquine or dihydroartemisinin-piperaquine against CTXp alone or CTXp plus placebo.",
+    "Studies reporting low birth weight (<2500 g), or sufficiently compatible birth-weight data, as a quantitative maternal-infant outcome.",
+    "Controlled trials or comparative intervention studies providing arm-level information relevant to estimating the requested treatment effect."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between a treatment condition consisting of CTXp plus mefloquine or dihydroartemisinin-piperaquine and a control condition consisting of CTXp with or without placebo.",
+    "No quantitative outcome data capable of producing an effect size; for this synthesis, low-birth-weight event counts and randomized totals per arm are required, while otherwise eligible reports with only means and SDs, t/F-values, proportions without denominators, or odds ratios that cannot be converted to arm-level events will be documented but not pooled in the requested RR analysis.",
+    "Completely unrelated to HIV-positive pregnancy, CTXp-based malaria prevention, the specified added antimalarial drugs, or low birth weight."
+  ],
+  "moderators_to_extract": [
+    "Added antimalarial drug (mefloquine vs dihydroartemisinin-piperaquine)",
+    "Antimalarial dose, schedule, and timing of initiation during pregnancy",
+    "Geographic region and malaria-transmission intensity",
+    "Trial design and control type (CTXp alone vs CTXp plus placebo)",
+    "Participant baseline characteristics, including gestational age at enrollment, parity, and antiretroviral therapy use",
+    "Risk-of-bias domain judgments and publication year"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool low-birth-weight risk ratios using the number of low-birth-weight events and total randomized per arm exactly as reported for each trial. Use an intention-to-treat randomized denominator where possible; document exclusions from birth-weight ascertainment and perform sensitivity analyses using available-case denominators if reported. Prefer a random-effects model because drug regimen and setting may differ; also report a fixed-effect sensitivity analysis when few trials are available. Use an appropriate continuity correction only for single-zero-event studies and exclude double-zero-event studies from the conventional RR meta-analysis while describing them narratively. Report 95% confidence intervals, heterogeneity (tau-squared and I-squared), influence/leave-one-out analyses when feasible, and assess small-study effects only if enough studies are available. Avoid double-counting shared control groups in multi-arm trials by combining eligible treatment arms when clinically appropriate or splitting the shared control denominator and events according to standard methods. Screen and report studies according to PRISMA 2020, deduplicate records, document full-text exclusion reasons, search trial registries and reference lists, and assess randomized trials with Cochrane RoB 2; grade certainty for the low-birth-weight outcome using GRADE.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "low birth weight (<2500 g)"
+}

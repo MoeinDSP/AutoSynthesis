@@ -1,0 +1,642 @@
+[
+  {
+    "paper_id": "manual:402f0152",
+    "paper_title": "c704bf50_0253-7613.125161",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although described as randomized, allocation was explicitly based on medical record numbers rather than a genuinely random sequence, making this a quasi-random/non-randomized assignment mechanism.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "Allocation by medical-record number was not truly random and no adjusted analysis addressed possible confounding, although measured baseline characteristics and medications appeared similar between groups.",
+        "evidence_quote": "Patients were randomly assigned according to the medical record numbers to receive a preoperative dose of levosimendan...or a placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Prospective enrollment used stated eligibility criteria, but the report does not clarify whether recruitment was consecutive or whether medical-record-number allocation could be foreseen and influence enrollment or assignment.",
+        "evidence_quote": "Patients with coronary artery disease (CAD) and low LVEF (<30%) scheduled to undergo OPCABG were prospectively enrolled in the study at our institute."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The levosimendan and placebo conditions were clearly defined before outcomes occurred, with matching administration procedures and a colored placebo intended to preserve masking.",
+        "evidence_quote": "Group L...receive[d] a preoperative dose of levosimendan...or a placebo...dissolved in NS to mimic the color of levosimendan in group C. The method of administration was similar in both groups."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "Anesthetic and surgical protocols were reportedly standardized and all assigned patients were analyzed, but unmasking success, adherence to assigned infusion, and whether co-intervention decisions were made while blinded were not adequately reported; subsequent CPB, IABP, and inotrope use differed by group and could affect downstream outcomes.",
+        "evidence_quote": "Anesthetic management and surgical procedures were same in both the groups."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "low",
+        "rationale": "All 50 enrolled participants, 25 per group, were included in the analysis, with no reported loss to follow-up for the perioperative outcomes.",
+        "evidence_quote": "The data from these 50 patients were included in statistical analysis."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "moderate",
+        "rationale": "Hemodynamic outcomes were measured objectively and on the same schedule, but several clinically important outcomes such as initiation of inotropes, CPB, and IABP involved clinician judgment, and the report does not explain who was blinded or whether blinding remained intact despite recognizable adverse effects.",
+        "evidence_quote": "All patients underwent continuous monitoring of HR, ABP, pulse oximetry, cardiac index (CI), and pulmonary capillary wedge pressure (PCWP)."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "serious",
+        "rationale": "No protocol or prespecified analysis plan is reported despite numerous outcomes, repeated time points, and separate significance tests, creating substantial opportunity to select favorable measurements or analyses; repeated-measures outcomes were analyzed with independent tests without reported multiplicity control.",
+        "evidence_quote": "Student\u2019s t-test and analysis of variance (ANOVA) were used to determine the differences between the groups. P-value < 0.05 was considered significant."
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall ROBINS-I risk is serious, driven by substantial potential for selective reporting across many outcomes and time points without a protocol or multiplicity control. Quasi-random allocation by medical-record number and incomplete reporting of concealment, blinding integrity, and clinician-determined co-interventions add moderate concerns."
+  },
+  {
+    "paper_id": "manual:a056ebb9",
+    "paper_title": "21954375_0971-9784.109737",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 30 enrolled patients were randomly allocated to levosimendan or placebo and describes the trial as double-blind, so it is classified as randomized despite not reporting the sequence-generation method.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation was stated and measured baseline characteristics were generally comparable, but the sequence-generation and allocation-concealment methods were not reported.",
+        "evidence_quote": "Patients were randomly allocated to levosimendan (Group L) ... and placebo (Group P) groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Study drug administration was double-blinded and perioperative care was largely standardized, but treatment of hypotension differed substantially as clinically required, ICU inotrope weaning was discretionary, and an intention-to-treat analysis was not explicitly identified.",
+        "evidence_quote": "Weaning from inotropic support was at the discretion of the responsible anesthesiologist in the ICU and was based on the assessment of hemodynamic data, urine output, and the patient\u2019s physical status."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were included for all 30 randomized patients, with no reported dropouts or conversions to emergency on-pump surgery.",
+        "evidence_quote": "The data from all 30 patients were included in statistical analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The principal hemodynamic outcomes were objectively measured using the same specified monitoring equipment and scheduled time points across groups, while double-blinding reduced the potential for observer influence.",
+        "evidence_quote": "The CI and SVRI were monitored using FloTrac sensor and Vigileo monitor."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified analysis plan was reported, and numerous outcomes and repeated time-point comparisons were analyzed, leaving scope for selective reporting or analysis.",
+        "evidence_quote": "The MAP, heart\u2011rate (HR), CI, PCWP, systemic vascular resistance index (SVRI) were obtained after induction of anesthesia (baseline), at 6 min after application of the tissue stabilizer ... and at 6, 12, 18, and 24 hour after completion of surgery."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Although outcome data were complete and the principal hemodynamic measurements were objective and blinded, sequence generation and allocation concealment were not described, deviations/analysis details were incompletely reported, and no preregistration or prespecified analysis plan was available."
+  },
+  {
+    "paper_id": "manual:7d6fa8ce",
+    "paper_title": "e55369ec_0218492313499352",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although the study is labeled randomized, allocation was made \"according to their medical record numbers,\" a predictable quasi-random mechanism rather than an explicitly generated random allocation sequence.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "Allocation by medical-record number was not truly random and no confounder-adjusted analysis was reported, although measured baseline and surgical characteristics were generally comparable between groups.",
+        "evidence_quote": "The 40 patients were randomly assigned, according to their medical record numbers, to receive a preoperative dose of levosimendan ... or a placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "serious",
+        "rationale": "Five enrolled patients were excluded preoperatively for clinical events or treatment decisions before the analyzed cohort was formed, and the timing relative to condition assignment is unclear, creating potential selection related to prognosis and intervention.",
+        "evidence_quote": "Preoperatively, five patients were excluded due to the requirement of mechanical ventilation, hemodynamic instability, or the need for mitral valve replacement."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The two intervention conditions were clearly defined and administered prospectively as levosimendan or a color-matched placebo, making misclassification unlikely.",
+        "evidence_quote": "The 40 patients were randomly assigned, according to their medical record numbers, to receive a preoperative dose of levosimendan (200 mg/kg over 24 h) or a placebo (a mixture of vitamin B complex dissolved in 5% dextrose to mimic the color of levosimendan)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "A color-matched placebo and double-blind design likely limited differential deviations, but concealment details, maintenance of blinding, adherence, cointerventions, and the analysis strategy were insufficiently reported.",
+        "evidence_quote": "This randomized double-blind study was conducted after approval by the ethics committee of the hospital."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "Outcomes are presented for 40 analyzed patients and deaths are included, but completeness at each repeated hemodynamic time point and handling of measurements unavailable after death or complications are not described.",
+        "evidence_quote": "In the postoperative period, four (10%) patients died, due to LCOS in two cases and recurrent ventricular fibrillation in another two."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "moderate",
+        "rationale": "Hemodynamic outcomes were objectively measured with standardized monitoring, but assessor blinding is not specifically documented and some outcomes such as ventilation duration and ICU/hospital discharge could be influenced by clinical decisions.",
+        "evidence_quote": "All patients underwent continuous monitoring of heart rate, arterial blood pressure, pulse oximetry, and hemodynamic parameters including central venous pressure, pulmonary capillary wedge pressure, cardiac output, and systemic vascular resistance with a pulmonary artery catheter."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "serious",
+        "rationale": "No protocol, registration, prespecified primary outcome, or analysis plan is reported despite numerous outcomes and repeated time points, leaving substantial scope for selective outcome and analysis reporting.",
+        "evidence_quote": "The following perioperative and postoperative complications were recorded: low cardiac output syndrome (LCOS) ... renal failure ... stroke ... sepsis ... adult respiratory distress syndrome ... hypoxemia ... and postoperative mortality."
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall ROBINS-I risk is serious, driven by potentially prognosis-related exclusions before formation of the analyzed cohort and substantial scope for selective reporting without a protocol or prespecified primary analysis. Allocation by medical-record number and incomplete reporting of missingness, blinding, and analysis further raise moderate concerns."
+  },
+  {
+    "paper_id": "manual:3b9bc205",
+    "paper_title": "ea4183d0_0300060513516293",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly used block randomization with a computer-generated allocation sequence to assign patients to levosimendan or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated block-randomized sequence was used and reported baseline differences were not clearly beyond chance, but the method used to conceal the sequence until assignment was not fully described.",
+        "evidence_quote": "Patients received a pseudonym and were block randomized using computer-generated randomization into the levosimendan or the placebo group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and clinical personnel were plausibly blinded with a color-matched placebo and protocolized co-interventions, but four randomized patients were excluded before treatment and the analysis was restricted to protocol completers rather than clearly following intention-to-treat principles.",
+        "evidence_quote": "Four patients dropped out of the study prior to receiving the study medication due to a change in the operative status (i.e. from elective to urgent), so that 33 patients (levosimendan n = 17, placebo n = 16) completed the study protocol."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary postoperative outcomes were reported for all 33 treated protocol completers, but four of 37 randomized patients were omitted and completeness of longer-term quality-of-life data was not clearly documented.",
+        "evidence_quote": "In total, 37 patients met the inclusion criteria and were randomly assigned to receive levosimendan (n = 19) or placebo (n = 18). Four patients dropped out of the study prior to receiving the study medication ... so that 33 patients ... completed the study protocol."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary outcome was the standard SOFA score measured at fixed postoperative times, and double blinding with a color-matched placebo reduced the likelihood that outcome assessment differed by group.",
+        "evidence_quote": "The SOFA scores were measured upon arrival in the ICU (POD 0) and on postoperative days 1\u20133 (POD 1\u20133)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although endpoints and time points were described and the trial was registered, no accessible prespecified analysis plan is reported, many outcomes and analyses were conducted without multiplicity adjustment, and the trial was stopped after a blinded interim analysis, creating substantial scope for selective emphasis among exploratory results.",
+        "evidence_quote": "All tests were conducted for exploratory data analysis; therefore, no adjustments for multiple testing were made."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by high risk in selection of the reported result amid numerous exploratory analyses, no multiplicity adjustment, and premature stopping after interim analysis. Additional concerns arise from incompletely described allocation concealment and exclusion of four randomized participants from the reported analyses."
+  },
+  {
+    "paper_id": "manual:898c9c6d",
+    "paper_title": "c44918a2_aas.12425",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized parallel-group trial using computer-generated block randomization, with allocation managed independently by the hospital pharmacy.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The computer-generated block sequence was prepared by an independent pharmacy person, allocation was concealed with identical numbered vials and a secured code, and the observed LV-mass imbalance is plausible by chance in this very small trial.",
+        "evidence_quote": "Computer randomisation was performed in blocks of 10 by an independent person at the hospital pharmacy who distributed identical, numbered vials of either levosimendan or placebo to the study investigator."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and clinical and study personnel were blinded with an identical colored placebo, care was otherwise standard, and all treated participants were retained under an intention-to-treat approach, with no reported intervention-related deviations likely to bias outcomes.",
+        "evidence_quote": "The study investigator, study nurse, surgeons and intensive care unit (ICU) staff were blinded throughout the study and unblinding did not take place until all data were obtained, offline echocardiographic analyses finished and statistical processing concluded."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "One enrolled patient withdrew before receiving study treatment and was appropriately excluded, while all 20 randomized-and-treated participants survived and completed follow-up, although some figures indicate occasional unavailable repeated measurements.",
+        "evidence_quote": "All patients survived the study period and follow up was 100%."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified outcomes were measured uniformly using validated echocardiographic methods, and offline analyses were completed by blinded observers with repeat assessment and inter-/intra-observer validation.",
+        "evidence_quote": "All blinded offline echocardiographic analyses were performed twice by a single observer and repeated by a second observer for calculation of intra- and inter-observer variation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and primary and secondary endpoints were explicitly prespecified, but the many outcomes, time points, and analyses\u2014including a significant baseline-indexed cardiac-index analysis\u2014leave some potential for selective analysis reporting without access to a detailed prespecified statistical analysis plan.",
+        "evidence_quote": "Secondary endpoints comprised echocardiographic measures of systolic function (peak longitudinal strain, s', EF) and diastolic function (E/A, e', e'/a') as well as all invasive measurements (CI, MAP, mPAP, CVP, SvO ), cardiac biomarkers (NT-proBNP, troponin T) and 24-h urine clearance."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Randomization, concealment, blinding, retention, and blinded outcome measurement were strong, but the broad set of outcomes, repeated time points, and analytic options creates some concern about selection of the reported result despite prospective registration and prespecified endpoints."
+  },
+  {
+    "paper_id": "manual:8fcbaf36",
+    "paper_title": "f7cb14dd_bja%2Faen367",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, double-blind, placebo-controlled trial, with allocation generated using computer-generated random numbers.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, identical placebo was pharmacy-prepared and labelled, and observed baseline differences were compatible with chance, although the precise concealment mechanism was not fully described.",
+        "evidence_quote": "Randomization was achieved with the use of computer-generated random numbers."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and clinical staff were blinded and care protocols were standardized, but four post-randomization exclusions were omitted rather than analysed according to intention-to-treat.",
+        "evidence_quote": "One patient in the levosimendan group and three in the placebo group were withdrawn after randomization because their surgery was cancelled."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary-outcome data were available for all 102 participants who underwent surgery, and the only four randomized participants without outcome data had surgery cancelled for reasons unlikely to depend on their unobserved outcomes.",
+        "evidence_quote": "One hundred and forty patients were assessed for eligibility, of whom 106 were randomly assigned to levosimendan (n\u00bc53) or placebo (n\u00bc53). One patient in the levosimendan group and three in the placebo group were withdrawn after randomization because their surgery was cancelled."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "ICU discharge eligibility was determined using prespecified objective criteria applied equally between groups, and patients and medical and nursing staff remained blinded throughout the study period.",
+        "evidence_quote": "All patients and medical and nursing staff members remained unaware of study group assignments throughout the study period."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary and secondary endpoints and statistical methods were described, but no preregistration or prespecified analysis plan was reported, leaving some possibility of selective choice among analyses or outcome definitions.",
+        "evidence_quote": "The primary endpoint of the study was the length of ICU stay."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by exclusion of four participants after randomization without an intention-to-treat analysis and the absence of reported preregistration or a prespecified analysis plan. Randomization, blinding, outcome completeness among operated patients, and objective outcome criteria otherwise support low risk."
+  },
+  {
+    "paper_id": "manual:d7fa1a1b",
+    "paper_title": "5e2c4fab_ccm.0b013e3182227b97",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, double-blind, placebo-controlled parallel-group trial using a computer-generated allocation schedule prepared independently and implemented by an unblinded pharmacist.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The computer-generated sequence and pharmacy-controlled, identically labeled study drug support random allocation and concealment, but the marked baseline imbalance in prior myocardial infarction raises some concern despite adjustment for this factor.",
+        "evidence_quote": "Patients were allocated to the treatment by a computer-generated randomized schedule prepared by a statistician at the IT-Centre of University of Kuopio, Finland, with a block size of ten patients... There was a significant difference in preoperative myocardial infarctions, which were more common in the placebo (29%) compared to the levosimendan group (8%) (p < .001)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, clinicians, investigators, and analysts were blinded; care followed a standardized protocol; the few discontinuations and protocol violations were reported; and all 200 treated/randomized participants were analyzed by intention to treat.",
+        "evidence_quote": "All study personnel, including investigators, research nurse, caregivers, patients, and personnel accomplishing the safety analysis were blinded to treatment allocation throughout the study; unblinding took place after data collection and statistical analysis were completed... Hence, intention-to-treat analysis was performed on the data of 200 patients."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary outcome was reported for all 200 participants included after seven pre-intervention exclusions, with only limited loss of noradrenaline-dose data unrelated to the primary heart-failure endpoint.",
+        "evidence_quote": "A total of 207 patients were enrolled; seven were excluded before intervention (Fig. 1). Hence, intention-to-treat analysis was performed on the data of 200 patients."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary endpoint used objective cardiac-index measurements and protocolized criteria applied identically across groups, while treatment blinding minimized assessor influence, although the definition itself was not validated.",
+        "evidence_quote": "The primary outcome measure was heart failure, defined as CI <2.0 L/min/m2 or failure to wean from CPB necessitating inotrope administration for at least 2 hrs postoperatively after CPB... Even though our heart failure definition is not a validated one as such, it was a prespecified and clinically significant end point."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary and secondary outcomes and statistical methods are described as prespecified, but no trial registration or publicly available protocol/statistical analysis plan is reported to rule out selection among eligible measurements or analyses.",
+        "evidence_quote": "The primary outcome measure was heart failure... Secondary outcome measures were any cause in-hospital and 6-month mortality or predefined major organ morbidity as follows."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by a large baseline imbalance in prior myocardial infarction despite an otherwise credible randomization and concealment process, and by the absence of reported registration or an accessible prespecified protocol/analysis plan. Blinding, standardized outcome assessment, intention-to-treat analysis, and near-complete primary outcome data otherwise support low risk."
+  },
+  {
+    "paper_id": "manual:bc9de42b",
+    "paper_title": "0431340d_ecc17125",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although described as randomized, assignment was determined by medical-record-number parity (pair/unpair), a predictable quasi-random allocation mechanism rather than a genuinely random sequence.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Allocation by predictable medical-record-number parity was not random, and the unadjusted analysis cannot exclude prognostic imbalance or manipulation despite similar reported baseline characteristics.",
+        "evidence_quote": "Patients were admitted to the cardiovascular intensive care unit (ICU) 24 h before surgery and were randomly assigned according to the medical record numbers (pair/unpair) to receive either... levosimendan... or a placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Prospective enrollment used explicit eligibility criteria, but the report does not state whether all eligible patients were enrolled consecutively or whether enrollment could have been influenced by prognosis and forthcoming predictable assignment.",
+        "evidence_quote": "Patients with CAD and SLVD with an ejection fraction <25% scheduled to undergo cardiac surgery with CPB were prospectively enrolled in the present blinded study at two university hospitals."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The levosimendan and placebo regimens were clearly defined before outcomes occurred, and all assigned infusions were completed, making misclassification unlikely.",
+        "evidence_quote": "The preoperative infusion of levosimendan was successfully completed in all cases."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "A color-matched placebo and blinded data-collection staff reduce concern, and all infusions were completed, but participant and treating-clinician blinding is not fully documented and analyses are not explicitly stated to follow the intention-to-treat principle.",
+        "evidence_quote": "Data were collected by staff who were blinded to study treatments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "low",
+        "rationale": "All 252 enrolled patients are represented in the group denominators and outcome tables, no withdrawals occurred, and the infusion was completed in every case, indicating essentially complete outcome data.",
+        "evidence_quote": "The preoperative infusion of levosimendan was successfully completed in all cases."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "moderate",
+        "rationale": "Mortality is objective and LCOS and other complications had prespecified clinical criteria applied across groups, but blinding of treating clinicians and outcome adjudicators was not clearly reported, allowing possible differential assessment or management of nonfatal outcomes.",
+        "evidence_quote": "LCOS: The presence of low cardiac index (<2.2 L/min/m2), elevated PAOP (>16 mmHg) and a SO <60%."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "serious",
+        "rationale": "No protocol or prespecified analysis plan is reported, numerous outcomes and repeated hemodynamic time points were analyzed, and reporting often gives only threshold P values, creating substantial scope for selective outcome and analysis reporting.",
+        "evidence_quote": "Secondary outcomes including difficult weaning from cardiopulmonary bypass (CPB) and the requirements for inotropes, vasopressors and IABP were also evaluated."
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall ROBINS-I risk is serious, driven by the predictable nonrandom allocation based on medical-record-number parity with only unadjusted comparisons, and by substantial scope for selective reporting without a protocol or prespecified analysis plan. Additional moderate concerns remain about participant selection, blinding/deviations, and assessment of nonfatal outcomes."
+  },
+  {
+    "paper_id": "manual:a7253d26",
+    "paper_title": "825f968a_icvts%2Fivw213",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 32 patients were assigned 1:1 using computer-generated random allocations to levosimendan or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was explicitly computer-generated and baseline characteristics were broadly balanced, but the method used to conceal the sequence before enrollment and assignment was not described.",
+        "evidence_quote": "Patients were randomly assigned to two groups using computergenerated random allocations in a 1:1 randomization."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, clinicians, research staff, and nurses were blinded with an identical placebo, care protocols were standardized, and no important intervention deviations or crossovers were reported.",
+        "evidence_quote": "All physicians, the research group, the nursing staff and the patients were blinded to the allocated treatment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 32 randomized patients are represented in the reported group denominators and primary outcome results, with no losses or missing primary outcome measurements reported.",
+        "evidence_quote": "LVEF increased in both groups at POD7; this increase was statistically significant in the levosimendan group (LVEF 35.8 \u00b1 5% preoperatively and 42.8 \u00b1 7.8% at POD7, P = 0.001) compared with the control group (LVEF 37.5 \u00b1 3.4% preoperatively and 41.2 \u00b1 8.3% at POD7, P = 0.1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "LVEF was measured by transthoracic echocardiography at the same prespecified times with the same device and cardiologist, who was covered by the reported blinding of all physicians and the research group.",
+        "evidence_quote": "Echocardiographic data were collected to evaluate the LVEF by the same cardiologist using a Vivid 7 echocardiography device (General Electric, Hamburg, Germany) preoperatively and on day 7 postoperatively (POD7)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial was registered and the primary outcome was prespecified as change in LVEF, the paper emphasizes within-group significance testing rather than a direct randomized between-group comparison of the change, creating substantial risk that the reported analysis was selected from multiple eligible approaches and does not estimate the intervention effect appropriately.",
+        "evidence_quote": "The LVEF improved in both groups; this increase was statistically significant in the levosimendan group (from 35.8 \u00b1 5% preoperatively to 42.8 \u00b1 7.8%, P = 0.001) compared with the control group (from 37.5 \u00b1 3.4% preoperatively to 41.2 \u00b1 8.3%, P = 0.1)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by selective and inappropriate presentation of the primary outcome through separate within-group tests rather than a direct between-group comparison of change. There are also some concerns because allocation concealment was not described, although blinding, outcome completeness, and measurement procedures were otherwise strong."
+  },
+  {
+    "paper_id": "manual:b9d99154",
+    "paper_title": "cf05e2d8_j.athoracsur.2008.10.029",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 60 patients were randomized using permuted blocks stratified by center to levosimendan or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A valid blocked, center-stratified randomization method and balanced baseline characteristics were reported, but allocation concealment until assignment was not described.",
+        "evidence_quote": "Sixty patients undergoing on-pump CABG were enrolled, and randomization was performed using permutated blocks and stratified by center."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and personnel were blinded with visually matched placebo, perioperative care and rescue treatments followed a prespecified protocol, and all 60 randomized patients were analyzed in their assigned groups for the primary endpoint.",
+        "evidence_quote": "Placebo was supplied in identical packaging to levosimendan, including a coloring agent to achieve a similar color to the levosimendan solution, and was diluted and infused according to an identical schedule to levosimendan."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary outcome was reported for all 60 randomized participants, with denominators of 30 in each group and no indicated missing primary endpoint data.",
+        "evidence_quote": "Primary weaning was successful in 22 of 30 subjects in the levosimendan group and in 10 of 30 subjects in the placebo group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome used objective, predefined hemodynamic thresholds applied identically at a fixed time in both groups, and the trial was double-blind with matched placebo.",
+        "evidence_quote": "There were four criteria for successful weaning, assessed at 10 minutes after cessation of bypass: 1. Cardiac index (CI), 2.2 L/m2/min or higher; 2. SVO2, 70% or higher; 3. CVP, 12 mm Hg or less; 4. PCWP, 16 mm Hg or less."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and analysis were clearly specified in the article, but no trial registration or publicly available prespecified protocol/statistical analysis plan is reported to exclude selective choice among eligible analyses or outcomes.",
+        "evidence_quote": "The primary end point of the study was the proportion of patients successfully weaned from CPB by the first attempt (criteria given in the previous section)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The primary outcome had complete data, objective blinded measurement, and protocolized treatment, but allocation concealment was not reported and the absence of registration or an accessible prespecified analysis plan leaves some concern about selective reporting."
+  },
+  {
+    "paper_id": "manual:c18b4ceb",
+    "paper_title": "4546f76f_j.jvca.2008.01.024",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 24 patients were randomized to levosimendan or placebo using a computer-generated random code.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated and allocation was concealed through a pharmacist-held envelope, but the very small trial had important baseline imbalances in LVEF and oxygen saturation that raise concern despite an otherwise adequate process.",
+        "evidence_quote": "The 24 study patients were randomized into 2 groups using a computer-generated random code. The allocation code was concealed in an envelope that was opened by a pharmacist."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial used an identical-looking placebo and double blinding, perioperative management followed a common protocol, and there is no indication of intervention-related deviations or inappropriate exclusion from the analyses.",
+        "evidence_quote": "In the control group (C), the patients received a 24-hour placebo infusion, which was made to look identical with water-soluble vitamin concentrate."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "One of 24 patients died intraoperatively and therefore could not contribute to later postoperative outcomes, while the paper does not clearly describe handling of these missing repeated measurements; the small sample makes this potentially influential.",
+        "evidence_quote": "One patient in the treatment group died on the operating table because of untreatable right ventricular failure."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Cardiac and hemodynamic outcomes were measured using appropriate objective methods on a prespecified schedule in both groups, and the double-blind design reduced the potential for differential assessment.",
+        "evidence_quote": "A controlled double-blind study design was used."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or prespecified analysis plan is reported, numerous outcomes and time points were tested, and the conclusions emphasize favorable within-group trajectories despite nonsignificant direct between-group postoperative LVEF comparisons, creating substantial risk of selective reporting or interpretation.",
+        "evidence_quote": "After sternum closure, ejection fraction, measured by transesophageal echocardiography, dropped in the control group but maintained the same level in the treatment group (Fig 1). This change had a positive trend in the control group compared with the treatment group (p = 0.054)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the trial reported many outcomes and time points without a cited prespecified analysis plan and emphasized favorable patterns despite nonsignificant direct comparisons. Additional concerns arise from chance baseline imbalances and unclear handling of postoperative data missing after one intraoperative death."
+  },
+  {
+    "paper_id": "manual:6c65dfde",
+    "paper_title": "ac73f1c2_jama.2017.9973",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1 to levosimendan or placebo using minimization with a random component, implemented through a secure website using an algorithm established by an independent statistician.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation used a secure, independently programmed minimization algorithm with a random component, and the reported baseline characteristics were generally balanced between groups.",
+        "evidence_quote": "A random component was introduced to reduce the predictability of allocation. An independent statistician established the randomization algorithm, which was installed on a website with secure access."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The indistinguishable placebo and double-blind design minimized behavior-related deviations, discontinuation criteria were prespecified, and the primary analysis was intention-to-treat with only three participants lacking outcome data after withdrawal or refusal of surgery.",
+        "evidence_quote": "The placebo was made of riboflavin to reproduce the yellow color of levosimendan and was indistinguishable from the intervention drug."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data were available for 333 of 336 randomized participants, with only one consent withdrawal and two surgery refusals lacking outcome data, making material bias from missingness unlikely.",
+        "evidence_quote": "The primary analysis was performed on an intention-to-treat basis for all patients included in the trial except 3 (1 withdrew consent and 2 refused surgery, declined further participation, and had no criteria of judgment available)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Although the double-blind design reduced differential assessment, components of the composite outcome\u2014especially decisions to continue catecholamines, institute mechanical support, or initiate renal replacement therapy\u2014were partly clinician-dependent and could vary across centers and caregivers.",
+        "evidence_quote": "Third, the end point of the study involved decisions that may vary according to the center and to caregivers, which is why we performed statistical comparisons with models taking into account the variability related to the center."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, its protocol was published and available, and the primary outcome, analysis approach, and subgroup analyses were described as prespecified, with no evident selective reporting of the primary result.",
+        "evidence_quote": "The study protocol was published previously and is available in Supplement 1."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by the partly clinician-dependent measurement of the composite primary outcome and acknowledged variation in treatment decisions across centers and caregivers. Randomization, blinding, outcome completeness, intention-to-treat analysis, and prospective protocol/registration otherwise support low risk."
+  },
+  {
+    "paper_id": "manual:6e601425",
+    "paper_title": "03708a8c_NEJMoa1616218",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly reports 1:1 random assignment to levosimendan or matching placebo using a Web-based randomization system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A centralized Web-based 1:1 randomization system and matching blinded placebo make sequence generation and allocation concealment credible, and the reported baseline characteristics were well balanced.",
+        "evidence_quote": "Eligible patients were randomly assigned, in a 1:1 ratio with the use of a Webbased randomization system without stratification, to receive either levosimendan or matching placebo in a blinded fashion."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding and similar discontinuation patterns reduce concern, but the modified intention-to-treat analysis excluded 33 randomized patients who never received an infusion, and dose adjustment was more frequent with levosimendan, so the effect-of-assignment analysis was not fully preserved.",
+        "evidence_quote": "All the analyses were conducted in the modified intention-to-treat population, which included all the patients who underwent randomization and received levosimendan or placebo."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Follow-up was nearly complete, but 33 randomized participants were excluded because they received no study infusion, and missing primary-endpoint data were imputed as no event without a reported sensitivity analysis.",
+        "evidence_quote": "Patients with missing end-point data were included in the analyses as not having had an event."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcomes were prespecified and defined using objective clinical or laboratory criteria, and myocardial infarction data were reviewed by an independent committee blinded to assignment; matching placebo and double blinding further reduced differential measurement.",
+        "evidence_quote": "Preoperative and postoperative electrocardiograms and levels of creatine kinase MB in all patients were reviewed by an independent clinical-events committee whose members were unaware of the trial-group assignments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered, its protocol was available, and two primary endpoints with prespecified alpha allocation, covariate adjustment, and hierarchical secondary testing were reported as planned, providing little indication of selective reporting.",
+        "evidence_quote": "By design, the two-component end point was tested at the 0.04 level and the four-component end point at the 0.01 level."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by exclusion of 33 randomized participants from the modified intention-to-treat analysis and coding of missing endpoint data as no event without a reported sensitivity analysis. Randomization, blinding, objective outcome ascertainment, and prespecified reporting were otherwise strong."
+  }
+]

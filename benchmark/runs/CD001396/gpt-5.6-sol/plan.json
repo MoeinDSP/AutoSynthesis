@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women with prospectively diagnosed premenstrual syndrome (PMS) or premenstrual dysphoric disorder (PMDD), what is the effect of selective serotonin reuptake inhibitors (including sertraline, fluoxetine, paroxetine, escitalopram, citalopram, and similar SSRIs), administered continuously, during the luteal phase only, or from symptom onset, versus placebo on women's self-rated overall premenstrual symptom severity at the end of treatment?",
+  "treatment_label": "SSRI treatment (continuous, luteal-phase-only, or symptom-onset dosing)",
+  "control_label": "Placebo",
+  "outcome_description": "Woman's own overall rating of premenstrual symptoms at end of treatment, using one eligible self-rated global/overall symptom measure per trial (e.g., Daily Record of Severity of Problems total, Daily Symptom Rating Form total, Penn Daily Symptom Report total, Calendar of Premenstrual Experiences total, a visual analogue scale total, or Patient Global Evaluation). Extract the mean, SD, and number of women in each arm from the last treatment cycle or the cycle designated primary. Prefer end values; if only change from baseline is available, use mean change and SD of change in both arms and identify the analysis as change-score based. Never combine an end value in one arm with a change score in the other. Exclude clinician-rated outcomes, physical symptoms alone, adverse events, withdrawals/dropouts, and functional impairment.",
+  "positive_direction": "Under the requested coding, a positive Hedges' g means higher self-rated overall premenstrual symptom severity with the SSRI than with placebo and therefore favors placebo; a negative Hedges' g means fewer symptoms and favors the SSRI.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "SSRI placebo randomized trial premenstrual syndrome self rated symptoms",
+    "sertraline fluoxetine paroxetine escitalopram citalopram PMDD controlled trial symptom diary",
+    "selective serotonin reuptake inhibitor luteal symptom onset dosing placebo premenstrual symptoms"
+  ],
+  "inclusion_criteria": [
+    "Original randomized placebo-controlled trials enrolling women with PMS or PMDD diagnosed using DSM or equivalent clinical/prospective criteria and evaluating an SSRI given continuously, during the luteal phase, or from symptom onset.",
+    "Trials reporting a woman's self-rated overall/global premenstrual symptom outcome for an SSRI and placebo group, with quantitative information sufficient or potentially obtainable for effect-size calculation.",
+    "Parallel-group or cross-over trials in any setting, language, publication format, SSRI dose, or treatment duration; in multi-comparator trials, retain the eligible SSRI-versus-placebo comparison only."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between an eligible SSRI treatment condition and a placebo control condition; this includes trials of non-SSRI antidepressants, herbal products, calcium, or other active treatments without a placebo arm.",
+    "No quantitative outcome data capable of producing an effect size, such as arm-level means and SDs (or convertible SE/SEM), t/F statistics, proportions, or odds ratios, and unobtainable data after reasonable author contact where applicable.",
+    "Completely unrelated to SSRI treatment of PMS/PMDD, or no eligible woman's self-rated overall premenstrual symptom outcome (e.g., only clinician ratings, physical symptoms alone, adverse events, dropouts, or functional impairment)."
+  ],
+  "moderators_to_extract": [
+    "SSRI agent and dose",
+    "Dosing schedule (continuous, luteal-phase-only, or symptom-onset)",
+    "Diagnostic category and criteria (PMS versus PMDD; DSM or equivalent)",
+    "Outcome instrument used and whether end score or change score was analyzed",
+    "Trial design (parallel versus cross-over; first-period data availability)",
+    "Treatment duration/number of cycles and primary or final cycle assessed"
+  ],
+  "search_start_year": 1987,
+  "effect_size_note": "Pool standardized mean differences as Hedges' g with a random-effects model, preserving the user's requested sign convention: all scales are oriented so higher values indicate more severe symptoms, and g < 0 favors the SSRI. Reverse-score or reverse-sign measures for which higher values indicate improvement before calculating effects. Use one eligible self-rated overall symptom measure per trial. Use end-of-treatment data from the last treatment cycle or the paper's prespecified primary cycle; when only change scores are reported, use mean change and SD of change for both arms and label this explicitly. Do not mix endpoint and change data across arms. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n). For trials with multiple eligible SSRI arms sharing one placebo group, retain a separate SSRI-versus-placebo comparison for each arm and divide the placebo n equally across comparisons while leaving its mean and SD unchanged. For cross-over trials, use first-period data when reported; otherwise use the reported means and SDs and flag the analysis approach. Report heterogeneity (tau-squared, I-squared, and Q), confidence intervals, influence/sensitivity analyses, and assess small-study effects when enough studies are available.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-rated overall premenstrual symptoms"
+}

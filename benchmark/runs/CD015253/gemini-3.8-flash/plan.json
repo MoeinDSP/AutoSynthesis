@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of autoinflation compared with watchful waiting or no treatment on the persistence of otitis media with effusion (OME) in children at up to 6 weeks of follow-up?",
+  "treatment_label": "autoinflation",
+  "control_label": "watchful waiting or no treatment",
+  "outcome_description": "Persistence of middle ear effusion at up to 6 weeks follow-up (closest to 4 weeks within the 2 to 6 week window), defined as a flat tympanogram (type B), type B/C2, or effusion observed on pneumatic otoscopy",
+  "positive_direction": "Lower incidence of persistent middle ear effusion, favoring autoinflation (RR < 1)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "autoinflation otitis media with effusion children trial",
+    "nasal balloon middle ear effusion randomized controlled",
+    "autoinflation OME watchful waiting comparison"
+  ],
+  "inclusion_criteria": [
+    "Children under 18 years of age with a diagnosis of otitis media with effusion (OME)",
+    "Randomised controlled trials evaluating autoinflation (nasal balloon, carnival blower, or commercial device) compared to watchful waiting, no treatment, or standard care",
+    "Quantitative reporting of middle ear effusion persistence or resolution/clearance within 2 to 6 weeks of follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, guidelines, and theoretical papers are excluded)",
+    "Control group receiving sham autoinflation, placebo, or an active treatment; or autoinflation administered as an add-on to other treatment in only one arm; or non-randomized designs",
+    "No quantitative data on middle ear effusion persistence or resolution at 2 to 6 weeks follow-up that can produce an effect size",
+    "Studies conducted exclusively in adults (18+ years), evaluating surgical interventions (e.g., tympanostomy tubes/grommets), or completely unrelated conditions"
+  ],
+  "moderators_to_extract": [
+    "autoinflation device type (commercial nasal balloon vs carnival blower vs other)",
+    "unit of analysis (per-child vs per-ear with design effect adjustment)",
+    "follow-up duration within the 2 to 6 week window (weeks)",
+    "diagnostic criteria for persistence (tympanometry type B vs type B/C2 vs pneumatic otoscopy)",
+    "mean age of children"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool as Risk Ratio (RR) using a random-effects model. RR < 1 indicates less persistent effusion favoring autoinflation. Convert resolution/improvement to persistence (total minus resolved). For per-ear reporting in bilateral disease, apply design effect adjustment: 1 + (average ears per child - 1) * 0.5. Prefer per-child data over per-ear data if both are available. Select follow-up closest to 4 weeks within the 2 to 6 week window (latest if multiple within window).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "persistence of otitis media with effusion"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults undergoing liver (hepatic) resection, do fibrin-based haemostatic agents (fibrin sealant, fibrin glue, fibrin patches, fibrin-coated collagen), compared with non-fibrin haemostatic agents or techniques (e.g. oxidised cellulose, collagen sponges, argon beam coagulation, electrocautery, standard surgical haemostasis), change perioperative all-cause mortality?",
+  "treatment_label": "Fibrin-based haemostatic agent (fibrin sealant/glue/patch/fibrin-coated collagen)",
+  "control_label": "Non-fibrin haemostatic agent or technique (oxidised cellulose, collagen sponge, argon beam, electrocautery, standard surgical haemostasis)",
+  "outcome_description": "Perioperative all-cause mortality: number of randomised participants who died in hospital or within approximately 30-90 days of liver resection (as defined by each trial), out of the number randomised to each arm (ITT denominators; if only the safety/treated population is reported, use that and note it). Arms with zero deaths are recorded as 0 events with the arm size; trials not reporting mortality are excluded. Multi-arm trials: fibrin arm versus one non-fibrin comparator, combining two non-fibrin arms (summing events and participants) if present. Deaths from any cause only - not treatment-related deaths only, and not late (>=1 year) mortality. No other outcome (blood loss, time to haemostasis, transfusion, bile leak, reoperation, infection) is pooled.",
+  "positive_direction": "A positive effect size (or RR < 1) means fewer perioperative deaths with the fibrin-based haemostatic agent than with the non-fibrin comparator, i.e. the result favours the fibrin-based agent; RR > 1 means more deaths with the fibrin-based agent.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "fibrin sealant liver resection randomized controlled trial mortality",
+    "fibrin glue hepatectomy haemostasis trial comparison collagen oxidized cellulose",
+    "fibrin patch hepatic resection randomised trial outcomes complications"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults undergoing liver (hepatic) resection",
+    "Compares a fibrin-based haemostatic agent with any non-fibrin haemostatic agent or haemostatic technique",
+    "Reports mortality data (including explicit zero deaths) with arm sizes, or any quantitative outcome data from which perioperative death counts can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion, narrative review, theoretical or protocol paper)",
+    "No comparison between a fibrin-based treatment arm and a non-fibrin control arm (e.g. fibrin versus no haemostatic agent at all, or fibrin versus another fibrin agent), or non-randomised design",
+    "No quantitative outcome data permitting an effect size (no event counts/denominators, means+SDs, t/F values, proportions or odds ratios); mortality not reported at all",
+    "Completely unrelated to fibrin-based haemostasis in adult liver resection (e.g. other surgical sites, paediatric populations, animal or in vitro studies)"
+  ],
+  "moderators_to_extract": [
+    "Type of fibrin product (liquid sealant/glue vs patch vs fibrin-coated collagen)",
+    "Type of non-fibrin comparator (oxidised cellulose, collagen sponge, argon beam/electrocautery, standard haemostasis alone)",
+    "Definition/window of perioperative mortality (in-hospital, 30-day, 90-day)",
+    "Sample size category",
+    "Extent of resection / indication (major vs minor; malignant vs benign; cirrhosis prevalence)",
+    "Risk of bias and publication year / industry funding"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a random-effects risk ratio of death (fibrin-based arm / non-fibrin comparator arm) using the number randomised as denominators. Expect sparse/zero-event data; handle double-zero trials per standard conventions (e.g. Mantel-Haenszel without continuity correction, with Peto OR as sensitivity analysis).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "perioperative all-cause mortality"
+}

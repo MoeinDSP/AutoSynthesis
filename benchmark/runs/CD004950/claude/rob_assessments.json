@@ -1,0 +1,504 @@
+[
+  {
+    "paper_id": "manual:d01817c8",
+    "paper_title": "1072b996_67740-PB10-2200-R2",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is titled and described as a randomized controlled trial, reporting that \"A total of 96 neonates undergoing heel blood screening were selected ... and were randomly divided into 2 groups (n=48 in each group)\", with a CONSORT checklist cited.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Blinding of caregivers/mothers and the nurses performing the lancing was impossible and no blinding at all is described; the unblinded staff both delivered the intervention and determined procedural outcomes (success rate, duration), and no intention-to-treat or co-intervention/protocol-adherence information is reported.",
+        "evidence_quote": "\"The observation group was given EBMS on the basis of routine intervention... after the newborn was bathed, they were placed on the mother's chest for skin-to-skin contact.\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no method of sequence generation or allocation concealment is described, and the perfectly equal group sizes with no stated stratification leave the process unverifiable, although baseline characteristics appear balanced.",
+        "evidence_quote": "\"were randomly divided into 2 groups (n=48 cases in each group)\" ... \"There were no statistically significant differences in general data between the 2 groups (P>0.05).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 96 randomized neonates appear in every analysis table suggesting no attrition, but no CONSORT flow diagram, screening/exclusion numbers or explicit statement about dropouts or missing data is provided.",
+        "evidence_quote": "\"Control group (n=48)... Observation group (n=48)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcomes (NIPS score, crying time, congestion, success rate) are observer-rated and the assessors could not be blinded to whether the infant was in the mother's arms breastfeeding; no blinded/independent or video-based assessment, inter-rater reliability, or heart-rate measurement by monitor (stethoscope counting) is described, so knowledge of allocation could readily have influenced the implausibly large effects reported.",
+        "evidence_quote": "\"The Neonatal Infant Pain Scale (NIPS) was used to evaluate neonatal pain\" ... \"The condition of neonatal heel congestion after blood sampling was observed and recorded.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, and many outcomes (including six NIPS subscales) are analysed without adjustment, allowing scope for selective reporting; also, the stated aim mentions preterm neonates whereas the enrolled population was term newborns aged 2\u201329 days, indicating inconsistency between plan and report.",
+        "evidence_quote": "\"The success rate and time-consuming of 1-time blood collection, heel congestion after blood collection, crying time and bleeding time of newborns, blood oxygen saturation and heart rate index, and pain were compared between the 2 groups.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the absence of any blinding with unblinded staff delivering the intervention and simultaneously rating subjective outcomes (NIPS, crying time, congestion, sampling success), compounded by an undescribed randomization/allocation-concealment procedure, no registration or pre-specified primary outcome, and no participant flow reporting. The very large, uniformly significant effects across all outcomes should therefore be interpreted with considerable caution."
+  },
+  {
+    "paper_id": "manual:739a3b17",
+    "paper_title": "4e4fc111_Breast_Feeding_as_Analgesia_in_Neonates_A_Randomiz",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective randomized controlled trial in which 60 term neonates were allocated to breastfed vs non-breastfed groups \"using a system of sealed envelope randomization system.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment by sealed envelopes is mentioned but the sequence generation method is not described (and envelopes are not stated to be opaque, sequentially numbered); exactly 30 per group suggests restriction, and although baseline characteristics are reported as non-significant, mean baseline heart rate differed notably (134.9 vs 125.5 bpm) which is relevant since the primary outcome is change in heart rate.",
+        "evidence_quote": "These neonates were randomized into two groups (30 neonates each) using a system of sealed envelope randomization system."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of caregivers, mothers and the observers performing the prick/recording was impossible for a breastfeeding intervention, and no intention-to-treat/per-protocol analysis plan, crossover or protocol deviations are described, though the intervention itself appears to have been delivered as intended.",
+        "evidence_quote": "Two specially trained observers independently took part in sampling and assessed the recordings."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No flow diagram, exclusions after randomization, or dropouts are reported; data appear complete for all 60 neonates (30 per group) but the absence of any explicit accounting of losses leaves residual uncertainty.",
+        "evidence_quote": "Sixty term neonates, who were hemodynamically stable and were not receiving oxygen or any analgesia, were included in the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Validated neonatal pain scales were not used; outcome assessors (observer recording heart rate/SpO2/BP and those timing cry from recordings) could not be blinded to group and the authors themselves concede the physiological parameters may be directly altered by the act of sucking/distraction rather than by analgesia.",
+        "evidence_quote": "One major limitation of this study is relying on few parameters to assess pain, which are not really gold slandered. Some of these parameters may get affected by effort of breastfeeding or distraction provided by breast feeding."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, a primary outcome is not clearly designated among four physiological measures, and the paper contradicts itself regarding IRB approval, raising concerns about selective reporting and governance; also exact p-values are not given (reported only as \"<0.05\", \"NS\").",
+        "evidence_quote": "Permission from IRB: Not Taken as only intervention was breast feeding which is physiological."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by outcome measurement (D4): unblinded assessors with non-validated physiological/cry measures that the authors acknowledge may be directly altered by the act of breastfeeding itself. Additional concerns arise from incompletely described sequence generation with a baseline heart-rate imbalance, no accounting of dropouts, and absence of pre-registration or a pre-specified primary outcome."
+  },
+  {
+    "paper_id": "manual:da904d18",
+    "paper_title": "085bd72d_document",
+    "design_classification": "non_randomized",
+    "design_rationale": "Infants were assigned to the sucrose and breastfeeding arms according to their mothers' preferences, and the control arm consisted of infants receiving routine hospital care, i.e., no random allocation (\"Allocation of the babies into sucrose and breast feeding groups was performed due to mothers' wishes whereas the control group included the babies on whom routine procedures of the hospital were performed\").",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Allocation by maternal preference means maternal characteristics (anxiety, motivation, willingness to hold/feed) plausibly differ across groups and affect infant pain response; only gestational age, postnatal age, weight and delivery mode were compared, and no statistical adjustment for confounding was performed; notably baseline NIPS scores already differed (control 0.2\u00b10.8 vs 0.0 in both intervention groups, p=0.036).",
+        "evidence_quote": "Allocation of the babies into sucrose and breast feeding groups was performed due to mothers\u2019 wishes whereas the control group included the babies on whom routine procedures of the hospital were performed."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "All participants were consecutive-appearing term infants needing venipuncture with stated exclusion criteria applied at the start of follow-up, but exclusion of cases in which blood could not be taken at once and the preference-based entry into intervention arms could relate to both condition and outcome; how the control group was formed (concurrently or not) is not clearly described.",
+        "evidence_quote": "Exclusion criteria were age over 42 days, presence of an illness, a fasting period less than one hour, parental reluctance to participate, and failure to take the blood sample at once."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Interventions (2 ml of 25% sucrose via pacifier starting 3 minutes before venipuncture, breastfeeding begun 3 minutes before and continued throughout, or standard swaddled routine care) were clearly and prospectively defined and could not be misclassified.",
+        "evidence_quote": "The babies started to suck the pacifier with 2 ml of sucrose 3 minutes before the venipuncture and went on sucking after sampling."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "serious",
+        "rationale": "Intervention conditions were inherently unblinded and co-interventions differed systematically beyond the sweet taste \u2014 intervention infants received maternal full-body/skin-to-skin contact, eye contact and talking while controls were swaddled on a treatment table \u2014 so the observed effects cannot be attributed to the intended intervention alone; the authors themselves note the absence of a contact-only comparison arm.",
+        "evidence_quote": "One limitation of our study is lack of a third intervention group to test the effects of full body contact alone."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "low",
+        "rationale": "All 102 enrolled infants (34 per group) appear in every outcome table with no reported attrition or missing physiological/behavioural measurements.",
+        "evidence_quote": "The participants were allocated into one of the sucrose (n=34), breast feeding (n=34), and control (n=34) groups."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "The primary behavioural outcome (NIPS) was scored in real time by a single unblinded research nurse who could see whether the infant was breastfeeding or sucking a pacifier, and crying time was analysed from audio by the same researcher, so outcome assessment could readily be influenced by knowledge of group; the authors acknowledge the observational nature of NIPS as a reliability problem (physiological measures are less susceptible).",
+        "evidence_quote": "These forms were completed by the same research nurse who observed the infants before, during and after the venipuncture... Observational nature of the NIPS scoring is another problem of reliability"
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "No protocol or prospective registration is mentioned and multiple outcomes (NIPS at three time points, crying time, heart rate, oxygen saturation) with multiple pairwise tests are reported, although an a priori power calculation for crying time suggests a pre-specified primary outcome and results are reported for all measured outcomes.",
+        "evidence_quote": "It was determined that 34 babies would be sufficient in each group to achieve the 80 % power (a= 0.05) to show a 30 % reduction in crying time."
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall risk of bias is serious, driven by allocation based on mothers' wishes with no adjustment for confounding (including an already-differing baseline NIPS score), systematically differing co-interventions (maternal holding/skin-to-skin contact only in the intervention arms), and unblinded single-observer behavioural outcome assessment. Outcome data were complete and interventions well defined, but these strengths do not offset the structural comparability and measurement problems."
+  },
+  {
+    "paper_id": "manual:f8adc89b",
+    "paper_title": "88c3b8ad_ijn.12734",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with allocation of 150 neonates to three groups using a computer-based random number table program (\"randomization of the experimental and control groups was performed by the researcher using a computer-based random number table program\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used and baseline characteristics were balanced (all P > 0.05), but the sequence was generated and applied by the same researcher who also conducted the procedures/recordings, with no description of allocation concealment (e.g., sealed opaque envelopes).",
+        "evidence_quote": "\"randomization of the experimental and control groups was performed by the researcher using a computer-based random number table program... The researcher randomly picked one code for each neonate to ensure the 150 neonates were equally allocated into three groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of mothers, the nurse performing the heel stick and the researcher was impossible for these overt interventions, and no information is given on protocol deviations, co-interventions or whether an intention-to-treat analysis was used, though all 150 randomized infants appear analysed in their assigned groups.",
+        "evidence_quote": "\"Breastfeeding started just before the procedure (1 minute before) and continued for a minimum of 2 minutes during and after the procedure.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 150 randomized neonates (50 per group) contributed outcome data, with no reported attrition or exclusions after randomization.",
+        "evidence_quote": "\"One hundred and fifty neonates (girls n = 75 [50%], boys n = 75 [50%]) were included in the study. The neonates were randomized into the breastfeeding (n = 50), heel warming (n = 50), and control (n = 50) groups.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although a validated scale (NIPS) was applied by a single outcome assessor said to be blinded, blinding is implausible because the video recordings would show breastfeeding at the breast (and likely the thermal bag/positioning), so the assessor could readily infer allocation; additionally only one unblinded-in-practice rater scored all infants with no inter-rater reliability reported (acknowledged as a limitation).",
+        "evidence_quote": "\"To avoid bias, assessment of pain was conducted independently by an observer nurse using NIPS who was blinded to the group allocation of the newborns.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is reported, multiple outcomes (NIPS, total crying time, first calming time, procedure duration) were measured with procedure duration apparently not reported, and the abstract mislabels NIPS scores as \"pre-procedural\" with units in seconds, suggesting incomplete/inconsistent reporting.",
+        "evidence_quote": "\"The study data were obtained using an Information Form and the Neonatal Infant Pain Scale (NIPS).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Despite computer-based randomization, balanced baseline characteristics and complete outcome data, the trial is at high risk of bias overall because outcome assessment relied on a single rater whose claimed blinding is implausible given video recordings that reveal the overt interventions (breastfeeding/heel warming), with no inter-rater reliability. Lack of allocation concealment detail, unblinded participants/providers, and absence of prospective registration or a pre-specified analysis plan add further concerns."
+  },
+  {
+    "paper_id": "manual:4f9cb2a1",
+    "paper_title": "6b9131e1_j.earlhumdev.2004.01.003",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a randomised controlled trial: 120 term newborns were \"randomly assigned to one of four study groups using a system of sealed envelopes\" in a 2x2 factorial design (breast-fed/fasting \u00d7 glucose/placebo).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Random allocation with sealed-envelope concealment was used and baseline characteristics (gestational age, birth weight, Apgar, sex, delivery mode) were similar across groups, though the sequence-generation method and whether envelopes were opaque/sequentially numbered are not detailed.",
+        "evidence_quote": "\"The infants were randomly assigned to one of four study groups using a system of sealed envelopes\" ... \"The four groups were comparable in background characteristics.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The glucose/placebo component was properly blinded to the administering nurse and infants, but the feeding component (breast-fed vs fasting) could not be blinded to staff/parents, feeding was ad libitum with volume unrecorded, and analyses excluded 9 randomised infants rather than following intention-to-treat.",
+        "evidence_quote": "\"One millilitre of 30% glucose (Kabi Pharmacia) or sterile water was given by a syringe into the infant's mouth by the nurse who did not know the content of the syringes.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 8% were excluded post-randomisation and further variable-specific missingness (notably in the placebo groups) led to differing analysis denominators; although a median-substitution sensitivity analysis gave similar PIPP results, the extent and group-imbalance of missing data remain a concern.",
+        "evidence_quote": "\"Nine infants were excluded after randomisation; three because the mothers did not want to proceed and six because of technical problems with the video recordings.\" ... \"If data were missing, the infant was excluded from that particular analysis ... the numbers of subjects for each analysis differed.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "PIPP is a validated composite measure scored by a single blinded observer with good reliability, but video of the infant's face may reveal recent feeding/sucking cues, and the secondary parental VAS assessment was made by unblinded parents regarding the feeding condition.",
+        "evidence_quote": "\"One observer not aware of the assignments to the study groups scored all videotapes.\" ... \"The observer's intercoder reliability for PIPP was 0.847.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned, and results are reported in multiple ways (four-group comparisons, pooled factorial comparisons, relative risks with dichotomised PIPP, several crying-time cut-offs), leaving scope for selective reporting despite an a priori power calculation on PIPP.",
+        "evidence_quote": "\"On the basis of a previous study [9], we calculated that a sample size of 30 infants per group would be required to achieve a statistically reliable difference in pain score\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomisation with sealed envelopes and blinded glucose/placebo administration and blinded video scoring were strengths, but the feeding condition was inherently unblinded, 9 of 120 randomised infants were excluded post-randomisation with additional analysis-specific missing data (unevenly distributed), and there was no pre-registered analysis plan amid multiple outcome operationalisations. These issues yield an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:a7d890a9",
+    "paper_title": "5241560f_j.midw.2014.11.001",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 288 neonates to four groups using an online Research Randomizer to generate randomly ordered group codes drawn from a box (\"the main researcher randomly picked one code for each neonate\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A valid random sequence was computer-generated and baseline characteristics were broadly similar, but allocation concealment is uncertain because the group codes were drawn from a box by the main researcher (no mention of opaque sealed envelopes or an independent allocator), and a small baseline imbalance in neonatal age was noted.",
+        "evidence_quote": "\"A total of 288 unique codes were generated ... and were then placed in a box, where the randomised blocking was not retained. After consent taking, the main researcher randomly picked one code for each neonate\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The trial was unblinded (mothers, nurse and researchers knew allocation) and, critically, analysis was per-protocol rather than intention-to-treat: neonates who failed to breast feed successfully were deliberately excluded from analysis, a deviation arising from the intervention context that occurred only in the breast-feeding arms and could inflate the apparent benefit.",
+        "evidence_quote": "\"The main researcher decided to exclude those unsuccessful breast fed neonates from data analysis as this would affect the effects of the interventions\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "38/288 (13%) randomized neonates lacked outcome data, and reasons for loss (failure to latch, refusal to breast feed in front of staff, excessive pre-procedure crying) are plausibly related to both intervention arm and pain outcome, with no sensitivity analysis presented.",
+        "evidence_quote": "\"Among the 288 neonates, 250 completed the protocol and all tests. Nine mothers withdrew from the study as their neonates cried considerably before heel lance ... eight neonates could not latch onto the breast well\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes were observer-rated behavioural pain measures (NIPS, cry latency/duration) scored from video by assessors who were explicitly not blinded to group allocation, so knowledge of the intervention could readily influence these subjective judgments.",
+        "evidence_quote": "\"The observers conducting the recording were not blinded to the allocation. We could not apply the double-blind method due to the nature of the observation, as the video record showed who was breast fed and who was not.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was not prospectively registered and no protocol/analysis plan is available, so multiple outcome time points, several pain measures and covariate-adjusted ANCOVA models could have been selectively reported, although a priori hypotheses and a primary outcome were stated.",
+        "evidence_quote": "\"This study was not registered with Current Controlled Trials due to insufficient funding.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization used a legitimate computer-generated sequence with comparable baseline groups, the study is at high risk of bias overall because outcome assessors scoring subjective behavioural pain measures were explicitly unblinded, and the analysis was per-protocol with post-randomization exclusion of neonates who failed to breast feed successfully. Lack of prospective registration and 13% attrition with arm-related reasons add further concerns."
+  },
+  {
+    "paper_id": "manual:aad0566f",
+    "paper_title": "a7baca54_j.pedn.2021.10.002",
+    "design_classification": "non_randomized",
+    "design_rationale": "The authors explicitly state \"A quasi-experimental design was employed\" and note that the blinding/allocation procedures required for a randomized controlled trial could not be performed; although groups were assigned by drawing lettered cards from a bag, allocation was determined before parental consent, was constrained by filling each group to n=35, and no concealed random sequence generation is described, so the study is treated as non-randomized (ROBINS-I).",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "The lottery-based allocation produced broadly comparable groups on most infant/maternal characteristics, but there were pre-existing between-group differences in maternal education and, importantly, in baseline respiratory rate and oxygen saturation (outcome-relevant physiological parameters), and no statistical adjustment for these imbalances was undertaken.",
+        "evidence_quote": "\"The groups differed only by the education level of the mother, which was caused by the FTP group (p < 0.05, Table 1).\" \u2026 \"there was a statistically significant difference in respiratory and oxygen saturation rates between the groups both before and after heel stick\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias in selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Group was assigned before consent was sought, so mothers could decline a particular (e.g., kangaroo care) condition after knowing the allocation, and recruitment was a single-centre convenience sample with group-filling stopping rules; no numbers of approached/refusing families are reported.",
+        "evidence_quote": "\"In the study, firstly, the group was determined by drawing lots, and then parental consent was obtained.\" \u2026 \"The selection was terminated when a group consisted of 35 participants.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Each intervention (breastfeeding, kangaroo care, facilitated tucking, routine care) was prospectively defined with explicit protocols and timing, and group membership was fixed at the time of the procedure, so misclassification is unlikely.",
+        "evidence_quote": "\"Each FTPG participant received facilitated tucking one minute before blood collection with its lower and upper extremities held in lateral flexion and close to the midline.\" \u2026 \"The mother and the baby were in this position for 15 min, after which a blood sample was collected\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "Mothers, the intervening researcher and nurses were necessarily aware of the condition and the control group received no sham/attention control, so non-specific (placebo/handling) effects and performance differences cannot be excluded, although the interventions themselves appear to have been delivered as intended with no reported protocol deviations.",
+        "evidence_quote": "\"Since the blinding expected to do in randomized controlled studies could not perform in this study, the study was expressed as quasi-experimental.\" \u2026 \"no intervention was applied to the control group in this study\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "All 140 allocated neonates appear in every analysis, suggesting complete data, but no participant-flow information (numbers approached, refusals, exclusions, unusable video recordings) is reported and the stated data-collection windows are inconsistent (March 2015\u2013July 2017 vs. March 2015\u2013December 2016), so missingness cannot be fully verified.",
+        "evidence_quote": "\"The sample consisted of 140 neonates recruited using random sampling. The sample was divided into four groups; breastfeeding group (BFG; n = 35), kangaroo care group (KCG; n = 35), facilitating tucking position group (FTPG; n = 35), and control group (CG; n = 35).\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "The primary outcome (NIPS) is a subjective observational scale and, although scored from video by three raters with good agreement (kappa 0.78), the allocated condition (breastfeeding, skin-to-skin, tucking vs. routine) is unavoidably visible on the recordings so assessors could not be blinded; crying duration and physiological parameters were measured by the unblinded researcher who also delivered the facilitated tucking intervention.",
+        "evidence_quote": "\"The NIPS scores were evaluated by three experts (physician at the family health center, two faculty members in Child Health and Diseases Nursing) without the researcher. Experts filled the NIPS after watching from the camera.\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "No protocol or prospective registration is cited, and many outcome operationalizations (four physiological parameters, three crying intervals, NIPS at three time points) and multiple analytic approaches were available, with conclusions emphasised selectively (e.g., claiming H4 confirmed despite non-significant between-group NIPS differences during the procedure).",
+        "evidence_quote": "\"NIPS scores were evaluated three times (one minute before, during, and one minute after heel stick).\" \u2026 \"Percentage distribution, chi-square test, the Kolmogorov-Smirnov, Shapiro-Wilk, one-way analysis of variance (ANOVA), repeated-measures ANOVA, Kruskal\u2013Wallis, Student t-tests were used for analysis.\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall risk of bias is serious, driven by unblindable measurement of a subjective pain outcome (NIPS scored from video in which the allocated comforting condition is plainly visible, with crying/physiological measures taken by the unblinded researcher who also delivered an intervention). This is compounded by moderate concerns from baseline imbalances in maternal education and in baseline respiratory rate/oxygen saturation without adjustment, allocation preceding consent, an unmasked no-treatment control, incomplete participant-flow reporting, and absence of a pre-specified protocol for the many outcomes and analyses reported."
+  },
+  {
+    "paper_id": "manual:d1055ed8",
+    "paper_title": "b780c258_kaliwaal,+16-Jawad+Yousaf+Dar.doc",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomised controlled trial with allocation by lottery method: \"Lottery method was used to randomly divide neonates into control and experimental groups.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random component (lottery) is stated and baseline gender/feeding distributions appear broadly balanced, but no detail on sequence generation, allocation concealment, or who performed allocation is given, and no formal baseline comparison table is presented.",
+        "evidence_quote": "\"Lottery method was used to randomly divide neonates into control and experimental groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The intervention (breastfeeding during vaccination) cannot be blinded, so parents, clinicians and investigators were necessarily aware of assignment; no information is given about co-interventions, protocol adherence, or whether an intention-to-treat analysis was used, although all 60 randomized neonates appear to have been analysed as allocated.",
+        "evidence_quote": "\"Breastfeeding was continued during vaccination in the experimental Neonates, whereas the other group was provided only with routine care and not breastfed.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete, with 30 neonates analysed in each of the two groups and no mention of exclusions, dropouts or missing cry-duration measurements after randomization.",
+        "evidence_quote": "\"Out of sixty new-borns included in this study, thirty infants were in each group i.e. control and experimental.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Cry duration was timed with a stopwatch by an unblinded observer who could see whether the infant was breastfeeding, and the judgement of when crying stopped (silence >5 s) is subjective and could be influenced by knowledge of allocation; no inter-rater reliability, independent/blinded assessment, or validated pain score (e.g., NIPS/PIPP) was used.",
+        "evidence_quote": "\"Duration of cry with needle insertion was noted with a digital stopwatch till the baby was silent for more than 5 seconds.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited; the single primary outcome is reported with both equal- and unequal-variance t-tests and pre-planned stratified chi-square analyses are mentioned but their results only vaguely summarised (\"no significant difference...with respect to gender and feeding\"), leaving scope for selective reporting.",
+        "evidence_quote": "\"Stratification with respect to gender, partially/exclusively breastfed was done. Post stratification chi-square test applied.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by outcome measurement (D4): the subjective, stopwatch-timed cry duration was recorded by an unblinded assessor in an inherently unblindable intervention, without a validated pain scale or reliability checks. Additional some-concerns arise from unreported allocation concealment and baseline comparability, awareness of assignment, and absence of prospective registration/analysis plan, though outcome data were complete."
+  },
+  {
+    "paper_id": "manual:52c4c985",
+    "paper_title": "828b0564_kjp-2017-05841",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation with concealment: \"The enrolled neonates were randomized using sequentially numbered, opaque sealed envelopes (SNOSE) method... Enrolled cases were divided into 6 groups of 50 each using SNOSE method,\" with the randomizer not otherwise involved in the study.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment via SNOSE is described and baseline demographics (sex, age, weight) appear comparable, but the actual sequence-generation method (e.g., random number table/software) is never specified and the exactly equal group sizes of 50 suggest a constrained or non-random allocation scheme that is not explained.",
+        "evidence_quote": "\"The enrolled neonates were randomized using sequentially numbered, opaque sealed envelopes (SNOSE) method which is an easy, cheap, effective, and reliable method of maintaining allocation concealment... The person performing randomization was not involved in the study beyond this.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Interventions were necessarily unblinded to caregivers and staff (though neonates themselves cannot be influenced by awareness), co-intervention control was loose (recent breastfeeding permitted in all groups, including controls), and no intention-to-treat framework, protocol deviations, or exclusions after allocation are reported.",
+        "evidence_quote": "\"Newborns were brought to immunization room from the postnatal ward... no strict restrictions were imposed to keep the baby nil per orally and most babies were breastfed within 1 hour prior to immunization\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 300 allocated neonates (50 per group) contributed outcome data, with ANOVA degrees of freedom (F[5,294]) confirming complete data for all participants and no evidence of attrition in this single-session procedural outcome.",
+        "evidence_quote": "\"Three hundred term healthy neonates were divided into 6 groups of 50 each\"; \"Three hundred newborns were studied over a period of 6 months.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Both outcomes (cry duration and DAN score) were subjective observer-rated behavioural measures assessed by unblinded observers who knew the assigned intervention, and facial scoring was additionally obstructed in the breastfeeding group, so knowledge of allocation could plausibly have influenced these outcome assessments.",
+        "evidence_quote": "\"Limitations in our study were as follows: blinding of observer doing DAN scoring and observing total duration of cry was not possible in various groups. Secondly during DAN scoring in the BF group only half of the face was visible to the observer.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned, multiple outcome timepoints and numerous pairwise comparisons were analysed with conclusions framed around \"one or more\" significant timepoints, and the analysis approach is inconsistently described (unpaired t tests, ANOVA, post hoc Tukey) with some numbers differing between text and tables, raising the possibility of selective reporting.",
+        "evidence_quote": "\"Comparison of DAN scores at 30, 60, and 120 seconds in intervention groups with control group have shown statistically significant reduction (P<0.05) at one or more point i.e., at 30, 60, or 120 seconds in BF and 25% sucrose intervention group when compared with control\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 4: the primary outcomes (cry duration and DAN behavioural pain score) were subjective, assessed by observers explicitly acknowledged to be unblinded to the assigned intervention, with partial obstruction of facial scoring in the breastfeeding group. Additional some-concerns arise from unspecified sequence generation, loose control of co-interventions (recent feeding permitted across groups), and absence of a registered protocol or pre-specified analysis plan amid many timepoints and pairwise comparisons; outcome data completeness was the one clearly low-risk domain."
+  },
+  {
+    "paper_id": "manual:e0780805",
+    "paper_title": "1384613f_peds.2009-0598",
+    "design_classification": "non_randomized",
+    "design_rationale": "The authors explicitly state that random allocation was not used; mothers chose among pain-control options and infants were assigned to the corresponding group (\"Because it would have been unethical to assign the newborns randomly and blindly to the various groups ... we offered each mother the choice of options and assigned each infant to the corresponding group\"), i.e., a prospective non-randomized comparative (self-selection) design despite trial registration.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Group membership was determined by maternal preference (e.g., willingness to breastfeed or hold the infant), which plausibly correlates with maternal/infant characteristics, infant feeding/satiety state, soothing behaviour and arousal \u2014 none of which were measured or adjusted for; only crude variables (gestational age, birth weight, Apgar, gender, delivery mode) were compared and no statistical adjustment was performed.",
+        "evidence_quote": "\"we offered each mother the choice of options and assigned each infant to the corresponding group\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias in selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Eligibility criteria were uniform (healthy term infants undergoing routine screening) and all infants were enrolled prospectively at the start of the intervention/follow-up, but recruitment was by convenience with consent, and no information is given on numbers approached/refused or how groups were filled to roughly equal size.",
+        "evidence_quote": "\"Included were healthy newborns who were delivered at 37 weeks\u2019 gestation and had an Apgar score of 7 at 5 minutes.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "moderate",
+        "rationale": "Interventions were prospectively defined and recorded at the time of the procedure, but one condition was deliberately unstandardized (\"we left the mothers to choose how to hold their infant with no specific recommendations given\") and details such as timing/duration of feeding were not specified.",
+        "evidence_quote": "\"(3) holding by the mother during heel-lancing (we left the mothers to choose how to hold their infant with no specific recommendations given)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "Mothers, nurses and the behavioural coder were necessarily aware of the condition (blinding impossible), and no information is given on co-interventions, adherence, or whether any infant failed to feed/suck as intended; all participants appear to have been analysed as assigned.",
+        "evidence_quote": "\"The observer was not blinded to the group assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "Group totals (n = 180) match the planned sample and ECG editing was minimal (<1%), but no flow of participants, exclusions for artefact, or handling of missing spectral/behavioural data is reported, and the group sizes (29\u201331) differ slightly without explanation.",
+        "evidence_quote": "\"The edited segments accounted for 1% for each infant. A 2-minute \u201cclean\u201d segment of data was used for the analyses.\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "The primary behavioural outcome (NFCS) and cry duration were scored by an observer explicitly aware of group assignment, so the key subjective outcomes could be influenced by knowledge of the intervention, even though the physiologic/spectral analyses were done blinded.",
+        "evidence_quote": "\"The observer was not blinded to the group assignment.\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "The study was registered (NCT00396838) and an a priori power calculation is reported, but no protocol/analysis plan is available in the text, many outcome operationalizations (NFCS, cry, HR, HF, LF, LF-HF, multiple phases) and numerous pairwise comparisons were reported without correction for multiplicity, leaving scope for selective emphasis.",
+        "evidence_quote": "\"This trial has been registered at www.clinicaltrials.gov (identifier NCT00396838).\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall risk of bias is serious, driven by confounding from maternal self-selection into pain-control groups with no adjustment for prognostic factors, and by unblinded assessment of the primary behavioural outcomes (NFCS and cry duration). Remaining domains raise moderate concerns due to unstandardized interventions, limited reporting of participant flow/missing data, and multiple uncorrected outcome comparisons."
+  }
+]

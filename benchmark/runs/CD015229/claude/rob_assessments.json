@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:daa902c7",
+    "paper_title": "a29133f9_0304-3959%2893%2990130-H",
+    "design_classification": "randomized",
+    "design_rationale": "The paper states that after a common 1-week run-in of NSAID\u2013narcotic therapy, \"the patients were randomly divided into 2 groups\" (10 continuing analgesics, 10 undergoing celiac plexus block), indicating explicit random allocation to conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no detail is given on sequence generation or allocation concealment; baseline characteristics appear broadly similar but the very small sample (n=10 per arm) and absent methodological detail raise concerns.",
+        "evidence_quote": "\"After this week of NSAID-narcotic treatment the patients were randomly divided into 2 groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "No blinding of patients, clinicians or the home care team was possible or attempted, and the primary outcomes (titrated opioid dose and the composite score) were directly determined by unblinded clinicians/patients who expected the block to allow opioid reduction; no ITT or analysis-population description is provided.",
+        "evidence_quote": "\"As a rule the patients on opioids were desirous of stopping or reducing opioid dosage and pleased with the proposal of the block to decrease opioid dosage\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 20 patients were followed to death with data reported at the day before death, but the weekly denominators shrink unevenly (e.g., 3 vs 4 patients at week 7) because of death-related attrition, and no handling of this informative missingness is described.",
+        "evidence_quote": "\"All the patients in group A died by the 8th week of study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The principal outcome is a non-validated \"original formula\" combining VAS with opioid dose, assessed by unblinded patients and an unblinded home care team that also controlled the opioid titration, so outcome ascertainment could readily be influenced by knowledge of the assigned treatment.",
+        "evidence_quote": "\"each patient was given a score based on the following formula: VAS (1 + M/10)\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or pre-registration is mentioned, no primary outcome is designated, and multiple outcomes (score, VAS, opioid dose) are tested repeatedly at many weekly time points without correction for multiplicity, allowing selective emphasis of significant findings.",
+        "evidence_quote": "\"Statistical analysis was performed with paired and grouped Student's t test. P < 0.05 was chosen as the minimum level of significance.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the complete absence of blinding in a study whose main outcomes (clinician-titrated opioid dose and a non-validated composite VAS/opioid score) are highly susceptible to expectation effects, compounded by unreported randomization/allocation-concealment procedures, informative attrition, and no pre-specified analysis plan in a very small (n=20) sample."
+  },
+  {
+    "paper_id": "manual:605fe45d",
+    "paper_title": "25b1246c_0304-3959%2895%2900189-1",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods state that after NSAID-morphine treatment was started or continued, \"the patients were randomly divided into 2 groups\" (celiac plexus block vs. NSAID-morphine), indicating explicit random allocation to conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation-concealment procedure is described, and although reported baseline characteristics appear balanced, the tiny sample (n=21) limits reassurance.",
+        "evidence_quote": "\"the patients were randomly divided into 2 groups\" ... \"No significant differences were observed between the 2 groups with regard to age, sex, weight, and survival time\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "No blinding (no sham block) was possible or attempted, so patients and care/assessment staff knew the assignment, co-intervention (morphine titration guided by VAS judged by unblinded staff) could be influenced by this knowledge, and no ITT/flow of participants or handling of non-adherence is described.",
+        "evidence_quote": "\"The other 10 patients underwent celiac plexus block (CPB group) within 2\u20133 days by a percutaneous posterior approach with X-ray guidance.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial attrition due to death/deterioration (from 10/11 to 6/5 by week 10) with analysis of only surviving patients and no sensitivity analysis or imputation, and the reason for missingness (clinical deterioration) is directly related to the outcome (QOL).",
+        "evidence_quote": "\"The PS and QOL scores were recorded at regular 2-week intervals till the patients' conditions no longer allowed the tests.\" ... \"8  T  23 (18\u201332; n = 7)  27 (23\u201331; n = 7)\" ... \"10 ... n = 6 ... n = 5\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes are subjective (VAS, self-assessed QOL, side-effect grading) and performance status was rated by the unblinded treating doctors and nurses who knew which patients received CPB, so outcome assessment could plausibly be influenced by knowledge of the intervention.",
+        "evidence_quote": "\"The PS score of 0\u20134 was objectively determined by the team of the doctors and nursing staffs.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or protocol is mentioned, many outcome measures/time points were tested without adjustment for multiplicity, and an additional summary-measures analysis appears to have been added after non-significant time-point comparisons, raising concerns about selective reporting of analyses.",
+        "evidence_quote": "\"finally, the Multiscale data were compared using the method of summary measures (Matthews et al. 1990)\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: although patients were reportedly randomized, there was no blinding of patients or of the staff who titrated morphine and rated performance status (D2, D4), and substantial outcome-related attrition from deaths/deterioration was analyzed without any sensitivity analysis (D3). Unreported randomization/concealment methods and absence of a protocol with multiple outcomes and post hoc analyses add further concerns."
+  },
+  {
+    "paper_id": "manual:bcfa2e6a",
+    "paper_title": "d6bb87f7_CD015229",
+    "design_classification": "randomized",
+    "design_rationale": "Patients were explicitly allocated by block randomization using computer-generated random numbers held in sealed envelopes opened by a study coordinator (\"Registered patients were randomly assigned to the subject group (EUS-CPN group) or the control group (medication alone group) using a block randomization method (block size: 2), wherein a computer generated random number was in sealed envelopes\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random sequence generation and concealed envelopes are described, but block size of 2 in an unblinded open-label trial makes allocation predictable, and a statistically significant baseline imbalance in UICC stage IV (10/24 vs 18/22) raises concern about the randomization process.",
+        "evidence_quote": "\"using a block randomization method (block size: 2), wherein a computer generated random number was in sealed envelopes only opened by a study coordinator\" ... \"the rate of patients with UICC stage IV was significantly higher for the control group (P < 0.05)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and treating physicians were aware of assignment and co-interventions (opioid titration, chemotherapy, supportive care) were at physician discretion, which could differ by arm; 2 randomized control patients withdrew and were excluded, so the analysis was not strictly intention-to-treat, although no cross-over EUS-CPN occurred within follow-up.",
+        "evidence_quote": "\"this study was not completely blind because EUS-CPN performance could not be blinded for both patients and doctors, possibly resulting in biases\" ... \"amounts and kinds of medicine for pain control was not limited\" ... \"Two patients allocated to the control group rejected being treated as a study subject after registration.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "At the primary endpoint (week 4) only 17/24 and 19/22 patients contributed data (~20% missing), rising to ~70% missing by week 12, with missingness plausibly related to pain/debilitation and death (i.e., to the outcome itself), and no imputation or sensitivity analysis was undertaken.",
+        "evidence_quote": "\"There were many dropouts during the follow-up period because they changed hospitals ... advanced debilitation made it impossible to fully respond to the questionnaires, or they succumbed, resulting in unexpectedly low numbers at risk of 37 at week 4, 22 at week 8, and 14 at week 12.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The pain VAS is an appropriate and identically applied measure, but it is subjective and self-reported by unblinded patients (and opioid-related symptoms were rated by unblinded doctors), so knowledge of the intervention could influence reporting\u2014though any such bias would favor EUS-CPN rather than the null finding reported.",
+        "evidence_quote": "\"The VAS score for pain was estimated by marking on a 10-cm scale in a questionnaire sheet.\" ... \"this study was not completely blind because EUS-CPN performance could not be blinded for both patients and doctors\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A single pre-specified primary endpoint and an a priori sample-size calculation are reported, but trial registration appears to have occurred in 2019\u2014years after enrolment began in February 2011\u2014so the pre-specified analysis plan cannot be verified, and multiple time points/secondary outcomes were analysed with simple t tests without adjustment.",
+        "evidence_quote": "\"registered in UMIN (issued ID, UMIN000037172)\" ... \"The main outcome measurement was defined as the VAS for pain at 4 weeks.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by substantial and outcome-related missing data (only 36/46 patients assessed at the week-4 primary endpoint and 14 by week 12, with dropout due to debilitation and death and no sensitivity analysis). Additional concerns arise from predictable block-of-2 allocation with a significant baseline imbalance in UICC stage IV, the open-label design with discretionary co-interventions and subjective self-reported VAS outcomes, and retrospective trial registration relative to enrolment."
+  },
+  {
+    "paper_id": "manual:d81e0fb5",
+    "paper_title": "84acaf6d_jama.291.9.1092",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"eligible patients were assigned to receive (NCPB) or SAT alone, based on randomization schedules generated by the Mayo Division of Biostatistics,\" with stratified permuted blocks and central telephone allocation, in a double-blind sham-controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer/biostatistics-generated stratified block schedule with central telephone allocation concealment, and baseline characteristics (age, sex, stage, pain, QOL) were similar between groups.",
+        "evidence_quote": "\"eligible patients were assigned to receive (NCPB) or SAT alone, based on randomization schedules generated by the Mayo Division of Biostatistics. The physician who performed the randomized procedure called a central telephone number to obtain the treatment assignment, which was stratified according to the TNM staging system ... in blocks of 4 patients\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, the pain-managing clinician, and the outcome observer were blinded via an elaborate sham procedure; rescue NCPB was permitted by protocol with assignment still blinded, and all analyses were intention-to-treat with sensitivity analyses using only pre-rescue data.",
+        "evidence_quote": "\"the clinical manager was a physician blinded to the randomized intervention who was responsible for all pain management decisions ... All analyses were performed using an intention-to-treat approach based on initial randomization.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Substantial and increasing missingness for pain/QOL outcomes (e.g., only 41/50 SAT and 45/50 NCPB at week 1, falling to 13 and 14 by week 24) due to death and missed contacts, though missingness was balanced across groups and imputation (carry-forward/interpolation) sensitivity analyses gave consistent results; survival data were essentially complete.",
+        "evidence_quote": "\"The number of patients with data available diminished over time due to patient death, intermittent missed follow-up contacts, and occasional failure to respond to individual follow-up questions.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated instruments (0-10 NRS, FACT-PA) were applied identically and weekly by a research nurse blinded to allocation, with patients blinded by a convincing sham procedure; occasional proxy responses are a minor, non-differential limitation.",
+        "evidence_quote": "\"the observer was a clinical research nurse blinded to the randomized intervention who performed all patient assessments\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol is cited and multiple outcome operationalizations/time windows are reported (week 1, repeated measures to 24 weeks, proportion with NRS \u22655 in first 6 weeks, an additional post hoc FACT-PA pain item analysis), though a prespecified sample-size/power calculation and clearly stated hypothesis are given.",
+        "evidence_quote": "\"An additional analysis was performed for the FACT-PA item that asks patients to rate the truth of the statement, 'I have pain'\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This was a well-conducted double-blind, sham-controlled randomized trial with concealed central allocation, blinded pain management and blinded outcome assessment, and intention-to-treat analysis. Overall risk is \"some concerns\" driven by considerable attrition/intermittent missing weekly outcome data (mitigated but not eliminated by imputation sensitivity analyses) and the absence of a registered protocol alongside several outcome definitions and post hoc analyses."
+  },
+  {
+    "paper_id": "manual:64a63037",
+    "paper_title": "2b17aea8_s10620-007-9905-2",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states patients were allocated randomly to the two treatment arms (\"patients were placed randomly into one of two groups\") and describes itself as a \"prospective randomized controlled study\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation concealment is described, and baseline comparability is reported only for age/sex (not pain severity or disease stage).",
+        "evidence_quote": "\"After obtaining their informed consent, patients were placed randomly into one of two groups: group 1, in which 29 of the 56 patients underwent NCPB guided by CT, and group 2, in which 27 patients were treated with pharmacological therapy.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and treating clinicians were necessarily aware of allocation (an invasive procedure vs oral drug, with no sham), co-intervention with opioids was permitted and could influence the subjective pain outcome, and no intention-to-treat analysis or handling of deaths/dropouts is described.",
+        "evidence_quote": "\"If the NCPB could not control the pain, then MS Contin was also used in group 1.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "About 18% of participants died within follow-up (group 1 fell from 29 to 25 by day 90 per Table 4) with no per-group accounting of attrition, no reporting of analysed numbers at each timepoint, and no sensitivity analysis or imputation, so late outcome comparisons may well be biased by informative missingness.",
+        "evidence_quote": "\"However, within 90 days, 10 patients died of cancer.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Assessors were reportedly blinded, but the primary outcomes are patient-reported (VAS, QOL) and patients were unblinded to an invasive versus oral intervention, so expectancy effects could inflate reported pain relief; the QOL instrument is also non-validated and ad hoc.",
+        "evidence_quote": "\"Visual analogue scale (VAS) and quality of life (QOL) were evaluated by physicians blinded to the treatment group.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol, trial registration, or prespecified primary outcome is reported; multiple outcomes at six timepoints were compared with repeated unadjusted t tests, allowing selective emphasis of the significant early timepoints.",
+        "evidence_quote": "\"Statistical analyses were carried out using the SPSS 11.0 statistical program... The differences of the VAS scores, QOL scores, and MS Contin consumption levels were statistically compared by the t test\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by missing outcome data (10 deaths within 90 days with no per-group attrition accounting, analysed denominators, or sensitivity analysis). This is compounded by some concerns in all other domains: unspecified randomization/concealment methods, unblinded patients receiving an invasive procedure versus oral drug with permitted opioid co-intervention, patient-reported outcomes including a non-validated QOL scale, and no pre-registered protocol with repeated unadjusted t tests across many timepoints."
+  }
+]

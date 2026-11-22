@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women with endometrial hyperplasia, with or without atypia, do randomised controlled trials show that metformin plus megestrol acetate increases complete histological regression at the end of treatment compared with megestrol acetate alone?",
+  "treatment_label": "Metformin plus megestrol acetate",
+  "control_label": "Megestrol acetate alone",
+  "outcome_description": "Complete histological regression of endometrial hyperplasia at the end of the treatment course (approximately 3\u20136 months), defined as return to proliferative, secretory, or atrophic/otherwise normal endometrium. The event is a woman with complete regression; persistence, progression, and partial response are non-events. Extract event counts and denominators for the eligible combination and megestrol-alone arms only. Where atypical and non-atypical hyperplasia are reported separately within a trial, sum events and denominators across those strata. Convert reported percentages to integer event counts using arm denominators, and use randomised arm sizes when analysed denominators are unavailable.",
+  "positive_direction": "A positive Hedges g, or equivalently for the requested binary analysis an odds ratio above 1, means that metformin plus megestrol acetate produces more complete histological regression than megestrol acetate alone.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "endometrial hyperplasia metformin megestrol randomized trial regression",
+    "atypical endometrial hyperplasia metformin megestrol controlled histological response",
+    "megestrol acetate metformin endometrial hyperplasia quantitative treatment outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials enrolling women with endometrial hyperplasia, with or without atypia, that compare metformin plus megestrol acetate against a concurrent megestrol-acetate-alone arm; eligible arms from multi-arm trials may be included while all other arms are ignored.",
+    "Reports complete histological regression to normal proliferative, secretory, or atrophic endometrium at the end of the treatment course, approximately 3\u20136 months, with quantitative information sufficient to obtain event counts and arm denominators.",
+    "Trials identified in the uploaded papers are eligible when they meet the population, comparison, and outcome criteria, regardless of metformin or megestrol dose, exact treatment duration, or presence of atypia."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and study protocols.",
+    "No comparison between metformin plus megestrol acetate and a megestrol-acetate-alone control condition; metformin-alone, placebo, LNG-IUS, and other treatment arms are ignored rather than substituted as controls.",
+    "No quantitative outcome data capable of producing an effect size, such as event counts or proportions/percentages with arm sizes; studies providing no usable means/SDs, t/F-values, proportions, or odds ratios are excluded.",
+    "Completely unrelated to treatment of endometrial hyperplasia or not reporting histological regression of endometrial hyperplasia."
+  ],
+  "moderators_to_extract": [
+    "Presence of atypia and proportion of participants with atypical hyperplasia",
+    "Metformin dose and schedule",
+    "Megestrol acetate dose and schedule",
+    "Treatment duration and timing of end-of-treatment biopsy",
+    "Randomised versus analysed denominator and attrition rate",
+    "Trial setting and participant metabolic characteristics, including obesity, diabetes, or insulin resistance"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool odds ratios from arm-level event counts, comparing metformin plus megestrol acetate with megestrol acetate alone. Code complete regression as the event, so OR > 1 favours combination therapy. Use end-of-treatment histology at approximately 3\u20136 months as one outcome timepoint. Sum atypical and non-atypical strata within each trial before calculating the study effect. Convert percentages to counts using reported arm sizes, applying transparent rounding to the nearest whole participant and checking consistency with totals; use analysed denominators when reported and randomised denominators otherwise. Ignore all ineligible arms in multi-arm trials. Use an intention-to-treat-oriented denominator where possible and document whether participants with missing histology are treated as non-events; conduct sensitivity analyses if both complete-case and randomised-denominator estimates can be derived. For zero cells, prespecify a standard continuity correction and assess robustness with an appropriate zero-cell method. Use a random-effects primary model, report 95% confidence intervals, heterogeneity (tau-squared and I-squared), and a fixed-effect sensitivity analysis. Check duplicate reports and use one non-overlapping dataset per trial. Follow PRISMA 2020 for screening, flow reporting, data extraction, risk-of-bias assessment (RoB 2), synthesis, and certainty assessment (GRADE).",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "complete histological regression of endometrial hyperplasia"
+}

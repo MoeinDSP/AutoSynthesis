@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of extended-duration anticoagulation, compared with standard-duration anticoagulation, on major bleeding within 45 days (short-term) in acutely ill medical patients receiving venous thromboembolism prophylaxis?",
+  "treatment_label": "Extended-duration anticoagulation",
+  "control_label": "Standard-duration anticoagulation",
+  "outcome_description": "Incidence of major bleeding events occurring within 45 days (short-term) from primary analysis.",
+  "positive_direction": "Lower risk of major bleeding in the extended-duration anticoagulation group compared to the standard-duration group (extended duration is safer).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "extended duration thromboprophylaxis acutely ill medical randomized trial",
+    "extended anticoagulation standard duration venous thromboembolism major bleeding comparison",
+    "extended versus standard duration thromboprophylaxis medical patients bleeding outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials or comparative empirical studies in acutely ill hospitalized medical patients receiving thromboprophylaxis.",
+    "Direct comparison of extended-duration anticoagulation versus standard-duration anticoagulation (or standard followed by placebo).",
+    "Quantitative reporting of primary analysis major bleeding events within 45 days post-randomization."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols).",
+    "No comparison between an extended-duration anticoagulation arm and a standard-duration anticoagulation (or placebo post-standard) arm.",
+    "No quantitative outcome data on short-term (<= 45 days) major bleeding events enabling calculation of risk ratios.",
+    "Completely unrelated to venous thromboembolism prophylaxis in acutely ill hospitalized medical patients (e.g., surgical, orthopedic, or outpatient non-medical populations)."
+  ],
+  "moderators_to_extract": [
+    "Anticoagulant drug class in extended arm (e.g., DOAC vs LMWH)",
+    "Specific agent (e.g., rivaroxaban, betrixaban, apixaban, enoxaparin)",
+    "Extended treatment duration (number of days)",
+    "Sample size randomized per arm",
+    "Publication year"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Dichotomous major bleeding event counts and randomized sample sizes pooled as Risk Ratio (RR). Major bleeding is a harm outcome. Trials with zero events in both arms are treated as not estimable and excluded from ratio-based pooling rather than applying continuity corrections.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "major bleeding"
+}

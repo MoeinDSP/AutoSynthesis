@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of rituximab compared with tacrolimus on relapse by 12 months in children with steroid-sensitive nephrotic syndrome?",
+  "treatment_label": "Rituximab",
+  "control_label": "Tacrolimus",
+  "outcome_description": "Nephrotic syndrome relapse by 12 months of follow-up",
+  "positive_direction": "A positive effect size favors rituximab over tacrolimus (indicating a lower risk or rate of relapse by 12 months in the rituximab group).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "rituximab tacrolimus pediatric nephrotic syndrome relapse trial",
+    "rituximab versus tacrolimus steroid sensitive nephrotic syndrome comparison",
+    "rituximab tacrolimus childhood nephrotic syndrome randomized controlled"
+  ],
+  "inclusion_criteria": [
+    "Studies examining children and adolescents with steroid-sensitive nephrotic syndrome (including frequently relapsing or steroid-dependent courses).",
+    "Comparative studies evaluating rituximab versus tacrolimus.",
+    "Reporting quantitative data on disease relapse or relapse-free status by 12 months of follow-up."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, letters, and theoretical papers are excluded).",
+    "No direct comparison between a rituximab arm and a tacrolimus arm.",
+    "No quantitative outcome data on relapse by 12 months that can produce an effect size (e.g., event counts and total randomized per arm, risk ratios, or odds ratios).",
+    "Completely unrelated to pediatric steroid-sensitive nephrotic syndrome."
+  ],
+  "moderators_to_extract": [
+    "Nephrotic syndrome subtype (frequently relapsing vs steroid-dependent)",
+    "Rituximab dosing regimen (single infusion vs multiple/repeated infusions)",
+    "Concomitant maintenance immunosuppression or steroid taper protocol",
+    "Study design (randomized controlled trial vs non-randomized prospective trial)",
+    "Mean participant age"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Risk ratio (RR) comparing the proportion of patients experiencing relapse by 12 months between rituximab and tacrolimus groups.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "relapse by 12 months"
+}

@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of an ultrasound-guided erector spinae plane block (ESPB), compared with no block (general anaesthesia and usual analgesia only, without any injection), on cumulative postoperative opioid consumption at 24 hours in adults undergoing surgery?\n\nEffect measure: pool as a mean difference (MD) in milligrams of oral morphine equivalents, using a random-effects model. MD < 0 means less opioid used with the ESPB (favours ESPB).\n\nOutcome: cumulative postoperative opioid consumption over the first 24 hours after surgery (in the recovery room and on the ward, from patient-controlled analgesia and rescue doses), extracted as the mean, SD and number of participants per arm.\n- Convert every opioid to oral morphine equivalents (mg) using standard published equianalgesic conversion ratios (for example for intravenous morphine, fentanyl, tramadol, pethidine, nalbuphine). Record the original drug, dose, unit and the conversion factor you used for each study. Do not mix raw units (mcg of fentanyl, mg of tramadol) in one pool.\n- If a paper already reports morphine equivalents, use its values. If it reports consumption in more than one opioid, convert and sum them.\n- If variability is reported as SE or SEM, convert to SD = SE \u00d7 \u221an. Check table footnotes for whether \"\u00b1\" is SD or SE. If a paper reports median and interquartile range, estimate the mean and SD with a standard method and note it.\n- Use the 24-hour value (cumulative from the end of surgery). Do not use 2-hour or 48-hour totals, and do not use intraoperative opioid doses.\n- The control must be no block. Exclude trials whose control group received a sham or saline block, and trials comparing ESPB with another block or an epidural.\n- Trials with several ESPB groups (different doses or approaches) against one control: combine the ESPB groups into one, or split the control group's size equally among the comparisons, so the control participants are not counted twice.\n- Use the number randomised or analysed as reported; assign arms by treatment description, not by column position.\n- Include only randomised controlled trials. Do not include review articles or meta-analyses, even if they cover the same procedure.\n\nDo not pool pain scores, time to first analgesic request, nausea or vomiting, block-related complications, chronic pain or length of stay. Exclude studies in children and studies without a no-block control group.",
+  "planned_search_queries": [
+    "erector spinae plane block opioid consumption trial",
+    "ultrasound erector spinae plane block postoperative analgesia randomized",
+    "ESPB no block postoperative morphine trial"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "erector spinae plane block postoperative opioid consumption randomized trial",
+    "ultrasound erector spinae block 24 hour morphine consumption comparison",
+    "ESPB no block postoperative analgesia controlled trial",
+    "erector spinae plane block postoperative opioid sparing effect trial",
+    "ultrasound guided erector spinae block postoperative morphine requirements trial"
+  ]
+}

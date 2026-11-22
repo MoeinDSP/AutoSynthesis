@@ -1,0 +1,38 @@
+{
+  "research_question": "In preterm infants (<37 weeks' gestation) at risk of bronchopulmonary dysplasia, does early (initiated before 7 days of postnatal age), low cumulative dose (<2 mg/kg) systemic dexamethasone, compared with placebo or no treatment, reduce the combined outcome of death or BPD (oxygen requirement) at 36 weeks' postmenstrual age?",
+  "treatment_label": "Early low-dose systemic dexamethasone (<2 mg/kg cumulative, started <7 days of age)",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Number of infants who died or had bronchopulmonary dysplasia (oxygen requirement / chronic lung disease / oxygen dependence) at 36 weeks' postmenstrual age, out of the number randomised to each arm (intention-to-treat denominator). Deaths before 36 weeks are added to survivors with BPD when reported separately.",
+  "positive_direction": "A positive Hedges g (equivalently RR < 1) means fewer infants died or developed BPD at 36 weeks' postmenstrual age in the early low-dose dexamethasone group than in the placebo/no-treatment group \u2014 i.e. the result favours dexamethasone.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "early dexamethasone preterm infants randomised trial bronchopulmonary dysplasia",
+    "low dose dexamethasone chronic lung disease prematurity placebo controlled trial",
+    "postnatal corticosteroids first week of life ventilated preterm neonates death or BPD 36 weeks"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in infants born before 37 weeks' gestation",
+    "Compares systemic dexamethasone begun in the first week of life (before 7 days of postnatal age) with placebo or no treatment",
+    "Reports quantitative data allowing calculation of death and/or BPD/chronic lung disease/oxygen dependence at 36 weeks' postmenstrual age (events and numbers randomised)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, or purely theoretical/modelling paper)",
+    "No comparison between a dexamethasone treatment arm and a placebo/no-treatment control arm (e.g. control is hydrocortisone, another steroid, or a different dexamethasone dose only)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts/proportions, means+SDs, t/F values, or odds/risk ratios)",
+    "Completely unrelated to the research topic (e.g. inhaled or intratracheal steroids, hydrocortisone trials, dexamethasone started at 7 days or later, cumulative dexamethasone dose 2 mg/kg or more, or dexamethasone given solely to facilitate extubation in infants ventilator-dependent after 7 days)"
+  ],
+  "moderators_to_extract": [
+    "Cumulative dexamethasone dose (mg/kg)",
+    "Age at initiation of treatment (hours/days of life)",
+    "Duration of the dexamethasone course (days)",
+    "Mean gestational age or birth weight of the trial population",
+    "Proportion ventilated / surfactant era (publication decade)",
+    "Risk of bias (blinding, allocation concealment) and sample size category"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool as a risk ratio using a fixed-effect Mantel-Haenszel model where available, otherwise random effects. Events = infants dead or with BPD (oxygen requirement) at 36 weeks' PMA; total = number randomised to each arm. For multi-arm trials use only the low-dose dexamethasone arm (<2 mg/kg cumulative, started <7 days) and the placebo/no-treatment arm, combining arms that fall within the same dose category and ignoring other steroid arms.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Death or bronchopulmonary dysplasia at 36 weeks' postmenstrual age"
+}

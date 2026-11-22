@@ -1,0 +1,38 @@
+{
+  "research_question": "In people with patellofemoral pain syndrome, what is the short-term effect (up to 3 months) of exercise therapy versus no treatment, placebo, waiting list, health educational material, or\u2014when exercise is added to a co-intervention\u2014the same co-intervention alone, on functional ability measured with knee-function questionnaires?",
+  "treatment_label": "Exercise therapy, alone or added to a co-intervention",
+  "control_label": "No treatment, placebo, waiting list, health educational material, or the same co-intervention without exercise",
+  "outcome_description": "Short-term functional ability assessed up to 3 months after randomization or treatment initiation using a validated knee-function questionnaire (e.g., Anterior Knee Pain Scale [AKPS]/Kujala score, Functional Index Questionnaire [FIQ], WOMAC function, or Lysholm score). If multiple eligible function measures are reported at the same time point, use AKPS/Kujala preferentially; otherwise apply a prespecified hierarchy of FIQ, WOMAC function, Lysholm, then another validated knee-function questionnaire. Orient all scales so higher harmonized values represent better function. Where multiple eligible assessments occur within 3 months, preferentially use the assessment closest to 3 months while avoiding duplicate inclusion of the same participants in a pooled estimate.",
+  "positive_direction": "A positive Hedges g means that exercise therapy produces better short-term functional ability than the control condition.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "patellofemoral pain exercise therapy controlled trial functional ability",
+    "patellofemoral pain syndrome exercise rehabilitation trial knee function questionnaire",
+    "anterior knee pain exercise treatment comparison Kujala function outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of people with patellofemoral pain syndrome or clinically equivalent patellofemoral/anterior knee pain populations that evaluate exercise therapy, either alone or added to another intervention.",
+    "Studies with an eligible control condition: no treatment, placebo, waiting list, health educational material, or the same co-intervention without exercise.",
+    "Studies reporting a quantitative knee-related functional-ability outcome at an eligible short-term assessment up to 3 months, with sufficient information to calculate or recover an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between an exercise-therapy treatment condition and an eligible control condition, including failure to hold a co-intervention constant when estimating the added effect of exercise.",
+    "No quantitative outcome data capable of producing an effect size; eligible information includes means and SDs, change-score data, t/F-values, proportions, odds ratios, or other convertible statistics obtainable from authors.",
+    "Completely unrelated to patellofemoral pain syndrome, exercise therapy, or knee-related functional ability."
+  ],
+  "moderators_to_extract": [
+    "Exercise modality and content (e.g., hip-focused, knee-focused, combined, supervised/home-based)",
+    "Exercise dose and treatment duration (frequency, intensity, session length, and total weeks)",
+    "Comparator type (no treatment, placebo, waiting list, education, or matched co-intervention)",
+    "Timing of functional assessment within the 0-to-3-month window",
+    "Functional questionnaire used (AKPS/Kujala, FIQ, WOMAC, Lysholm, or other)",
+    "Participant and study characteristics (age, sex distribution, symptom duration, baseline severity, and randomized versus nonrandomized design)"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "For continuous functional-ability outcomes, calculate small-sample-corrected standardized mean differences (Hedges g), using post-intervention values when available and otherwise compatible change scores, and reverse-score instruments such as WOMAC variants when necessary so positive effects consistently favor exercise. Prefer AKPS/Kujala when multiple eligible function questionnaires are reported, and select the assessment closest to 3 months when several eligible short-term time points are available. For multi-arm studies, avoid double-counting shared controls by combining eligible exercise arms when clinically appropriate or splitting the shared control; estimate the added effect of exercise only from contrasts in which co-interventions are balanced. Pool with a random-effects model, report 95% confidence and prediction intervals, quantify heterogeneity with tau-squared and I-squared, assess risk of bias using an appropriate design-specific tool, and examine small-study effects when enough studies are available.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "functional ability"
+}

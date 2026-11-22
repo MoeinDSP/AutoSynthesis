@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children and adults, what is the effect of consuming an iron-fortified condiment or seasoning, compared with the same condiment or seasoning without added iron, on serum or plasma ferritin concentration at the end of the intervention?",
+  "treatment_label": "Iron-fortified condiment or seasoning (iron alone, or with other micronutrients provided equally in both arms)",
+  "control_label": "The same condiment or seasoning without added iron",
+  "outcome_description": "Serum or plasma ferritin concentration at the end of intervention, expressed in \u00b5g/L (equivalent to ng/mL). Extract the arithmetic mean, SD, and number analysed in each arm at the last reported follow-up. Prefer end-of-intervention values; if only change from baseline is reported, use mean change and SD of change for both arms and flag use of change scores, never mixing an end value in one arm with a change score in the other. Convert units to \u00b5g/L and document the original unit and conversion (including pmol/L \u00d7 0.445 where applicable). Convert SE/SEM to SD as SD = SE \u00d7 \u221an after checking table footnotes. If only geometric means, confidence intervals, or log-scale results are available and arithmetic mean and SD cannot be obtained, record the geometric result and its reporting scale rather than treating it as an arithmetic mean. Do not include haemoglobin, anaemia prevalence, iron deficiency status, soluble transferrin receptor, body iron, growth, or adverse effects.",
+  "positive_direction": "A positive mean difference means higher end-of-intervention serum or plasma ferritin with the iron-fortified condiment than with the otherwise identical unfortified condiment, favouring fortification.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "iron fortified condiment ferritin randomized controlled trial",
+    "fortified soy sauce fish sauce salt seasoning ferritin trial",
+    "iron fortification condiment plasma serum ferritin cluster randomized"
+  ],
+  "inclusion_criteria": [
+    "Original randomised or cluster-randomised controlled trials in children or adults comparing an iron-fortified condiment or seasoning with the same condiment or seasoning without added iron.",
+    "Interventions involving iron-fortified soy sauce, fish sauce, curry powder, salt, or another condiment/seasoning; co-fortification is eligible when other added micronutrients are provided equally to both comparison arms.",
+    "Studies reporting serum or plasma ferritin quantitatively at the end of intervention, or change from baseline when end values are unavailable, with sufficient information to derive an arm-level mean, SD, and sample size or otherwise calculate the requested effect."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible comparison between an iron-fortified condiment or seasoning and the same condiment or seasoning without added iron; this includes controls receiving iron supplements or a different fortified food.",
+    "No quantitative ferritin outcome data capable of producing an effect size, such as arm means and SDs (including values derivable from SE/SEM or confidence intervals), t/F statistics, proportions, or odds ratios; studies reporting only non-convertible geometric or log-scale summaries will be documented but excluded from the arithmetic-MD pool unless usable data can be obtained.",
+    "Completely unrelated to iron fortification of condiments or seasonings and serum or plasma ferritin."
+  ],
+  "moderators_to_extract": [
+    "Participant age group (children versus adults) and baseline physiological group (for example, pregnant versus non-pregnant)",
+    "Type of condiment or seasoning",
+    "Iron compound, fortification dose, and intervention duration",
+    "Individual versus cluster randomisation, including cluster unit, average cluster size, ICC, design effect, and use of a cluster-adjusted analysis",
+    "Baseline ferritin or baseline iron-status category",
+    "Iron-only versus multi-micronutrient fortification"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool mean differences using a random-effects model in \u00b5g/L (ng/mL), with MD > 0 favouring iron fortification. Use the last follow-up. Prefer end-of-intervention arithmetic means and SDs; use change-score means and SDs only when end values are unavailable and only when used consistently in both arms, recording that change scores were used. Convert units and document all conversions; ferritin in pmol/L should be multiplied by 0.445. Convert SE/SEM to SD using SD = SE \u00d7 \u221an and verify whether reported \u00b1 values are SD or SE from footnotes. Prefer arithmetic mean and SD over geometric/log summaries; if only geometric values are reported, record and label them but do not treat them as arithmetic values without a defensible conversion. For cluster-randomised trials, divide both arm sample sizes by the design effect DE = 1 + (average cluster size \u2212 1) \u00d7 ICC using the reported ICC; if no ICC is reported, document this and use the publication's own cluster-adjusted analysis when available rather than inventing an ICC. In multi-arm trials, retain only eligible fortified-condiment and matched unfortified-condiment arms; ignore other interventions such as iron tablets or nutrition education. If multiple eligible fortified arms share one control, combine fortified arms using standard Cochrane formulas where clinically appropriate, otherwise split the shared control to avoid double counting. Do not pool haemoglobin, anaemia prevalence, iron deficiency, soluble transferrin receptor, body iron, growth, or adverse effects. Report PRISMA 2020 study flow, duplicate screening and extraction procedures, risk of bias using RoB 2 (including the cluster-RCT extension), heterogeneity using \u03c4\u00b2 and I\u00b2, confidence intervals for pooled effects, sensitivity analyses for clustering/change scores/geometric reporting/high risk of bias, and publication-bias assessment only when the number of studies is sufficient.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serum or plasma ferritin concentration"
+}

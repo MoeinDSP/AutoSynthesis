@@ -1,0 +1,490 @@
+[
+  {
+    "paper_id": "manual:9e192063",
+    "paper_title": "f2ba6773_10151_2008_Article_405",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized clinical trial with allocation to LigaSure vs diathermy haemorrhoidectomy using sequentially numbered sealed envelopes with allocations determined before trial commencement.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was pre-determined and concealed in sequentially numbered sealed envelopes (not stated to be opaque), but the method of generating the sequence is not described and the ambiguous \"nonconsecutive\" randomization plus borderline baseline imbalances (age p=0.08, bleeding haemorrhoids p=0.05, mean piles excised p=0.07, sex 61.9% vs 40.9%) raise mild concern.",
+        "evidence_quote": "\"All patients were randomized to receive either LigaSure haemorrhoidectomy or conventional haemorrhoidectomy using sealed envelopes. The randomization performed was nonconsecutive in nature. The envelopes were sequentially numbered with allocations determined before the trial commenced.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients were blinded and perioperative care was standardized, but surgeons were necessarily unblinded in a device trial, no crossovers or protocol deviations are reported, and the analysis appears per-protocol/available-case rather than explicitly intention-to-treat.",
+        "evidence_quote": "\"Patients were blinded to the type of surgery performed.\" / \"A standard medication package was issued to all patients postoperatively.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 43 of 44 randomized patients (97.7%), with only a single loss to follow-up, too small a proportion to plausibly bias the effect estimates.",
+        "evidence_quote": "\"One patient in the LigaSure arm was lost to follow-up, and thus only 21 patients were evaluated in that group.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures are appropriate and applied uniformly (VAS pain, standardized 5-point healing scale, nurse-recorded operative time), but the primary wound-healing outcome relied on subjective physical examination by a single assessor whose blinding status is never stated, and intraoperative bleeding (soaked gauzes) and operative time were recorded by necessarily unblinded theatre staff.",
+        "evidence_quote": "\"Wound healing was defined as complete epithelialization as seen on physical examination... A single assessor performed the assessment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or protocol is cited, the trial was stopped at 44 of a planned 90 patients for non-statistical reasons with justification resting on a post-hoc power analysis (a biased practice that conditions on the observed effect), and multiple outcome timepoints/operationalizations (pain on days 1/3/7/10/14, healing at weeks 3/4/6) were reported without a pre-specified primary analysis, creating substantial scope for selective reporting and early-stopping overestimation of effect.",
+        "evidence_quote": "\"Although the initially calculated sample size was 90, the study had to be concluded earlier as the supplier of the LigaSure electrodes could not continue to provide the electrodes for the trial without passing on the cost to the patient. However, as the difference in rate of wound healing was high, a post-hoc power analysis revealed a power of 88.8% despite the small sample size.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by D5: the trial was terminated early at 44 of a pre-calculated 90 patients for supply/funding reasons with its conclusions defended by a post-hoc power calculation, and there is no registered protocol against which the multiple pain and wound-healing timepoints could be checked for selective reporting. Additional some_concerns arise in the randomization process (sequence generation undescribed, \"nonconsecutive\" envelope randomization, several borderline baseline imbalances), deviations (unblinded surgeons, no explicit ITT analysis), and outcome measurement (subjective healing assessment by a single assessor of unstated blinding), while missing outcome data were minimal."
+  },
+  {
+    "paper_id": "manual:c6c76dfc",
+    "paper_title": "b8df4982_110241502321116497",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although labelled a \"randomised controlled clinical trial\", allocation was by strict alternation (\"Randomisation allocation was by alternate patients, so that the rst, third, fth and so on patients had the Ligasure operation\"), which is a quasi-experimental, fully predictable (non-random) assignment mechanism.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "serious",
+        "rationale": "Allocation by alternation is completely predictable in advance, so the surgeon/team could foresee the next assignment and selectively enrol or defer patients; no concealment procedure or eligibility/exclusion flow is described.",
+        "evidence_quote": "\"Randomisation allocation was by alternate patients, so that the rst, third, fth and so on patients had the Ligasure operation, whereas the second, fourth, sixth and so on had the traditional operation.\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "Alternation tends to balance prognostic factors on average, but no baseline characteristics are reported by group (degree of haemorrhoids, number of cushions, age, sex given only for the whole cohort) and no adjustment was performed, so residual confounding cannot be excluded.",
+        "evidence_quote": "\"Out of the 112 patients, 66 were men and 46 women, and the mean age was 50 years. Sixty ve had haemorrhoids in the three haemorrhoidal cushions, 31 in two cushions...\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Both surgical techniques are clearly described and prospectively assigned, with no ambiguity about which intervention each patient received.",
+        "evidence_quote": "\"In 56 patients we used the Ligasure system in a variant of Milligan and Morgan\u2019s technique... In the other 56 cases we did the traditional Milligan and Morgan\u2019s operation, making a high ligation of the vascular pedicle...\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "The trial was explicitly unblinded and a single enthusiastic surgeon performed all operations, so co-interventions (analgesia given \"on demand\") and care could differ between groups, though no crossovers were reported and all patients appear analysed as assigned.",
+        "evidence_quote": "\"Design: Unblinded randomised clinical trial.\" / \"Analgesia was not prescribed for any of the patients, but it was given on demand.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "All 112 allocated patients appear to contribute to the main outcomes and follow-up at 1 and 6 months is described, but no explicit account of losses to follow-up, withdrawals or missing VAS scores is provided.",
+        "evidence_quote": "\"One month and six months later the patients were seen at the outpatient department.\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "The primary outcome is self-reported pain on a VAS in an admittedly unblinded study where patients, the operating surgeon and assessors all knew the technique used, and subjective outcomes such as \"better and faster\" wound healing were assessed without any blinded or standardised criteria.",
+        "evidence_quote": "\"Design: Unblinded randomised clinical trial.\" / \"We found differences in wound healing: the Ligasure group healed better and faster.\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "No protocol or registration is cited, no sample-size calculation is given, and several outcomes (wound healing, blood loss) are reported narratively without numerical data or defined measurement, raising the possibility of selective reporting.",
+        "evidence_quote": "\"The blood loss was not quantiable in those patients operated on with Ligasure, whereas in the other patients there was a mean blood loss of 10 ml.\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Despite being labelled randomised, allocation was by predictable alternation with no concealment, creating serious potential for selection bias, and the primary outcome (patient-reported VAS pain) was assessed entirely unblinded by the same surgeon performing all operations. These two serious domains, combined with unreported baseline comparability, follow-up accounting and absence of a protocol, yield an overall serious risk of bias."
+  },
+  {
+    "paper_id": "manual:3255d277",
+    "paper_title": "5f3b1616_bjs100",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 40 patients to two surgical arms: \"Forty patients with grade III or IV haemorrhoids were randomized to Ligasure\u2122 (group 1) or conventional diathermy (group 2) haemorrhoidectomy\", with allocation by closed envelope.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment by \"closed envelope\" is reported but the envelopes are not described as sequentially numbered, opaque or externally administered, and the method of sequence generation is not stated; baseline characteristics were nevertheless well balanced and the exactly equal 20/20 split suggests restricted/block allocation that is not described.",
+        "evidence_quote": "\"Randomization was to either group 1 (Ligasure\u2122) or group 2 (conventional haemorrhoidectomy) by closed envelope allocation.\" ... \"Adequacy of randomization was demonstrated by the similarity in patient characteristics in both groups (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and the discharge/follow-up assessors were blinded and no protocol violations or crossovers occurred, but operating surgeons necessarily knew the allocated technique and could influence co-primary outcomes such as operating time, blood loss estimation and discharge-related care; no intention-to-treat analysis is explicitly described, though all 40 randomized patients appear analysed as allocated.",
+        "evidence_quote": "\"No protocol violations were recorded throughout the study.\" ... \"patients were blinded throughout the study period and the discharge assessor was blinded to the result of randomization.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 20 patients per group are reported for operative, discharge and 3-month outcomes with no stated dropouts, but completeness of the daily 7-day pain diaries (a key outcome) is never quantified and no numerical pain data beyond day 1 are tabulated, so the extent of missing diary data cannot be verified.",
+        "evidence_quote": "\"Forty patients were randomized to the trial.\" ... \"No protocol violations were recorded throughout the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures are appropriate and assessors of discharge and follow-up were blinded with identical criteria across groups, but the primary technical outcomes (operating time and especially subjectively estimated intraoperative blood loss) were recorded by the unblinded operating team, and blood loss of \"0 ml\" with wide between-group separation is susceptible to observer bias.",
+        "evidence_quote": "\"Patients were assessed for discharge on the evening of the operation by a surgical registrar blinded to the result of randomization.\" ... \"Follow-up was performed at 1, 3 and 6 weeks by colorectal nurse specialists blinded to the result of randomization.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified analysis plan is available (2002 trial), and although endpoints are listed, the trial was powered only for operating time and blood loss while many additional outcomes (pain on each of 7 days, analgesia, stay, bowel motion, incontinence, satisfaction, histology) were analysed with only selected favourable comparisons reported numerically \u2014 e.g. pain is reported in detail only for day 1 and discharge is dichotomised at the day of operation \u2014 indicating substantial scope for selective reporting of outcome measurements and analyses.",
+        "evidence_quote": "\"Twenty patients were treated in each group to detect a difference of one standard deviation in mean operating time and blood loss, with an 80 per cent power at a 5 per cent level of significance.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by domain 5: there is no pre-registration or pre-specified analysis plan, the trial was powered only for operating time and blood loss, and of the numerous secondary endpoints only selected, favourably framed results (day-1 pain, day-of-operation discharge) are reported numerically. This compounds some concerns in all other domains \u2014 incompletely described closed-envelope allocation, unblinded surgeons who recorded the subjectively estimated primary technical outcomes, and unquantified completeness of the 7-day pain diaries \u2014 in a small 40-patient trial with device forceps donated by the manufacturer."
+  },
+  {
+    "paper_id": "manual:72063eed",
+    "paper_title": "3e31ae2b_bjs183",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of patients to two surgical arms: \"Randomization was performed at the time of anaesthesia by randomization using sealed envelopes. Sixteen patients underwent a standard diathermy haemorrhoidectomy and 18 had a Ligasure\u2122 haemorrhoidectomy.\" It is titled and described throughout as a randomized clinical trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sealed envelopes opened at induction provide partial allocation concealment, but the method of generating the sequence is not described and the envelopes are not stated to be opaque, sequentially numbered or externally prepared; only crude baseline data (sex, mean age) are reported with no grade/severity of haemorrhoids, so chance-consistency of baseline balance cannot be fully verified.",
+        "evidence_quote": "\"Randomization was performed at the time of anaesthesia by randomization using sealed envelopes. Sixteen patients underwent a standard diathermy haemorrhoidectomy and 18 had a Ligasure\u2122 haemorrhoidectomy.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients were effectively blinded and peri-operative care (lactulose, metronidazole, GTN, tramadol regimen) was standardized, but surgeons/carers were necessarily aware of allocation, operator grade was mixed with no report of its balance across arms (a potential co-intervention/learning-curve effect for the novel device), and no intention-to-treat statement or account of crossovers/withdrawals is given.",
+        "evidence_quote": "\"The patients were blinded to the treatment that they were to undergo. After operation the patients were kept unaware of what procedure had been performed until the consignment of the research data in the outpatient department 2 weeks after operation... All procedures were performed under general anaesthesia by either a consultant (15 patients) or a higher surgical trainee (19).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No flow of participants, diary-return rate or denominators per outcome are reported; the primary outcomes depended on patient-completed 7-day diaries after discharge (including four patients discharged the same day), so completeness of pain and analgesia data cannot be confirmed, although the reported group sizes (16 and 18) match the numbers randomized.",
+        "evidence_quote": "\"Patients were asked to document the amount of analgesia required and the pain experienced at the time of waking on each postoperative day for 7 consecutive days using a visual analogue scale.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Operating time was timed by an independent observer and patients (blinded for 2 weeks) self-reported VAS pain and tramadol use, which is appropriate and similar across arms, but day-of-operation pain was omitted, \"overall satisfaction\" is reported without any defined instrument or data, and complication/follow-up assessment by unblinded clinicians is not described.",
+        "evidence_quote": "\"An independent observer timed the operations.\" / \"the pain on the day of operation itself was not measured, so the request of some patients to be discharged in the afternoon following morning surgery should be interpreted with caution.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "There is no protocol or prospective registration, the a priori primary outcome (50 per cent pain reduction) was non-significant while recruitment was stopped early on the basis of observed interim variability and emphasis shifted to the significant secondary outcomes (operating time, analgesic requirement), and outcomes such as \"overall satisfaction\" are reported narratively without numerical data \u2014 indicating substantial risk of selective reporting and outcome-emphasis bias.",
+        "evidence_quote": "\"Initial power calculations suggested that a minimum of 28 patients would be required to achieve statistical significance with a power of 80 per cent at the 5 per cent significance level. However, it rapidly became apparent that postoperative pain variability was such that statistical difference, if present, would be achieved only with the recruitment of a prohibitively large sample size.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 5: the trial has no protocol/registration, was stopped early after the pre-specified primary outcome (50 per cent pain reduction) proved unattainable, and conclusions rest on secondary outcomes (operating time, analgesic requirement) with some outcomes (satisfaction) reported only narratively. Remaining domains raise some concerns because the randomization sequence generation, participant flow/diary completeness, and balance of operator grade are not reported, compounded by a very small sample (n=34), though patient blinding and independent timing of operations are methodological strengths."
+  },
+  {
+    "paper_id": "manual:a1f99ea8",
+    "paper_title": "47a94f71_British Journal of Surgery - 2007 - Muzi - Randomized clinical trial of LigaSure  and conventional diathermy",
+    "design_classification": "randomized",
+    "design_rationale": "Patients were explicitly allocated by a computer-generated randomization list with sealed opaque numbered envelopes: \"Patients were assigned randomly to undergo either diathermy or LigaSure\u2122 haemorrhoidectomy by means of a computer-generated list.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated allocation sequence with sealed opaque numbered envelopes opened only after induction of anaesthesia, and baseline characteristics (age, sex, haemorrhoid grade) were similar between groups.",
+        "evidence_quote": "\"Patients were assigned randomly ... by means of a computer-generated list. Allocations were sealed in opaque numbered envelopes. The code was broken on the day of surgery after the induction of anaesthesia.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons necessarily knew the allocated device and co-interventions/analgesia were on demand; patients were likely unblinded for self-reported pain, and no intention-to-treat analysis is described (34 patients excluded from analysis rather than analysed as randomized).",
+        "evidence_quote": "\"The code was broken on the day of surgery after the induction of anaesthesia... Thus, data for 250 patients (125 in the diathermy and 125 ...) were available for analysis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "34 of 284 randomized patients (12 per cent) were lost to follow-up and excluded from analysis, with no reasons given, no comparison of completers versus non-completers and no sensitivity analysis; the final group sizes being exactly 125/125 is also unexplained.",
+        "evidence_quote": "\"Twenty patients in the diathermy group and 14 in the LigaSure\u2122 group were lost to follow-up (Fig. 1).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "An independent blinded observer recorded data, but the primary outcomes (VAS pain, time off work) are patient-reported and patients were not described as blinded to the device used, and wound healing was assessed by clinical inspection with a subjective definition.",
+        "evidence_quote": "\"An independent observer, who was not from the operating team and was unaware of the treatment assignments, recorded all data\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol is cited, the primary outcome is not clearly designated among many outcomes, and some results are referred to but not shown (\"data not shown\"), with a power calculation (n=28) grossly discordant with the 284 enrolled.",
+        "evidence_quote": "\"both at discharge (P 0 01) (data not shown)\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were well executed, but concerns remain from the lack of patient blinding for subjective self-reported outcomes, 12 per cent loss to follow-up excluded without ITT analysis or sensitivity checks, and absence of a registered protocol/pre-specified primary outcome (with some results \"not shown\"). No single domain reached high risk, so the overall judgement is some concerns."
+  },
+  {
+    "paper_id": "manual:cb8e57e0",
+    "paper_title": "d9f6c6cb_s10350-004-6501-9",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although the abstract claims patients were \"prospectively randomly assigned,\" the Methods state that \"Sixty-one consecutively operated patients were alternatively allocated into a study group... or control group,\" i.e., alternation (quasi-randomization), which is not true random allocation with concealment.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "Alternation produced groups that were statistically comparable on age, sex, grade, bundle number and prior surgery, but no adjustment for confounders was performed and allocation was predictable, leaving residual confounding possible (e.g., non-significant gender imbalance, P=0.127).",
+        "evidence_quote": "\"The two groups were comparable in terms of age and gender distribution. Similarly, there was no significant difference between the groups in grade, number of hemorrhoid bundles, length of hospital stay, or history of previous anorectal surgery.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias in selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Consecutive eligible surgical patients were enrolled at the start of follow-up (surgery), but alternating allocation is foreseeable and could permit selective timing/entry of patients into a given arm; eligibility criteria and any exclusions are only briefly described.",
+        "evidence_quote": "\"Sixty-one consecutively operated patients were alternatively allocated into a study group ... or control group\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Both surgical techniques were clearly and prospectively defined and standardized, with no ambiguity about which intervention each patient received.",
+        "evidence_quote": "\"The technique of surgical hemorrhoidectomy was standardized in each case.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "All 61 allocated patients appear in the analysis tables, but the paper never explicitly reports loss to follow-up or missing VAS/time-off-work data over the 4-month follow-up.",
+        "evidence_quote": "\"There were 30 patients in the LigaSureTM group and 31 patients in the Ferguson group.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "All operations were performed by the same unblinded surgeon and patients/caregivers were aware of the technique, which could influence co-interventions (analgesia use was permitted \"when necessary\") and the subjective pain outcome; no crossovers or ITT analysis are reported.",
+        "evidence_quote": "\"All operations were performed by the same surgeon... They were also allowed intramuscular injection of pethidine (50 mg/ampule each time), when necessary\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "The primary outcome (VAS pain) is subjective and was reported by unblinded patients, while swelling was graded by unblinded inspection and time off work was self-reported, so knowledge of the \"novel\" intervention could readily bias outcome assessment; no blinding of patients or assessors is described.",
+        "evidence_quote": "\"Postoperative pain was evaluated by means of a visual analog scale (VAS), which was explained to the patients at the time their preoperative histories were taken... Postoperative swelling of wounds was evaluated by the inspection of the anal area on postoperative Day 7.\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "No protocol or prospective registration is cited and no primary outcome is designated among six listed variables with pain measured at four time points, so selective emphasis on the significant Day 1\u20132 results cannot be excluded, although all pre-listed variables do appear to be reported.",
+        "evidence_quote": "\"The variables compared were 1) operation performing time... 2) postoperative pain; 3) admission date; 4) postoperative swelling of the wound; 5) time of return to normal work; and 6) complications\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Despite the abstract's claim of randomization, allocation was by alternation (quasi-randomized, predictable), and the key outcome \u2014 self-reported VAS pain \u2014 was assessed in fully unblinded patients by an unblinded surgeon, driving a serious measurement-bias judgment. Combined with moderate concerns for confounding, participant selection, co-interventions/deviations, unreported attrition, and absence of a pre-specified protocol, the overall risk of bias is serious."
+  },
+  {
+    "paper_id": "manual:f97210f6",
+    "paper_title": "86e5b3e8_s10350-004-6754-3",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized clinical trial in which 34 consecutive patients were \"randomized into two groups by preoperative assignment of sealed envelopes,\" with 17 allocated to each arm.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sealed envelopes imply some concealment but the envelopes are not described as opaque, sequentially numbered, or generated by a stated random sequence method, and perfectly balanced 17/17 groups with 1:1 sex ratio in both arms raise questions about sequence generation.",
+        "evidence_quote": "\"Patients were randomized into two groups by preoperative assignment of sealed envelopes.\" ... \"There were no significant statistical differences in age, duration and type of clinical symptoms, or follow-up between the two groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and care staff necessarily knew the allocated device and no blinding of patients or post-operative assessors is described, which could influence co-interventions (e.g., analgesia) and self-reported pain; no mention of intention-to-treat analysis or crossovers, though all 34 randomized patients appear analyzed.",
+        "evidence_quote": "\"The same team of surgeons performed all operations.\" ... \"In the second group, tissue was coagulated by Ligasure\u2122 and then divided with scissors\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No flow of participants, losses to follow-up, or missing data at Day 14/3-month assessments are reported, so completeness of outcome data (especially later pain and incontinence scores) cannot be verified, although all randomized patients appear to be accounted for in the groups.",
+        "evidence_quote": "\"Seventeen patients were randomized into each group.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome is a subjective, self-reported pain score in an unblinded trial where patients and the single operating/assessing team knew the allocated device, so outcome ascertainment could readily be influenced by knowledge of the intervention; operating time measured by theatre staff is also unblinded.",
+        "evidence_quote": "\"Postoperatively, pain scores were documented with the visual analog scale from 1 to 10 (10 being most severe) on Day 1, after the first bowel movement, and subsequently on Day 14 in the outpatient clinic.\" ... \"Analgesic requirements were not measured in these groups because the pain scores were thought to be more objective and reliable in assessing postoperative pain.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol or analysis plan is referenced, the primary outcome is ambiguously defined (operating time and pain both powered), multiple pain time points are reported, and some pre-specified outcomes (blood loss, analgesic use) were explicitly not evaluated with post hoc justification.",
+        "evidence_quote": "\"Initial power calculations suggested that a minimum of 16 patients were required in each group to detect a difference of one standard deviation in mean operating time and pain score\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by unblinded measurement of a subjective self-reported pain outcome (D4) in a trial where patients and the single surgical/assessing team knew the allocated device. Additional some-concerns arise from incompletely described sequence generation/concealment, absence of participant flow and missing-data reporting, and the lack of a pre-specified protocol with multiple reported pain time points."
+  },
+  {
+    "paper_id": "manual:3b875817",
+    "paper_title": "7144137b_s10350-008-9214-7",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states patients were randomly allocated to two surgical arms: \"patients were randomly assigned by using the sealed envelope technique to the Ligasure\u2122 hemorrhoidectomy group ... or the conventional diathermy hemorrhoidectomy group\", with 55 patients per arm.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation used a \"sealed envelope technique\" implying some concealment, but the sequence generation method is not described (no mention of random number tables/computer generation), nor whether envelopes were opaque, sequentially numbered or centrally administered; baseline characteristics were nonetheless balanced and perfectly equal group sizes (55/55) raise a minor question about the allocation mechanism.",
+        "evidence_quote": "After preoperative evaluation and preparation for surgery, patients were randomly assigned by using the sealed envelope technique to the Ligasure\u2122 hemorrhoidectomy group (Ligasure\u2122 group) or the conventional diathermy hemorrhoidectomy group (diathermy group)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons were necessarily aware of the assigned device and no blinding of patients is described (patients self-reported pain, the primary subjective outcome, and wounds differed visibly), with no statement of intention-to-treat analysis or crossovers; however, anesthesia, operative technique and discharge medication were standardized, limiting co-intervention bias.",
+        "evidence_quote": "All operations were performed under a standardized spinal anesthesia technique with the patient in the prone jackknife position. A standardized, three-quadrant hemorrhoidectomy was performed in all patients."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 110 randomized patients appear to be accounted for in both groups at every reported time point (operative time, 7-day pain scores, 6-week healing, 3- and 6-month follow-up), with no losses to follow-up reported, although a formal flow diagram/attrition statement is absent.",
+        "evidence_quote": "At the end of the sixth postoperative week, complete healing of all wounds was observed in all patients in the Ligasure\u2122 group (100 percent) compared with 44 patients (80 percent) in the diathermy group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The principal outcomes (VAS pain scores, analgesic requirement, wound healing at six weeks) were subjective and assessed by unblinded patients and by the operating/clinic surgeon; only operative time was measured by an independent observer, and wound appearance would reveal the technique, so knowledge of the intervention could plausibly have influenced outcome assessment.",
+        "evidence_quote": "The operative time was calculated by an independent observer. Postoperatively, pain was assessed by using a Visual Analog Scale from 1 to 10 ... Follow-up was performed by inspection of the wound in the outpatient clinic on a weekly basis for the first six weeks"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or published protocol is cited, and although an a priori power calculation based on pain and operative time is reported, a primary outcome is not formally designated and multiple outcomes/time points (daily and weekly medians, several complication categories) are analysed, with one implausible reported P value (\"P=0\") suggesting imprecise analytic reporting.",
+        "evidence_quote": "A reduction in postoperative pain of 50 percent and in operative time of more than 30 percent were clinically relevant, and these were chosen as parameters with which to calculate the study power."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 4: the key outcomes (patient-reported VAS pain, analgesic use, and surgeon-inspected wound healing) were subjective and assessed without any blinding of patients or assessors in an unblinded surgical comparison. Additional some-concerns arise from incompletely described sequence generation within the sealed-envelope allocation, absence of an ITT statement, and lack of a registered protocol/pre-specified primary outcome."
+  },
+  {
+    "paper_id": "manual:7ae54892",
+    "paper_title": "5a232737_s101510200038",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 56 consecutive patients to LigaSure vs diathermy haemorrhoidectomy using sealed envelopes: \"Patients were randomised using sealed envelopes to undergo diathermy or LigaSure procedure.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation by sealed envelopes is described but the random sequence generation method is not reported and envelopes are not stated to be opaque or sequentially numbered, so concealment cannot be verified, although baseline characteristics appear balanced.",
+        "evidence_quote": "\"Patients were randomised using sealed envelopes to undergo diathermy or LigaSure procedure.\" ... \"There was no significant difference in the gender, age or degree of haemorrhoidal disease of the two groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The single operating surgeon was necessarily aware of the assigned technique and patient blinding is not described, with no statement of intention-to-treat analysis or of any cross-overs/deviations, though co-interventions (bowel regimen, analgesia protocol) were standardized across groups.",
+        "evidence_quote": "\"All operations were performed by the same surgeon (GM) under general anaesthesia.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 56 randomized patients appear to be accounted for in the analyses with 6-month follow-up reported, but there is no explicit flow of participants or statement about losses to follow-up, and inconsistent denominators (56 vs \"fifty-sixty\" vs 59) raise uncertainty about completeness.",
+        "evidence_quote": "\"Of the 56 patients with symptomatic prolapsed haemorrhoids, 29 were randomised to the LigaSure procedure and 27 were assigned to diathermy\" / \"Table 1 Characteristics of the 59 patients with prolapsed haemorrhoids\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Methods and measures (VAS pain, analgesic counts, healing by anoscopy) were applied identically and an independent blinded observer is claimed, but key subjective outcomes (pain, analgesic demand, return to work) were self-reported by patients whose blinding is never documented, and it is unclear whether the weekly wound-healing assessments were made by the blinded observer.",
+        "evidence_quote": "\"Outpatient follow-up was continued weekly until the wounds were completely healed, and six months after the operation by an independent observer, unaware of what kind of operation had been performed.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "There is no pre-registration or protocol, no designated primary outcome among many measured endpoints, p-values are reported inconsistently (analgesic use given as p<0.0001 in text vs p<0.001 in table, with two different tests reported for the same outcome), and the conclusions claim significantly shorter hospital stay and less pain despite the results showing these were non-significant, indicating selective reporting/spin.",
+        "evidence_quote": "\"No significant difference was seen in the postoperative pain score, complications rate, first bowel motion or hospital stay ... is followed by a faster wound healing time, a significantly shorter hospital stay, less postoperative pain and faster wound healing.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D5: there is no protocol or pre-specified primary outcome among numerous measured endpoints, p-values are internally inconsistent between text and table, and the abstract/discussion conclude in favour of LigaSure for hospital stay and pain despite these outcomes being explicitly non-significant. Additional \"some concerns\" arise across all other domains from an unreported sequence generation method, unblinded surgeon and unclear patient blinding for subjective outcomes, and absent participant flow/loss-to-follow-up reporting in this small (n=56) single-surgeon trial."
+  },
+  {
+    "paper_id": "manual:38d43634",
+    "paper_title": "7b1b498d_World j  surg - 2006 - Wang - Randomized Controlled Trial of LigaSure with Submucosal Dissection versus Ferguson",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that 84 consecutive patients were randomly allocated to LigaSure or Ferguson hemorrhoidectomy, with randomization performed at the time of anesthesia by selecting sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation used sealed envelopes at the time of anesthesia (plausible concealment), but the sequence generation method is not described and envelopes are not stated to be opaque, sequentially numbered; baseline characteristics were nonetheless well balanced.",
+        "evidence_quote": "\"Randomization was performed at the time of anesthesia by selecting sealed envelopes.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and ward staff were necessarily aware of the assigned technique and no blinding of patients or care providers is described (notably affecting subjective outcomes such as pain, analgesic administration, discharge, and return to work); no ITT or per-protocol analysis plan is reported, though all 84 patients appear analyzed as randomized.",
+        "evidence_quote": "\"The operative procedures for hemorrhoidectomy were standardized in each case by the same team of surgeons.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Complete follow-up at 1, 2, 4, 6 and 8 weeks is reported for all 84 randomized patients, with no losses described.",
+        "evidence_quote": "\"Follow-up was performed at 1, 2, 4, 6, and 8 weeks in all 84 patients to detect postoperative complications and time away from work or normal activity.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Pain was assessed by an \"independent assessor\" using a VAS, but it is not stated that the assessor or the patients were blinded to the procedure (incisions/sutures make the technique recognizable), and self-reported outcomes such as pain, analgesic need and return to work can be influenced by knowledge of the intervention.",
+        "evidence_quote": "\"The independent assessor evaluated the pain score by means of the visual analog score (0\u201310) 24 hours postoperatively.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol is cited and no primary outcome is explicitly designated (although an a priori power calculation based on pain and operating time is reported); additionally, the blood-loss value differs between abstract/text (0.6 ml) and Table 2 (1.8 ml), suggesting imprecise reporting.",
+        "evidence_quote": "\"Pain reduction of 50% and operating time reduced by more than 30% were clinically relevant, so these limits were chosen as parameters by which to calculate the study power.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This randomized trial had balanced baseline groups and complete follow-up, but the randomization sequence generation is unspecified, patients/surgeons were unblinded for subjective outcomes (pain, analgesic use, hospital stay, return to work), assessor blinding is not confirmed, and there is no protocol/registration plus an internal inconsistency in reported blood loss. These issues yield an overall judgment of some concerns."
+  }
+]

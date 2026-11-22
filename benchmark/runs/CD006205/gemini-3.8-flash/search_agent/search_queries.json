@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of elective (immediate, prophylactic) neck dissection compared with therapeutic (delayed, watchful waiting with dissection on relapse) neck dissection on disease-free survival, defined as the time to new disease, disease progression or death, in adults with early-stage oral cavity (including oral tongue) squamous cell carcinoma and a clinically node-negative neck?  Effect measure: pool as a hazard ratio (HR) using a random-effects model on the log hazard ratio. HR < 1 means longer disease-free survival with elective neck dissection (favours elective).  Outcome: disease-free survival (also called event-free, relapse-free or recurrence-free survival), where events are recurrence or progression or death from any cause, as a hazard ratio with its 95% confidence interval comparing elective with therapeutic neck dissection. - Use the hazard ratio and 95% confidence interval reported in the paper, preferring the intention-to-treat analysis and the longest follow-up. Convert the confidence interval to a standard error of the log HR. - If a paper reports only a hazard ratio for overall survival or for death, do not use it for this outcome; look for the disease-free or event-free survival hazard ratio instead. - If a paper does not report a hazard ratio for disease-free survival but gives a log-rank test with an observed/expected event count, or numbers of events per arm together with a log-rank p-value, estimate the hazard ratio and its variance from those data using the standard indirect methods (Peto's O-E/V or Parmar's methods), and state which method was used. If neither a hazard ratio nor those statistics are reported, leave the study out rather than estimating it. - Orient the HR as elective versus therapeutic, and invert it (HR to 1/HR, with the interval swapped) if the paper reports therapeutic versus elective. - Assign arms by treatment description: elective = neck dissection performed at the time of primary tumour surgery; therapeutic = observation followed by neck dissection only if nodes appear. - Include only randomised controlled trials in adults. Exclude single-arm studies, non-randomised comparisons and trials of radiotherapy or sentinel node biopsy only.  Do not pool overall survival alone, locoregional recurrence, recurrence rates, adverse events or quality of life.",
+  "planned_search_queries": [
+    "elective neck dissection oral cancer randomized trial",
+    "prophylactic neck dissection oral squamous cell carcinoma survival trial",
+    "elective vs therapeutic neck dissection early oral tongue trial outcome"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "elective versus therapeutic neck dissection oral cancer trial survival outcome",
+    "prophylactic neck dissection observation early oral squamous cell carcinoma disease-free survival trial",
+    "elective neck dissection watchful waiting clinically node-negative oral cancer comparison",
+    "immediate versus delayed neck dissection early stage oral cancer controlled trial",
+    "elective neck dissection cN0 oral tongue squamous cell carcinoma recurrence-free survival trial"
+  ]
+}

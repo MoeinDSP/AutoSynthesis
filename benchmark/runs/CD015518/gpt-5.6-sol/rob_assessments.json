@@ -1,0 +1,554 @@
+[
+  {
+    "paper_id": "manual:95f7c4d8",
+    "paper_title": "17275b40_5623.full",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports computer-generated 1:1:1 random assignment after baseline assessment, with the sequence executed by a clinical research unit and concealed from the project team.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, implemented independently, and concealed from the project team, with no clearly implausible baseline imbalances reported.",
+        "evidence_quote": "After baseline assessments, the patients were assigned randomly (1:1:1) to RT, ET or SC using a computer-generated program. The allocation sequence was executed by the clinical research unit and concealed from the project team."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The open behavioral interventions could not blind participants or therapists, and the per-protocol analysis excluded participants who attended less than 70% of sessions rather than preserving randomized assignment, making intervention-related deviations likely to bias estimated effects.",
+        "evidence_quote": "The analyses included data of patients who attended a minimum of 70% of the training sessions according to protocol."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Fourteen of 81 randomized participants were excluded, with markedly differential dropout across groups (especially ET), and no analysis or evidence showed that missingness was unrelated to outcomes.",
+        "evidence_quote": "Due to chemotherapy-related side-effects or withdrawal of consent, 14 out of 81 patients dropped out: three withdrew from the RT, nine from the ET and two from the SC groups. The data of 67 patients were fully evaluable (21 patients in the RT, 20 in the ET and 26 in the SC groups)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated or standardized outcome instruments and common procedures were used across groups, but participant-reported outcomes were necessarily unblinded and assessor blinding for performance tests was not reported, allowing knowledge of assignment to influence measurements.",
+        "evidence_quote": "Primary end-points of this trial were muscular strength in newton meters at latissimus pull down, bench press and leg press, endurance, and subjective perceived exertion during endurance stress test (Borg scale) and QoL assessed using measured by standardized report form of the European Organization for Research and Treatment of Cancer (EORTC QLQ) C30+BR23 at T1 and T2."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No preregistration or prespecified analysis plan is reported, numerous outcomes and subscales were measured, and the analysis emphasizes within-group tests rather than clearly prespecified randomized between-group contrasts, creating substantial scope for selective reporting or analysis.",
+        "evidence_quote": "Primary end-points of this trial were muscular strength in newton meters at latissimus pull down, bench press and leg press, endurance, and subjective perceived exertion during endurance stress test (Borg scale) and QoL assessed using measured by standardized report form of the European Organization for Research and Treatment of Cancer (EORTC QLQ) C30+BR23 at T1 and T2."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by per-protocol rather than intention-to-treat analysis, substantial and differential missing outcome data, and extensive analytic/reporting flexibility without a reported prespecified analysis plan. Additional concerns arise from unblinded participant-reported outcomes and unreported assessor blinding."
+  },
+  {
+    "paper_id": "manual:62b96bd1",
+    "paper_title": "7bfccbe3_annonc%2Fmdu374",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1 using predetermined randomization lists with random block sizes, stratified by age and baseline physical fatigue, by an independent biometrician.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used random blocks with stratification, was generated and implemented by an independent biometrician, and was concealed from study personnel; reported baseline characteristics were generally balanced.",
+        "evidence_quote": "Allocation was done by a biometrician who was not involved in the recruitment procedure, based on predetermined lists with a random block size, stratified by age and baseline physical fatigue level. Study personnel did not have access to the randomization lists."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers necessarily knew whether resistance exercise or relaxation was delivered, but adherence was similar, no important intervention-related deviations were reported, and the analysis was described as intention-to-treat although it used complete cases for the primary endpoint.",
+        "evidence_quote": "Adherence was similar in both groups. Of 24 scheduled sessions, the median attended number was 19 (QR: 13\u201323, range 1\u201324) in EX and 19 (QR: 12\u201322, range 0\u201324) in RC."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary fatigue outcome data were available for 97% of randomized participants, with similarly small losses in the two groups, making material bias from missing data unlikely.",
+        "evidence_quote": "Pre- and postintervention assessment of the primary end point was available in a total of 155 (97%) participants, 77 in EX and 78 in RC."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Fatigue was measured consistently with a validated questionnaire, but it was self-reported and participants could not be blinded to their behavioral intervention, so knowledge of assignment could have influenced responses.",
+        "evidence_quote": "Fatigue was assessed with the Fatigue Assessment Questionnaire (FAQ), a 20-item, self-assessment questionnaire validated for a Germanspeaking population."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the primary endpoint was specified, but the report does not establish that a prespecified analysis plan was finalized before unblinded analysis, and multiple fatigue dimensions, QoL outcomes, and analyses create some opportunity for selective reporting.",
+        "evidence_quote": "The study was approved by the ethics committee of the University of Heidelberg and registered at ClinicalTrials.gov (NCT01468766)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Randomization and outcome completeness were strong, but unblinded self-reported fatigue could be influenced by knowledge of intervention assignment, and the available report leaves some uncertainty about deviations/complete-case ITT handling and prespecification of analyses."
+  },
+  {
+    "paper_id": "manual:6aba5ebd",
+    "paper_title": "0f775033_cncr.31962",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated after baseline testing by computer randomization, stratified by study site and BMI, using blocks of 6.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated, stratified block randomization was used and baseline characteristics were broadly similar, but the report does not explicitly state that the allocation sequence was concealed from recruiters or participants until enrollment and assignment.",
+        "evidence_quote": "Results were entered into an online, secured database, and computer randomization allocated participants to either the intervention or the control, stratified by study site and a BMI > 30 kg/m2, in block sizes of 6."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants could not be blinded, control-group contamination was substantial, and intervention adherence was incomplete, although the primary analysis was intention-to-treat and sensitivity analyses did not change interpretation.",
+        "evidence_quote": "Finally, nearly 40% of the control group reported participation in regular exercise containing strength training during the intervention."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Missing outcomes were handled using multiple imputation with auxiliary variables, and complete-case and worst/best-case sensitivity analyses reportedly produced no new interpretation, reducing concern that missingness biased the result.",
+        "evidence_quote": "Missing data were addressed with multiple imputation, with age and education as auxiliary variables. In sensitivity analyses, we assessed the effect in complete cases, the possible effect of dropouts with worst and best case scenarios."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was measured objectively and consistently by trained physiotherapists blinded to allocation using a reported sensitive and replicable water-displacement method.",
+        "evidence_quote": "Measurements were made at the baseline and at a 12-month follow-up by physiotherapists blinded to group allocation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the primary outcome and main modeling strategy are described, but the provided report does not establish adherence to a prespecified statistical analysis plan despite multiple outcome definitions, adjustment models, and sensitivity analyses.",
+        "evidence_quote": "LYCA was approved by the ethics committee of the Capital Region of Denmark (H-15002714) and was registered at ClinicalTrials.gov (NCT02518477) before recruitment."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by unclear allocation concealment, participant awareness with notable control-group exposure to strength training, and incomplete evidence that all reported analyses were prespecified. Blinded objective outcome assessment, intention-to-treat analysis, multiple imputation, and robust sensitivity analyses mitigate other risks."
+  },
+  {
+    "paper_id": "manual:f43892b6",
+    "paper_title": "686fcd64_ecc.13355",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated using predetermined lists with block randomization stratified by baseline physical fatigue and age.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Block randomization with stratification was reported and analysed groups appeared similar, but the method used to generate the predetermined lists and allocation concealment were not described.",
+        "evidence_quote": "Group allocation was performed using predetermined lists with block randomisation and stratification by baseline physical fatigue level and age."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and therapists necessarily knew the assigned exercise, adherence was monitored, but the reported per-protocol complete-case analysis excluded randomized participants and no intention-to-treat analysis was used to estimate the effect of assignment.",
+        "evidence_quote": "Per-protocol analysis was performed on the collected data."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Post-intervention outcomes were available for 132 of 146 randomized participants (90.4%), with slightly different attrition between groups, but reasons for loss and evidence that missingness was unrelated to outcomes were not reported.",
+        "evidence_quote": "After the 12-week chemoradiotherapy, 65 and 67 patients in the resistance exercise and relaxation control group respectively completed the study and underwent post-intervention assessments."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated fatigue and quality-of-life instruments were applied across groups, but key outcomes were patient-reported in an unblinded behavioral trial and assessor blinding for clinician-rated complications was not reported, allowing knowledge of assignment to influence measurements.",
+        "evidence_quote": "Quality of life was assessed by patients using self-reported score using the EORTC QLQ-30 form (version 3.0; Kaasa et al., 1995)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan was reported, while numerous complications, fatigue subscales, quality-of-life domains, time points, and statistical procedures created scope for selective reporting or analysis.",
+        "evidence_quote": "p values were derived from unpaired Student's t test or Mann\u2013 Whitney test, and a value of less than 0.05 was considered statistically significant."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven chiefly by use of a per-protocol complete-case analysis rather than an intention-to-treat analysis after randomization. Additional concerns arise from unreported allocation concealment, unexplained missing outcomes, unblinded outcome measurement, and absence of a preregistered analysis plan."
+  },
+  {
+    "paper_id": "manual:b28dfc85",
+    "paper_title": "fdc68a13_ijc.29383",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1 using predetermined lists with random block sizes, stratified by age and baseline physical fatigue, by an independent biostatistician.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was generated with random block sizes and concealed from recruiting personnel, but a statistically significant baseline imbalance in depression raises some concern despite otherwise similar baseline characteristics.",
+        "evidence_quote": "Allocation was performed by a biostatistician uninvolved in recruitment, based on predetermined lists with random block size, stratified by age and baseline physical fatigue level. Other study personnel did not have access to the randomization lists."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists necessarily knew the behavioral intervention received, attendance was only 71%, and although analysis was described as ITT, it excluded two randomized participants and used complete cases; however, adherence was similar across groups and no important intervention-related deviations were reported.",
+        "evidence_quote": "Median attendance was similar in both groups, with 17 out of 24 scheduled sessions attended (71%; interquartile range 11\u201322 in EX and 11\u201323 in RC)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary-outcome follow-up was nearly complete, fatigue data were only 3% missing, and multiple-imputation sensitivity analyses did not materially alter results.",
+        "evidence_quote": "As very few fatigue values were missing (3%), we performed complete-case analyses. Sensitivity analyses using multiple imputation algorithms (SAS PROC MI and MIANALYSE) or ANCOVA models adjusted for randomization strata yielded no substantial changes in the results."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Fatigue and quality of life were measured consistently with validated instruments, but they were self-reported and participants could not be blinded, so knowledge of assignment could influence responses.",
+        "evidence_quote": "Fatigue was self-assessed using the validated 20-item multidimensional Fatigue Assessment Questionnaire (FAQ)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial was registered and total fatigue was prespecified as primary, the conclusions emphasize statistically significant findings from a post-randomization subgroup excluding depressed patients and multiple exploratory QoL and effect-modification analyses without multiplicity adjustment, creating substantial risk of selective emphasis among many eligible results.",
+        "evidence_quote": "The secondary analyses on QoL, depression and cognitive function were exploratory, without adjustment for multiple comparisons."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven chiefly by selective reporting/emphasis of statistically significant subgroup and exploratory outcomes amid numerous analyses without multiplicity adjustment. Additional concerns arise from the baseline depression imbalance, incomplete adherence/modified ITT implementation, and unblinded self-reported outcomes."
+  },
+  {
+    "paper_id": "manual:5278b447",
+    "paper_title": "628ce059_j.apmr.2014.08.010",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports random allocation to two parallel intervention groups after baseline testing, with stratification by ADT duration and aerobic activity.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization was explicitly stratified and performed after baseline testing, and measured baseline characteristics were similar, but the sequence-generation method and allocation-concealment mechanism were not reported.",
+        "evidence_quote": "Randomization was stratified by length of ADT use (>1 or <1 year) and current aerobic activity ... and occurred after baseline testing."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily experienced visibly different exercise programs, adherence differed between groups, and two POWIR participants required modification, although both groups received equal prescribed contact and the primary analysis was intention-to-treat using all available data.",
+        "evidence_quote": "Attendance at supervised sessions averaged 83% and 67% and at home sessions averaged 49% and 50% for POWIR and FLEX, respectively."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Overall retention was 84% and differential attrition favored POWIR (90% versus 75%), with missingness caused partly by recurrence and poor health and explicitly acknowledged as potentially not missing at random, so bias from missing outcomes is plausible despite maximum-likelihood analysis and sensitivity analyses.",
+        "evidence_quote": "Missing data may not have been missing at random (MAR) because disease recurrence and poor health could be related to poorer strength and functional outcomes."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome instruments and objective testing procedures were appropriate and trained technicians were blinded, but important physical-function and disability outcomes were self-reported by participants who could not be blinded to their visibly different exercise condition.",
+        "evidence_quote": "Tests were administered by trained technicians blinded to group assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the analysis approach was described, but these outcomes were secondary endpoints and multiple instruments, subscales, time contrasts, covariate-adjusted analyses, completer analyses, and mediation analyses were available without a cited prespecified analysis plan for this report.",
+        "evidence_quote": "The purpose of this paper is to report on secondary endpoints of that study, including muscle strength, physical function and disability."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because differential and potentially outcome-related missing data created a high risk in the missing-outcome-data domain. Additional concerns arise from incompletely reported allocation methods, lack of participant blinding with subjective outcomes, adherence differences, and analytic/reporting flexibility for secondary endpoints."
+  },
+  {
+    "paper_id": "manual:fe9af1c4",
+    "paper_title": "4366eb84_jco.2003.09.534",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to resistance exercise or waiting-list control using a table of random numbers, with stratification by center and treatment intent.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated with a random-number table, stratified on center and treatment intent, concealed until baseline testing and stratification were complete, and measured baseline characteristics were generally balanced.",
+        "evidence_quote": "Randomization, performed using a table of random numbers, was stratified according to center (Ottawa or Edmonton) and intent of treatment (curative or palliative). The treatment allocation was concealed from the study coordinator until completion of baseline testing and stratification."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were unblinded and the exercise group received substantial supervised attention unavailable to controls, creating potential performance or attention effects, although adherence was good and an intention-to-treat analysis was reported.",
+        "evidence_quote": "No blinding of patients was used in treatment group assignment, and they were immediately informed about their group assignment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were missing for 12.9% of randomized participants, with somewhat greater dropout in controls, and missing values were handled by baseline observation carried forward, which can bias treatment estimates despite the intention-to-treat approach.",
+        "evidence_quote": "Overall, end-oftreatment (12-week) data were available for 135 of 155 men (87.1%)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary fatigue and quality-of-life outcomes were self-reported by participants who necessarily knew their assignment, and the unequal attention and expectations could plausibly influence these subjective measurements despite blinded scoring.",
+        "evidence_quote": "The primary outcomes were fatigue and disease-specific quality of life as assessed by self-reported questionnaires after 12 weeks."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes and the main change-score comparison were specified, but no protocol or prospective registration is reported and multiple outcome scales, subscales, and analyses leave some potential for selective reporting.",
+        "evidence_quote": "The primary outcomes were fatigue and health-related quality of life. Secondary outcomes were muscular fitness and body composition."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the principal outcomes were subjective self-reports from participants aware of assignment in an unblinded waiting-list trial with unequal attention. Additional concerns arise from 12.9% missing follow-up data handled by baseline observation carried forward and the absence of a reported protocol or registration."
+  },
+  {
+    "paper_id": "manual:ca27e2e7",
+    "paper_title": "f9d2e1e2_JCO.2006.08.2024",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned in a 1:1:1 ratio using a computer-generated randomization program, with stratification by center and chemotherapy protocol.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer generated, stratified, and concealed from the site personnel assigning participants, and reported baseline characteristics were balanced across groups.",
+        "evidence_quote": "Participants were stratified by center and chemotherapy protocol (taxane based v non\u2013taxane based) and randomly assigned to AET, RET, or UC in a 1:1:1 ratio using a computer-generated program. The allocation sequence was generated in Edmonton and concealed from the project directors at each site who assigned participants to groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and exercise personnel necessarily knew the assigned behavioral intervention, exercise adherence averaged about 70%, and a small amount of nonprotocol exercise occurred, although contamination did not differ by group and analyses followed intention to treat.",
+        "evidence_quote": "The AET and RET groups attended 72.0% (2,685 of 3,750 sessions) and 68.2% (2,810 of 4,079 sessions) of their supervised exercise sessions, respectively... Less than 15% of participants reported regular exercise outside of the trial, which did not differ by group (P > .2)... For all analyses, we used the intent-to-treat principle."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary patient-reported outcome data were available for 92.1% of randomized participants, follow-up did not differ by group, and mixed models incorporated available data, making important bias from missingness unlikely.",
+        "evidence_quote": "We obtained follow-up data on the patient-rated outcomes from 223 (92.1%) of 242 participants (Fig 1), which did not differ by group (P = .379)... Available data for participants with missing data were included under the missing at random assumption of the mixed-model analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome was measured with a validated scale in the same way across groups, but it was self-reported by participants who necessarily knew whether they had received supervised exercise, so outcome ratings could have been influenced by assignment.",
+        "evidence_quote": "Cancer-specific QOL and fatigue were assessed by the Functional Assessment of Cancer Therapy\u2013Anemia scale."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and main analysis are identified, but no prospective registration or prespecified analysis plan is reported, and numerous outcomes and adjusted and unadjusted analyses created scope for selective reporting.",
+        "evidence_quote": "Our primary analysis was unadjusted, but we also performed adjusted analyses... Moreover, given the 22 group comparisons we made at the [alpha] = .05 level, we would expect one false discovery by chance if all of these comparisons were actually null."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Randomization, allocation concealment, baseline balance, retention, and intention-to-treat analysis were strong, but lack of participant blinding for self-reported outcomes, incomplete intervention adherence, and absence of reported prospective registration or a prespecified analysis plan raise concerns."
+  },
+  {
+    "paper_id": "manual:69390214",
+    "paper_title": "bf7a5fb8_jco.2007.15.4963",
+    "design_classification": "randomized",
+    "design_rationale": "This was a three-arm randomized controlled trial using a computer-generated allocation sequence, stratification by intended ADT duration, and central concealed assignment.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer generated, stratified by intended ADT duration, centrally administered, and concealed before assignment, with groups reported as balanced at baseline.",
+        "evidence_quote": "Central random assignment was used, with allocation concealment before assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their behavioral assignment and there was meaningful nonprotocol exercise across all groups, including usual-care crossover, although adherence was high and intention-to-treat analysis was used.",
+        "evidence_quote": "Overall, 18 (15%) of 121 participants reported regular exercise outside treatment group assignment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary-outcome follow-up was 92.6%, loss to follow-up was similar across groups, and mixed-model intention-to-treat analysis was used, making important bias from missing fatigue data unlikely.",
+        "evidence_quote": "We obtained follow-up data from 112 (92.6%) of 121 participants. Loss to follow-up was similar between groups."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary fatigue outcome used a validated instrument and was assessed identically across groups, but it was self-reported by participants who could not be blinded to exercise assignment, so expectations could influence responses.",
+        "evidence_quote": "Fatigue, PCa-specific, and cancer-specific QOL were assessed by the Functional Assessment of Cancer Therapy\u2013Fatigue (FACT-Fatigue), Prostate (FACT-P), and General (FACT-G) scales, respectively."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and planned contrasts were described a priori, but no trial registration or accessible prespecified analysis plan is reported, and numerous outcomes, time points, adjusted and unadjusted models, and pairwise comparisons leave some potential for selective reporting.",
+        "evidence_quote": "For the patient-rated outcomes assessed at baseline, midpoint, and postintervention, we used contrasts defined a priori to examine changes between baseline and midpoint (12 weeks) and baseline and post-test (24 weeks) for each outcome and to compare group differences in mean change."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. Randomization and outcome completeness were strong, but unblinded self-reported fatigue, nonprotocol exercise/crossover, and the absence of a reported registration or fully accessible prespecified analysis plan create concerns about deviations, measurement, and selective reporting."
+  },
+  {
+    "paper_id": "manual:a8dc451a",
+    "paper_title": "69faf3d9_MPA.0000000000001221",
+    "design_classification": "randomized",
+    "design_rationale": "After baseline assessment, patients were allocated within distance-defined strata using 2:1 block randomization generated by a computerized random-number generator, with stratification by sex and age and implementation by an independent statistician.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated, stratified block sequence prepared by an independent statistician supports random sequence generation, but concealment until enrollment/assignment is not explicitly described and distance determined eligibility for RT1 versus RT2, limiting the validity of direct comparisons between those exercise groups.",
+        "evidence_quote": "A 2:1 block randomization with a computerized random-number generator was used to allocate patients to the corresponding groups... Randomization was stratified by sex and age and was done by an independent statistician."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention personnel could not be blinded, adherence was incomplete, possible control-group contamination was acknowledged, and although analyses were called intention-to-treat, only participants with postintervention assessments appear to have contributed, so the analysis did not preserve all randomized participants.",
+        "evidence_quote": "Differences among the groups with changes in physical fitness from preintervention to postintervention on an intent-to-treat basis were conducted with analyses of covariance... Preintervention and post intervention assessments of muscle strength and cardiorespiratory fitness were available in a total of 43 patients (66.2%)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 43 of 65 randomized participants (66.2%) had pre/post physical-fitness data, with losses caused partly by withdrawal, disease progression, and death, and no appropriate missing-data analysis established that results were robust to potentially outcome-related missingness.",
+        "evidence_quote": "Of 65 patients, 43 patients were analyzed... Reasons for premature dropout were withdrawal (n = 11), disease progression (n = 3), and death (n = 3)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Muscle strength and fitness were measured with objective, standardized instruments across groups, but assessor blinding to treatment assignment was not reported and some measures involved assessor-dependent procedures or participant effort that could be influenced by intervention knowledge.",
+        "evidence_quote": "Muscle strength was assessed with an isokinetic dynamometer... Ventilatory threshold was determined according to the V-slope method by 2 independent assessors."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered, but the report assessed many muscle groups with several measurement methods and multiple pairwise analyses, explicitly exploratory and without multiplicity adjustment, while no prespecified analysis plan is provided to exclude selective choice among eligible results.",
+        "evidence_quote": "As the presented analyses on muscle strength and cardiorespiratory fitness were exploratory, no adjustment for multiple testing was performed."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall RoB 2 risk is high, driven by substantial missing outcome data (only 43/65 randomized participants analyzed) with attrition related partly to disease progression and death and no convincing analysis addressing missingness. Additional concerns involve unreported allocation concealment and assessor blinding, incomplete adherence/possible contamination, and multiple exploratory outcomes and analyses."
+  },
+  {
+    "paper_id": "manual:648c166b",
+    "paper_title": "f37bd2b1_s00277-020-03921-x",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly used stratified 1:1 random allocation generated by a computer-assisted pseudo-random number generator, with assignment concealed in sequentially numbered, sealed, opaque envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, stratified, and concealed using sequentially numbered, sealed, opaque envelopes opened only after consent, and the limited baseline differences are plausible in this small trial.",
+        "evidence_quote": "Randomization in blocks of 10 was based on a computer-assisted pseudo-random number generator (Research Randomizer, Version 4.0). Allocation was implemented by sequentially numbered, sealed, opaque envelopes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and intervention personnel necessarily knew assignment in this behavioral exercise trial, and the reported per-protocol analysis excluded many randomized participants rather than estimating assignment effects by intention-to-treat, creating substantial potential bias from deviations and post-randomization exclusions.",
+        "evidence_quote": "As 18 patients did not participate in post-intervention assessment and follow-up data from 9 patients was not collectible, we present a per-protocol (PP) analysis of 44 patients who completed at least two of three measurement sessions."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for a large proportion of the 71 randomized participants (only 44 entered the per-protocol analysis), and no convincing analysis showed that missingness was unrelated to outcomes or that results were robust to it.",
+        "evidence_quote": "As 18 patients did not participate in post-intervention assessment and follow-up data from 9 patients was not collectible, we present a per-protocol (PP) analysis of 44 patients who completed at least two of three measurement sessions."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome VO2peak was measured objectively and comparably by cardiopulmonary exercise testing, but assessor blinding was not reported and several secondary outcomes were self-reported and could have been influenced by participants' knowledge of their exercise assignment.",
+        "evidence_quote": "Peak oxygen consumption (VO2peak) VO2peak (l/min) was measured during maximum cardiopulmonary exercise test (CPET)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although a trial registration is cited, no prespecified protocol or analysis plan is presented, and the paper reports many outcomes, time points, within-group and between-group comparisons after replacing the planned primary regression approach with broad nonparametric per-protocol testing, creating substantial opportunity for selective reporting.",
+        "evidence_quote": "As the assumption of normal distribution (Shapiro-Wilk test) was not satisfied and because of a 38% dropout rate, all variables and endpoints were included in non-parametric perprotocol analysis."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the exclusion of a large share of randomized participants in a per-protocol analysis, extensive missing outcome data without evidence that missingness was non-informative, and substantial flexibility in outcome and analysis reporting. Objective primary-outcome measurement and an adequately described randomization process do not offset these high-risk domains."
+  },
+  {
+    "paper_id": "manual:96a5b009",
+    "paper_title": "dece0d61_s41391-020-0259-6",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:1:1 using computer-generated numbers to HIIT, resistance training, or usual care.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated and observed baseline characteristics were comparable, but allocation concealment was not described and the principal investigator performed allocation.",
+        "evidence_quote": "Included subjects were randomly assigned in a 1:1:1 manner, using computer-generated numbers (JMP Pro 12 software), to either HIIT, RES or UC groups. ... The principal investigator (PI) allocated the subjects."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention personnel necessarily knew assignment, and six randomized early dropouts were excluded despite the stated intention-to-treat approach; however, adherence was high and no important intervention-related deviations were otherwise reported.",
+        "evidence_quote": "Six of them who never showed up for the baseline testing and intervention were considered as \u201cearly dropouts\u201d and were not included in the analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were complete for the 72 analyzed participants, but six of 78 randomized participants were excluded and their allocation and reasons by group were not sufficiently reported to establish that missingness could not bias results.",
+        "evidence_quote": "Among the 84 potentially eligible patients, 78 subjects were randomized... Six of them who never showed up for the baseline testing and intervention were considered as \u201cearly dropouts\u201d and were not included in the analyses. Seventy-two PCa patients completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary fatigue outcome was self-reported in an unblinded behavioral intervention, so participants' knowledge of assignment could plausibly influence outcome ratings; the study also explicitly reported no blinded assessor.",
+        "evidence_quote": "The primary outcome was CTRF evaluated with the Functional Assessment of Chronic Illness Therapy\u2013Fatigue (FACIT-F)... All questionnaires were self-reported... Firstly, there was no blind assessor to evaluate outcomes."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and identified a primary outcome, but the supplied report does not establish that the detailed outcome measurements and analysis plan were prespecified before unblinded data analysis.",
+        "evidence_quote": "This study was registered at clinicaltrials.gov (NCT03252821)... The primary outcome was CTRF evaluated with the Functional Assessment of Chronic Illness Therapy\u2013Fatigue (FACIT-F)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the unblinded self-reported primary fatigue outcome, which could readily be influenced by knowledge of assignment. Additional concerns arise from unclear allocation concealment and exclusion of six randomized participants from the stated intention-to-treat analysis."
+  }
+]

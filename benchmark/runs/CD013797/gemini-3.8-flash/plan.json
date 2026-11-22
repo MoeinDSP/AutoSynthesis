@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of adding a long-acting beta2 agonist (LABA) to a medium dose of inhaled corticosteroid (ICS), as a combination inhaler or separate inhalers, compared with the same medium dose of ICS alone, on moderate-to-severe asthma exacerbations in adolescents and adults (aged 12 or over) with uncontrolled asthma despite medium-dose ICS?",
+  "treatment_label": "medium-dose ICS plus LABA",
+  "control_label": "medium-dose ICS alone",
+  "outcome_description": "Number of participants experiencing at least one moderate or severe asthma exacerbation (defined as requiring systemic corticosteroids, emergency department visit, or hospitalization, or trial-defined moderate/severe exacerbation) out of the total participants randomized in each arm over the treatment period.",
+  "positive_direction": "Fewer participants experiencing moderate-to-severe asthma exacerbations with medium-dose ICS plus LABA compared to medium-dose ICS alone (RR < 1, favoring combination therapy)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "asthma medium dose inhaled corticosteroid LABA exacerbation randomized trial",
+    "ICS LABA combination versus ICS alone asthma exacerbations controlled trial",
+    "budesonide fluticasone formoterol salmeterol moderate severe asthma exacerbation trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials of at least 12 weeks duration in adolescents and adults (aged 12 years or older) with asthma uncontrolled on medium-dose ICS",
+    "Comparison between a medium-dose inhaled corticosteroid (ICS) plus a long-acting beta2-agonist (LABA) versus the same medium-dose ICS alone",
+    "Quantitative reporting of the number of participants with at least one moderate or severe asthma exacerbation per randomized arm (intention-to-treat)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial (systematic reviews, meta-analyses, observational studies, editorials, and review articles are excluded)",
+    "No direct comparison between medium-dose ICS plus LABA and the identical medium-dose ICS alone (e.g. trials comparing different baseline ICS doses, high-dose ICS arms, or adding LAMA)",
+    "No quantitative event count data for participants with at least one moderate-to-severe asthma exacerbation (e.g. reporting only annualised event rates, rate ratios, or lung function alone without dichotomous event counts)",
+    "Studies conducted in pediatric populations under 12 years of age or in populations without asthma (e.g. COPD)"
+  ],
+  "moderators_to_extract": [
+    "Specific ICS molecule (e.g. fluticasone propionate, budesonide, beclomethasone dipropionate)",
+    "Specific LABA molecule (e.g. salmeterol, formoterol)",
+    "Inhaler regimen (fixed-dose single combination inhaler vs separate inhalers)",
+    "Trial duration in weeks (e.g. 12 to 24 weeks vs >24 weeks)",
+    "Baseline exacerbation history / severity requirements at study entry"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as risk ratio (RR) using a random-effects model, comparing participants with at least one moderate-to-severe exacerbation in the ICS plus LABA arm versus the ICS alone arm (RR < 1 favours combination therapy).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "moderate-to-severe asthma exacerbations"
+}

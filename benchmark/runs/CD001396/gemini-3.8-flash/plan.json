@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of selective serotonin reuptake inhibitors (SSRIs), administered either continuously or in the luteal phase, compared with placebo, on self-rated overall premenstrual symptom severity at the end of treatment in women with PMS or PMDD?",
+  "treatment_label": "SSRI (continuous or luteal-phase)",
+  "control_label": "Placebo",
+  "outcome_description": "Self-rated overall (total) premenstrual symptom severity score measured on validated scales at the end of treatment",
+  "positive_direction": "Greater reduction in overall self-rated premenstrual symptoms favoring SSRI over placebo",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "SSRI premenstrual dysphoric disorder randomized controlled trial",
+    "selective serotonin reuptake inhibitor premenstrual syndrome trial outcome",
+    "fluoxetine sertraline premenstrual symptoms placebo comparison"
+  ],
+  "inclusion_criteria": [
+    "Women diagnosed with premenstrual syndrome (PMS) or premenstrual dysphoric disorder (PMDD)",
+    "Randomized or controlled clinical trials comparing an SSRI (continuous or luteal-phase dosing) to placebo",
+    "Quantitative assessment of post-treatment self-rated overall premenstrual symptom severity on a validated instrument"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded)",
+    "No comparison between an SSRI treatment arm and a placebo control condition",
+    "No quantitative outcome data that can produce an effect size for self-rated overall premenstrual symptom severity (means and SDs, change scores, or test statistics required)",
+    "Studies evaluating only non-SSRI pharmacotherapies or reporting exclusively clinician-rated scales, single isolated symptoms, functioning, or adverse events without overall symptom totals"
+  ],
+  "moderators_to_extract": [
+    "Dosing regimen (luteal-phase vs continuous)",
+    "Specific SSRI agent (e.g., fluoxetine, sertraline, paroxetine, escitalopram, citalopram)",
+    "Diagnostic category (PMDD vs PMS)",
+    "Outcome measurement instrument (e.g., Daily Record of Severity of Problems [DRSP], Daily Symptom Report [DSR], Visual Analogue Scale [VAS])",
+    "Treatment duration (number of cycles or weeks)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "When trials include multiple SSRI arms versus a single placebo group, divide the placebo sample size equally across comparisons to avoid unit-of-analysis error. Continuous end-of-treatment scores on validated self-report scales are extracted.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-rated overall premenstrual symptom score"
+}

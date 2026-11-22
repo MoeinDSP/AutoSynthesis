@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:332918df",
+    "paper_title": "de8b6cc1_A_1020807613155",
+    "design_classification": "randomized",
+    "design_rationale": "Families were explicitly randomly allocated to enhanced BFI, standard BFI, or waitlist control within a randomized group comparison design (\"Families were randomly allocated to enhanced BFI (EBFI), standard BFI (SBFI), or a waitlist (WL) control group\"), although this report analyses a post-randomization subgroup of a larger RCT.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization occurred in the parent trial with baseline assessment before allocation and groups were largely balanced, but the sequence generation method and allocation concealment are not described, and this subgroup (selected post hoc from the parent trial) showed unequal group sizes and some baseline differences (child age, paternal criminal history, maternal depression rates differing markedly: 7% vs 24% vs 41%).",
+        "evidence_quote": "\"families completed a 90-min semistructured interview, parent-report measures, and home-observation and then were randomized to conditions. As a consequence, the families in this study were randomized prior to selection, resulting in unequal sample sizes across conditions.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Protocol adherence was documented and treatment integrity high, but participants and therapists were necessarily aware of allocation (waitlist vs active treatment) and analyses appear restricted to completers (n=15/21/27 of 26/29/32) rather than intention-to-treat, so non-adherence may have influenced the effect estimate.",
+        "evidence_quote": "\"Analysis of checklists in each condition indicated that 100% of the practitioners discussed all the content material specified for that condition with each family\"; \"Completers of this intervention were those families that completed Session 9.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "28% attrition by postintervention (and analysed Ns for outcomes are even smaller, e.g. 15/21/27), with documented differential attrition across conditions on parenting conflict and higher baseline child behaviour problems among non-completers, and no imputation or ITT analysis, so results are at risk of bias from missingness.",
+        "evidence_quote": "\"Of the 87 families eligible to participate in this evaluation, 63 (72%) completed intervention and postassessment... A significant Condition  Completer interaction was found for mothers\u2019 reports of conflict over parenting on the PPC, F(2, 56) = 4.65, p < .01. This result indicated that differential attrition occurred across conditions\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Observational outcomes were coded by blinded, reliable raters using a validated schedule, but the primary outcomes were unblinded maternal self-reports from mothers aware of their treatment allocation (acknowledged discrepancy between self-report and observed parenting effects), creating potential for outcome-reporting bias.",
+        "evidence_quote": "\"All coders were blind to the intervention conditions of participants, stage of assessment, interactions used for reliability checks, and the specific hypotheses being tested... kappa with .73 for parent behavior and .74 for child behavior.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A priori hypotheses are stated, but this is a post hoc subgroup analysis of a larger trial with many outcome measures, multiple operationalizations (ECBI total plus three factor scores, PDR daily/targeted, RCI and 30%-reduction criteria) and flexible analytic choices (MANCOVA vs ANCOVA), with no protocol/pre-registration available to verify the analysis plan.",
+        "evidence_quote": "\"Participants in this study were 87 families that had previously been randomly assigned to one of three treatment groups... The participants were drawn from an existing sample of 305 families\"; \"Because listwise deletion of missing cases is required for MANCOVA, ANCOVAs were also used on the observational measures of negative parent and child behavior to maximize statistical power on these variables.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by substantial (28%) and partly differential attrition with completer-only analyses in small subgroup samples; additional concerns arise from undescribed allocation concealment in this post-hoc subgroup of a larger trial, unblinded parent-report primary outcomes, and multiple outcomes/analytic flexibility without a registered protocol."
+  },
+  {
+    "paper_id": "manual:00411998",
+    "paper_title": "6b14aa28_A_Controlled_Evaluation_of_an_Enhanced_Self-Direct",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states a \"randomised group-comparison design was used with three conditions (ESD, SD and WL)\" and that \"families were randomly assigned to either the enhanced self-directed (14 families), self-directed (15 families) or waitlist (12 families) group\" after baseline assessment.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is asserted and baseline demographics were comparable, but the sequence-generation method and allocation concealment are not described, and baseline ECBI/Parenting Scale/DASS means show notable between-group differences (e.g., ESD depression M=4.08 vs SD M=12.33; ECBI Problem 12.31 vs 19.27 vs 20.17) that are larger than one might expect by chance in a small sample.",
+        "evidence_quote": "\"Upon returning the completed assessment forms and meeting selection criteria, families were randomly assigned to either the enhanced self-directed (14 families), self-directed (15 families) or waitlist (12 families) group.\" ... \"Analyses using ANOVAs and chi-square found no significant differences among the three groups on any of the demographic characteristics prior to intervention, indicating the three groups were well matched sociodemographically.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition of mother-reported primary outcomes was minimal (98% retention at post), but father-reported and couple-relationship measures had substantially reduced and unreported denominators (single parents omitted; father analyses based on unclear n, with degrees of freedom in analyses as low as F(4,30)), and no sensitivity or imputation analyses were conducted.",
+        "evidence_quote": "\"There was a very low level of attrition in the current study. One family, assigned to the ESD condition, did not complete the postassessment, meaning that 40 (98%) families completed pre and postassessment. One family, from the SD condition, did not complete the 6-month follow-up assessment.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary outcomes were self-reported by unblinded mothers who knew whether they had received practitioner telephone support, no treatment, or book-only, and the authors themselves concede no independent observational corroboration was obtained \u2014 a situation in which outcome assessment could plausibly be influenced by knowledge of the assigned condition (notably, father reports, less exposed to the intervention, showed no significant effects).",
+        "evidence_quote": "\"The results from the present study should be interpreted with caution as mothers' observations and reports of child behaviour were unable to be confirmed by independent behavioural observations.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their condition (self-help book alone, book plus weekly calls, or no treatment), which is highly salient for self-reported outcomes, and although intervention fidelity for the telephone component was monitored, no data are given on parents' actual completion/adherence to the written program, no co-intervention monitoring is reported, and the analysis appears to exclude non-completers rather than being intention-to-treat.",
+        "evidence_quote": "\"Treatment integrity was addressed by (a) having one skilled clinical psychologist deliver the telephone consultations to all relevant families, and (b) audio taping all telephone consultations for periodic review with the first author to ensure protocol adherence and competent delivery of the intervention.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no mention of a prospective protocol or pre-registration, no primary outcome is nominated among many instruments and subscales (ECBI, PDR, PS, PSOC, PPC, DASS across mothers and fathers at two follow-up points), father-reported results are reported only narratively without tables, and multiple pairwise contrasts were run without apparent correction for multiplicity.",
+        "evidence_quote": "\"significant differences between conditions at postintervention were found for all mother-reported measures of child behaviour, F(4, 30) = 10.41, p = .0001\" ... \"Analyses of father-reported measures of child behaviour failed to produce any significant effects.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D4: all primary outcomes were self-reported by unblinded mothers with no independent behavioural observation, and father reports (a less intervention-exposed source) showed no significant effects, suggesting outcome measurement could have been influenced by knowledge of allocation. Additional some-concerns arise from undescribed sequence generation/allocation concealment with some baseline imbalance in a small sample (N=41), absence of intention-to-treat analysis and adherence data, and no pre-registered protocol or nominated primary outcome among many measured scales."
+  },
+  {
+    "paper_id": "manual:7fd7e497",
+    "paper_title": "a1c3e194_mersky-et-al-2014-adapting-parent-child-interaction-therapy-to-foster-care",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of consenting foster families to three conditions: \"Consenting families were randomly assigned to one of three study conditions\" and \"for each wave subjects were randomly allocated to either wait-list control or to one of the two treatment groups.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is stated but the sequence-generation method and allocation concealment are not described, assignment proceeded in cohorts with imbalanced group sizes (partly by exclusion of two incomplete extended-PCIT cohorts), and two baseline covariates differed significantly between groups (handled by covariate adjustment).",
+        "evidence_quote": "\"Assignment proceeded in waves (i.e., cohorts), and for each wave subjects were randomly allocated to either wait-list control or to one of the two treatment groups... However, tests revealed two significant differences: Caregivers in the control group were more likely to be African American and they had been licensed as foster parents for a longer period of time.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An ITT framework was used, but participants and providers were necessarily aware of assignment in this behavioral trial, control families received heterogeneous \"services as usual\" (including play therapy and medication), and treatment adherence/fidelity and extent of noncompliance with workshops, homework, and phone consults are not quantified.",
+        "evidence_quote": "\"All analyses were run in SAS 9.3 under intention-to-treat (ITT) assumptions, including the last observation carried forward (LOCF) method of replacing missing data for subjects that were noncompliant with treatment, dropped out of the study, or were missing data due to nonresponse.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly a quarter of enrolled participants were lost (102 randomized, 75 analyzed, 68 completing the final assessment) and missing data were imputed with last-observation-carried-forward, a conservative but potentially biasing approach; attrition was balanced across arms and reasons (placement change, loss of contact) appear unrelated to outcome, which limits but does not eliminate concern.",
+        "evidence_quote": "\"Analyses for the present study included all subjects who completed a post-baseline assessment, resulting in an effective sample size of 75 and a retention rate of 73.5%... Rates of attrition were comparable across all groups (range \u00bc 24\u201326%)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary outcomes were foster-parent self-report questionnaires (ECBI, CBCL) completed by the unblinded intervention recipients themselves, so outcome assessment could plausibly be influenced by knowledge of the assigned condition, especially as treated parents were incentivized and heavily engaged in the program.",
+        "evidence_quote": "\"Of chief concern is that parent raters were not blinded to study condition, which could introduce internal validity threats such as demand characteristics and social desirability bias.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, multiple outcome operationalizations (ECBI Intensity, ECBI Problem, CBCL externalizing, CBCL internalizing) and both linear and quadratic trend contrasts were tested with selective emphasis on significant quadratic effects, and this is an interim report of an \"ongoing\" trial with two cohorts excluded from analysis.",
+        "evidence_quote": "\"Consistent with the treatment goals of PCIT, child externalizing behaviors represent our primary outcomes of interest. We also extend research on PCIT by examining intervention effects on internalizing symptoms.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by outcome measurement: all outcomes were self-reported by unblinded foster parents who themselves delivered/received the intervention, a limitation the authors acknowledge. Additional concerns include undescribed sequence generation/concealment with two baseline imbalances, ~26% attrition handled by LOCF, and absence of pre-registration amid multiple outcomes and trend contrasts in an interim analysis."
+  },
+  {
+    "paper_id": "manual:4b7583c4",
+    "paper_title": "7374c7c7_nihms-1758495",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a two-arm parallel randomized controlled trial with 1:1 allocation of eligible families to HNC or TE-HNC, registered at ClinicalTrials.gov (NCT02191956): \"Eligible families were then randomized 1:1 to either HNC or TE-HNC.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random 1:1 allocation after baseline eligibility confirmation is stated and baseline demographics did not differ significantly, but no detail is given on sequence generation method or allocation concealment, and the somewhat unequal group sizes (54 vs 47) from a 1:1 allocation are unexplained.",
+        "evidence_quote": "\"Eligible families were then randomized 1:1 to either HNC or TE-HNC.\" ... \"No significant condition differences were observed across demographics.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An appropriate ITT-style analysis with all available data was used and fidelity/competence were monitored (97% fidelity), but participants and therapists were necessarily unblinded in this behavioral trial, the TE arm received extra therapist contact and study-supplied phones, and post-treatment app/blog use was not tracked (\"the current study did not systematically track post-treatment access to the app\"), leaving uncertainty about co-intervention/deviation effects.",
+        "evidence_quote": "\"For primary group difference analyses, full information maximum likelihood (FIML) estimation techniques were used for inclusion of all available data based on intent-to-treat guidelines.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition is documented in a CONSORT diagram with similar retention across arms, missingness was formally shown to be unrelated to condition or key covariates (MCAR), and FIML/multiple imputation were used to include all randomized participants.",
+        "evidence_quote": "\"Patterns of missingness did not significantly differ by the following: treatment condition; child age, sex, race/ethnicity; caregiver age, ethnicity/race; nor family economic stress, all ps > .05. Further, random patterns of missingness along with a non-significant Little's missing completely at random (MCAR) test, \u03c72 (239) = 267.64, p > .05, suggest that the mechanism of missingness was MCAR\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes used validated, reliably coded measures applied identically at all waves, but the primary parent-reported ECBI outcome comes from unblinded caregivers who knew they received the enhanced technology program (a plausible source of differential reporting), and the paper never states that observational coders were blind to treatment condition.",
+        "evidence_quote": "\"Coders received approximately 50 hours of training in the Behavioral Observation Coding System ... and reached at least 80% agreement ... Half of the videos were double-coded for fidelity.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and primary/secondary outcomes are pre-specified with all five outcome models reported including null results, but no analysis plan for the spline latent curve models appears pre-registered, one model was post hoc respecified (maintenance-slope residual variance fixed to zero), and near-significant findings (ECBI Problem, p = .074) are interpreted as \"clinically meaningful,\" indicating some analytic flexibility.",
+        "evidence_quote": "\"Primary outcomes were parent-reported and observed child behavior problems. Secondary outcomes included observed parenting skills use (ClinicalTrials.gov Identifier: NCT02191956).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered, adequately analyzed RCT handled missing data well (MCAR-supported, FIML/ITT), but four domains raise some concerns: unreported sequence generation and allocation concealment, inherent non-blinding of families/therapists plus untracked post-treatment technology exposure, reliance on unblinded caregiver report (and coders of unstated blinding) for key outcomes, and some analytic flexibility with post hoc model respecification and emphasis on a non-significant result. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:e5b8abec",
+    "paper_title": "90b11732_nihms506302",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a pilot randomized controlled trial in which eligible low-income families were randomly assigned (\"Using restricted random assignment to force equal sample sizes, Master's-level therapists randomly assigned the remaining 22 eligible low-income families to the HNC or TE-HNC group\"), registered at ClinicalTrials.gov (NCT01367847).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Allocation was performed by the treating Master's-level therapists with no description of sequence generation method or concealment, and the authors themselves report a clinically meaningful baseline imbalance on a prognostic variable (ECBI Intensity).",
+        "evidence_quote": "\"Using restricted random assignment to force equal sample sizes, Master's-level therapists randomly assigned the remaining 22 eligible low-income families to the HNC or TE-HNC group.\" ... \"randomization failed to yield equivalent groups on an established correlate of BPT drop out, baseline disruptive behaviors.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Of 22 randomized families only 15 contributed outcome data (3 randomized families were reassigned as therapist practice cases and 4 dropped out, ~21% attrition), analyses were completers-only, and no sensitivity analyses or evidence that results were unaffected by missingness were provided.",
+        "evidence_quote": "\"The initial three families randomized served as practice cases for each of the three project therapists... Given the pilot nature of the project, we considered only complete data (i.e., data from participants available at pre- and post- treatment).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary child-behavior outcome (ECBI) and satisfaction were caregiver self-reports from unblinded participants who knew they received the enhanced program, and engagement/home-practice outcomes were based on unblinded therapist records and caregiver self-report, so measurement could plausibly be influenced by knowledge of the intervention.",
+        "evidence_quote": "\"the between-group measure of skill generalization was assessed utilizing a measure of caregiver report to the therapist regarding whether s/he completed their daily skill practice\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Families and therapists were necessarily aware of assignment (smartphone enhancements cannot be blinded) and the same therapists delivered both arms; fidelity was monitored (90%), but the analysis was completers-only rather than intention-to-treat, so the effect of assignment was not appropriately estimated.",
+        "evidence_quote": "\"pre-post analysis of primary study variables (engagement, skill generalization, and child behavior outcomes) are conducted with only those families who completed both the pre- and post-assessment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT01367847), but no protocol-specified primary outcome or analysis plan is cited, and results are reported through multiple flexible operationalizations (within- and between-group effect sizes, RCIs, normative comparisons, qualitative quotes) without significance testing, leaving scope for selective emphasis.",
+        "evidence_quote": "\"Given the pilot nature of the study, engagement and skill generalization were assessed utilizing both between- and within-group measures.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by an unconcealed therapist-performed randomization that produced baseline imbalance on a prognostic variable (D1), substantial loss of randomized families with completers-only analysis and no sensitivity analysis (D3), and unblinded caregiver/therapist-reported outcomes (D4). Deviations/analysis approach and potential selective reporting add further concerns, and the very small pilot sample (n=15 analyzed) limits confidence in all comparisons."
+  },
+  {
+    "paper_id": "manual:08fe1d30",
+    "paper_title": "9ab89f75_Parent_Child_Interaction_Therapy_for_Mexican_Americans_A_Randomized",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 58 Mexican American families to three conditions: \"parents provided written informed consent and were then randomly assigned to GANA (n = 21), PCIT (n = 19), or TAU (n = 18).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment occurred after consent and baseline assessment and the groups did not differ significantly on demographics, but the sequence-generation method and allocation-concealment procedure are not described, and some baseline imbalance (e.g., maternal education <high school: 33% GANA vs 67% TAU) is notable in a small sample.",
+        "evidence_quote": "\"Families determined eligible by phone attended a 3- to 4-hr pretreatment assessment where parents provided written informed consent and were then randomly assigned to GANA (n \u00bc 21), PCIT (n \u00bc 19), or TAU (n \u00bc 18). Assessors and families were blind to assignment.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An intention-to-treat analysis was used and treatment fidelity was coded for GANA/PCIT, but participants and therapists necessarily knew the assigned condition, TAU therapists had \"complete freedom\" with no fidelity monitoring, and the active conditions shared the developer as supervisor, creating potential performance/allegiance effects.",
+        "evidence_quote": "\"All results reflect intent-to-treat analyses (Higgins & Green, 2008).\" ... \"both the GANA and PCIT conditions shared a supervisor, and a small number of therapists were involved in treating the study families.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 93% of randomized families, attrition did not differ by condition, and dropouts did not differ meaningfully from completers at baseline, so bias from missing data is unlikely.",
+        "evidence_quote": "\"Ninety-three percent (n \u00bc 54) completed posttreatment assessments.\" ... \"We compared treatment dropouts to completers on pretreatment characteristics and found no differences except for higher PPQ scores among treatment dropouts, t(56) = -2.11, p < .05, which was nonsignificant after a Bonferroni correction.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated instruments were used and observational coders were blinded with acceptable reliability, but the primary parent-report outcomes were provided by unblinded parents who knew they received an intensive, specially tailored program, which the authors themselves acknowledge could inflate reported improvement.",
+        "evidence_quote": "\"Trained coders were blind to treatment condition.\" ... \"It is possible that TAU treatments worked through mechanisms other than the observed parenting behaviors or that social desirability or the placebo effect led to overreporting of symptom improvement on the self-report measures.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, a primary outcome is not designated, and many outcome measures/indices (11 parent-report plus 7 observational across three situations) were analyzed with multiple pairwise contrasts without clear correction, allowing scope for selective reporting.",
+        "evidence_quote": "\"We also conducted single degree of freedom contrast to compare the effectiveness of the three treatment conditions on each of the parent reported outcome measures at Time 2, controlling for the same outcome measure at Time 1\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This randomized trial had low attrition, blinded observational coders, fidelity checks and intention-to-treat analysis, but methods of sequence generation and allocation concealment are unreported, participants/therapists were necessarily unblinded with the developer supervising both active arms, primary parent-report outcomes were unblinded self-reports, and there is no pre-registration for the many outcomes tested. No single domain reached high risk, so the overall judgment is some concerns."
+  }
+]

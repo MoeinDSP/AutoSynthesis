@@ -1,0 +1,554 @@
+[
+  {
+    "paper_id": "manual:81f2bd34",
+    "paper_title": "fdc463c3_01.psy.0000140005.94790.9c",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly states that eligible participants were randomly assigned in a 1:1:1 ratio using a computer-generated randomization code to paroxetine CR 25 mg, paroxetine CR 12.5 mg, or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and baseline characteristics were balanced, but the report does not describe how the sequence was concealed until assignment.",
+        "evidence_quote": "Eligible patients were randomly assigned by a computer-generated randomization code to once daily paroxetine CR 25 mg, paroxetine CR 12.5 mg, or similar appearing placebo (1:1:1 ratio)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and study personnel were blinded with similar-appearing placebo, reducing deviation risk, but adverse effects could have revealed assignment, the blind was not evaluated, and 14 randomized participants were excluded rather than analyzed according to intention to treat.",
+        "evidence_quote": "All the participants in the study, including those administering the study visits and those assessing the outcomes, were blinded to the study assignment. There was no systematic evaluation of the study blind."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were unavailable for a meaningful proportion of randomized participants, including 14 excluded from all analyses, and missing outcomes were handled with LOCF despite differential adverse-event withdrawal that could plausibly depend on treatment and outcome.",
+        "evidence_quote": "Fourteen randomized patients were excluded from all efficacy and safety analyses... For all efficacy measures, the primary conclusions were based on the TC3 study end point using the last observation carried forward (LOCF) approach to handle missing data."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome was a validated patient-rated VAS administered consistently, but treatment-related adverse effects may have compromised participant blinding and thereby influenced subjective self-reports, with no evaluation of blinding success.",
+        "evidence_quote": "However, the primary outcome measure was patient-rated and therefore limited any potential investigator bias of efficacy assessment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome, time point, covariates, and multiplicity adjustment are described as prespecified, but no protocol or prospective registration is reported to verify that the published result was not selected from multiple eligible measurements or analyses.",
+        "evidence_quote": "The primary efficacy variable was the change in the mean luteal phase VAS-Mood scores from baseline to end of treatment cycle 3."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by missing outcome data: randomized participants were excluded, further attrition was handled using LOCF, and adverse-event withdrawals differed by group. Additional concerns arise from unreported allocation concealment, lack of a true intention-to-treat analysis, possible unblinding of subjective outcomes, and absence of an accessible prespecified protocol or registration."
+  },
+  {
+    "paper_id": "manual:3f6748c5",
+    "paper_title": "b056aebe_328",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly describe a randomized, double-blind crossover design assigning women to the sertraline-then-placebo or placebo-then-sertraline sequence.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although assignment to treatment sequence was described as randomized, the sequence-generation and allocation-concealment methods were not reported, and the sequence groups differed significantly in age and baseline midfollicular COPE score.",
+        "evidence_quote": "The women were randomized for the 2 treatment phases into groups... Of the 16 characteristics examined, only 2 differed significantly between groups: age (P = .03) and baseline midfollicular phase COPE total score (P = .02)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding, matched dose escalation, and pill-count compliance assessment reduce concern, but the analysis excluded seven randomized women who withdrew before completing the first treatment month and therefore was not a full intention-to-treat analysis.",
+        "evidence_quote": "This allowed an overall sample of 50 participants and excluded 7 women who withdrew before the end of the first month of drug treatment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were incomplete for 18 of 57 randomized participants, including seven excluded entirely, and withdrawal was more frequent on sertraline than placebo with several sertraline withdrawals attributed to adverse events, making outcome-dependent missingness plausible.",
+        "evidence_quote": "During the study, 18 participants withdrew from the study or provided incomplete test results... Fourteen patients (24%) withdrew during this double-blind study\u20145 while taking placebo and 9 while taking sertraline."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was a prespecified daily patient-rated scale administered identically under double-blind sertraline and placebo conditions, limiting differential measurement bias.",
+        "evidence_quote": "The primary outcome measure in the study was the COPE, a 22-item patient-rated scale... The study consisted of a randomized, double-blind, crossover design."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary and secondary outcomes and analyses are described, but no protocol or preregistration is reported, and several outcome measures, time points, and analytic comparisons leave potential for selective reporting.",
+        "evidence_quote": "Secondary outcomes included similar change from baseline comparisons for the COPE behavior factor, the COPE physical factor, and the BDI total score."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial and potentially treatment-related missing outcome data, including exclusion of seven randomized participants and differential withdrawals during sertraline versus placebo. Additional concerns arise from unreported sequence generation/concealment, incomplete intention-to-treat analysis, and absence of a reported prespecified protocol."
+  },
+  {
+    "paper_id": "manual:05bd4c02",
+    "paper_title": "199ba18b_ABR-9-60",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned to three intervention groups using Random Allocation software.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computerized random allocation method was reported, but allocation concealment was not described and there was a statistically significant baseline imbalance in DRSP scores and severity.",
+        "evidence_quote": "Then they were randomly divided into three groups of treatment with fluoxetine, safron, and placebo using Random Allocation software; therefore, each of the cases was provided with a number allocated her to one of the groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the outcome-assessing psychiatrist were blinded with matched, saffron-scented capsules, but the dispensing nurse was unblinded, adherence-related exclusions were permitted, and no intention-to-treat analysis was reported.",
+        "evidence_quote": "Patients who were not adherent to the study protocol, and who represented her reluctance for participation/continue the study were excluded from the study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Post-intervention outcome counts fell from 40 per group to 37, 36, and 35, respectively, and exclusions for nonadherence or reluctance were allowed without reasons by group or analyses addressing potentially outcome-related missingness.",
+        "evidence_quote": "Patients who were not adherent to the study protocol, and who represented her reluctance for participation/continue the study were excluded from the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The validated Hamilton and DRSP instruments were applied across all groups, and the psychiatrist assessing outcomes was blinded to treatment assignment.",
+        "evidence_quote": "A psychiatrist responsible for the study that was blinded to the therapeutic approach of each patient interviewed the participants and filled the questionnaires."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although a trial registration number was provided and the stated outcomes were reported, no prospective protocol or prespecified statistical analysis plan was available in the text to rule out selection among multiple outcome scales, time-point summaries, and analyses.",
+        "evidence_quote": "Besides, it was approved by the Iranian Registry of Clinical Trials code number IRCT20180602039946N1."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by unexplained and uneven missing post-intervention data combined with protocol-defined exclusions for nonadherence or withdrawal and no reported intention-to-treat or missing-data analysis. Additional concerns arise from unclear allocation concealment, baseline DRSP imbalance, and lack of sufficiently detailed prospective analysis specifications."
+  },
+  {
+    "paper_id": "manual:6c572100",
+    "paper_title": "6e69a598_appi.ajp.161.2.343",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports stratified random allocation to three parallel groups, with the sequence generated from random-number tables by a technician who had no clinical contact.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated using random-number tables by personnel without clinical contact, treatment was coded and double-blinded, and reported baseline characteristics were similar across groups.",
+        "evidence_quote": "Random allocation to the study groups was generated from random-number tables before the start of the study by a technician with no clinical contact."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Identical tablets and double-blind daily dosing minimized deviations, but 24 randomized participants were excluded from the defined intention-to-treat analysis because they provided no postbaseline response, so the analysis did not fully preserve randomized assignment.",
+        "evidence_quote": "Analysis of the Daily Symptom Rating Form scores was conducted for all observations and for the last observation carried forward by using an intent-to-treat approach that was defined before the study as including all subjects with at least one treatment response rating."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial randomized-participant attrition occurred (49/167 discontinued, including 24 with no outcome data), and those with no treatment data differed prognostically at baseline, making outcome-dependent bias plausible despite similar discontinuation rates across groups and sensitivity analyses among observed participants.",
+        "evidence_quote": "Twenty-four subjects discontinued before providing any treatment response data, and another 25 subjects discontinued after providing at least one treatment response... the group with no treatment data were more likely to be minority subjects... and had higher baseline postmenstrual Daily Symptom Rating Form scores."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was a previously validated daily symptom scale administered identically across groups, and identical placebo/sertraline tablets with double-blind procedures reduced the likelihood that participants' self-reports were influenced by known assignment.",
+        "evidence_quote": "This was a stratified, randomized, double-blind, parallel treatment trial that compared full-cycle and premenstrual dosing regimens of sertraline with a placebo."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and principal analysis are identified and several sensitivity analyses agree, but no protocol or prospective registration is reported and numerous symptom factors, individual items, functioning outcomes, time points, and analytic approaches created scope for selective reporting.",
+        "evidence_quote": "The five statistically derived Daily Symptom Rating Form factors and the individual Daily Symptom Rating Form items were also examined."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial missing outcome data included participants with prognostically different baseline characteristics, and the primary analysis excluded randomized participants without postbaseline measurements. There are additional concerns about the modified intention-to-treat approach and possible selective reporting without a reported protocol or registration."
+  },
+  {
+    "paper_id": "manual:ba41ff23",
+    "paper_title": "0df6e282_archpsyc.56.10.932",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports random assignment to sertraline, desipramine, or placebo using random-number tables.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated from random-number tables and assigned by a technician without clinical contact, with no important baseline symptom imbalance suggesting failure of randomization.",
+        "evidence_quote": "Randomization was generated from random-number tables, and treatment assignment was conducted at the outset of the study by a technician with no clinical contact."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Identical capsules and double blinding reduced deviation risk, but conspicuous treatment-specific adverse effects could have revealed assignment, and the efficacy analysis excluded randomized participants without treatment data rather than following a full intention-to-treat approach.",
+        "evidence_quote": "Medication was prepared by the pharmacy in identical capsules for double-blind administration."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were unavailable for 22 of 189 randomized participants, immediate missingness was markedly differential by group and related to baseline symptom severity, and subsequent discontinuation was also differential, so LOCF and completer sensitivity analyses do not rule out bias from missing outcomes.",
+        "evidence_quote": "Of the 189 subjects who were randomized to treatment, 22 dropped out immediately with no treatment information, leaving 167 subjects for analysis. Of these immediate dropouts, more were randomized to desipramine than to sertraline or placebo (14 [22%], 4 [6%], and 4 [7%], respectively; \u03c7\u00b22 = 9.87; P = .007)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated measures were administered similarly across groups under nominal double blinding, but the primary DSR was self-reported and distinctive adverse-effect profiles could have unblinded participants and influenced symptom ratings.",
+        "evidence_quote": "The PMS assessment was based on the previously validated DSR, SCID interview, and Patient Global Ratings of Functioning and Improvement."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prespecified protocol or analysis plan is reported, while numerous outcome instruments, DSR factors and items, time points, responder definitions, and analytic approaches created scope for selective reporting, despite identification of primary outcomes and generally consistent findings.",
+        "evidence_quote": "The total DSR score, 5 factors, and the 17 individual DSR items were examined."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because missing outcome data were substantial, strongly differential across treatment groups, and associated with baseline symptom severity; the analysis excluded 22 randomized participants and relied on LOCF. Additional concerns arise from possible functional unblinding and the absence of a reported prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:d17f592f",
+    "paper_title": "b2184cc3_jama.1997.03550120043031",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports allocation by a computer-generated schedule in blocks of four to sertraline or placebo, with treatment assignment performed centrally.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated in blocks, assignment was centralized, and reported baseline characteristics were balanced between groups.",
+        "evidence_quote": "If subjects continued to meet severity criteria after this single-blind placebo cycle, they were randomized by a computer-generated schedule in blocks of 4 to either sertraline or placebo. All treatment assignment was completed at a central location."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Matching placebo, identical capsule schedules, compliance monitoring, restrictions on concomitant treatments, and an intention-to-treat approach limited bias, but differential recognizable adverse effects and treatment-related withdrawal could have compromised blinding, and the handling of participants without endpoint data is not fully described.",
+        "evidence_quote": "Subjects took 3 capsules daily throughout the study. Medication cards were labeled A, B, or C and were configured with an increasing dose of sertraline or matching placebo."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Forty-three of 243 randomized participants did not complete the study, with more adverse-event withdrawals on sertraline, and although endpoint analyses included 234 participants and attrition was said to be comparable overall, the endpoint imputation method and reasons for all missing data were not fully reported.",
+        "evidence_quote": "Of the 447 women who requested participation, 243 met criteria for premenstrual dysphoric disorder and were randomized; 200 women completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary DRSP was an appropriate prospectively collected instrument administered identically across groups, but it was patient-reported and treatment-related adverse effects may have revealed assignment and influenced subjective ratings; observer blinding success was also not assessed.",
+        "evidence_quote": "Subjects completed a 24-item daily rating form (Daily Record of Severity of Problems [DRSP]), an updated version of the Daily Rating Form that incorporates all DSM-IV symptoms of PMDD."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and analysis are identified and multiplicity correction was used for individual items, but no preregistration or protocol is reported and numerous outcome instruments, subscales, items, cycles, and endpoint analyses allowed potential selective reporting.",
+        "evidence_quote": "The primary measure of effectiveness was the active vs placebo difference in change from baseline mean DRSP total score, excluding the final 3 functional impairment items."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. Randomization and central assignment were robust, but incomplete outcome data, possible unblinding from adverse effects, subjective outcome measurement, and the absence of a preregistered analysis plan leave residual concerns without clear evidence of a high-risk flaw."
+  },
+  {
+    "paper_id": "manual:3fea60de",
+    "paper_title": "752db76b_jamapsychiatry.2015.1472",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly used 1:1 random allocation based on a computer-generated randomization list, with stratification by site and oral-contraceptive use.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer generated, stratified, and concealed through sequentially numbered indistinguishable stock bottles prepared by personnel without participant contact, and baseline characteristics were generally balanced.",
+        "evidence_quote": "We used a computer-generated randomization list that stratified assignment into block sizes of 6-and-6 strata based on the study site and participant use (yes or no) of an oral contraceptive. A research assistant who had no contact with the participants prepared sequentially numbered stock bottles that had no information about the test drug."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and study personnel were masked, adherence was monitored, intervention modifications followed prespecified response/tolerability rules in both groups, and the efficacy analyses used the intention-to-treat population.",
+        "evidence_quote": "In this way, the masking of study medication was maintained... Data from the intent-to-treat population were analyzed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome availability declined materially over six cycles (only 88 of 125 sertraline and 88 of 127 placebo participants had cycle-6 PMTS data), and although mixed models used repeated observations and retention was similar by group, the report does not establish that missingness was unrelated to outcomes; the responder analysis also used last observation carried forward.",
+        "evidence_quote": "Overall, 188 participants (74.6%) completed the trial or were moved to rescue treatment. Groups had similar retention... For the responder and remission (CGI-I) analysis, we used the observation from the last visit carried forward."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary PMTS was an established symptom measure administered consistently across groups, treatment was double-blinded, and interrater reliability was maintained, making differential measurement unlikely.",
+        "evidence_quote": "The primary outcome measure was the PMTS... Interrater reliability was maintained throughout the trial via videotapes. The intraclass correlation coefficient was 0.8 or greater."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the full protocol was available, the primary outcome and analysis approach were prespecified, and the nonsignificant primary outcome was transparently reported despite favorable secondary outcomes.",
+        "evidence_quote": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00536198... The full study protocol can be found in Supplement 1... The primary outcome measure was the PMTS."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by substantial attrition over six cycles and insufficient evidence that missing outcomes could not bias the estimates, including use of last observation carried forward for responder analyses. Randomization, masking, outcome measurement, and prespecified reporting were otherwise robust."
+  },
+  {
+    "paper_id": "manual:55261939",
+    "paper_title": "be275b34_jcp.0b013e31829c7697",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that subjects were randomly assigned to fluoxetine, calcium, or placebo using statistician-generated site-specific schedules with blocks of six and concealed sequentially numbered containers.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence generation and allocation concealment were appropriate, but the small groups showed a marked baseline DRSP severity imbalance that raises some concern despite being plausibly attributable to chance.",
+        "evidence_quote": "Subjects were randomly assigned to 1 of 3 conditions: fluoxetine, calcium, or placebo. The statistician assigned the group using block sizes of 6. Allocation was concealed from the research staff and patients using sequentially numbered containers."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "A double-dummy design blinded participants and staff, medication handling protected the blind, and mixed-effects analyses used all informative data without regard to compliance, consistent with an intention-to-treat effect estimate.",
+        "evidence_quote": "Medication was dispensed in 2 bottles and used a doubledummy design... All data analyses were performed on the intention-to-treat cohort."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Ten of 49 randomized women were excluded for lacking two visits, attrition was differential (especially in the fluoxetine group), and visit-5 DRSP data were available for only 5/13 fluoxetine, 8/13 calcium, and 11/13 placebo participants, so missingness could plausibly bias the estimated effects despite mixed models and sensitivity analyses.",
+        "evidence_quote": "Forty-nine women were randomized, and 39 women completed at least 2 visits and thus had sufficient data to be included in the analysis... there was somewhat higher attrition in the fluoxetine group compared with the other groups. If women in this group discontinued as a result of ineffective treatment, the effect of fluoxetine may have been overestimated."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The validated symptom measures were applied consistently across groups, clinician-rated outcomes were assessed by blinded staff, and the double-blind, double-dummy design reduced influence on participant-reported outcomes.",
+        "evidence_quote": "At each assessment, a blinded research staff administered the Premenstrual Tension Scale (PMTS) and the Inventory of Depressive Symptomatology (IDS)... A blinded rater assigned a global measure of illness severity through use of the CGI scale."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospective registration or prespecified analysis plan is reported, while several outcome measures, time points, model choices, response definitions, and both LOCF and completer analyses offered scope for selective reporting.",
+        "evidence_quote": "We evaluated differences in treatment effects between groups using linear mixed-effects regression for main outcomes of IDS scores, PMTS scores, the DRSP mean symptom differences, and CGI severity scores... we used a last-observation-carriedforward method but also conducted a sensitivity analysis that assessed study completers only."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial and differential missing outcome data could plausibly exaggerate the fluoxetine effect, and 10 randomized participants were omitted for insufficient follow-up. Additional concerns arise from baseline imbalance and the absence of a reported prospective protocol or prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:5d7b8213",
+    "paper_title": "c7b3c7f5_jcp.0b013e3181678a28",
+    "design_classification": "randomized",
+    "design_rationale": "Participants with prospectively confirmed PMDD were explicitly randomized in a 1:1:1 ratio using a sponsor-generated randomization code and block randomization to escitalopram 10 mg, escitalopram 20 mg, or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was sponsor-generated with block randomization, investigators did not know the randomization series, sequential patients received the lowest available number, and reported baseline characteristics were well balanced.",
+        "evidence_quote": "Patients eligible for the study were randomized, using a randomization code generated by H. Lundbeck A/S (Copenhagen, Denmark), to 1 of 3 treatment groups... Block randomization ensured that equal numbers of patients entered each treatment group. The details of the randomization series were unknown to the investigators."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Identical capsules and double blinding limited intervention-related deviations, but the modified ITT analysis excluded seven randomized participants and used last observation carried forward rather than analyzing all randomized participants as assigned.",
+        "evidence_quote": "Efficacy analyses were conducted on the intent-to-treat (ITT) data set comprising all randomized patients who had completed at least 1 treatment cycle... using the last-observation-carried-forward principle."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Seven randomized participants were excluded before analysis and withdrawals were imbalanced across groups, especially in the 10-mg arm, while LOCF was used without evidence that missing outcomes were unlikely to bias the result.",
+        "evidence_quote": "Seven patients were excluded from the ITT population before unblinding because of an incomplete postbaseline efficacy assessment (6 patients) or concomitant use of another antidepressant (1 patient)... The total number of withdrawals was 4... in the placebo group, 10... in the 10-mg escitalopram group, and 4... in the 20-mg escitalopram group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The prespecified primary outcome was measured consistently with daily VAS ratings, but it was participant-reported and frequent recognizable SSRI adverse effects could have revealed assignment and influenced subjective symptom ratings despite nominal blinding.",
+        "evidence_quote": "All study personnel and participants were blinded to treatment assignment for the duration of the study... The proportion of patients reporting one or more AEs over the entire study was 91% (10 mg escitalopram), 98% (20 mg escitalopram), and 75% (placebo)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and analysis are described as prespecified, but no accessible preregistration or statistical analysis plan is reported, numerous secondary outcomes and analyses were conducted, and two response definitions were explicitly added post hoc.",
+        "evidence_quote": "In addition, because 50% reduction in VAS-rated symptoms... turned out to be too inclusive to be useful as a response criterion, 2 post hoc definitions of response were added."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The randomization process was robust, but the modified ITT/LOCF analysis, differential attrition, possible unblinding of subjective outcomes through recognizable adverse effects, and lack of an accessible preregistration with post hoc responder definitions create some concerns. No domain was judged high risk."
+  },
+  {
+    "paper_id": "manual:64489f77",
+    "paper_title": "f800f2eb_nejm199506083322301",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that eligible women were randomly assigned to placebo, fluoxetine 20 mg/day, or fluoxetine 60 mg/day in a double-blind controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although assignment was explicitly random and baseline characteristics were comparable, the sequence-generation method and allocation-concealment procedures were not reported.",
+        "evidence_quote": "Women who remained eligible after the placebo washout phase were randomly assigned to receive placebo, fluoxetine at a dose of 20 mg per day, or fluoxetine at a dose of 60 mg per day"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was double-blind and prohibited other psychoactive medication, but conspicuous dose-related adverse effects may have revealed assignment, and the efficacy analysis excluded randomized participants who did not complete one treatment cycle rather than clearly using intention-to-treat.",
+        "evidence_quote": "Analysis of efficacy for all study participants who completed at least one cycle of the randomized trial was conducted"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for a large and treatment-related proportion of randomized women, with only 180 of 313 completing the protocol and withdrawal driven differentially by lack of efficacy in placebo and side effects at 60 mg, making biased efficacy estimates likely.",
+        "evidence_quote": "The dropout rate for this trial was substantial: 42 percent of the women who underwent randomization did not complete the protocol."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The validated visual-analogue outcomes were measured consistently, but the primary outcome was participant-reported and dose-related adverse effects could have compromised blinding and influenced symptom ratings.",
+        "evidence_quote": "The participants were prompted to rate how they were feeling each day using 100-mm scales in which the descriptors ranged from \u201cno symptoms\u201d (0 mm) to \u201csevere or extreme symptoms\u201d (100 mm)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, and several outcome instruments, time points, populations, and analytical approaches were available, leaving potential for selective reporting despite identification of a primary outcome.",
+        "evidence_quote": "Secondary outcome measures included the premenstrual tension syndrome scales... Tertiary outcome measures included visual-analogue scales for physical symptoms of headache, bloating, and breast tenderness"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial, differential, outcome-related attrition creates a high risk of bias from missing outcome data. Additional concerns arise from unreported randomization/concealment methods, exclusion of some randomized participants from efficacy analysis, possible unblinding through adverse effects, and lack of a reported prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:1827b7da",
+    "paper_title": "83736e09_s0029-7844%2802%2902326-8",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports random assignment to sertraline or placebo using a computer-based random-number generation program.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated and groups were broadly comparable at baseline, but the report does not clearly describe safeguards ensuring allocation concealment until enrollment and assignment.",
+        "evidence_quote": "The randomization list was created using a computer-based random number generation program, and blinding was achieved by blister-packed, doubleblind treatment cards containing either 50 mg of sertraline or an identical placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Matching placebo, double blinding, compliance checks, and a stated intention-to-treat approach reduce concern, but differential adverse effects could have revealed allocation and the analysis excluded randomized participants without a postrandomization efficacy measure.",
+        "evidence_quote": "The intention-to-treat sample was defined to include all patients who were randomized to study medication and completed at least one postrandomization efficacy measure."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 229 of 281 randomized participants entered the stated ITT efficacy sample and 221 completed treatment, with differential adverse-event discontinuation; last-observation-carried-forward does not adequately rule out bias from missing outcomes.",
+        "evidence_quote": "Two hundred eighty-one patients were randomized to sertraline (n = 142) or a placebo (n = 139), and 221 patients completed the trial (115 sertraline and 106 placebo)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated outcomes were assessed consistently under double blinding, but key symptom outcomes were participant-reported and treatment-related adverse effects may have enabled participants or clinicians to infer assignment.",
+        "evidence_quote": "Throughout the trial participants completed the Daily Record of Severity of Problems on a daily basis. The Daily Record of Severity of Problems is a widely used and validated 24-item, patient-rated scale."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes and several analyses were identified in the report, but no protocol or prospective registration is cited to verify prespecification, and many secondary outcomes and time points were analyzed without multiplicity adjustment.",
+        "evidence_quote": "Analysis of the various Daily Record of Severity of Problems factors was a priori hypothesized and stipulated, and no adjustments for multiplicity were planned."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial postrandomization outcome-data loss and exclusion of randomized participants from the efficacy population, handled using last observation carried forward, could materially bias the estimated treatment effect. Additional concerns involve incompletely reported allocation concealment, possible unblinding from adverse effects, and absence of a cited prospective protocol or registration."
+  },
+  {
+    "paper_id": "manual:693a45da",
+    "paper_title": "6f04eb06_s0301-2115%2897%2902741-3",
+    "design_classification": "randomized",
+    "design_rationale": "The treatment phase explicitly states that the 35 eligible patients were randomized to fluoxetine or placebo, so the study is classified as a randomized trial despite the absence of details on sequence generation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although participants were stated to be randomized and measured baseline characteristics were similar, the sequence-generation and allocation-concealment methods were not reported.",
+        "evidence_quote": "For the treatment phase these 35 patients were randomized into placebo or fluoxetine treatment groups in a double-blind manner."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was double-blind, but treatment-emergent adverse effects could have revealed allocation, and the analysis excluded five randomized patients rather than following an intention-to-treat approach.",
+        "evidence_quote": "Five patients were excluded during the trial, two from the placebo group and three from the fluoxetine group either because of protocol violation or through intolerable adverse effects of fluoxetine."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were omitted for 5 of 35 randomized participants (14.3%), with differential reasons plausibly related to treatment and outcome, and no sensitivity analysis addressed the resulting bias.",
+        "evidence_quote": "Five patients were excluded during the trial, two from the placebo group and three from the fluoxetine group either because of protocol violation or through intolerable adverse effects of fluoxetine."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The same prospective CPE scale was used in both groups under nominal double blinding, but outcomes were self-reported and distinctive fluoxetine adverse effects may have compromised participant blinding and influenced ratings.",
+        "evidence_quote": "Patients were instructed to take their relevant medicine every morning (after breakfast) for three menstrual cycles and to continue to complete their CPE scales for the duration of the treatment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or prespecified analysis plan is reported, while several eligible CPE outcomes, responder definitions, and statistical comparisons were available, leaving scope for selective reporting or analysis.",
+        "evidence_quote": "We determined the responder as those whose luteal phase score was less than 40. The statistical analysis was performed with the GraphPad InStat PC program (GraphPad Software, 1993)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by exclusion of 5 of 35 randomized participants, including treatment-related adverse-effect withdrawals, without intention-to-treat or sensitivity analysis. Additional concerns arise from unreported sequence generation and allocation concealment, potentially compromised blinding of self-reported outcomes, and absence of a prespecified analysis plan."
+  }
+]

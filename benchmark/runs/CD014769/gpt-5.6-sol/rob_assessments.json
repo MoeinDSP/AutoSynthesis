@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:cb01b9d1",
+    "paper_title": "f7734a31_1471-2318-11-8",
+    "design_classification": "randomized",
+    "design_rationale": "Participants in the parent PROSPER trial were explicitly randomized to pravastatin 40 mg/day or placebo, and the trial was double-blind and placebo-controlled.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The parent trial is explicitly described as randomized and double-blind, but this report does not describe sequence generation or allocation concealment and does not provide the treatment-group baseline table needed to assess chance imbalances.",
+        "evidence_quote": "Men and women aged 70-82 (n = 5804) with evidence of pre-existing vascular disease or at least one major risk factor for vascular disease were randomized to placebo or pravastatin (40 mg per day) treatment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding and placebo control likely limited intervention-related deviations, but adherence, unblinding, crossover, and intention-to-treat handling are not reported, while participants on baseline warfarin were excluded from this analysis after randomization.",
+        "evidence_quote": "This study was an analysis of incident VTE using data from the Prospective Study of Pravastatin in the Elderly at Risk (PROSPER), a randomized, double-blind, placebo-controlled trial"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "VTE ascertainment relied on suspected events recorded in the existing database and retrievable records, and the authors explicitly acknowledge insufficient recorded data may have prevented identification of all cases, with no evidence that missing events were unrelated to treatment.",
+        "evidence_quote": "This may have been due to a higher proportion of relatively healthy and active individuals volunteering to take part in a randomized controlled trial, the use of cancer at baseline as an exclusion criterion and insufficient recorded data to identify all cases."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Definite VTE used objective clinical evidence and consensus review by clinicians, but outcome ascertainment was a post hoc review and the report does not state whether adjudicators were blinded to treatment assignment.",
+        "evidence_quote": "For the present study the full medical records were retrieved for all suspected VTE in the PROSPER database and examined by three clinicians in a pre-planned post hoc analysis."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "VTE was analyzed post hoc without applicable trial registration, and several eligible definitions and analyses were available (definite versus combined definite/probable VTE, unadjusted and cancer-adjusted analyses), creating substantial opportunity for selective result reporting.",
+        "evidence_quote": "Trial Registration: Not applicable when study undertaken."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because this post hoc secondary outcome analysis may have missed VTE events and offered substantial flexibility in outcome definitions and analyses without prospective registration. Additional concerns arise from incomplete reporting of allocation concealment, adherence/analysis by assignment, and blinding of VTE adjudicators."
+  },
+  {
+    "paper_id": "manual:1a0b3500",
+    "paper_title": "b8ba94c4_nejmoa0810177",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports random assignment in a 1:1 ratio, in blocks of four, to rosuvastatin or matching placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation used block randomization and yielded well-matched groups, but the method used to generate the sequence and conceal allocation until assignment was not reported in the provided text.",
+        "evidence_quote": "Eligible patients were randomly assigned (in blocks of four in a 1:1 ratio) to receive either rosuvastatin, 10 mg daily, or matching placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and study personnel were blinded with matching placebo, adherence was similar between groups, and the primary analysis followed the intention-to-treat principle despite substantial treatment discontinuation.",
+        "evidence_quote": "In the primary intention-to-treat analyses, which included all patients who underwent randomization, an unadjusted Cox proportional-hazards model was used to compare the study groups and calculate hazard ratios."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "No participants were lost to follow-up, and the randomized groups were analyzed for the primary time-to-event outcome with only three incorrectly randomized participants excluded before formation of the stated intention-to-treat population.",
+        "evidence_quote": "No patients were lost to followup."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The clinical primary outcome was appropriate, measured consistently across groups, and adjudicated by a committee blinded to randomized treatment assignment.",
+        "evidence_quote": "All myocardial infarctions, strokes, and deaths were reviewed and adjudicated by a clinical end-point committee whose members were unaware of the randomized treatment assignments, in order to ensure consistency of the event diagnosis."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered, the sponsor analyzed data according to a predefined statistical analysis plan, the primary endpoint and analysis were clearly specified, and reported interim-analysis adjustments and prespecified subgroup analyses reduce concern about selective reporting.",
+        "evidence_quote": "The sponsor collected the trial data and analyzed them according to a predefined statistical analysis plan."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns because sequence generation and allocation concealment were not described, although baseline balance supports successful randomization. Blinding, intention-to-treat analysis, complete follow-up, blinded endpoint adjudication, trial registration, and a predefined analysis plan otherwise indicate low risk."
+  },
+  {
+    "paper_id": "manual:9573995f",
+    "paper_title": "9b467e6a_nejmoa0900241",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned in a 1:1 ratio to rosuvastatin or matching placebo in a randomized, double-blind, placebo-controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation, equal group sizes, and well-balanced baseline characteristics are reported, but the sequence-generation method and allocation-concealment mechanism are not described in the supplied report.",
+        "evidence_quote": "Potentially eligible subjects who remained willing to participate and demonstrated good compliance during a 4-week, placebo run-in phase were randomly assigned in a 1:1 ratio to receive either rosuvastatin, 20 mg daily, or matching placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and study personnel were blinded with matching placebo, follow-up remained blinded until closeout, and the outcome was analyzed according to randomized assignment using intention-to-treat methods.",
+        "evidence_quote": "All analyses of venous thromboembolism were performed on an intention-to-treat basis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Scheduled visits plus interim contacts provided systematic outcome surveillance, all 17,802 randomized participants were included in time-to-event analyses, and the nearly identical numbers at risk between groups provide no indication of differential missingness likely to bias the result.",
+        "evidence_quote": "Personnel at each site also contacted their participants midway between scheduled visits to identify any changes in health status and address any concerns regarding participation in the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Symptomatic venous thromboembolism was assessed identically in both groups during double-blind follow-up using prespecified objective diagnostic confirmation, making differential measurement unlikely.",
+        "evidence_quote": "The protocol specified that when a new case of venous thromboembolism was identified, the site investigator would complete a form indicating the source of confirmation of the event, including a venous ultrasonogram or venogram for confirmation of deep-vein thrombosis and an angiogram, computed tomographic scan, or ventilation\u2013perfusion scan for confirmation of pulmonary embolism."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "Venous thromboembolism was protocol-specified as a secondary endpoint, the primary analysis time window and component analyses were explicitly defined, and the trial was registered, providing little indication of selective result reporting.",
+        "evidence_quote": "The occurrence of venous thromboembolism was a protocol-specified secondary end point of the trial."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns because the report confirms random assignment but does not describe sequence generation or allocation concealment. Blinding, intention-to-treat analysis, systematic follow-up, objective outcome confirmation, and protocol specification support low risk in the remaining domains."
+  },
+  {
+    "paper_id": "manual:f16d5035",
+    "paper_title": "8e0eec0c_NEJMoa1600176",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly describe a double-blind randomized placebo-controlled trial in which participants were randomly assigned to rosuvastatin 10 mg daily or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Participants were explicitly randomized and baseline characteristics were well balanced, but the report does not describe the sequence-generation method or allocation concealment in enough detail to confirm both were adequate.",
+        "evidence_quote": "Eligible participants... were randomly assigned to receive... rosuvastatin at a dose of 10 mg per day or placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The double-blind placebo-controlled design, similar adherence patterns, and intention-to-treat analysis minimize bias from deviations, despite modest differential discontinuation and open-label statin use that would likely attenuate the treatment effect.",
+        "evidence_quote": "The analyses were performed with the use of an intention-to-treat approach."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Vital status was available for 99.1% of randomized participants, so missing outcome data were unlikely to materially bias the cardiovascular event results.",
+        "evidence_quote": "At the end of the trial, vital status was available for 99.1% of the participants (12,587)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The clinical cardiovascular outcomes were clearly defined, documented and adjudicated in a double-blind placebo-controlled trial, making differential measurement unlikely.",
+        "evidence_quote": "All cardiovascular events and cases of new-onset diabetes were documented and adjudicated."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The coprimary outcomes and multiplicity thresholds were specified, but one secondary outcome was adopted shortly before unblinding and a prespecified renal outcome was removed, creating some concern about outcome-selection flexibility even though these changes preceded unblinding.",
+        "evidence_quote": "This outcome was adopted by the steering committee in July 2015 without a protocol amendment before unblinding of the data on November 3, 2015. At the same time, a prespecified renal outcome was removed because of limitations of statistical power."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns. The randomized, double-blind, placebo-controlled design, intention-to-treat analysis, nearly complete follow-up, and adjudicated outcomes support low risk in most domains, but incomplete reporting of sequence generation/allocation concealment and pre-unblinding changes to secondary outcome reporting prevent an overall low-risk judgment."
+  },
+  {
+    "paper_id": "manual:98f79627",
+    "paper_title": "73d82b48_thoraxjnl-2015-208017",
+    "design_classification": "randomized",
+    "design_rationale": "The parent SAILS trial explicitly randomized patients, stratified by hospital site, to enteral rosuvastatin or placebo, and this report is a prospective follow-up of that randomized comparison.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment stratified by hospital site is explicit and baseline characteristics were generally similar, but this follow-up report does not describe the sequence-generation method or allocation concealment.",
+        "evidence_quote": "Patients were randomised (stratified by hospital site) to receive either enteral rosuvastatin or placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "A placebo control limited participant and care-provider awareness, care protocols were similar between groups, and outcomes were analyzed according to randomized assignment with no reported intervention-related deviations likely to affect long-term outcomes.",
+        "evidence_quote": "These patients were managed with fluid conservative and lung-protective ventilation protocols, with similar average fluid balances and tidal volumes for both treatment groups."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Among eligible survivors, primary 6-month follow-up was nearly complete and missing assessments were balanced, but long-term functional outcomes were available only for a selected survivor subset after deaths, exclusions, nonparticipating sites, and recruitment interruptions; sensitivity analyses reduced but did not eliminate concern.",
+        "evidence_quote": "At 6-month and 12-month follow-up, respectively, 238 and 237 survivors were eligible for follow-up, and 233 (98%) and 220 (93%) were assessed."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated patient-reported and performance-based measures were applied consistently, and research personnel assessing outcomes were blinded to treatment allocation.",
+        "evidence_quote": "At 6-month and 12-month follow-up, research personnel, blinded to treatment allocation, completed study assessments via phone."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcomes and analyses were specified in an a priori written analysis plan, but numerous secondary outcomes, subgroup analyses, and some post-hoc analyses were conducted, and the supplied report does not establish prospective public specification of all outcome measurements and analyses.",
+        "evidence_quote": "Analyses were performed using SAS V.9.3 (SAS Institute, Cary, North Carolina, USA) using data from all eligible consenting survivors according to an a priori written statistical analysis plan."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by incomplete reporting of sequence generation/allocation concealment, selection and missingness issues in the long-term survivor follow-up cohort, and residual potential for selective reporting amid many outcomes and analyses. Blinded outcome assessment, balanced baseline characteristics, high follow-up among eligible survivors, and sensitivity analyses mitigate these concerns."
+  },
+  {
+    "paper_id": "manual:18a1a923",
+    "paper_title": "775c994d_view",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly describes INSPIRATION-S as a double-blind multicenter randomized trial and reports that 605 patients were randomized to atorvastatin or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment and strong masking safeguards are reported, but the sequence-generation and allocation-concealment procedures are deferred to an earlier publication rather than described here, and smoking history was imbalanced at baseline.",
+        "evidence_quote": "Details regarding the randomization procedure and timing have been reported previously."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and trial personnel were blinded and postdischarge adherence was monitored, but the primary analysis excluded randomized participants who received no study dose, withdrew consent, or were judged ineligible, rather than analyzing all randomized participants in their assigned groups.",
+        "evidence_quote": "All randomized patients who met the eligibility criteria, did not withdraw consent, and received at least one dose of the assigned treatment were included in the primary analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The main 90-day clinical outcome was analyzed for 587 of 605 randomized patients (97%), and sensitivity analyses including broader randomized cohorts yielded similar results, making important bias from missing main-outcome data unlikely.",
+        "evidence_quote": "In the sensitivity analyses of all nonduplicative eligible randomized patients (N 605), or all patients who met the eligibility criteria (N 591), and per-protocol cohort (N 444), the results were similar to the primary analyses."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The main outcome used objective definitions, was measured consistently between groups, and was adjudicated by a committee blinded to treatment assignment.",
+        "evidence_quote": "Efficacy and safety outcomes were adjudicated by a clinical events committee who remained blinded to treatment assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The 90-day main outcome and its mixed-effects time-to-event analysis were prespecified, and the authors clearly identify unadjusted secondary and subgroup analyses as exploratory, reducing concern about selective reporting of the main result.",
+        "evidence_quote": "Assessment of the 90-day composite efficacy outcome was prespecified to be performed via mixed-effects models with hazard ratio (HR) as the effect measure and accounting for the enrolling sites as a random effect."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incomplete reporting in this article of sequence generation/allocation concealment and use of a modified rather than full intention-to-treat primary analysis. Missing data for the main clinical outcome were limited, outcome adjudication was blinded, and the main 90-day analysis was prespecified."
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:636dc17b",
+    "paper_title": "37702643_alipour,+11_6",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states participants were randomly assigned to two parallel arms in a double-blinded placebo-controlled trial: \"44 patients were randomly assigned to receive 200 mL/d of either soy milk containing Lactobacillus plantarum A7 or conventional soy milk for 8 weeks.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted and baseline biochemical/anthropometric variables were balanced, but no sequence-generation method or allocation-concealment procedure is described, and one baseline dietary variable (carbohydrate intake) differed markedly (P < .001), which is a larger imbalance than typically expected by chance.",
+        "evidence_quote": "\"A total of 44 participants were randomly allocated to the soy milk group (control) or probiotic soy milk group\" ... \"However, dietary carbohydrate intake was significantly higher in the control group (P < .001) compared with the probiotic soy milk group.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of participants and personnel was reportedly maintained with an identical-appearing comparator, but adherence problems were acknowledged (\"Adherence to soy milk consumption was a problem for some of the participants\") and the analysis was restricted to the 40 completers rather than intention-to-treat.",
+        "evidence_quote": "\"At each study visit, participants received sufficient bottles of soy milk for a 3-day period until the next visit, in a double-blinded design.\" ... \"Volunteers did not know that adherence was determined by serum concentration of genistein.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 4/44 (9%) participants were lost, balanced across arms (2 per group) with reasons reported that are unlikely to be related to the true outcome values.",
+        "evidence_quote": "\"Forty-four patients participated, and 40 completed the study (20 patients in each group; Figure). Two men in the probiotic group were excluded because of hospitalization (n = 1) and loss to follow-up (n = 1). One man and 1 woman in the control group were also excluded due to poor adherence and loss to follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory biomarkers (creatinine, eGFR, albumin-creatinine ratio, IL-18, sialic acid) measured identically in both groups by blinded assessors in the same analytic runs.",
+        "evidence_quote": "\"All the tests were performed in a blinded fashion, in pairs (before and after the intervention) at the same time, in the same analytic run, and in random order to reduce systematic error and interassay variability.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and a pre-specified set of primary endpoints is listed, but the registered analysis plan was not available for comparison, the sample size was powered on CRP (an outcome never reported), and post hoc ANCOVA adjustment for carbohydrate intake was introduced after observing baseline imbalance.",
+        "evidence_quote": "\"The study protocol was registered at the Iranian Registry of Clinical Trials (Register code: IRCT201601027479N2 available at: http://www.irct.ir).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial was registered, double-blinded, used objective blinded laboratory outcomes and had minimal attrition, but gives no detail on sequence generation or allocation concealment, shows a marked baseline imbalance in carbohydrate intake handled by post hoc ANCOVA, analysed completers only despite acknowledged adherence problems, and powered on an outcome (CRP) that was never reported. These issues raise some concerns without indicating a clearly high risk of bias in any single domain."
+  },
+  {
+    "paper_id": "manual:c179b442",
+    "paper_title": "af578f5b_C8FO00888D",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"Randomization was carried out using computer-generated random numbers by a trained staff member at the internal clinic,\" with stratified block randomization of 60 DN patients to probiotic or placebo, registered as a randomized, double-blind, placebo-controlled trial (IRCT2017061134458N1).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blind design with matched placebo capsules, monitored adherence, no significant differences in dietary intake, and an ITT analysis make bias from deviations unlikely.",
+        "evidence_quote": "The placebo group received capsules in similar shape and packaging as the probiotic... The adherence to supplements and placebo was determined by counting the tablet containers... The analyses were done based on the intention-to-treat approach (ITT)."
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated, stratified random sequence is described and baseline characteristics appear balanced, but allocation concealment is never described, and some baseline metabolic values (e.g., HDL-cholesterol 29.5 vs 34.1 mg/dL, GSH 549 vs 649 \u00b5mol/L, FPG 146.9 vs 131.2) differ notably between arms in directions favouring the intervention's apparent effect.",
+        "evidence_quote": "Randomization was carried out using computer-generated random numbers by a trained staff member at the internal clinic. At the onset of the study, to decrease potential confounding effects, stratified randomization of all participants was performed according to age, BMI, gender and the dosage and kind of medication"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was low (10%) and balanced across arms, but missing data were imputed by LOCF (baseline carried forward), which for a 2-timepoint trial forces a null change in dropouts and can bias effect estimates; no sensitivity analysis of completers was reported.",
+        "evidence_quote": "Among the patients in the probiotic group, 3 patients [withdrawn due to personal reasons (n = 3)], and in the placebo group, 3 persons [withdrawn due to personal reasons (n = 3)] were excluded... The missing values were treated based on the Last-Observation-Carried-Forward (LOCF) method."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes are objective laboratory biomarkers measured identically in both arms with reported low assay CVs under double-blind conditions, so assessor knowledge is unlikely to bias measurement.",
+        "evidence_quote": "Available commercial kits were used to determine fasting plasma glucose (FPG), lipid profiles, creatinine, BUN and urine protein concentrations... All inter- and intra-assay coefficient variances (CVs) ... were less than 5%."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary outcome (HOMA-IR), but a very large number of secondary biochemical and gene-expression outcomes were reported without multiplicity adjustment, and the abstract describes adjusted multiple linear regression whereas the Methods state RM-ANOVA, suggesting some analytical flexibility.",
+        "evidence_quote": "This clinical trial was registered by the Iranian Registry of Clinical Trials (http://www.irct.ir: # IRCT2017061134458N1)... Multiple linear regression models were used to assess the treatment effects on the outcomes adjusting for confounding variables."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled RCT used computer-generated stratified randomization with objective laboratory outcomes and low, balanced attrition, but allocation concealment is unreported, several baseline metabolic values differ in directions favouring the probiotic arm, missing data were handled by LOCF, and many secondary outcomes were tested without multiplicity control (with an inconsistency between the stated analytic models). Overall risk is therefore 'some concerns', driven by domains 1, 3 and 5."
+  },
+  {
+    "paper_id": "manual:deba5597",
+    "paper_title": "8125b0f5_j.jrn.2017.06.010",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized, double-blind, placebo-controlled trial in which 46 hemodialysis patients were randomly allocated to probiotic (n=23) or placebo (n=23): \"The random sequence of treatment (probiotic and placebo) was manually generated for a simple randomization.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is stated and baseline characteristics were balanced, but the sequence was \"manually generated\" by an unspecified method and no concealed allocation mechanism (e.g., sealed opaque envelopes, central allocation) is described beyond stating subjects lacked access to the sequence.",
+        "evidence_quote": "\"The random sequence of treatment (probiotic and placebo) was manually generated for a simple randomization. None of the subjects involved in the study had access to the allocation sequence until the end of the statistical analyses.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, investigators and laboratory staff were blinded and adherence was monitored, but the analysis was restricted to completers (16 and 17 of 23 randomized per arm) rather than intention-to-treat, and 18% of patients took <80% of capsules.",
+        "evidence_quote": "\"The participants and the researchers who interviewed and visited the subjects were blinded to the contents of the bottles... Adherence was high with 82% of patients (placebo and probiotics) consuming more than 80% of the capsules.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Thirteen of 46 randomized patients (28%; 7 probiotic, 6 placebo) dropped out and were excluded from analysis, and the microbiota outcome was available for only 20 of 46 patients (43%), with no sensitivity analysis or evidence that results were unaffected by missingness in this already small sample.",
+        "evidence_quote": "\"Seven patients in the probiotic group and 6 in the placebo group left the study (Fig. 1).\" ... \"The gut microbiota profile of 20 patients (10 in each group) were assessed before (T1) and after (T2) probiotic supplementation or placebo\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory measures (HPLC uremic toxins, ELISA inflammatory markers, fecal pH, DGGE profiling) performed centrally in a blinded manner using identical methods in both groups.",
+        "evidence_quote": "\"All laboratory measurements were centralized and performed in a blinded manner.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number or pre-specified protocol/primary outcome is reported, many outcomes are analysed with multiple approaches (within-group paired tests plus between-group delta comparisons, and post hoc correlation/regression analyses) without adjustment for multiplicity, so selective reporting cannot be excluded.",
+        "evidence_quote": "\"The percentage delta (D) was also used to check the differences in the variables before and after supplementation. Regression analysis was performed to determine variables that had independent associations with a number of bands (DGGE).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by substantial attrition (28% of randomized patients excluded; microbiota data for only 43%) with completer-only rather than intention-to-treat analysis. Additional concerns arise from an incompletely described \"manual\" randomization/allocation concealment procedure and the absence of a registered protocol or pre-specified primary outcome amid multiple analyses, although outcome measurement was objective and blinded."
+  },
+  {
+    "paper_id": "manual:5b1b6371",
+    "paper_title": "f035e464_j.kint.2016.09.040",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized, double-blind, placebo-controlled parallel trial with allocation by computer-generated random numbers (\"Randomization assignment was conducted using computer-generated random numbers\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and concealment are adequately described, but five baseline biochemical variables\u2014including the outcome-relevant QUICKI, MDA and TAC\u2014differed significantly between groups despite pre-randomization matching, raising concern about the allocation/matching process.",
+        "evidence_quote": "\"Randomization assignment was conducted using computer-generated random numbers. Randomization and allocation were hidden from the researchers and patients until the final analyses were completed.\" ... \"There was a significant difference in the baseline levels of QUICKI (P 0.03), TAC (P 0.009), MDA (P 0.01), blood urea nitrogen (BUN) (P 0.03), and albumin (P 0.009) between the 2 groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and investigators were blinded by an identical placebo, adherence was high and monitored (returned containers, SMS reminders), diet and activity were unchanged, and an intention-to-treat analysis was used.",
+        "evidence_quote": "\"On average, the rate of compliance in our study was high, such that >90% of probiotic and placebo capsules were consumed throughout the study in both groups.\" ... \"The analyses were carried out based on the intention-to-treat principle.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was low (5/60, balanced across arms) and reasons were unrelated to the intervention, but the method of handling the missing endpoint data (e.g., imputation technique) is not described, so the impact of including withdrawals in the analysis cannot be verified.",
+        "evidence_quote": "\"Two participants in the probiotic group and 3 participants in the placebo group withdrew due to personal reasons... However, because the analysis was done based on the intention-to-treat principle, all 60 participants (30 in each group) were included in the final analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Biochemical outcomes were measured with validated, objective laboratory assays blind to allocation, but the subjective SGA score\u2014reported as a significant finding\u2014was administered by the main investigator in person, and blinding of that assessor is not explicitly confirmed; the paper also oddly reports lab CVs as \">5%\".",
+        "evidence_quote": "\"At study baseline, the SGA questionnaire was read to the participants and completed in person by the main investigator of this study (Z.A). The SGA questionnaire was also used by the same investigator after the 12-week intervention.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (IRCT201601025623N69) and primary/secondary outcomes are stated, but 24 outcomes were tested without adjustment for multiplicity and both unadjusted and post hoc covariate-adjusted analyses are presented (the adjustment decided after observing baseline imbalance), leaving scope for selective emphasis of results.",
+        "evidence_quote": "\"The study indicated that metabolic profiles in 11 of the 24 biomarkers... were positive, with a P value >95% after probiotic supplementation for 12 weeks\" ... \"we adjusted the analysis for baseline values of biochemical parameters, age, and baseline BMI.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled trial used computer-generated randomization with concealed allocation, high adherence and intention-to-treat analysis, but several significant baseline imbalances in outcome-relevant biochemical variables, unspecified handling of the five withdrawals, an investigator-administered subjective SGA outcome, and multiplicity across 24 outcomes with post hoc covariate adjustment raise some concerns. No domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:650fb124",
+    "paper_title": "5eb46626_s12602-018-9468-x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized, double-blind, controlled clinical trial with allocation by a random number table: \"Randomization was done using a random number table by one of the investigators who had no clinical involvement in the study.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random number table generated by an investigator uninvolved in clinical care is described, and baseline characteristics appear comparable, but allocation concealment (e.g., sealed opaque envelopes, central allocation) is not described.",
+        "evidence_quote": "Randomization was done using a random number table by one of the investigators who had no clinical involvement in the study."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind with a matched control honey from the same manufacturer, compliance was monitored by SMS, and the analysis followed intention-to-treat principles with all 60 randomized patients included.",
+        "evidence_quote": "The analyses were carried out based on intention-to-treat (ITT) principle... as the analysis was done based on ITT principle, all 60 participants (30 in each group) were included in the final analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 3/60 (5%) withdrew, balanced across groups (2 probiotic, 1 control), and data were analyzed by ITT, making bias from missingness unlikely\u2014though the imputation method is not described.",
+        "evidence_quote": "Finally, 57 participants [probiotic honey (n = 28) and control honey (n = 29)] completed the trial."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes are objective laboratory biomarkers measured identically in both groups with commercial kits and reported low intra-/inter-assay CVs, so assessor knowledge is unlikely to bias results.",
+        "evidence_quote": "Available commercial kits were used to determine FPG, lipid profiles, creatinine, and BUN concentrations (Pars Azmun, Tehran, Iran) with inter- and intra-assay coefficient variances (CVs)... less than 5%."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (IRCT201705035623N115) with pre-specified primary (insulin metabolism) and secondary outcomes, but no protocol is available for comparison, many outcomes were tested without adjustment for multiplicity, and significant findings (e.g., total-/HDL ratio) are emphasized among numerous null results.",
+        "evidence_quote": "Primary outcomes were parameters of insulin metabolism in the current study. Secondary outcome variables were fasting plasma glucose (FPG), lipid profiles, biomarkers of inflammation, and oxidative stress, serum creatinine, blood urea nitrogen (BUN) concentrations."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, registered RCT had minimal attrition, ITT analysis, and objective laboratory outcomes, but allocation concealment was not described and multiple outcomes were analyzed without adjustment or an available protocol, raising concerns about the randomization process and selective reporting. Overall risk is therefore \"some concerns,\" driven by domains 1 and 5."
+  }
+]

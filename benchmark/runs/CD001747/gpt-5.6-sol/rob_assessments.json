@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:4e83054c",
+    "paper_title": "f550a56a_000086613",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly randomized 971 participants in a 1:1:1 ratio using treatment codes randomly generated through an interactive voice response system immediately before medication assignment.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was randomly generated through a centralized interactive voice response system immediately before treatment, with identical blinded medication kits, and the small baseline severity imbalance is compatible with chance.",
+        "evidence_quote": "Randomization to treatment was determined by calling an interactive voice response system immediately before medication was administered at visit 3. The subject number and treatment code (which corresponded to a specific medication kit) was randomly generated after the caller at the site provided the requested subject details."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and personnel were blinded and protocol deviations were uncommon, but the primary observed-case analysis excluded participants without week-26 observations rather than fully adhering to intention-to-treat, while treatment-related adverse effects could also have revealed assignment for some participants.",
+        "evidence_quote": "The primary efficacy analyses and conclusions for galantamine PRC were based on the observed case (OC) population at week 26 (a subset of the intent-to-treat population)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 79% of randomized and treated participants completed the study, the primary analysis used observed week-26 cases, and differential adverse-event discontinuation makes outcome-dependent missingness plausible despite similar LOCF sensitivity results.",
+        "evidence_quote": "A total of 768 (79%) randomized and treated patients completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The outcomes were established instruments administered consistently by trained raters, and treatment assignment was masked using identical capsules for all participants and study personnel.",
+        "evidence_quote": "All raters were trained on outcome measures."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes and main analysis methods were identified, but no registration or publicly available prespecified analysis plan is reported, two primary endpoints were tested without multiplicity adjustment, and several explicitly post-hoc subgroup analyses were highlighted.",
+        "evidence_quote": "Additional analyses, not prespecified in the protocol, were conducted to further investigate the general reproducibility of the results for the efficacy endpoints in this study."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven primarily by substantial missing outcome data and reliance on an observed-case primary analysis, with treatment-related adverse-event discontinuation making informative missingness plausible. Additional concerns arise from the non-ITT primary analysis and analytical/reporting flexibility, including highlighted post-hoc subgroup analyses."
+  },
+  {
+    "paper_id": "manual:74e67618",
+    "paper_title": "387b12a6_bmj.321.7274.1445",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned by simple randomisation using a computer-generated schedule, so the study is a randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer generated, concealed in sequential sealed opaque numbered envelopes, and the reported baseline characteristics were broadly comparable across groups.",
+        "evidence_quote": "The randomisation schedule was computer generated at the Janssen Research Foundation. The assignments were kept in sealed, opaque, numbered envelopes, each containing the allocation for the next patient."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and personnel were blinded with matched placebo, protocol deviations were uncommon, and ITT sensitivity analyses were reported, but the primary efficacy analysis was an observed-case rather than a full intention-to-treat analysis and adverse effects could have revealed active treatment.",
+        "evidence_quote": "The primary analysis for efficacy data was based on randomised patients who also provided any cognitive data at other designated assessment times\u2014traditional \u201cobserved case\u201d analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Twenty percent did not complete the trial, attrition differed substantially by assignment and was commonly caused by treatment-related adverse events, while observed-case analysis excluded missing follow-up outcomes and LOCF sensitivity analysis cannot rule out bias from informative missingness.",
+        "evidence_quote": "87% (186/215) of those in the placebo group compared with 80% (176/220) and 75% (163/218) in the lower and higher galantamine dose groups, respectively, completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The principal outcomes were established standardized instruments, assessed on the same schedule across groups, with double blinding and explicit blinding of the clinician conducting the global assessment to other assessments.",
+        "evidence_quote": "The clinician\u2019s interview was scored relative to baseline by a clinician blinded to other assessments and was based on separate interviews with the patient and the caregiver."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes and statistical methods are described, but no prospective protocol or registration is reported and multiple eligible analyses and outcome operationalizations were conducted, leaving some potential for selective reporting.",
+        "evidence_quote": "All results discussed are based on the observed case analysis unless otherwise stated."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because missing outcome data were substantial, differential by treatment group, and related to adverse effects, while the primary analysis used observed cases. Additional concerns arise from departure from a full intention-to-treat analysis and the absence of reported prospective registration or a protocol."
+  },
+  {
+    "paper_id": "manual:eb5f49a0",
+    "paper_title": "e157a431_s0140-6736%2802%2908267-3",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned in a 2:1 ratio to galantamine or placebo using a randomisation code generated by the Janssen Research Foundation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A centrally generated randomisation code and generally balanced baseline characteristics support random allocation, but the sequence-generation method and allocation-concealment procedures were not described, and small baseline cognitive differences were present.",
+        "evidence_quote": "patients were randomly assigned placebo or galantamine 24 mg/day for 6 months according to a randomisation code generated by the Janssen Research Foundation."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Identical tablets and double blinding reduced deviation risk, but adverse effects could have revealed assignment, noncompliance was the most frequent major protocol deviation, and the efficacy population excluded randomized patients without post-baseline data rather than applying a full intention-to-treat analysis.",
+        "evidence_quote": "Galantamine and placebo were administered as identical single tablets taken orally twice daily."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for substantial and different proportions of groups, with only 74.2% of galantamine and 83.2% of placebo participants remaining at month 6; discontinuation was strongly related to treatment-associated adverse events, and observed-case/LOCF analyses cannot reliably eliminate resulting bias.",
+        "evidence_quote": "Thus, more galantamine patients than placebo patients discontinued the trial, mostly as a result of adverse events (19\u00b77% vs 8\u00b72%)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated outcome instruments were applied on the same schedule across groups in a double-blind trial, and the global outcome was assessed by an independent clinician masked to other study components, although caregiver input could potentially have been influenced by recognizable adverse effects.",
+        "evidence_quote": "To avoid any potential unmasking of treatment allocation, an independent (masked to other components of the study), experienced, trained clinician undertook the CIBIC-plus assessments"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes and several analyses were described as prespecified or a priori, but no protocol or prospective registration is provided to verify the full analysis plan, and multiple outcomes, subgroup analyses, and both observed-case and LOCF approaches allowed some reporting flexibility.",
+        "evidence_quote": "The primary statistical assessment of efficacy was an observed-case analysis; it included results from all patients in the intention-to-treat population with observed data at each scheduled assessment visit."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial differential missing outcome data and treatment-related discontinuation, addressed mainly through observed-case and last-observation-carried-forward analyses. Additional concerns arise from incomplete reporting of allocation concealment, modified rather than full intention-to-treat analysis, and lack of accessible prospective registration or protocol."
+  },
+  {
+    "paper_id": "manual:e407d7e4",
+    "paper_title": "e477381c_wnl.54.12.2261",
+    "design_classification": "randomized",
+    "design_rationale": "The double-blind phase explicitly used random assignment based on a computer-generated allocation code to placebo or one of two galantamine doses.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and baseline characteristics were largely comparable, but the report does not describe allocation concealment before assignment.",
+        "evidence_quote": "Following a 4-week, single-blind placebo run-in period, patients were randomly assigned (using a computer-generated code) to one of two oral galantamine treatment groups or placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Treatment was double-blind with identical tablets and protocol deviations were balanced, but the principal reported efficacy results used observed cases rather than a fully appropriate intention-to-treat analysis, while the supporting LOCF analysis also has limitations.",
+        "evidence_quote": "All results discussed are based on OC analysis unless otherwise stated."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 69% completed the blinded phase, observed-case samples were substantially smaller than randomized groups, and adverse-event discontinuation was markedly differential by treatment, making outcome-dependent missingness plausible despite LOCF sensitivity analyses.",
+        "evidence_quote": "Discontinuations due to adverse events during the double-blind phase were more common in galantamine-treated patients than in those receiving placebo (23% in the 24 mg/d group and 32% in the 32 mg/d group versus 8% with placebo)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified efficacy outcomes were established instruments, were assessed on the same schedule across randomized groups, and double blinding plus use of a trained clinician for CIBIC-plus reduced the potential for differential assessment.",
+        "evidence_quote": "The primary efficacy measures were the standard 11-item ADAS-cog subscale (ADAS-cog/11)... and the Clinician\u2019s Interview-Based Impression of Change plus Caregiver Input (CIBIC-plus)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes were identified, but no preregistration or prespecified analysis plan is reported and multiple outcome versions, time points, analysis populations, and statistical models created scope for selective reporting.",
+        "evidence_quote": "The ANCOVA and ANOVA models produced similar conclusions; therefore, results based on the ANOVA model are reported in this paper."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because extensive and treatment-differential attrition, especially adverse-event discontinuation, could bias efficacy outcomes and was not resolved by observed-case or LOCF analyses. Additional concerns arise from unreported allocation concealment and analysis/reporting flexibility."
+  },
+  {
+    "paper_id": "manual:e205b57f",
+    "paper_title": "7ec7886a_wnl.54.12.2269",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized among four treatment arms using a computer-generated allocation code.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The computer-generated sequence and comparable baseline characteristics support random allocation, but the report does not describe allocation concealment before assignment.",
+        "evidence_quote": "patients were randomized to one of four treatment arms for 5 months, using a computer-generated code"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Identical tablets and double blinding reduce the likelihood of intervention-related deviations, and protocol deviations were balanced, but the primary efficacy analysis was observed-cases rather than intention-to-treat and blinding success was not assessed despite potentially recognizable adverse effects.",
+        "evidence_quote": "The primary statistical analysis of efficacy was of observed cases (OC analysis)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 80% of randomized participants completed the study and observed-case sample sizes were lower, although discontinuations due to adverse events were similar and sensitivity analyses using last observation carried forward supported the main findings.",
+        "evidence_quote": "Of the 1178 patients screened, 978 were randomized to trial medication, of whom 80% completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified outcomes were established instruments assessed uniformly under double blinding, with the clinician-rated global outcome performed by a trained clinician using patient and caregiver interviews.",
+        "evidence_quote": "The CIBIC-plus was scored by a trained clinician, based on separate interviews with the patient and the caregiver."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes and an a priori multiplicity procedure are described, but no prespecified protocol or statistical analysis plan is available to verify selection among multiple outcomes, time points, and analytic approaches.",
+        "evidence_quote": "For the primary efficacy measures, an a priori sequential, step-down, closed testing procedure was used to allow multiple statistical comparisons"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns. The trial used a computer-generated randomized, double-blind design with balanced baseline groups and validated outcomes, but allocation concealment was not reported, the primary analysis excluded missing observations amid approximately 20% noncompletion, and no accessible prespecified protocol fully resolves selective-reporting concerns."
+  }
+]

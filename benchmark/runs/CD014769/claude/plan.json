@@ -1,0 +1,39 @@
+{
+  "research_question": "What is the effect of statin therapy compared with placebo on the incidence of deep vein thrombosis (DVT) for the primary prevention of venous thromboembolism, stratified by statin type (rosuvastatin, atorvastatin, pravastatin)?",
+  "treatment_label": "Statin therapy (rosuvastatin, atorvastatin, or pravastatin)",
+  "control_label": "Placebo",
+  "outcome_description": "Incidence of deep vein thrombosis (DVT) events during trial follow-up, extracted as the number of participants with a DVT event and the total number randomized in each arm; pooled as an odds ratio with rosuvastatin, atorvastatin and pravastatin trials kept as separate subgroups.",
+  "positive_direction": "A positive effect size means statin therapy reduced the occurrence of deep vein thrombosis relative to placebo (fewer DVT events in the statin arm).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "statin placebo randomized trial venous thromboembolism deep vein thrombosis",
+    "rosuvastatin atorvastatin pravastatin trial deep vein thrombosis incidence",
+    "statin therapy controlled trial venous thrombosis prevention outcome"
+  ],
+  "inclusion_criteria": [
+    "Study compares a statin (any of rosuvastatin, atorvastatin, pravastatin, or other statins) with placebo or an inactive control in human participants",
+    "Study reports quantitative data on deep vein thrombosis or venous thromboembolism events (event counts, proportions, risk/odds/hazard ratios) in each group",
+    "Any clinical trial or comparative study design reporting participant-level outcome data, published in any year from the search window onward"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, theoretical or modelling paper, case report without a control group)",
+    "No comparison between a statin treatment condition and a placebo/control condition",
+    "No quantitative outcome data from which an effect size can be computed (no event counts, proportions, means+SDs, t/F values, or odds/risk ratios with uncertainty)",
+    "Completely unrelated to statins or to venous thromboembolic outcomes"
+  ],
+  "moderators_to_extract": [
+    "Statin type (rosuvastatin, atorvastatin, pravastatin, other)",
+    "Statin dose / intensity",
+    "Duration of follow-up",
+    "Baseline VTE or cardiovascular risk of the population (primary prevention vs higher-risk/secondary)",
+    "Mean age and proportion female",
+    "Total sample size category",
+    "Method of DVT ascertainment (adjudicated vs reported adverse event)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as odds ratios computed from 2x2 event data (DVT events and total randomized per arm), using a random-effects model on the log-OR scale. Keep rosuvastatin, atorvastatin and pravastatin as separate subgroups and report subgroup-specific odds ratios rather than a single overall pooled estimate, since the statin types are expected to show materially different and potentially opposite-direction effects. Apply a continuity correction only where a single arm has zero events; consider Peto OR as a sensitivity analysis for sparse-event trials.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "deep vein thrombosis"
+}

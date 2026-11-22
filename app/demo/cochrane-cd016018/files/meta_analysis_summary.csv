@@ -1,0 +1,22 @@
+user_prompt,retrieved_count,screened_in_count,screened_out_count,eligible_count,included_count,overlap_with_original_count,overlap_with_original_pct
+"In adults living with obesity, what is the effect of tirzepatide (any dose, given once weekly for at least six months), compared with placebo, on percentage body weight change from baseline at medium-term follow-up (6 to 24 months)?
+
+Effect measure: pool as a mean difference (MD) in percentage points using a random-effects model. MD < 0 means more weight loss with tirzepatide (favours tirzepatide).
+
+Outcome: percentage change in body weight from baseline, tirzepatide versus placebo.
+- Percentage body weight change is often a primary endpoint but may also be reported as a secondary outcome (for example in a trial whose primary outcome is sleep apnoea severity or heart failure symptoms). Look for it in the results text, tables, figures and figure legends, and extract it wherever it is reported.
+- Accept any of these data formats, in this order of preference:
+  1. The estimated treatment difference (tirzepatide minus placebo) in percentage points with its 95% CI, from ANCOVA or a mixed model, under any estimand (treatment-regimen or efficacy). Use it directly as the study's MD and derive its standard error from the 95% CI (SE = (upper - lower) / 3.92). Do not require arm-level SDs, an exact p-value or an F-statistic when the difference and its CI are reported.
+  2. Arm-level estimated means (including least-squares means) with their SE or 95% CI; convert SE to SD as SD = SE x sqrt(n).
+  3. Arm-level raw means with SDs.
+- P-values reported as thresholds (for example P < 0.001) are fine; they are not needed when the difference and its CI are available.
+- Numbers of participants: use the numbers analysed if stated; otherwise use the randomised numbers for each arm. Treatment-regimen analyses include all randomised participants, so randomised numbers are the correct denominators for them.
+- Trials with several tirzepatide doses (5, 10 and 15 mg): if the paper reports a pooled tirzepatide group, use it. Otherwise combine the dose arms into one tirzepatide group (pool means and SDs, sum participants) and compare once with placebo. If only per-dose differences versus placebo are reported, use the highest dose (15 mg) versus placebo. Do not exclude a trial because doses are reported separately.
+- Use the assessment closest to the end of the medium-term window (for example week 52 or 72). Do not use extension periods after 24 months or off-treatment periods.
+- For randomised-withdrawal trials (all participants first receive tirzepatide in a lead-in, then are randomised to continue tirzepatide or switch to placebo), use the percentage weight change from randomisation to the end of the randomised period.
+- For trials reported as two sub-studies within one paper (for example participants with and without a background therapy), combine the sub-studies into one trial (pool arms, sum participants), or if only separate results are given, use each sub-study's tirzepatide-versus-placebo difference and say so.
+- For trials that include an intensive lifestyle lead-in before randomisation, use the change from randomisation.
+- Comparator must be placebo. Assign arms by treatment description, not by column position.
+- Include only randomised controlled trials in adults (18 years or older) living with obesity, including those with comorbidities (for example type 2 diabetes, prediabetes, obstructive sleep apnoea or heart failure with preserved ejection fraction). Exclude cross-over trials.
+
+Do not pool weight in kg, BMI, waist circumference, the proportion reaching 5% or more weight loss, adverse events, cardiovascular events, quality of life, mortality, glycaemic or lipid outcomes, or any outcome other than percentage body weight change.",101,14,87,8,8,N/A (no gt_papers.csv provided),N/A

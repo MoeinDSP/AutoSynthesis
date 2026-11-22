@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with cancer, what is the effect of a bevacizumab biosimilar compared with originator bevacizumab on progression-free survival?",
+  "treatment_label": "Bevacizumab biosimilar",
+  "control_label": "Originator bevacizumab",
+  "outcome_description": "Progression-free survival in adults with cancer, using the hazard ratio reported directly from each trial's own time-to-event survival analysis. Extract log(HR) and its SE, or derive them only from a reported HR and 95% CI; do not reconstruct or approximate HRs from Kaplan\u2013Meier curves, event counts, medians, P values alone, or other summary data.",
+  "positive_direction": "After orienting effects so that benefit favors the biosimilar, a positive effect means longer progression-free survival (a lower hazard of progression or death) with the bevacizumab biosimilar than with originator bevacizumab; for the reported HR itself, HR < 1 favors the biosimilar.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "bevacizumab biosimilar originator progression-free survival trial",
+    "bevacizumab biosimilar reference bevacizumab cancer controlled comparison",
+    "bevacizumab biosimilar oncology progression survival hazard ratio"
+  ],
+  "inclusion_criteria": [
+    "Original empirical comparative studies in adults with any cancer that evaluate a bevacizumab biosimilar against originator/reference bevacizumab.",
+    "Studies reporting progression-free survival from a trial-specific time-to-event survival analysis, with an HR and 95% CI or log(HR) and SE available for direct extraction.",
+    "Any eligible publication type, setting, cancer type, treatment line, or concomitant anticancer regimen, provided the compared groups differ by biosimilar versus originator bevacizumab and otherwise permit a relevant comparison."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between a bevacizumab biosimilar treatment condition and an originator/reference bevacizumab control condition.",
+    "No quantitative outcome data that can produce the prespecified effect size: for this review, no directly reported progression-free-survival log(HR) plus SE or HR with 95% CI from the study's own survival analysis; means and SDs, t/F-values, proportions, odds ratios, event counts, medians, Kaplan\u2013Meier curves, or P values alone will not be used to approximate the HR.",
+    "Completely unrelated to bevacizumab biosimilars, originator bevacizumab, cancer, or progression-free survival."
+  ],
+  "moderators_to_extract": [
+    "Cancer type and disease stage",
+    "Specific bevacizumab biosimilar product",
+    "Treatment line and clinical setting",
+    "Concomitant anticancer regimen",
+    "Trial design and analysis population",
+    "PFS assessment method and follow-up duration"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Pool trial-reported progression-free-survival hazard ratios on the log scale using log(HR) and SE. When only HR and 95% CI are reported, compute log(HR) and SE from those values. Do not estimate HRs from Kaplan\u2013Meier curves, medians, event counts, survival proportions, or other indirect data. Preserve the conventional HR interpretation in reporting (HR < 1 favors the biosimilar), while any transformed directional display should be oriented so positive values favor the biosimilar.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "progression-free survival"
+}

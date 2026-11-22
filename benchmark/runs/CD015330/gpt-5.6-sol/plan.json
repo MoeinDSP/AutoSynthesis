@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adolescents aged approximately 12\u201318 years, what is the short-term effect of combined dietary and physical activity interventions delivered through school-, community-, or family-based programmes, compared with no intervention, usual curriculum, or usual care, on BMI in kg/m\u00b2 at the first assessment after intervention completion and no more than 12 months after completion?",
+  "treatment_label": "Combined dietary and physical activity intervention (school-, community-, or family-based)",
+  "control_label": "No intervention, usual curriculum, or usual care",
+  "outcome_description": "Body mass index (BMI) in kg/m\u00b2 at the first assessment after the intervention ended, provided that it occurred no more than 12 months after intervention completion. Pool only BMI in kg/m\u00b2; do not substitute or pool BMI z-scores, BMI percentiles, waist circumference, body fat, dietary intake, physical activity, or other outcomes. Extract the trial-reported adjusted or unadjusted between-group difference preferentially, with its SE derived from the reported SE, 95% CI (CI width/3.92), or p-value and sample size, documenting the derivation. If unavailable, calculate intervention-minus-control from follow-up means, SDs, and sample sizes, or from mean changes and their SDs. If BMI analysis counts are absent, use randomized or enrolled counts per arm and flag this substitution. Subtract model-predicted or adjusted arm means when only those are reported, but exclude that estimate if no SE can be derived. For multiple eligible short-term assessments, select the first after intervention completion. For multiple eligible combined-intervention arms, combine them using standard formulas where possible or select the prespecified/main intervention arm, ensuring the shared control is counted once. Pool mean differences using a random-effects model, orienting all estimates as intervention minus control; MD < 0 indicates lower BMI and favors intervention.",
+  "positive_direction": "For standardized-effect harmonization, a positive Hedges g would mean lower BMI with the combined intervention and therefore favor the intervention; however, the requested pooled raw mean difference is intervention minus control, for which a negative MD means lower BMI and favors the intervention.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "adolescent combined diet physical activity intervention controlled BMI trial",
+    "school community family obesity prevention adolescents BMI quantitative comparison",
+    "adolescent nutrition exercise programme controlled study body mass index"
+  ],
+  "inclusion_criteria": [
+    "Original randomized or non-randomized controlled studies with a concurrent eligible control group that evaluate a programme containing both dietary and physical activity components in a school, community, family, or mixed setting.",
+    "Participants have an age range overlapping 12\u201318 years, or are in broadly corresponding school grades, with most participants being adolescents.",
+    "The study reports BMI in kg/m\u00b2 at the first post-intervention assessment up to 12 months after programme completion and provides, or permits derivation of, a between-group mean difference and its sampling variance."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between an eligible combined intervention and a concurrent control condition, including uncontrolled pre\u2013post studies.",
+    "No quantitative BMI outcome data capable of producing an effect size and variance, such as means and SDs, a between-group estimate with SE or confidence interval, or sufficient test statistics/p-values; this includes adjusted/model-predicted arm means for which no SE of their difference can be derived.",
+    "Completely unrelated to combined dietary and physical activity interventions for adolescents, or evaluates diet-only or physical-activity-only interventions; also exclude reports providing only BMI z-scores, percentiles, anthropometric outcomes other than BMI kg/m\u00b2, or follow-up solely beyond 12 months after intervention completion."
+  ],
+  "moderators_to_extract": [
+    "study design and allocation method (individual/cluster randomized or non-randomized controlled)",
+    "delivery setting (school, community, family, or mixed)",
+    "participant age, sex distribution, and baseline weight-status eligibility",
+    "intervention duration, intensity, and component content",
+    "follow-up interval after intervention completion",
+    "effect estimate type and analytic adjustment (direct adjusted difference, unadjusted difference, follow-up arm means, or change scores)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Use raw mean difference in BMI (kg/m\u00b2) under a random-effects model. Every estimate must be intervention minus control, so MD < 0 favors intervention and MD > 0 favors control. Prefer a directly reported adjusted or unadjusted between-group contrast. Use its reported SE, derive SE from a 95% CI as (upper\u2212lower)/3.92, or derive it from an exact p-value and the relevant sample size/degrees of freedom, recording the method and assumptions. If no contrast is reported, calculate the MD from endpoint means or mean changes; compute its SE from arm SDs and sample sizes. Do not mix endpoint and change estimates within a study when a preferred direct contrast is available. Never leave group sizes blank: if BMI analysis counts are missing, substitute randomized/enrolled arm counts and flag this. If only adjusted/model-predicted means are available, subtract intervention minus control, but omit the trial from pooling if the SE of the contrast cannot be obtained or derived. For multi-arm studies, combine eligible diet-plus-activity arms using standard weighted combination formulas when defensible, otherwise use the main intervention arm; count the control once. For cluster studies, use cluster-adjusted estimates preferentially or adjust the variance/effective sample size using an ICC when necessary. Select only the first assessment after intervention completion within 12 months. Assess heterogeneity with tau\u00b2 and I\u00b2, report a 95% CI for the pooled MD and, where feasible, a 95% prediction interval; conduct sensitivity analyses by study design, adjusted versus calculated estimates, cluster adjustment, and risk of bias. Follow PRISMA 2020 with duplicate screening/extraction, a flow diagram, excluded full-text reasons, risk-of-bias assessment (RoB 2 for randomized trials and ROBINS-I for non-randomized studies), and publication-bias assessment when enough studies are available.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "body mass index (BMI) in kg/m\u00b2"
+}

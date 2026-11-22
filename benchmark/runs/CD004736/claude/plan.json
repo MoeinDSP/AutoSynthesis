@@ -1,0 +1,39 @@
+{
+  "research_question": "In pregnant women, does antenatal supplementation with any iron-containing supplement (iron alone, iron+folic acid, or multiple micronutrients with iron), compared with the same supplement without iron or with placebo/no treatment, reduce the risk of maternal iron-deficiency anaemia at term (haemoglobin <110 g/L plus at least one additional laboratory indicator of iron deficiency, measured at >=37 weeks' gestation)?",
+  "treatment_label": "Iron-containing supplement during pregnancy (oral or parenteral iron, alone or combined with folic acid/multiple micronutrients)",
+  "control_label": "Same supplement without iron, placebo, or no treatment",
+  "outcome_description": "Maternal iron-deficiency anaemia at term: number/proportion of women with haemoglobin below 110 g/L together with at least one additional laboratory indicator of iron deficiency (e.g. low serum ferritin, low transferrin saturation, raised soluble transferrin receptor, low mean cell volume), assessed at 37 weeks' gestation or later. Trials reporting zero events in both arms are treated as not estimable and excluded from pooling.",
+  "positive_direction": "A positive effect (risk ratio below 1 / positive signed effect size) means the iron-containing supplement reduced the risk of maternal iron-deficiency anaemia at term relative to the no-iron/placebo control.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "iron supplementation pregnancy randomized controlled trial anaemia",
+    "antenatal iron folic acid supplement maternal haemoglobin trial outcome",
+    "iron deficiency anaemia pregnant women supplementation placebo controlled effect"
+  ],
+  "inclusion_criteria": [
+    "Studies of pregnant women receiving an iron-containing supplement (any dose, route, or regimen; alone or with other micronutrients)",
+    "Includes a comparison group receiving the same supplement without iron, a placebo, or no treatment",
+    "Reports any quantitative maternal haematological or iron-status outcome (e.g. anaemia or iron-deficiency anaemia event counts, haemoglobin, ferritin) from which an effect size can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, or purely theoretical/modelling paper)",
+    "No comparison between an iron-containing treatment condition and a no-iron/placebo/no-treatment control condition",
+    "No quantitative outcome data usable for an effect size (no event counts/proportions, means with SDs, t/F statistics, or risk/odds ratios reported)",
+    "Completely unrelated to iron supplementation in pregnancy (e.g. non-pregnant populations, non-iron interventions, animal studies)"
+  ],
+  "moderators_to_extract": [
+    "Iron dose and dosing frequency (daily vs intermittent)",
+    "Route of administration (oral vs intravenous/intramuscular)",
+    "Co-supplementation (iron alone vs iron+folic acid vs multiple micronutrients)",
+    "Baseline anaemia prevalence / country income setting",
+    "Gestational age at supplementation start and duration",
+    "Risk of bias / randomisation and blinding quality",
+    "Sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as risk ratio (RR) of maternal iron-deficiency anaemia at term using event counts per arm; double-zero-event trials are not estimable and are excluded from pooling. Random-effects (DerSimonian-Laird or REML) model with RR<1 favouring iron supplementation.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "maternal iron-deficiency anaemia at term"
+}

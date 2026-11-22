@@ -1,0 +1,338 @@
+[
+  {
+    "paper_id": "manual:e20d0dae",
+    "paper_title": "5405466e_246",
+    "design_classification": "randomized",
+    "design_rationale": "The authors explicitly state that patients were 'randomly assigned to one of the two modes of treatment' following surgery.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although patients were randomly assigned, the method of sequence generation and allocation concealment was not described, though baseline characteristics appear reasonably balanced.",
+        "evidence_quote": "After operation, patients were randomly assigned to one of the two modes of treatment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of participants and personnel was impossible due to the nature of the interventions, and analysis excluded patients lost to follow-up rather than using a true intention-to-treat analysis.",
+        "evidence_quote": "Two to three days later they received either a fibre-glass short-leg cast (group 1) or a removable functional brace (Aircast, Summit, New Jersey) and instructed as to active and passive exercises of the ankle and subtalar joint by a physiotherapist (group 2)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Missing outcome data was minimal (5 of 60 patients, 8.3%), reasons were documented, and the proportion missing was unlikely to bias the overall results.",
+        "evidence_quote": "Of the 60 patients entered into the study, one moved abroad, one developed multiple sclerosis with severe progression of his disease and three were lost to follow-up. This left 55 patients who completed the follow-up examinations and the SF-36 questionnaire."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (Mazur ankle functional score) involves subjective and clinical assessments performed unblinded by the operating surgeon, introducing a high risk of detection bias.",
+        "evidence_quote": "The limitations of the study include the fact that the operating surgeon performed the follow-up rating scores."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no mention of a pre-registered trial protocol or pre-specified statistical analysis plan, leaving some risk of selective outcome reporting.",
+        "evidence_quote": "The functional rating scale of Mazur et al was used to evaluate the patients at each follow-up and we recorded the time of return to work. After one year the patients completed the SF-36 questionnaire."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "The study is at high overall risk of bias due to unblinded outcome assessment performed directly by the operating surgeon for subjective and clinician-rated functional scores, alongside missing details regarding sequence generation and allocation concealment."
+  },
+  {
+    "paper_id": "manual:a2b49bac",
+    "paper_title": "e6163d76_107110079501600205",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a prospective, randomized study in which 30 patients were randomized postoperatively to either a plaster cast or early mobilization in an ankle brace.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The paper states that patients were randomized, but no details are provided regarding the sequence generation or allocation concealment methods.",
+        "evidence_quote": "After a postoperative x-ray, the surgeon decided whether the patient could be included in the study. Inclusion criteria were: no large posterior tibial fragment (>1/4 of the sagittal joint line), age between 18 and 60 years, a stable fracture fixation, and satisfactory reduction. The patient was then randomized to brace or plaster treatment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and providers was not possible due to the nature of the interventions (brace vs. cast), and there is insufficient information to evaluate protocol adherence or deviations.",
+        "evidence_quote": "All patients were given a program for self-training of mobility, muscular strength, and function (such as stair climbing). The brace group received this program immediately; the plaster group received it at 6 weeks."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 30 included patients appear to have been followed up and evaluated at 10 weeks and 12 months with no evident post-randomization dropouts.",
+        "evidence_quote": "In a prospective, randomized study, 30 patients were evaluated after ankle fracture treated by means of open reduction and internal fixation."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome assessors were not reported as blinded, and some outcomes (such as the modified Olerud functional score and ROM goniometry) could plausibly be influenced by knowledge of the intervention received.",
+        "evidence_quote": "Special follow-up at 10 weeks and 12 months included: (1) subjective problems monitored by a modified Olerud score; (2) measurement of muscular hypotrophy of the leg and ankle swelling; (3) testing dorsiflexion and plantarflexion ROM using a standard goniometer; and (4) measurement of isokinetic dorsiflexion muscle strength using an isokinetic testing machine (Cybex)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no record of a prospective trial registration or pre-specified analysis plan, raising some concerns regarding potential selective reporting.",
+        "evidence_quote": "Nine patients who presented the least good results in the described follow-up were reassessed at 3 years with the same test program, but using a similar, more sophisticated testing machine (Biodex, Biodex Inc., NY)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study is judged to have some concerns overall due to insufficient reporting of random sequence generation and allocation concealment, lack of blinding for subjective and clinical outcome measures, and absence of a pre-registered statistical analysis plan."
+  },
+  {
+    "paper_id": "manual:bd593ffc",
+    "paper_title": "acaebd64_bmj.n1506.full",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a pragmatic, multicentre, superiority randomised controlled trial where participants were randomly allocated (1:1) to either cast immobilisation or removable brace using a secure web-based system with a minimisation algorithm.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated via an independent secure web-based system using minimisation with a random element, ensuring allocation concealment, and baseline characteristics were well balanced between groups.",
+        "evidence_quote": "A secure web based system maintained by an independent randomisation team allocated participants using a minimisation algorithm with a random element and stratification by centre, operative or non-operative management, and age (\u226449 v \u226550 years)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants and personnel were aware of intervention assignment due to the pragmatic nature of cast vs brace, deviations/crossovers were relatively small, co-interventions were balanced, and an appropriate intention-to-treat analysis was performed.",
+        "evidence_quote": "Blinding of participants and clinicians was not possible. ... Twenty three participants in the cast group (n=334) did not adhere to the treatment allocation and crossed over to the removable brace group (20 owing to participant preference). Seven participants in the removable brace group (n=335) did not adhere to the treatment allocation and crossed over to the cast group... The planned main analysis, which was on an intention-to-treat basis, used adjusted mixed effects linear regression analysis..."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were missing for 25% of participants with slightly unequal loss between groups (73% vs 78% completeness), raising some concerns despite sensitivity analyses using multiple imputation yielding similar conclusions.",
+        "evidence_quote": "Five hundred and two participants completed the primary outcome Olerud Molander ankle score score (75%) and were included in the final analysis (fig 1)... As loss to follow-up was higher than the expected 20% at the primary analysis point, multiple imputation using chain equations was used to investigate the robustness of the results... Sensitivity analyses on the imputed dataset gave similar results to those of the primary analysis, suggesting that missingness did not impact on the interpretation of the primary analysis"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was assessed using a validated patient-reported questionnaire collected via postal survey identically in both groups, with no indication of measurement bias arising from knowledge of the intervention.",
+        "evidence_quote": "The primary outcome was the Olerud Molander ankle score at 16 weeks; a self-administered questionnaire that consists of nine diferent items... All follow-up data were participant reported through postal questionnaires; no clinicians or researchers assessed outcome measures."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered and had a published protocol and prespecified statistical analysis plan, with all prespecified outcomes and analyses reported accordingly.",
+        "evidence_quote": "The trial protocol (see supplementary file 1) was accepted for publication on 31 October 2018 and first published online on 18 December 2018. The independent trial steering committee and data and safety monitoring committee approved the statistical analysis plan... This study was prospectively registered on 24 July 2017."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial was well conducted with robust randomization, clear protocol adherence, and prospectively defined analyses; however, an overall rating of some concerns is warranted due to 25% missing primary outcome data at 16 weeks."
+  },
+  {
+    "paper_id": "manual:ae64ec6b",
+    "paper_title": "093502c1_bot.0000000000000572",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a multi-centre randomized controlled trial with participants allocated to treatment groups via concealed sequentially numbered, opaque, sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was concealed using sequentially numbered opaque sealed envelopes, and baseline prognostic characteristics were well balanced between groups.",
+        "evidence_quote": "Randomization was performed by the research coordinators at the two week post operative visit by use of concealed sequentially numbered, opaque, sealed envelopes, in 1:1 ratio... Allocation was concealed from patients and investigators until the randomization was completed."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "While blinding was not possible given the nature of the rehabilitation interventions, deviations from protocol were minor/balanced and analysis followed intention-to-treat principles.",
+        "evidence_quote": "Although it would have been desirable, it was not practical to blind patients or investigators to their treatment group... Patients were analyzed based on intention to treat principles."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Follow-up was high across groups with minimal attrition that was balanced and unlikely to bias the results.",
+        "evidence_quote": "One patient was lost to follow-up before returning to work, and four patients did not have the exact date of return to work recorded. One patient from each group did not return to work by 12 months post-operatively, and were excluded from the return to work analysis. Therefore, 90 patients with compete results were available for calculation of time to return to work."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Participants and assessors were not blinded to assignment, and several key outcomes (such as return to work date, SF-36, and Olerud/Molander scores) are participant-reported and could potentially be influenced by knowledge of intervention status.",
+        "evidence_quote": "The primary outcome measure was the time to return to work... Patients were asked a standard set of questions by the research staff regarding their return to work and activity as well as adverse events. They also completed the SF-36 Health Survey, and the Olerud and Molander Ankle Score."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No clinical trial registry number or published pre-trial statistical analysis plan was cited to confirm that reported outcomes and analyses were pre-specified without selective reporting.",
+        "evidence_quote": "The primary outcome measure was the time to return to work. Secondary outcome measures included: ankle ROM, SF-36 heath outcome scores, Olerud/Molander ankle function score, and rates of complications."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns due to potential detection bias from lack of blinding in patient-reported outcomes (Domain 4) and the lack of an explicit pre-registered protocol/analysis plan (Domain 5)."
+  },
+  {
+    "paper_id": "manual:9a582d43",
+    "paper_title": "3ad3ad3c_s00068-005-1041-z",
+    "design_classification": "non_randomized",
+    "design_rationale": "Allocation was determined by which consultant was on call (consultant A vs consultant B) rather than by a random sequence generation method.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Treatment was assigned by consultant based on on-call roster, no baseline characteristics comparing groups are reported, and surgeon-level differences (different surgeons operating on each group) act as an unadjusted confounder.",
+        "evidence_quote": "All injured patients admitted under the care of consultant \u201cA\u201d were included to the \u201cimmobilized group\u201d (n = 22) and treated in a below-knee plaster cast for 6 weeks following osteosynthesis. All injured patients admitted under the care of consultant \u201cB\u201d were included to the \u201cmobilized group\u201d (n = 22) and left free of casting postoperatively."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "low",
+        "rationale": "Selection into the study was prospective and consecutive based on admission to hospital during the study timeframe according to fixed inclusion criteria.",
+        "evidence_quote": "All patients presenting to the four accident and emergency departments in our catchment area between January 15, 2001 and November 30, 2001, who fulfilled these criteria, were included in this study. 44 patients met the inclusion criteria and underwent open reduction and internal fixation within 24 h using standard AO osteosynthesis during this period."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Intervention status (cast immobilization vs. free of casting) was clearly defined and well-differentiated at baseline.",
+        "evidence_quote": "All injured patients admitted under the care of consultant \u201cA\u201d were included to the \u201cimmobilized group\u201d (n = 22) and treated in a below-knee plaster cast for 6 weeks following osteosynthesis. All injured patients admitted under the care of consultant \u201cB\u201d were included to the \u201cmobilized group\u201d (n = 22) and left free of casting postoperatively."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Both groups followed the specified postoperative protocol and there is no evidence of deviations or non-adherence.",
+        "evidence_quote": "Both groups commenced partial weight bearing at 4 weeks and gradually progressed to full weight bearing as tolerated."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "low",
+        "rationale": "Data appear complete for all 44 participants (22 per group) across reported outcomes and follow-up intervals.",
+        "evidence_quote": "44 patients met the inclusion criteria with 22 in each group. The results showed that there was a greater range of motion in the mobilized group at 6-week follow-up... All fractures in both groups healed clinically and radiologically."
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "moderate",
+        "rationale": "Although the physiotherapist assessing primary functional and range of motion outcomes was blinded, subjective patient-reported satisfaction and pain were assessed by a non-blinded examiner and participants themselves were inherently aware of their treatment group.",
+        "evidence_quote": "A nonblinded independent examiner assessed each patient, both clinically and radiologically. Pain was assessed at day 2, week 1 and week 6 using a visual analog scale... An independent and blinded physiotherapist assessed all patients at 6 and 12 weeks post-surgery, a few days after removing the plaster cast (if used) to eliminate any bias by identification."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "No prospective trial registration or published pre-specified analysis plan is available to verify that outcomes were not selectively reported.",
+        "evidence_quote": "Statistical significance was defined as p < 0.05 (two-sided). Statistical analysis was carried out using SPSS statistical package from MS\u00ae Windows."
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "The study has a serious overall risk of bias under ROBINS-I, primarily driven by serious confounding due to allocation by consultant on-call roster, which completely confounded treatment assignment with individual operating surgeon, combined with an absence of baseline balance reporting."
+  },
+  {
+    "paper_id": "manual:feda3fa5",
+    "paper_title": "a60d2f79_s00068-018-1016-6",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly allocated to three treatment groups using a computerized random number generator with block randomization.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computerized random number generator was used with allocation concealment, and baseline characteristics were balanced across groups.",
+        "evidence_quote": "Patients were randomized using a computerized random number generator with an allocation ratio of 1:1:1 in blocks of 21 patients. ... Allocation to a treatment group was concealed using a computerized block randomization."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Analysis followed the intention-to-treat principle despite lack of blinding (which is inevitable with immobilization/cast interventions), and minor non-adherence/deviations (3 crossovers) were balanced and unlikely to have biased the findings.",
+        "evidence_quote": "Patients were analyzed in accordance with the intention-to-treat principal. ... A total of three patients switched from the protected weight-bearing group to the unprotected non-weight-bearing group because of cast irritation."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 88% of participants at 12 weeks with similar completion rates across groups, making substantial bias unlikely.",
+        "evidence_quote": "At 3 months and 1 year, follow-up information was available for 88% and 86% of the subjects, respectively, for all outcomes. We performed an available case analysis, and no corrections for loss to follow-up were applied."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is a subjective patient-reported score (OMAS) assessed in unblinded participants who were fully aware of their assigned intervention.",
+        "evidence_quote": "The primary endpoint of the study was the functional outcome using the Olerud Molander Ankle Score (OMAS) at 12 weeks after randomization ... The OMAS is a patient-reported outcome measure for evaluating symptoms after ankle injuries. ... The study was limited by the fact that there was no blinding of patients, treating physicians or outcome assessors"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was terminated early after interim analysis partly due to slow recruitment and lack of funding, and statistical significance boundaries (O'Brien-Fleming) were applied post hoc.",
+        "evidence_quote": "The protocol pre-specified our methods and statistical analysis plan, except for the statistical significance bound, for which we decided post hoc to use the conservative O\u2019Brien-Fleming approach [5]. ... The trial was terminated early as advised by the Data and Safety Monitoring Board after interim analysis."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial was judged to have some concerns overall due to potential bias in outcome measurement from unblinded patient-reported outcomes (OMAS) and early trial termination with post hoc statistical stopping adjustments."
+  },
+  {
+    "paper_id": "manual:b5a95536",
+    "paper_title": "2866cfb3_use-of-a-cast-compared-with-a-functional-ankle-brace-after",
+    "design_classification": "randomized",
+    "design_rationale": "The authors explicitly state that patients were 'randomly allocated, with use of sealed envelopes, to treatment with either a cast or a functional ankle brace'.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although sealed envelopes were used, there is no mention of sequence generation methods or whether the envelopes were sequentially numbered and opaque.",
+        "evidence_quote": "Postoperatively, the patients were randomly allocated, with use of sealed envelopes, to treatment with either a cast or a functional ankle brace for the first six weeks after the operation."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Due to the nature of the interventions (cast vs brace), blinding was not possible, but participants adhered to their assigned postoperative regimens and there is no indication of non-protocol deviations that would bias the intended intervention effect.",
+        "evidence_quote": "The data were analyzed with use of a personal computer and SPSS statistical software (version 7; SPSS, Chicago, Illinois). Comparison of the differences between the groups was made with the Student t test for continuous variables and with the chi-square test for categorical variables."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Follow-up was 88% overall at 2 years (84% cast, 92% brace) with reasons for dropouts clearly reported and balanced between groups, making it unlikely that missingness introduced substantial bias.",
+        "evidence_quote": "A total of twelve patients were lost to follow-up before the two-year follow-up examination. The cast group and the brace group consisted of fifty patients each at two and six weeks; fifty and forty-nine patients, respectively, at twelve weeks; fortyseven and forty-nine at fifty-two weeks; and forty-two and forty-six at the two-year follow-up examination."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were assessed using validated scoring systems and objective clinical measures by an independent physician not involved in patient care.",
+        "evidence_quote": "To limit the bias inherent in all clinical examinations and manual tests, the follow-up examinations and rating scores at twelve and fifty-two weeks and at two years were performed by the same independent physician who had not been involved in the actual treatment of any of the patients."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "All pre-specified outcomes and follow-up time points described in the Methods are fully reported in the results and tables without selective reporting.",
+        "evidence_quote": "With the numbers available, no significant differences between the two groups could be detected with respect to functional outcome at any of the follow-up evaluations."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The overall judgment is 'some concerns' driven by Domain 1 (randomization process), as the paper specifies allocation using sealed envelopes but lacks details regarding random sequence generation and whether the envelopes were sequentially numbered and opaque."
+  }
+]

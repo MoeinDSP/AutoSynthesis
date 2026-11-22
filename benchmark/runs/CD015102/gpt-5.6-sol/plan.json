@@ -1,0 +1,38 @@
+{
+  "research_question": "Among non-hospitalised adults with COVID-19, including outpatients and adults receiving post-discharge care, what is the effect of prophylactic anticoagulants (such as low-molecular-weight heparin, rivaroxaban, apixaban, aspirin, or similar thromboprophylaxis), compared with placebo or no anticoagulant/standard care, on the risk of experiencing at least one adverse event during trial follow-up?",
+  "treatment_label": "Prophylactic anticoagulant or antithrombotic treatment (e.g., low-molecular-weight heparin, rivaroxaban, apixaban, aspirin, or similar)",
+  "control_label": "Placebo or no anticoagulant (standard care)",
+  "outcome_description": "Binary participant-level adverse-event outcome: number of participants with at least one adverse event divided by the number randomised in each arm during the reported follow-up period. Prefer the trial's broadest overall count of participants with any adverse event. If unavailable, use participants with serious adverse events or participants with bleeding events (major, clinically relevant non-major, or any bleeding), and record the definition used. When several adverse-event categories are reported, use the broadest category; otherwise sum categories only when the report explicitly establishes that they are non-overlapping. Count participants, not episodes, and exclude a trial from this outcome if only numbers of event episodes are available. Do not treat death, hospitalisation, venous thromboembolism, symptom resolution, quality of life, or other efficacy outcomes as adverse events. Use the number randomised as the intention-to-treat denominator; use a smaller safety population only if the number randomised is unavailable and document this substitution. For eligible multi-arm trials, combine multiple anticoagulant dose arms by summing participant-event counts and denominators, and compare the combined group with the eligible placebo/no-treatment group. Multiple reports or PDFs describing the same trial will be linked and treated as one study.",
+  "positive_direction": "A value above the null (RR > 1; analogously, a positive standardised effect) means that adverse events were more frequent with prophylactic anticoagulation than with placebo or no anticoagulant, so the result favors control on safety.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "COVID-19 outpatient anticoagulant randomized trial adverse events",
+    "COVID-19 post-discharge thromboprophylaxis controlled trial safety bleeding",
+    "nonhospitalized COVID aspirin heparin rivaroxaban apixaban randomized adverse events"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling adults with COVID-19 who are managed outside hospital, including community outpatients and participants enrolled after hospital discharge.",
+    "Trials comparing a prophylactic anticoagulant or antithrombotic regimen with placebo or no anticoagulant/standard care.",
+    "Trials reporting participant-level quantitative adverse-event data, or sufficient numerical information to derive the number of participants with at least one qualifying adverse event and the arm denominators."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study: systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, non-randomised studies, and studies restricted to currently hospitalised patients are excluded.",
+    "No eligible comparison between prophylactic anticoagulation and placebo/no anticoagulant standard care; this includes controls receiving another anticoagulant or a different dose of the same anticoagulant.",
+    "No quantitative participant-level outcome data capable of producing an effect size (e.g., arm-level proportions/counts, means and SDs, t/F values, or odds ratios); specifically exclude reports giving only numbers of adverse-event episodes rather than numbers of participants affected.",
+    "Completely unrelated to prophylactic anticoagulant use in non-hospitalised or post-discharge adults with COVID-19, or reporting only efficacy outcomes such as mortality, thrombosis, hospitalisation, symptom resolution, or quality of life without an eligible adverse-event outcome."
+  ],
+  "moderators_to_extract": [
+    "Care setting (community outpatient versus post-discharge)",
+    "Anticoagulant/antithrombotic drug class and agent",
+    "Dose intensity and planned treatment duration",
+    "Adverse-event definition used (any adverse event, serious adverse event, or bleeding category)",
+    "Follow-up duration",
+    "Denominator type (randomised intention-to-treat population versus safety population)"
+  ],
+  "search_start_year": 2019,
+  "effect_size_note": "Pool risk ratios with a random-effects model. RR > 1 indicates more participants with adverse events in the prophylactic anticoagulant arm and therefore worse safety. Use arm-level numbers of participants with at least one adverse event and randomised denominators. For multi-arm trials, combine eligible anticoagulant dose arms by summing events and participants before comparison with placebo/no treatment. Do not pool mortality, thrombosis, hospitalisation, symptom resolution, or quality of life. Deduplicate multiple reports of the same trial and document the adverse-event definition and any use of a safety-population denominator. Report study selection with a PRISMA 2020 flow diagram, assess eligible RCTs with RoB 2, evaluate heterogeneity (tau-squared and I-squared), conduct sensitivity analyses by adverse-event definition and denominator where feasible, inspect small-study effects only if enough studies are available, and assess certainty using GRADE.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "participants with at least one adverse event"
+}

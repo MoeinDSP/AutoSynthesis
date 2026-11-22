@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children with conduct problems, what is the effect at the end of treatment of a personalised parenting or family intervention (tailored to the individual or adapted to a subgroup), compared with the standard non-personalised version of the same intervention, on mother-reported child conduct problems measured by the Eyberg Child Behavior Inventory (ECBI) Problem scale? Pool post-treatment arm-level means as a random-effects mean difference in ECBI Problem scale points, defined as personalised minus standard non-personalised intervention, so MD < 0 favours personalisation.",
+  "treatment_label": "Personalised parenting or family intervention (individually tailored or adapted to a subgroup)",
+  "control_label": "Standard non-personalised version of the same active parenting or family intervention",
+  "outcome_description": "Child conduct problems measured specifically with the ECBI Problem scale at the first assessment after treatment ended. Extract the post-treatment mean, SD, and n for each randomised arm; use the mother's report when multiple reporters are available, and convert SE to SD where necessary. Do not include ECBI Intensity scores, other child-behaviour scales, parent outcomes, or later follow-up assessments. The requested effect is the raw mean difference (personalised minus standard non-personalised) in ECBI Problem scale points under a random-effects model; negative values favour the personalised intervention.",
+  "positive_direction": "For sign-harmonised standardized effects, a positive value would mean that the personalised intervention reduces child conduct problems more than the standard non-personalised intervention. For the explicitly requested raw mean difference calculated as personalised minus standard, lower ECBI Problem scores are better and MD < 0 favours the personalised intervention.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "personalized tailored parenting intervention randomized ECBI Problem scale trial",
+    "adapted family intervention conduct problems ECBI controlled comparison",
+    "tailored parent training child behavior ECBI Problem randomized trial"
+  ],
+  "inclusion_criteria": [
+    "Original randomised trials enrolling children with conduct problems and evaluating a parenting or family intervention that is personalised, tailored, or adapted to an individual or subgroup.",
+    "Trials directly comparing the personalised intervention with an active, standard non-personalised version of the same intervention.",
+    "Trials reporting mother-reported ECBI Problem scale data at the first assessment after treatment ended, with post-treatment mean, SD (or convertible SE), and n per arm, or sufficient quantitative information to derive these values and the requested mean difference."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (exclude systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers), or completely unrelated to personalised parenting/family interventions for child conduct problems.",
+    "No randomised comparison between a personalised treatment and the standard non-personalised active version of the same intervention; this includes single-arm studies and comparisons against waitlist, usual care, no treatment, or an unrelated intervention.",
+    "No quantitative outcome data capable of producing an effect size (e.g., no usable means plus SDs/SEs and sample sizes, t/F values, proportions, or odds ratios), including data unavailable after reasonable attempts to derive or obtain them.",
+    "Does not provide eligible mother-reported ECBI Problem scale results from the first post-treatment assessment; exclude ECBI Intensity scores, other behaviour scales, parent outcomes, and later follow-up-only results."
+  ],
+  "moderators_to_extract": [
+    "Personalisation approach (individual tailoring versus subgroup adaptation)",
+    "Intervention format and delivery mode (individual/group; in-person/remote/hybrid)",
+    "Child age or developmental stage",
+    "Baseline conduct-problem severity and diagnostic/eligibility criteria",
+    "Intervention duration and treatment intensity",
+    "Risk-of-bias features, including allocation concealment and missing-outcome handling"
+  ],
+  "search_start_year": 1978,
+  "effect_size_note": "Use the post-treatment arm-level mean, SD, and n for the ECBI Problem scale at the first assessment after treatment ended. Prefer the mother's report if several reporters are presented. Convert SE to SD using SD = SE \u00d7 sqrt(n). Compute MD as mean_personalised \u2212 mean_standard in ECBI Problem points and pool with a random-effects model; MD < 0 favours the personalised intervention. Do not pool follow-up assessments, ECBI Intensity scores, other behaviour scales, or parent outcomes.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "child conduct problems on the ECBI Problem scale"
+}

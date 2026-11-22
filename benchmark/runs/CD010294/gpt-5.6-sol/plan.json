@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people with autosomal dominant polycystic kidney disease (ADPKD), what is the effect of vasopressin type 2 receptor (V2R) antagonists, compared with placebo or standard therapy, on the occurrence of serious adverse events?",
+  "treatment_label": "Vasopressin type 2 receptor (V2R) antagonist therapy (e.g., tolvaptan)",
+  "control_label": "Placebo or standard therapy without a V2R antagonist",
+  "outcome_description": "Participants experiencing at least one serious adverse event during the trial follow-up, using each trial's reported serious adverse event counts and total number randomized in each arm. Pool arm-level data as a risk ratio on an intention-to-treat/randomized-denominator basis where available; document each trial's definition and ascertainment period for serious adverse events.",
+  "positive_direction": "After direction harmonization, a positive standardized effect would mean fewer serious adverse events with V2R antagonists than with control; for the requested risk ratio, RR below 1 favors V2R antagonists and RR above 1 favors control.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "ADPKD V2 receptor antagonist randomized trial serious adverse events",
+    "tolvaptan polycystic kidney disease controlled trial safety",
+    "vasopressin antagonist autosomal dominant polycystic kidney disease placebo adverse events"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies enrolling people with autosomal dominant polycystic kidney disease and evaluating a V2R antagonist.",
+    "Studies containing a placebo or standard-therapy control group suitable for comparison with a V2R-antagonist group.",
+    "Studies reporting quantitative serious-adverse-event information, or sufficient related numerical data obtainable from reports, supplements, registries, or authors to calculate an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between a V2R-antagonist treatment condition and a placebo or standard-therapy control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as serious-adverse-event counts with randomized totals, means and standard deviations, t/F values, proportions, or odds ratios.",
+    "Completely unrelated to V2R antagonists, autosomal dominant polycystic kidney disease, or serious adverse events."
+  ],
+  "moderators_to_extract": [
+    "Specific V2R antagonist and dosing regimen",
+    "Control type (placebo versus standard therapy)",
+    "Trial duration and serious-adverse-event ascertainment period",
+    "Participant disease stage or baseline kidney function",
+    "Study design and phase",
+    "Risk-of-bias domain ratings"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Use each trial's number of participants with at least one serious adverse event and total randomized per arm to calculate a risk ratio (V2R antagonist/control) with a 95% confidence interval. Prefer randomized intention-to-treat denominators, avoid double-counting participants across multiple reports, combine eligible intervention arms when necessary using standard Cochrane methods, and prespecify an appropriate continuity correction and sensitivity analysis for zero-event trials.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serious adverse events"
+}

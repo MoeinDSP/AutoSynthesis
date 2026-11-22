@@ -1,0 +1,16 @@
+{
+  "user_prompt": "Meta-analysis of randomised controlled trials in women with endometrial hyperplasia (with or without atypia) comparing metformin plus megestrol (megestrol acetate) with megestrol alone.\n\nOutcome: regression of endometrial hyperplasia, i.e. the number of women whose endometrium returned to proliferative, secretory or atrophic (normal) endometrium on histology at the end of treatment, out of the number randomised/analysed in each arm.\n\nEffect measure: Odds Ratio (OR), metformin + megestrol versus megestrol alone, using event counts. Events are women WITH regression, so an OR above 1 favours metformin + megestrol.\n\nOutcome rules:\n- Treatment arm = metformin + megestrol. Control arm = megestrol alone. Ignore any arm that is metformin alone, a placebo, LNG-IUS or any other treatment.\n- Use the histological response at the end of the treatment course (about 3 to 6 months).\n- Count complete regression to normal endometrium as the event. Do not count persistence, progression or partial response as events.\n- If a trial reports hyperplasia with and without atypia separately, add the counts across both groups.\n- If a paper reports only percentages, convert them to counts using the arm sizes.\n- Use the randomised group sizes if the analysed Ns are not reported.\n\nInclude the trials found in the uploaded papers. Do not exclude a trial because of its dose, its treatment duration or whether atypia was present. Exclude only reviews and protocols, and trials without a megestrol-alone control arm.",
+  "planned_search_queries": [
+    "endometrial hyperplasia metformin megestrol randomized trial regression",
+    "endometrial hyperplasia metformin megestrol acetate controlled histological response",
+    "atypical endometrial hyperplasia metformin progestin randomized treatment outcome"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "endometrial hyperplasia metformin megestrol acetate randomized trial",
+    "atypical endometrial hyperplasia metformin megestrol controlled trial regression",
+    "endometrial intraepithelial neoplasia metformin megestrol histological response trial",
+    "endometrial hyperplasia metformin Megace randomized complete regression",
+    "endometrial hyperplasia metformin megestrol comparative treatment outcome"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "In children under 18 undergoing surgery under general anaesthesia, does perioperative diclofenac (any route) compared with an opioid analgesic (any route) reduce the number of children requiring rescue or supplementary analgesia within the first 24 hours after surgery?",
+  "treatment_label": "Diclofenac (any route: rectal, IV, IM, oral; pre-, intra- or post-operative)",
+  "control_label": "Opioid analgesic (e.g. morphine, fentanyl, sufentanil, pethidine/meperidine, papaveretum, nalbuphine; any route including caudal/epidural)",
+  "outcome_description": "Number of children (events) out of the number randomised/analysed (total) in each arm who received any rescue or supplementary analgesic after surgery (variously reported as 'analgesic complementation', 'supplementary analgesia', 'postoperative analgesia given', or 'number requiring opioid/paracetamol postoperatively'), within the first 24 hours after surgery. Use the count covering the longest postoperative window available up to 24 h (e.g. recovery ward stay, first 4 hours, until discharge, 24 hours); do not use a count limited to the first 2 hours when a longer window is reported. Percentages are converted to counts using group size, including percentages read from figures/bar charts. In multi-arm trials, the diclofenac arm is the treatment group and all opioid arms are summed into one control group; no-analgesia/placebo, local anaesthetic, paracetamol and other NSAID arms are ignored.",
+  "positive_direction": "A positive Hedges g (equivalently RR &lt; 1) means fewer children required rescue analgesia in the diclofenac arm than in the opioid arm \u2014 i.e. the result favours diclofenac.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "diclofenac versus morphine children postoperative analgesia randomized trial",
+    "rectal diclofenac pediatric surgery rescue analgesia controlled trial",
+    "diclofenac opioid comparison children tonsillectomy postoperative pain trial"
+  ],
+  "inclusion_criteria": [
+    "Participants are children/adolescents under 18 years undergoing any surgical procedure under general anaesthesia",
+    "Study compares diclofenac by any route with an opioid analgesic by any route (including multi-arm trials containing both a diclofenac and an opioid arm)",
+    "Reports some quantitative postoperative analgesia outcome, including the number or proportion of children requiring rescue/supplementary analgesia (counts, percentages, or figure-derived values)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, theoretical or commentary paper, case report without a comparison)",
+    "No comparison between a diclofenac (treatment) condition and an opioid (control) condition \u2014 e.g. diclofenac versus placebo, paracetamol, other NSAIDs, or local anaesthetics only",
+    "No quantitative outcome data from which an effect size can be computed (no events/totals, proportions, means+SDs, t/F values or odds ratios)",
+    "Completely unrelated to the research topic, or conducted exclusively in adults (18 years and over)"
+  ],
+  "moderators_to_extract": [
+    "Route of diclofenac administration (rectal, IV, IM, oral)",
+    "Timing of diclofenac (pre-, intra-, or post-operative)",
+    "Comparator opioid type and route (e.g. morphine IV, caudal/epidural opioid)",
+    "Type of surgery (e.g. tonsillectomy/adenoidectomy, hernia repair, ophthalmic, orthopaedic)",
+    "Length of postoperative observation window used for the count (recovery room, 4 h, discharge, 24 h)",
+    "Sample size category and risk-of-bias / blinding status"
+  ],
+  "search_start_year": 1985,
+  "effect_size_note": "Primary pooling as risk ratio (RR) with a random-effects (DerSimonian\u2013Laird or REML) model using events/totals per arm. RR &lt; 1 favours diclofenac. Multi-arm trials: opioid arms summed into a single control group to avoid double-counting the diclofenac arm. Zero-event studies handled with standard continuity correction or Mantel\u2013Haenszel without correction as appropriate; heterogeneity assessed with I\u00b2 and tau\u00b2.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "requirement for rescue analgesia"
+}

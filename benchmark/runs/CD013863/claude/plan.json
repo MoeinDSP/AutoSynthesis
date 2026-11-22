@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with chronic non-headache pain (e.g. low back pain, fibromyalgia, osteoarthritis, mixed chronic pain), does remotely delivered cognitive behavioural therapy (internet-, telephone-, app- or video-delivered CBT, including ACT and exposure-based variants with a cognitive-behavioural basis) reduce functional disability at end of treatment compared with treatment as usual or waiting-list control?",
+  "treatment_label": "Remotely delivered CBT (internet/telephone/app/video-based CBT, ACT or exposure-based variants)",
+  "control_label": "Treatment as usual / usual care or waiting-list control",
+  "outcome_description": "Functional disability or physical functioning at the first post-treatment assessment (typically 3-24 weeks after randomisation), measured with one disability-specific scale per trial where available (e.g. Roland-Morris Disability Questionnaire, Pain Disability Index, Oswestry Disability Index, WHODAS, FIQ physical function) or, if not reported, a general physical-function subscale (e.g. SF-36/SF-12 physical function). Extracted as post-treatment mean, SD and n per arm; SE/SEM converted to SD = SE x sqrt(n); physical-function scales reverse-signed so lower always means less disability. Multi-arm remote CBT arms combined into one group.",
+  "positive_direction": "A positive Hedges' g means remotely delivered CBT produced LESS functional disability (better physical functioning) at end of treatment than treatment as usual or waiting list \u2014 i.e. it favours remote CBT.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "internet-delivered cognitive behavioural therapy chronic pain randomized controlled trial disability",
+    "telephone or app-based CBT chronic low back pain fibromyalgia trial physical function outcome",
+    "remote acceptance and commitment therapy chronic pain waiting list usual care controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults (18+) with chronic non-headache pain of any type (low back pain, fibromyalgia, osteoarthritis, mixed/widespread chronic pain)",
+    "Intervention is a psychological treatment with a cognitive-behavioural basis delivered remotely (internet, telephone, smartphone app, video/teleconference), including ACT and exposure-based variants, with or without therapist support",
+    "Compared with treatment as usual, usual care, or waiting list, and reports some quantitative post-treatment measure of functional disability or physical functioning"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, protocol, theoretical or narrative paper)",
+    "No comparison between a remote CBT condition and a treatment-as-usual or waiting-list control (e.g. control is an active psychological therapy, attention control, or head-to-head comparison only)",
+    "No quantitative outcome data permitting effect-size computation (no means with SD/SE, t/F statistics, or convertible summary data) for a disability or physical-function outcome",
+    "Unrelated to the research topic: face-to-face delivered therapy only, children/adolescent samples, or headache/migraine populations"
+  ],
+  "moderators_to_extract": [
+    "Delivery mode (internet, telephone, app, video)",
+    "Degree of therapist/human support (guided vs unguided)",
+    "Pain condition (low back pain, fibromyalgia, osteoarthritis, mixed)",
+    "Control type (treatment as usual/usual care vs waiting list)",
+    "Intervention duration in weeks",
+    "Sample size category (total randomised)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool post-treatment means, SDs and per-arm n as a standardised mean difference (Hedges' g) under a random-effects (REML/DerSimonian-Laird) model. Use one disability/physical-function measure per trial, preferring disability-specific scales. Reverse-sign means of scales where higher = better function so that lower always indicates less disability; in the reported plan positive g favours remote CBT. Convert SE/SEM to SD via SE x sqrt(n), checking table footnotes for whether '\u00b1' denotes SD or SE. Combine multiple remote CBT arms into a single group (pooled mean and SD, summed n) before comparison with the shared control.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "functional disability"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of probiotics, compared with no active treatment, placebo, or usual care, on self-reported improvement in constipation (proportion of participants reporting improvement)?",
+  "treatment_label": "Probiotic supplementation (any strain, dose, or formulation)",
+  "control_label": "No active treatment, placebo, or usual care",
+  "outcome_description": "Self-reported improvement in constipation: the number of participants in each arm reporting improvement (e.g. patient-rated relief, global improvement, or 'treatment success') out of the total randomized per arm, pooled as a Risk Ratio.",
+  "positive_direction": "A positive effect (RR greater than 1) means that a larger proportion of participants receiving probiotics reported improvement in their constipation compared with controls, i.e. probiotics favour improvement.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "probiotics constipation randomized controlled trial",
+    "probiotic supplementation bowel symptom improvement trial",
+    "Lactobacillus Bifidobacterium constipation placebo controlled effect"
+  ],
+  "inclusion_criteria": [
+    "Study examines probiotics (any strain, dose, or delivery form) in participants with constipation or at risk of constipation",
+    "Includes a comparison group receiving no active treatment, placebo, or usual care",
+    "Reports some quantitative outcome relating to constipation improvement or relief (e.g. number/proportion of participants improved, or data from which this can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, commentary, or purely theoretical paper)",
+    "No comparison between a probiotic treatment condition and a control/placebo/usual-care condition",
+    "No quantitative outcome data usable for an effect size (no event counts/proportions, means+SDs, t/F statistics, or odds ratios)",
+    "Completely unrelated to probiotics and constipation (including studies of the assessment-based nursing intervention subgroup rather than probiotics)"
+  ],
+  "moderators_to_extract": [
+    "Probiotic strain or species composition (single vs multi-strain)",
+    "Dose and duration of intervention",
+    "Control type (placebo vs no treatment vs usual care)",
+    "Population setting and age group (e.g. adults, elderly, children, hospitalized/institutionalized)",
+    "Risk of bias / study quality rating",
+    "Sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a Risk Ratio using each trial's reported number of participants with self-reported improvement in constipation and the total number randomized per arm. Restrict to the probiotics subgroup only; exclude the assessment-based nursing intervention subgroup.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-reported improvement in constipation"
+}

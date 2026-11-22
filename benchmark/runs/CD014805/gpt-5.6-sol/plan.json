@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women with early-stage triple-negative breast cancer, what is the effect on disease-free survival of adding neoadjuvant platinum-based chemotherapy (carboplatin or cisplatin) to an otherwise identical neoadjuvant chemotherapy regimen, compared with that regimen without platinum?",
+  "treatment_label": "Neoadjuvant chemotherapy plus carboplatin or cisplatin (platinum arm)",
+  "control_label": "The same neoadjuvant chemotherapy regimen without platinum (platinum-free control arm)",
+  "outcome_description": "Disease-free survival, including synonymous or closely corresponding time-to-event outcomes reported as disease-free survival, event-free survival, relapse-free survival, or invasive disease-free survival. Prefer disease-free survival when both disease-free survival and an event-free survival definition that includes preoperative progression are reported. Extract the published hazard ratio and 95% confidence interval for platinum versus control at the longest reported follow-up; prioritize the later long-term survival analysis over an earlier pathological-complete-response report. Do not include pathological complete response, overall survival, toxicity, or other outcomes.",
+  "positive_direction": "A positive standardized effect would mean longer disease-free survival and therefore favor addition of platinum; for the requested hazard-ratio analysis, the corresponding favorable direction is HR below 1 for platinum versus control.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "triple-negative breast cancer neoadjuvant platinum randomized trial disease-free survival",
+    "TNBC carboplatin neoadjuvant controlled trial event-free survival hazard ratio",
+    "triple negative breast cancer cisplatin preoperative chemotherapy randomized relapse-free survival"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling women with early-stage triple-negative breast cancer and administering the randomized neoadjuvant treatment before surgery.",
+    "A platinum arm receiving carboplatin or cisplatin and a platinum-free control arm receiving the same background neoadjuvant chemotherapy regimen.",
+    "A directly reported disease-free, event-free, relapse-free, or invasive disease-free survival hazard ratio with a 95% confidence interval (or equivalent information sufficient to obtain the standard error of the log hazard ratio), comparing platinum with control."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible comparison between a neoadjuvant platinum treatment condition and the same platinum-free control condition; this includes nonrandomized studies, trials without a platinum-free control, platinum given only after surgery, or trials mixing neoadjuvant and adjuvant platinum effects such that the neoadjuvant effect cannot be isolated.",
+    "No quantitative outcome data capable of producing the prespecified effect size: no reported hazard ratio with a 95% confidence interval or equivalent precision data; exclude reports providing only event counts or only Kaplan-Meier curves and numbers at risk, and do not reconstruct hazard ratios from either source.",
+    "Completely unrelated to the research topic or in an ineligible population/outcome, including other cancers, trials restricted to HER2-positive disease, results not isolating women with triple-negative breast cancer, or reports limited to pathological complete response, overall survival, toxicity, or another non-disease-free-survival outcome."
+  ],
+  "moderators_to_extract": [
+    "Platinum agent (carboplatin versus cisplatin) and dosing schedule",
+    "Background neoadjuvant chemotherapy regimen",
+    "Disease-free-survival outcome label and event definition",
+    "Median follow-up duration or analysis time point",
+    "Trial phase and multicentre status",
+    "Number of eligible platinum comparisons and presence of a shared control group"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool published hazard ratios using a fixed-effect inverse-variance model on log(HR); use a random-effects inverse-variance model only if fixed-effect analysis is unavailable. Compute SE[log(HR)] as (log upper 95% CI - log lower 95% CI)/(2*1.96). Orient every estimate as platinum versus control; if reported as control versus platinum, use 1/HR and transform the interval to (1/upper limit, 1/lower limit). HR < 1 favors platinum. Use the longest follow-up and the later long-term survival HR when multiple reports exist. Never reconstruct an HR from event counts, Kaplan-Meier curves, or numbers at risk. For trials with two eligible platinum arms sharing one control, include both comparisons separately and flag the shared control because the estimates are statistically dependent; document this dependence and address it in sensitivity analysis or with an appropriate covariance/multi-arm adjustment where feasible. Assess heterogeneity (including I\u00b2 and Q) even under fixed effect, perform risk-of-bias assessment using RoB 2, investigate reporting bias if enough studies are available, and report study selection and exclusions in a PRISMA 2020 flow diagram.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "disease-free survival"
+}

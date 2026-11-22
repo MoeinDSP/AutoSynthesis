@@ -1,0 +1,140 @@
+[
+  {
+    "paper_id": "manual:f270fe36",
+    "paper_title": "4b2239c0_1-s2.0-S1976131708600389-main",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly allocated to the experimental or control group using a coin flip.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "While coin flipping is a random sequence generation method, there is no description of allocation concealment, introducing potential risk of bias.",
+        "evidence_quote": "The 65 participants were randomly assigned to either the experimental or the control group by flipping a coin. There were 32 subjects in the experimental group and 33 subjects in the control group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Due to the nature of the behavioral intervention, mothers and children were aware of their assigned group, and there was risk of contamination across participants within the same elementary school.",
+        "evidence_quote": "Lastly, mothers in the experimental group were instructed not to share the interventions that they had received with counterparts in the control group until the study was completed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for all 65 randomized participants with no reported dropouts or missing data.",
+        "evidence_quote": "There were 32 subjects in the experimental group and 33 subjects in the control group... (Table 4) Experimental group n = 32, Control group n = 33"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Although physical outcomes were objectively measured by trained evaluators, the primary behavioral outcome (self-control) was self-reported by children aware of their intervention group, and it is unclear if outcome assessors were masked.",
+        "evidence_quote": "First, the investigators in this study served as intervention providers but did not serve as evaluators of the program. This was done to avoid any influences on the outcomes. Second, five research assistants whose major was nursing served as evaluators and measured the outcome variables."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no indication of a pre-registered trial protocol or pre-specified statistical analysis plan to rule out selective reporting.",
+        "evidence_quote": "Significant effects of the intervention on the four dependent variables (i.e., self-control behavior, obesity index, abdominal circumference, body fat percentage) were explored using analysis of covariance (ANCOVA)..."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study is judged to have some concerns overall due to lack of reported allocation concealment, potential for contamination in an open-label school setting, self-reported behavioral outcomes, and absence of a pre-registered trial protocol."
+  },
+  {
+    "paper_id": "manual:2fffba5d",
+    "paper_title": "832cd958_nihms682007",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a randomized controlled trial in which participants were randomly allocated to stepped-down care or enhanced usual care using a computer-generated permuted block algorithm.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "While the allocation sequence generation was computer-generated, allocation concealment is not explicitly described, leading to some concerns.",
+        "evidence_quote": "Simple randomization to study arm was determined by a computer using a permutated block algorithm and was stratified within the primary care provider site."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Due to the nature of the behavioral intervention participants could not be blinded, but there is no indication of unintended deviations affecting the outcome, and analysis followed an appropriate mixed-model intention-to-treat approach.",
+        "evidence_quote": "Intent-to-treat analyses were conducted using available data and assuming data were missing at random. Models were specified with a between-subject factor of treatment group, a within-subject factor of time, and a group \u00d7 time interaction."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was relatively low and balanced between groups (89% completion in EUC and 83% completion in SDC at 12 months), and repeated measures mixed linear models were utilized.",
+        "evidence_quote": "Figure 2 shows the flow of participants from recruitment through the final assessment at 12 months... (Fig 2 shows EUC: 53 randomized, 47 completed 12mo; SDC: 53 randomized, 44 completed 12mo)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome measures (BMI, height, weight) are objective physical measurements taken with standardized equipment, making measurement bias highly unlikely despite lack of explicit assessor blinding.",
+        "evidence_quote": "Height (without shoes) was measured using a stadiometer and weight was measured using a calibrated digital scale while the participant was wearing light clothing. BMI was calculated as kg m\u22122."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered trial analysis protocol is referenced, and findings are prominently presented stratified by sex where effects are only significant in boys.",
+        "evidence_quote": "Mixed-model regression analyses were stratified by sex... It was hypothesized the treatment would decrease body weight and blood pressure and improve obesity-related metabolic parameters among adolescents."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study is judged to have some concerns overall due to lack of details regarding allocation concealment and the absence of a pre-registered statistical analysis plan to confirm that sex-stratified analyses and outcome reporting were prespecified."
+  },
+  {
+    "paper_id": "manual:34ad2a64",
+    "paper_title": "97c9f788_pone.0125673",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly assigned using a computer-generated randomization sequence in variable blocks of six.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated with random permuted blocks, recruitment/enrolment was overseen by a blinded research assistant, and baseline demographic characteristics were balanced across groups.",
+        "evidence_quote": "To ensure balanced allocation, the randomization sequence was computer-generated in variable blocks of six. A paediatrician assigned subjects to interventions according to the randomization assignment. A research assistant, who was blinded to randomization assignment, oversaw recruitment, enrolment, and follow up."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Due to the nature of behavioural lifestyle interventions blinding of participants was not feasible, but interventions were delivered as planned according to protocol and all randomized participants completed the protocol without important deviations.",
+        "evidence_quote": "The control group received usual care visits with a physician at the Obesity Clinic... The subjects in the internet intervention (IT) group also received usual care visits to the obesity clinic... together with the 12-week... internet-based curriculum and cell phone follow-up... The second intervention group received usual care visits... and a simplified version of the LMP consisting of four meetings with a nutritionist..."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 100% of randomized participants across all three study arms at all assessment timepoints.",
+        "evidence_quote": "All 16 recruited subjects completed visits at baseline (T0), mid-point (T12) and at the end of study (T24). [for Control, IT, and sLMP groups]"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes of feasibility/adherence were objective and secondary anthropometric measures were standardized and followed up by a blinded research assistant, with self-reported instruments administered equally across groups.",
+        "evidence_quote": "A research assistant, who was blinded to randomization assignment, oversaw recruitment, enrolment, and follow up... All subjects completed anthropometric measurements and self-administered questionnaires regarding their physical activity, depression, anxiety and stress levels (DASS-21) and dietary knowledge at baseline (T0), mid-point (T12) and at the end of the study (T24)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The study was prospectively registered in a clinical trials registry and the reported primary and secondary outcomes correspond with pre-specified measures analyzed according to standard plans.",
+        "evidence_quote": "The trial was registered with the Chinese Clinical Trial Registry (ChiCTR-TRC-12002624)."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The randomized controlled feasibility trial had sound computer-generated randomization, full follow-up with zero attrition across groups, blinded research staff for follow-up data collection, and prospectively defined outcomes."
+  }
+]

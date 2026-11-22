@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women undergoing surgery for stress urinary incontinence or stress-predominant mixed urinary incontinence, what is the effect of an eligible single-incision mid-urethral sling (SIS; any commercial device except TVT-Secur, including Ajust, Needleless/Contasure, MiniArc, Ophira, Altis, or Solyx) compared with a transobturator mid-urethral sling (TOT/TVT-O; inside-out or outside-in) on patient-reported subjective cure or improvement at 12 months?",
+  "treatment_label": "Eligible single-incision mid-urethral sling (SIS; excluding TVT-Secur)",
+  "control_label": "Transobturator mid-urethral sling (TOT/TVT-O; inside-out or outside-in)",
+  "outcome_description": "Number of women reporting subjective cure or improvement of stress urinary incontinence divided by the number analysed in each arm, assessed at 12 months. Accept the study's patient-reported definition, such as no self-reported stress leakage on a questionnaire, 'very much improved' or 'much improved' on a global impression scale, or satisfaction-based success. Do not use objective cure. If a longer-term report contains 12-month data, extract those 12-month figures rather than the longest follow-up; if 12 months is unavailable, use the closest earlier assessment of at least 6 months. SIS must always be coded as treatment and TOT as control based on device descriptions rather than table position. For trials with multiple eligible SIS arms and one shared TOT arm, retain each eligible SIS comparison and divide the shared TOT events and total equally across comparisons. Ignore any TVT-Secur arm. Link multiple reports from the same trial, extract the trial once, and prefer the report providing the 12-month subjective result.",
+  "positive_direction": "A positive effect (RR greater than 1; or a positively oriented standardized effect if needed during ancillary processing) means that a greater proportion of women reported cure or improvement with SIS than with TOT.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "single incision sling transobturator randomized trial subjective cure",
+    "mini sling versus transobturator tape controlled comparison incontinence",
+    "Ajust MiniArc Ophira Altis Solyx Needleless transobturator 12 month outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical comparative studies of women undergoing surgery for stress urinary incontinence or stress-predominant mixed urinary incontinence that include at least one eligible SIS arm and one TOT/TVT-O arm.",
+    "Studies evaluating any commercial single-incision or mini-sling other than TVT-Secur against an inside-out or outside-in transobturator mid-urethral sling.",
+    "Studies reporting, or permitting derivation of, arm-level quantitative patient-reported subjective cure or improvement at 12 months, or the closest earlier assessment of at least 6 months when 12-month data are not reported."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-empirical reports are excluded.",
+    "No eligible treatment-control comparison: no TOT arm; only TVT-Secur as the SIS; or comparisons solely with colposuspension, bulking agents, retropubic slings, or another ineligible comparator.",
+    "No quantitative outcome data capable of producing an effect size: no usable events and totals, proportions, means with SDs, t/F-values, or odds ratios; this includes reports with only objective cure or only excluded outcomes and no extractable subjective cure/improvement result.",
+    "Completely unrelated to the research topic, population, intervention, comparator, or target subjective cure/improvement outcome; exclude reports limited to objective cure, quality of life, complications, operating time, pain, reoperation, or 12-to-24-month change without an eligible follow-up result."
+  ],
+  "moderators_to_extract": [
+    "Specific SIS commercial device",
+    "TOT approach and device (inside-out versus outside-in)",
+    "Incontinence population (pure stress versus stress-predominant mixed urinary incontinence)",
+    "Study design and randomization status",
+    "Patient-reported definition or instrument used for subjective cure/improvement",
+    "Outcome assessment timing (exactly 12 months versus closest earlier assessment of at least 6 months)"
+  ],
+  "search_start_year": 2005,
+  "effect_size_note": "Pool arm-level proportions as a risk ratio, RR = [SIS events/SIS total] / [TOT events/TOT total], with SIS consistently assigned as treatment. RR > 1 favors SIS. Use a random-effects primary model with 95% confidence intervals and also report heterogeneity (tau-squared and I-squared); consider a fixed-effect sensitivity analysis if appropriate. Apply a prespecified continuity correction for studies with a zero cell in one arm and describe treatment of double-zero studies. For multi-arm trials with multiple eligible SIS groups sharing one TOT group, create separate comparisons and divide both TOT events and TOT total equally across the eligible comparisons to avoid double counting, retaining fractional values if necessary. Deduplicate overlapping reports at the trial level and use the report with the preferred 12-month subjective outcome. Do not combine objective cure or any excluded secondary outcome with this endpoint.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "subjective cure or improvement of stress urinary incontinence"
+}

@@ -1,0 +1,39 @@
+{
+  "research_question": "What is the effect of group educational interventions, compared with standard care only, on dermatology-specific quality of life (DLQI and its infant/children/family variants) in people with a dermatological condition?",
+  "treatment_label": "Group educational intervention (plus standard care)",
+  "control_label": "Standard care only",
+  "outcome_description": "Dermatology-specific quality of life measured with the Dermatology Life Quality Index (DLQI) or its age/respondent variants (CDLQI for children, IDQOL for infants, DFI/FDLQI for family), pooled across all scales, infants, children and family versions. Where a trial (e.g. Liang 2017) reports DLQI results separately for two age-stratified sub-populations (children and infants), both are extracted as separate rows/comparisons within this single outcome. Other quality-of-life definitions, DLQI subscales, or alternative respondents reported in the source review are not included.",
+  "positive_direction": "A positive effect size means the group educational intervention improved dermatology-specific quality of life relative to standard care only (i.e. lower/better DLQI-family scores).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "group educational intervention skin disease quality of life randomized trial",
+    "patient education programme eczema psoriasis DLQI controlled trial",
+    "educational group therapy dermatology children family quality of life outcome"
+  ],
+  "inclusion_criteria": [
+    "Participants of any age with a dermatological condition (e.g. atopic dermatitis/eczema, psoriasis, acne, vitiligo, chronic urticaria), or their parents/family members",
+    "Study evaluates a group-delivered educational intervention (group education sessions, group training or psychoeducation programmes, alone or added to usual care) compared with standard/usual care only or a no-education control",
+    "Reports some quantitative quality-of-life outcome using the DLQI or a variant (CDLQI, IDQOL, DFI, FDLQI) from which an effect size can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, theoretical/conceptual paper, protocol without results)",
+    "No comparison between a group educational intervention condition and a standard-care/control condition (e.g. single-arm or pre-post only designs)",
+    "No quantitative outcome data that can produce an effect size (no means with SDs/SEs/CIs, t/F statistics, or proportions reported for the quality-of-life outcome)",
+    "Completely unrelated to the research topic (non-dermatological population, or no educational intervention and no dermatology-specific quality-of-life measure)"
+  ],
+  "moderators_to_extract": [
+    "Dermatological condition (atopic dermatitis, psoriasis, other)",
+    "Respondent/age group (adults, children, infants, family/parent proxy)",
+    "DLQI variant used (DLQI, CDLQI, IDQOL, DFI/FDLQI)",
+    "Intervention intensity (number/duration of group sessions)",
+    "Follow-up length from baseline",
+    "Sample size category",
+    "Risk of bias / randomisation status"
+  ],
+  "search_start_year": 1994,
+  "effect_size_note": "Pool as mean difference (MD) on the DLQI-family scales as requested. DLQI scores are symptom/impairment scores where higher = worse quality of life, so signs are reversed such that a positive pooled value favours the group educational intervention. Liang 2017 contributes two separate rows (children sub-population and infants sub-population) treated as distinct comparisons within this one outcome; if both share a control arm, consider splitting the control sample size across the two rows in sensitivity analysis.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "dermatology-specific quality of life (DLQI, all scales: infants, children, and family)"
+}

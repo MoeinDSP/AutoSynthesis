@@ -1,0 +1,508 @@
+[
+  {
+    "paper_id": "manual:b2bde211",
+    "paper_title": "b11e6028_00006450-199407001-00022",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly describes random allocation of premature infants to dexamethasone or placebo groups using sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The study describes random allocation via sealed envelopes prepared in the pharmacy, but does not specify sequence generation methods or whether envelopes were sequentially numbered and opaque.",
+        "evidence_quote": "There babies were randomized to the dexamethasone or placebo group according to a set of sealed envelopes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Investigators and care providers were blinded using identical syringes containing placebo or dexamethasone, standard co-interventions were maintained, and analysis included all randomized participants.",
+        "evidence_quote": "A syringe labeled \u201cdexamethasone study drug,\u201d containing either the appropriate dose of dexamethasone or normal saline placebo according to the randomization schedule, was then sent to the nursery. A second syringe identical with the first was sent to the nursery 12 h later. ... Investigators and caretakers were blinded to the study drug. All other aspects of care were according to the standard practice of the neonatal intensive care unit at the Strong Children's Medical Center."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Complete follow-up data were available and accounted for in all 40 randomized infants across the major clinical and long-term outcomes.",
+        "evidence_quote": "Survival in the dexamethasone group was 17 of 19 (89%) versus 14 of 21 (67%) in the placebo group ... Survival without bronchopulmonary dysplasia, diagnosed at 36 wk corrected gestational age, was 68% in the dexamethasone group versus 43% in the placebo group"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcome assessments were objective and standard, and key evaluations such as chest radiograph readings for BPD were conducted by a blinded radiologist.",
+        "evidence_quote": "BPD was defined as the need for supplemental oxygen and characteristic chest x-ray changes at 36 wk CGA (16). All x-rays were read in a blinded fashion by a single pediatric radiologist."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-trial registration or pre-specified statistical analysis plan is referenced to confirm that reported outcomes and multiple time-point comparisons were selected without bias.",
+        "evidence_quote": "Continuous variables were analyzed using t tests and analysis of covariance with adjustment for birth weight. Measurements recorded at a number of different time points were analyzed by repeated measures analysis of variance with the Greenhouse-Geisser correction for degrees of freedom."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The overall risk of bias is judged to be of some concerns, driven by limited detail regarding the random sequence generation and envelope opacity, as well as the lack of a pre-registered statistical analysis protocol."
+  },
+  {
+    "paper_id": "manual:05876a5c",
+    "paper_title": "5a4382aa_14767050600736754",
+    "design_classification": "randomized",
+    "design_rationale": "Infants were randomly assigned to one of three groups using a computer-generated randomization table.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated and concealed using sequentially numbered containers, with baseline characteristics reasonably balanced across groups.",
+        "evidence_quote": "According to a computer-generated randomization table, infants were randomly assigned to receive nebulized pentoxifylline, diluted in distilled water (PTX group), or intravenous dexamethasone (DX group), or nebulized distilled water as a placebo (placebo group)... The allocation to groups was done by opening numbered containers on the fourth day of life."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Caregivers were unblinded, non-protocol co-interventions (open-label steroids/pentoxifylline) were administered differentially across groups, and the primary analysis excluded participants who deviated or received off-protocol treatments rather than adhering to intention-to-treat principles.",
+        "evidence_quote": "There was no blinding ofthe intervention as the active drugs were given by different routes. Also, there was no attempt to blind the comparison between the two inhaled administrations... Except for the protocol of the study, neither pentoxifylline nor steroids were used in the treatment of infants recruited; otherwise the infant was excluded from further analysis... In 16 VLBW (PTX group \u2013 three; DX group \u2013 five, and placebo group \u2013 eight) either pentoxifylline (n \u00bc 10) or steroids (n \u00bc 2) were used in the treatment outside the trial and four infants with necrotizing enterocolitis (NEC) were transferred for surgery... This left 97 running infants for analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "More than 35% of randomized participants (53/150) were excluded from the primary efficacy analysis due to death, post-randomization consent withdrawal, or off-protocol treatment, with differential attrition across arms that substantially threatens the validity of the findings.",
+        "evidence_quote": "One hundred and fifty infants were randomized and allocated to three groups. However, for three infants in the placebo group, parental consent was withdrawn during the first two weeks of the study. Of the remaining 147 infants, 34 died before a diagnosis of BPD could be established... In 16 VLBW... either pentoxifylline... or steroids... were used in the treatment outside the trial and four infants with necrotizing enterocolitis (NEC) were transferred for surgery and hospitalized there within the 4\u20136 weeks. This left 97 running infants for analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The outcome was based on clinical oxygen dependency, an assessment that relies partly on clinician judgment regarding weaning, and outcome assessors and clinical staff were not blinded.",
+        "evidence_quote": "Bronchopulmonary dysplasia was defined as a continuous oxygen requirement for at least 27 days and oxygen dependency in the 36th week of postmenstrual age... There was no blinding ofthe intervention as the active drugs were given by different routes. Also, there was no attempt to blind the comparison between the two inhaled administrations."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or trial pre-registration is referenced, and primary emphasis was placed on per-protocol pairwise and post-hoc subgroup comparisons after the overall 3-group test and ITT analysis were non-significant.",
+        "evidence_quote": "When data were analyzed as a three-group comparison, differences in the incidence of BPD between groups were not statistically significant. However, the sub-analyses by weight performed as post hoc analyses showed a significant reduction in the incidence of BPD in the PTX-group in infants with a birth weight above 1000 g... An intentionto-treat analysis showed no statistically significant difference in the incidence ofBPD."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": ""
+  },
+  {
+    "paper_id": "manual:8487e477",
+    "paper_title": "f82eaecd_fn.74.1.F33",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a multicentre, randomised, placebo-controlled, blinded clinical trial where infants were assigned to study groups using a central randomisation procedure based on a random number list.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation sequence was generated using a random number list, central telephone allocation ensured concealment, and baseline characteristics were well balanced between groups.",
+        "evidence_quote": "Syringe sets were numbered according to a random number list. Randomisation was stratified by centre and by two birthweight groups \u2013 500\u20131000 g and 1001\u20132000 g \u2013 to prevent chance sampling inequality. The drug assignment was not known to any of the investigators until after the three month observation period of the last enrolled infant. When an infant who met inclusion criteria was identified, the local investigator telephoned the central randomisation unit in the Department of Neonatology at Soroka Medical Center, Beersheva, and a study number was assigned corresponding to the syringe set to be administered."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind with identical-appearing syringes, and post-randomisation exclusions were minimal (7 of 255 infants, ~2.7%) for reasons unrelated to assigned intervention and unlikely to bias the results.",
+        "evidence_quote": "Syringes containing dexamethasone were not distinguishable from those containing saline... Seven infants were subsequently excluded from analysis. Three infants had major congenital abnormalities... Three infants had errors in drug administration and one was randomised beyond 12 hours of age."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data (survival and oxygen requirement at 28 days) were completely accounted for in all 248 analyzed infants.",
+        "evidence_quote": "Thus the final study sample consisted of 248 infants, of whom 132 received dexamethasone and 116 received placebo... No differences were found between the treated and placebo groups in survival without chronic lung disease \u2013 that is, the primary outcome variable (table 3)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome of survival without supplemental oxygen at 28 days is an objective clinical outcome and assessors remained blinded throughout the study period.",
+        "evidence_quote": "The drug assignment was not known to any of the investigators until after the three month observation period of the last enrolled infant."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The reported primary and secondary outcomes correspond directly to the prespecified endpoints and analysis plan without evidence of selective reporting.",
+        "evidence_quote": "The primary outcome measure was survival to discharge without requirement for supplemental oxygen beyond 28 days of life. The secondary outcome measures were the requirement for mechanical ventilation or oxygen at the end of the study drug course \u2013 three days \u2013 and before subsequent steroid treatment for established CLD was permitted after 7 days of age."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The study is a well-conducted, blinded, multicentre randomised controlled trial with appropriate allocation concealment, complete follow-up for primary endpoints, and prespecified outcome reporting, resulting in low risk of bias across all RoB 2 domains."
+  },
+  {
+    "paper_id": "manual:d5c73155",
+    "paper_title": "7dc877dd_nejm200101113440203",
+    "design_classification": "randomized",
+    "design_rationale": "Infants were randomly assigned using a random, permuted-block algorithm stratified by center and birth weight to receive dexamethasone or placebo and ventilatory support strategies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was randomly generated using permuted blocks, concealed centrally/via pharmacy, and baseline characteristics were well balanced between groups.",
+        "evidence_quote": "Infants were randomly assigned to one of four groups according to the study medication (dexamethasone or placebo) and ventilatory treatment... with the use of a random, permuted-block algorithm. The treatment assignments were stratified according to the center and the infant\u2019s birth weight (501 to 750 g or 751 to 1000 g). All staff members except the pharmacist were unaware of the drug-group assignments"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Staff, clinicians, and families were blinded to dexamethasone vs placebo, open-label glucocorticoid rescue was monitored, and an intention-to-treat analysis was performed.",
+        "evidence_quote": "All staff members except the pharmacist were unaware of the drug-group assignments... The infants in the placebo groups received equal volumes of saline... We performed an intention-to-treat analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Data for the primary outcome (death or chronic lung disease at 36 weeks postmenstrual age) were available for all 220 randomized infants.",
+        "evidence_quote": "Table 2: 36 Weeks' postmenstrual age, Chronic lung disease or death: All infants Dexamethasone 70/111, Placebo 75/109"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was measured objectively using predefined criteria by trained staff who were blinded to the drug assignment.",
+        "evidence_quote": "The primary outcome was the combination of death by 36 weeks\u2019 postmenstrual age or chronic lung disease (defined by a need for supplemental oxygen at least 12 hours per day) at 36 weeks\u2019 postmenstrual age. Research nurses collected all study data according to defined criteria and transmitted the data to a central coordinating center."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial protocol and outcomes were prespecified by the NICHD Neonatal Research Network, and reported outcomes align with the prespecified primary and secondary endpoints.",
+        "evidence_quote": "We performed an intention-to-treat analysis... The primary outcome was the combination of death by 36 weeks\u2019 postmenstrual age or chronic lung disease... at 36 weeks\u2019 postmenstrual age."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The study is a well-designed, double-blind randomized placebo-controlled trial with central sequence generation, complete outcome data for the primary endpoint, and low risk of bias across all RoB 2 domains."
+  },
+  {
+    "paper_id": "manual:3b846076",
+    "paper_title": "994a602c_peds.100.4.e3",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a multicenter randomized, double-blind clinical trial in which participants were assigned at random to receive either dexamethasone or saline placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was randomly assigned and centralized pharmacy-managed assignment lists ensured allocation concealment, with baseline characteristics comparable between groups.",
+        "evidence_quote": "The numbers 1 through 270 were assigned at random either to the placebo or the dexamethasone group. When the first dose of placebo/dexamethasone was prescribed, the pharmacist in the central pharmacy of National Cheng Kung University Hospital would open the assignment list to determine whether dexamethasone or placebo should be dispensed."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind using identical saline placebo vials with standard respiratory protocols, minimizing risk of deviation from intended interventions.",
+        "evidence_quote": "Four vials of either dexamethasone or saline placebo were prepared, one vial for each week. If placebo was indicated, each vial containing 10 mL of saline only would be prepared and if dexamethasone was indicated, each vial containing 10 mL of a solution of 20 mg, 10 mg, 5 mg, and 2.5 mg dexamethasone, respectively, would be prepared."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 8 of 270 infants (3%) were excluded due to early deaths within 12 hours of birth before full study participation, and complete outcome data were available for the remaining 262 randomized infants.",
+        "evidence_quote": "Of these, parental consents were obtained in 270 infants; they were all included into study. However, 8 infants were excluded from data analysis; 6 died of culture-proven sepsis within 12 hours after birth and 2 had severe asphyxia requiring resuscitation since birth until the time of death. Thus, the total number of infants included for final data analysis was 262; 130 in the placebo group and 132 in the dexamethasone group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Chronic lung disease and mortality were assessed objectively according to standardized clinical criteria while clinicians and investigators remained blinded to treatment allocation.",
+        "evidence_quote": "The diagnosis of CLD was made if the infant had: 1) respiratory distress requiring supplemental oxygen therapy for 28 days or longer, and 2) an abnormal chest radiograph."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although the primary outcome and statistical tests were defined, no pre-registered protocol or statistical analysis plan was cited to fully rule out selective outcome reporting.",
+        "evidence_quote": "The data were analyzed at 28 days of age with CLD as the primary outcome variable."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial was a well-conducted double-blind randomized controlled trial with low risk across conduct and measurement domains, but lacks a published pre-registered protocol resulting in some concerns for selection of the reported result."
+  },
+  {
+    "paper_id": "manual:998b0b48",
+    "paper_title": "af46f773_peds.104.1.91",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a prospective multicenter randomized trial where neonates were randomized to either a 3-day course of dexamethasone or placebo within four strata based on birth weight and a/A ratio.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Randomization was stratified with allocation codes managed by the pharmacy, vials were identically labeled with equal volumes of drug or saline, allocation concealment was maintained, and baseline characteristics were well balanced.",
+        "evidence_quote": "After consent, infants were randomized at each center within each of four strata based on birth weight (#1000 g, .1000 g) and arterial/Alveolar (a/A) ratio before surfactant (#0.15, .0.15). Randomization codes were maintained by the study pharmacists at each center. A copy of each center\u2019s randomization code was also maintained at St Joseph\u2019s Hospital, Milwaukee, Wisconsin. Vials were labeled as Dexamethasone Study Drug and contained equal volumes of dexamethasone or normal saline. Investigators, caretakers, and parents were blinded to treatment drug."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind with identical placebo vials, co-interventions were protocolized and administered without knowledge of allocation, and analysis was performed on an intention-to-treat basis.",
+        "evidence_quote": "Investigators, caretakers, and parents were blinded to treatment drug... All statistical analyses were two-tailed. All analyses were done based on intention to treat."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Complete primary outcome data on survival, mortality, and chronic lung disease were available for all 241 randomized infants.",
+        "evidence_quote": "The final study cohort consisted of 241 neonates; 118 received dexamethasone therapy and 123 received placebo therapy... Survival without CLD: 70 (83/118) vs 58 (71/123); Death: 16 (19/118) vs 20 (25/123); Chronic lung disease: 16 (16/99) vs 28 (27/98)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcomes (mortality and supplemental oxygen requirement at 36 weeks' corrected gestational age) are objective and assessed while clinicians and caretakers remained blinded to treatment assignment.",
+        "evidence_quote": "The primary outcomes of interest were survival without CLD, CLD, and mortality. CLD was defined as oxygen therapy at 36 weeks\u2019 corrected gestational age to maintain a pulse oximeter saturation of $92%... Investigators, caretakers, and parents were blinded to treatment drug."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary and secondary outcomes were clearly predefined, analyzed according to a planned intention-to-treat analysis with prespecified interim stopping rules, and all expected outcomes were reported fully.",
+        "evidence_quote": "The primary outcomes of interest were survival without CLD, CLD, and mortality... Data were analyzed using statistical analysis system (SAS, Cary, NC, Version 6.1)... All analyses were done based on intention to treat."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The study is a well-conducted, double-blind randomized controlled trial with robust allocation concealment, complete follow-up of all randomized participants, objective outcome definitions, and prespecified intention-to-treat analyses, resulting in low risk of bias across all domains."
+  },
+  {
+    "paper_id": "manual:63093a57",
+    "paper_title": "0a8347ef_peds.105.3.542",
+    "design_classification": "randomized",
+    "design_rationale": "The authors describe a multicenter, randomized, double-blind trial where eligible infants were randomized with stratification by center to dexamethasone or saline placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although sealed envelopes in the pharmacy were used for allocation concealment, the method of sequence generation is not described, and it is not specified whether the envelopes were sequentially numbered or opaque.",
+        "evidence_quote": "After identification of eligible infants and informed consent, infants were randomized with stratification by center from a set of sealed envelopes in the pharmacy."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind with identical-appearing syringes prepared in the pharmacy, caretakers and investigators were blinded, and analysis included the randomized cohort.",
+        "evidence_quote": "Syringes labeled dexamethasone study drug were sent to the nursery containing either the appropriate dose of dexamethasone (.5 mg/kg birth weight) or normal saline placebo... Investigators and caretakers were blinded to the study drug. All other aspects of care were according to the standard practice of the neonatal intensive care units..."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data for primary and major neonatal outcomes appear complete for all 384 enrolled infants across both groups without post-randomization attrition.",
+        "evidence_quote": "A total of 384 infants were enrolled during the study period with 195 randomized to the placebo group and 189 randomized to the dexamethasone group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes such as survival, oxygen requirement at 36 weeks, and ventilator days are objective clinical measures assessed identically across groups by blinded personnel.",
+        "evidence_quote": "Investigators and caretakers were blinded to the study drug."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The reported results reflect the pre-specified primary endpoints and outcomes detailed in the methods and power calculation sections, without evidence of selective outcome reporting.",
+        "evidence_quote": "Survival without an oxygen requirement at 28 days or at 36 weeks\u2019 CGA, likewise, did not differ between the 2 groups (Table 2). Survival in the dexamethasone group was 79% versus 83% in the placebo group (P = .29)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial is rated as having some concerns overall due to Domain 1 (Randomization process), where details regarding the random sequence generation method and specific envelope properties (e.g., sequentially numbered and opaque) were not reported. All other domains had low risk of bias due to effective blinding and complete outcome reporting."
+  },
+  {
+    "paper_id": "manual:2812fb58",
+    "paper_title": "8cc4e7c8_s0022-3476%2898%2970483-4",
+    "design_classification": "randomized",
+    "design_rationale": "Preterm infants were randomly assigned at each center to receive either dexamethasone or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The specific method of sequence generation is not described, and baseline imbalances in birth weight and sex reached statistical significance despite preparation of visually indistinguishable ampoules by a central hospital pharmacy.",
+        "evidence_quote": "The preterm infants were randomly assigned, at each center, to receive dexamethasone sodium phosphate (Oradexon, Organon Laboratories) or placebo (0.9% saline solution). All the material for randomization and the ampoules of both solutions were prepared in the hospital pharmacy of one of the centers and were visually indistinguishable."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The study was double-blind with identical-appearing placebo and dexamethasone ampoules, and post-randomization exclusions (4 out of 113 infants due to early exclusion criteria or transfer) were balanced and unlikely to have biased the findings.",
+        "evidence_quote": "All the material for randomization and the ampoules of both solutions were prepared in the hospital pharmacy of one of the centers and were visually indistinguishable... Additional glucocorticoid therapies for BPD were not allowed for patients in either treatment group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 109 of 113 enrolled infants (96.5%), with minimal and balanced post-randomization losses.",
+        "evidence_quote": "We enrolled 113 infants in the study; two from the dexamethasone group were excluded, one because of congenital cystic adenomatoid malformation discovered at autopsy and the other on the fifth day of life because of confirmed early sepsis (without BPD). Two patients from the placebo group were excluded: one had early sepsis confirmed at autopsy; the other was transferred to another hospital at 2 weeks of age (still receiving oxygen), and no further information could be obtained. Analysis is based on the outcome of the remaining 109 infants, 54 in the placebo group and 55 in the group treated with dexamethasone."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcome definitions were objective and standardized, and outcome assessors and clinical staff were masked to group allocation using visually identical solutions.",
+        "evidence_quote": "In a multicenter, double-blind, placebo-controlled trial... All the material for randomization and the ampoules of both solutions were prepared in the hospital pharmacy of one of the centers and were visually indistinguishable... The primary outcome measure was BPD at 28 days of life, as defined by Bancalari et al., or death before discharge, or both."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "All predefined primary and secondary outcomes are reported in detail according to the specified analysis plan.",
+        "evidence_quote": "The primary outcome measure was BPD at 28 days of life, as defined by Bancalari et al.,20 or death before discharge, or both. Secondary outcome measures were: (1) oxygen dependency at 36 weeks after conception, (2) number of days receiving mechanical ventilation and oxygen supplementation..."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The overall risk of bias is judged as some concerns due to lack of details regarding the sequence generation method alongside statistically significant baseline imbalances in birth weight and sex, although blinding and outcome ascertainment were robust."
+  },
+  {
+    "paper_id": "manual:2e7ac493",
+    "paper_title": "2f31910d_s0022-3476%2899%2970132-0",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a prospective, randomized, blinded, placebo-controlled trial where infants were randomly assigned in the pharmacy to receive dexamethasone or saline placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although allocation was stratified and assigned in the pharmacy, the specific method of sequence generation and allocation concealment mechanism are not explicitly detailed.",
+        "evidence_quote": "After enrollment 'dexamethasone study drug' was ordered by the clinicians; in the pharmacy each infant was stratified by use of antenatal steroids and then randomly assigned to receive either 0.2 mg/kg dexamethasone or the same volume of saline solution."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Caregivers and investigators were blinded to treatment assignment, an identical volume of saline placebo was used, and care protocols were standardized across groups without evidence of unplanned deviations.",
+        "evidence_quote": "The staff members caring for the infants were not aware of the assigned treatment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "There was differential early mortality (10 in dexamethasone vs 5 in control) and ventilator parameters excluded extubated or deceased infants over time, which may have introduced attrition bias into cardiopulmonary measurements.",
+        "evidence_quote": "Ten of the 37 dexamethasone-treated infants died, compared with 5 of 33 control infants (P = .23). ... Number (N) below each day\u2019s box plots indicates number of infants; there were no data available for infants who had been extubated."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes such as blood pressure and ventilator settings were measured objectively via standard ICU monitoring and bedside flow sheets while clinical staff were blinded to group allocation.",
+        "evidence_quote": "MBP, administration of colloid, pressor infusion rates, and ventilator settings were recorded from the bedside flow sheets."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The study terminated early following an informal or unplanned interim evaluation and shifted primary analytic focus away from the original powered endpoint (IVH) to physiological secondary outcomes.",
+        "evidence_quote": "After an interim analysis showed that the incidence of intraventricular hemorrhage was much lower than expected, enrollment was stopped and we limited our analysis to a comparison of ventilator settings, blood pressure, and pressor use during the first 7 days."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study is judged to have some concerns overall due to lack of detailed reporting on allocation concealment/sequence generation, differential mortality/extubation impacting continuous ventilator and blood pressure measurements, and early termination with shifting analytic focus away from the original primary endpoint."
+  },
+  {
+    "paper_id": "manual:cec6bb3d",
+    "paper_title": "ff928bca_s00431-005-1645-8",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a randomised, placebo-controlled trial where infants were randomised and allocated to receive dexamethasone or placebo from identical coded vials prepared in the coordinating centre pharmacy.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although central allocation using coded identical vials prepared in a pharmacy was employed, the method used to generate the random sequence was not reported, and there were baseline imbalances in gestational age (p=0.02) and mode of delivery (p=0.03).",
+        "evidence_quote": "Randomisation and preparation of the coded vials was performed blindly by the study investigators in the pharmacy of the coordinating centre. The infants were stratified into two weight groups (500\u2013749 g and 750\u2013 999 g). They received from identical vials either four doses of DX (0.25 mg/kg) each at 12 h intervals or normal saline as placebo."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Identical coded vials were used ensuring blinding of participants and caregivers, post-protocol open-label steroids were balanced and documented, and an intention-to-treat analysis was performed.",
+        "evidence_quote": "They received from identical vials either four doses of DX (0.25 mg/kg) each at 12 h intervals or normal saline as placebo... Open-label postnatal DX was allowed when deemed necessary according to the attending physician, but its use was discouraged. Any use of glucocorticoid therapy during hospitalisation was recorded. Intention to treat analysis was performed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data for the primary outcome and major clinical endpoints were available for all 109 randomized infants.",
+        "evidence_quote": "During the study period from June 1998 to February 2001, altogether 109 infants were enrolled, 53 in the DX group and 56 in the placebo group... Good Outcome: DX 30/53, Placebo 25/56; Death: DX 11/53, Placebo 12/56."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The trial was double-blinded with identical vials, and standard objective diagnostic criteria (cranial ultrasound staging, supplemental oxygen requirement, mortality) were applied equally across groups.",
+        "evidence_quote": "The primary outcome was survival at 36 weeks post conception without ICH, grade 3\u20134 [25], PVL or BPD. PVL was defined as the presence of periventricular echodensities after the 1st week or periventricular cysts on a cranial ultrasound [9]. BPD was diagnosed as requirement for supplemental oxygen consistent with signs of respiratory disease at 36 weeks\u2019 gestation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary and secondary outcomes were clearly defined and reported consistently according to the predetermined endpoints, and early trial discontinuation was guided by external safety evidence from independent literature.",
+        "evidence_quote": "The primary outcome was survival at 36 weeks post conception without ICH, grade 3\u20134 [25], PVL or BPD... The study enrollment was discontinued early (February 2001), after serious adverse efects had been reported by others."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study has some concerns overall due to Domain 1 (Randomization process), as the specific sequence generation method was not described and baseline differences were observed between treatment arms in gestational age and delivery mode. All other domains had low risk of bias."
+  },
+  {
+    "paper_id": "manual:b176213b",
+    "paper_title": "5eb05a69_s001340050935",
+    "design_classification": "randomized",
+    "design_rationale": "The study is a randomized clinical trial where 50 high-risk preterm infants were randomly assigned to either dexamethasone or control using random number allocation and sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although random number allocation and numbered, sealed envelopes were used, the envelopes were not specified as sequentially numbered and opaque, raising some concerns regarding allocation concealment.",
+        "evidence_quote": "The randomisation, obtained by random number allocation, was revealed when numbered, sealed envelopes were opened and was carried out at 72 h of life; 25 neonates for both treatment and control groups were expected."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The study was open-label without a placebo control for the untreated group, and while care protocols were standardized, awareness of treatment by clinical staff could potentially lead to deviations or co-intervention differences.",
+        "evidence_quote": "The control group received no steroid treatment... These infants were included in the analysis of results on an \u201cintention to treat\u201d basis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for all infants at 28 days, and for surviving infants at 36 weeks postconceptional age with reasons for death balanced and fully reported.",
+        "evidence_quote": "All preterm infants survived until 28 days of life while the survival rate at discharge was 88% in the control group and 92% in the dexamethasone group. Table 3 reports the respiratory outcomes of the study groups... Between the 28th day of life and 36 weeks' postconceptional age, 4 infants died, 2 in each study group. Three of the 23 surviving infants (13%) in the dexamethasone group had CLD at 36 weeks' postconceptional age compared with 17 of 23 survivors (73.9%) in the control group"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary and additional outcomes were evaluated using objective criteria by assessors who were blinded to treatment allocation.",
+        "evidence_quote": "The primary and additional outcomes were assessed by two clinicians (P.P., G.T.) who did not know the treatment allocation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospective trial registry or pre-published statistical analysis plan is referenced to rule out selective reporting of analysis methods or outcomes.",
+        "evidence_quote": "The primary outcome measures were the incidence of CLD at 28 days of life and the requirement for supplemental oxygen at 36 weeks' postconceptional age. Additional measures included duration of mechanical ventilation and oxygen therapy, requirement for additional courses of steroids for established CLD and the incidence of side effects of dexamethasone treatment."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study is rated as having some concerns overall due to minor lack of detail regarding envelope opacity/sequencing, the unblinded nature of intervention delivery to the treating staff, and the absence of a pre-registered trial protocol or pre-specified statistical analysis plan."
+  }
+]

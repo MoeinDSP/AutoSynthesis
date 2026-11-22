@@ -1,0 +1,39 @@
+{
+  "research_question": "In people with a naturally acquired common cold, does zinc treatment (oral lozenges, tablets/syrup or intranasal preparations) compared with placebo reduce the mean duration of the cold in days?",
+  "treatment_label": "Zinc treatment (oral lozenges, tablets/syrup, or intranasal gel/spray) for an active cold",
+  "control_label": "Placebo",
+  "outcome_description": "Mean duration of the common cold in days, measured from the start of treatment (or from symptom onset, as defined by each trial) until resolution of the cold / complete symptom clearance. Extracted as group means with SDs (or as a reported mean difference with its variance, or convertible t/F/CI data) and pooled as a mean difference in days. Excludes proportion with ongoing symptoms at a fixed endpoint, symptom severity scores, duration of individual symptoms, adverse events, and prevention/incidence outcomes.",
+  "positive_direction": "A positive effect size means zinc shortened the common cold \u2014 participants receiving zinc recovered in fewer days on average than those receiving placebo.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "zinc lozenges common cold duration randomized placebo trial",
+    "zinc acetate gluconate cold symptoms duration controlled trial",
+    "intranasal zinc gluconate common cold treatment trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Participants had a naturally acquired common cold / upper respiratory infection and treatment began after symptom onset (treatment trials)",
+    "Compared any zinc preparation (lozenge, tablet, syrup, intranasal gel or spray) against a placebo or no-zinc control group",
+    "Reported some quantitative data on cold duration (mean days to resolution, or data convertible to it)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, theoretical or modelling paper, case report)",
+    "No comparison between a zinc treatment condition and a placebo/control condition (single-arm or uncontrolled study)",
+    "No quantitative outcome data from which an effect size for cold duration can be computed (no means with SDs/SEs/CIs, t/F values, or equivalent statistics)",
+    "Completely unrelated to zinc treatment of the common cold (e.g. prevention-only trials, experimentally induced rhinovirus challenge studies, zinc for other conditions, or only non-duration outcomes such as severity, adverse events, or proportion still symptomatic)"
+  ],
+  "moderators_to_extract": [
+    "Zinc formulation (lozenge vs tablet/syrup vs intranasal)",
+    "Zinc salt type (acetate, gluconate, sulphate, other)",
+    "Total daily elemental zinc dose (mg/day)",
+    "Participant age group (children vs adults)",
+    "Time from symptom onset to treatment initiation",
+    "Risk of bias / allocation concealment and blinding adequacy",
+    "Sample size category"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool as a mean difference in days (zinc minus placebo), signed so that a positive pooled value favours zinc (shorter cold). Use random-effects (DerSimonian\u2013Laird or REML) inverse-variance pooling given expected clinical heterogeneity in formulation and dose; where trials report only SEs, CIs, or p-values, back-calculate SDs. Assess heterogeneity with I\u00b2 and tau\u00b2, and examine small-study effects with a funnel plot and Egger's test if \u226510 trials contribute.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "duration of the common cold (days to resolution)"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of vocabulary interventions compared with standard care or no intervention on distal expressive second-language vocabulary measured immediately post-intervention in children up to six years old?",
+  "treatment_label": "Vocabulary intervention (e.g., shared book reading, dialogic reading, explicit instruction, dual-language instruction)",
+  "control_label": "Standard care, usual classroom instruction, or no intervention",
+  "outcome_description": "Post-intervention expressive vocabulary in the second language assessed via a standardised or general measure of untaught/distal words",
+  "positive_direction": "Higher SMD indicates better distal expressive second-language vocabulary in the intervention group compared to the control group (favours vocabulary intervention)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "preschool dual language learners vocabulary intervention randomized trial",
+    "second language children expressive vocabulary reading intervention experiment",
+    "young English learners distal vocabulary instruction controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating vocabulary interventions (e.g., shared book reading, dialogic reading, explicit word teaching, dual-language instruction) in children up to six years of age learning a second language (L2)",
+    "Comparison condition of standard care, usual classroom curriculum, or no intervention",
+    "Quantitative reporting of distal (untaught/general) expressive vocabulary measured in the second language immediately post-intervention"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded)",
+    "No randomised comparison between a vocabulary intervention and a standard care/no intervention control group (e.g. non-randomised designs, or control group received another vocabulary intervention)",
+    "No quantitative outcome data for post-intervention distal expressive vocabulary in the second language (e.g. only proximal/taught-word vocabulary, only receptive vocabulary, only first-language outcomes, or combined receptive-expressive scores that cannot be disaggregated)",
+    "Study conducted exclusively with monolingual children or with children older than six years of age"
+  ],
+  "moderators_to_extract": [
+    "Intervention type (e.g., dialogic reading, explicit instruction, dual-language instruction)",
+    "Intervention delivery agent (e.g., classroom teacher, researcher, parent, speech therapist)",
+    "Grouping format (e.g., small group, whole class, individual)",
+    "Total intervention dosage or duration (hours or weeks)",
+    "Outcome instrument (standardised test name, e.g., EOWPVT, EVT)",
+    "Participant mean age or educational setting (preschool vs. kindergarten)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool post-intervention distal expressive L2 vocabulary as SMD (Hedges' g) using a random-effects model. Convert SE/SEM to SD = SE * sqrt(n). For cluster-randomised trials without cluster-adjusted reporting, adjust sample sizes using design effect (1 + (M - 1) * ICC) with reported ICC or assumed ICC = 0.15. Multi-arm trials have intervention arms combined or the single most relevant arm selected. Exclude proximal (taught-word), receptive, and L1 outcomes.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "distal expressive second-language vocabulary"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:0c1a2276",
+    "paper_title": "51684622_j.1747-4949.2012.00901.x",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly states that patients were randomly assigned 1:1 to Cerebrolysin or placebo using a precompiled randomization schedule stratified by centre.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A centre-stratified precompiled randomization schedule was used and baseline variables were balanced, but the method used to generate the sequence and the mechanism ensuring allocation concealment were not reported.",
+        "evidence_quote": "Patients were randomly assigned to receive an intravenous infusion of either Cerebrolysin or placebo... according to a precompiled 1:1 randomization schedule, stratified by centre."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and study personnel were blinded with visually identical treatments, no crossovers were reported, and efficacy analyses treated patients as randomized in the ITT population.",
+        "evidence_quote": "All study personnel and participants were blinded to treatment assignment for the duration of the study... Therefore, no crossovers were reported... patients being analysed according to the randomization schedule."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The day-90 primary outcome was available for 114 of 119 randomized patients, with all five missing assessments in the Cerebrolysin group, and the paper does not establish that this differential missingness could not bias the result.",
+        "evidence_quote": "mRS score... No. of patients 55 [Cerebrolysin] 59 [Placebo]."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The modified Rankin Scale is an appropriate stroke-disability outcome, assessments were scheduled identically across groups and performed by trained, certified observers who were blinded to treatment assignment.",
+        "evidence_quote": "Tests were performed by trained and certified observers... All study personnel and participants were blinded to treatment assignment for the duration of the study."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The authors state that analyses were prespecified, but no accessible protocol or registration is reported to verify this, and numerous scales, time points, populations, and responder analyses created scope for selective emphasis, especially on favorable secondary findings.",
+        "evidence_quote": "All analyses were specified prior to database lock."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by insufficient reporting of sequence generation and allocation concealment, differential missing primary-outcome data (five missing in the Cerebrolysin group versus none in placebo), and inability to verify prespecified reporting despite multiple outcomes and analyses. Blinding, intervention fidelity, and outcome measurement were otherwise well addressed."
+  },
+  {
+    "paper_id": "manual:354009b8",
+    "paper_title": "7d54a994_NDT.S75304",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that 46 eligible patients were randomly assigned to cerebrolysin or placebo, although the sequence-generation and allocation-concealment methods were not reported.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment was stated and measured baseline characteristics appeared generally balanced, but the random-sequence generation and allocation-concealment procedures were not described.",
+        "evidence_quote": "All patients who met inclusion criteria were randomly assigned into two groups to receive intravenously either 30 mL of cerebrolysin diluted in normal saline once a day for 10 days (n=23) or normal saline, as placebo, with a prescription order similar to the main drug (n=23)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was described as double-blind with placebo administered using a similar prescription order, and co-interventions were reportedly standardized, but who was blinded, whether blinding was maintained, and whether an intention-to-treat analysis was planned were not adequately reported; deaths were excluded from analysis.",
+        "evidence_quote": "In addition to the cerebrolysin and placebo, all of patients were given 100 mg of aspirin daily. The enrolled patients underwent diagnostic interventions and received therapies within 6 hours after arriving to the hospital. During hospitalization, they also underwent rehabilitation therapy with the same protocols."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Three of 46 randomized patients died before outcome measurement and were excluded from all final analyses; because death is strongly related to stroke outcome and differed numerically by group, complete-case analysis could bias the estimated treatment effect.",
+        "evidence_quote": "After receiving treatments, one patient in the cerebrolysin-received group and two patients in the placebo-received group died before day 30 (4.3% versus 8.7%); they were excluded from the final analysis due to lack of measuring their outcomes at 90-day follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "NIHSS and transcranial Doppler are appropriate and were scheduled identically across groups, but the report does not identify the blinded outcome assessors or explain how assessor blinding was maintained, which matters particularly for NIHSS scoring.",
+        "evidence_quote": "The NIHSS and TCD examinations were repeated on days 30, 60, and 90 during the follow-up period."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, while numerous outcomes, vessels, indices, time points, responder analyses, and subgroup comparisons were tested separately without multiplicity adjustment, creating substantial scope for selective emphasis of significant findings.",
+        "evidence_quote": "Any changes in the NIHSS score during the 90-day follow-up were considered as primary endpoints. The enhancement in the mean flow velocity (cm/s) of cerebral arteries, including right and left middle cerebral arteries as well as basilar artery, and decrease in the PI of mentioned arteries were considered as secondary endpoints."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by exclusion of three post-randomization deaths from the final analysis and substantial potential for selective reporting across many outcomes, arteries, time points, and analyses without a reported protocol or analysis plan. Unreported sequence concealment and limited information about blinding add further concerns."
+  },
+  {
+    "paper_id": "manual:4e8a0a5b",
+    "paper_title": "0768167f_s00702-004-0248-2",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly used computer-generated allocation in centre-stratified blocks of 12 to assign eligible patients to Cerebrolysin or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated in centre-stratified blocks, treatment appearance and study personnel were blinded, emergency envelopes remained sealed, and reported baseline characteristics were balanced.",
+        "evidence_quote": "Patients who met all entry criteria were assigned to the treatment groups in a 1:1 ratio, according to a randomisation code generated by a computer software... The randomisation was carried out in blocks of 12 patients, stratified by study centre... All envelopes remained sealed throughout the study."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and personnel were effectively blinded and both groups received the same background therapy, but the stated ITT analysis excluded randomized participants without a dose or post-baseline efficacy assessment and therefore was not a true analysis of all randomized participants.",
+        "evidence_quote": "The investigators and all other study personnel were blind as to the random code assignment until the completion of the statistical analysis... The ITT population included all subjects who were randomised, received at least one dose of study medication and provided baseline as well as at least one post-baseline efficacy evaluation."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "By day 90, outcome data were missing for 27 of 146 participants (18.5%), with substantially greater attrition in placebo (16/68) than Cerebrolysin (11/78), and LOCF cannot establish that results were unbiased when missingness included death, adverse events, and differential consent withdrawal.",
+        "evidence_quote": "Of these patients, 67 of the Cerebrolysin group and 52 of the placebo group completed the study. Reasons for the 25 cases of study discontinuation were death (6 Cerebrolysin, 6 placebo), serious adverse event (1 placebo), and consent withdrawn (3 Cerebrolysin; 9 placebo)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The clinical outcomes were measured with established scales on the same schedule in both groups, and investigators assessing outcomes were blinded with indistinguishable study treatments.",
+        "evidence_quote": "Both, active and control medication were packaged in 100 mL amber glass vials and were indistinguishable in appearance... Efficacy evaluations were performed at Baseline and at all subsequent study visits on study days 1, 3, 7, 14, 21, and 90."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "There was no reported prespecified protocol or analysis plan, and this explicitly exploratory study tested numerous scales, subscales, visits, statistical tests, and subgroups while highlighting selected significant findings, creating substantial opportunity for selective reporting.",
+        "evidence_quote": "All efficacy scores at all study timepoints were evaluated... Subgroup analyses of patients with rightsided stroke, left-sided stroke, and patients who received the first dose of study medication within 6 h were also performed... Since this was an exploratory study no sample size calculations have been performed."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial and differential missing outcome data at follow-up and major scope for selective reporting across many outcomes, time points, tests, and subgroups without a reported prespecified analysis plan. The randomization and blinding procedures were otherwise strong."
+  },
+  {
+    "paper_id": "manual:8af560b0",
+    "paper_title": "3ee25e82_strokeaha.111.628537",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly describe a multicenter randomized, double-blind, placebo-controlled parallel-group trial in which patients were assigned to Cerebrolysin or matched placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although random assignment is explicit and baseline characteristics were balanced, the report does not describe how the allocation sequence was generated or concealed until enrollment.",
+        "evidence_quote": "CASTA is a Phase IV clinical trial designed as a multicenter, randomized, double-blind placebo-controlled parallel-group study."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Matched placebo and strict blinding reduced the potential for intervention-related deviations, and the primary analysis used the intention-to-treat population with a per-protocol analysis yielding similar results.",
+        "evidence_quote": "Patients and investigators remained strictly blinded to the treatment assignments, and the occurrence or nature of adverse events did not compromise the blinding either."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Follow-up was incomplete and missing outcomes were imputed using last observation carried forward, which may be biased when outcomes change over time, although only two treated patients had no efficacy assessment and deaths received worst-score correction.",
+        "evidence_quote": "Sixty patients died and 890 (83.2% of all randomized patients) completed the 90-day follow-up... Missing values were substituted by last observation carried forward. In patients who had died, a worst score correction was applied."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome combined established stroke scales assessed consistently across groups, and strict blinding of patients and investigators made differential outcome assessment unlikely.",
+        "evidence_quote": "The primary efficacy criterion was defined as the combined result of Barthel Index (BI), modified Rankin Scale (mRS), and the NIHSS evaluated in 1 global test."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint was prespecified and transparently reported as neutral, but no prospective registration or fully fixed statistical analysis plan is provided, and responder cutoffs were revised during blinded review while numerous post hoc subgroup analyses were reported.",
+        "evidence_quote": "The final responder definitions were established during the blind review process... Additionally, post hoc stratified analyses were performed."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by absent details on sequence generation and allocation concealment, incomplete 90-day follow-up handled with LOCF, and analytic/reporting flexibility including revised responder definitions and post hoc subgroup analyses. Blinding, balanced baseline characteristics, validated outcome measures, and reporting of the neutral prespecified primary result otherwise support the trial's credibility."
+  }
+]

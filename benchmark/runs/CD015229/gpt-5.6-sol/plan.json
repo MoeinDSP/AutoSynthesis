@@ -1,0 +1,38 @@
+{
+  "research_question": "Among patients with pain conditions, what is the effect of a single sympathetic nerve block, compared with standard care, on pain score at 14 days after the block, excluding pain outcomes measured at other timepoints from this analysis?",
+  "treatment_label": "Single sympathetic nerve block",
+  "control_label": "Standard care without sympathetic nerve block",
+  "outcome_description": "Pain intensity or pain severity score measured at 14 days after a single sympathetic nerve block. Pool the 14-day pain outcome only; do not substitute or combine outcomes from other follow-up times such as 1 month. When a study reports multiple eligible pain instruments at day 14, prespecify a hierarchy favoring the study's primary pain measure, then a validated multi-item pain scale, then a unidimensional numeric rating scale or visual analogue scale, to avoid double-counting participants.",
+  "positive_direction": "A positive Hedges g means that a single sympathetic nerve block produces lower (better) pain scores at 14 days than standard care.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "sympathetic nerve block pain controlled trial",
+    "single sympathetic block pain standard care comparison",
+    "sympathetic blockade pain score 14 days quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies in patients with a pain condition that evaluate a single sympathetic nerve block and include a standard-care comparison condition.",
+    "Studies reporting pain intensity or severity at 14 days after treatment, or providing data clearly attributable to the 14-day assessment.",
+    "Studies reporting sufficient quantitative information, directly or through obtainable supplementary or author-provided data, to calculate an effect size for the treatment-versus-control comparison."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers are excluded.",
+    "No comparison between a single sympathetic nerve block treatment condition and a standard-care control condition.",
+    "No quantitative outcome data that can produce an effect size; means and standard deviations, t/F-values, proportions, or odds ratios are required.",
+    "Completely unrelated to sympathetic nerve block treatment, pain, or the specified 14-day outcome."
+  ],
+  "moderators_to_extract": [
+    "pain diagnosis or clinical condition",
+    "anatomical type and level of sympathetic block",
+    "local anesthetic or injectate and dose",
+    "study design and allocation method",
+    "baseline pain severity",
+    "co-interventions permitted as standard care"
+  ],
+  "search_start_year": 1950,
+  "effect_size_note": "For continuous pain scores, calculate a small-sample-corrected standardized mean difference and orient signs so positive values favor the nerve block (less pain). Prefer change-from-baseline effects when both groups report compatible change scores; otherwise use 14-day endpoint scores. Account for clustering, crossover designs, and shared control groups where applicable. Use only the 14-day assessment in this analysis and do not substitute nearest later or earlier timepoints without a prespecified sensitivity rule.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": true,
+  "single_outcome_target": "pain score"
+}

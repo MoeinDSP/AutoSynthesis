@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of a higher blood pressure target compared with a lower blood pressure target on all-cause mortality in older adults with hypertension?",
+  "treatment_label": "Higher blood pressure target",
+  "control_label": "Lower blood pressure target",
+  "outcome_description": "All-cause mortality, defined as death from any cause occurring during the trial follow-up period.",
+  "positive_direction": "Reduced all-cause mortality, favoring the higher blood pressure target arm.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "higher blood pressure target lower target hypertension trial mortality",
+    "blood pressure targets older adults hypertension randomized trial all-cause mortality",
+    "systolic blood pressure target comparison trial hypertension mortality outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials or comparative clinical studies evaluating higher versus lower blood pressure targets in adults (particularly older adults) with hypertension.",
+    "Studies reporting quantitative counts of all-cause mortality (deaths from any cause) and total participants randomized in both treatment arms."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, conference abstracts without full quantitative data, and theoretical papers).",
+    "No comparison between a higher blood pressure target arm and a lower blood pressure target arm.",
+    "No quantitative data on all-cause mortality (number of deaths and sample size per arm missing or unextractable).",
+    "Completely unrelated to blood pressure target interventions or hypertension management."
+  ],
+  "moderators_to_extract": [
+    "Mean age of participants or older-adult age threshold (e.g., >=65 vs >=75 years)",
+    "Specific target systolic/diastolic blood pressure values per arm",
+    "Achieved systolic/diastolic blood pressure difference between arms",
+    "Duration of follow-up (years)",
+    "Baseline prevalence of cardiovascular disease or diabetes"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Dichotomous event data (deaths / total randomized per arm) pooled as Risk Ratio (RR). An RR < 1 indicates a lower risk of all-cause mortality in the higher blood pressure target arm compared with the lower target arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

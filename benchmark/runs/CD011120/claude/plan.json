@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of behavioural support, compared with brief advice or no intervention (with matched pharmacotherapy background where applicable), on tobacco use cessation?",
+  "treatment_label": "Behavioural support for smoking cessation (counselling/behavioural programme, delivered alone, or added to NRT, or added to varenicline)",
+  "control_label": "Matched comparator without behavioural support (brief advice or no intervention; brief advice + NRT; or varenicline alone)",
+  "outcome_description": "Tobacco use cessation / smoking abstinence at longest reported follow-up (e.g. continuous, prolonged, sustained or 7-day point-prevalence abstinence, biochemically validated or self-reported), extracted as number of quitters out of number randomised in each arm.",
+  "positive_direction": "A positive effect (risk ratio above 1) means that participants receiving behavioural support achieved HIGHER tobacco abstinence (quit) rates than those receiving brief advice, no intervention, or the matched pharmacotherapy-only control.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "behavioural support smoking cessation randomised controlled trial abstinence",
+    "smoking cessation counselling versus brief advice trial quit rates",
+    "behavioural intervention plus nicotine replacement varenicline cessation trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Study evaluates some form of behavioural support, counselling, or behavioural programme for tobacco/smoking cessation in people who use tobacco",
+    "Study compares the behavioural support condition against a less-intensive or no-behavioural-support comparator (brief advice, usual care, no intervention, or pharmacotherapy alone)",
+    "Study reports some quantitative cessation/abstinence outcome (quit counts, quit rates, proportions, or effect estimates) for both conditions"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a treatment condition and a control/comparator condition (single-arm or uncontrolled pre-post designs only)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts, proportions, means+SDs, t/F statistics, or odds/risk ratios)",
+    "Completely unrelated to tobacco use cessation (e.g. focused only on alcohol or other drug use, or on smoking prevention in never-smokers)"
+  ],
+  "moderators_to_extract": [
+    "Intervention-combination subgroup (behavioural support alone vs + NRT vs + varenicline)",
+    "Intensity of behavioural support (number/duration of sessions)",
+    "Delivery mode (in-person individual, group, telephone, digital)",
+    "Length of follow-up for abstinence assessment",
+    "Biochemical verification of abstinence (yes/no)",
+    "Population/setting (general adult, pregnant, hospital/clinical, community)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as risk ratios (RR) of abstinence, behavioural support vs matched control, using event counts over the number randomised (participants lost to follow-up counted as continuing smokers where reported). Keep the three intervention-combination comparisons (behavioural support alone vs brief advice/no intervention; behavioural support + NRT vs brief advice + NRT; behavioural support + varenicline vs varenicline alone) as distinct subgroups within a single pooled random-effects analysis, each matched to its own control arm. For multi-arm trials testing more than one behavioural-support variant against a single shared control group, enter each variant as its own row and divide the shared control arm's events and sample size proportionally across the variants (shared-control splitting) to avoid double-counting control participants, rather than selecting one arm or discarding variants.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "tobacco use cessation (smoking abstinence)"
+}

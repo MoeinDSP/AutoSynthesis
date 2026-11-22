@@ -1,0 +1,75 @@
+services:
+  autosynthesis:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - APP_ROLE=api
+      - PORT=8000
+      - OUTPUT_DIR=outputs
+      - DOWNLOADED_PDF_DIR=downloaded_pdfs
+      - DATABASE_URL=postgresql+psycopg2://${POSTGRES_USER:-autosynthesis}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-autosynthesis}
+      - REDIS_URL=redis://redis:6379
+    volumes:
+      - ./outputs:/app/outputs
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/api/health',timeout=5).status==200 else 1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+  # One-off: creates the database tables.  docker compose --profile tools run --rm db-migrate
+  db-migrate:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - APP_ROLE=migrate
+      - DATABASE_URL=postgresql+psycopg2://${POSTGRES_USER:-autosynthesis}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-autosynthesis}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    profiles:
+      - tools
+    restart: "no"
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:-autosynthesis}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in .env}
+      - POSTGRES_DB=${POSTGRES_DB:-autosynthesis}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-autosynthesis} -d ${POSTGRES_DB:-autosynthesis}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  pgdata: {}
+  redisdata: {}

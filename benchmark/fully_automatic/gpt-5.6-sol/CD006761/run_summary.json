@@ -1,0 +1,31 @@
+{
+ "review": "CD006761",
+ "model": "openai/gpt-5.6-sol",
+ "run_id": "CWKRdid0aPqJq2K4sMYnWA",
+ "status": "completed",
+ "error": null,
+ "start": "2026-11-21 01:50:39",
+ "wall_clock_seconds": 9385,
+ "openrouter_cost_usd": 27.0747,
+ "papers_found": 71,
+ "papers_missing_fulltext": 14,
+ "gates_seconds": {
+  "paper_selection": 540,
+  "fulltext": 7864,
+  "review": 7944
+ },
+ "pooled": {
+  "k": 8,
+  "N": 594,
+  "effect": -13.460133678706196,
+  "ci": [
+   -18.94602136214925,
+   -7.974245995263143
+  ],
+  "p": 1.5172270428954423e-06,
+  "I2": 98.28,
+  "measure": "MD",
+  "n_groups": 1
+ },
+ "prompt": "What is the effect of LigaSure haemorrhoidectomy (vessel-sealing device), compared with conventional haemorrhoidectomy (scissors, diathermy or other conventional excision such as Milligan-Morgan or Ferguson), on operating time in minutes in adults with symptomatic haemorrhoids?\n\nEffect measure: pool as a mean difference (MD) in minutes using a random-effects model. MD < 0 means a shorter operation with LigaSure (favours LigaSure).\n\nOutcome: operating time (duration of the haemorrhoidectomy operation) in minutes, extracted as the mean, SD and number of patients per arm.\n- Use operating time from skin incision (or start of the haemorrhoidectomy) to the end of the procedure, in minutes. Do not use anaesthesia time, total theatre time, or time to haemostasis alone.\n- If a paper reports a median with range or interquartile range, estimate the mean and SD with a standard method and state it. If it reports a range only, estimate the SD from the range and state it.\n- If variability is reported as SE or SEM, convert to SD = SE × √n. Check table footnotes for whether \"±\" is SD or SE.\n- Convert seconds or hours to minutes. Record the original unit and any conversion.\n- Treatment = LigaSure; control = conventional (diathermy, scissors or Ferguson). Assign arms by procedure, not by column position.\n- Multi-arm trials: include only LigaSure and a conventional excision arm. Ignore stapled haemorrhoidopexy, laser, Doppler-guided and other arms; if there are two conventional arms, combine them or use the one that matches the review question and state the choice.\n- Use the number randomised or analysed as reported.\n- Include only randomised controlled trials in adults. Exclude non-randomised comparisons and trials without a conventional-haemorrhoidectomy arm.\n\nDo not pool blood loss, post-operative pain, wound healing, complications, hospital stay, recurrence or return to work."
+}

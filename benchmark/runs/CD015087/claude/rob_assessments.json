@@ -1,0 +1,246 @@
+[
+  {
+    "paper_id": "manual:2ab33cc8",
+    "paper_title": "6ad86ab2_download",
+    "design_classification": "non_randomized",
+    "design_rationale": "Allocation to the five analgesia groups was explicitly systematic/sequential rather than random: \"who were systematically included, that is, the first two children would belong to Group B, the next two to Group F, and so on, until a total of 20 patients per group\" \u2014 a quasi-experimental allocation mechanism with no random sequence generation described.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "moderate",
+        "rationale": "Systematic (every-two-patients) allocation is predictable but largely unrelated to patient characteristics and the reported demographics (age, weight, sex, ASA) were comparable; however, key prognostic factors such as type/extent of surgery, anaesthetic agents used and surgical duration were not balanced by design nor adjusted for, leaving residual confounding.",
+        "evidence_quote": "There were no significant demographic differences among all groups (Table II)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "All consecutive eligible children appear to have been enrolled at the start of the intervention with follow-up from that point, but the predictable sequential allocation could allow clinicians to influence which patient entered which group, and no information is given on exclusions/refusals.",
+        "evidence_quote": "participated in this study 100 children of both genders, aged 2 to 12 years, physical status ASA I, II and III scheduled for lower limb orthopedic surgeries, urogenital, anal and infraumbilical procedures, who were systematically included"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Drug, dose, diluent volume and route for each group were clearly and prospectively defined and recorded at the time of administration, so misclassification is unlikely.",
+        "evidence_quote": "epidural caudal block was performed in group F with fentanyl (1.5 \u00b5g.kg-1) in 10 ml saline; group M patients received epidural caudal morphine (30 \u00b5g.kg-1) in 10 ml saline"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "serious",
+        "rationale": "No blinding or placebo/sham control is described (the caudal-block groups versus a rectal suppository group are overtly different), co-interventions such as premedication, induction agents, airway technique and rescue analgesia varied and were given at caregiver discretion, and these unblinded care differences could plausibly affect the pain outcomes.",
+        "evidence_quote": "Group D patients received rectal 1 mg.kg-1 diclofenac."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "serious",
+        "rationale": "No account of losses is given, yet the self-evaluation scale denominators are clearly far below 20 per group (e.g., group D mean of 0.00 at 15 min, scattered fractional means), implying substantial unexplained missing data for the subjective pain outcome with no sensitivity analysis.",
+        "evidence_quote": "| 15 | 1.40 | 1.00 | 1.00 | 1.33 | 0.00 |"
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "Outcome assessors were unblinded to the obviously different techniques, the behavioural scale and rescue-analgesia decisions are subjective, and after 4 hours assessment was informally delegated to nurses/parents without a standardized instrument \u2014 a method differing in rigour and potentially influenced by knowledge of the intervention.",
+        "evidence_quote": "From this period on, children were evaluated by the nursing team or by the parents based on changes in children's behavior and/or position and trying to relate these events to the presence of pain and need for analgesic complementation."
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "There is no protocol or pre-registration, multiple outcome operationalizations (two pain scales at seven time points, rescue analgesia, analgesia duration, side effects) and numerous pairwise comparisons are reported without correction, raising the possibility of selective emphasis of results.",
+        "evidence_quote": "Statistical analysis was performed by the F and Chi-square tests to compare demographics among groups; Kruskal-Wallis test was used to compare pain scores and mean analgesia duration among groups"
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "This quasi-experimental study allocated children to five analgesic techniques by a predictable systematic sequence rather than randomization, with no blinding, varied co-interventions, and subjective pain assessment that was delegated informally to nurses/parents after 4 hours. Serious concerns in deviations from intended interventions, missing self-evaluation data, and outcome measurement drive an overall judgment of serious risk of bias."
+  },
+  {
+    "paper_id": "manual:c8548f4e",
+    "paper_title": "210f571d_j.1365-2044.1988.tb04147.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states a \"randomised double blind trial\" with patients \"allocated randomly to receive either diclofenac 1 mg/kg, pethidine 1 mg/kg or no analgesia (control group)\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is asserted and baseline characteristics (age, weight, sex, premedication timing, operation duration) were comparable, but the sequence generation method and allocation concealment are not described, and the distribution of operation types appears unbalanced (e.g., T+A: 17 in pethidine vs 7 in diclofenac).",
+        "evidence_quote": "Patients were allocated randomly to receive either diclofenac 1 mg/kg, pethidine 1 mg/kg or no analgesia (control group) after induction of anaesthesia."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of the assessing/treating recovery nurse is reported and patients were anaesthetised at administration, but the control group received no placebo injection (so caregivers/anaesthetist were unblinded to an extent), rescue pethidine was widely given and precluded analysis of several timepoints, and no intention-to-treat analysis is described.",
+        "evidence_quote": "Pethidine 1 mg/kg was given intramuscularly in the recovery ward if thought necessary by the recovery nurse, who was not aware which drug, if any, had been given intra-operatively."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial and differential missingness of self-reported pain scores (e.g., only 12\u201340% could use the toy at 30 minutes, 8 pethidine patients unable to use the toy at 4 hours), with missingness plausibly related to the intervention (drowsiness/pain) and whole timepoints abandoned from analysis.",
+        "evidence_quote": "Failure to record a score at the observation time occurred on some occasions because children were too sleepy or too distressed to move the cursor... The pain scores at 30 minutes and one hour postoperatively could not be compared because many of the children required pethidine in the recovery ward."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated visual analogue measures applied identically across groups by a nurse stated to be blinded, but the absence of a placebo injection in the control group and subjective nurse-rated scores and timing-of-rescue outcomes leave some potential for assessor influence.",
+        "evidence_quote": "One of two recovery nurses also assessed the patients' pain with a standard visual analogue scale when they awoke, and 30 minutes and one hour postoperatively."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or protocol is available (1988 trial), there are multiple outcome operationalizations and timepoints with some analyses dropped post hoc, and no primary outcome is pre-specified.",
+        "evidence_quote": "The purpose of the study was to assess the efficacy of diclofenac in relation to pethidine and no analgesic; thus, the statistical analysis was confined to comparisons between these groups."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by substantial and differential missing pain-score data (many children unable to use the visual analogue toy, and whole timepoints excluded because of widespread rescue pethidine). Additional concerns arise from undescribed randomization/concealment methods, no placebo for the control group, and absence of a pre-specified protocol or primary outcome."
+  },
+  {
+    "paper_id": "manual:d0b0b893",
+    "paper_title": "25cf4b43_j.1365-2044.1988.tb08972.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper states that sixty children were \"allocated randomly to one of three treatment groups\" (diclofenac, papaveretum, or no analgesia), indicating explicit random allocation of participants to conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "No details on sequence generation or allocation concealment are given, and statistically significant baseline differences in age and weight between groups B and C raise concern that the randomization may not have produced comparable groups.",
+        "evidence_quote": "\"They were allocated randomly to one of three treatment groups... The mean age and weight of patients in group B were significantly different from those of group C (p < 0.05).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No placebo suppository or sham injection was used (control group received \"no medication\"), so the anaesthetists and ward nursing staff who administered open-label rescue analgesia were aware of allocation, and co-intervention decisions (rescue papaveretum/paracetamol) \u2014 themselves an outcome \u2014 could have been influenced; no intention-to-treat statement is provided although all 60 appear analysed.",
+        "evidence_quote": "\"The children received postoperative analgesia of either intramuscular papaveretum 0.2 mg/kg or oral paracetamol 125\u2013500 mg at the discretion of the nursing staff, if considered appropriate at this stage.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 60 randomized children appear in the analysis with complete data at all four assessment points (tables sum to 20 per group at each time), indicating essentially no missing outcome data.",
+        "evidence_quote": "\"A total of 60 children were studied, 20 patients in each treatment group.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "A single blinded observer applied the measures consistently, but the crude dichotomous observer-rated pain scale is insensitive and acknowledged by the authors to be confounded with wakefulness (awake calm children reporting sore throat were scored as \"pain present\"), and no placebo was used so residual unblinding via visible route/effects is possible.",
+        "evidence_quote": "\"Pain was assessed as none/insignificant, or pain present.\" ... \"The investigator, who was blind to the group allocation of the patients and to any postoperative analgesia administered, assessed the patients postoperatively\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no pre-registered protocol or stated primary outcome, multiple outcomes (pain, appearance, respiratory rate, analgesic consumption) were assessed at four timepoints without adjustment for multiplicity, and conclusions emphasise significant secondary findings, raising concern about selective emphasis/reporting.",
+        "evidence_quote": "\"Statistical analysis of the data for pain, appearance and the use of postoperative analgesia was performed using the Chi-squared test with Yates' correction.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small randomized three-arm trial had complete outcome data and a blinded single observer, but lacks any description of sequence generation/allocation concealment, shows significant baseline age and weight imbalance, used an unblinded no-treatment control with discretionary open-label rescue analgesia, employed a crude dichotomous pain measure confounded with wakefulness, and had no pre-specified primary outcome or protocol. These issues yield 'some concerns' across four of five domains, with no domain reaching 'high'."
+  },
+  {
+    "paper_id": "manual:8b47a337",
+    "paper_title": "fd80a2a2_j.1365-2346.1996.d01-380.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states children were randomly allocated to one of three parallel groups (\"Children were randomly allocated into one of three groups prior to anaesthesia\") in a described randomized, double-blind trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is asserted but no method of sequence generation or allocation concealment is described; baseline demographics were comparable, although anaesthetic time differed significantly between groups (plausibly procedural rather than allocation-related).",
+        "evidence_quote": "Children were randomly allocated into one of three groups prior to anaesthesia."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Although described as double-blind with blinded surgeon, observer and recovery staff, no placebo (dummy suppository/injection) was used, so anaesthetists and theatre staff necessarily knew allocation and the differing anaesthetic time signals incomplete blinding; co-intervention with rescue paracetamol during the observation window was unequal and no intention-to-treat analysis is described, though all 60 randomized patients appear analysed.",
+        "evidence_quote": "a control group who received no analgesia... The significantly increased anaesthetic time for the diclofenac of 9.6 min compared with 7.2 min for control and 6.9 min for nalbuphine may be explained by the extra time required for giving the suppository"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear available for all 60 randomized children (21+19+20) over the 45-min observation period with no reported withdrawals or losses.",
+        "evidence_quote": "A total of 60 patients divided into three groups as shown in Table 2 were studied."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "A validated objective pain scale was applied identically by a single blinded observer, but the absence of placebo administration and the differential use of rescue paracetamol during the measurement window leave residual potential for unblinding and contamination of later scores.",
+        "evidence_quote": "Pain related behaviour was evaluated in all patients by the same blinded observer using an objective pain scale adapted from one previously described by Hannallah and colleagues"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol or a priori sample size/primary outcome is reported, multiple time points and secondary endpoints were analysed, and power was considered only retrospectively, although the primary (null) pain-score results are fully presented.",
+        "evidence_quote": "In retrospect, given the low median scores across all groups including the control group several hundred patients would be necessary to provide an adequate level of power"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Complete outcome data and a single blinded observer using a validated objective pain scale are strengths, but unreported randomization/concealment methods, absence of placebo controls (with evident unblinding reflected in longer anaesthetic time for the diclofenac group and unequal rescue analgesia), and no pre-specified protocol or a priori power calculation raise concerns. No domain reached high risk, so the overall judgement is some concerns."
+  },
+  {
+    "paper_id": "manual:31e715fa",
+    "paper_title": "1fef9186_j.1399-6576.2002.460417.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes an \"open randomised study\" in which 50 children \"were randomised to receive either rectally administered diclofenac (Voltaren) 1 mg/kg or i.v. opioid (morphine) 0.05 mg/kg perioperatively.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation-concealment procedure is described, and although groups were broadly similar, mean weight differed appreciably (31 vs 25 kg) with no statistical baseline comparison reported.",
+        "evidence_quote": "\"In connection with the preoperative assessment, 3 months before surgery, the children were randomised to receive either diclofenac 1 mg/kg given rectally or i.v. morphine 0.05 mg/kg as perioperative analgesic treatment.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The trial was open-label with no placebo/double-dummy, so patients, parents and care providers knew the assigned drug; co-interventions differed systematically between arms (rescue morphine vs rescue diclofenac, anti-emetic administration decided by unblinded staff), and no ITT/analysis-population handling is described for the subjective PONV and pain outcomes.",
+        "evidence_quote": "\"This open randomised study was designed to investigate the analgesic and anti-emetic properties of rectally administered diclofenac compared with opioid (morphine)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 25+25 randomised children appear in the result tables, but pain assessments were skipped for sleeping children and no account is given of follow-up telephone contact completeness or of any dropouts/withdrawals.",
+        "evidence_quote": "\"Children who were asleep were not disturbed.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although validated scales were used, outcome assessors (PACU nurses, parents, children) were unblinded to the obviously different routes/drugs, and the subjective PONV and pain ratings \u2014 plus discretionary rescue analgesia, anti-emetic use and discharge timing \u2014 could readily be influenced by knowledge of the intervention.",
+        "evidence_quote": "\"The child, parent or both were contacted by phone the following day to determine the incidence of nausea, vomiting and pain during the first 24 h after surgery.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol, pre-specified primary outcome or sample-size calculation is reported, and multiple outcome operationalizations (any vomiting, severe vomiting, at hospital/at home, several time windows, three repeated pain scores) create scope for selective reporting.",
+        "evidence_quote": "\"The incidence of PONV was assessed for the first 24 h and at various time intervals (0\u20132 h, 2\u20136 h, 6\u201324 h).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the explicitly open-label design with unblinded participants, carers and outcome assessors for subjective outcomes (nausea, vomiting reports, FACES pain scores, discretionary rescue medication and discharge decisions). Additional concerns include undescribed sequence generation/allocation concealment, incomplete handling of skipped assessments, and absence of a pre-specified protocol or primary outcome."
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:d963fd53",
+    "paper_title": "80ca857d_432_2020_Article_3442",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 40 patients were randomly assigned 1:1 to nab-paclitaxel plus S-1 or nab-paclitaxel plus gemcitabine, with stratification by age, sex, CA19-9 level, and liver metastases.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although stratified 1:1 randomization was reported and observed baseline characteristics were broadly comparable, the method used to generate the sequence and conceal allocation was not described.",
+        "evidence_quote": "Randomization was performed in a 1:1 ratio with stratification according to age (\u2264 65 years vs > 65 years), gender (male vs female), baseline serum carbohydrate antigen 19\u20139 (CA19-9) level (normal vs elevated) and liver metastases (yes vs no)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The distinct oral versus intravenous regimens imply an open-label trial, and treatment discontinuation at investigator or patient discretion occurred, although frequencies were balanced and all randomized participants were included in ITT analyses; effects of post-protocol therapies on survival outcomes remain possible.",
+        "evidence_quote": "All randomly assigned patients were included in the intentto-treat (ITT) analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary response data were unavailable for 2 of 20 participants in each arm and loss to follow-up affected 1 versus 2 participants; ITT response results retained all randomized patients and survival observations were censored, but the small sample makes bias from missingness difficult to exclude.",
+        "evidence_quote": "In the evaluable population, the ORR was 38.9% (7 of 18 patients) in the nab-P/S arm and 27.8% (5 of 18 patients) in the nab-P/G arm."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Tumor response was measured consistently using RECIST 1.1 and scheduled imaging, but assessments were conducted by investigators without reported blinding or independent central review, so knowledge of treatment could have influenced the partly judgment-based primary outcome.",
+        "evidence_quote": "Computed tomography or magnetic resonance imaging was performed at baseline and every 6 weeks for the assessment of tumor response, which was conducted independently by investigators according to RECIST version 1.1."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The registered trial planned 110 participants but was stopped after the first 40 based on an unplanned or insufficiently described preliminary assessment of the primary outcome, creating substantial potential for data-dependent selection and reporting; no prespecified interim stopping rule or accessible analysis plan is reported.",
+        "evidence_quote": "A total of 110 patients were planned for enrollment, but the trial was prematurely closed because no better ORR was observed with nab-P/S among the first 40 patients assigned between 08/2018 and 06/2019."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by premature outcome-dependent stopping after 40 of 110 planned participants without a reported prespecified interim rule, raising substantial concern about selection of the reported result. Additional concerns arise from unreported sequence concealment, likely open-label care and investigator-assessed response, and limited missing outcome data."
+  },
+  {
+    "paper_id": "manual:1ea8db35",
+    "paper_title": "f3e9469a_carrato-et-al-2022-sequential-nab-paclitaxel-gemcitabine-followed-by-modified-folfox-for-first-line-metastatic",
+    "design_classification": "randomized",
+    "design_rationale": "The study is explicitly described as a prospective randomized phase II trial, with 157 patients randomized 1:1 to the two treatment regimens.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although patients were randomized 1:1, the abstract does not describe sequence generation, allocation concealment, or baseline balance, so the adequacy of the randomization process cannot be fully assessed.",
+        "evidence_quote": "Patients were allocated 1:1 to nab-paclitaxel (125 mg/m2) plus gemcitabine (1000 mg/m2) ... followed by modified FOLFOX-6 ... or nab-paclitaxel (125 mg/m2) plus gemcitabine (1000 mg/m2)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label and the abstract provides no information on intervention deviations, adherence, crossover, or whether all randomized participants were analyzed according to assignment, although the primary endpoint is stated to concern randomized patients.",
+        "evidence_quote": "The primary endpoint was the 12-month overall survival rate (OS) in randomised patients."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The abstract reports survival results after randomizing 157 patients but does not state the completeness of follow-up, censoring patterns, or whether any randomized patients lacked outcome data.",
+        "evidence_quote": "Between July 27, 2017, and April 16, 2019, 182 patients were screened and 157 randomised: 78 to nab-P/GemmFOLFOX and 79 to nab-P/Gem."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Overall survival is an objective outcome measured consistently across groups and is unlikely to be influenced by the trial's open-label design.",
+        "evidence_quote": "The primary endpoint was the 12-month overall survival rate (OS) in randomised patients."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and identifies its primary endpoint, but the abstract does not provide enough information to compare the reported analyses with a prespecified protocol or statistical analysis plan and reports several survival time points and effect measures.",
+        "evidence_quote": "The primary endpoint was the 12-month overall survival rate (OS) in randomised patients. EudraCT number 2014-005350-19; ClinicalTrial.gov identifier NCT02504333."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns because sequence generation and allocation concealment, adherence and analysis details, and completeness of survival follow-up are not reported in the abstract. Overall survival itself is objective, and prospective registration reduces\u2014but does not eliminate\u2014concern about selective reporting."
+  },
+  {
+    "paper_id": "manual:6ff29349",
+    "paper_title": "7f3150c7_j.ejca.2020.05.018",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports central 1:1 randomization using a minimization technique stratified by center, performance status, and number of metastatic sites.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Centralized minimization with prespecified stratification factors supports an adequate process, but the report does not state whether minimization included a random component or explicitly describe allocation concealment, and some prognostic imbalances were present.",
+        "evidence_quote": "Randomization (1:1) was centralised and used a minimization technique with the following stratification criteria: center, PS 0 versus 1 versus 2, and one versus more than one metastatic site."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The primary analysis excluded randomized participants who received no treatment and the prominent per-protocol analysis further excluded those with major deviations or less than seven weeks of treatment; because early deterioration and death were substantial and imbalanced, these post-randomization exclusions could materially bias the estimated intervention effect.",
+        "evidence_quote": "Primary efficacy analyses were carried out on the predefined modified intention-to-treat (mITT) (randomised patients receiving at least one dose of treatment) and PP populations (defined as mITT patients with no major protocol deviation and with at least 7 weeks of treatments)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Five of 127 randomized participants were excluded from the mITT efficacy analysis for not receiving treatment, and the report does not present evidence that excluding their outcomes could not bias the results, although follow-up among analyzed participants appears mature.",
+        "evidence_quote": "Safety data was collected for all patients who received at least one dose of study treatments, and analysed on real treatment received (n Z 122)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "PFS was assessed at the same scheduled intervals using RECIST-based CT or MRI, but this open-label trial relied on investigator-determined progression without reported blinded independent review, allowing knowledge of assignment to influence a partly judgment-based outcome.",
+        "evidence_quote": "Tumour assessment was performed every 2 months by CT scan (or MRI)... Tumour responses were defined using RECIST (version 1.1) and determined by investigators."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The study was registered and states that mITT and per-protocol analyses were preplanned, but no protocol or statistical analysis plan is provided to verify all analysis decisions, and multiple populations and PFS summaries create some scope for selective emphasis.",
+        "evidence_quote": "Analyses were carried out in preplanned modified intention-to-treat (mITT) and per-protocol (PP) populations."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the modified intention-to-treat and especially per-protocol analyses that excluded participants after randomization based on treatment receipt, protocol adherence, and survival on treatment for at least seven weeks. Additional concerns arise from incompletely described allocation concealment/randomized minimization, exclusion of five randomized participants, unblinded investigator-assessed PFS, and unverifiable selective-reporting safeguards."
+  },
+  {
+    "paper_id": "manual:4b7921d9",
+    "paper_title": "08eda090_nihms-2040339",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, parallel-group phase 3 trial using third-party block randomization and a centralized interactive voice/web response system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used third-party block randomization with centralized assignment through an interactive response system, and reported baseline characteristics showed no important imbalance suggesting a randomization failure.",
+        "evidence_quote": "The randomisation scheme was prepared using block randomisation via a third party, and randomisation was performed by a third party by means of an integrated interactive voice response or web response system."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although treatment was open-label, dose modification and discontinuation were expected aspects of chemotherapy management, efficacy was analyzed by intention to treat, and no evidence indicates that unbalanced deviations arising from trial context materially affected overall survival.",
+        "evidence_quote": "Efficacy was assessed in all randomly assigned patients according to the intention-to-treat principle."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary outcome was death from any cause, 544 deaths were observed among 770 randomized participants, all randomized patients were included, and those not known to have died were handled using standard survival censoring at the last known date alive.",
+        "evidence_quote": "For the overall survival analysis, patients without a recorded date of death were censored according to the last recorded date alive."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, overall survival from randomization to death from any cause, is objective and was measured equivalently between groups, making bias from the open-label design unlikely.",
+        "evidence_quote": "The primary outcome was overall survival for NALIRIFOX versus nab-paclitaxel and gemcitabine, defined as the number of months from randomisation to the date of death owing to any cause."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary endpoint and event-driven analysis were prespecified, and multiplicity for interim and secondary analyses was controlled, with no evident selective reporting of the overall-survival result.",
+        "evidence_quote": "The trial was registered with ClinicalTrials.gov, NCT04083235 and EudraCT, 2018\u2013003585-14."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias for the primary outcome of overall survival is low. Centralized randomization, intention-to-treat analysis, near-complete and objective survival ascertainment, and prespecified registered analyses minimize bias; the open-label design is unlikely to influence death ascertainment."
+  },
+  {
+    "paper_id": "manual:dc2081b1",
+    "paper_title": "bc0c571b_S2468-1253%2817%2930046-8",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:2 by a central electronic system using a minimisation procedure with an 80% random component, stratified by centre and ECOG performance status.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation used a centrally implemented electronic minimisation procedure with an 80% random component and stratification, so the sequence was randomized and concealed until baseline data were entered; observed baseline imbalances are plausible in this small 1:2 trial.",
+        "evidence_quote": "An electronic case-report form (CRF) random assignment was done centrally (at GERCOR) using a minimisation technique with an 80% weighting, stratified by centre and ECOG status."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open label and the efficacy analysis excluded an unassessed randomized participant rather than using a full intention-to-treat analysis, although protocol-defined dose modifications were similar in nature across groups and only one participant was excluded.",
+        "evidence_quote": "Because of the diferent nature of the interventions in each group, the study was open label."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data were available for 113 of 114 randomized participants, with only one participant lacking the month-4 scan and no participants lost to follow-up, making material bias from missingness unlikely.",
+        "evidence_quote": "One patient assigned to simplified leucovorin and fluorouracil plus nab-paclitaxel was excluded from the modified intention-to-treat and primary endpoint analysi because they did not have an assessment (CT scan) at 4 months. No patient was lost to follow-up during the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Progression-free survival was assessed using standard RECIST imaging on the same schedule in both groups, but this open-label trial relied on local investigator assessment without blinded central review, allowing knowledge of treatment to influence progression determinations.",
+        "evidence_quote": "We assessed tumour response using chest-abdominal CT scan (or MRI) according to RECIST version 1.1 every 8 weeks (ie, every two cycles). Central review of CT scans (or MRI) was not planned in the protocol."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary endpoint, analysis population, time point, statistical threshold, and interim design were prespecified in a published protocol and trial registration, and the reported primary analysis matches that plan.",
+        "evidence_quote": "The protocol-specified primary analysis was done on the modified ITT population, which consisted of all randomised patients who had a tumour assessment at 4 months, regardless of their eligibility and received treatments."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by the open-label design, use of modified rather than full intention-to-treat analysis, and unblinded local assessment of progression without central review. Randomization was centrally implemented, missing outcome data were minimal, and the primary analysis was prespecified."
+  },
+  {
+    "paper_id": "manual:def3b0ab",
+    "paper_title": "caf6ff6e_S2468-1253%2818%2930196-1",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:1 using a computer-generated permuted-block randomization sequence stratified by baseline CA19-9 concentration.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated with permuted blocks and stratification, was held by an internal research team, and was concealed from the attending physician; observed baseline imbalances were acknowledged and are reasonably compatible with chance in this small trial.",
+        "evidence_quote": "Eligible patients were randomly assigned (1:1) to each treatment group by a permuted block randomisation (block size of four) list that had been previously computergenerated by our institution clinical trial ofice and was conserved by the internal clinical research assistant team... The attending physician did not have access to the randomisation list."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants and investigators were unmasked, all randomized patients received their assigned regimen, treatment exposure was reported, and the primary analysis used the intention-to-treat population, with no reported deviations likely to bias the effect estimate.",
+        "evidence_quote": "Neither patients nor investigators were masked to treatment allocation... All patients received the assigned treatment... Primary analyses were done in the intention-to-treat population, which included all randomly assigned patients."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary 6-month progression-free outcome was reported for all 83 randomized participants, all patients ultimately had a progression-free-survival event, and only one participant was lost after progression, so missingness is unlikely to bias this outcome.",
+        "evidence_quote": "At 6 months, 31 (74%, 95% CI 58\u201386) of 42 patients in the PAXG group were alive and free from disease progression compared with 19 (46%, 31\u201363) of 41 patients in the nab-paclitaxel plus gemcitabine group. At database lock... all patients had had a progression-free survival event."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Progression was measured using prespecified RECIST 1.1 criteria on a common imaging schedule, and radiological response was assessed by a radiologist masked to treatment allocation, making differential outcome assessment unlikely.",
+        "evidence_quote": "RECIST (version 1.1) response was assessed by a radiologist, masked to treatment group, every 8 weeks until disease progression or in the case of any symptom suggestive of disease progression."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the primary endpoint and analysis population were prespecified, but the supplied report does not establish a dated analysis plan detailed enough to exclude selective choice among analyses, and it also reports exploratory and post-hoc analyses.",
+        "evidence_quote": "The primary endpoint of the study was the proportion of patients progression-free at 6 months from randomisation... This trial is registered with ClinicalTrials.gov, number NCT01730222... In a post-hoc analysis, patients obtaining a CA19-9 reduction of 50% or more survived significantly longer compared with those without response."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by incomplete information about whether the reported results were selected from a fully prespecified analysis plan. Randomization and concealment were adequate, the primary outcome was complete and analyzed by intention to treat, and progression assessment was blinded and standardized."
+  }
+]

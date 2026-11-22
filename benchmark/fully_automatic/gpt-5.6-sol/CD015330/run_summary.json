@@ -1,0 +1,31 @@
+{
+ "review": "CD015330",
+ "model": "openai/gpt-5.6-sol",
+ "run_id": "pHOKcKs7gmt5RZt2R_wFCA",
+ "status": "completed",
+ "error": null,
+ "start": "2026-11-20 23:36:59",
+ "wall_clock_seconds": 8004,
+ "openrouter_cost_usd": 28.6408,
+ "papers_found": 156,
+ "papers_missing_fulltext": 14,
+ "gates_seconds": {
+  "paper_selection": 601,
+  "fulltext": 6524,
+  "review": 6644
+ },
+ "pooled": {
+  "k": 4,
+  "N": 2123,
+  "effect": -0.6331046204574716,
+  "ci": [
+   -2.3501033116988195,
+   1.0838940707838765
+  ],
+  "p": 0.46986876070835815,
+  "I2": 98.64,
+  "measure": "MD",
+  "n_groups": 1
+ },
+ "prompt": "What is the effect of combined dietary and physical activity interventions (school-based, community-based or family-based programmes with both a diet and a physical activity component), compared with a control condition (no intervention, usual curriculum or usual care), on body mass index (BMI) in adolescents aged about 12 to 18 years, measured at short-term follow-up?  Effect measure: pool as a mean difference (MD) in BMI (kg/m²) using a random-effects model. MD < 0 means a lower BMI with the intervention (favours the intervention). Orient every estimate as intervention minus control.  Outcome: BMI in kg/m² (not z-scores or percentiles) at the first assessment after the intervention ended, up to 12 months after the intervention finished. - Prefer the between-group difference the trial reports (adjusted or unadjusted, with a standard error, confidence interval or p-value). Take the SE from the confidence interval (width ÷ 3.92) or from the p-value and sample size, and state how you derived it. - If no between-group difference is reported, use the end-of-follow-up mean, SD and number for each group, or the mean change from baseline and its SD for each group, and compute the difference. - If the number analysed per arm is not stated for BMI, use the number randomised or enrolled per arm and say so. Do not leave group sizes blank. - If a paper reports only model-predicted or adjusted means per arm without a direct difference, subtract them (intervention minus control); if no SE can be derived, leave the trial out and say so. - Accept trials whose age range overlaps 12 to 18 years (for example 10 to 18, or school grades 7 to 12) when most participants are adolescents. - If a trial reports several short-term time points, use the first after the end of the intervention. Do not use medium- or long-term follow-up (beyond 12 months after the intervention). - If a trial has several intervention arms, combine those with both diet and activity components into one group, or use the main intervention arm, and use the control group once. - Include randomised and non-randomised controlled studies with a concurrent control group. Exclude trials with no control group, and trials of diet-only or activity-only interventions.  Do not pool BMI z-scores, BMI percentiles, waist circumference, body fat, dietary intake, physical activity levels or any other outcome."
+}

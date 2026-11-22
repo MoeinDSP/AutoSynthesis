@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of antioxidant therapy, compared with placebo, usual care, or no treatment, on cardiovascular death in adults with chronic kidney disease (CKD stages 3 to 5, dialysis, or kidney transplant)?",
+  "treatment_label": "Antioxidant therapy",
+  "control_label": "Placebo, usual care, or no treatment",
+  "outcome_description": "Cardiovascular death (number of participants who died from cardiovascular causes over total participants randomised or analysed in each arm over the total follow-up period)",
+  "positive_direction": "A lower risk of cardiovascular death in the antioxidant group compared to the control group (risk ratio < 1, favoring antioxidant therapy)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "antioxidant chronic kidney disease cardiovascular mortality trial",
+    "vitamin E N-acetylcysteine bardoxolone dialysis CKD cardiovascular death randomized",
+    "antioxidant therapy chronic kidney disease cardiovascular death controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials evaluating antioxidant therapy (including vitamin E, N-acetylcysteine, selenium, bardoxolone methyl, pentoxifylline, or related agents) versus placebo, usual care, or no treatment",
+    "Adult participants (aged 18+) with chronic kidney disease (CKD stages 3 to 5, receiving maintenance dialysis, or kidney transplant recipients), including CKD subgroups of larger trials",
+    "Reporting the number of cardiovascular deaths and total participants in each trial arm over follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial (e.g., systematic reviews, meta-analyses, observational studies, editorials, animal studies, or protocols)",
+    "No comparison between antioxidant therapy and an inactive control (e.g., head-to-head trials comparing one antioxidant against another without a placebo/usual care group)",
+    "No extractable quantitative data on cardiovascular deaths for each treatment arm, or reporting only composite endpoints/all-cause deaths without distinct cardiovascular death counts",
+    "Studies conducted in populations without chronic kidney disease or completely unrelated to the research topic"
+  ],
+  "moderators_to_extract": [
+    "CKD stage or modality (non-dialysis CKD stages 3-5 vs. dialysis vs. kidney transplant)",
+    "Antioxidant agent or class (e.g., vitamin E, N-acetylcysteine, bardoxolone methyl, pentoxifylline, multi-antioxidant)",
+    "Control condition type (placebo vs. usual care or no treatment)",
+    "Duration of follow-up (months or years)",
+    "Baseline cardiovascular disease history or risk level"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk ratio (RR) pooled under a random-effects model. Only explicit cardiovascular death counts and denominators are extracted; composite endpoints, non-fatal events, and unverified all-cause mortality are excluded. Multi-arm antioxidant dosing groups are combined into a single intervention group.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cardiovascular death"
+}

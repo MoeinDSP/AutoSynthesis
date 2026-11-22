@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of cranberry products compared with placebo or non-active control on the occurrence of symptomatic, culture-verified urinary tract infection in women with recurrent UTIs?",
+  "treatment_label": "Cranberry products",
+  "control_label": "Placebo or non-active control",
+  "outcome_description": "Number of participants with at least one symptomatic, culture-verified UTI during study follow-up out of the total number of participants analyzed in each arm",
+  "positive_direction": "A positive effect size (or RR < 1) indicates a lower risk of symptomatic, culture-verified UTI, favoring the cranberry group over the control group",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cranberry recurrent urinary tract infection randomized trial",
+    "cranberry juice capsules placebo UTI women trial",
+    "cranberry prevention recurrent cystitis controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials comparing any cranberry product (juice, capsules, tablets, or powder) with placebo, no treatment, or non-active control",
+    "Female participants with a history of recurrent urinary tract infections",
+    "Reporting quantitative occurrence of symptomatic, culture-verified UTI (number of participants with at least one episode) during study follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial (e.g. systematic reviews, meta-analyses, observational studies, editorials, letters, or animal/in vitro studies)",
+    "No comparison between cranberry and a placebo, no-treatment, or non-active control arm (e.g. active-comparator trials like cranberry versus antibiotics or probiotics without an inactive control)",
+    "Studies conducted in ineligible populations (e.g. children, pregnant women, institutionalized elderly, or individuals with neurogenic bladder or urinary catheters)",
+    "Lack of quantitative data on the number of participants experiencing symptomatic, culture-verified UTI (or studies reporting only asymptomatic bacteriuria, symptoms without culture, laboratory bacterial counts, or non-clinical outcomes)"
+  ],
+  "moderators_to_extract": [
+    "Cranberry formulation (juice vs capsules/tablets/powder)",
+    "Daily dose of proanthocyanidins (PAC) or active cranberry extract",
+    "Follow-up duration (in months)",
+    "Menopausal status (premenopausal, postmenopausal, or mixed)",
+    "Compliance/adherence rates"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pooled as a risk ratio (RR) with a random-effects model. Multi-arm trials with multiple cranberry arms are combined into one cranberry group. Intention-to-treat data preferred over per-protocol data. Longest follow-up on treatment used when multiple timepoints are reported.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "symptomatic culture-verified urinary tract infection"
+}

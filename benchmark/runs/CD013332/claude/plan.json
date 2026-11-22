@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults undergoing cardiac surgery via sternotomy, does an implantable gentamicin-collagen sponge placed in the sternal wound at closure, compared with no topical antimicrobial, reduce the incidence of superficial surgical site infection?",
+  "treatment_label": "Gentamicin-collagen sponge (gentamicin-impregnated collagen implant) in the sternotomy wound",
+  "control_label": "No topical antimicrobial (standard wound closure / placebo / usual care)",
+  "outcome_description": "Incidence of SUPERFICIAL surgical site infection of the sternotomy wound (events / total randomized per arm), as defined by CDC criteria or the trial's own definition of superficial sternal wound infection. Deep sternal wound infection/mediastinitis and combined total SSI figures are not the target of this analysis.",
+  "positive_direction": "A positive Hedges g (or RR &lt; 1 on the risk-ratio scale) means the gentamicin-collagen sponge group had FEWER superficial surgical site infections than the no-topical-antimicrobial control group \u2014 i.e. the sponge reduced superficial SSI.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "gentamicin collagen sponge sternotomy sternal wound infection randomized trial",
+    "gentamicin-impregnated collagen implant cardiac surgery surgical site infection controlled trial",
+    "topical gentamicin sponge coronary artery bypass sternal wound infection outcome"
+  ],
+  "inclusion_criteria": [
+    "Adults undergoing cardiac surgery via median sternotomy (any procedure type, e.g. CABG, valve, combined)",
+    "Study evaluates a locally implanted gentamicin-collagen sponge/implant in the sternal wound compared with a group not receiving a topical antimicrobial",
+    "Reports quantitative data on surgical site / sternal wound infection, including superficial infection counts or data from which they can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, theoretical or protocol-only paper)",
+    "No comparison group \u2014 single-arm or purely descriptive cohort with no control condition receiving no topical antimicrobial",
+    "No quantitative outcome data from which an effect size can be computed (no event counts/proportions, means+SDs, t/F values, or odds/risk ratios)",
+    "Completely unrelated to the topic (non-cardiac/non-sternotomy surgery, non-gentamicin local agent only, systemic antibiotic prophylaxis or antiseptic wash comparisons only, animal or in vitro studies)"
+  ],
+  "moderators_to_extract": [
+    "Study design (RCT vs observational/quasi-experimental)",
+    "Surgery type (CABG only vs mixed/valve/combined)",
+    "Number of sponges and gentamicin dose (e.g. 130 mg vs 260 mg)",
+    "Diabetes prevalence / proportion of high-risk patients",
+    "Definition and ascertainment of SSI (CDC criteria vs trial-specific) and follow-up duration",
+    "Sample size category and risk-of-bias / blinding status"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Dichotomous outcome: pool as Risk Ratio using superficial SSI events and total randomized per arm, random-effects (DerSimonian-Laird or REML) with continuity correction for zero-event arms as needed; RR &lt; 1 favors the gentamicin-collagen sponge. Deep SSI is analyzed separately in the same review.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "superficial surgical site infection"
+}

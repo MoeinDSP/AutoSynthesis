@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of single-incision mid-urethral slings (SIS; any commercial device except TVT-Secur) compared with transobturator mid-urethral slings (TOT/TVT-O) on subjective cure or improvement of stress urinary incontinence at 12 months in women undergoing surgery for stress or stress-predominant urinary incontinence?",
+  "treatment_label": "Single-incision mid-urethral sling (SIS)",
+  "control_label": "Transobturator mid-urethral sling (TOT/TVT-O)",
+  "outcome_description": "Number of women reporting patient-reported subjective cure or improvement of stress urinary incontinence (events) out of total analyzed in each arm at 12 months (or closest earlier assessment of at least 6 months if 12 months unavailable). Objective cure, QoL scores, adverse events, pain, and other endpoints are excluded.",
+  "positive_direction": "Higher subjective cure or improvement rate with single-incision mid-urethral sling compared to transobturator sling (RR > 1 favors SIS)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "single incision sling transobturator randomized trial stress urinary incontinence",
+    "mini-sling TOT TVT-O comparison subjective cure outcome",
+    "Ajust MiniArc Ophira Altis Contasure transobturator controlled trial incontinence"
+  ],
+  "inclusion_criteria": [
+    "Controlled clinical trials or comparative studies of women undergoing surgical treatment for stress or stress-predominant urinary incontinence",
+    "Comparison between a single-incision mid-urethral sling (any commercial device except TVT-Secur alone, e.g. Ajust, MiniArc, Ophira, Altis, Solyx, Needleless/Contasure) and a transobturator mid-urethral sling (inside-out TVT-O or outside-in TOT)",
+    "Reporting quantitative patient-reported subjective cure or improvement of stress urinary incontinence at approximately 12 months follow-up (or closest assessment between 6 and 12 months)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, narrative reviews, and theoretical papers are excluded)",
+    "No direct comparison between an eligible single-incision sling and a transobturator sling (e.g., studies including only TVT-Secur, single-arm studies, or comparisons solely against retropubic slings, colposuspension, or bulking agents)",
+    "No quantitative outcome data that can produce an effect size (event counts/proportions for subjective cure or improvement at 6\u201312 months)",
+    "Completely unrelated to surgical management of female stress urinary incontinence"
+  ],
+  "moderators_to_extract": [
+    "Specific SIS commercial device (e.g. MiniArc, Ajust, Ophira, Altis, Needleless)",
+    "Transobturator surgical approach (inside-out TVT-O vs outside-in TOT)",
+    "Definition criteria for subjective cure or improvement (e.g. PGI-I, questionnaire, patient satisfaction)",
+    "Timing of assessment (exactly 12 months vs 6-month assessment)",
+    "Study design (multicenter vs single-center RCT)"
+  ],
+  "search_start_year": 2006,
+  "effect_size_note": "Risk ratio (RR) of subjective cure or improvement at 12 months (SIS vs TOT). RR > 1 indicates a higher proportion of women cured or improved with SIS. Multi-arm trials with multiple SIS groups should have the shared TOT arm split equally. TVT-Secur arms are excluded.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "subjective cure or improvement"
+}

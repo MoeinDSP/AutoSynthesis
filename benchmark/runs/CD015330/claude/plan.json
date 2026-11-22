@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of combined dietary and physical activity interventions (school-, community- or family-based programmes containing both a diet and a physical activity component), compared with no intervention, usual curriculum or usual care, on body mass index (BMI, kg/m\u00b2) in adolescents aged approximately 12-18 years at short-term follow-up (first assessment after the intervention ended, up to 12 months post-intervention)?",
+  "treatment_label": "Combined diet + physical activity intervention (school-, community- or family-based)",
+  "control_label": "Control condition (no intervention, usual curriculum or usual care)",
+  "outcome_description": "Body mass index expressed in kg/m\u00b2 (NOT BMI z-score, BMI standard deviation score or BMI percentile), measured at the first assessment after the end of the intervention and no more than 12 months after the intervention finished. Effects are oriented as intervention minus control and pooled as a mean difference (MD) in kg/m\u00b2 with a random-effects model. Preference order for extraction: (1) the trial's reported between-group difference (adjusted or unadjusted) with its SE, 95% CI (SE = CI width / 3.92) or p-value plus sample size; (2) end-of-follow-up mean, SD and n per arm; (3) mean change from baseline and its SD per arm. If the n analysed for BMI is not reported, the number randomised/enrolled per arm is used and noted. Model-predicted or adjusted arm means are subtracted (intervention minus control) when no direct difference is given; trials from which no SE can be derived are excluded and listed. Multi-arm trials: arms with both diet and activity components are combined (or the main combined arm used) and the control group is used once. Waist circumference, body fat, dietary intake, physical activity and all other outcomes are not pooled.",
+  "positive_direction": "A positive pooled effect means the intervention group had a LOWER BMI (kg/m\u00b2) than the control group, i.e. the combined diet-plus-physical-activity programme reduced BMI and the result favours the intervention (equivalently, the raw intervention-minus-control mean difference in BMI is negative).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "school-based diet and physical activity intervention adolescents BMI randomized controlled trial",
+    "combined nutrition and exercise obesity prevention programme adolescents body mass index controlled trial",
+    "family-based or community-based lifestyle intervention adolescents BMI outcome trial"
+  ],
+  "inclusion_criteria": [
+    "Study evaluates an intervention that includes BOTH a dietary/nutrition component and a physical activity/exercise component, delivered in a school, community or family setting",
+    "Participants are adolescents whose age range overlaps roughly 12-18 years (e.g. 10-18 years, school grades 7-12) with most participants adolescents",
+    "Includes a concurrent control or comparison group (randomised or non-randomised controlled design) and reports quantitative BMI data in kg/m\u00b2 (between-group difference, or means/SDs/change scores per arm) at a post-intervention assessment"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol or purely theoretical/modelling paper)",
+    "No comparison between an intervention and a concurrent control condition (single-arm, pre-post only), or the intervention is diet-only or physical-activity-only",
+    "No quantitative outcome data from which an effect size can be computed (no means+SDs, between-group difference with SE/CI/p-value, t/F statistics or equivalent) for BMI in kg/m\u00b2; BMI reported only as z-score or percentile",
+    "Completely unrelated to adolescent diet/physical activity interventions and BMI (e.g. adults only, young children only, pharmacological or surgical obesity treatment, or BMI measured only beyond 12 months after the intervention ended)"
+  ],
+  "moderators_to_extract": [
+    "Study design (randomised vs non-randomised controlled; individual vs cluster randomisation)",
+    "Intervention setting (school, community, family/home, multi-setting)",
+    "Intervention duration (months) and intensity",
+    "Mean age and age range of participants; proportion female",
+    "Baseline weight status of sample (general population vs overweight/obese-selected)",
+    "Country / region and sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a mean difference (MD) in BMI kg/m\u00b2 with a random-effects (DerSimonian-Laird / REML) model, oriented intervention minus control so that a negative raw MD indicates lower BMI with the intervention. Standard errors derived from reported 95% CIs (SE = CI width / 3.92), from p-values with group sample sizes, or from arm-level means, SDs and ns; the derivation is recorded per trial. Trials for which no SE can be derived are excluded and listed. Heterogeneity assessed with tau\u00b2, I\u00b2 and prediction intervals; small-study effects examined with funnel plots and Egger's test if \u226510 trials.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "BMI (kg/m\u00b2)"
+}

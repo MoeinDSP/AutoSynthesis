@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of estrogen-alone therapy (oral, transdermal, or vaginal estradiol or conjugated estrogens, at any dose), compared with placebo or no treatment, on overall sexual function in perimenopausal and postmenopausal women?",
+  "treatment_label": "Estrogen alone (oral, transdermal or vaginal estradiol / conjugated estrogens, any dose)",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "A single composite or overall sexual function score per trial at the end of treatment, extracted as mean, SD and n per arm. Preference order: validated overall sexual function instruments (e.g. Female Sexual Function Index total/full score, McCoy Female Sexuality Questionnaire total); otherwise the sexual domain or sexual item of a broader menopause/quality-of-life instrument (e.g. MENQoL sexual domain, Women's Health Questionnaire sexual functioning subscale). All scales oriented so that a higher value indicates better sexual function; bother/symptom-severity scales (e.g. MENQoL sexual domain) are sign-reversed before analysis. End-of-treatment values preferred; mean change from baseline with SD of change used for both arms if only change data are reported (recorded as change scores). SE/SEM converted to SD = SE x sqrt(n). If multiple within-treatment time points are reported, the last time point at or before end of treatment is used. In multi-arm trials, only estrogen-alone arms (doses combined: pooled means and SDs, summed n) and the placebo arm are included; estrogen+progestogen or estrogen+testosterone arms are ignored.",
+  "positive_direction": "A positive Hedges' g means better sexual function with estrogen-alone therapy than with placebo or no treatment (favours estrogen).",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "estrogen therapy sexual function postmenopausal women randomized placebo-controlled trial",
+    "estradiol conjugated estrogens Female Sexual Function Index trial menopause",
+    "hormone therapy libido sexual satisfaction perimenopausal women controlled trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised trial comparing estrogen alone (any route, any dose) with placebo or no treatment in perimenopausal or postmenopausal women",
+    "Reports some quantitative measure of sexual function (overall score, composite score, or sexual domain/item of a broader menopause or quality-of-life instrument) during or at the end of the treatment period",
+    "Reports data sufficient to compute an effect size (means and SDs/SEs per arm, or statistics convertible to them)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, theoretical/modelling paper, protocol or conference abstract without data)",
+    "No comparison between an estrogen-alone treatment arm and a placebo or no-treatment control arm (e.g. control receives another hormone, progestogen, testosterone, DHEA, tibolone or a vaginal moisturizer; single-arm or head-to-head hormone comparisons only)",
+    "No quantitative outcome data from which an effect size can be computed (no means+SDs, SEs, t/F values, proportions or odds ratios)",
+    "Completely unrelated to the research topic (e.g. premenopausal women only, women treated for cancer, or only vasomotor, vaginal atrophy, bone, endometrial or adverse-effect outcomes, or sexual function measured only after treatment cessation)"
+  ],
+  "moderators_to_extract": [
+    "Route of estrogen administration (oral, transdermal, vaginal)",
+    "Estrogen type and dose (estradiol vs conjugated estrogens; low vs standard dose)",
+    "Treatment duration (weeks/months)",
+    "Menopausal status of sample (perimenopausal, postmenopausal, mixed) and mean age",
+    "Sexual function instrument used (FSFI total, McCoy MFSQ, MENQoL sexual domain, WHQ, other)",
+    "Outcome data type (end-of-treatment value vs change from baseline) and sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool with a random-effects model (DerSimonian-Laird or REML) using Hedges' g standardised mean difference computed from end-of-treatment means, SDs and n per arm. Convert SE/SEM to SD (SD = SE x sqrt(n)); reverse the sign of bother/severity-oriented scales so higher = better sexual function; combine multiple estrogen dose arms into one group before computing the effect size. One sexual function measure per trial.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall sexual function"
+}

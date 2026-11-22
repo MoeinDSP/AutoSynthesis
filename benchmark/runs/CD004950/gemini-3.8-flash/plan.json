@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of breastfeeding or breast milk compared with no intervention on crying duration in seconds in neonates undergoing a painful procedure?",
+  "treatment_label": "Breastfeeding or breast milk",
+  "control_label": "No intervention / routine care",
+  "outcome_description": "Duration of crying in seconds during and immediately after a painful procedure",
+  "positive_direction": "Shorter duration of crying, indicating greater analgesia/comfort favoring breastfeeding over no intervention",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "breastfeeding neonatal procedural pain crying randomized controlled trial",
+    "breast milk heel lance venipuncture crying duration neonates trial",
+    "breastfeeding pain relief crying time newborn infant controlled experiment"
+  ],
+  "inclusion_criteria": [
+    "Randomised or quasi-randomised controlled trials evaluating term or preterm neonates (<= 28 days of age) undergoing a painful procedure (e.g., heel lance, venipuncture, injection)",
+    "Evaluates direct breastfeeding or expressed breast milk administered during the painful procedure compared against a no-intervention or routine care control arm",
+    "Reports quantitative duration of crying during or immediately following the procedure"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, conference abstracts without full data, commentaries, editorials, or study protocols)",
+    "No comparison between breastfeeding (direct or expressed milk) and a no-intervention/routine care control group (e.g., active-comparator-only trials comparing breastfeeding to sucrose, glucose, or skin-to-skin alone)",
+    "No quantitative outcome data on duration of crying permitting calculation of mean and SD in seconds (e.g., reporting only composite pain scores, physiological parameters, or crying percentage)",
+    "Studies conducted in infants older than 28 days of age (non-neonatal populations) or completely unrelated topics"
+  ],
+  "moderators_to_extract": [
+    "Type of painful procedure (heel lance vs. venipuncture vs. injection)",
+    "Intervention delivery mode (direct breastfeeding vs. expressed breast milk)",
+    "Gestational age / infant maturity (term vs. preterm neonates)",
+    "Control condition specification (routine care vs. no analgesia/comfort measure)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as mean difference (MD) in seconds. Total crying time during and immediately after the procedure is prioritized over latency to first cry. Minutes converted to seconds (min * 60). Standard errors converted to SD (SE * sqrt(n)). Medians and ranges/IQRs converted to mean and SD using standard estimation methods. Exclude pain scales, physiological markers, and crying percentages.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "duration of crying"
+}

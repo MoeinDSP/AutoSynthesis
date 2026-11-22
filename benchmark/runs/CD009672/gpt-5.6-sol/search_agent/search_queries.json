@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of estrogen alone (oral, transdermal or vaginal estradiol or conjugated estrogens, at any dose), compared with placebo or no treatment, on sexual function in perimenopausal and postmenopausal women?\n\nEffect measure: pool as a standardised mean difference (SMD, Hedges' g) using a random-effects model. SMD > 0 means better sexual function with estrogen (favours estrogen).\n\nOutcome: a composite or overall sexual function score, extracted as the mean, SD and number of women per arm at the end of treatment.\n- Use one sexual function measure per trial. Prefer a validated overall sexual function score (for example the Female Sexual Function Index total or full score, the McCoy Female Sexuality Questionnaire total); if only a domain or sub-score of a broader quality-of-life scale is reported (for example the sexual item or domain of the Menopause-Specific Quality of Life questionnaire or the Women's Health Questionnaire), use that.\n- Direction: orient every scale so that a higher value means better sexual function. Scales on which a higher score means more bother or a worse symptom (for example the MENQoL sexual domain or symptom bother scores) must have their sign reversed (multiply the means by \u22121) before computing the SMD.\n- Use the end-of-treatment value; if only the change from baseline is reported (mean change and SD of change), use those for both arms and record that change scores were used. Do not mix an end value in one arm with a change score in the other.\n- If variability is reported as SE or SEM, convert to SD = SE \u00d7 \u221an for each arm. Check table footnotes for whether \"\u00b1\" is SD or SE.\n- If a trial reports several time points within the treatment period, use the last one at or before the end of treatment, or combine them only if the paper itself does.\n- Control: placebo or no treatment. Exclude trials whose control group receives another hormone, testosterone, DHEA, tibolone or a vaginal moisturizer.\n- Multi-arm trials: include the estrogen-alone arm and the placebo arm only; combine several estrogen doses into one group (pool means and SDs, sum participants). Ignore arms combining estrogen with progestogen or testosterone.\n- Include only randomised placebo-controlled trials in peri- or postmenopausal women. Exclude trials in premenopausal women or after cancer treatment.\n\nDo not pool vaginal atrophy symptoms, vasomotor symptoms, bone, endometrial or adverse-effect outcomes, or sexual function measured only at follow-up after stopping treatment.",
+  "planned_search_queries": [
+    "menopause estrogen estradiol sexual function randomized placebo trial",
+    "perimenopausal postmenopausal conjugated estrogen sexuality controlled trial",
+    "vaginal transdermal oral estrogen sexual function quantitative placebo"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "perimenopausal postmenopausal estrogen alone sexual function placebo randomized trial",
+    "menopause oral transdermal estradiol overall sexual function controlled trial",
+    "postmenopausal vaginal estradiol sexuality placebo trial",
+    "menopausal conjugated estrogens composite sexual function quantitative comparison",
+    "menopause estrogen FSFI McCoy MENQoL Women's Health Questionnaire trial"
+  ]
+}

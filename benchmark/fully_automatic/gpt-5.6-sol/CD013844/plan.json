@@ -1,0 +1,38 @@
+{
+  "research_question": "Among young people aged up to 25 years in education settings who already show early signs or symptoms of suicide risk (such as suicidal ideation or a history of self-harm), what is the effect of indicated interventions, compared with control conditions, on suicidal ideation measured immediately at the end of the intervention?",
+  "treatment_label": "Indicated interventions for young people with existing suicidal ideation, self-harm history, or other early suicide-risk symptoms in education settings",
+  "control_label": "Control conditions (including usual care, waitlist, no intervention, attention control, or another eligible non-indicated comparator)",
+  "outcome_description": "Suicidal ideation measured immediately postintervention, at the end of the intervention only. Exclude suicidal ideation measurements reported at short-term follow-up (1\u20133 months), medium-term follow-up (4\u201312 months), or the longest follow-up. Accept validated continuous ideation scales and quantitative dichotomous indicators of suicidal ideation. For multi-arm trials with multiple eligible indicated-intervention arms and one shared control, extract each eligible intervention-versus-control contrast as a separate row without merging or discarding intervention arms; preserve the shared-control linkage and account for dependence during synthesis (for example, with multilevel/robust methods or another appropriate shared-control adjustment). If a randomized study reports only the total sample size and gives no group-specific allocation, assume an even allocation across randomized groups unless otherwise stated, and explicitly flag this as an imputed 50/50 (or equal multi-group) allocation assumption.",
+  "positive_direction": "A positive effect means the indicated intervention produced a greater reduction in suicidal ideation at immediate postintervention than the control condition.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "suicidal ideation indicated intervention students controlled trial",
+    "self-harm suicide risk intervention school university experiment",
+    "youth suicidal ideation education setting intervention quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of young people up to age 25 in school, college, university, or other education settings who already show suicidal ideation, self-harm history, or comparable early signs or symptoms of suicide risk, and who receive an indicated intervention.",
+    "Studies including a control or comparator condition and reporting suicidal ideation immediately at the end of the intervention; mixed samples or settings may be included when eligible participant or education-setting data are separately extractable.",
+    "Studies reporting sufficient quantitative information for an intervention-versus-control effect size at immediate postintervention, regardless of publication status, intervention format, or specific suicidal-ideation instrument."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between an indicated-intervention condition and a control or comparator condition.",
+    "No quantitative immediate-postintervention suicidal-ideation outcome data capable of producing an effect size, such as means and standard deviations, t/F statistics, proportions, or odds ratios.",
+    "Completely unrelated to indicated suicide-risk interventions for symptomatic young people in education settings, including universal interventions delivered regardless of risk and selective interventions for at-risk but not yet symptomatic groups when no eligible indicated subgroup is separately extractable."
+  ],
+  "moderators_to_extract": [
+    "Education setting and educational level (e.g., secondary school, vocational setting, college/university)",
+    "Participant age, mean age, and age range",
+    "Eligibility/risk criterion (e.g., current suicidal ideation, prior self-harm, suicide attempt history)",
+    "Intervention type, delivery mode, intensity, and duration",
+    "Control-condition type",
+    "Study design, randomization status, and intervention-arm structure"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Use an effect-size orientation in which improvement favors the indicated intervention: because higher suicidal-ideation scores indicate worse outcomes, reverse the sign of continuous effects as needed so positive values represent a larger reduction in ideation with intervention. For multi-arm studies, retain every eligible indicated-intervention arm as a separate intervention-versus-shared-control row, record a common study/cluster identifier, and address the resulting non-independence in meta-analysis rather than merging arms or selecting one. Do not substitute later follow-up observations when immediate postintervention data are unavailable. For randomized trials lacking group-specific sample sizes, impute equal allocation across randomized groups unless contrary information is available and document the assumption for sensitivity analysis.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "suicidal ideation"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of bevacizumab biosimilars compared with the bevacizumab originator (reference product) on progression-free survival in adults with cancer?",
+  "treatment_label": "Bevacizumab biosimilar (e.g., ABP 215, BCD-021, PF-06439535, MYL-1402O, SB8, FKB238, CT-P16, HD204, etc.) plus standard chemotherapy backbone",
+  "control_label": "Reference/originator bevacizumab (Avastin) plus the same standard chemotherapy backbone",
+  "outcome_description": "Progression-free survival (PFS), defined as time from randomization to documented disease progression (typically by RECIST, investigator or independent review) or death from any cause. Effect sizes are to be taken directly from each trial's own time-to-event survival analysis as the reported hazard ratio with its 95% confidence interval, or as log(HR) with standard error \u2014 no approximation or reconstruction from medians, event counts, or Kaplan-Meier curves.",
+  "positive_direction": "A positive effect (HR below 1 after signing) means the bevacizumab biosimilar is associated with LONGER progression-free survival (lower hazard of progression or death) than the originator bevacizumab; a negative effect favors the originator. Values near zero / HR near 1 indicate equivalence between biosimilar and originator.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "bevacizumab biosimilar randomized trial progression-free survival",
+    "bevacizumab biosimilar versus reference Avastin efficacy equivalence trial non-small cell lung cancer",
+    "biosimilar bevacizumab comparative clinical trial metastatic colorectal cancer outcome hazard ratio"
+  ],
+  "inclusion_criteria": [
+    "Studies in adults with any cancer type that compare a bevacizumab biosimilar (or proposed/candidate biosimilar) with originator/reference bevacizumab",
+    "Reports any quantitative progression-free survival or related time-to-event efficacy outcome for both arms, with a hazard ratio and confidence interval or log(HR) with standard error available",
+    "Any comparative design (randomized controlled trial, open-label extension, prospective or retrospective comparative cohort, real-world comparative study), any language, any publication type including conference abstracts and trial registry reports"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, theoretical/modelling or purely methodological paper)",
+    "No comparison between a bevacizumab biosimilar treatment arm and an originator bevacizumab control arm (e.g., single-arm biosimilar studies, biosimilar vs. chemotherapy alone, or originator-only studies)",
+    "No quantitative outcome data from which a hazard ratio can be obtained directly (no reported HR with 95% CI or log[HR] with SE from the trial's own survival analysis; medians, event counts, or digitized curves alone are insufficient)",
+    "Completely unrelated to the research topic (different drug or biosimilar molecule, non-oncology indication such as ophthalmic intravitreal use, preclinical/in-vitro/pharmacokinetic-only or analytical similarity studies without clinical efficacy endpoints)"
+  ],
+  "moderators_to_extract": [
+    "Biosimilar product / manufacturer code",
+    "Cancer type and line of therapy (e.g., non-squamous NSCLC first-line, metastatic colorectal cancer)",
+    "Chemotherapy backbone and bevacizumab dose/schedule",
+    "Study design and blinding (double-blind RCT vs open-label vs observational)",
+    "PFS assessment method (independent central review vs investigator-assessed) and analysis population (ITT vs per-protocol)",
+    "Sample size category and median follow-up duration"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "Pool on the log hazard ratio scale using inverse-variance random-effects (REML) with Knapp-Hartung adjustment; extract log(HR) and SE directly from each trial's reported survival analysis (or derive SE from the reported 95% CI bounds of the HR only). Do not approximate HRs from medians, event proportions, or reconstructed Kaplan-Meier data. Because these are equivalence/similarity trials, interpret the pooled HR against the pre-specified equivalence margins commonly used by regulators (e.g., 95% CI contained within roughly 0.73-1.37 or 0.8-1.25) rather than only testing superiority against the null. Prefer the ITT independent-review PFS estimate when multiple are reported.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "progression-free survival"
+}

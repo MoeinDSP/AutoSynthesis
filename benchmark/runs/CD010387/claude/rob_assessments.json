@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:7710ab11",
+    "paper_title": "254efb11_01.jsm.0000171258.16941.13",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a \"Prospective, randomized, single-blinded clinical trial\" in which \"a second research assistant used a random number generator with block design to assign subjects to 1 of 4 treatment groups,\" i.e., explicit random allocation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was genuinely random and baseline demographic/clinical characteristics were balanced, but allocation concealment is never described (block randomization performed after baseline assessment by a research assistant, with no sealed envelopes or central allocation reported), and baseline knee function differed somewhat across groups (33\u201337).",
+        "evidence_quote": "\"a second research assistant used a random number generator with block design to assign subjects to 1 of 4 treatment groups\"; \"subjects in each treatment group were very similar with respect to age, height, weight, leg length difference, Q angle, affect side, and duration of symptoms\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants necessarily knew their assigned treatment (brace vs sleeve vs exercise) for self-reported pain/function outcomes, cross-overs occurred, and the authors explicitly used a non\u2013intention-to-treat analysis excluding withdrawals, which is not appropriate for estimating the effect of assignment.",
+        "evidence_quote": "\"Subjects who withdrew from the study were not followed (non\u2013intention-to-treat analysis).\"; \"Two subjects were crossed over to another treatment group before 3 months and considered to be withdrawals from the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 15% (23/152) of randomized subjects were lost and not followed, with no per-group breakdown of withdrawals or sensitivity analysis, though reasons given (job transfer, lack of interest) are plausibly unrelated to outcome.",
+        "evidence_quote": "\"Twentyone subjects withdrew from the study because of a job transfer or lack of interest... Therefore, a total of 129 subjects... were included in the final analysis\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although investigators were blinded, the primary outcomes (VAS pain and knee function) are entirely self-reported by unblinded participants who knew whether they received a brace, sleeve, or exercise only, and the knee function scale was an unvalidated modification of an existing scale.",
+        "evidence_quote": "\"The investigators were blinded to the treatment group of each subject.\"; \"for the purpose of this study, the scale was modified. A no pain response was added...\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol or analysis plan is referenced, no sample-size/power calculation is given, four outcome measures at four time points were analysed descriptively with confidence intervals only, and clustered knees were treated as independent units \u2014 leaving scope for selective reporting and analytic flexibility.",
+        "evidence_quote": "\"The difference in change between each treatment group at each time period was compared using 95% confidence intervals.\"; \"If a subject had bilateral symptoms, each knee was individually included in the analysis.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the explicitly stated non\u2013intention-to-treat analysis with unfollowed withdrawals and cross-overs (D2) and by entirely self-reported outcomes in participants who could not be blinded to brace/sleeve/exercise allocation, using a modified unvalidated knee function scale (D4). Allocation concealment, missing data handling, and the absence of a pre-specified analysis plan add further concerns."
+  },
+  {
+    "paper_id": "manual:3a7a7040",
+    "paper_title": "5cae32fc_bmj.b4074.full",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"patients were randomly allocated to the intervention (exercise therapy) or the control (usual care). The randomisation was done by an independent researcher who used a computer generated list\", with stratification and block size of eight; registered as ISRCTN83938749.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated stratified block randomization performed by an independent researcher (implying concealed allocation after enrolment/eligibility checks), and baseline characteristics were closely balanced across groups.",
+        "evidence_quote": "\"The randomisation was done by an independent researcher who used a computer generated list in which patients were stratified by age ... and by recruiting physician ... A block size of eight was used within the four strata.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Open-label design means patients and care providers knew allocation (placebo/Hawthorne effects acknowledged) and 14 participants deviated (6 intervention never attended therapy, 8 controls received physiotherapy); however, an intention-to-treat analysis was used and co-intervention use was greater in controls, biasing against the intervention.",
+        "evidence_quote": "\"The differences between the intervention group and the control group were further diminished by violation of the protocol by 14 people... Differences between the intervention and control group were analysed on an intention to treat basis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary outcomes were patient self-reported (pain NRS, Kujala score, perceived recovery) in an unblinded trial, so outcome assessment could plausibly be influenced by knowledge of the assigned intervention, a limitation the authors themselves emphasise.",
+        "evidence_quote": "\"A methodological problem that cannot be solved in randomised controlled trials of exercise therapy is that patients in the intervention group cannot be blinded for the exercise therapy and, therefore, may be biased for positive outcome (placebo effect).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were missing for roughly 5-12% at 3 and 12 months (e.g., recovery available for 62/65 and 58/65 vs 60/66 and 59/66), and although repeated-measures models used all available data, no formal sensitivity analysis of missingness or reasons by group is reported.",
+        "evidence_quote": "\"Outcomes at 3 and 12 months were missing for some patients, but available data from other time points were included in the analyses.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the protocol published with prespecified primary outcomes and subgroups, but the primary \"recovered\" outcome was supplemented post hoc by an alternative \"improved\" dichotomisation and a per-protocol analysis favouring the intervention, suggesting some flexibility in reported analyses.",
+        "evidence_quote": "\"When we used the outcome measurement 'improved' (that is, 'fully recovered,' 'strongly recovered,' or 'slightly recovered'), however, we found that recovery at 3 months was significantly more likely in the exercise group\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Randomization and allocation were well executed with balanced baseline groups and ITT analysis, but the open-label design combined with entirely patient-reported primary outcomes (pain, function, perceived recovery) gives high risk of bias in outcome measurement. Additional some-concerns arise from protocol violations/co-interventions, modest attrition without sensitivity analysis, and post hoc re-dichotomisation of the recovery outcome."
+  },
+  {
+    "paper_id": "manual:34633f2f",
+    "paper_title": "c4ff5aab_fukuda-et-al-2010-short-term-effects-of-hip-abductors-and-lateral-rotators-strengthening-in-females-with-patellofemoral",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 70 females with PFPS into 3 parallel groups using opaque, sealed envelopes drawn by an individual not involved in the study: \"The assignment of patients in the 3 groups was performed randomly using opaque and sealed envelopes containing the names of the groups.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation used opaque sealed envelopes drawn by a person not involved in the study, performed after baseline evaluation and only minutes before the first session, and baseline demographic, pain, and functional variables did not differ significantly among the three groups.",
+        "evidence_quote": "\"The assignment of patients in the 3 groups was performed randomly using opaque and sealed envelopes containing the names of the groups: CO, KE, and KHE. The envelopes were picked by an individual not involved in this study. Group assignment was performed following the initial evaluation and just minutes prior to the initial treatment session.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and treating therapists were necessarily unblinded, and the no-treatment control group (rather than sham/attention control) means expectation effects could inflate differences on self-reported pain/function outcomes; mitigating factors are a supervised in-clinic protocol with no home exercises and an intention-to-treat analysis consistent with the per-protocol results, though adherence/session-attendance data are not reported.",
+        "evidence_quote": "\"All patients in the CO group were instructed to maintain their daily activities and did not receive any form of treatment.\" ... \"We performed an intention-to-treat analysis, and the results were consistent with the per-protocol analysis as presented above.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was small and balanced (2 of 22 in KE, 2 of 23 in KHE, and apparently 2 of 25 in CO given analysed n=23; ~9% overall), and an intention-to-treat analysis using mean imputation produced results consistent with the per-protocol analysis, although reasons for dropout are not described.",
+        "evidence_quote": "\"Two patients in the KE group and 2 patients in the KHE group did not complete the study.\" ... \"This parallel method was based on the imputation of the group mean to each missing value for each of the 3 groups.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were validated, appropriate measures (NPRS, LEFS, AKPS, single-limb hop) applied identically pre/post by a single blinded examiner, but the primary pain and function outcomes are participant-reported and participants knew whether they received treatment or nothing, so outcome assessment could be influenced by awareness of assignment despite assessor blinding.",
+        "evidence_quote": "\"After the inclusion of the participants, a single examiner was responsible for the administration of all tests and questionnaires performed before and after the intervention. This examiner was blind to the group assignment of the patients and did not participate in the intervention.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or published protocol is cited and no primary outcome is explicitly designated (the power calculation was based on the LEFS, yet conclusions rest heavily on the NPRS during stair descent and on post hoc MCID-based interpretation of multiple outcomes and pairwise comparisons without multiplicity adjustment), raising the possibility of selective emphasis among eligible analyses.",
+        "evidence_quote": "\"Despite the lack of statistically significant diferences in improvement between the 2 groups receiving an intervention, analysis of the data, based on the published MCIDs of 9 points for the LEFS, 13 points for the AKPS, and 2 points for the NPRS, suggests greater clinical benefits for the combined hip and knee exercise program.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization (concealed sealed envelopes, balanced baseline) and missing data handling (\u22489% balanced attrition with a concordant ITT analysis) were well executed, but the trial carries some concerns from unblinded participants/therapists with a no-treatment control for subjective pain and function outcomes, and from the absence of a registered protocol or designated primary outcome alongside post hoc MCID-based interpretation of multiple outcomes. No single domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:cf5ce5f8",
+    "paper_title": "22888c91_herrington-al-sherhi-2007-a-controlled-trial-of-weight-bearing-versus-non-weight-bearing-exercises-for-patellofemoral",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to three groups: \"Patients were then randomly assigned by opening a sealed and numbered envelope to 1 of 3 groups: a control group (n = 15), the SJNWBE group (n = 15), and the MJWBE group (n = 15).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment via sealed numbered envelopes is suggested and baseline comparability is reported, but the sequence generation method is not described (and the perfectly equal n=15 per group implies unreported restriction), leaving some uncertainty.",
+        "evidence_quote": "\"Patients were then randomly assigned by opening a sealed and numbered envelope to 1 of 3 groups... The 3 groups were of similar age, height, and body mass (P..05). The 3 groups were similar at baseline for all outcome measures\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and treating therapists were necessarily unblinded and the control group received no attention/placebo intervention (its function even declined), so expectation effects could influence subjective pain/function outcomes, although all participants completed their assigned program with therapist supervision.",
+        "evidence_quote": "\"The patients in the control group participated only in the testing procedures, and all participants were asked to avoid sports or other pain-provocative activities... all subjects were able to complete the 6-week training program.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for all randomized participants with no attrition reported.",
+        "evidence_quote": "\"All 45 participants completed the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures were appropriate, standardized and reliability-tested with a blinded assessor, but the primary outcomes (VAS pain, Kujala score) are self-reported by unblinded participants who knew whether they received exercise or no treatment.",
+        "evidence_quote": "\"Testing was conducted by an independent assessor (an experienced physical therapist) blinded to intervention group.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is reported and no primary outcome is designated among four outcomes, so selective reporting of outcomes/analyses cannot be excluded, although all stated measures appear reported.",
+        "evidence_quote": "\"The aim of this study was to compare, in a randomized, prospective manner, the eficacy of a non\u2013weight-bearing quadriceps exercise (knee extension) and a weight-bearing quadriceps exercise (seated leg press)\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "No domain was rated high risk: randomization occurred with apparent allocation concealment, there was no attrition, and a blinded independent assessor was used. However, incomplete reporting of sequence generation, inevitable participant unblinding with an untreated (no-attention) control group affecting self-reported pain/function, and absence of pre-registration/pre-specified primary outcome yield an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:190c3ca0",
+    "paper_title": "30d932d2_ptj0409",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 89 patients with PFPS to three parallel groups using stratified block randomization with numbered opaque envelopes (\"Participants were randomly assigned to the LP group, LPHA group, or control group in blocks of 9 (chosen through numbered opaque envelopes)\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Stratified, blocked random allocation performed by an independent physical therapist using numbered opaque envelopes, with no significant baseline differences in demographics or outcomes.",
+        "evidence_quote": "\"Stratified allocation was carried out with regard to the number of affected sides (unilateral or bilateral) and symptom severity... Participants were randomly assigned to the LP group, LPHA group, or control group in blocks of 9 (chosen through numbered opaque envelopes)\"; \"There were no significant between-group differences for any of the demographic variables.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the treating therapist necessarily knew the assigned condition (exercise vs no exercise), and the no-treatment control cannot be blinded, which may affect self-reported pain/function outcomes; however, intervention adherence was near-complete and an intention-to-treat analysis was used, and a sham Thera-Band was applied in the LP group to equalize tactile cues.",
+        "evidence_quote": "\"A blue Thera-Band was tied to each patient's thigh (without resistance) to maintain consistent tactile stimulation among groups.\"; \"Data were subjected to an intention-to-treat analysis and included all dropouts.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "10 of 89 participants (~11%) dropped out and did not attend postintervention evaluations; although losses were stated to be unrelated to knee pain and an \"intention-to-treat\" analysis including dropouts was claimed, the imputation/handling method is not described.",
+        "evidence_quote": "\"Ten participants later dropped out of the study due to personal factors (not knee pain) or work commitment. Seventy-nine participants completed the trial\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome assessment was performed by a physical therapist blinded to group allocation and ultrasonography showed high test-retest reliability, but the primary pain/function outcomes are self-reported by unblinded participants (especially versus a no-exercise control), which may bias these measures.",
+        "evidence_quote": "\"Two assessment sessions were performed by another physical therapist (blinded to each patient's grouping) before and after the 8-week intervention.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol is cited, and although an a priori sample-size calculation for VAS worst pain suggests a primary outcome, multiple outcomes (VAS-W, Lysholm, VMO CSA, VMO volume) plus post hoc subanalyses (stair-climbing/squatting items, correlations) were reported without a pre-registered analysis plan.",
+        "evidence_quote": "\"Because the Lysholm scale is not a PFPS-specific scale, we made a further subanalysis of the stair-climbing and squatting items.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was adequately randomized (stratified, blocked, opaque envelopes) with balanced baseline characteristics and blinded outcome assessment, but participants and treating therapist were necessarily unblinded against a no-exercise control for self-reported pain/function, ~11% of participants were lost to follow-up with unspecified ITT handling, and there is no pre-registered protocol covering the multiple reported outcomes. These factors yield an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:26680af7",
+    "paper_title": "0c11a66e_v059p00700",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 81 patients to four treatment arms in a 2x2 factorial design: \"The patients were then randomly allocated by the physiotherapist to one of four groups using an individualised computer generated randomisation programme.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used and baseline characteristics (age, sex, BMI, pain duration, WOMAC, VAS, HAD, quadriceps power) were balanced with no significant differences, but allocation was performed by the treating physiotherapist and no concealment mechanism (e.g., sealed opaque envelopes, central allocation) is described.",
+        "evidence_quote": "The patients were then randomly allocated by the physiotherapist to one of four groups using an individualised computer generated randomisation programme."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and the treating physiotherapist were necessarily aware of the assigned physical interventions (an unavoidable feature of exercise/taping trials) which could influence the subjective primary outcome of satisfaction/discharge, and home-exercise adherence was only loosely monitored via diary sheets, although an intention-to-treat analysis was used.",
+        "evidence_quote": "The patients themselves were not completely blinded because they were aware that of the four types of treatment one group would receive advice only. ... Patients who failed to attend were included in the analysis on an intention to treat basis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 49/81 (60%) provided 12-month outcome data, with no reported analysis of reasons for or sensitivity to missingness, and differential loss is plausible since outcome (continuing knee pain) could drive non-response; the three-month data also had ~12% withdrawals handled without described imputation.",
+        "evidence_quote": "10 patients withdrew during the study and these were included in the analysis on an intention to treat basis. 49 patients returned the questionnaires at 12 months. ... a significant number of patients left the study over the 12 months."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Assessors were reportedly blinded, but the primary outcome (satisfaction/discharge decision) and secondary scores are subjective and reported by unblinded patients, assessment instruments/administrators differed across time points (face-to-face vs postal), and the WOMAC was used outside its validated population.",
+        "evidence_quote": "A blinded independent observer undertook assessment on the sixth visit. ... The WOMAC score was administered by diVerent blinded investigators at baseline and three months, and by post at one year, possibly introducing an element of bias."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary outcome and a power calculation are pre-specified, but there is no accessible protocol/registration and multiple outcomes, timepoints and post hoc comparisons (e.g., discharged vs referred subgroups, non-significant p=0.08 results described as \"approaching significance\") are reported, raising concern about selective emphasis.",
+        "evidence_quote": "The primary outcome measure was an assessment of patient satisfaction (satisfied = discharge, not satisfied = continue physiotherapy, or refer to consultant)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by substantial and unexplained attrition at 12 months (only 49/81 questionnaires returned) with no sensitivity analysis. Additional concerns arise from unconcealed allocation performed by the treating physiotherapist, unavoidable lack of patient/therapist blinding for a subjective primary outcome (physiotherapist discharge/satisfaction), varying outcome administration across timepoints, and absence of a pre-registered protocol alongside multiple post hoc comparisons."
+  }
+]

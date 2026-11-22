@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people of any age requiring a peripherally inserted central catheter (PICC), what is the effect of a PICC without a valve, compared with a PICC incorporating proximal or distal integrated valve technology, on the occurrence of catheter occlusion during catheter dwell time?",
+  "treatment_label": "PICCs without a valve",
+  "control_label": "PICCs with integrated valve technology (proximal or distal valve)",
+  "outcome_description": "Catheter occlusion during the PICC dwell time, measured dichotomously as the number of participants or catheters experiencing at least one occlusion and the corresponding number assessed. Use the study's stated analysis unit (participant or catheter) and record it. Include only catheter occlusion; do not pool catheter failure, venous thromboembolism, infection, breakage, or other outcomes. If a study has multiple eligible valved-catheter arms, combine those arms into one comparator group using standard Cochrane methods to avoid double-counting the no-valve group.",
+  "positive_direction": "A positive effect size means fewer catheter occlusions during dwell time with no-valve PICCs than with integrated-valve PICCs, so the result favors the no-valve group.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "peripherally inserted central catheter valve occlusion comparative study",
+    "PICC integrated valve no valve occlusion trial",
+    "proximal distal valved PICC catheter occlusion controlled comparison"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies involving people of any age who require a PICC in any clinical setting.",
+    "Studies directly comparing a no-valve PICC with a PICC having integrated proximal or distal valve technology.",
+    "Studies reporting quantitative dichotomous catheter-occlusion data during catheter dwell time, or sufficient numerical information from which an effect size can be calculated, at either the participant or catheter level."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between an eligible no-valve PICC treatment condition and an eligible integrated-valve PICC control condition.",
+    "No quantitative catheter-occlusion outcome data capable of producing an effect size, such as event counts and denominators, proportions, odds ratios, or other convertible statistics.",
+    "Completely unrelated to the research topic, including studies comparing only catheter material, tip design, or taper, and studies reporting only catheter failure, venous thromboembolism, infection, breakage, or other non-occlusion outcomes."
+  ],
+  "moderators_to_extract": [
+    "Valve location and technology (proximal versus distal; specific device/model)",
+    "Age group (neonatal, pediatric, adult, older adult, or mixed)",
+    "Clinical setting and indication for PICC use",
+    "Unit of analysis (participant versus catheter)",
+    "Study design and allocation method",
+    "Catheter dwell-time duration or follow-up duration"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Treat catheter occlusion as a dichotomous outcome over the full catheter dwell time. Extract events and totals for no-valve and valved groups, preserving whether the denominator is participants or catheters; do not combine participant-level and catheter-level estimates without accounting for the analysis unit. Reorient estimates so positive values favor no-valve PICCs (fewer occlusions). For multi-arm trials, sum event counts and sample sizes across all eligible valved arms to form one comparator, while excluding arms that differ only by ineligible features or do not use integrated valve technology. Use one eligible occlusion estimate per study/independent comparison; prioritize the study-defined overall occlusion outcome across full dwell time and avoid double-counting repeated occlusions in the same participant or catheter. Apply a random-effects model with 95% confidence intervals, assess heterogeneity using tau-squared and I-squared, inspect influence and outliers, and perform sensitivity analyses by unit of analysis, study design/risk of bias, valve location, and zero-event handling when data permit. Assess risk of bias with a design-appropriate tool and examine small-study effects only if enough studies are available.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "catheter occlusion"
+}

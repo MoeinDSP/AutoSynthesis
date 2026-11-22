@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:caec41b9",
+    "paper_title": "9b6e62ee_archinternmed.2011.72",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports that 151 participants were randomized to bupropion SR or identical placebo in a double-blind, placebo-controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly randomized and numbered study bottles concealed allocation from patients and staff, with baseline characteristics broadly balanced, but the method used to generate the allocation sequence was not reported.",
+        "evidence_quote": "Participants were randomized to bupropion SR (hereinafter, bupropion group) or identical placebo. Numbered study bottles were supplied by the study coordinator and remained concealed from the patients and medical staff."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and medical staff were blinded with identical placebo, both groups received the same counseling, medication compliance was similar, and primary analyses used intention-to-treat, with no reported intervention-related deviations likely to bias the effect estimate.",
+        "evidence_quote": "Primary efficacy and safety analyses were performed on an intent-to-treat basis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was nearly complete, with only one participant in each randomized group lost to follow-up, making material bias from missing outcomes unlikely.",
+        "evidence_quote": "One patient from each group was lost to follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome was measured consistently by self-report in both blinded groups, but abstinence was not objectively validated and could therefore have been misclassified, although any misclassification was likely nondifferential.",
+        "evidence_quote": "Because reported quitting status was not confirmed by an objective method, such as a carbon monoxide concentration in exhaled air, we could not exclude false reporting of abstinence, which might have masked the effect of bupropion."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and time point were clearly identified and reported, but no preregistration or prespecified analysis plan is provided to rule out selection among eligible measurements or analyses, and recruitment was stopped following an interim analysis.",
+        "evidence_quote": "The study was stopped after an interim analysis was performed and revealed no advantage of bupropion SR over placebo in smoking abstinence rates at 12 months."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The main issues are absence of details on random-sequence generation, reliance on unvalidated self-reported abstinence, and lack of accessible preregistration or a prespecified analysis plan; missing data and deviations from intended interventions present low risk."
+  },
+  {
+    "paper_id": "manual:37807db4",
+    "paper_title": "cf37d9df_j.amjmed.2006.04.024",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned to bupropion or identical placebo using a computer-generated sequence of randomly permuted blocks, with allocation concealed from enrollment staff.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated with stratified randomly permuted blocks, was implemented by the study pharmacist, and was concealed from enrollment staff; although hypertension differed at baseline, the investigators identified and adjusted for this difference and the overall pattern was compatible with chance.",
+        "evidence_quote": "Using a computer program, the study statistician generated a sequence of randomly-permuted blocks of 4 within strata formed by study site and daily cigarette consumption... The study pharmacist used this sequence, concealed from enrollment staff, to assign participants to study arm."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and relevant study personnel were blinded, co-intervention exposure and treatment duration were similar between groups, and the primary analyses were intention-to-treat, with nonresponders conservatively classified as smokers.",
+        "evidence_quote": "Subjects and study personnel, except the statistician and pharmacist, were blind to treatment assignment... Primary efficacy and safety analyses were done on an intention-to-treat basis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 67% completed one-year follow-up, and although missing participants were counted as smokers and attrition was reportedly similar between arms, the large amount of missing direct outcome data leaves some possibility of bias if missingness depended on true cessation status differently by group.",
+        "evidence_quote": "165 (67%) of 248 enrolled patients completed one-year follow-up... Because patients lost to follow-up are counted as smokers, our cessation rates represent a conservative estimate of the actual cessation rates."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Smoking abstinence was measured identically in both groups using self-report with objective cotinine validation, and double blinding minimized the potential for differential assessment.",
+        "evidence_quote": "Self-reported abstinence was validated by saliva cotinine... Subjects and study personnel, except the statistician and pharmacist, were blind to treatment assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and principal secondary endpoint were prespecified and reported, but no protocol or analysis plan is cited, multiple smoking outcomes and adjusted analyses were available, and a post-hoc safety subgroup analysis was also presented, leaving some potential for selective analysis reporting.",
+        "evidence_quote": "The primary outcome measure was 7-day point-prevalence tobacco abstinence 1 year after discharge... In a post-hoc subgroup analysis done because not all patients took 12 weeks of study drug..."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven chiefly by substantial loss to direct one-year follow-up despite conservative smoker imputation, and by the absence of a cited prespecified protocol or analysis plan amid multiple eligible outcomes and analyses. Randomization, blinding, intervention delivery, and outcome measurement were otherwise robust."
+  },
+  {
+    "paper_id": "manual:199628ec",
+    "paper_title": "fb0aa83b_j.jacc.2012.08.1030",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports 1:1 random allocation through an internet website using random block sizes of 2 and 4, stratified by center.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A centrally implemented web-based blocked sequence stratified by center supports random sequence generation and allocation concealment, and baseline characteristics were generally balanced apart from diabetes.",
+        "evidence_quote": "Randomization was done via an internet website using random blocks of 2 and 4 and was stratified by center to ensure that similar numbers of patients were randomized to the 2 arms of the study at each study center."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding, matched placebo, common counseling, and ITT analysis reduce bias, but adherence was lower with bupropion, adherence data were available for only 230 participants, and post-relapse open-label cessation pharmacotherapy was permitted, leaving some potential for differential deviations.",
+        "evidence_quote": "By the end of the 9-week treatment period, 72.3% of patients randomized to the bupropion group were taking at least 1 pill of study medication per day versus 82.0% among patients randomized to the placebo group (p = 0.05) (drug adherence data available for 230 patients)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "A substantial 22.2% of surviving participants withdrew or were lost by 12 months; coding all such participants as smokers and reporting similar per-protocol findings are reassuring but do not establish that the result was insensitive to plausible differential missingness.",
+        "evidence_quote": "Among the 377 surviving patients in our study, 22.2% withdrew consent or were lost to follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Smoking abstinence was measured identically in both groups using self-report plus an objective prespecified carbon-monoxide threshold, making differential measurement unlikely in this double-blind trial.",
+        "evidence_quote": "Smoking cessation was defined as complete abstinence in the week before the 12-month clinic visit (documented by self-report) and a measurement of exhaled CO <10 ppm."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered, the primary endpoint and time point were clearly prespecified, and the reported primary analysis matches the stated ITT Fisher exact test, with adjusted and per-protocol analyses identified as secondary.",
+        "evidence_quote": "The primary data analysis examined smoking cessation rates at 4 and 9 weeks, and 6 and 12 months, with the primary end point being point prevalence smoking cessation at 12 months."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven mainly by substantial missing 12-month outcome data and uncertainty about differential adherence and permitted post-relapse cessation treatments. Randomization, blinded outcome measurement, and prespecified reporting were otherwise robust."
+  },
+  {
+    "paper_id": "manual:8102496f",
+    "paper_title": "0f71dbeb_ntr%2Fntp047",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated to bupropion or placebo using a computer-generated random list of treatment assignments.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and measured baseline characteristics were similar, but the report does not describe allocation concealment before assignment.",
+        "evidence_quote": "We assigned participants to the two study arms by using a computer algorithm to generate a random list of treatment assignments."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Identical placebo and blinded intervention personnel reduced bias, and the principal analysis was described as intention-to-treat, but participant blinding was imperfect and adherence to medication and follow-up counseling was not adequately reported.",
+        "evidence_quote": "A greater number of participants randomized to the bupropion arm were able to correctly guess their treatment assignment: 45% for bupropion versus 22% for placebo (p = .10)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only two participants were lost to follow-up and seven dropped out, and all were conservatively treated as smokers for validated cessation analyses, while the two deaths were balanced between groups and excluded from the at-risk analysis.",
+        "evidence_quote": "The two participants lost to follow-up and the seven participants who dropped out of the study were considered smokers in analyses that required biochemical or spousal confirmation of quitting."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Smoking abstinence was measured consistently and primarily validated with salivary cotinine, but some outcomes relied on self-report or nonblinded spousal proxy, and imperfect participant blinding could influence self-reported abstinence.",
+        "evidence_quote": "We found a large discrepancy between the self-reported 6-month smoking cessation rate among the bupropion study arm (29%) and the 6-month quit rate as verified by salivary cotinine or spousal proxy (15%), which suggests unblinding, with participants reporting the outcome they assumed the investigators desired."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, multiple time points and abstinence definitions were analyzed, and the protocol was changed to shorten follow-up from 12 to 6 months, creating substantial scope for selective outcome reporting.",
+        "evidence_quote": "Finally, we decided to follow participants for smoking outcomes for 6 months rather than 12 as planned initially, to permit greater time for recruitment."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the study changed the planned follow-up and reported multiple cessation definitions and time points without a reported preregistration or prespecified analysis plan. Additional concerns arise from unreported allocation concealment, incomplete evidence on adherence, imperfect participant blinding, and some reliance on self-report or proxy validation."
+  }
+]

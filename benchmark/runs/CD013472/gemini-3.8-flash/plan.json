@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of music or voice interventions compared with standard care or no music on heart rate during the intervention in preterm infants born before 37 weeks of gestation?",
+  "treatment_label": "music or voice intervention",
+  "control_label": "standard care or no music",
+  "outcome_description": "Heart rate measured during the intervention session in beats per minute (bpm)",
+  "positive_direction": "A positive effect size indicates a lower heart rate (favouring music/voice intervention over control)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "preterm infant music heart rate randomized trial",
+    "premature infant maternal voice heart rate controlled trial",
+    "neonatal intensive care music intervention heart rate beats per minute"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials (parallel or cross-over) in preterm infants born before 37 weeks of gestation",
+    "Evaluation of music or voice interventions (recorded music, live singing, parental voice, lullabies, with or without kangaroo care) compared to standard care, silence, or no music",
+    "Reporting quantitative heart rate data measured during the intervention session in beats per minute (bpm)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (e.g. systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or trial protocols)",
+    "Non-randomised studies or studies without an inactive standard care/no-music control (e.g. comparing two active music therapies without an unexposed control)",
+    "Studies conducted exclusively in term infants, older children, or animal models",
+    "Studies lacking quantitative heart rate data during the intervention session (e.g. only pre/post session, only non-heart-rate outcomes such as SpO2 or pain, or non-extractable data)"
+  ],
+  "moderators_to_extract": [
+    "Intervention modality (recorded music vs live singing vs parental/maternal voice)",
+    "Co-intervention (with kangaroo care/skin-to-skin contact vs incubator/crib alone)",
+    "Study design (parallel RCT vs cross-over RCT)",
+    "Mean gestational age at birth or postmenstrual age at session",
+    "Duration of intervention session (minutes)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Extracted as mean, SD, and N per arm during intervention delivery. Final values during session are preferred over change scores; SE/SEM converted to SD via SE * sqrt(N). MD < 0 indicates lower heart rate with music.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "heart rate during intervention"
+}

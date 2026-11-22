@@ -1,0 +1,38 @@
+{
+  "research_question": "In women with early-stage triple-negative breast cancer, does adding platinum-based chemotherapy (carboplatin or cisplatin) to neoadjuvant chemotherapy, compared with the same neoadjuvant chemotherapy without platinum, improve disease-free survival?",
+  "treatment_label": "Neoadjuvant chemotherapy with added platinum (carboplatin or cisplatin)",
+  "control_label": "Same neoadjuvant chemotherapy without platinum",
+  "outcome_description": "Disease-free survival (including event-free survival, relapse-free survival, or invasive disease-free survival when DFS is not reported; DFS preferred when both are available), extracted as the reported hazard ratio with its 95% confidence interval for the platinum arm versus the platinum-free control arm, using the longest follow-up reported. The 95% CI is converted to a standard error of the log hazard ratio; HRs reported as control versus platinum are inverted (HR to 1/HR with the interval swapped). Hazard ratios are not reconstructed from event counts or Kaplan-Meier curves.",
+  "positive_direction": "A positive Hedges g (equivalently, a hazard ratio below 1) means longer disease-free survival in the platinum-containing neoadjuvant arm \u2014 i.e. fewer recurrence/progression/death events \u2014 favouring the addition of platinum.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "neoadjuvant carboplatin triple-negative breast cancer randomized trial disease-free survival",
+    "platinum neoadjuvant chemotherapy triple negative breast cancer event-free survival long-term outcome",
+    "cisplatin preoperative chemotherapy triple-negative breast cancer randomised controlled trial recurrence hazard ratio"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial of neoadjuvant (pre-operative) chemotherapy in patients with early-stage triple-negative breast cancer (or a TNBC subgroup reported separately)",
+    "Compares a platinum-containing arm (carboplatin or cisplatin) with an otherwise comparable platinum-free control arm",
+    "Reports a hazard ratio with 95% confidence interval (or equivalent quantitative survival estimate) for disease-free, event-free, relapse-free, or invasive disease-free survival"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, or purely theoretical/modelling paper)",
+    "No comparison between a platinum-containing treatment arm and a platinum-free control condition (single-arm studies, or trials in which all arms receive platinum)",
+    "No quantitative outcome data from which an effect size can be computed \u2014 no reported hazard ratio with 95% CI (or equivalent); e.g. only Kaplan-Meier curves and numbers at risk, or only pathological complete response data",
+    "Unrelated to the research topic \u2014 platinum given only in the adjuvant (post-operative) setting or mixing neoadjuvant and adjuvant platinum, populations restricted to HER2-positive breast cancer, metastatic/advanced disease, or other cancers"
+  ],
+  "moderators_to_extract": [
+    "Platinum agent (carboplatin vs cisplatin)",
+    "Backbone regimen (anthracycline/taxane-containing vs taxane-only vs other) and platinum dosing schedule (weekly vs 3-weekly)",
+    "Median follow-up duration",
+    "Sample size / number of randomised TNBC patients",
+    "Survival endpoint definition used (DFS vs EFS vs RFS vs iDFS)",
+    "Trial region/multicentre status and BRCA mutation status proportion"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool log hazard ratios with inverse-variance weighting under a fixed-effect model (random-effects as fallback if fixed-effect is unavailable). SE(log HR) = (ln(upper CI) \u2212 ln(lower CI)) / 3.92. HR < 1 favours platinum. Invert HRs reported as control versus platinum. For trials with two platinum arms sharing a single control group, include each platinum-vs-control comparison separately and flag the shared control for sensitivity analysis. Use the longest-follow-up long-term survival analysis when multiple reports exist for the same trial, and avoid double-counting duplicate publications of the same trial.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "disease-free survival"
+}

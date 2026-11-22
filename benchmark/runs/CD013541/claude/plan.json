@@ -1,0 +1,38 @@
+{
+  "research_question": "In families of people with schizophrenia or related psychosis, what is the effect of family-based interventions (psychoeducation, family support groups, family therapy or other structured relative-focused programmes) compared with standard care on family caregiver burden measured at the first assessment within one month after the end of the intervention?",
+  "treatment_label": "Family-based intervention (psychoeducation, family support group, family therapy or other structured programme for relatives) plus standard care",
+  "control_label": "Standard care / treatment as usual for patient and family",
+  "outcome_description": "Family caregiver burden in relatives/carers, measured with a validated burden instrument (e.g. Family Burden Interview Schedule, Zarit Burden Interview, Burden Assessment Scale, Involvement Evaluation Questionnaire or similar caregiver burden questionnaire). Extract mean, SD and number of family caregivers per arm at the first post-intervention assessment within one month of the end of the intervention; prefer the total burden score (one measure per trial). Use end-of-intervention values; if only change-from-baseline is reported, use change scores for both arms and note this. Convert SE/SEM to SD (SD = SE \u00d7 \u221an). All scores oriented so higher = more burden; reverse-score instruments oriented the other way. Use caregivers' scores only, and the main caregiver if several are reported. Later follow-up (>1 month) is excluded from this analysis.",
+  "positive_direction": "A positive pooled effect means the family intervention reduced caregiver burden relative to standard care (i.e. lower burden scores in the family-intervention arm, equivalent to MD &lt; 0 on the raw burden scale, favouring the intervention).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "family psychoeducation schizophrenia randomised controlled trial caregiver burden",
+    "family intervention psychosis relatives trial burden outcome standard care",
+    "caregiver burden schizophrenia family therapy support group controlled trial effect"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial (including cluster-randomised) involving families/relatives/caregivers of people with schizophrenia or a related psychotic disorder",
+    "Compares a family-based intervention (psychoeducation, family support group, family therapy, or other structured programme for relatives) with standard care or treatment as usual",
+    "Reports some quantitative caregiver burden outcome (mean and SD/SE, or other data allowing an effect size) in family members at or near the end of the intervention"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, protocol or purely theoretical paper)",
+    "No comparison between a family intervention and a standard-care/treatment-as-usual control group (e.g. control receives another active family intervention, or single-arm/non-randomised design)",
+    "No quantitative caregiver burden data usable for an effect size (no means+SDs/SEs, t/F values, or equivalent statistics)",
+    "Completely unrelated to the research topic (not schizophrenia/related psychosis, or reports only patient outcomes such as relapse, symptoms or functioning, or only non-burden family outcomes)"
+  ],
+  "moderators_to_extract": [
+    "Type of family intervention (psychoeducation, family therapy, support group, multifamily group)",
+    "Intervention duration and number of sessions",
+    "Burden instrument used (FBIS, ZBI, BAS, IEQ, other)",
+    "Country / world region and care setting",
+    "Sample size category (number of caregivers randomised)",
+    "Whether end-point or change-from-baseline scores were extracted"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool as mean difference (MD) in burden scale points using a fixed-effect model where available, otherwise random effects (DerSimonian-Laird/REML). Only trials using the same burden scale are directly comparable in raw MD terms; where scales differ, report the MD pooling as specified but note scale heterogeneity. Negative raw MD (lower burden with family intervention) is signed as a positive effect favouring the intervention. Convert SE/SEM to SD (SD = SE \u00d7 \u221an), checking table footnotes for whether '\u00b1' denotes SD or SE. Multi-arm trials: combine multiple family-intervention arms into a single group and compare with the standard-care arm only.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "caregiver burden"
+}

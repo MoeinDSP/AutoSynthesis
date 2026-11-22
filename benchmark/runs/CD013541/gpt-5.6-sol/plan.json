@@ -1,0 +1,38 @@
+{
+  "research_question": "Among family caregivers of people with schizophrenia or related psychosis, what is the effect of structured family-based interventions for relatives (including psychoeducation, family support groups, family therapy, or other structured programmes), compared with standard care or treatment as usual, on validated caregiver-burden scores at the first assessment after the intervention and no later than one month after it ends?",
+  "treatment_label": "Structured family-based intervention for relatives of people with schizophrenia or related psychosis",
+  "control_label": "Standard care or treatment as usual for the patient and family, without another active family intervention",
+  "outcome_description": "Family caregiver burden measured using a validated burden scale, using caregivers' rather than patients' scores and the main caregiver where several caregivers are reported. Extract the mean, SD, and number of caregivers per arm at the first post-intervention assessment occurring within one month after the programme ends; exclude later follow-up assessments. Prefer the end-of-intervention total burden score. If only change from baseline is reported, use mean change and SD of change for both arms and identify the result as change-score based; never mix endpoint and change scores across arms. Select one burden measure per trial, preferring the total score. Higher scores represent greater burden; reverse scores for oppositely oriented scales. Convert SE/SEM to SD using SD = SE \u00d7 \u221an after checking table footnotes. For multi-arm trials, retain the relevant family-intervention and standard-care groups only and combine multiple eligible intervention arms. Use the reported number randomised or analysed, as appropriate, and identify arms from treatment descriptions rather than column order. Pool as a mean difference in burden-scale points. Use a fixed-effect model when available; otherwise use a random-effects model. Under the requested raw MD convention, MD < 0 indicates lower caregiver burden and favours the intervention.",
+  "positive_direction": "For sign-harmonised standardized effects, a positive Hedges g would mean lower caregiver burden with the family intervention than with standard care; for the explicitly requested raw mean difference, negative MD values favour the intervention because higher raw burden scores are worse.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "schizophrenia family intervention caregiver burden randomized trial",
+    "psychosis family psychoeducation caregiver burden controlled trial",
+    "schizophrenia relatives family therapy burden quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials involving families or caregivers of people with schizophrenia or a related psychotic disorder and comparing a structured family-based programme with standard care or treatment as usual.",
+    "Studies reporting family caregiver burden on a validated burden scale at the end of treatment or at the first assessment within one month after intervention completion.",
+    "Studies providing, or permitting derivation of, quantitative data for an effect size, including endpoint means, SDs, and caregiver numbers per arm or corresponding change-score data for both arms."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and non-randomised studies.",
+    "No eligible comparison between a structured family intervention and standard care or treatment as usual, including studies in which the control group receives another active family intervention.",
+    "No quantitative caregiver-burden outcome data capable of producing an effect size, such as means and SDs, convertible SEs, t/F statistics, proportions, or odds ratios; this includes studies reporting patient outcomes only.",
+    "Completely unrelated to family interventions for schizophrenia or related psychosis, or reporting only excluded outcomes such as relapse, patient symptoms or functioning, family knowledge, expressed emotion, or family coping."
+  ],
+  "moderators_to_extract": [
+    "family-intervention type (psychoeducation, support group, family therapy, or other structured programme)",
+    "intervention duration and number of sessions",
+    "delivery format (individual-family, multifamily/group, in-person, remote, or hybrid)",
+    "burden instrument and whether a total score or subscale was used",
+    "assessment timing relative to intervention completion within the eligible one-month window",
+    "outcome-data type (endpoint values versus change from baseline)"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "Target effect measure is the raw mean difference (intervention minus standard care) in validated caregiver-burden scale points, with MD < 0 favouring the family intervention. Do not standardize across burden scales. Use endpoint values preferentially; use change scores only when reported for both arms and label them explicitly. Apply fixed-effect pooling if available, otherwise random-effects pooling. Conduct PRISMA 2020 study selection and reporting, document duplicate removal and full-text exclusion reasons, assess risk of bias for randomised trials, and report heterogeneity and sensitivity analyses where feasible.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "family caregiver burden"
+}

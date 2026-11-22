@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults hospitalised with acute heart failure, what is the effect of continuous intravenous infusion of a loop diuretic (furosemide, torsemide, or bumetanide), compared with intermittent intravenous bolus injection of the same loop diuretic, on net weight loss during the in-hospital treatment period?",
+  "treatment_label": "Continuous intravenous infusion of a loop diuretic",
+  "control_label": "Intermittent intravenous bolus injection of the same loop diuretic",
+  "outcome_description": "Net weight loss in kilograms during the treatment period, represented as a positive quantity for kilograms lost. Extract the mean, SD, and number analysed per arm. Use the longest reported measurement period that remains within the hospital stay (e.g., 72 hours, until discharge, or until resolution of decompensation/congestion) and record the period selected. Reverse the sign when loss is reported as a negative weight change; exclude percentage weight change. Convert pounds to kilograms by dividing by 2.205. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n). When only median and interquartile range are available, estimate the mean and SD using a recognised standard method and document it. If the number analysed for weight loss is unavailable, use the number randomised per arm and document this substitution. In factorial or multi-arm trials, combine all dose arms within each delivery mode by summing sample sizes and pooling means and SDs, yielding one continuous-infusion group and one bolus group. Do not include urine output, fluid balance, mortality, length of stay, readmission, renal function, or other outcomes.",
+  "positive_direction": "A positive mean difference means greater net weight loss with continuous infusion than with intermittent bolus injection and therefore favours continuous infusion.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "acute heart failure continuous infusion bolus loop diuretic randomized trial weight loss",
+    "furosemide continuous intravenous infusion intermittent bolus controlled trial body weight",
+    "bumetanide torsemide infusion bolus acute decompensated heart failure randomized comparison"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling hospitalised adults with acute or acutely decompensated heart failure.",
+    "Trials directly comparing continuous intravenous infusion with intermittent intravenous bolus administration of the same eligible loop diuretic (furosemide, torsemide, or bumetanide), including factorial or multi-arm dose designs that can be combined by delivery mode.",
+    "Trials reporting net weight loss or absolute weight change during the in-hospital treatment period with quantitative data sufficient to derive a mean difference in kilograms."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between a continuous-infusion treatment condition and an intermittent-bolus control condition; this includes single-arm studies and trials comparing a loop diuretic only with another drug, ultrafiltration, or placebo.",
+    "No quantitative outcome data capable of producing an effect size (e.g., means and SDs, convertible SE/SEM or IQR data, t/F statistics, proportions, or odds ratios), and unavailable after any feasible derivation or author contact.",
+    "Completely unrelated to the research topic, or not a randomised trial in hospitalised adults with acute heart failure using the same eligible loop diuretic in both delivery-mode arms."
+  ],
+  "moderators_to_extract": [
+    "Loop diuretic used (furosemide, torsemide, or bumetanide)",
+    "Duration/time point used for weight-loss assessment",
+    "Total loop-diuretic dose and balance of dose between delivery-mode groups",
+    "Acute heart failure population characteristics and baseline congestion severity",
+    "Trial design (parallel, factorial, or multi-arm)",
+    "Method used to obtain outcome statistics (direct mean/SD, SE-to-SD conversion, median/IQR estimation, or randomised n substituted for analysed n)"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool arm-level net weight loss as a mean difference in kilograms using a random-effects model, calculated as continuous infusion minus intermittent bolus. Assign groups by delivery mode rather than table column position. Harmonise all values so weight loss is positive, convert pounds to kilograms (\u00f7 2.205), and use the longest in-hospital period reported by each trial while documenting that period. Convert SE/SEM to SD as SE \u00d7 sqrt(n); estimate mean and SD from median/IQR with a recognised standard method and flag the imputation. Use analysed n when reported, otherwise randomised n and note this. For factorial or multi-arm studies, combine dose subgroups within each delivery mode using standard formulas for pooled means and SDs before calculating the study-level MD. Do not pool percentage weight change or any non-weight outcome.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "net weight loss"
+}

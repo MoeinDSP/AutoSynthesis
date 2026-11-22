@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:6f1dce08",
+    "paper_title": "8d7992d0_00016349709024359",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized, double-blind, placebo-controlled trial with allocation of 90 pregnant women to three arms (heme iron, non-heme iron, placebo) using a double-dummy masking technique.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted and demographic baseline data were balanced, but no sequence-generation method or allocation-concealment procedure is described, and the authors themselves report significant baseline imbalance in the key prognostic variable s-ferritin (14% vs 3% vs 21% with empty stores at entry).",
+        "evidence_quote": "\"Pregnant women were included in a randomized, double-blind trial... After randomization there were 31 in the HI-group, 30 in the Non-HI-group, and 29 in the placebo group.\" ... \"Because of significant differences between groups in s-ferritin at entry, a subgroup analysis was also performed on the 87% of women with s-ferritin >15 \u00b5g/l\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blinding with a double-dummy was effective (no between-group difference in participants' guesses), compliance was near-identical across arms (81\u201382%), and analysis followed intention-to-treat with a confirmatory subgroup analysis excluding women who took additional iron, which did not alter the results.",
+        "evidence_quote": "\"A double-dummy technique was used to mask the tablets... There were no significant differences between groups concerning the women's belief about the content of the tablets they were receiving... Treatment failures were included in the main analyses according to the 'intention to treat' principle\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 18\u201323% of outcome data were missing in each arm; although losses were balanced across groups and stated to be mainly non-attendance, reasons are not reported per participant and no sensitivity analysis for missingness was performed, and analysable denominators vary by time point (e.g., only 20 placebo women at week 38).",
+        "evidence_quote": "\"Six women dropped out early in the study because of failure to follow the study protocol and one because of premature birth. Missing data mainly due to non attendance were evenly distributed between groups throughout the study and at the end of the study there were complete data from 24 (77%), 24 (82%) and 23 (79%) women in the HI, Non-HI and the placebo group respectively.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes are objective, standardized laboratory haematological/iron-status assays measured identically across arms under blinding, so assessor knowledge is very unlikely to have influenced measurement (the subjective side-effect/work questions are secondary).",
+        "evidence_quote": "\"All analyses were performed in the Laboratory of Clinical Biochemistry in Haukeland University Hospital, regularly undergoing quality controls within international programs... S-ferritin concentration was measured with a microparticle enzyme immuno assay technique\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or pre-registration is cited and no single primary outcome or sample-size calculation is specified, while many parameters were measured at six time points with multiple pairwise comparisons, dichotomizations (Hb <110, <100 g/l; ferritin <15 \u00b5g/l) and post hoc subgroup analyses, creating substantial scope for selective reporting of significant findings.",
+        "evidence_quote": "\"Blood samples from all participants were analyzed at entry (before the 13th week), in weeks 19\u201321, 27\u201329, 37\u201339, 6\u201310 weeks postpartum (pp) and half a year pp for the following parameters: Red cell indices (Hb, erythrocytes, hematocrit, MCV, MCH, MCHC), reticulocytes, s-iron, Total Iron Binding Capacity (TIBC), s-ferritin and erythrocyte protoporphyrin (E-PP).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, double-dummy placebo-controlled trial had robust blinding, objective laboratory outcomes and intention-to-treat analysis (D2, D4 low), but no description of the randomization/allocation-concealment method alongside acknowledged baseline s-ferritin imbalance, ~20% missing outcome data per arm, and no pre-specified primary outcome amid many measured parameters and post hoc analyses. Overall risk is therefore 'some concerns', driven by domains 1, 3 and 5, with no domain rated high."
+  },
+  {
+    "paper_id": "manual:fdc0ebe4",
+    "paper_title": "9d31f8a8_156482651103200305",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized, triple-blind placebo-controlled clinical trial with registry ID, in which eligible nonanemic pregnant women \"were randomly allocated to receive\" 60 mg iron as ferrous sulfate or an indistinguishable placebo until delivery.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "No details of sequence generation or allocation concealment are given, the group sizes are notably unequal (70 vs 78) for a simple randomized trial, and there was a statistically significant baseline imbalance in maternal age (p = .02), raising some concerns about the randomization process.",
+        "evidence_quote": "\"eligible women (hemoglobin > 110 g/L, serum ferritin > 20 \u03bcg/L) were randomly allocated to receive one tablet orally per day containing either 60 mg of iron ... (iron group, n = 70) or placebo (n = 78)\"; \"The groups did not differ significantly in weight, height, BMI, or gestational age, but the difference in age was significant.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of participants, clinicians and analysts was adequate, but no information is provided on adherence/compliance monitoring, co-interventions, or whether an intention-to-treat analysis was used (and women found anemic/iron deficient were \"referred for medical evaluation and treated\", a potential co-intervention of unclear handling).",
+        "evidence_quote": "\"The placebos were formulated to be indistinguishable from the tablets containing iron... The physician, laboratory analysts, and subjects were not aware of the type of tablet.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes (hemoglobin, ferritin, birthweight, birth length, gestational age) are objective, measured identically in both groups with standard instruments, and laboratory analysts were blinded to allocation.",
+        "evidence_quote": "\"Hemoglobin concentration was measured with a Coulter electronic counter, model K-800. Serum ferritin was measured by a radioimmunoassay... The physician, laboratory analysts, and subjects were not aware of the type of tablet.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "No participant flow or attrition data are reported: there is no CONSORT flow diagram, denominators for each outcome/time point are not given, losses to follow-up over a months-long trial until delivery are not described, and abortions imply at least some participants lacking birth outcomes, so bias from missing data cannot be excluded.",
+        "evidence_quote": "\"We found one case of pregnancy-induced hypertension and three cases of abortion in the iron group and one case of abortion in the placebo group (data not shown).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although the trial was registered (IRCT138706141196N1), no protocol/pre-specified primary outcome or analysis plan is cited, several outcomes and both adjusted and unadjusted analyses are presented, and additional results are described without data (\"data not shown\", post hoc quartile analysis, and discussion claims of decreased low birthweight/preterm delivery despite non-significant tests).",
+        "evidence_quote": "\"Analysis of covariance (ANCOVA) was used to compare the main quantitative outcomes with adjustment for the confounder baseline variables.\"; \"We also found a significant relationship between iron deficiency at delivery and initial serum ferritin levels in the lowest quartile.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the complete absence of participant flow/attrition reporting across a trial followed until delivery (D3 high), compounded by unreported randomization and allocation-concealment methods with a significant baseline age imbalance, no adherence or ITT information, and no pre-specified outcome/analysis plan despite trial registration. Outcome measurement itself was objective and blinded, which is the only clearly low-risk domain."
+  },
+  {
+    "paper_id": "manual:44e4733d",
+    "paper_title": "7f757328_ajcn%2F78.1.145",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a double-blind placebo-controlled randomized trial with \"A computer-generated randomization schedule, with balanced blocks and stratified for parity... generated by an independent consultant.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Sequence was computer-generated by an independent consultant with blocking and stratification, allocation was concealed via sequentially numbered identical opaque bottles filled by pharmacy, and baseline sociodemographic, BMI, dietary iron and hemoglobin values were closely similar between groups.",
+        "evidence_quote": "\"A computer-generated randomization schedule, with balanced blocks and stratified for parity ... was generated by an independent consultant. Opaque bottles with childproof lids were marked with a sequential, numerical code and were filled according to the randomization schedule by the Pharmacy Department\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and research team were blinded with identical placebo tablets (blinding verified: ~50% correct guesses), compliance was high and similar (86% vs 85%), the open-label high-dose iron co-intervention was applied identically by clinicians as standard care in both arms, and an intention-to-treat analysis using all available data was performed.",
+        "evidence_quote": "\"Trial participants and the research team were unaware of the group assignment... All available data were used for intention-to-treat analyses.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were available for ~82\u201394% of randomized women (e.g., ferritin at delivery 186/216 and 176/214, i.e., up to 18% missing), with slightly more withdrawals in the placebo group; although the authors report no differences in sociodemographic characteristics between completers and non-completers, no sensitivity analysis for missingness was conducted and iron status itself could plausibly relate to dropout.",
+        "evidence_quote": "\"186/216 (86%) and 176/214 (82%) ferritin samples were available from the iron-supplemented and placebo groups, respectively... There were no significant differences in social or demographic characteristics between the women who successfully completed the trial and those with missing data for primary outcome measures.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes were objective laboratory measures (hemoglobin, ferritin) with documented precision and quality controls, measured identically in both groups by blinded laboratory staff; the subjective side-effect questionnaire was administered identically under successful participant blinding.",
+        "evidence_quote": "\"The precision (CV) of the hemoglobin measurement was 0.9% and that of the serum ferritin measurement was 5.4%. Quality controls were used to check the accuracy of the analytic methods.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes, sample-size calculations and analysis plan are clearly pre-specified in the paper and all appear reported, but no trial registration number or publicly available protocol is cited (the trial predates mandatory registration), and some analyses (e.g., the high-dose iron tolerance comparison) were acknowledged as post hoc exploratory.",
+        "evidence_quote": "\"Because there were no significant differences in any side effects between the iron-supplemented and the placebo groups, we conducted a secondary exploratory analysis to assess the effect of high-dose iron supplements on tolerance outcomes at 36 wk of gestation.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted double-blind, placebo-controlled trial had robust allocation concealment, verified blinding, objective laboratory outcomes and intention-to-treat analysis, but up to ~18% missing outcome data without sensitivity analyses and the absence of a registered protocol (with some acknowledged exploratory analyses) raise some concerns. The overall judgment is therefore \"some concerns\", driven by domains 3 and 5."
+  },
+  {
+    "paper_id": "manual:581961dd",
+    "paper_title": "383921d8_ajcn%2F78.4.773",
+    "design_classification": "randomized",
+    "design_rationale": "Participants meeting eligibility criteria were allocated to iron or placebo capsules using computer-generated random numbers (\"The women were randomly allocated to treatment groups on the basis of random numbers generated by the study data manager using a computerized algorithm\"), making this a double-blind placebo-controlled randomized trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was computer-generated and concealed by an off-site data manager who held the bottle code, but two baseline variables plausibly related to the birth-weight outcome (prepregnancy weight and initial ferritin) differed significantly between groups.",
+        "evidence_quote": "\"The women were randomly allocated to treatment groups on the basis of random numbers generated by the study data manager using a computerized algorithm... Despite randomization, the women who were assigned to the placebo group had significantly higher prepregnancy weight and initial iron stores than did the women who were assigned to the iron supplement group\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, clinic staff and laboratory analysts were blinded by identical placebo capsules and allocation was analysed as randomized, but adherence was only ~64%, 35 women declined after randomization, and from 28 wk most placebo-group women were switched to open iron (a protocol-specified co-intervention) so the analysis was complete-case rather than strict intention-to-treat.",
+        "evidence_quote": "\"WIC personnel, laboratory analysts, and patients were not aware of the type of capsules.\" ... \"Almost all the women received some supplemental iron during pregnancy.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Birth-weight data were missing for 22.5% (62/275) and third-trimester iron status for 28.7% of randomized women, with differential loss by gestational age at entry and race; although multiple imputation sensitivity analyses supported the findings, the magnitude of attrition in a trial whose key result rests on small event counts (5 vs 16 low-birth-weight infants) leaves substantial potential for bias.",
+        "evidence_quote": "\"Seventy-nine women (28.7%) were missing data on third-trimester iron status, 62 (22.5%) were missing data on infant birth weight, and 43 (15.6%) were missing data on both\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Haematologic outcomes were measured by blinded laboratory analysts with quality control, but birth weight and gestational age were abstracted from WIC program records with gestational age based on self-reported last menstrual period of unvalidated accuracy in this population.",
+        "evidence_quote": "\"the reporting of the last menstrual period has not been evaluated among women enrolled in WIC. It is possible that errors in reporting may have affected our estimates of gestational age\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The pre-specified primary outcome (anemia at 28 wk) was null, while birth weight/gestational age outcomes were added during the trial and reported in multiple operationalizations (low birth weight, preterm, term LBW, small-for-gestational age, residual birth weight, adjusted and imputed models), with no accessible protocol or registration to verify the analysis plan.",
+        "evidence_quote": "\"During the study, we added birth weight and gestational age as outcomes because of a need for more information on the functional consequences of iron supplementation during pregnancy\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although this was a properly randomized, double-blind, placebo-controlled trial with concealed allocation, it is at high overall risk of bias because of substantial and partly differential attrition (22\u201329% missing outcome data) and because the headline birth-weight benefits derive from outcomes added mid-study and analysed in many alternative forms after the pre-specified primary anemia outcome was null. Baseline imbalance in prepregnancy weight and ferritin, mid-trial switching of placebo women to open iron, and record-based/self-reported gestational age add further concerns."
+  },
+  {
+    "paper_id": "manual:96e8261b",
+    "paper_title": "8c6a83aa_jn.114.208678",
+    "design_classification": "randomized",
+    "design_rationale": "Pregnant women were \"randomly assigned 1:1 to receive daily iron (300 mg ferrous sulfate) or placebo + 0.40 mg folate,\" with allocation based on a random-number chart prepared by an independent statistician and capsule package numbering.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation sequence was generated by an independent statistician via random-number chart and concealed through identical numbered capsule packs, and baseline maternal/family characteristics and iron measures were similar between groups.",
+        "evidence_quote": "\"Taiyuan Satellite Pharmaceutical Co., Ltd. prepared equal quantities of iron or placebo capsules and folate capsules and assigned 4-digit package numbers beginning with 0001 according to a random-number chart prepared by a statistician who was not part of the study. Study participants, personnel, and investigators were unaware of supplement group.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind placebo-controlled design with intention-to-treat analysis, but co-intervention was permitted (clinicians could prescribe iron for anemia and women could buy over-the-counter iron regardless of group), and the extent of such use was only self-reported with incomplete data.",
+        "evidence_quote": "\"Physicians were free to use clinical judgment in treating anemic women... Women were free to obtain over-the-counter iron-containing supplements on their own, regardless of group assignment or whether or not they were anemic.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 31% of randomized women lacked outcome data (mainly because they delivered at non-participating hospitals), which is substantial; however attrition was similar in proportion and reason across groups and baseline iron status was similar for those with and without outcome data, mitigating but not eliminating concern.",
+        "evidence_quote": "\"Attrition affected the groups similarly both in proportion [31.8% (377 of 1186) in the placebo/folate group and 30.5% (362 of 1185) in the iron/folate group] and reason... the high drop-out rate is a limitation of the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory biomarkers (hemoglobin, ferritin, sTfR, ZPP/H, body iron) measured identically in both groups with standardized assays and quality control, with assessors blinded to allocation.",
+        "evidence_quote": "\"Study participants, personnel, and investigators were unaware of supplement group. The code was not broken until the study and primary analyses were completed... Both laboratories maintained standard quality-control procedures.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT02221752) and prespecified primary outcomes with a sample-size calculation, but registration appears retrospective (2014, after 2009\u20132011 enrollment), the protocol is not available, ID/IDA were operationalized in two alternative ways, and exploratory dose\u2013response and adjusted analyses were added post hoc.",
+        "evidence_quote": "\"This trial was registered at clinicaltrials.gov as NCT02221752.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This was a well-conducted double-blind, placebo-controlled randomized trial with concealed allocation, objective biomarker outcomes, and intention-to-treat analysis, but some concerns arise from ~31% attrition (balanced across groups), permitted off-study iron co-intervention with incomplete self-reported adherence data, and apparently retrospective registration with multiple outcome definitions. No single domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:3b3eeb9d",
+    "paper_title": "215d9610_MILIronPregDanMedBull199138471",
+    "design_classification": "randomized",
+    "design_rationale": "The authors explicitly state the trial was randomised, double-blind and placebo-controlled, with women allocated to ferrous fumarate (66 mg elemental iron/day) or placebo: \"The design of the study was randomised, double-blind, placebo controlled.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization and double-blinding are asserted and baseline characteristics appear comparable, but no details of sequence generation or allocation concealment are provided, so concealment cannot be verified.",
+        "evidence_quote": "The design of the study was randomised, double-blind, placebo controlled. ... The groups were comparable concerning age, height, weight, parity, and duration of pregnancy (Table 1)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind placebo design limits performance bias, but adherence differed markedly and significantly between arms (possibly reflecting side-effects or unblinding), and the analysis excluded 41 randomized women rather than following intention-to-treat.",
+        "evidence_quote": "The number of tablets consumed per person was mean 159 \u00b1 38 (SD) in the iron treated group and 93 \u00b1 43 in the placebo treated group (p < 0.001)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "17% of randomized women were excluded post-randomization on the basis of post-baseline events (complications, outcome of delivery), and the key iron-status/EPO outcomes were measured in only 120 of 207 women without explanation of how this subset was chosen or analysis of potential bias.",
+        "evidence_quote": "It included 248 females ... Of the 248 females, 20 placebo and 21 iron treated were excluded for the following causes: withdrawn consent, 10; uterine bleeding episodes, 5; ... The criteria for final inclusion were: healthy females with a normal single pregnancy and an uncomplicated delivery."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory assays measured identically in both groups under double-blind conditions, making assessor influence unlikely.",
+        "evidence_quote": "Hb and red cell volume (MCV) were determined on Coulter-S ... S-ferritin by a radioimmunoassay (Ferritin RIA Amersham), and S-EPO by radioimmunoassay (11)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or pre-registration is cited and multiple cut-offs, time points and outcome definitions are reported post hoc, raising the possibility of selective reporting of thresholds/analyses.",
+        "evidence_quote": "If iron deficiency anaemia was defined as S-ferritin \u226415 \u03bcg/l and Hb <110 g/l, 23% of the females were anaemic. If S-ferritin <12 \u03bcg/l and Hb <110 g/l were chosen as threshold values, 12% ..."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although this was a double-blind placebo-controlled randomized trial with objective laboratory outcomes and comparable baseline groups, the overall risk is high because of substantial post-randomization exclusions (41/248) based on pregnancy outcome and measurement of the main iron-status markers in only a 120/207 subset without justification. Additional concerns arise from unreported allocation concealment, markedly unequal tablet consumption between arms, and absence of a protocol with multiple post hoc outcome cut-offs."
+  }
+]

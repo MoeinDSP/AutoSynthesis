@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women with urinary incontinence, what is the effect on incontinence-related quality of life of a program combining indirect training exercises that are not pelvic floor muscle contractions (such as general core, hip, or trunk exercises) with direct pelvic floor muscle training (PFMT), compared with direct PFMT alone without an added indirect-training component?",
+  "treatment_label": "Indirect core, hip, or trunk exercise combined with direct PFMT",
+  "control_label": "Direct PFMT alone, with no added indirect-training component",
+  "outcome_description": "The single target outcome is incontinence-related quality of life, measured with a validated or study-defined quantitative incontinence-specific quality-of-life or life-impact instrument. Do not pool urinary-incontinence episode frequency, leakage amount, pad-test outcomes, pelvic-floor strength, subjective cure or improvement, satisfaction, or other outcomes. Where multiple eligible quality-of-life scales or time points are reported within a study, apply prespecified dependency rules (prefer the primary validated incontinence-specific measure and the primary/end-of-treatment time point, or use an appropriate multilevel/robust approach) so participants are not double-counted.",
+  "positive_direction": "A positive Hedges g means that adding indirect core, hip, or trunk training to direct PFMT improves incontinence-related quality of life more than direct PFMT alone.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "urinary incontinence women pelvic floor muscle training core exercise quality of life trial",
+    "female urinary incontinence PFMT hip trunk exercise controlled comparison quality of life",
+    "women incontinence pelvic floor training abdominal stabilization exercise quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of women with urinary incontinence that compare a treatment arm containing both direct PFMT and an added indirect exercise component (for example, general core, hip, abdominal, stabilization, or trunk exercise) with a control arm receiving direct PFMT alone and no added indirect component.",
+    "Studies reporting a quantitative measure of incontinence-related quality of life or incontinence-related life impact for both eligible groups at post-treatment or follow-up.",
+    "Any broadly relevant controlled study design, care setting, urinary-incontinence subtype, publication status, and language, provided the eligible intervention contrast and target outcome can be identified."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible treatment-versus-control comparison: this includes studies without direct PFMT alone as the control, indirect training alone without PFMT versus direct PFMT, or coordinated body-movement training performed with simultaneous pelvic-floor contraction versus direct PFMT.",
+    "No quantitative incontinence-related quality-of-life outcome data capable of producing an effect size, such as means and SDs, change-score statistics, t/F values, proportions, odds ratios, or equivalent statistics obtainable from authors.",
+    "Completely unrelated to women\u2019s urinary incontinence, direct PFMT, the specified added indirect-training intervention, or incontinence-related quality of life."
+  ],
+  "moderators_to_extract": [
+    "Urinary-incontinence type (stress, urgency, mixed, or unspecified)",
+    "Type of added indirect training (core/abdominal, hip, trunk/stabilization, multimodal)",
+    "Intervention dose and duration",
+    "Whether direct PFMT content and dose are matched between arms",
+    "Supervision and delivery format (supervised, home-based, or mixed)",
+    "Outcome timing/follow-up duration"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Use standardized mean differences corrected as Hedges g when eligible studies use different quality-of-life instruments. Before calculation, harmonize direction by reverse-signing instruments on which higher raw scores indicate worse quality of life, so positive effects consistently favor combined indirect training plus PFMT. Prefer adjusted between-group estimates when appropriately reported; otherwise use post-treatment values or change scores with suitable variance calculations. Account for multi-arm studies and multiple dependent estimates without double-counting the shared PFMT control, and use a random-effects model with heterogeneity and sensitivity analyses.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "incontinence-related quality of life"
+}

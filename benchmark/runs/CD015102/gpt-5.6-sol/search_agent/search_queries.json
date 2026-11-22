@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of prophylactic anticoagulants (low-molecular-weight heparin, rivaroxaban, apixaban, aspirin or similar given to prevent thrombosis), compared with placebo or no treatment, on adverse events in non-hospitalised adults with COVID-19, including outpatients and people after hospital discharge?  Effect measure: pool as a risk ratio (RR) using a random-effects model. RR > 1 means more adverse events with the anticoagulant.  Outcome: the number of participants who had at least one adverse event (events) out of the number randomised to each arm (total), during the follow-up period. - Use the trial's overall count of participants with adverse events of any type. If a trial reports only serious adverse events, or only bleeding events (major, clinically relevant non-major or any bleeding), use that count as the trial's adverse event outcome, and state which definition was used. If a trial reports several categories, prefer the broadest (\"any adverse event\"), and otherwise sum only categories that the paper defines as non-overlapping. - Count participants, not events. If a paper gives only the number of events (episodes), leave the trial out. - Do not use death, hospitalisation, venous thromboembolism or other efficacy outcomes as adverse events. - Use the number randomised as the denominator (intention-to-treat). If the paper's safety population is smaller, use the safety population only when the number randomised is not given, and say so. - Control: placebo or no anticoagulant (standard care). Exclude trials whose control is another anticoagulant or a different dose of the same anticoagulant. - Multi-arm trials: include the anticoagulant arm and the placebo/no-treatment arm; combine several anticoagulant doses into one group (sum events and participants). - Treat several PDFs of the same trial (a journal article and a publisher or repository copy of it) as one study. - Include only randomised controlled trials of non-hospitalised adults, including people after discharge. Exclude trials of hospitalised patients, and non-randomised studies.  Do not pool mortality, thrombosis, hospitalisation, symptom resolution or quality of life.",
+  "planned_search_queries": [
+    "COVID-19 outpatient anticoagulant randomized trial adverse events",
+    "post-discharge COVID-19 thromboprophylaxis controlled trial safety",
+    "COVID-19 ambulatory heparin rivaroxaban apixaban aspirin trial bleeding"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "COVID-19 outpatient prophylactic anticoagulation randomized trial adverse events",
+    "COVID-19 ambulatory antithrombotic controlled trial safety bleeding",
+    "COVID-19 post-discharge thromboprophylaxis randomized trial adverse events",
+    "COVID-19 outpatient heparin rivaroxaban apixaban aspirin placebo trial safety",
+    "non-hospitalized COVID-19 anticoagulant standard care trial serious adverse events bleeding"
+  ]
+}

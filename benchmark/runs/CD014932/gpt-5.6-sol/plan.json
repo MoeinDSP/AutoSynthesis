@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people with a dermatological condition, what is the effect of group educational interventions, compared with standard care only, on dermatology-related quality of life measured specifically using the DLQI, its age-appropriate infant/child variants, or the specified family variant included in the outcome definition?",
+  "treatment_label": "Group educational interventions",
+  "control_label": "Standard care only",
+  "outcome_description": "Dermatology-related quality of life measured using the Dermatology Life Quality Index (DLQI) or the eligible infant, child, and family variants encompassed by the review's specific 'all scales, infants, children, and family' outcome. Do not include other quality-of-life constructs, instruments, alternative DLQI subscales, or results from a different respondent that are outside this exact outcome definition. For Liang 2017, extract the separately reported child and infant age-stratified DLQI results as two distinct comparison rows; do not select one or average them together.",
+  "positive_direction": "A positive effect size means that group education produced better dermatology-related quality of life (that is, lower DLQI or eligible variant scores and less quality-of-life impairment) than standard care only.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "dermatology group education standard care DLQI trial",
+    "skin disease group educational intervention quality of life controlled comparison",
+    "dermatological condition patient education DLQI quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies involving people with any dermatological condition and evaluating a group-based educational intervention against standard care only.",
+    "Studies reporting quantitative dermatology-related quality-of-life outcomes using the DLQI or an eligible infant, child, or family variant that belongs to the specified 'all scales, infants, children, and family' outcome definition.",
+    "Studies providing, or permitting retrieval or derivation of, data for the intervention and control conditions at any eligible post-intervention follow-up."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between a group educational treatment condition and a standard-care-only control condition.",
+    "No quantitative outcome data that can produce an effect size, such as means and standard deviations, t/F-values, proportions, or odds ratios, and such data cannot be obtained from authors.",
+    "Completely unrelated to group education for dermatological conditions or not reporting the prespecified DLQI/eligible infant, child, or family quality-of-life outcome."
+  ],
+  "moderators_to_extract": [
+    "Dermatological diagnosis",
+    "Participant age group and corresponding DLQI variant/respondent",
+    "Educational intervention format, content, and intensity",
+    "Follow-up duration",
+    "Study design and unit of allocation",
+    "Comparator details and background standard care"
+  ],
+  "search_start_year": 1994,
+  "effect_size_note": "Orient all effects so positive values favor group education; because higher DLQI-family scores indicate worse quality of life, reverse the raw direction when necessary. Treat eligible instrument variants as measures of the same prespecified construct while retaining the exact scale and respondent in extraction. For Liang 2017, enter the child and infant age-stratified results as separate rows/comparisons within this outcome, without selecting one or averaging them; record their shared study identifier and account for dependence in synthesis (for example, with a multilevel/robust-variance model or an appropriate shared-control adjustment). Exclude other quality-of-life definitions, scales, DLQI subscales, or respondent versions not belonging to the specified 'all scales, infants, children, and family' outcome.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "dermatology-related quality of life (DLQI and eligible infant/child/family variants)"
+}

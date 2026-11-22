@@ -1,0 +1,416 @@
+[
+  {
+    "paper_id": "manual:9872b838",
+    "paper_title": "0d3cac6d_17511437211010031",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:1 through an online randomization service using site-stratified random permuted blocks of varying sizes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence generation was appropriately randomized and stratified, but concealment until assignment was not explicitly described and arm-specific baseline comparability was not reported in the article.",
+        "evidence_quote": "Patients were randomly assigned on a 1:1 basis (www. sealedenvelope.com) into either the conservative or control group, stratified by study site, using random permuted blocks of different sizes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Clinical and research teams were unblinded, the intervention was prematurely halted outside protocolized endpoints in 10 of 34 participants, and the control intervention was materially changed during recruitment, creating deviations that could affect clinical outcomes without a clearly reported intention-to-treat effect analysis.",
+        "evidence_quote": "The intervention was halted prematurely (outside of a protocolised reason to end the intervention period) in a total of 10 (29.4%) patients."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Survival follow-up was nearly complete, but the authors acknowledged substantial missing physiological data and only stated that no evidence of bias was detected without presenting the supporting analysis in the main text.",
+        "evidence_quote": "An additional limitation was what appeared to be a high degree of missing data in this study (Table e1 in the online supplementary information)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Feasibility and clinical outcomes were generally objective and analysis was blinded to coded allocation, but bedside care and data collection occurred in an unblinded trial and the authors explicitly recognized possible measurement-related bias from allocation knowledge.",
+        "evidence_quote": "Finally, the administration of oxygen therapy cannot be delivered in a blinded manner, therefore it is possible that knowledge of group allocation could have led to bias in the study results."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The protocol and statistical analysis plan were published before recruitment was completed, the primary feasibility outcomes were reported, and clinical outcomes were presented descriptively as planned, limiting scope for selective analysis or outcome reporting.",
+        "evidence_quote": "The trial protocol and statistical analysis plan were published prior to completion of participant recruitment."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial post-randomization deviations included premature intervention cessation in 29.4% of participants and a mid-trial change to the control condition in an unblinded setting. Additional concerns arise from incompletely documented allocation concealment and substantial missing physiological data."
+  },
+  {
+    "paper_id": "manual:e2cdfe18",
+    "paper_title": "15de55cc_jtd.2019.09.66",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned to low- versus high-SpO2 targets using a computerized random-number generator.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated and concealed in sequentially numbered opaque envelopes, but a significant baseline imbalance in respiratory failure and unequal group sizes raise some concern about the randomization process despite otherwise similar characteristics.",
+        "evidence_quote": "On inclusion, patients were randomized by a computerized random-number generator into a low SpO2 group or a high SpO2 group. The randomization sequence was concealed in sequentially numbered, closed, opaque envelopes that were opened after patient study inclusion."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients were blinded and an ITT analysis was used, but treating staff knew allocation, protocol-permitted co-interventions and withdrawal were possible, and the low-target group's mean SpO2 exceeded its predefined upper limit, indicating imperfect adherence.",
+        "evidence_quote": "The treating team was aware of the SpO2 target and adjusted the FiO2 accordingly, but the included patients were unaware of their treatment group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 214 randomized participants were included in the ITT mortality analysis, and weekly follow-up calls through day 28 were described, with no missing primary outcome data reported.",
+        "evidence_quote": "For the ITT analysis, data from 100 patients in the low SpO2 group and 114 patients in the high SpO2 group were used."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, 28-day mortality, is objective and was measured consistently through hospital records and post-discharge follow-up, so knowledge of treatment assignment was unlikely to influence ascertainment.",
+        "evidence_quote": "The primary outcome was 28-day mortality."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and analysis are clearly identified and a trial registration is mentioned, but no prospective registration details or prespecified statistical analysis plan for this pilot are provided, leaving uncertainty about selection among analyses, including the 72-hour subgroup analysis.",
+        "evidence_quote": "For all randomized patients, an intent-to-treat (ITT) analysis was used. A 72-hour subgroup analysis was also used for randomized patients who stayed in the ICU longer than 72 hours."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by a notable baseline imbalance despite adequate sequence generation and concealment, imperfect adherence in the low-SpO2 group with unblinded treating staff, and incomplete information about prospective prespecification. Missing mortality data and outcome measurement appear unlikely to introduce bias."
+  },
+  {
+    "paper_id": "manual:232fd708",
+    "paper_title": "0f4bf0e6_NEJMoa1903297",
+    "design_classification": "randomized",
+    "design_rationale": "This was a parallel-group randomized clinical trial using a computer-generated allocation sequence and a secure, centralized, Internet-based assignment interface.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, stratified by center, and implemented through a secure centralized web interface, with baseline characteristics reported as similar.",
+        "evidence_quote": "We randomly assigned patients to receive conservative oxygen therapy or usual oxygen therapy using a secure, centralized, Internet-based interface. The trial statistician generated the assignment sequence using computer-generated random numbers with variable-block randomization in a 1:1 ratio and stratification according to trial center."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Clinical staff knew treatment assignment and controlled other care, including weaning and extubation, so knowledge of oxygenation changes could influence management of the primary outcome, although treatment separation was achieved and analyses were intention-to-treat.",
+        "evidence_quote": "The trial-group assignment was known to clinical staff members but was not disclosed to the patients or their families. Other aspects of care, including ventilator weaning and extubation practices, were at the discretion of the treating clinician."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Although 35 randomized patients withdrew consent and were excluded, primary-outcome data were available for every participant remaining in the prespecified intention-to-treat population, making material bias from missing primary outcomes unlikely.",
+        "evidence_quote": "Consent was withdrawn by 35 patients, which left an intention-to-treat population of 965... Data regarding the primary outcome were available for the entire intention-to-treat population."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Ventilator-free days were objectively and identically defined across groups, but unblinded clinicians determined ventilator weaning and extubation, permitting treatment knowledge to influence the timing of the primary outcome.",
+        "evidence_quote": "Since we did not include mandates regarding weaning or extubation in the protocol, changes in the Fio, Spo, and Pao that occurred because of treatment assignment may have affected clinicians\u2019 decisions to wean and extubate particular patients."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary outcome and analysis were prespecified, and both the protocol and statistical analysis plan were publicly reported before enrollment was completed.",
+        "evidence_quote": "The statistical analysis plan was reported before the completion of enrollment."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the open-label intervention and clinician discretion over weaning and extubation, which could affect ventilator-free days. Randomization, primary-outcome completeness, and prespecified reporting were otherwise robust."
+  },
+  {
+    "paper_id": "manual:ce26df8c",
+    "paper_title": "13a79e55_NEJMoa1916431",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated by computer randomization in blocks of four, stratified by center, age, and severity of respiratory failure.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated with stratification and block randomization, and baseline characteristics were broadly balanced, but concealment of allocation until assignment was not described.",
+        "evidence_quote": "Randomization was stratified according to center, age (<45 years, 45 to 65 years, or >65 years), and severity of respiratory failure... Computer randomization was performed in blocks of four."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label, oxygen values often fell outside assigned targets, and differences in prone positioning, PEEP, and ventilation mode emerged, although analyses used a modified intention-to-treat population and the oxygen exposures remained separated.",
+        "evidence_quote": "This was an openlabel trial because of the impossibility of masking treatment assignments... However, differences emerged over the trial period. During the 7 protocol-specified days, there was less use of prone positioning and the PEEP level was slightly lower in the conservativeoxygen group than in the liberal-oxygen group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary 28-day mortality outcome was reported for all 201 participants retained in the analysis after four post-randomization exclusions for ineligibility or consent withdrawal, making outcome missingness negligible.",
+        "evidence_quote": "At day 28, mortality was not significantly different between the two groups (34 of 99 patients [34.3%] in the conservative-oxygen group and 27 of 102 patients [26.5%] in the liberal-oxygen group)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "All-cause death at 28 days is an objective outcome measured identically across groups and is unlikely to be influenced by the open-label design.",
+        "evidence_quote": "The primary outcome was death from any cause at 28 days after randomization among the patients, including those for whom care was limited or withdrawn."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A prospective registration, protocol, and statistical analysis plan existed, but the trial stopped early, changed from the planned one-sided approach to two-sided final testing, and reported additional adjusted mortality analyses, leaving some potential for analysis selection without direct protocol comparison.",
+        "evidence_quote": "The trial protocol and the statistical analysis plan, available with the full text of this article at NEJM.org... Contrary to the initial plan to perform an interim analysis after 425 patients had been enrolled, no interim analysis was conducted because the trial was stopped prematurely, and two-sided tests were performed in the final statistical analysis."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by unreported allocation concealment, the open-label design with differential co-interventions and imperfect target adherence, and some uncertainty about analysis selection after premature stopping. Missing primary-outcome data and outcome measurement were low risk."
+  },
+  {
+    "paper_id": "manual:132413df",
+    "paper_title": "efc46dfd_NEJMoa2032510",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized parallel-group trial using centralized randomization and a computer-generated, concealed allocation sequence with variable permuted blocks.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, centrally implemented, concealed until assignment, and stratified with variable block sizes; baseline characteristics were generally balanced, with no convincing evidence that randomization failed.",
+        "evidence_quote": "HOT-ICU was an investigator-initiated, multicenter, stratified, parallel-group clinical trial with centralized randomization and a computer-generated concealed assignment sequence, with permuted blocks of varying sizes, stratified according to trial site and the presence or absence of chronic obstructive pulmonary disease (COPD) or active hematologic cancer."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants and clinicians were necessarily unblinded, the oxygenation targets produced clear separation, co-interventions were similar, and outcomes were analyzed using a prespecified intention-to-treat approach with no evidence of outcome-affecting deviations attributable to trial context.",
+        "evidence_quote": "Because of the nature of the trial, clinicians and patients or their surrogates were aware of the trial-group assignments."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary mortality outcome was available for 98.6% of randomized participants, with similarly small amounts missing in each group, making material bias from missing outcomes unlikely.",
+        "evidence_quote": "We obtained 90-day mortality data regarding 2888 patients (98.6%), which included 1441 patients in the lower-oxygenation group and 1447 patients in the higher-oxygenation group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, all-cause death within 90 days, was objective, measured identically across groups, and supplemented by regional and national registry ascertainment, so knowledge of assignment was unlikely to influence measurement.",
+        "evidence_quote": "The primary outcome was death from any cause within 90 days after randomization."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The protocol and detailed statistical analysis plan were published before enrollment ended, the primary outcome and analysis were prespecified, and analyses and interpretation were conducted with oxygenation targets masked, providing little indication of selective reporting.",
+        "evidence_quote": "The trial protocol and the statistical analysis plan were published before the enrollment of the last patient in the trial."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias is low for the primary outcome of 90-day all-cause mortality. Randomization and concealment were robust, outcome data were nearly complete, mortality was objective, intention-to-treat analyses were prespecified, and there was no evidence that the unavoidable lack of participant and clinician blinding materially biased the result."
+  },
+  {
+    "paper_id": "manual:141a7bdb",
+    "paper_title": "0488a795_NEJMoa2208686",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly used individual random assignment through a Web-based system with random permuted blocks of sizes 2, 4, or 6, stratified by site.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A centralized Web-based system generated site-stratified random permuted blocks, and the reported baseline characteristics were well balanced, supporting an adequate randomization process with allocation not readily predictable before assignment.",
+        "evidence_quote": "Randomization was performed by means of a Web-based system using random permuted-block sizes of 2, 4, or 6 that were stratified according to site."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The open-label intervention achieved clear separation and outcomes were analyzed by intention to treat, but knowledge of assignment could have influenced co-interventions, particularly decisions about continued life-sustaining therapy, which could affect death and neurologic outcome.",
+        "evidence_quote": "Finally, the open-label nature of the trial may have biased choices regarding continued lifesustaining therapies, despite the use of a predefined algorithm for making such choices."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary-outcome data were available for nearly all randomized participants, with only two patients lost to follow-up and censored after days 12 and 13, making material bias from missing primary outcomes unlikely.",
+        "evidence_quote": "Two patients were transferred to hospitals outside Denmark with a loss of follow-up, and data for these patients were censored on days 12 and 13."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary composite used defined clinical outcomes and trained personnel, but the open-label design and lack of reported blinded outcome assessment could influence CPC classification at discharge and care-withdrawal decisions contributing to mortality.",
+        "evidence_quote": "Additional secondary outcomes were death from any cause, along with 90-day scores on the Montreal Cognitive Assessment, the modified Rankin scale, and the CPC, as determined by trained research personnel."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary outcome and analysis were prespecified in an available protocol and statistical analysis plan, the protocol was published before enrollment ended, and the reported site-adjusted Cox analysis matches the described plan.",
+        "evidence_quote": "The trial protocol was published before the enrollment of the last patient."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by the open-label design and the possibility that treatment knowledge influenced life-sustaining-care decisions or assessment of the neurologic component of the primary outcome. Randomization, primary-outcome completeness, intention-to-treat analysis, and prespecified reporting were otherwise robust."
+  },
+  {
+    "paper_id": "manual:7d1d4863",
+    "paper_title": "1f636277_rccm.201505-1019OC",
+    "design_classification": "randomized",
+    "design_rationale": "This was a parallel-group randomized trial using a third-party, computer-generated permuted-block sequence with variable block sizes and sequentially numbered, opaque, sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated by a third party with variable permuted blocks, concealed in sequentially numbered opaque sealed envelopes stored securely, and reported baseline differences were broadly compatible with chance.",
+        "evidence_quote": "Using a web-based computer program, a third party generated a randomization list for each site... Randomization number and the allocated arm were... inserted in a sequentially numbered opaque envelope... All envelopes were sealed and securely stored in a locked cabinet."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Treating clinicians and bedside nurses were unblinded and clinicians could alter oxygen targets, creating potential for intervention-related deviations or differential co-intervention, although adherence was generally good, only one crossover was reported, and intention-to-treat analysis was used.",
+        "evidence_quote": "Patients were unaware of their assigned group but blinding of treating clinicians was not considered feasible... The treating intensive care physician could alter oxygenation targets at any time if deemed necessary... Analysis was conducted on an intention-to-treat basis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only one of 104 randomized participants withdrew consent and was excluded, while all remaining 103 participants were followed through day 90, so missing outcome data were minimal.",
+        "evidence_quote": "One patient in the conservative arm withdrew consent, and was excluded. The remaining 103 patients were followed up to day 90."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The principal outcomes were objective oxygenation and ventilator measurements collected on a standardized schedule and assessed using pulse oximetry and blood-gas methods, making bias from unblinded assessment unlikely despite unblinded clinicians.",
+        "evidence_quote": "Our study endpoints were objective, and a priori specified criteria were used to assess secondary outcomes... We tried to minimize ascertainment bias by collating data on oxygenation levels measured with two independent methods."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, and the analysis plan, data-presentation outline, outcomes, and subgroup analysis were reported as prespecified, with post hoc analyses explicitly labeled.",
+        "evidence_quote": "The study was prospectively registered (ACTRN12613000505707)... Analysis plan and outline of data presentation were pre-specified and reported on the trial registration page."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by the unblinded delivery of oxygen targets and clinician discretion to alter targets, which could permit deviations or differential co-interventions. Randomization and concealment were robust, missing data were minimal, outcomes were largely objective, and analyses were prespecified and intention-to-treat."
+  },
+  {
+    "paper_id": "manual:7d7b3f91",
+    "paper_title": "5f9b8fe6_s00134-018-5453-9",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 123 patients were randomly assigned in a prospective 2\u00d72\u00d72 factorial trial to one of eight combinations of PaCO2, PaO2, and MAP targets.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is explicit and reported baseline characteristics were broadly comparable, but the available article defers sequence generation and allocation-concealment details to the supplement, so concealment cannot be confirmed from the supplied text.",
+        "evidence_quote": "A total of 123 unconscious, mechanically ventilated patients resuscitated from OHCA were randomly assigned to intervention targets of low-normal or high-normal PaCO2, normoxia or moderate hyperoxia and low-normal or high-normal mean arterial pressure (MAP)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Treating personnel necessarily knew allocation, and co-interventions such as ventilation mode, temperature target, and sedation were partly clinician-directed; target separation was achieved, but the supplied text does not clearly report intention-to-treat analysis or enough information to exclude allocation-related deviations.",
+        "evidence_quote": "The study intervention could not be blinded; thus, the treating personnel were aware of the study group allocations."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary outcome was missing for only one of 120 analyzed participants, making bias from missing primary-outcome data unlikely, although three of 123 randomized patients were not included in analyses.",
+        "evidence_quote": "In total 120 patients were included in the analyses."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was an objective serum NSE laboratory measurement at a fixed time point, and the same laboratory kits were used across countries, making differential measurement by intervention assignment unlikely.",
+        "evidence_quote": "However, to minimise a possible bias resulting from technical issues, the same laboratory kits for NSE and S100B evaluation were used in both Finland and Denmark."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, its protocol and statistical-analysis plan were published before results, and the primary outcome and prespecified secondary outcomes are clearly identified, limiting scope for selective reporting.",
+        "evidence_quote": "First, the study protocol, including the plan for the statistical analysis, had been previously published [23]."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by unavailable details on sequence generation/allocation concealment and the open-label intervention with incompletely reported protection against allocation-related deviations. Missing primary-outcome data were minimal, measurement was objective, and prospective protocol/analysis-plan publication reduced reporting-selection concerns."
+  },
+  {
+    "paper_id": "manual:0237cddd",
+    "paper_title": "e9f0c3bd_S2213-2600%2817%2930046-2",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized 2\u00d72 factorial trial using a computer-generated allocation sequence with stratification and randomly sized permuted blocks.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer generated, stratified, used randomly sized permuted blocks, and was implemented through a secure web system; the limited saline-group baseline imbalances are compatible with chance and adjusted analyses did not alter the mortality result.",
+        "evidence_quote": "Participants were randomly assigned to one of the four groups of the study... with a 1:1:1:1 allocation as per a computer generated randomisation list stratified by site and presence or absence of ARDS by use of permuted blocks of random sizes... The attribution of a given therapeutic package to a patient in accordance to the randomisation list was done with a web-based secured randomisation system."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The hyperoxia comparison was open label and clinicians controlled co-interventions, while sodium monitoring could partly reveal saline assignment and led to much more frequent protocol discontinuation in the hypertonic arm; although these deviations were protocol-directed and analysis was intention-to-treat, their potential effect cannot be fully excluded.",
+        "evidence_quote": "The study used a two-by-two factorial design, with one open-labelled factor (hyperoxia) and one double-blinded factor (hypertonic saline)... the protocol was stopped in 84 patients whose plasma sodium concentration had reached more than 155 mmol/L or had increased by more than 12 mmol/L (compared with nine patients in the isotonic saline group; p<0\u00b70001)... We did the analyses on data from the intention-to-treat population."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Day-28 mortality was available for 434 of 442 randomized patients, with the eight exclusions attributable to absence of consent for data use and balanced final comparison groups, making material bias from missing outcomes unlikely.",
+        "evidence_quote": "28 day mortality was recorded for 434 patients... We did the analyses on data from the intention-to-treat population, defined as all randomly assigned patients, except patients with no consent for data use."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was all-cause death at day 28, an objective outcome measured identically across groups and unlikely to be influenced by the open-label oxygen intervention.",
+        "evidence_quote": "The primary endpoint was death from any cause at day 28 after inclusion."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary outcome, intention-to-treat estimand, interim analyses, and principal Cox-model analysis were prespecified in a registered trial and statistical analysis plan, with the final analysis conducted before code breaking.",
+        "evidence_quote": "The primary endpoint was mortality at day 28 after randomisation in the intention-to-treat population. This study was registered with ClinicalTrials.gov, number NCT01722422... the final analysis with 434 patients... before breaking the randomisation code, in line with... our statistical analysis plan."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the open-label hyperoxia intervention and differential protocol discontinuation in the saline comparison, which could permit intervention-related deviations despite intention-to-treat analysis. Randomization, primary-outcome completeness and measurement, and prespecified reporting were otherwise robust."
+  }
+]

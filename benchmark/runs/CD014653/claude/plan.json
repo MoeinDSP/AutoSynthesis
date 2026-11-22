@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of structured exercise training (aerobic, resistance, combined or other structured exercise, delivered during or between dialysis sessions), compared with no exercise/usual care or placebo (sham/stretching) exercise, on lower-limb functional strength measured by the timed five-repetition sit-to-stand test (seconds) in adults receiving maintenance haemodialysis or peritoneal dialysis?",
+  "treatment_label": "Structured exercise training (aerobic, resistance, combined or other; intradialytic or interdialytic)",
+  "control_label": "No exercise / usual care or placebo (sham or stretching) exercise",
+  "outcome_description": "Time in seconds to complete the five-repetition (or five-to-ten repetition) timed sit-to-stand test at the end of the exercise intervention, extracted as mean, SD and number of participants per arm. End-of-intervention values preferred; change-from-baseline (mean change and SD of change) used for both arms if only those are reported. SE/SEM converted to SD (SD = SE \u00d7 \u221an). Repetition-count tests (30-second or 60-second sit-to-stand), timed up-and-go and six-minute walk test are not this outcome.",
+  "positive_direction": "A positive effect favours exercise: participants in the exercise group complete the five-repetition sit-to-stand test in less time (shorter seconds = better lower-limb functional strength) than controls. In raw mean-difference terms this corresponds to MD < 0 seconds (exercise minus control).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "intradialytic exercise training randomized controlled trial sit-to-stand test hemodialysis",
+    "resistance or aerobic exercise dialysis patients physical function five repetition sit to stand seconds trial",
+    "peritoneal dialysis exercise program lower limb muscle strength functional capacity randomized trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults receiving maintenance dialysis (haemodialysis or peritoneal dialysis), including theses/dissertations reporting a randomised trial",
+    "Compares a structured exercise training programme (any mode, during or between dialysis sessions) with no exercise/usual care or placebo (sham/stretching) exercise",
+    "Reports quantitative data for a timed sit-to-stand test measured in seconds (five-repetition or five-to-ten repetition), e.g. mean and SD/SE per arm or statistics convertible to an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, protocol or purely theoretical paper)",
+    "No comparison between an exercise condition and a non-exercise/placebo control condition (e.g. control group performs a different active exercise or receives another active intervention), or non-randomised design",
+    "No quantitative outcome data permitting effect-size computation for the timed sit-to-stand test in seconds (e.g. only 30-second/60-second repetition counts, only p-values without means/SDs/SEs or n per arm)",
+    "Population unrelated to the research topic (kidney transplant recipients, non-dialysis chronic kidney disease, paediatric samples) or outcome unrelated to lower-limb sit-to-stand performance"
+  ],
+  "moderators_to_extract": [
+    "Exercise modality (aerobic, resistance, combined, other)",
+    "Delivery timing (intradialytic vs interdialytic/home-based)",
+    "Programme duration in weeks and session frequency",
+    "Control type (usual care/no exercise vs placebo/sham or stretching)",
+    "Dialysis modality (haemodialysis vs peritoneal dialysis) and mean age",
+    "Sample size category and outcome data type (end value vs change score)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as raw mean difference (MD) in seconds with a random-effects model (DerSimonian-Laird or REML), reported as exercise minus control; negative MD favours exercise. Use end-of-intervention means and SDs; if only change scores are available use change mean and SD of change for both arms and flag it. Convert SE/SEM to SD using SD = SE \u00d7 \u221an, checking table footnotes for whether \"\u00b1\" denotes SD or SE. Combine multiple exercise arms into a single exercise group (pooled means/SDs, summed n) and use a shared control group only once to avoid double counting.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Timed five-repetition sit-to-stand test (seconds)"
+}

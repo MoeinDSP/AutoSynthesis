@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children in low- and middle-income countries, what is the effect of mobile phone reminders sent to parents or caregivers\u2014SMS text messages, live phone calls, and/or automated voice calls\u2014compared with routine immunisation care without reminders on receipt of the third dose of a DTP-containing vaccine (DTP3/DPT3/pentavalent-3/Penta-3)? Include individually randomised and cluster-randomised controlled trials and pool crude intention-to-treat risks using a random-effects risk ratio.",
+  "treatment_label": "Mobile phone reminders to parents or caregivers (SMS text messages and/or live or automated voice calls) without incentives or other co-interventions",
+  "control_label": "Routine immunisation care without mobile phone reminders",
+  "outcome_description": "Binary receipt/completion of the third dose of a DTP-containing vaccine (DTP3/DPT3/pentavalent-3/Penta-3): number vaccinated out of all participants randomised or enrolled in each eligible arm at the study's main follow-up assessment for that dose. Prefer overall receipt/completion over timeliness or absence of delay; if doses are reported separately, use only dose 3 or completion of all three doses. Extract crude arm-level event counts and intention-to-treat totals. Convert reported percentages to counts using the randomised arm denominator when necessary. For cluster-randomised trials, retain the crude event data and record clustering information for appropriate variance adjustment.",
+  "positive_direction": "A positive treatment effect (RR greater than 1) means that more children received DTP3/Penta-3 in the mobile-reminder arm than in routine care, favouring reminders.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "mobile phone SMS reminder childhood DTP3 vaccination randomized trial",
+    "text message phone call reminder pentavalent vaccine controlled trial children",
+    "caregiver mobile reminder DPT3 immunisation randomised LMIC"
+  ],
+  "inclusion_criteria": [
+    "Original individually randomised or cluster-randomised controlled trials conducted in a low- or middle-income country and comparing an eligible mobile phone reminder arm with routine immunisation care without reminders.",
+    "Interventions consisting of SMS text reminders, live telephone-call reminders, automated voice-call reminders, or a combination of these, directed to a child's parent or caregiver without monetary incentives or other substantive co-interventions in the selected treatment arm.",
+    "Studies reporting quantitative arm-level data on overall receipt or completion of DTP3/DPT3/pentavalent-3/Penta-3 at the main follow-up, sufficient to derive vaccinated events and intention-to-treat totals."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers; also exclude non-randomised studies and controlled before-after studies.",
+    "No comparison between an eligible reminder treatment condition and a no-reminder routine-care control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as arm-level events and totals, percentages with denominators, means plus SDs, t/F statistics, proportions, or odds ratios; for this review, exclude reports from which crude DTP3 receipt risks cannot be recovered and do not substitute adjusted odds ratios, logistic-regression estimates, or cluster-adjusted GEE risk ratios for available raw counts.",
+    "Completely unrelated to mobile reminders for childhood DTP3-containing vaccination, or reporting only excluded outcomes such as measles, BCG, OPV, yellow fever, fully immunised/all scheduled vaccines, timeliness or delay, or costs; also exclude reminder arms bundled with monetary incentives, education, or other substantive co-interventions when no reminder-only contrast is available."
+  ],
+  "moderators_to_extract": [
+    "Reminder modality (SMS, live call, automated voice call, or combined mobile modalities)",
+    "Randomisation unit and design (individual versus cluster randomised)",
+    "Country and World Bank income classification at the time of the study",
+    "Reminder schedule and intensity (number, timing, and frequency of contacts)",
+    "Age or vaccination status at enrolment and age/time point at the main DTP3 follow-up",
+    "Risk-of-bias domains and control-group DTP3 receipt rate"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool crude intention-to-treat risk ratios using a random-effects model, with RR = (DTP3 recipients/all randomised in the reminder arm) divided by (DTP3 recipients/all randomised in routine care). Extract raw events and totals; when only percentages are given, derive counts from the number randomised in that arm using transparent rounding and sensitivity checks if ambiguous. Prefer all randomised/enrolled denominators over per-protocol or follow-up-only denominators. Use the study's primary/main assessment for overall receipt of dose 3 (for example, by 14 or 18 weeks or by 6 or 12 months), not timely receipt when overall receipt is available. In multi-arm trials, include only a reminder-only arm and the no-reminder routine-care arm; ignore incentive-combination, education-only, and other co-intervention arms. Do not convert odds ratios. For cluster trials, use crude risks but adjust the sampling variance for clustering using a reported ICC/design effect or an externally justified ICC in sensitivity analysis; avoid treating individuals as independently randomised. If multiple eligible reminder-only arms share one control, combine eligible reminder arms when clinically appropriate or split the control denominator/events to avoid double counting. Assess heterogeneity with tau-squared, I-squared, and a prediction interval when feasible; use sensitivity analyses for cluster adjustments, imputed counts, and high risk of bias. Assess small-study effects with funnel-plot methods only when enough studies are available. Follow PRISMA 2020 for searching, deduplication, dual screening, extraction, risk-of-bias assessment, study-flow reporting, and synthesis documentation.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "receipt of the third dose of a DTP-containing vaccine"
+}

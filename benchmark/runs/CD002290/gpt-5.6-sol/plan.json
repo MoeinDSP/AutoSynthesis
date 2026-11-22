@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children with steroid-sensitive nephrotic syndrome, what is the effect of rituximab compared with tacrolimus on the risk of relapse by 12 months after randomization?",
+  "treatment_label": "Rituximab",
+  "control_label": "Tacrolimus",
+  "outcome_description": "Binary occurrence of nephrotic syndrome relapse by 12 months after randomization, based on each trial's reported relapse events and total number randomized in each arm; extract trial definitions of relapse and the exact assessment window.",
+  "positive_direction": "For directionally harmonized effects, a positive standardized effect would mean fewer relapses and therefore favor rituximab; for the requested Risk Ratio, RR < 1 favors rituximab and RR > 1 favors tacrolimus.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "rituximab tacrolimus children steroid-sensitive nephrotic syndrome trial relapse",
+    "pediatric steroid-sensitive nephrotic syndrome rituximab tacrolimus controlled comparison",
+    "childhood nephrotic syndrome rituximab versus tacrolimus randomized relapse outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of children or predominantly pediatric participants with steroid-sensitive nephrotic syndrome that compare rituximab with tacrolimus.",
+    "Studies reporting relapse status or relapse events at, or sufficiently close to, 12 months after randomization.",
+    "Studies providing quantitative data from which a 12-month relapse Risk Ratio can be calculated, including relapse-event counts and randomized totals by arm."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between a rituximab treatment condition and a tacrolimus control condition.",
+    "No quantitative outcome data capable of producing an effect size; eligible information includes means and SDs, t/F-values, proportions, odds ratios, or, for the planned primary analysis, relapse events and totals by arm.",
+    "Completely unrelated to rituximab versus tacrolimus for pediatric steroid-sensitive nephrotic syndrome."
+  ],
+  "moderators_to_extract": [
+    "Nephrotic syndrome subtype and baseline relapse pattern, such as frequently relapsing or steroid-dependent disease",
+    "Participant age and sex distribution",
+    "Rituximab dose, number of infusions, and retreatment protocol",
+    "Tacrolimus dose, target trough concentration, and treatment duration",
+    "Concomitant corticosteroid or other immunosuppressive therapy and tapering regimen",
+    "Trial design, follow-up timing, relapse definition, and risk-of-bias domain ratings"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool trial-level Risk Ratios using relapse events by 12 months as the numerator and total randomized per arm as the denominator, preserving the randomized groups under an intention-to-treat principle where possible. Calculate RR = [events in rituximab / randomized to rituximab] / [events in tacrolimus / randomized to tacrolimus], with RR < 1 favoring rituximab. Use the assessment nearest to 12 months when an exact 12-month result is unavailable, document any allowable window, avoid double-counting multiple reports of the same trial, and prespecify a continuity-correction approach for zero-event cells, with sensitivity analysis for trials with zero events in both arms.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "relapse by 12 months"
+}

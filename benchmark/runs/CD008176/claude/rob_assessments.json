@@ -1,0 +1,324 @@
+[
+  {
+    "paper_id": "manual:ee750440",
+    "paper_title": "93320b1d_01.cir.0000050628.11305.30",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states a \"prospective, randomized, placebo-controlled trial\" in which \"Hemodialysis patients were randomly assigned either to receive acetylcysteine or placebo,\" so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no detail is given on sequence generation or allocation concealment (and the unequal group sizes, 64 vs 70, are unexplained), although reported baseline characteristics appear balanced.",
+        "evidence_quote": "\"Hemodialysis patients were randomly assigned either to receive acetylcysteine or placebo.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label despite being described as placebo-controlled, so patients and treating physicians knew the assignment and could differentially alter co-interventions (e.g., referral for angioplasty), though an intention-to-treat analysis was used and no adherence/crossover data are reported.",
+        "evidence_quote": "\"One limitation of the present study is that it was not blinded.\"; \"All analyses were based on the intention-to-treat principle.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No participant flow diagram, withdrawals, losses to follow-up, or transplantation/transfer numbers are reported, and follow-up was highly variable (1 to 24 months), so completeness of outcome data cannot be verified even though all 134 randomized patients appear in the analysis tables.",
+        "evidence_quote": "\"Median (range) follow-up was 14.5 (1 to 24) months.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "In an unblinded trial the composite primary end point includes judgment-dependent components (need for coronary angioplasty/bypass, angioplasty or amputation for peripheral vascular disease) adjudicated by treating physicians aware of allocation, and the significant composite effect was not accompanied by effects on hard end points such as death, raising substantial detection-bias concern.",
+        "evidence_quote": "\"Deaths were classified by the treating physician and reviewed by a member of the medical monitoring committee independently of the end point analysis.\"; \"One limitation of the present study is that it was not blinded.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol is cited; the primary composite and power calculation are described a priori, but both unadjusted and post hoc adjusted analyses and an unplanned subgroup oxidized-LDL measurement (\"Nine months after the start of the study\") are reported, leaving some potential for selective reporting.",
+        "evidence_quote": "\"Analysis was repeated by Cox proportional-hazards regression with adjustment for age, baseline systolic and diastolic blood pressure, smoking, medications, and months of hemodialysis.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the unblinded design combined with a composite primary end point containing subjective, physician-determined components (revascularization/amputation decisions) adjudicated by non-blinded treating physicians. Additional concerns arise from undescribed sequence generation and allocation concealment, unreported participant flow/attrition, and absence of a registered protocol."
+  },
+  {
+    "paper_id": "manual:ece294d9",
+    "paper_title": "b86b3f97_j.1523-1755.2004.00513.x",
+    "design_classification": "randomized",
+    "design_rationale": "The report is a post-hoc subgroup analysis of the HOPE trial, in which \"9541 patients at high risk for cardiovascular events were randomly allocated to natural source vitamin E 400 IU/day, or placebo\" in a 2x2 factorial, placebo-controlled design; the subgroup comparison (vitamin E vs placebo within renal insufficiency) therefore retains random allocation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Participants were randomly allocated to vitamin E or placebo in a factorial, placebo-controlled design, analyses were stratified by the ramipril randomization, and the 499 vs 494 subgroup arms were well balanced across ~25 baseline characteristics (all P > 0.06), consistent with chance; the subgroup was defined by a baseline variable (serum creatinine) measured before randomization and specified \"prior to beginning this post-hoc analysis\".",
+        "evidence_quote": "\"Baseline characteristics of the HOPE study participants with renal insufficiency in the vitamin E and placebo groups were similar (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial used a matched placebo (participants and carers blinded), reported high and comparable compliance between arms, and the analysis was intention-to-treat with all randomized subgroup participants included.",
+        "evidence_quote": "\"Only data from the original intention-to-treat analysis [13] were used for this report.\" ... \"Compliance with study drug was high and similar in patients randomized to active vitamin E and placebo [13].\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Cardiovascular outcome data were essentially complete (vital status in 100% and 99.9% of the two arms), but the renal/albuminuria outcome was missing for roughly a third of participants, with reassurance about comparability only asserted as unshown data.",
+        "evidence_quote": "\"urine albumin values at study end were missing in about a third of the population because of death or missing values. It may be argued that those with missing values could be those with worse renal outcomes. However, baseline characteristics of those with and without missing values were identical (data not shown).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective, hard clinical endpoints (MI, stroke, death) with pre-defined definitions and central adjudication under a blinded placebo-controlled design, assessed identically in both arms; local laboratory creatinine measurement is non-differential across randomized arms.",
+        "evidence_quote": "\"Results of these measurements were sent to the project office and all cases of overt nephropathy were adjudicated centrally.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The analysis is explicitly post-hoc and not pre-specified in the trial protocol, the renal-insufficiency cut-point was chosen by the authors, and numerous primary, secondary and \"other\" outcomes are reported without reference to a registered analysis plan for this subgroup, although the uniformly null findings reduce the likelihood that results were selected for significance.",
+        "evidence_quote": "\"This publication refers to post-hoc analyses restricted to 993 participants with documented renal insufficiency at baseline.\" ... \"In the present post-hoc analysis we tested the hypothesis that the subgroup with mild-to-moderate renal insufficiency benefited from vitamin E supplementation\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The underlying HOPE trial was well-randomized, double-blind, placebo-controlled with intention-to-treat analysis, complete ascertainment of hard cardiovascular outcomes and central adjudication (D1, D2, D4 low). Overall risk is \"some concerns\" because this report is an explicitly post-hoc, non-pre-specified subgroup analysis with multiple reported outcomes (D5) and substantial missing end-of-study albuminuria data for the renal outcome (D3)."
+  },
+  {
+    "paper_id": "manual:b81f4932",
+    "paper_title": "cae63a75_j.ajkd.2007.05.001",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation to vitamin E or identical placebo: \"Patients were assigned to treatment based on a random-number-generation protocol performed by the hospital pharmacy at the time of dispensing treatment or placebo,\" with a CONSORT flow diagram of 34 randomly assigned subjects.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was genuinely random and concealed (pharmacy-controlled dispensing separate from the enrolling investigators), but notable baseline imbalances in sex (8/5 vs 4/10), race (10/3 vs 14/0) and in baseline pentosidine/ONE levels \u2014 acknowledged by the authors as \"imbalance between the randomized groups\" \u2014 raise some concern given the very small sample.",
+        "evidence_quote": "\"Patients were assigned to treatment based on a random-number-generation protocol performed by the hospital pharmacy at the time of dispensing treatment or placebo. Participants were enrolled by the study investigators and assigned to treatment or placebo by the dispensing hospital pharmacy.\" ... \"there is evidence of imbalance between the randomized groups, particularly for the glycoxidation product pentosidine\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding with identical placebo capsules makes performance-related deviations unlikely, but no adherence/pill-count data are reported and the analysis was restricted to the 27 completers rather than intention-to-treat on all 34 randomized participants.",
+        "evidence_quote": "\"Investigators and patients were blinded to treatment with vitamin E (\u03b1-tocopherol, 800 IU) or identical placebo capsules to be administered daily until the end of the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "7 of 34 randomized patients (~21%) were excluded from the longitudinal analysis for reasons plausibly related to the outcome (death, myocardial infarction, thrombotic events in a highly oxidative-stress population), the dropouts are not reported by arm, and no sensitivity or imputation analysis was performed to show results were unaffected by missingness.",
+        "evidence_quote": "\"Thirty-four subjects were included in baseline data analyses, and 27 subjects were studied longitudinally for at least 6 months.\" ... \"only the 27 individuals with complete data at 0, 3, and 6 months were included.\" ... \"Patients left the study because of death, transplantation, or initiation of anticoagulant therapy.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory biomarkers (HPLC and ELISA) measured identically in both arms in a single laboratory with reported intra-/inter-assay coefficients of variation, and assessors were blinded to allocation, so measurement bias is unlikely.",
+        "evidence_quote": "\"Clinical parameters and routine clinical chemistry and hematology testing were performed in a single reference clinical laboratory.\" ... \"Intra-assay coefficients of variation were 0.039 for \u03b1-tocopherol and 0.041 for \u03b3-tocopherol, and interassay coefficients were 0.078.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number, protocol, or pre-specified primary outcome/analysis plan is cited; multiple biomarker outcomes, exploratory baseline correlations and subgroup analyses are reported, several only as \"data not shown\", indicating flexibility in analysis and selective presentation.",
+        "evidence_quote": "\"We explored relationships between levels of these products at baseline and during the course of 6 months of treatment to develop hypotheses about the relationship between levels of oxidation products and factors known to influence oxidation in the clinical setting.\" ... \"There were no differences between patients with and without diabetes with respect to circulating oxidative protein modification levels at baseline or during the course of the study (data not shown).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by missing outcome data: 7 of 34 randomized patients (~21%) were excluded from the 6-month longitudinal analysis for reasons plausibly related to the outcome (death, transplantation, anticoagulation, thrombotic/cardiac events), without per-arm reporting or sensitivity analysis. This is compounded by some concerns in the randomization domain (acknowledged baseline imbalance in sex, race and pentosidine in a 13-vs-14 sample), a completers-only rather than intention-to-treat analysis, and the absence of a registered protocol or pre-specified primary outcome amid multiple biomarker and exploratory analyses; outcome measurement by blinded, well-characterized laboratory assays was at low risk."
+  },
+  {
+    "paper_id": "manual:060014c7",
+    "paper_title": "87f0a10d_ndt%2Fgfs170",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"Blocked randomization with a fixed block size of four was performed by one of the investigators who had no clinical involvement in the study using Random Allocation Software\", allocating 80 HD patients 1:1 to selenium or placebo in a double-blind, placebo-controlled parallel trial (NCT01147354).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated blocked randomization by an investigator with no clinical involvement, allocation concealed via identical prepacked numbered bottles, and no significant baseline differences reported.",
+        "evidence_quote": "\"Blocked randomization with a fixed block size of four was performed by one of the investigators who had no clinical involvement in the study using Random Allocation Software ... All selenium and placebo capsules were provided by Shiraz School of Pharmacy in prepacked bottles numbered for each patient according to the randomization sequence.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, clinicians and staff were blinded with indistinguishable placebo, but although an intention-to-treat analysis was stated, 15 randomized patients (11 selenium, 4 placebo) were \"excluded\" during the treatment phase and apparently not analysed, which is inconsistent with ITT; adherence/compliance monitoring is not reported.",
+        "evidence_quote": "\"All of the patients, clinical investigators, including the one who administered SGA questionnaires, and other health care staff were blinded to the treatment assignment.\" / \"during the treatment phase of the study, 11 patients were excluded in the selenium group and 4 in the placebo group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data appear missing for 15/80 (19%) randomized patients with marked imbalance between arms (11 selenium vs 4 placebo, including deaths and withdrawals), no imputation or sensitivity analysis is reported despite the claim of an ITT analysis, and the differential loss could plausibly be related to the intervention and to nutritional status.",
+        "evidence_quote": "\"during the treatment phase of the study, 11 patients were excluded in the selenium group and 4 in the placebo group. The reasons for these exclusions are mentioned in the flow diagram.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "SGA/MIS are validated in HD patients and were applied by the same blinded assessor at both time points, but the primary outcome is a subjective, partly interviewer-administered score collected by a single unblinded-to-hypothesis main investigator, and selenium status was never measured to verify intervention delivery.",
+        "evidence_quote": "\"the questions of the SGA questionnaire were read to the patients and completed in person by the main investigator of this study who is an experienced nutritionist ... The main limitation of our study ... is the lack of the selenium measurement at the baseline and at the end of the treatment phase.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT01147354) with an accessible protocol, a single pre-specified primary outcome (change in SGA score) was stated a priori, and all measured secondary parameters are reported including null findings.",
+        "evidence_quote": "\"The primary outcome of this trial was an absolute change in nutritional statuses of patients measured by the SGA score ... This trial is registered with Clinicaltrial.gov, number NCT01147354, where the trial protocol could be accessed.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Randomization, allocation concealment, blinding and pre-registration were well handled, but ~19% of randomized participants were excluded after allocation with a nearly three-fold imbalance between arms (11 selenium vs 4 placebo) and no ITT/sensitivity analysis despite the stated ITT intent. This differential attrition, compounded by a subjective single-assessor primary outcome and no verification of selenium levels, drives an overall high risk of bias."
+  },
+  {
+    "paper_id": "manual:d329f57d",
+    "paper_title": "9096f175_NEJMoa1306033",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 2185 patients to bardoxolone methyl or placebo in a phase 3, randomized, double-blind, parallel-group trial: \"Randomization was stratified according to study site with the use of variable-sized blocks.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Site-stratified, variable-block randomization with concealment of allocation from all parties, and baseline characteristics (age, eGFR, cardiovascular history, albuminuria) were closely balanced across the 1088 vs 1097 arms, consistent with chance.",
+        "evidence_quote": "\"Randomization was stratified according to study site with the use of variable-sized blocks. The steering committee, sponsor, investigators, and trial participants were unaware of the group assignments.\" ... \"There were no significant between-group differences at baseline.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, investigators and sponsor were blinded to an identical placebo comparator and all randomized patients were analysed by intention-to-treat; although drug exposure was shorter and discontinuation more frequent in the bardoxolone arm (and characteristic pharmacologic effects such as weight loss could partly unblind), these are consequences of the intervention rather than deviations biasing the effect of assignment, and co-interventions were left to usual physician discretion in both arms.",
+        "evidence_quote": "\"We collected and analyzed all outcome data in accordance with the intention-to-treat principle.\" ... \"double-blind, parallel-group, international, multicenter trial\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome ascertainment appears near-complete for the hard time-to-event endpoints with ITT analysis, but the trial was halted early by the DSMB (median follow-up only 9 months, 46% of planned events) and participant disposition/loss-to-follow-up numbers are reported only in an unavailable supplement, so the extent and balance of censoring and of missing longitudinal eGFR/weight data cannot be verified from the main text.",
+        "evidence_quote": "\"The statistical analysis plan defined the study period as the number of days from randomization to a common study-termination date.\" ... \"Figure S2 in the Supplementary Appendix shows the disposition of the study participants.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary composite (ESRD or cardiovascular death) and secondary cardiovascular outcomes were objective, prespecified, and centrally adjudicated by a committee blinded to assignment, with identical ascertainment schedules in both groups.",
+        "evidence_quote": "\"The events-adjudication committee, whose members were unaware of the study assignments, evaluated whether ESRD events, cardiovascular events, neurologic events, and deaths met the prespecified criteria for primary and secondary outcomes\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered, the protocol/statistical analysis plan and amendments are published alongside the article, the primary and three secondary outcomes were prespecified with a pre-stated analysis model, and post hoc analyses (e.g., 4- and 52-week cumulative incidences) are explicitly labelled as nominal rather than confirmatory.",
+        "evidence_quote": "\"The trial had three prespecified secondary outcomes\" ... \"The protocol and amendments are available with the full text of this article at NEJM.org.\" ... \"BEACON ClinicalTrials.gov number, NCT01351675\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, registered, double-blind, placebo-controlled trial had robust allocation concealment, ITT analysis, blinded central event adjudication and a publicly available protocol, so four of five domains are at low risk. Overall \"some concerns\" is driven by Domain 3: the trial was terminated early on DSMB recommendation with only 9 months' median follow-up and 46% of planned events (conditional power <40%), with differential drug discontinuation and participant-disposition/loss-to-follow-up details reported only in an unavailable supplement \u2014 limiting precision and verification of completeness rather than indicating directional bias in the observed harm signal."
+  },
+  {
+    "paper_id": "manual:6b0a996a",
+    "paper_title": "5c25d12c_Pentoxifilina",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation via a computer-generated list: \"Patients were randomly assigned according to a computer-generated list into the control or treatment group,\" with 46 allocated to pentoxifylline and 45 to usual therapy.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and baseline characteristics (renal diagnosis, comorbidity, RAAS blockers, statins, BP) appear balanced, but no allocation concealment mechanism (sealed envelopes, central allocation) is described in this single-centre open trial.",
+        "evidence_quote": "\"Patients were randomly assigned according to a computer-generated list into the control or treatment group.\" ... \"Baseline characteristics were similar in the 2 groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label with no placebo (control simply continued usual therapy), PTF was discontinued in 8/46 patients, and concomitant statin/antiplatelet/RAAS therapy could have been changed differentially during follow-up, although the authors state an intention-to-treat analysis was performed.",
+        "evidence_quote": "\"Patients were randomly assigned ... to treatment with PTF 400 mg (twice a day) or to continue their usual therapy\" ... \"PTF was withdrawn in 8 patients because of gastrointestinal symptoms.\" ... \"these treatments could have been modified during the study based on good clinical practice, and we could not delineate completely the possible beneficial effect that these drugs would have on UAE, inflammation and preservation of kidney function.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 11% of participants were lost with imbalance between arms (7 control vs 3 PTF), and losses in the control arm included dialysis initiation/death \u2014 events plausibly related to the renal outcome \u2014 yet no imputation method, sensitivity analysis, or per-timepoint denominators are reported despite the stated intention-to-treat approach.",
+        "evidence_quote": "\"Seven patients in the control group and 3 in the PTF group were lost during the study period. One patient in the control group started dialysis, and 1 patient in each group died.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes are objective laboratory biomarkers (hs-CRP, fibrinogen, TNF-\u03b1, ESR) and eGFR from serum creatinine, measured identically in both arms by standardized assays, so lack of assessor blinding is unlikely to bias these measurements.",
+        "evidence_quote": "\"Routine clinical and biochemical variables were measured by standardized methods on autoanalyzers. High-sensitivity C-reactive protein (hs-CRP) plasma level was measured with a latex-based turbidimetric immunoassay ... TNF-\u03b1 was measured using quantitative sandwich enzyme immunoassay.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number or pre-specified analysis plan is cited, multiple inflammatory outcome measures and time points were analyzed with both within- and between-group comparisons, and an unplanned-appearing subgroup analysis in diabetic patients (n=20) was reported without statistical testing, raising the possibility of selective reporting.",
+        "evidence_quote": "\"When we studied the patients with diabetic nephropathy separately (10 in control group and 10 in PF group), we found that after 12 months median albuminuria levels had decreased in the PTF group...\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This computer-randomized, open-label trial with balanced baseline characteristics and objective laboratory outcomes raises some concerns rather than high risk: allocation concealment is undescribed, the control arm received no placebo and concomitant medications could change, attrition was modest but imbalanced (7 vs 3) with no sensitivity analysis, and there is no registered protocol alongside multiple outcomes/time points and a post hoc diabetic subgroup analysis. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:2f58050f",
+    "paper_title": "26433211_s0140-6736%2800%2902783-5",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to vitamin E or matching placebo: \"patients were stratified for sex, age (in 5 year categories), and randomly assigned... Assignment was done by means of a computer-generated coin toss within each stratum by an individual not directly involved in the study.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation was random and stratified with an independent allocator (suggesting concealment), but allocation concealment is not explicitly described, and there is a notable baseline imbalance in current smoking (24.7% vs 14.1%) requiring post-hoc adjustment.",
+        "evidence_quote": "\"Assignment was done by means of a computer-generated coin toss within each stratum by an individual not directly involved in the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blinding with identical placebo makes performance bias unlikely, but adherence/compliance and withdrawals are not reported in detail and there is no statement that analysis was by intention-to-treat (on-treatment serum vitamin E was monitored only in a 15-patient subgroup).",
+        "evidence_quote": "\"SPACE is a double blind, placebo-controlled, randomised, secondary prevention intervention trial... placebo capsules identical in appearance.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 196 randomised patients appear accounted for in event tables and high attrition is largely explained by death/transplant in this population, but losses to follow-up, withdrawals and censoring reasons are not reported, so the extent and balance of truly missing outcome data cannot be verified.",
+        "evidence_quote": "\"Median follow-up time was 519 (range 10\u2013763) days.\" Number at risk fell from 99 to 57 (placebo) and 97 to 60 (vitamin E)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Endpoints used objective criteria (enzymes, ECG, doppler) and the trial was double blind, but outcome classification by treating physicians with no explicitly blinded independent endpoint adjudication committee, plus absence of necropsy and a surrogate definition of fatal MI/sudden death, raises some concern.",
+        "evidence_quote": "\"Deaths were classified by the treating physician and reviewed by a member of the medical monitoring committee independently of the endpoint analysis.\" \"Because no necropsy data were available... fatal myocardial infarction was defined as a death occurring within 24 h of entering hospital for myocardial infarction.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No published protocol or pre-registration is cited and the composite primary endpoint is reported in multiple operationalisations (including/excluding sudden death) with both unadjusted and smoking-adjusted models, allowing flexibility in which estimate is emphasised (the abstract highlights the most favourable p value).",
+        "evidence_quote": "\"Total CVD endpoints: Including sudden death... Excluding sudden death...\" and \"the addition of present smoking to the Cox model adjusted the relative risk towards 1 and widened the CIs so that the treatment effect was no longer significant\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled randomised trial used computer-generated stratified allocation by an independent person, but allocation concealment, adherence/ITT handling, follow-up losses, and blinded endpoint adjudication are incompletely reported, and there is a baseline smoking imbalance plus multiple endpoint definitions/analyses without a cited pre-specified protocol. No domain reaches high risk, so the overall judgment is some concerns."
+  }
+]

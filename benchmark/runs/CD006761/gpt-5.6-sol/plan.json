@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with symptomatic haemorrhoids undergoing excisional haemorrhoidectomy, what is the effect of LigaSure vessel-sealing haemorrhoidectomy versus conventional haemorrhoidectomy using scissors, diathermy, Milligan\u2013Morgan, Ferguson, or another conventional excisional technique on operating time in minutes?",
+  "treatment_label": "LigaSure vessel-sealing haemorrhoidectomy",
+  "control_label": "Conventional excisional haemorrhoidectomy (scissors, diathermy, Milligan\u2013Morgan, Ferguson, or comparable conventional excision)",
+  "outcome_description": "Operating time: duration from skin incision or start of the haemorrhoidectomy to completion of the procedure, expressed in minutes and extracted as mean, SD, and number randomised or analysed per arm as reported. Exclude anaesthesia time, total theatre/operating-room time, and time to haemostasis alone. Convert seconds or hours to minutes and record the original unit and conversion. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n), checking table footnotes to establish whether \u00b1 denotes SD or SE. When only median and range or IQR are reported, estimate mean and SD using a recognised method appropriate to the reported summaries and sample size (e.g., Wan et al. or Luo et al. methods) and document the method; when only a range supplies variability, estimate SD from the range using a recognised range-based method and document it. Assign arms by the procedure performed, not column position. In eligible multi-arm trials, retain LigaSure and conventional excision arms only; exclude stapled, laser, Doppler-guided, and other ineligible arms. If two eligible conventional arms exist, combine their n, means, and SDs using standard Cochrane formulas where clinically appropriate; otherwise select the arm best matching the review question and justify the choice. Do not extract or pool blood loss, postoperative pain, wound healing, complications, hospital stay, recurrence, or return to work.",
+  "positive_direction": "For directionally harmonised effects, a positive value means a shorter operating time with LigaSure and therefore favours LigaSure; however, for the user-requested raw mean difference calculated as LigaSure minus conventional, MD < 0 means a shorter operation and favours LigaSure.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "LigaSure haemorrhoidectomy randomized trial operating time",
+    "vessel sealing hemorrhoidectomy conventional excision controlled operating duration",
+    "LigaSure Milligan Morgan Ferguson diathermy randomized comparison"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials enrolling adults with symptomatic haemorrhoids who undergo haemorrhoidectomy.",
+    "Trials directly comparing LigaSure vessel-sealing haemorrhoidectomy with at least one conventional excisional haemorrhoidectomy arm, including scissors, diathermy, Milligan\u2013Morgan, Ferguson, or a comparable conventional technique.",
+    "Studies reporting operating time, or sufficient quantitative information from which the mean, SD, and arm sample size for operating time can be obtained, converted, or estimated."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and narrative reports are excluded.",
+    "No comparison between a LigaSure treatment condition and a conventional excisional haemorrhoidectomy control condition, including studies with only stapled, laser, Doppler-guided, or other nonconventional comparators.",
+    "No quantitative operating-time outcome data capable of producing an effect size, such as means and SDs or convertible/estimable summaries (including SE/SEM, medians with ranges or IQRs, t/F statistics, proportions, or odds ratios where applicable).",
+    "Completely unrelated to LigaSure versus conventional haemorrhoidectomy, or non-randomised comparisons, paediatric-only studies, and reports measuring only anaesthesia time, total theatre time, or haemostasis time rather than duration of the haemorrhoidectomy procedure."
+  ],
+  "moderators_to_extract": [
+    "Conventional technique used (diathermy, scissors, Milligan\u2013Morgan, Ferguson, or other)",
+    "Open versus closed excisional haemorrhoidectomy",
+    "Operating-time definition and start/end points",
+    "Operating-time data source (reported mean/SD versus converted or estimated summary statistics)",
+    "Haemorrhoid grade or severity and proportion with grade III/IV disease",
+    "Study setting, country, and surgeon experience"
+  ],
+  "search_start_year": 1998,
+  "effect_size_note": "Pool the arm-level arithmetic mean operating time using mean difference in minutes, defined as mean(LigaSure) minus mean(conventional), under a random-effects model; thus MD < 0 favours LigaSure. Use inverse-variance weighting and report the pooled MD with 95% CI, tau-squared, I-squared, and Cochran Q. Prefer a REML estimate of tau-squared with Hartung\u2013Knapp confidence intervals where feasible, with conventional random-effects inference as a sensitivity analysis if sparse studies make Hartung\u2013Knapp unstable. Convert all units to minutes before analysis. For medians and ranges/IQRs, use and cite a recognised estimator appropriate to sample size and available quantiles (e.g., Luo et al. for the mean and Wan et al. for the SD); estimate SD from range with a recognised sample-size-adjusted range method when required. Convert SE/SEM using SD = SE \u00d7 sqrt(n). Combine multiple eligible conventional arms with standard pooled mean/SD formulas to avoid double counting, or preselect the best-matching conventional arm with justification. Conduct sensitivity analyses excluding imputed means/SDs, studies with ambiguous timing definitions, and studies at high risk of bias. Assess risk of bias with Cochrane RoB 2, examine small-study effects with a funnel plot and Egger-type testing only when there are enough studies (typically at least 10), and grade certainty using GRADE. Document selection in a PRISMA 2020 flow diagram and provide excluded full texts with reasons.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "operating time"
+}

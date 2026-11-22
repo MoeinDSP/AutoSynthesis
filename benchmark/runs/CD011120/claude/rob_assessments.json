@@ -1,0 +1,324 @@
+[
+  {
+    "paper_id": "manual:9c3ccb6b",
+    "paper_title": "a9af02e1_j.1360-0443.2009.02623.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a randomized controlled trial with block randomization stratified by gender and motivation to quit: \"Patients were then randomized (using block randomization to ensure stratification by gender and level of motivation to quit smoking) into one of two treatment conditions,\" with 232 allocated to ME and 212 to SC, and trial registration (NCT00551720).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Stratified block randomization is described, but the sequence-generation method and allocation concealment are not reported, group sizes are unequal (232 vs 212) despite blocking, and baseline imbalances in age (P = 0.02) and gender (P = 0.05, despite stratification by gender) raise mild concern about the allocation process.",
+        "evidence_quote": "\"Patients were then randomized (using block randomization to ensure stratification by gender and level of motivation to quit smoking; see Assessments below) into one of two treatment conditions\" ... \"Of the baseline variables, the only one showing randomization imbalances was age (P < 0.02), with ME participants slightly younger than SC participants\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and health educators were necessarily unblinded to the behavioural condition, and uptake of the intervention was partial (only 72% ever used the patch; mean 2.2\u20132.4 NRT contacts), although treatment fidelity/contamination was formally monitored, co-intervention (patch use) was balanced, and an intention-to-treat analysis estimating the effect of assignment was used.",
+        "evidence_quote": "\"Results revealed that ME content delivered to those in the ME condition was appropriate, and that it exceeded significantly that delivered to SC participants (P < 0.001).\" ... \"Over the entire 6-month follow-up period, 72% of initial study participants chose to use the patch at some point ... Patch use rates did not show between-group differences at any of the three follow-ups (Ps > 0.60).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Loss to follow-up was substantial (48% missing at 2 months, 38% at 4 months, 28% at 6 months), but the primary analysis used the conventional smoking-cessation ITT convention of treating non-attenders as smokers, attrition was balanced across arms, and available-case analyses gave the same conclusion; differential missingness among African American quitters in the secondary utilization model is acknowledged, leaving residual concern.",
+        "evidence_quote": "\"Although 2-month follow-up data were collected from only 52% of participants (49% for ME, 55% for SC), participation rates rose to 62% at the 4-month follow-up ... and to 72% at the 6-month follow-up ... Study retention rates did not show statistically significant differences between treatment arms at any of the follow-ups.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome (7-day point-prevalence abstinence) was biochemically verified by expired CO with discrepant self-reports coded as smoking, and was assessed identically in both arms by outcome assessors blinded to allocation, minimizing detection bias.",
+        "evidence_quote": "\"Follow-up assessments were administered by research staff blinded to participant intervention assignment.\" ... \"Participants reporting 7-day abstinence were verified with a 24-hour biochemical measure of abstinence via CO < 10 parts per million (ppm)\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT00551720) and both ITT and available-case results are reported for all three time-points, but no pre-specified analysis plan is cited, the secondary race/ethnicity and treatment-utilization analyses were clearly data-driven (liberal alpha, backward elimination, post-hoc substitution of NRT contacts for randomized arm), and the text contains a confusing statement about which measure was the \"primary outcome.\"",
+        "evidence_quote": "\"an inclusive approach to model building was implemented: all variables listed in Table 1 were entered initially as individual predictors in univariate logistic regression ... All variables that showed a significant relationship with outcome at a fairly liberal significance level of alpha = 0.10 were entered subsequently in a multivariate logistic regression model, which was simplified using a backward elimination procedure.\" ... \"The FTND was used in analyses as the primary outcome of interest.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered RCT used stratified block randomization, blinded outcome assessors and biochemically verified abstinence (D4 low), but incomplete reporting of sequence generation/allocation concealment with baseline age and gender imbalance (D1), unavoidable unblinding with partial intervention uptake (D2), substantial loss to follow-up handled by the ITT \"missing = smoking\" convention (D3), and data-driven secondary modelling without a pre-specified analysis plan (D5) each raise some concerns. The primary null between-arm comparison appears reasonably robust, so the overall judgment is \"some concerns\" rather than high risk."
+  },
+  {
+    "paper_id": "manual:6d948e0c",
+    "paper_title": "7f60a6ed_nihms-1777818",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit two-arm parallel-group RCT with stratified block randomization (1:1) of 506 participants to PSFW+ or AHA control, registered at clinicaltrials.gov (NCT02781090).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Centralized, independent generation of a stratified block randomization sequence with randomly varying block sizes, and baseline characteristics were balanced across arms.",
+        "evidence_quote": "\"we performed stratified block randomization (allocation [1:1]) to PSFW+ or AHA... Block sizes were randomly chosen from the set (4,6,8). Randomization was centralized with an independent data manager who generated and uploaded the randomization sequence onto a secure server\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the study coordinator were unblinded and the conditions were imperfectly attention-matched (extra module and reminder messages only in PSFW+), though ITT analysis was used and contamination was assessed and small.",
+        "evidence_quote": "\"The two study conditions were not perfectly \u201cattention-matched\u201d with one fewer module in the AHA control and reminders sent only to the PSFW+ participants... neither the study coordinator nor participants were blinded.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "25.3% were lost to follow-up, but the conservative ITT assumption (missing = smoking) was pre-specified and complete-case analyses gave concordant results; nonetheless loss is substantial and differential attrition by arm is not detailed.",
+        "evidence_quote": "\"The ITT approach assumed participants lost to follow-up (n=128; 25.3%) were non-abstinent.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Abstinence was biochemically verified by exhaled CO (with salivary cotinine backup) using identical procedures in both arms, and outcome assessors were blinded; only 8 COVID-era self-reports lacked verification.",
+        "evidence_quote": "\"Outcomes assessors and investigators were blinded to group assignments... Participants underwent exhaled carbon monoxide (ECO) measurement using the piCO+ Smokerlyzer\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered with a pre-planned primary outcome and pre-specified secondary outcomes, and post hoc analyses (lower ECO cutoff, adjusted model) are clearly labelled as such.",
+        "evidence_quote": "\"The trial was registered at clinicaltrials.gov (NCT02781090)... The pre-planned primary trial outcome was biochemically confirmed 7-day point-prevalence abstinence at 6-months post-enrollment utilizing intention-to-treat (ITT)\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "A well-conducted, pre-registered, centrally randomized multisite trial with blinded, biochemically verified outcomes, but with some concerns from unblinded participants/coordinator and imperfectly attention-matched arms (D2) and substantial (25%) loss to follow-up (D3). These concerns, mitigated by conservative ITT handling and concordant complete-case results, yield an overall judgment of \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:e1c1fd63",
+    "paper_title": "540a990f_ntr%2Fntr121",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a two-group randomized controlled trial with adaptive (minimization) randomization: \"Participants were then randomized into either a UC or a CPI treatment group. Adaptive randomization was used to ensure treatment group balance.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Adaptive (minimization) allocation is an acceptable method and baseline characteristics were well balanced apart from age, but no information is given on sequence generation mechanism or allocation concealment, and deterministic minimization without a random element can be predictable to enrolling staff.",
+        "evidence_quote": "\"Participants were then randomized into either a UC or a CPI treatment group. Adaptive randomization was used to ensure treatment group balance with respect to several important participant characteristics (i.e., depression history, number of cigarettes per day, and nicotine dependence)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding was impossible in this behavioral trial and the UC arm received no attention control (substantial contact-time imbalance, acknowledged by the authors), plus co-intervention NRT uptake was not documented; however, an intention-to-treat analysis appropriate for the effect of assignment was used.",
+        "evidence_quote": "\"A potential limitation of the current study is the imbalance in contact time between the CPI and UC treatment groups... it is possible that the higher smoking cessation rates observed in the CPI group could be explained by the greater contact time between study staff and participants in that condition (vs. UC)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 474 randomized participants were included via a missing-equals-smoking imputation, but the actual follow-up/retention rate per arm is never reported, so differential attrition (plausibly higher in the low-contact UC arm, which would inflate the treatment effect) cannot be ruled out and no sensitivity analysis is presented.",
+        "evidence_quote": "\"An intent-to-treat approach was used in which participants who did not complete the 3-month follow-up were coded as smokers.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were assessed identically in both arms using a self-administered ACASI plus an objective biochemical (expired CO) verification, which is largely immune to assessor knowledge of allocation.",
+        "evidence_quote": "\"Expired CO level was also measured to biochemically verify smoking status.\" / \"follow-ups were conducted at the time of routinely scheduled primary care clinic appointments, and an ACASI approach was used\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary outcome is pre-specified and multiple abstinence definitions are all reported (including the null quit-attempt result), but no trial registration or protocol is cited, this is an interim \"brief report\" of an ongoing trial at a non-final timepoint, and the age covariate adjustment was decided post hoc after testing baseline balance.",
+        "evidence_quote": "\"The primary outcome of interest was self-reported 7-day point prevalence abstinence at the time of the 3-month follow-up. Other smoking status variables of interest included biochemically verified 24-hr abstinence, 30-day abstinence, and continuous abstinence.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This adequately powered RCT used adaptive randomization, intention-to-treat analysis, and biochemically verified outcomes, but raises some concerns across several domains: allocation concealment and sequence generation are not described, the usual-care arm lacked any attention control (a contact-time imbalance the authors themselves flag), per-arm follow-up/attrition rates are unreported, and there is no cited protocol/registration for this interim 3-month report. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:4d838eb2",
+    "paper_title": "c8bf9877_ntr%2Fntt005",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated: \"209 HIV+ smokers were stratified based on number of cigarettes per day... depressed or not... and gender. Then, within those strata, they were randomized via computer algorithm to one of three conditions in 1:1:1 fashion into a parallel group design.\" This is a parallel-group RCT, so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and stratified (a robust method), but allocation concealment is never described and three prognostically relevant baseline variables (age, lifetime major depression, bipolar disorder) differed significantly between arms despite stratification on depression, together with unbalanced arm sizes, which raises residual doubt.",
+        "evidence_quote": "\"Then, within those strata, they were randomized via computer algorithm to one of three conditions in 1:1:1 fashion into a parallel group design.\" ... \"Significant differences between treatment groups were found on three variables. Smokers in the SH condition were older (p < .01) and more likely to have a history of a major depressive episode (p < .05)... Smokers in the CBI condition were more likely to have met criteria for bipolar disorder than the other two conditions (p < .05).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and staff necessarily knew the assigned behavioral condition (unblindable), adherence to the active interventions was only partial (60% of counseling sessions; ~3 website visits) and actual NRT use was not measured, though the mixed-effects model used all randomized participants' observed data in an effectively intention-to-treat fashion and NRT distribution did not differ by arm.",
+        "evidence_quote": "\"The mean number of counseling sessions attended was 3.6 out of 6 (or 60%), and the mean number of visits to the CBI Web site was 3.2.\" ... \"Self-report of NRT use was not collected. NRT distribution was recorded as a surrogate of NRT compliance.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Retention was reasonably high (81% at 52 weeks) and the authors transparently tested and modelled missingness (including completer status as a covariate) rather than assuming MCAR, but outcome data were demonstrably related to the outcome itself (non-ignorable missingness), and missing smoking status was not handled by the conventional conservative assumption of treating dropouts as smokers.",
+        "evidence_quote": "\"Retention rates were 89% at 12 weeks, 84% at 24 weeks, 82% at 36 weeks, and 81% at 52 weeks.\" ... \"As results indicated that the missingness was not completely at random (i.e., completers were more likely to be abstinent), we used a mixed-effects nonlinear regression model...\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was biochemically verified (expired CO) point-prevalence abstinence assessed identically at fixed intervals across all arms, so the measure is appropriate and largely objective, minimising the influence of unblinded assessors (proxy report substituted in only one case).",
+        "evidence_quote": "\"Biochemically verified 7-day abstinence from cigarettes was the primary outcome variable... Participants were coded as abstinent only if they reported no cigarette use, not even a puff, in the last 7 days and if their CO level was \u226410 ppm.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number or protocol is cited, and the final analysis model was data-driven (covariates selected from all baseline variables in Tables 1 and 2 on the basis of their p-value against the outcome), with multiple outcome operationalisations available (point-prevalence vs. sustained abstinence, cigarettes/24hr), although the pre-stated primary hypothesis and primary outcome were clearly reported and the headline result was null.",
+        "evidence_quote": "\"Prior to the final analysis, we used a multivariate model to test a set of candidate covariates for their relationship to the outcome and retained variables with a p-value < .10 for inclusion in the final model. Candidate variables were the variables listed in Tables 1 and 2.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This stratified, computer-randomized parallel-group trial used a strong, biochemically verified primary outcome (D4 low), but four domains raise some concerns: allocation concealment is unreported with significant baseline imbalances in age, depression and bipolar history; the behavioral interventions were unblindable with only partial adherence and unmeasured NRT use; ~19% of outcome data were missing with demonstrably non-random missingness; and the analysis model was built by data-driven covariate selection without a cited protocol or registration. No single domain reaches 'high' risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:61e01523",
+    "paper_title": "df534ba4_QAI.0000000000002271",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were allocated 1:1 to intervention or control by a concealed computer-driven randomization algorithm stratified by site, motivation, and race (\"randomized in a 1:1 schedule ... using a computer-driven randomization algorithm\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated, concealed, stratified allocation with baseline characteristics well balanced except a single chance difference in prior e-cigarette use.",
+        "evidence_quote": "\"randomized in a 1:1 schedule into the PSF group therapy condition ... using a computer-driven randomization algorithm that was concealed from the research assistant and the investigative team. The randomization was stratified by study site...\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Open-label behavioral trial with substantial non-adherence (mean ~half of sessions; 43 attended none), documented cross-condition contamination, and delayed baseline interviews for intervention participants, although the primary analysis was intention-to-treat.",
+        "evidence_quote": "\"12.8% reported having discussed PSF group therapy session content with another person in the study who had been randomized to the PSF intervention\"; \"The mean number of PSF group therapy sessions attended ... was 3.78 \u00b1 2.70\"; \"we also excluded PSF participants who never attended a single PSF group therapy session (N = 43)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 16% lacked 6-month outcome data with differential loss between arms (81.5% vs 86.7% evaluable), handled by missing=smoking imputation, and the authors concede missingness may not be random; no sensitivity analysis of alternative missing-data assumptions was presented beyond complete-case.",
+        "evidence_quote": "\"Although the study completion rate was high (84.2%), 15.8% of the cohort was not available for the final study visit, and there is no assurance that the missing data were randomly distributed.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively biochemically verified by exhaled CO and applied identically in both arms, minimizing the influence of participants' or assessors' awareness of allocation.",
+        "evidence_quote": "\"A negative response to this question and exhaled carbon monoxide (ECO) level of ,10 parts per million ... constituted biochemically verified 7-day point-prevalence abstinence\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The pre-specified primary endpoint and ITT analysis are clearly reported, but no trial registration/protocol is cited for this trial and many secondary outcomes plus data-driven stepwise modelling and as-treated analyses create scope for selective emphasis of the positive 3-month findings.",
+        "evidence_quote": "\"The primary outcome was biochemically confirmed, 7-day point-prevalence abstinence at 6 months.\"; \"a backward, stepwise multivariate logistic regression analysis was performed incorporating those variables that were associated (P \u2264 0.10) with abstinence on preliminary analyses\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was concealed and computer-generated and the primary outcome was biochemically verified, giving low risk in D1 and D4; however, unblinded delivery with substantial session non-attendance and documented contamination, ~16% differentially missing 6-month outcome data, and absence of a cited protocol/registration with extensive secondary and data-driven analyses yield \"some concerns\" in three domains. Overall risk is therefore judged \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:87e5e802",
+    "paper_title": "fda5393e_QAI.0000000000002396",
+    "design_classification": "randomized",
+    "design_rationale": "The report describes a randomized controlled trial nested into the Swiss HIV Cohort Study, with patients \"randomly allocated ... via a trial website\" to usual care or the combined CO self-monitoring/app intervention, and registered at ClinicalTrials.gov (NCT02840513).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was performed centrally via a trial website (implying concealment) and baseline characteristics of the two arms (age, sex, pack-years, CD4, Framingham score) were closely similar, consistent with chance, though sequence-generation detail is sparse.",
+        "evidence_quote": "\"randomly allocated during biannual cohort visits patients smoking $3 cigarettes a day via a trial website to counselling by SHCS center physicians (usual care) or to a combined intervention\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and clinicians were necessarily unblinded in this pragmatic behavioural trial and intervention uptake was very poor (only 26% sent any CO measurement, 28.5% used the app, and co-interventions such as nicotine replacement differed between arms: 57% vs 46%), although an intention-to-treat analysis was used.",
+        "evidence_quote": "\"Eleven (26%) of the participants in the intervention group sent at least one result of a CO measurement with the Smokerlyzer App ... In total, 24 (57%) and 18 (46%) patients in the intervention and control groups received nicotine replacement therapy.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 3 of 81 participants were lost to follow-up and these were conservatively counted as continuing smokers in the pre-specified intention-to-treat analysis, so missingness is unlikely to bias the effect estimate.",
+        "evidence_quote": "\"Patients with missing data or a positive CO breath test at 6 months of follow-up were counted as smokers.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome combined self-report with objective biochemical CO verification (reducing reporting bias), but self-report was collected by unblinded physicians and the CO test performed by nurses explicitly not blinded to treatment allocation; secondary outcomes (cigarettes/day, 7-day point prevalence) were entirely self-reported in an unblinded trial.",
+        "evidence_quote": "\"an in-person CO, with a cut-off of CO in exhaled air of 7 ppm ... that was done by nurses not blinded for treatment status\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT02840513) with an ethics-approved protocol and pre-specified primary/secondary outcomes and adjustment variables, but it was stopped early for poor recruitment (81 of 496 planned) and is reported only as a brief letter without a protocol-to-report comparison, so selective reporting cannot be fully excluded.",
+        "evidence_quote": "\"The trial protocol was approved by Swiss Ethics and registered at ClinicalTrials.gov, ID NCT02840513 ... The trial was terminated prematurely because of insufficient patient recruitment and lack of funding.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation appears adequately randomized with balanced baseline characteristics and near-complete, conservatively handled outcome data, but the trial carries some concerns from unavoidable lack of blinding with very low intervention uptake and imbalanced co-interventions, unblinded outcome ascertainment, and early termination at 16% of the planned sample with only brief letter-format reporting. No domain reached high risk, so the overall judgment is some concerns, although the severe underpowering renders the findings inconclusive."
+  },
+  {
+    "paper_id": "manual:be044830",
+    "paper_title": "4ec207fe_s10461-016-1538-z",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit three-arm randomized controlled study: \"158 participants ... were randomized to receive 12-weeks of varenicline ... either alone as standard care (SC) or in combination with text message (TM) support or TM plus ... (ABT)\", with randomization stratified by baseline cigarettes/day.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization was stratified and timed to reduce attrition, but the sequence generation method and allocation concealment are not described, and there were notable baseline imbalances (independent housing 92.5 % vs 70.4 % vs 88.2 %; transgender participants all in SC) that required covariate adjustment.",
+        "evidence_quote": "\"participants were randomized to one of the three study groups at baseline instead of at enrollment. Randomization was stratified by number of cigarettes smoked per day at baseline\"; \"Living in independent housing, on which there was a moderate imbalance across treatment arms despite randomization, was also included.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and staff were necessarily unblinded to the behavioral intervention, treatment delivery deviated from protocol (counseling sessions incompletely delivered and did not emphasize adherence content as intended), though intention-to-treat analysis was used for outcomes.",
+        "evidence_quote": "\"On average, participants in the SC?TM?ABT arm completed 4.25 of the seven counseling sessions\"; \"our fidelity assessments indicated more than 75 % of the sessions did not focus significant time on this issue\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Nearly 28 % of participants were lost by 12 weeks, but missingness was balanced across arms and handled by the conventional conservative ITT (missing = smoking/non-adherent) imputation, which nonetheless could bias estimates since dropout reasons differ by intervention intensity.",
+        "evidence_quote": "\"The overall retention rate was 72.2 % at 12 weeks. There was no difference in retention across treatment groups at any time point\"; \"Participants with missing data due to loss-to-follow-up or withdrawal/discharge from the study were considered as non-abstinent (intent-to-treat approach).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Abstinence was biochemically verified (objective, unlikely biased by assessor knowledge), but adherence relied on pill counts that are susceptible to manipulation, and no blinding of outcome assessors is reported in this open-label trial.",
+        "evidence_quote": "\"Self-reported 7-day point prevalence smoking abstinence was verified by a carbon monoxide (CO) \\8 ppm\"; \"adherence was defined as taking C80 % of prescribed varenicline since last visit, as determined by pill count\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although registered (NCT01898195), the primary result emphasized (abstinence at 12 weeks, OR 5.51, p = .05) came from a post hoc-covariate-adjusted model with data-driven covariate selection, multiple time points and outcomes, and unadjusted multiple pairwise comparisons, while the unadjusted 12-week comparison was non-significant (p = .07) \u2014 a high risk of selective reporting of the favorable analysis.",
+        "evidence_quote": "\"Variables that demonstrated group differences at baseline or known association with outcomes based on literature were chosen as covariates.\"; \"Significance tests, including comparisons between specific treatment arms, were made without adjustments to p-values.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 5: the headline efficacy claim rests on a data-driven, covariate-adjusted longitudinal model with multiple untested-for-multiplicity pairwise comparisons, whereas the pre-specified unadjusted 12-week comparison was non-significant. Additional concerns arise from unreported allocation concealment with baseline imbalance, an open-label design with incomplete counseling delivery, ~28 % attrition, and pill-count-based adherence measurement."
+  }
+]

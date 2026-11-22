@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:d2e9347c",
+    "paper_title": "e4af4271_cjasn-18-036",
+    "design_classification": "randomized",
+    "design_rationale": "Explicitly a phase 3b, 1-year randomized, double-blind, placebo-controlled multicenter trial with 1:1 allocation to tolvaptan or matching placebo (NCT02964273); \"The phase A population was randomized to tolvaptan or a matching placebo in a 1:1 ratio.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random 1:1 allocation with matching placebo is stated but sequence generation/concealment details are relegated to unseen supplemental material, and there are notable baseline imbalances (hypertension 15% tolvaptan vs 33% placebo; mean age at diagnosis 5.2 vs 7.7 years; reason for diagnosis 13% vs 40% symptomatic) that could reflect chance but are not negligible in a small trial.",
+        "evidence_quote": "The phase A population was randomized to tolvaptan or a matching placebo in a 1:1 ratio (see the Supplemental Methods for the randomization procedure)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind with matching placebo and a modified intent-to-treat analysis, but tolvaptan's marked aquaretic effects (65% aquaretic AEs vs 16%) likely unblinded many participants/investigators, and there was pharmacokinetically verified nonadherence in 15% of tolvaptan participants plus dose down-titration, though sensitivity analyses excluding nonadherent participants gave similar results.",
+        "evidence_quote": "at month 12, five additional participants (for a total of six of 40 participants [15%]) had DM-4103 concentrations indicating limited to no dosing within the previous weeks"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Coprimary pharmacodynamic outcomes were nearly complete (90/91, 89/91) and 92% completed phase A, but the key secondary htTKV endpoint was available for only 57 of 66 group-1 participants with no imputation (observed-case analysis), and all discontinuations occurred in group 1.",
+        "evidence_quote": "Missing efficacy data were not imputed, further limiting the size of the analysis populations for the efficacy end points."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes were objective laboratory measures (urine osmolality, specific gravity) analyzed centrally and htTKV was read blinded at a central laboratory using standardized MRI protocols, identically in both arms; subjective investigator-reported AEs are a minor concern but not the primary endpoints.",
+        "evidence_quote": "Scans were read at a central laboratory by individuals blinded to treatment assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered with prespecified coprimary and key secondary endpoints (reported regardless of significance), but all between-group statistical comparisons were explicitly post hoc/exploratory, and multiple additional htTKV and eGFR analyses (outlier-excluded, adherence-excluded, age subgroups, selected timepoints) were presented, creating scope for selective reporting of analyses.",
+        "evidence_quote": "As the study was designed without formal efficacy testing, statistical comparisons between treatment groups (described in the Supplemental Methods) were post hoc and exploratory."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered, double-blind, placebo-controlled pediatric trial used objective, centrally assessed outcomes (low risk in D4), but four domains raise some concerns: incompletely reported allocation concealment with some baseline imbalance, probable functional unblinding from tolvaptan's aquaretic effects plus 15% verified nonadherence, unimputed missing htTKV data, and exclusively post hoc/exploratory between-group statistical comparisons with multiple alternative analyses. No single domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:a321582f",
+    "paper_title": "5ff843af_main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a Phase 2 multicenter, randomized (1:1:1:1), placebo-controlled, double-blind, placebo-masked, parallel-group trial (NCT01451827) in which subjects were randomized to tolvaptan MR 80 mg, MR 50 mg, IR 60/30 mg, or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization with balanced baseline characteristics is reported, but the sequence generation method and allocation concealment are not described, and the authors note baseline imbalance in BPI-SF Worst Pain scores (\"subjects who were more susceptible to pain in the first place were randomized to the placebo group by chance\").",
+        "evidence_quote": "\"subjects were randomized in a 1:1:1:1 ratio to tolvaptan MR 80 mg once daily (QD), tolvaptan MR 50 mg QD, tolvaptan IR 60/30 mg in a daily split dose, or placebo for 8 weeks\"; \"Subject baseline demographics and clinical characteristics were well balanced among treatment groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind, double-dummy design with intent-to-treat analysis is a strength, but markedly differential compliance (notably only 54.5% in the IR arm, which the authors invoke to explain its null result) represents a deviation plausibly arising from the intervention (aquaretic effects/dosing burden) and from partial functional unblinding by obvious aquaretic adverse events, though a sensitivity analysis including all data was performed.",
+        "evidence_quote": "\"Study treatments were administered in a split regimen using a combination of MR capsules (tolvaptan or placebo) and IR tablets (tolvaptan or placebo) to achieve full blinding\"; \"The frequency of subject-reported >90% medication compliance in each treatment group was as follows: MR 50 mg, 82.2%; MR 80 mg, 73.3%; IR 60/30 mg, 54.5%; and placebo, 69.8%\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was low (~8%) and balanced across arms with reasons reported, and a sensitivity analysis including all data yielded similar results.",
+        "evidence_quote": "\"A total of 177 subjects were randomized, of whom 163 (92.1%) completed the study\"; \"a sensitivity analysis was conducted that incorporated all data, regardless of whether subjects were taking study drug\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (MRI-measured TKV) is objective and measured identically across arms, but blinding of central image readers is not explicitly stated, the authors acknowledge imprecision of short-interval TKV measurement, and secondary QOL/urinary outcomes are self-reported in participants likely to perceive their allocation through conspicuous aquaretic effects.",
+        "evidence_quote": "\"Magnetic resonance imaging to assess kidney volume was performed during the screening period, at week 3, and at week 8\"; \"measurements of small changes in TKV over very short periods of time (3 weeks or 2 months) suffer from imprecision\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered with a prespecified primary endpoint and hierarchical testing plan, but a prespecified secondary endpoint was changed to different operationalizations, comparisons were apparently re-specified away from MR-versus-IR contrasts, and week 8 differences plus many PRO subscales were reported descriptively/with P values outside the valid hierarchy, raising selective-reporting concerns in an industry-sponsored, industry-authored analysis.",
+        "evidence_quote": "\"To comply with ADPKD-UIS scoring instructions, the latter endpoint was replaced with reporting of individual ADPKD-UIS domain scores (Urinary Frequency, Urinary Urgency, 8 and Nocturia domains).\"; \"Given that various tolvaptan IR and MR doses evaluated in a previous trial exhibited similar pharmacokinetic and pharmacodynamic profiles... it was decided that the most informative statistical comparisons to make in the present investigation would be between the respective tolvaptan treatment arms and placebo.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-masked, double-dummy RCT had low attrition and an objective MRI primary endpoint, but unreported sequence generation/allocation concealment, substantially differential treatment compliance (54.5% in the IR arm) with likely functional unblinding via aquaretic effects, unclear blinding of outcome assessors, and changes/flexibility in secondary endpoint reporting yield \"some concerns\" in four of five domains. No single domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:596c792d",
+    "paper_title": "4767f359_NEJMoa1205511",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit central random allocation in a 2:1 ratio to tolvaptan or placebo in a phase 3, multicenter, double-blind, placebo-controlled trial (NCT00428948).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Randomization was performed centrally with stratification (concealing allocation from sites), and baseline demographic and clinical characteristics were well balanced across the two groups.",
+        "evidence_quote": "\"Randomization was carried out centrally, with patients randomly assigned in a 2:1 ratio to receive tolvaptan or placebo and with stratification according to hypertension status ... Demographic and baseline characteristics in the two groups were well balanced (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Although double-blind with prespecified intention-to-treat analysis, tolvaptan's pronounced aquaretic effects (thirst 55% vs 21%, polyuria 38% vs 17%) could functionally unblind patients and investigators, and discontinuation of the trial drug was substantially higher with tolvaptan (23.0% vs 13.8%).",
+        "evidence_quote": "\"A total of 23.0% of the patients who received tolvaptan and 13.8% of those who received placebo permanently discontinued the trial drug. Adverse events led to more discontinuations in the tolvaptan group than in the placebo group (15.4% of patients vs. 5.0%)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary-outcome data were missing for 138/1445 (9.6%) patients owing to early withdrawal without a measurable follow-up MRI, and withdrawal was differential by arm (23% vs 14%), although end-of-study MRI capture, secondary analyses including 100% of patients, and sensitivity analyses mitigate this.",
+        "evidence_quote": "\"The primary efficacy analysis included 1307 of the 1445 patients (90.4%), with 138 patients excluded because of early withdrawal and a lack of measurable follow-up MRI scans.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (standardized MRI kidney volume) and central serum creatinine measurement are objective and identically applied, but components of the key secondary composite (kidney pain, hypertension) were investigator-assessed and thus susceptible to influence given the likely functional unblinding from aquaretic effects, though independent adjudication confirmed the results.",
+        "evidence_quote": "\"The composite secondary end point was the time to investigator-assessed clinical progression ... These events were further adjudicated by an independent clinical events committee for a sensitivity analysis.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered (NCT00428948) with a previously published and publicly available protocol, prespecified intention-to-treat primary analysis, hierarchical gatekeeping testing of end points, and reporting of non-significant other secondary end points.",
+        "evidence_quote": "\"The primary analyses of all efficacy end points were prespecified as intention-to-treat analyses ... Study end points were ordered hierarchically and tested sequentially with the use of gatekeeping procedures.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, centrally randomized, double-blind, registered trial with a protocol and prespecified ITT analyses has low risk for randomization and selective reporting, but some concerns arise from likely functional unblinding via tolvaptan's aquaretic side effects, differential discontinuation (23% vs 14%), ~10% missing primary-outcome MRI data, and investigator-assessed composite components. Overall risk is therefore \"some concerns,\" driven by domains 2\u20134."
+  },
+  {
+    "paper_id": "manual:fbca1d58",
+    "paper_title": "01ed9aa7_NEJMoa1710030",
+    "design_classification": "randomized",
+    "design_rationale": "The REPRISE trial explicitly states patients \"were randomly assigned in a 1:1 ratio, in a double-blind fashion, to receive tolvaptan or matching placebo for 12 months,\" with stratified randomization (phase 3, randomized withdrawal, placebo-controlled, double-blind trial).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Stratified 1:1 random allocation with double-blind dispensing of matching placebo implies concealed allocation, and baseline demographic/clinical characteristics were balanced between groups (e.g., eGFR 40.7\u00b110.9 vs 41.4\u00b111.2).",
+        "evidence_quote": "\"Patients who could take tolvaptan ... were randomly assigned in a 1:1 ratio, in a double-blind fashion, to receive tolvaptan or matching placebo for 12 months. Randomization was stratified according to the baseline estimated GFR ... age of the patient ... and total kidney volume\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Although double-blind with matching placebo and a (modified) intention-to-treat analysis, the marked asymmetry in aquaretic side effects, dose reductions and regimen discontinuations (11.1% vs 3.2%) makes functional unblinding plausible and created differential deviations from the intended intervention.",
+        "evidence_quote": "\"The analyses of all the efficacy end points were performed according to the intention-to-treat principle.\" ... \"During the double-blind period, adverse events led to the discontinuation of the trial regimen in 65 of 681 patients (9.5%) receiving tolvaptan, as compared with 15 of 685 (2.2%) receiving placebo\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for ~97% of randomized patients with similar completion rates in both groups (95.8% vs 95.9%), and prespecified sensitivity analyses confirmed robustness of the primary analysis.",
+        "evidence_quote": "\"Of the 1370 patients who underwent randomization, 1331 (97.2%) were included in the primary efficacy analysis, 1362 (99.4%) in the key secondary efficacy analysis\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome is an objective laboratory-derived eGFR measured centrally with a standardized method identically in both groups, and the design deliberately captured off-drug values to avoid the acute hemodynamic effect; hepatic events were adjudicated by a committee unaware of group assignments.",
+        "evidence_quote": "\"Serum creatinine levels were measured centrally with the use of the isotope dilution mass spectrometry\u2013traceable enzymatic method and were reported to two decimal points.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered (NCT02160145) with a previously published protocol and statistical analysis plan, a single prespecified primary end point, hierarchical gatekeeping testing, and prespecified sensitivity/subgroup analyses, making selective reporting unlikely.",
+        "evidence_quote": "\"The trial protocol, which is available with the full text of this article at NEJM.org, has been published previously.\" ... \"Details of the prespecified sensitivity and subgroup analyses are provided in the protocol.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization, outcome measurement, data completeness and reporting were all at low risk of bias in this large, protocol-published, double-blind trial with centrally measured eGFR. Overall judgment of \"some concerns\" is driven by D2: the randomized-withdrawal design plus pronounced aquaretic and hepatic side effects with tolvaptan (9.5% vs 2.2% discontinuations) could have unblinded participants/clinicians and produced differential deviations from the intended intervention."
+  }
+]

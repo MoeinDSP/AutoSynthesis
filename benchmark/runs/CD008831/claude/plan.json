@@ -1,0 +1,38 @@
+{
+  "research_question": "In people with cancer receiving radiotherapy (with or without concurrent chemotherapy), do probiotics compared with placebo reduce the incidence of grade 2 or higher (moderate-to-severe) diarrhoea?",
+  "treatment_label": "Probiotic supplementation during radiotherapy",
+  "control_label": "Placebo",
+  "outcome_description": "Incidence (number of patients / proportion) of grade 2 or higher diarrhoea during or shortly after pelvic/abdominal radiotherapy, graded with RTOG, CTCAE, WHO or comparable toxicity criteria; also accepting reported moderate-to-severe radiation-induced diarrhoea when explicit grading thresholds are given.",
+  "positive_direction": "A positive effect (RR below 1 / positive Hedges g) means probiotics reduced the incidence of grade 2 or higher diarrhoea relative to placebo.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "probiotics radiation-induced diarrhoea randomized trial",
+    "Lactobacillus radiotherapy diarrhea placebo controlled cancer",
+    "probiotic supplementation chemoradiotherapy gastrointestinal toxicity incidence"
+  ],
+  "inclusion_criteria": [
+    "Studies of patients with cancer receiving radiotherapy, with or without chemotherapy, that administered probiotics (any strain, dose, or formulation) to at least one group",
+    "Includes a placebo or otherwise untreated/standard-care comparison group",
+    "Reports any quantitative data on diarrhoea or gastrointestinal toxicity, including event counts, proportions, severity grades, or summary statistics"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, or purely theoretical/protocol paper)",
+    "No comparison between a probiotic (treatment) condition and a placebo or control condition",
+    "No quantitative outcome data usable for an effect size (no event counts/proportions, means+SDs, t/F values, or odds/risk ratios reported)",
+    "Completely unrelated to probiotics and radiotherapy-associated gastrointestinal outcomes in cancer patients"
+  ],
+  "moderators_to_extract": [
+    "Probiotic formulation (single-strain vs multi-strain) and species",
+    "Probiotic dose (CFU/day) and duration of administration",
+    "Irradiated site (pelvic, abdominal, gynaecologic, colorectal, head and neck)",
+    "Concurrent chemotherapy (yes/no)",
+    "Diarrhoea grading system used (RTOG, CTCAE, WHO)",
+    "Sample size category and risk-of-bias / blinding status"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Primary pooling as risk ratio (RR) of grade \u22652 diarrhoea using event counts and group sizes, random-effects (DerSimonian-Laird or REML) with Mantel-Haenszel weighting; RR < 1 favours probiotics. Zero-event studies handled with a continuity correction where required.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Incidence of grade 2 or higher diarrhoea"
+}

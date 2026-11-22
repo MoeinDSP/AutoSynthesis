@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of cranberry products (juice, capsules, tablets or powder, at any dose) compared with placebo, no treatment or a non-active control on the occurrence of symptomatic, culture-verified urinary tract infection (UTI) in women with recurrent UTIs?\n\nEffect measure: pool as a risk ratio (RR) using a random-effects model. RR < 1 means fewer women with a UTI in the cranberry arm (favours cranberry).\n\nOutcome: number of participants with at least one symptomatic, culture-verified UTI during the study follow-up (events) out of the number of participants analysed in each arm (total).\n- Use participants (not episodes). If a paper reports only the number of UTI episodes or an incidence rate, do not convert it into a participant count.\n- Use the paper's primary UTI definition that combines symptoms with a positive urine culture. Do not use asymptomatic bacteriuria, bacteriuria alone or a symptoms-only definition when a culture-verified one is reported.\n- Use the intention-to-treat sample when it is reported; otherwise use the analysed sample the paper reports. State which was used.\n- If a paper reports UTI at several follow-up times, use the total over the whole study period (the longest follow-up on treatment).\n- Multi-arm trials: if there are several cranberry arms (different doses, juice versus tablets), combine them into one cranberry group by summing events and participants. Use only the placebo/no-treatment arm as the control group. Ignore arms that test a different active agent (e.g. probiotics, antibiotics) and do not count them as controls.\n- Include women with a history of recurrent UTIs (e.g. two or more episodes in a year or three or more in two years), including both currently infected and infection-free women at baseline. Exclude trials in children, pregnant women, older people in institutions, or people with neurogenic bladder or catheters.\n\nDo not pool UTI outcomes that are asymptomatic bacteriuria, adverse effects, adherence, dropouts, urinary E. coli counts or antibiotic use. Include only randomised controlled trials; exclude cranberry-versus-antibiotic or cranberry-versus-probiotic comparisons with no placebo/no-treatment arm.",
+  "planned_search_queries": [
+    "cranberry recurrent urinary tract infection randomized controlled trial",
+    "cranberry juice capsules recurrent UTI placebo trial",
+    "cranberry prophylaxis urinary tract infection women clinical trial"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "cranberry recurrent urinary tract infection randomized controlled trial women",
+    "cranberry juice capsules recurrent UTI placebo controlled trial",
+    "cranberry prophylaxis recurrent urinary tract infection clinical trial",
+    "vaccinium macrocarpon recurrent urinary tract infection placebo trial",
+    "cranberry extract tablet recurrent UTI incidence trial women"
+  ]
+}

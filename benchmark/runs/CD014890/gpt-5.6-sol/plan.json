@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children aged up to and including six years who are learning a second language (L2), what is the effect of vocabulary interventions (including shared book reading, dialogic reading, explicit word teaching, or dual-language instruction), compared with standard care, usual classroom instruction, or no intervention, on distal expressive vocabulary in the L2 at the first assessment immediately after the intervention?",
+  "treatment_label": "Vocabulary intervention for young children learning an L2 (e.g., shared book reading, dialogic reading, explicit word teaching, or dual-language instruction)",
+  "control_label": "Standard care, usual classroom instruction, or no intervention without another vocabulary intervention",
+  "outcome_description": "Distal expressive vocabulary in the second language at the first post-intervention assessment: a standardised or general measure requiring children to produce, name, label, or define words not specifically taught by the intervention. Extract post-test mean, SD, and number of children per arm. Exclude taught-word/proximal tests, receptive measures, first-language outcomes, delayed follow-ups, mixed receptive-expressive total scores, and non-vocabulary outcomes. If several eligible distal expressive measures are reported, select one per trial, prioritising the standardised and broadest measure.",
+  "positive_direction": "A positive Hedges' g indicates better immediately post-intervention distal expressive second-language vocabulary in the vocabulary-intervention group than in the control group and therefore favours the intervention.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "second language preschool vocabulary intervention randomized trial expressive vocabulary",
+    "bilingual young children dialogic shared book reading controlled expressive vocabulary",
+    "dual language explicit word teaching early childhood randomized vocabulary outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials comparing a vocabulary intervention with standard care, usual classroom instruction, or no intervention in children aged up to and including six years who are learning an L2.",
+    "Interventions broadly intended to improve vocabulary or language learning, including shared book reading, dialogic reading, explicit word teaching, or dual-language instruction.",
+    "Reports an immediately post-intervention quantitative measure of distal expressive vocabulary in the L2, with data sufficient to calculate an effect size or obtainable from the authors."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised trial (including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and non-randomised studies), or completely unrelated to vocabulary intervention in young L2 learners.",
+    "No eligible comparison between a vocabulary intervention and standard care, usual classroom instruction, or no intervention; this includes controls receiving another vocabulary intervention.",
+    "No quantitative outcome data capable of producing an effect size (e.g., post-test means with SD/SE and sample sizes, suitable t/F statistics, proportions, odds ratios, or cluster-adjusted estimates).",
+    "Ineligible population or outcome: monolingual children or children older than six years; receptive vocabulary, directly taught/proximal words, first-language vocabulary, delayed follow-up rather than the first post-test, mixed receptive-expressive totals, or non-vocabulary outcomes such as reading or phonological awareness."
+  ],
+  "moderators_to_extract": [
+    "intervention type (shared book reading, dialogic reading, explicit word teaching, dual-language instruction, or other)",
+    "child age at baseline and preschool/early-school setting",
+    "L2 and L1 language pairing",
+    "intervention dose and duration",
+    "randomisation unit and cluster adjustment method/ICC used",
+    "outcome instrument and whether it is standardised"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool standardised mean differences as Hedges' g using a random-effects model, based on post-intervention values from the first assessment after treatment ended. Extract the post-test mean, SD, and number of children per arm; convert SE/SEM to SD using SD = SE \u00d7 sqrt(n). If only model-adjusted means are available, use them when an effect size can be derived and flag the estimate as adjusted. Select one distal expressive L2 outcome per trial, prioritising the standardised, broadest measure; do not use tests constructed from taught words. For cluster-randomised trials, use reported cluster-adjusted results where available; otherwise reduce arm sample sizes to effective sample sizes using the design effect 1 + (average cluster size \u2212 1) \u00d7 ICC, using the reported ICC or ICC = 0.15 if none is reported, and record which ICC was used. For multi-arm trials, combine eligible intervention arms by summing sample sizes and pooling means and SDs, while using the control once; alternatively select the single arm best matching the review question and document the decision. Orient effects so SMD/Hedges' g > 0 favours intervention. Assess heterogeneity with tau-squared and I-squared and report a 95% confidence interval for the pooled random-effects estimate; conduct sensitivity analyses for assumed ICC, adjusted versus unadjusted estimates, multi-arm decisions, and risk of bias when data permit.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "immediate distal expressive second-language vocabulary"
+}

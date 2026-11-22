@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:a823d84f",
+    "paper_title": "a1b0a149_e001232.full",
+    "design_classification": "randomized",
+    "design_rationale": "This was a two-arm parallel RCT in which mother\u2013infant dyads were assigned 1:1 using a site-stratified permuted randomization scheme with balanced random blocks of 6, 8, or 10.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used permuted random blocks stratified by site, was generated remotely, and was concealed in sealed opaque envelopes until after consent, with reported baseline characteristics similar between groups.",
+        "evidence_quote": "Mother\u2013infant dyad assignments to study groups in a 1:1 ratio was by a permuted randomisation scheme, using balanced random blocks of 6, 8 or 10. We stratified the randomisation by study site... Allocation assignments were stored in sealed opaque envelopes... Only after obtaining written informed consent did the local study teams know the allocation assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the research team were unblinded, intervention receipt was imperfect because of connectivity failures, and the primary analysis was modified intention-to-treat rather than a clearly specified conventional intention-to-treat analysis, although all 600 randomized participants remained in the reported denominators and no clear intervention-related deviations were documented.",
+        "evidence_quote": "Neither study participants nor research team were blinded... With the protocol amendment, we defined two study populations for the primary outcome analysis. First, a modified intention-to-treat (mITT) population... At enrolment, 277 (92%) of those in the intervention group received a confirmatory text and call."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Although primary-outcome follow-up was relatively complete, 31% lacked 12-month outcome data, yet the published 12-month analyses used all 300 randomized participants per group as denominators and appear to treat missing vaccination status as non-completion without evidence that missingness was unrelated to true outcomes or balanced by group.",
+        "evidence_quote": "Five (0.8%) infants died during the follow-up period, 48 (8%) were lost to follow-up for the primary outcome and 184 (31%) for the 12-month outcomes... Table 2... Control (n=300)... Intervention (n=300)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Vaccination is an appropriate objective outcome and clinic staff were blinded, but Penta outcomes were partly obtained by unblinded research assistants through maternal telephone self-report without physical verification of child-health cards, creating potential differential recall or reporting bias.",
+        "evidence_quote": "We obtained data for the primary outcome from immunisation clinic record books maintained at immunisation clinics and during the mid-study phone survey of all participants... We did not physically audit the child-health immunisation card given to parents and caregivers."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and outcomes were defined, but the protocol was amended during the study to add telephone ascertainment, multiple analysis populations and time-point/timeliness outcomes were available, and a post hoc subgroup analysis was conducted; the text does not establish a prespecified analysis plan that rules out selective reporting.",
+        "evidence_quote": "We therefore amended our study protocol to include phone audits for reporting of immunisation uptake between weeks 18 and 30... With the protocol amendment, we defined two study populations for the primary outcome analysis... In a post hoc analysis, we used a generalised linear model."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because 31% of participants lacked 12-month outcome data and the analyses appear to count missing vaccination status as non-completion without adequate evidence that missingness could not bias the effect estimate. Additional concerns arise from participant/research-team non-blinding, partly self-reported outcome ascertainment, and analytic/reporting flexibility following a protocol amendment."
+  },
+  {
+    "paper_id": "manual:7de5a640",
+    "paper_title": "3ecc3b3b_j.vaccine.2016.03.065",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports allocation to SMS reminder or usual care using a computer-generated randomization scheme.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence and investigator blinding were reported, but the mechanism for concealing allocation from enrolling staff was not described, and marked temporal and socioeconomic imbalances raise concern about implementation of the sequence.",
+        "evidence_quote": "Participants were allocated to either an intervention or usual care group using a computer-generated randomization scheme with the investigators being blind to the allocation. Upon unlocking the database, it was noted that a disproportionate number of participants were randomized into the intervention group during the first month and the usual care group during the second month of the enrollment period."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew whether SMS reminders were received, and substantial delivery-system failures caused many intervention participants to receive fewer or more than the intended three messages, although intention-to-treat analyses were reported and agreed with per-protocol analyses.",
+        "evidence_quote": "While a majority of children randomized to the SMS reminder group were sent the intended three reminders (52.5% for visit 2 and 46.9% for visit 3), some parents were sent fewer than three messages (47.5% for visit 2 and 41.3% for visit 3) and other parents were sent four or five messages prior to visit 3 (11.9%)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Vaccination follow-up was incomplete and records could only be confirmed at the two study clinics, although the ITT table appears to retain all randomized participants by treating unconfirmed completion as noncompletion; evidence that missingness could not bias effects was not provided.",
+        "evidence_quote": "Twenty-four patients (7.5%) were lost to follow-up after the first visit and 32 patients (10.0%) after the second visit for a total of 56 patients (17.4%) lost to followup during the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Vaccination completion was an objective outcome measured similarly at study clinics, but outcome ascertainment missed vaccinations delivered elsewhere and study personnel were not reported as blinded; parent satisfaction was self-reported after an overt intervention and therefore susceptible to knowledge of assignment.",
+        "evidence_quote": "We were only able to confirm immunization records for children who returned to one of our two study sites."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A trial registration is cited and primary and secondary outcomes are identified, but no prespecified protocol or statistical analysis plan is supplied to verify that reported outcome definitions, multiple vaccine/visit measures, adjusted analyses, and ITT versus per-protocol analyses were selected in advance.",
+        "evidence_quote": "The primary outcomes for this study were the proportion of parents who were sent SMS messages and parental satisfaction with the intervention. Secondary outcomes included completion of the infant immunization series and the rate of completion by visit and by antigen."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Concerns arise from incompletely described allocation concealment with temporal and socioeconomic imbalances, substantial variation from intended SMS delivery, incomplete outcome ascertainment, unblinded/self-reported outcomes, and insufficient information to exclude selective reporting."
+  },
+  {
+    "paper_id": "manual:e4cc6573",
+    "paper_title": "fdf591ae_jpha-10-1-1032",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports block randomization of mother-child pairs to intervention or control using an automated system, with schedules concealed from facility personnel.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated by an automated block-randomization system, concealed from facility personnel, and measured baseline characteristics were similar between groups.",
+        "evidence_quote": "Block randomization was used to allocate motherchild pairs to the intervention or control group based on rural, semi-urban, or urban (Korhogo town) health facility location. Randomization was performed using an automated system and randomization schedules were concealed from health facility personnel."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew whether reminders were received, and although no intervention-related deviations are reported, the paper does not explicitly describe an intention-to-treat analysis or adherence to assigned reminder delivery.",
+        "evidence_quote": "Mothers in the intervention group were given the option to receive either an SMS or voice message reminder in their preferred language (French, Senoufo, or Dioula) prior to each scheduled visit. Mothers in the control group were not provided any SMS or voice messages."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Visit-attendance outcomes are reported using all 1,596 randomized mother-child pairs as denominators, indicating outcome status was available for nearly all participants, with non-attendance itself constituting the outcome.",
+        "evidence_quote": "A total of 1596 mother-child pairs were enrolled in the study: 798 in the intervention group and 798 in the control group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Facility attendance was an objective outcome recorded consistently through the same electronic platform, and facility personnel were reported to be blinded to the randomization scheme, limiting differential measurement.",
+        "evidence_quote": "Attendance records for each visit were transmitted directly from facility staff to study personnel via the Ivocarte\u00ae platform."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified analysis plan is reported, and several visit-specific outcomes and adjusted analyses were available, leaving some potential for selective reporting despite coherent reporting across all five visits.",
+        "evidence_quote": "We conducted bivariate analyses and created multivariable logistic regression models to assess differences in visit attendance between the intervention and control group. Model covariates were selected based on a significant (P<0.05) bivariate result and/or factors associated with compliance."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by lack of explicit intention-to-treat/adherence information and absence of a reported preregistration or prespecified analysis plan. Randomization, outcome completeness, and objective outcome measurement were otherwise well described."
+  },
+  {
+    "paper_id": "manual:a8234e62",
+    "paper_title": "486b1e70_publichealth_v4i1e20",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1 using a computer-generated block-randomization list, with assignments placed in sealed opaque envelopes opened after informed consent.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated in fixed blocks and concealed in sealed opaque envelopes until enrollment after consent, and reported baseline characteristics were broadly balanced.",
+        "evidence_quote": "The intervention and control group ratio was 1:1; the randomization list was generated through computer assignments with a block of 6 children, allocated in sealed opaque envelopes that were opened at the time of enrollment after informed consent."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants could not be blinded and a substantial proportion of the intervention group did not confirm receipt of reminders, although an ITT analysis was reported; the prominent per-protocol analysis excluded participants based on post-randomization intervention receipt and outcome confirmation.",
+        "evidence_quote": "The study hypotheses were tested for both per protocol (PP) and intention to treat (ITT) analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Follow-up interviews were available for 96% of randomized participants, but only 69.3% had vaccination status verified by an immunization card and the paper does not clearly explain how missing or verbally reported outcomes were handled in the ITT estimates.",
+        "evidence_quote": "We were able to verify that 69.3% of the participant\u2019s vaccination status by physically looking at their EPI card; however, rest of the participant\u2019s vaccination status was verbally captured as they were not able to retrieve and show the EPI cards to the study team staff."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Vaccination status was measured similarly in both groups and usually checked against cards, but assessors' blinding was not reported and outcomes for about 31% relied on caregiver report, which could be influenced by knowledge of assignment.",
+        "evidence_quote": "Vaccination records were verified by physically looking at the EPI immunization cards of the child during home visits."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and a protocol is cited, but the text does not establish that the analysis plan was finalized before unblinded outcome data, and multiple time points plus ITT and selectively filtered per-protocol analyses created several eligible results, with emphasis on the sole significant PP finding.",
+        "evidence_quote": "Only children in the PP analyses, who received an SMS reminder for vaccine uptake at 6 weeks visit, showed a statistically significant difference (96.0%, 86/90 vs 86.4%, 102/118; P=.03)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Randomization and allocation concealment were adequate, but lack of blinding, incomplete confirmation of intervention receipt, reliance on caregiver-reported vaccination for many participants, unclear handling of missing outcomes, and emphasis on a selectively restricted per-protocol result raise concerns."
+  },
+  {
+    "paper_id": "manual:b71f653e",
+    "paper_title": "2832e386_s2214-109x%2817%2930072-4",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster-randomized controlled trial in which 152 villages were allocated using computer-generated constrained randomization, with the final sequence and intervention labels selected at a public ceremony.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The cluster allocation sequence was generated using constrained computer randomization, and the final eligible sequence and mapping of intervention labels were selected publicly; reported baseline characteristics were broadly balanced and compatible with chance.",
+        "evidence_quote": "A constrained randomisation was done with GAUSS Mathematical and Statistical System by one of the study investigators, which randomly generated 1000 allocations that met the following criteria for balance across study arms"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were necessarily unmasked and intervention delivery was incomplete, while the primary analysis was only a modified intention-to-treat analysis excluding participants without ascertainable 12-month outcomes, although retained participants were analyzed according to initial assignment.",
+        "evidence_quote": "Primary analyses were done with modified intention-to-treat analyses at the participant level so that participants\u2019 outcomes were analysed regardless of the degree of exposure to study interventions. The term modified refers to the requirement of being able to determine the 12-month immunisation outcomes."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Primary-outcome data were available for only 1600 of 2018 randomized participants (79%), with differential retention across arms (74% to 83%) and observed demographic differences between included and excluded participants, so missingness could plausibly bias the effect estimate.",
+        "evidence_quote": "This study has several limitations. First, our analytic sample consisted of 79% of enrolled caregiver\u2013infant pairs... There were some diferences in sociodemographic characteristics between the analytic sample and those who were excluded from the analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Full immunization was an appropriate, prespecified outcome measured consistently across arms primarily from written maternal and child health records, with discrepancies checked against prospectively collected and registry data; although caregivers and interviewers were unmasked, the largely objective documentary outcome limits influence from allocation knowledge.",
+        "evidence_quote": "Data for primary and secondary outcomes came from written immunisation records found on the child\u2019s MCH booklet at 12-month follow-up visits... If there were discrepancies between MCH and prospectively-collected data, the health facility immunisation registries were consulted."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, outcomes and key subgroup analyses were identified as prespecified, and the reported primary result used the stated analysis method, providing little indication of selective reporting despite additional exploratory analyses.",
+        "evidence_quote": "This trial is registered with ClinicalTrials.gov, number 01878435... Vaccination coverage at 12 months of age and timely vaccination for pentavalent, polio, and measles vaccines were predetermined as secondary outcomes."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because outcome data were missing for 21% of randomized participants, retention differed by study arm, and included versus excluded participants differed demographically, leaving a credible risk that missingness biased the effect estimate. The randomization and outcome measurement procedures were otherwise strong, with some additional concerns about the modified intention-to-treat analysis and lack of masking."
+  },
+  {
+    "paper_id": "manual:15c51c70",
+    "paper_title": "c9812df2_s12889-015-1470-6",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports individual assignment to two groups using computer-generated random numbers.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and groups were broadly similar, but the report does not describe allocation concealment before assignment and there is some baseline imbalance in marital status.",
+        "evidence_quote": "At study initiation study participants were assigned by computer generated random numbers to 1 of 2 groups"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants necessarily knew whether they received SMS reminders, but both groups received routine health education, all intervention messages were delivered, all randomized participants were followed and analyzed, and no intervention-related deviations were reported.",
+        "evidence_quote": "All the study participants who were randomized were included in the analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was reported as complete in both randomized groups, making bias from missing outcome data unlikely.",
+        "evidence_quote": "All the respondents in both intervention and non intervention groups were followed up at 14 weeks."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Receipt and timing of scheduled vaccination are objective outcomes that were checked against clinic immunization registers in both groups, so knowledge of assignment is unlikely to materially bias measurement.",
+        "evidence_quote": "The mothers were followed up by phoning them using the mobile numbers provided and also comparing the details provided with those in the clinic immunization registers."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered only after study completion, and several time points and secondary outcomes were analyzed without an available prespecified analysis plan, leaving potential for selective reporting or analysis.",
+        "evidence_quote": "Trial registration: ISRCTN70918594. Registration Date: 28 August 2014."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by absent information about allocation concealment and retrospective trial registration without an available prespecified analysis plan. Missing-data and outcome-measurement risks were low because follow-up was complete and vaccination outcomes were verified against clinic registers."
+  }
+]

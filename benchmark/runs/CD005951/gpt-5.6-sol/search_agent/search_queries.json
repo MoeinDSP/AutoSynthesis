@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of antifibrinolytic drugs (tranexamic acid, aminocaproic acid or similar), compared with placebo or open (no-drug) control, on intracerebral haematoma expansion by 24 hours in adults with acute spontaneous (non-traumatic) intracerebral haemorrhage?\n\nEffect measure: pool as a risk ratio (RR) using a random-effects model. RR < 1 means fewer patients with haematoma expansion in the antifibrinolytic arm (favours antifibrinolytic).\n\nOutcome: number of participants with haematoma expansion (events) out of the number randomised to each arm (total), assessed on repeat brain imaging at or around 24 hours after the baseline scan.\n- Use the paper's own definition of haematoma expansion/growth (typically relative growth of 33% or more, or an absolute increase of about 6 mL or more; other definitions are acceptable if that is what the trial reports). If a paper reports only a mean change in volume and no count of patients with expansion, leave the study out rather than inventing a count.\n- Use the number randomised to each arm as the denominator (intention-to-treat), even when percentages in the paper are calculated from the smaller number with a follow-up scan. If a paper reports only a percentage, convert it to a count using the arm size it applies to, and say which denominator was used.\n- Use the primary 24-hour scan. Do not use later scans, 7-day or 90-day outcomes.\n- Include only patients with spontaneous ICH. If a trial recruited a mixed population (e.g. traumatic and spontaneous haemorrhage), use only the spontaneous-ICH subgroup.\n- Multi-arm trials: use the antifibrinolytic arm and the placebo/open-control arm only; combine different antifibrinolytic doses by summing events and participants.\n- Be careful with arm order: assign arms by treatment name from the group definitions, not by column position.\n\nDo not pool death or dependence, mortality, serious adverse events, thromboembolic events or functional outcomes. Include only randomised controlled trials; exclude trials of other haemostatic agents (e.g. recombinant factor VIIa, vitamin K, prothrombin complex concentrate, platelet transfusion) and reviews or case series.",
+  "planned_search_queries": [
+    "spontaneous intracerebral haemorrhage antifibrinolytic tranexamic acid randomized trial haematoma expansion",
+    "intracerebral hemorrhage aminocaproic acid controlled trial hematoma growth",
+    "acute spontaneous ICH antifibrinolytic placebo randomised imaging outcome"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "acute spontaneous intracerebral haemorrhage tranexamic acid randomized trial haematoma expansion",
+    "spontaneous intracerebral hemorrhage aminocaproic acid controlled trial hematoma growth",
+    "acute spontaneous ICH antifibrinolytic placebo trial repeat brain imaging",
+    "intracerebral haemorrhage epsilon aminocaproic acid randomized controlled trial haematoma enlargement",
+    "primary intracerebral hemorrhage antifibrinolytic treatment trial 24 hour hematoma expansion"
+  ]
+}

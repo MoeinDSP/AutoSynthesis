@@ -1,0 +1,38 @@
+{
+  "research_question": "In preterm infants (born <37 weeks gestation), what is the effect of music or voice interventions (recorded music, live singing, parental voice or lullabies, with or without kangaroo/skin-to-skin care) compared with standard care, usual NICU environment or no music on heart rate (beats per minute) measured during the intervention session?",
+  "treatment_label": "Music or voice intervention (recorded music, live music therapy, singing, parental voice/lullaby, with or without kangaroo care)",
+  "control_label": "Standard care / usual NICU environment / silence / no music",
+  "outcome_description": "Heart rate in beats per minute (bpm) recorded during the intervention session, i.e. while the music or voice stimulus is being delivered. Extracted as mean, SD and number of infants per arm. Final (during-session) values preferred over change from baseline; if only change from baseline is available, change scores are used for both arms and flagged. SE/SEM converted to SD as SE \u00d7 \u221an. Heart rate before the session, immediately after it, or at later follow-up is not used. Oxygen saturation, respiratory rate, pain, weight gain, length of stay, sleep, feeding and neurodevelopmental outcomes are not pooled.",
+  "positive_direction": "A positive Hedges g / effect size indicates that the music or voice intervention produced a LOWER heart rate during the session than standard care (i.e. favours music); in raw units this corresponds to a mean difference MD < 0 bpm.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "music therapy preterm infants heart rate randomized controlled trial",
+    "lullaby maternal voice singing NICU premature infant physiological response trial",
+    "recorded music kangaroo care preterm neonate vital signs controlled study"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial (including cross-over randomised trials) involving preterm infants born before 37 weeks of gestation",
+    "Compares a music or voice intervention (recorded music, live music therapy, singing, parental voice, lullaby, with or without kangaroo/skin-to-skin care) with standard care, usual NICU environment, silence or no music",
+    "Reports quantitative heart rate data in beats per minute during the intervention session (mean with SD/SE, or statistics from which an effect size can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, theoretical or narrative paper, protocol without results)",
+    "No comparison between a music/voice condition and a standard-care, silence or no-music control (e.g. control is another active intervention such as massage, white noise or pacifier alone), or non-randomised design",
+    "No usable quantitative heart rate outcome data during the intervention (no means with SD/SE, t/F statistics, or other data permitting effect-size computation)",
+    "Population not preterm infants (term infants, older children, adults) or topic completely unrelated to the research question"
+  ],
+  "moderators_to_extract": [
+    "Type of auditory intervention (recorded music, live music therapy/singing, parental/maternal voice, lullaby)",
+    "Concurrent kangaroo care or skin-to-skin contact (yes/no)",
+    "Gestational age or postmenstrual age at intervention",
+    "Study design (parallel-group RCT vs cross-over RCT)",
+    "Duration and dose of the intervention session",
+    "Sample size category and data type used (final during-session value vs change from baseline)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as mean difference (MD) in bpm; report both fixed-effect and random-effects estimates when available. Raw MD < 0 bpm indicates a lower heart rate with music/voice (favours the intervention); the signed effect size is oriented so that positive values favour music. Convert SE/SEM to SD (SD = SE \u00d7 \u221an) and check footnotes for whether \"\u00b1\" denotes SD or SE. For multi-arm trials with several music conditions sharing one control, combine the music arms or split the control n equally across comparisons to avoid double counting. For cross-over trials, prefer first-period data; otherwise use reported paired means/SDs and flag the cross-over origin. Assign arms by treatment description, not column position.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "heart rate during the intervention session"
+}

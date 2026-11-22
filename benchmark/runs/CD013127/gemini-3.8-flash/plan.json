@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of Mental Health First Aid (MHFA) training compared with a control condition on trainees' ability to correctly recognise depression in a case vignette at follow-up of six months or longer?",
+  "treatment_label": "Mental Health First Aid (MHFA) training",
+  "control_label": "Control (waitlist, no training, or unrelated activity)",
+  "outcome_description": "Proportion of participants correctly identifying depression in a case vignette at follow-up of six months or longer",
+  "positive_direction": "Increased odds of correctly recognising depression favoring MHFA training (OR > 1)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "Mental Health First Aid depression recognition trial",
+    "MHFA randomized controlled trial depression vignette",
+    "Mental Health First Aid training evaluation controlled comparison"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials (including cluster-RCTs) evaluating Mental Health First Aid (MHFA) training compared to a control condition (waitlist, no training, or unrelated activity)",
+    "Assessment of participants' ability to correctly recognise or identify depression in a case vignette at a follow-up of six months or longer",
+    "Reporting of quantitative outcome data (e.g., frequencies, percentages, odds ratios with 95% CIs, or continuous recognition scores)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, opinion pieces, or theoretical papers)",
+    "No comparison between an MHFA training condition and an eligible control condition (e.g., uncontrolled pre-post studies)",
+    "No quantitative outcome data allowing calculation of an effect size for vignette-based depression recognition at follow-up >= 6 months",
+    "Completely unrelated topic or studies only assessing outcomes immediately post-training (< 6 months) without long-term follow-up"
+  ],
+  "moderators_to_extract": [
+    "Delivery format (face-to-face, e-learning/online, or blended)",
+    "Control condition type (waitlist, no training, active/unrelated control)",
+    "Follow-up duration (in months)",
+    "Target population (e.g., workplaces, university students, general public)",
+    "Randomisation level (individual RCT vs cluster-RCT)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Odds ratio (OR) of correct depression recognition in a vignette (MHFA vs control) at the first follow-up >= 6 months. Cluster trials adjusted for design effect if not already adjusted. If continuous recognition scores are reported, SMD is converted to log OR via SMD * pi / sqrt(3). Multiple training arms combined.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "recognition of depression"
+}

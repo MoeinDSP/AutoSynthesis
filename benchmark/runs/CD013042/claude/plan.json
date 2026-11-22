@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with lateral elbow pain (tennis elbow / lateral epicondylalgia), what is the effect of manual therapy (manipulation, mobilisation, soft-tissue techniques), prescribed exercise, or a combination of the two, compared with minimal or no intervention (wait-and-see, advice only, placebo/sham, usual GP care), on pain intensity measured at the end of the intervention period?",
+  "treatment_label": "Manual therapy, prescribed exercise, or combined manual therapy plus exercise",
+  "control_label": "Minimal or no intervention (wait-and-see, advice/stretching only, placebo or sham, usual GP care)",
+  "outcome_description": "Mean pain intensity at the first assessment at the end of the intervention period (typically 6\u20138 weeks), on a 0\u201310 scale (VAS 0\u2013100 mm converted by dividing means and SDs by 10; NRS 0\u201310 used directly). Preference for the trial's primary pain measure (e.g. pain at rest, pain on activity, pain on maximum grip). Extracted as mean, SD and number of participants per arm; end-of-treatment values preferred, change-from-baseline scores used if only those are reported (not mixed within a trial), or an adjusted between-group difference with CI (SE = CI width \u00f7 3.92 for 95%, \u00f7 5.15 for 99%). SE/SEM converted to SD as SE \u00d7 \u221an; if n analysed is not reported for pain, the number randomised or flow-diagram arm sizes are used. Trials reporting pain data only in figures are excluded from pooling. Later follow-up time points are not used. Disability, grip strength, quality of life, treatment success, withdrawals and adverse events are not pooled.",
+  "positive_direction": "A positive pooled effect means less pain in the active treatment group (manual therapy, exercise, or both) than in the minimal/no-intervention control \u2014 i.e. the treatment reduced pain intensity. On the raw 0\u201310 pain scale this corresponds to a mean difference below zero (MD < 0 favours the treatment).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "manual therapy mobilisation lateral epicondylalgia randomised controlled trial pain",
+    "exercise therapy tennis elbow lateral epicondylitis trial pain outcome wait-and-see",
+    "lateral elbow pain physiotherapy versus placebo sham usual care randomized trial pain intensity"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults with lateral elbow pain / tennis elbow / lateral epicondylalgia",
+    "At least one arm receiving manual therapy, prescribed exercise, or a combination, compared with a minimal or no-intervention arm (wait-and-see, advice/stretching only, placebo or sham, usual GP care)",
+    "Reports some quantitative pain intensity outcome at or around the end of the intervention period (means and SDs, SEs, change scores, or an adjusted between-group difference with CI)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative or theoretical paper, protocol, conference abstract without data)",
+    "No comparison between an active treatment arm and a minimal/no-intervention control arm (e.g. control receives another active manual therapy or exercise programme, an injection, or a drug)",
+    "No quantitative pain outcome data usable for an effect size (e.g. pain data presented only in a figure, no means/SDs, no t/F statistics, no between-group difference with CI)",
+    "Not related to the research topic (not adults with lateral elbow pain, or pain intensity not assessed)"
+  ],
+  "moderators_to_extract": [
+    "Intervention type (manual therapy only, exercise only, combined)",
+    "Control type (wait-and-see, advice only, placebo/sham, usual GP care)",
+    "Intervention duration / number of sessions",
+    "Symptom duration at baseline (acute vs chronic)",
+    "Pain measure used (rest, activity, grip; VAS vs NRS)",
+    "Sample size category and risk-of-bias rating"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a mean difference (MD) on a 0\u201310 pain scale with a random-effects (DerSimonian\u2013Laird / REML) model. Convert 0\u2013100 mm VAS means and SDs to 0\u201310 by dividing by 10. Orient as treatment minus control (invert if reported as control minus treatment); MD < 0 favours the active treatment. Use the first end-of-treatment assessment only. For multi-arm trials, include each eligible active arm against the shared control, splitting the control n equally across comparisons (or combine active arms and use the control once), and state the choice. Convert SE/SEM to SD via SE \u00d7 \u221an; derive SE from adjusted difference CIs (width \u00f7 3.92 for 95%, \u00f7 5.15 for 99%). Do not mix end values and change scores within a trial.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pain intensity"
+}

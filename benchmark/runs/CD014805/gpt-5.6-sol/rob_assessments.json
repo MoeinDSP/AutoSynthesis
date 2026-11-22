@@ -1,0 +1,554 @@
+[
+  {
+    "paper_id": "manual:7273b2e1",
+    "paper_title": "0c4355fa_abstract-Impact_of_12_weeks_nab-paclitaxel",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that patients were randomized to neoadjuvant nab-paclitaxel plus gemcitabine (arm A) versus nab-paclitaxel plus carboplatin (arm B).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is stated, but the abstract does not report how the sequence was generated or whether allocation was concealed, and it provides no arm-specific baseline comparison.",
+        "evidence_quote": "Patients with centrally confirmed TNBC ... were randomized to neoadjuvant A ... vs. B"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The reported survival analysis was per protocol rather than intention to treat, and optional post-randomization anthracycline treatment among patients achieving pCR could produce intervention-related deviations that affect survival.",
+        "evidence_quote": "Adjuvant anthracycline-based chemotherapy (4xEC) was optional in patients with pCR. Here, we report the per-protocol interim survival analysis"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Although 336 patients were enrolled and survival event counts are reported, the abstract does not state how many randomized participants were included in the per-protocol analysis, whether follow-up was complete, or whether exclusions and losses differed by arm.",
+        "evidence_quote": "336 patients were enrolled (48 centers, arms A/B: n = 182/154)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "EFS and OS are objective, clearly defined time-to-event outcomes likely to be measured similarly across randomized groups, making bias from assessor knowledge unlikely.",
+        "evidence_quote": "Event-free (EFS) -- defined as time from registration to any invasive relapse, secondary malignancy or death of any cause -- and overall survival (OS) were secondary endpoints."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial is registered and the analysis was reportedly DSMB-recommended, but this abstract does not provide a prespecified statistical analysis plan, while reporting an interim per-protocol analysis and multiple survival comparisons.",
+        "evidence_quote": "Here, we report the per-protocol interim survival analysis recommended by the DSMB after a median follow-up of 3 years."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the survival results came from a per-protocol analysis and optional post-randomization anthracycline treatment could have caused outcome-relevant deviations from assignment. Reporting gaps concerning allocation concealment, missing data, and prespecification add further concerns."
+  },
+  {
+    "paper_id": "manual:0e0ce483",
+    "paper_title": "96275a3c_annonc%2Fmdy460",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that patients were randomized to receive carboplatin in addition to paclitaxel plus liposomal doxorubicin (PMCb) or no additional carboplatin (PM).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is explicitly reported, but the sequence-generation and allocation-concealment methods are not described here, and no treatment-arm baseline comparison is provided to assess whether imbalances were compatible with chance.",
+        "evidence_quote": "Patients were randomized to receive simultaneously carboplatin (PMCb) ... or no additional treatment (PM) [1]."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The open difference between adding carboplatin and giving no additional treatment would make assignment apparent, while adherence, intervention-related deviations, and use of an intention-to-treat analysis are not adequately reported in this article.",
+        "evidence_quote": "Patients were randomized to receive simultaneously carboplatin (PMCb) ... or no additional treatment (PM)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The report states that 588 patients were treated and presents survival outcomes, but does not clearly account for randomized participants or completeness of DFS/OS follow-up by treatment arm; moreover, HRD subgroup analyses included only 193 of 315 TNBC participants because tissue was unavailable or inadequate.",
+        "evidence_quote": "HRD was among the exploratory analyses in GeparSixto and was successfully measured in FFPE tumor samples of 193/315 (61.3%) participants with TNBC."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "DFS and OS are appropriate outcomes and appear defined and analyzed consistently across arms, but blinding of recurrence/outcome ascertainment or adjudication is not reported, leaving some concern for the partly judgment-dependent DFS endpoint.",
+        "evidence_quote": "The secondary study endpoints disease-free survival (DFS) and overall survival (OS) were analyzed."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "DFS and OS were predefined secondary endpoints and HRD was a predefined exploratory aim, which limits concern, but no accessible protocol or prespecified statistical analysis plan is provided here to verify the reported subgroup definitions and analytic choices.",
+        "evidence_quote": "The main aim of the present report is the analysis of DFS and OS according to treatment arm, which was a predefined secondary endpoint of GeparSixto."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The randomized design and predefined endpoints support validity, but sequence concealment, adherence/analysis details, completeness of survival follow-up, blinding of DFS ascertainment, and full prespecification are insufficiently reported; the exploratory HRD analyses additionally rely on only 61.3% of TNBC participants."
+  },
+  {
+    "paper_id": "manual:b56352ee",
+    "paper_title": "438e11ee_jco-40-1323",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that patients were randomly assigned in a 2 \u00d7 2 factorial design to four neoadjuvant treatment arms.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment and balanced arm sizes are reported, but the sequence-generation and allocation-concealment methods are not described in the supplied report, and baseline balance by randomized arm is not fully presented.",
+        "evidence_quote": "Patients with clinical stage II-III TNBC ... were randomly assigned to the control regimen (arm 1) ... bevacizumab ... (arm 2), carboplatin ... (arm 3), or both (arm 4)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The analysis excluded randomized participants who never began treatment, treatment delivery differed by assignment because carboplatin caused more missed paclitaxel doses, and post-surgical systemic treatments were not collected, creating potential intervention-related deviations relevant to long-term outcomes.",
+        "evidence_quote": "The analysis was performed via a modified intent-to-treat (mITT) principle; patients who withdrew before starting protocol treatment were excluded."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Long-term outcomes were analyzed for all 443 treatment initiators with substantial median follow-up, but completeness of follow-up by randomized group and reasons for loss to follow-up are not reported sufficiently to exclude bias.",
+        "evidence_quote": "Of 443 patients in the mITT population, 426 underwent surgery ... The median follow-up is 7.9 years (95% CI, 7.6 to 8.1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "EFS and OS were objectively defined time-to-event outcomes and appear to have been ascertained consistently across randomized groups, making influence from knowledge of assignment unlikely for the principal long-term outcomes.",
+        "evidence_quote": "EFS is defined as time from random assignment to local, regional, or distant recurrence, any second invasive cancer, or death from any cause."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A protocol and prespecified secondary long-term outcomes are identified, but the report includes numerous exploratory outcomes, subgroups, genomic features, interactions, and unadjusted multiple testing, allowing selective emphasis among eligible results.",
+        "evidence_quote": "Consistent with the exploratory nature of many of the correlative science analyses, reported P values are from two-sided tests and have not been corrected for multiple comparisons."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. The objective long-term outcome measurement is reassuring, but sequence concealment is not reported, the modified intention-to-treat analysis and treatment-related dose deviations may affect estimates, follow-up completeness by arm is unclear, and extensive exploratory analyses create reporting-selection concerns."
+  },
+  {
+    "paper_id": "manual:353dd852",
+    "paper_title": "3b075636_jnci%2Fdjx258",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized controlled trial: treatment allocation was performed centrally in a 1:1 ratio using a list stratified by center and nodal status.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Central, stratified allocation and balanced baseline characteristics support a valid process, but the report does not state how the allocation sequence itself was randomly generated.",
+        "evidence_quote": "The treatment allocation list was created for the whole ADAPT trial (including five subprotocols) and stratified by center and nodal status. Randomization was performed centrally at West German Study Group (WSG) in a 1:1 ratio."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The open-label trial had modest, differential treatment discontinuation and dose reduction, and although the analysis was described as intention-to-treat, it excluded randomized participants lacking histological pCR assessment.",
+        "evidence_quote": "Treatment allocation was not masked... The primary end points were tested... in an intention-to-treat collective of all patients randomly assigned to study treatment and with surgery or histological confirmation for pCR."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary pCR data were available for 324 of 336 randomized participants (96.4%), with only 12 labels missing, making material bias from the small amount of missing outcome data unlikely.",
+        "evidence_quote": "324 (97.9%) underwent surgery or a second biopsy for histological confirmation of residual disease... 12 pCR labels were missing (3.6%)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "pCR was an objective and consistently defined pathological endpoint, but it was assessed locally in an unmasked trial and blinding of pathologists to treatment was not reported.",
+        "evidence_quote": "pCR\u2014defined as absence of invasive tumor cells in the breast and lymph nodes (ypT0/is ypN0), assessed by local pathologists\u2014constituted the primary end point of the trial."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the primary endpoint and hypotheses were specified, but the supplied report does not provide a protocol or statistical analysis plan sufficient to exclude selective choice among pCR definitions, populations, or analyses.",
+        "evidence_quote": "This trial is registered with ClinicalTrials.gov (NCT01815242)... The trial tested two primary hypotheses separately."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. Central randomization, balanced groups, and nearly complete objective pCR ascertainment are reassuring, but sequence generation was not described, treatment was unmasked with some differential modifications, local pathologist blinding was unclear, and full prespecification of reported analyses could not be verified."
+  },
+  {
+    "paper_id": "manual:7e300a51",
+    "paper_title": "a9922206_Neoadjuvant_docetaxel_plus_carboplatin_vs_epirubic",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports 1:1 random assignment using a permuted-block scheme implemented through a central interactive response system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used permuted blocks and a central interactive response system, supporting random sequence generation and concealment, while reported baseline characteristics were balanced.",
+        "evidence_quote": "Patients were randomized by means of a permuted block randomization scheme using an interactive response system (IxRS)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label, five randomized patients were excluded because they did not start treatment, and the stated intention-to-treat analysis was therefore a modified rather than full intention-to-treat analysis; differential supportive treatment was also permitted.",
+        "evidence_quote": "The intention-to-treat analysis was performed for all participants except five who did not agree to receive the treatment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary-outcome data were analyzed for 88 of 93 randomized participants, with five post-randomization exclusions due to refusal of treatment and no sensitivity analysis showing that their missing outcomes could not bias the result.",
+        "evidence_quote": "Between 1 September 2016 and 31 December 2019, 93 patients were randomly assigned and 88 patients were evaluated for the primary endpoint (44 patients in each group)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Pathologic complete response is an appropriate objective outcome with a common definition, but it was assessed locally in an open-label trial without reported blinding or central pathology review, leaving some potential for assessor influence.",
+        "evidence_quote": "The pCR rate was determined by a local pathologist."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The study was registered and specifies the primary endpoint and noninferiority margin, but the text does not establish that the protocol or statistical analysis plan was finalized and publicly available before unblinded analysis, and both noninferiority and superiority testing were reported.",
+        "evidence_quote": "The study was registered at ClinicalTrials. gov (number NCT03154749)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. Central permuted-block randomization and balanced baseline characteristics support a sound allocation process, but post-randomization exclusion of five participants, open-label local outcome assessment, and incomplete information about prespecified reporting create concerns without clear evidence of high risk."
+  },
+  {
+    "paper_id": "manual:efb7af17",
+    "paper_title": "70671700_oncotarget-07-60647",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly describe this as a randomized phase II trial and state that patients were stratified by clinical stage and then randomized to PC or EP neoadjuvant chemotherapy.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although randomization stratified by clinical stage was reported and measured baseline characteristics were broadly balanced, the sequence-generation method and allocation concealment were not described, with some chance imbalances in nodal stage and Ki-67.",
+        "evidence_quote": "TNBC patients were stratified according to clinical stage (II/III), and then randomized to receive PC (paclitaxel plus carboplatin) or EP (epirubicin plus paclitaxel) regimen as NAC."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The open-label trial allowed response-dependent postoperative switching to the alternative regimen, which occurred differentially between arms and could materially bias the randomized comparison of relapse-free and overall survival despite use of an intention-to-treat population.",
+        "evidence_quote": "4 patients in PC arm switched to anthracycline-based adjuvant chemotherapy, and 13 patients in EP arm switched to platinum-based regimen after surgery due to lack of objective response in NAC."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Four of 91 randomized and treated patients did not undergo surgery and therefore lacked pathological response assessment, and the report does not clearly explain their distribution, reasons, or how they were handled in the pCR analysis.",
+        "evidence_quote": "87 patients underwent surgery and had tumor responses evaluated pathologically."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "pCR was objectively and clearly defined and survival outcomes were standard, but the open-label design and absence of reported blinded central pathology or outcome adjudication leave some concern that assessors could know treatment assignment.",
+        "evidence_quote": "This was a prospective, open label, randomized phase II study."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A trial registration is reported and the prespecified primary and secondary outcomes are identified, but no prospective protocol or analysis plan is provided to verify timing and exclude selection among multiple pCR definitions, subgroup analyses, and analytic choices.",
+        "evidence_quote": "The trial is registered in Clinical Trials. Gov (Trial registration ID: NCT01276769)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial, differential response-dependent crossover to alternative postoperative chemotherapy that threatens the randomized comparison of long-term survival outcomes. Additional concerns arise from unreported sequence generation/allocation concealment, incomplete pCR data, lack of reported blinded outcome assessment, and limited information about prespecified analyses."
+  },
+  {
+    "paper_id": "manual:6830fbbe",
+    "paper_title": "a4189908_PIIS0923753422000187",
+    "design_classification": "randomized",
+    "design_rationale": "This was explicitly described as a phase III randomized, double-blind, placebo-controlled trial in which 634 women were assigned in a 2:1:1 ratio to three treatment arms.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment, stratification factors, and balanced baseline characteristics are reported, but the method used to generate the allocation sequence and concealment procedures are not described in the supplied report.",
+        "evidence_quote": "Patients were randomized (2 : 1 : 1) to receive paclitaxel... Randomization was stratified according to gBRCA status, nodal stage, and planned schedule of doxorubicin and cyclophosphamide administration."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind and placebo-controlled, allowed protocol-defined treatment delays to facilitate intended dose delivery, and analyzed efficacy outcomes in all randomized participants using intention-to-treat.",
+        "evidence_quote": "The primary and secondary endpoints were assessed in all randomized patients (intent-to-treat population)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Long-term follow-up losses and consent withdrawals occurred in every arm and no sensitivity analysis addressing potentially informative missing follow-up is reported, although median follow-up was similar between arms and all randomized patients entered the efficacy analysis.",
+        "evidence_quote": "The median follow-up time was 4.5 years and did not differ by arm."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "EFS and OS were clearly defined and measured similarly across arms, with pathological confirmation required for several recurrence types, but EFS events were unadjudicated site reports and assessor blinding during long-term follow-up is not explicitly stated.",
+        "evidence_quote": "Follow-up analyses were conducted using unadjudicated events as reported by sites and confirmed by site monitors."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The key carboplatin-versus-paclitaxel EFS comparison supporting the conclusion was explicitly post hoc, secondary analyses became descriptive after failure of the fixed testing sequence, and three known second malignancies were omitted from the prespecified EFS analysis because they had not been reported as EFS events.",
+        "evidence_quote": "A post hoc comparison of patients assigned to carboplatin with paclitaxel versus paclitaxel alone demonstrates improvement in EFS (HR 0.57; 95% CI 0.36-0.91)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the principal carboplatin-versus-control EFS finding emphasized in the conclusions arose from a post hoc comparison after the confirmatory testing sequence had failed, with additional reporting concerns from omitted second-malignancy EFS events. There are also some concerns about incompletely reported allocation methods, missing follow-up, and unadjudicated outcome assessment."
+  },
+  {
+    "paper_id": "manual:71b5deaf",
+    "paper_title": "08ce381b_S1470-2045%2814%2970160-3",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:1 to carboplatin or no carboplatin using central dynamic allocation with Pocock\u2013Simon minimisation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation was generated and implemented centrally using dynamic allocation with Pocock\u2013Simon minimisation, and the reported baseline characteristics were generally balanced apart from one characteristic.",
+        "evidence_quote": "The treatment allocation list was created and randomisation was done centrally at the German Breast Group headquarters in a 1:1 ratio to receive carboplatin or not, according to dynamic allocation, and was stratified according to biological subtype... and Ki-67 level."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The open-label trial had substantial and differential treatment discontinuation and dose reduction, and the efficacy analysis excluded seven randomized participants who never started treatment rather than following a strict intention-to-treat approach.",
+        "evidence_quote": "Treatment allocation was not masked... 114 (39%) in the group not given carboplatin and 141 (48%) in the group given carboplatin did not complete six cycles of treatment... All patients who received at least one treatment were included in the efficacy and safety analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary-outcome data were effectively available for all 588 treated participants because the 15 without surgery were conservatively counted as nonresponders, although seven randomized participants who did not start treatment were excluded.",
+        "evidence_quote": "15 patients had no surgery and were counted as having had no response."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Pathological complete response was objectively defined and assessed consistently, with reports reviewed by an independent pathologist masked to treatment assignment.",
+        "evidence_quote": "Pathological reports were reviewed by one independent board certified pathologist (KE) from whom treatment assignments were masked, and response was staged in accordance with the Union for International Cancer Control TNM system."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary endpoint and analysis threshold were prespecified, and the reported primary analysis corresponds to the specified pathological complete-response outcome.",
+        "evidence_quote": "The primary outcome for this study was the proportion of patients who achieved a pathological complete response (ypT0 ypN0) after neoadjuvant treatment... This study is registered with ClinicalTrials.gov, number NCT01426880."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by the open-label design, substantial differential treatment discontinuation and dose modification, and exclusion of seven randomized participants who did not initiate therapy. Randomization, primary-outcome completeness and blinded pathological assessment were otherwise robust."
+  },
+  {
+    "paper_id": "manual:35c5ec14",
+    "paper_title": "9d64a97d_S1470-2045%2818%2930111-6",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned in a 2:1:1 ratio using a computerised interactive response technology system with permuted blocks and prespecified stratification factors.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used permuted blocks within prespecified strata, was implemented through an interactive response system by a third-party vendor, and baseline characteristics were balanced across groups.",
+        "evidence_quote": "Patients were randomly assigned (2:1:1) to one of three treatment groups by an interactive response technology system using permuted blocks (block size of four) within strata."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, clinicians, site staff, the funder, and the academic steering committee were masked; treatment modifications followed protocol-defined criteria, adherence was monitored, and efficacy was analysed by intention to treat despite differential toxicity-related modifications.",
+        "evidence_quote": "The study funder, members of the academic steering committee, investigators, study site personnel, and patients remained masked to each patient\u2019s treatment throughout the course of the study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary endpoint was analysed for all 634 randomised participants, with those not undergoing surgery conservatively classified as not achieving pathological complete response.",
+        "evidence_quote": "Patients who did not have surgery were counted as not achieving pathological complete response."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Pathological complete response was objectively defined, assessed consistently by local pathologists while treatment masking was maintained, and local reports were centrally checked for data-entry accuracy.",
+        "evidence_quote": "The primary endpoint of pathological complete response was assessed by local pathology review of the resected breast specimen and lymph node tissue on haematoxylin and eosin-stained samples. The local pathology reports were centrally reviewed by members of the steering committee to confirm the accuracy of data entry for the endpoint."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and two primary pairwise comparisons were prespecified and trial registration was reported, but the paper also reports a post-hoc treatment comparison and several non-prespecified subgroup descriptions, creating some potential for selective emphasis even though these were labelled as such.",
+        "evidence_quote": "The comparison of paclitaxel plus carboplatin with paclitaxel alone was not prespecified in the study protocol, but was done post-hoc once the primary analyses were completed."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by selective-reporting concerns from a post-hoc comparison and some non-prespecified subgroup analyses. The randomisation, masking, intention-to-treat analysis, near-complete primary-outcome ascertainment, and objective pathological outcome assessment otherwise support low risk across the remaining domains."
+  },
+  {
+    "paper_id": "manual:7a847ba4",
+    "paper_title": "0b788bc2_s10549-014-2947-1",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, multicenter phase II trial; enrolled patients were assigned to CP-CEF or P-CEF using a minimization method balancing clinical stage, hormone-receptor status, and institution.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation used a minimization method and measured baseline characteristics were generally balanced, but the random component and concealment of assignments were not described.",
+        "evidence_quote": "Enrolled patients were randomly assigned to receive either wPTX (P) followed by CEF (P-CEF arm) or combination carboplatin and wPTX (CP) followed by CEF (CP-CEF arm) by the minimization method, with balancing of the treatment arms according to disease status (stage II vs. IIIA), hormone receptor (HR) status, and institution."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was nonblinded and treatment discontinuation and dose modification differed substantially by arm, while the stated 'ITT' analysis excluded four randomized patients who received no chemotherapy rather than analyzing every randomized participant.",
+        "evidence_quote": "Efficacy and safety analysis were performed in the intent-to-treat (ITT) population, which consisted of subjects fulfilling the study inclusion criteria who had received at least one dose of study chemotherapy."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "The primary pCR result accounted for nearly all treated participants, and the three P-CEF participants without evaluable surgery were explicitly classified as non-pCR; only four of 181 randomized participants were excluded because they refused all study chemotherapy, balanced two per arm.",
+        "evidence_quote": "Including 3 patients in the P-CEF arm (1 patient with stage IIIC disease and 2 patients who did not undergo breast surgery)"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was an objective, prespecified pathological endpoint defined identically across groups and centrally evaluated by three breast pathologists, making bias from the open-label design unlikely despite no explicit statement that pathologists were blinded.",
+        "evidence_quote": "After completion of neoadjuvant chemotherapy, resected specimens and CNB specimens were evaluated centrally by 3 breast pathologists. A pCR was defined as the absence of viable invasive tumor in both the breast and axillary nodes."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and principal analysis were described, but no prospective registration or publicly available protocol/statistical analysis plan is reported to verify that the selected outcome definition, analysis population, and one-sided test were fixed before outcome data were known.",
+        "evidence_quote": "The primary endpoint was the pCR rate. Secondary endpoints included disease-free survival, clinical response rate, breast conservation rate, and safety."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by incomplete reporting of allocation concealment/randomness in the minimization procedure, the open-label design with differential treatment discontinuation and exclusion of untreated randomized participants, and lack of a cited prospective protocol or analysis plan. The objective centrally assessed pCR outcome and near-complete accounting of outcome data reduce concern in the remaining domains."
+  },
+  {
+    "paper_id": "manual:a9052cbf",
+    "paper_title": "ab8e3be5_s10549-020-05580-y",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized multicenter phase II trial in which eligible patients were assigned 1:1 to CP\u2013CEF or P\u2013CEF, with balancing by disease stage, hormone-receptor status, and institution.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although assignment was explicitly randomized and the updated groups were reported as balanced, the sequence-generation and allocation-concealment methods are not described in this report.",
+        "evidence_quote": "The enrolled patients were randomly assigned to receive either wPTX (P) followed by CEF (P\u2013CEF arm) or a combination of CBDCA and wPTX (CP) followed by CEF (CP\u2013CEF arm) as neoadjuvant chemotherapy, with balancing of the treatment arms according to disease stage (stage II vs III), hormone receptor (HR) status, and institution."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was non-blinded, treatment completion differed between arms, and some patients received additional adjuvant chemotherapy, although analyses were described using the ITT population and a sensitivity analysis addressed adjuvant chemotherapy.",
+        "evidence_quote": "Overall, only 54 patients (61.4%) in the CP\u2013CEF arm could complete neoadjuvant chemotherapy; the P\u2013CEF arm had a better completion rate (70.3%) than the CP\u2013CEF arm."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Updated long-term outcomes were unavailable for 25 of 179 randomized analyzed participants (about 14%), mainly because of loss to follow-up, and the paper provides no convincing evidence that missingness was unrelated to survival outcomes.",
+        "evidence_quote": "Updated survival data were available from 154 patients (CP\u2013CEF: n = 79, P\u2013CEF: n = 75)... Among the 25 patients who were not available, 23 were lost to follow-up, and 2 refused to participate in the current analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "DFS and OS were clearly defined, objective time-to-event outcomes measured from randomization, and their ascertainment is unlikely to be materially influenced by the open-label design.",
+        "evidence_quote": "DFS was defined as the time from randomization to the first appearance of any recurrence of breast cancer (local, regional, or distant), or any cause of death. OS was defined as the time from randomization to death by any cause."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "DFS was pre-planned, but OS was explicitly post hoc, and the prominent favorable conclusions rely on HR-negative/TNBC subgroup analyses amid multiple outcomes and subgroup comparisons without a stated prespecified analysis plan for these survival results.",
+        "evidence_quote": "The primary endpoint of the initial analysis was pCR rate, and pre-planned secondary endpoints were DFS, clinical response rate, breast conservation rate, and safety. OS was not a pre-planned endpoint."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because approximately 14% of randomized participants lacked updated survival data and the favorable OS finding was post hoc and emphasized within a subgroup among multiple analyses. Additional concerns arise from incompletely reported allocation methods and differential treatment completion in this open-label trial."
+  },
+  {
+    "paper_id": "manual:c443dbec",
+    "paper_title": "eedc0cdf_zlj13",
+    "design_classification": "randomized",
+    "design_rationale": "This was explicitly described as a 2 \u00d7 2 factorial randomized phase II trial in which, after stratification by clinical stage, patients had equal probability of assignment to each of four treatment arms.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment, stage stratification, equal allocation probabilities, and generally balanced baseline characteristics were reported, but the sequence-generation method and allocation concealment were not described, and baseline breast-conservation eligibility showed some imbalance.",
+        "evidence_quote": "After stratification by baseline clinical stage (II v III), patients had an equal probability of assignment to any of the four treatment arms."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label, experimental treatment caused differential dose omissions, reductions, and early discontinuations, and the modified intention-to-treat analysis excluded randomized patients who never began treatment and some who withdrew consent, although nonsurgical participants remaining in follow-up were counted as non-pCR.",
+        "evidence_quote": "A modified intent-to-treat approach that included all patients who began treatment was used for analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary pCR data were available for nearly all treated participants (433 of 443 by the response table), and participants who remained enrolled but did not undergo surgery were conservatively classified as non-pCR, making material bias from the small amount of missing data unlikely.",
+        "evidence_quote": "Patients who withdrew consent for subsequent data submission before completing NACT were excluded from pCR analyses, whereas those who remained in the study but did not undergo surgery were considered to be non-pCRs."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Pathologic complete response was clearly and consistently defined and is an objective outcome, but it was assessed locally without central review in an open-label trial, with no reporting that pathologists were blinded to treatment.",
+        "evidence_quote": "Pathologic response was determined locally, without central pathologic review."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The report identifies a prespecified primary endpoint and trial registration, but the supplied article does not establish a prospectively finalized analysis plan, and it reports multiple response endpoints and analyses with one-sided P values, leaving some possibility of selective reporting.",
+        "evidence_quote": "Statistical power was based on two separate and independent pairwise comparisons\u2014one for each factor (carboplatin and bevacizumab)\u2014of pCR breast between the control and experimental groups using a 1-df \u03c72 test."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns. The main issues are unreported sequence generation and allocation concealment, modified rather than full intention-to-treat analysis amid differential treatment discontinuation, unblinded local outcome assessment, and incomplete information about prospective analysis specification; missing outcome data were minimal."
+  }
+]

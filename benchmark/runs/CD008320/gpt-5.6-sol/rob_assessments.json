@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:f60217c0",
+    "paper_title": "22530a29_000484573",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly states that 373 hemodialysis patients were randomized 1:1:1, with assignment implemented through a centralized interactive web-based randomization system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Centralized web-based assignment and balanced baseline characteristics support adequate allocation concealment, but the report does not describe how the random sequence itself was generated.",
+        "evidence_quote": "Randomization was performed by site personnel, using a centralized interactive web-based randomization system, which assigned unique blister card numbers reflecting the blinded treatment assignment (see supplement for details)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blinding and matching placebo reduced risk from awareness of assignment, but treatment discontinuation was much more frequent in active groups because of recognizable opioid adverse effects, and the modified intention-to-treat/observed-data analysis did not retain every randomized participant with outcome data.",
+        "evidence_quote": "In the NAL 120, NAL 60, and placebo groups, 65, 58, and 81% completed the 8-week treatment... The most common reason for discontinuing treatment in the active groups was the opioid type side effects (e.g., nausea and vomiting)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 65%, 58%, and 81% completed treatment in the three groups, with differential attrition driven by treatment-related adverse effects; the MMRM used observed data under assumptions that do not eliminate plausible outcome-dependent missingness, while LOCF sensitivity analysis is also not robust to such missingness.",
+        "evidence_quote": "The primary limitation of the study was the relatively high dropout rate in the active arms of the trial compared to placebo, disproportionately greater during the titration phase."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Itching was measured with a validated numerical rating scale using standardized administration across groups, and participants and study personnel were blinded with matching placebo, limiting differential measurement.",
+        "evidence_quote": "The sponsor, study site personnel, and all contract research organization personnel involved in the conduct of the trial were blinded to treatment assignment. Matching placebo was used."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and step-down testing procedure are described as prespecified, but no public protocol or registration record is provided to verify that the reported measurement time window and analysis were selected without access to results; exploratory post hoc subgroup findings are clearly labeled.",
+        "evidence_quote": "A prespecified step-down procedure was used. The first comparison was of nalbupine 120 mg BID dose vs. placebo."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial and differential missing outcome data: completion was 65% and 58% in the active groups versus 81% with placebo, largely because of treatment-related adverse effects. Centralized allocation, blinding, and standardized outcome measurement mitigate other risks, but the observed-data MMRM and LOCF sensitivity analysis do not rule out bias from informative attrition."
+  },
+  {
+    "paper_id": "manual:93f8f66d",
+    "paper_title": "35c01694_ASN.2005020152",
+    "design_classification": "randomized",
+    "design_rationale": "Both included clinical studies explicitly state that patients were randomly assigned to nalfurafine or placebo (with 1:1 assignment specified for the crossover study), so the report is a randomized trial report despite not describing the sequence-generation method.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is explicit and reported baseline characteristics were comparable, but the sequence-generation method and allocation-concealment procedures are not described.",
+        "evidence_quote": "The second study (study 2) was a crossover design in which patients were randomly assigned 1:1 to receive for 2 wk an intravenous infusion of either nalfurafine 5 \u03bcg or placebo thrice weekly immediately after each of their HD sessions."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding and standardized postdialysis administration likely limited intervention-related deviations, but blinding methods/success are not detailed and the FAS excluded randomized patients without a dose or assessable outcome rather than clearly implementing intention-to-treat.",
+        "evidence_quote": "All patients who had received at least one dose of study medication and had at least one assessable \u201cworst itching\u201d VAS measurement were included in a FAS data set."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Completion was high and withdrawal rates reportedly did not differ by treatment, but some data were missing and handled using last observation carried forward, without evidence that missingness could not bias results.",
+        "evidence_quote": "For any missing data, the last observation carried forward approach was used."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was an appropriate, identically administered 100-mm patient-reported VAS collected every 12 hours, and the double-blind placebo-controlled design limited differential measurement despite its subjective nature.",
+        "evidence_quote": "The severity of pruritus and the treatment effectiveness were selfevaluated by the patients every 12 h during the run-in period and throughout the studies using a 100-mm VAS to measure the \u201cworst itching\u201d during the previous 12 h as the primary end point."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and meta-analysis time point are stated to have been prespecified, but no protocol or registry is cited and the report includes multiple pooled datasets, sensitivity analyses, secondary outcomes, and recategorizations, leaving some potential for selective analytical reporting.",
+        "evidence_quote": "This end point was prespecified before the initiation of either trial. Likewise, the primary end point for the metaanalysis was reduction in mean \u201cworst itching\u201d VAS from run-in to week 2."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The main limitations are absent details on sequence generation and allocation concealment, use of a modified FAS with last-observation-carried-forward imputation, and lack of an accessible protocol or registry to exclude selective analytical reporting; outcome measurement itself was at low risk under double blinding."
+  },
+  {
+    "paper_id": "manual:a438910a",
+    "paper_title": "8e2a3bf3_j.ekir.2020.01.006",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized in a 1:1:1:1 ratio through a Web Response System after stratification by prior antipruritic medication use.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization was implemented centrally through a Web Response System with stratification and baseline characteristics were generally similar, but the method used to generate the allocation sequence is not described explicitly.",
+        "evidence_quote": "Eligible patients were stratified according to their use or nonuse of antipruritic medications during the week before randomization, and randomized (1:1:1:1 ratio using a Web Response System)"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and trial personnel were masked, background antipruritic regimens were maintained, and analyses followed planned treatment, but the efficacy population excluded randomized participants who received no dose and differential adverse effects could have revealed assignment for subjective outcomes.",
+        "evidence_quote": "All efficacy analyses were conducted on the Full Analysis population (patients who received \u22651 dose, analyzed according to planned treatment arm)"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Missing outcome scores were not imputed and were handled by a repeated-measures model under a missing-at-random assumption, but the extent and reasons for missing primary-outcome data by arm are not clearly reported and discontinuations were more frequent with active treatment.",
+        "evidence_quote": "In the primary efficacy analysis, missing daily worst itching scores were not imputed. Assuming the data were missing at random, the estimates of the treatment differences calculated from the mixed effects model with repeated measures without imputation are unbiased."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome was measured consistently with a validated patient-reported scale under nominal double blinding, but it was subjective and the substantially higher adverse-event rate with difelikefalin could have led some participants to infer assignment and influence reporting.",
+        "evidence_quote": "The WI-NRS is a validated 11-point scale that ranges from 0 to 10, with higher scores indicating worst itch intensity."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and primary and secondary endpoints and a combined-dose analysis were described as prespecified, but there was no multiplicity adjustment across several dose comparisons and outcomes, and post hoc responder analyses were also reported without an accessible protocol or statistical analysis plan confirming all analytic choices.",
+        "evidence_quote": "There was no adjustment for multiplicity. Post hoc analyses comparing the proportion of patients with a \u22653-point and a \u22654-point improvement from baseline between difelikefalin treatment groups and placebo were also performed."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. Central web-based randomization, masking, validated measures, and prespecified mixed-model analyses support the trial, but incomplete reporting of sequence generation and missingness, exclusion of untreated randomized participants, possible unblinding from differential adverse effects, and analytical multiplicity prevent a low-risk judgment."
+  },
+  {
+    "paper_id": "manual:cb6f2af6",
+    "paper_title": "daf13494_ndt%2Fgfp588",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized three-arm trial; patients were allocated 1:1:1 using a variable-size permuted-block design stratified by centre.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence generation was appropriately random and baseline characteristics were similar, but the report does not describe allocation concealment before assignment.",
+        "evidence_quote": "Those patients who met the above criteria were randomized 1:1:1 to receive 5 \u03bcg, 2.5 \u03bcg nalfurafine or a placebo using a variable size permuted block design stratified by centre."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The double-blind, placebo-controlled design and restrictions on concomitant treatment reduce concern, but the primary analysis excluded two randomized patients who received no study drug and thus was not a full intention-to-treat analysis.",
+        "evidence_quote": "The full analysis set (FAS), defined as all patients who were randomized and received at least one dose of study drug and were as close as possible to the intention-to-treat ideal, was chosen for examining the primary end point."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome completeness was very high and balanced across groups, with 97.6% completing the study, making material bias from missing outcomes unlikely.",
+        "evidence_quote": "A total of 337 patients received the study drugs in the study: 114 patients (111 patients completed treatment) in 5-\u03bcg nalfurafine group, 112 (109 completed treatment) in 2.5-\u03bcg nalfurafine group and 111 (109 completed treatment) in the placebo group. The percentage of patients who completed the study was 97.6%."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified VAS was an appropriate patient-reported measure of subjective itch, was administered identically in all groups, and double blinding limited differential assessment, although treatment-related symptoms could potentially reveal assignment to some patients.",
+        "evidence_quote": "Itch severity was measured by the patients using VAS. We used VAS consisting of a 100-mm horizontal line with no scale markings."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary endpoint, hierarchical treatment comparisons, covariate adjustment, and significance threshold were stated as prespecified in the protocol, limiting scope for selective reporting, despite no registry or public protocol identifier being provided.",
+        "evidence_quote": "The hierarchical order for testing the null hypotheses was pre-specified in the protocol."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by absent reporting of allocation concealment and use of a modified full-analysis set rather than analysis of every randomized participant. Missing data were minimal, outcome measurement was blinded and consistent, and the primary analysis was described as prespecified."
+  },
+  {
+    "paper_id": "manual:c71e8f88",
+    "paper_title": "fcc2d3e4_NEJMoa1912770",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly states that eligible patients were randomly assigned 1:1 to difelikefalin or matched placebo using an interactive Web-response system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated and implemented through an interactive Web-response system with prespecified stratification, and the reported baseline characteristics were balanced between groups.",
+        "evidence_quote": "Randomization was performed with the use of an interactive Web-response system and was stratified according to baseline use of concomitant antipruritic medications and history of prespecified medical conditions."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, research staff, and the sponsor remained blinded, concomitant antipruritic therapy was controlled, and efficacy analyses used the intention-to-treat population with an additional analysis retaining post-discontinuation observations.",
+        "evidence_quote": "Patients, research staff, and the sponsor (Cara Therapeutics) trial team remained unaware of the trial-group assignments at all times."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Week-12 primary-outcome observations were unavailable for about 15% of randomized participants and differed somewhat by group, so the result relies on a missing-at-random multiple-imputation assumption, although sensitivity analyses were reportedly consistent.",
+        "evidence_quote": "Observed \u2014 no./total no. (%): 51/165 (30.9) [placebo] and 82/158 (51.9) [difelikefalin]."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome used a validated patient-reported scale administered identically and daily in both groups, and blinding of patients minimized differential self-reporting.",
+        "evidence_quote": "During the 12-week intervention period, patients reported their worst itching intensity over the past 24 hours daily using the WI-NRS."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary and secondary outcomes, analysis methods, hierarchy, and missing-data sensitivity analyses were prespecified, with the protocol and statistical analysis plan available, reducing scope for selective reporting.",
+        "evidence_quote": "The statistical analysis plan is available with the protocol."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incomplete week-12 primary-outcome data and reliance on multiple imputation under a missing-at-random assumption. Randomization, blinding, outcome measurement, intention-to-treat analysis, and prespecified reporting were otherwise robust."
+  }
+]

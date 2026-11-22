@@ -1,0 +1,324 @@
+[
+  {
+    "paper_id": "manual:0cc84b05",
+    "paper_title": "29cf25d0_192_2021_Article_4701",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with 1:1 allocation generated via the online tool www.randomization.com and concealed in opaque envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A valid computer-based random sequence with concealed opaque envelopes held by an independent secretariat was used, and baseline demographics were comparable (the single significant baseline difference in PFM strength across many comparisons is plausibly due to chance).",
+        "evidence_quote": "The randomization of group allocation (allocation ratio = 1:1 \u2013 control group: experimental group) followed the online tool www.randomization.com. The code and group allocation of each participant was packed into concealed opaque envelopes. The envelopes were stored at the urogynecology secretariat."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Although analysis was intention-to-treat and adherence was high, blinding of participants and treating physiotherapists to the behavioral intervention was not actually possible (participants performing jumps obviously knew their condition, and therapists were informed of allocation), and some experimental participants could not perform the key reflexive exercises.",
+        "evidence_quote": "A specific study limitation was that in the EXP group, a few participants could for a short time period not perform exercises of involuntary reflexive PFMT such as running on the spot or jumping owing to, for example, knee or low back complaints, or fear of jumping"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was modest and balanced (4 lost after randomization plus 8 with incomplete data out of 96), but missingness was handled by last-observation-carried-forward imputation (some participants missing 7\u20138 of 10 timepoints) rather than a principled method, and no sensitivity analysis was reported.",
+        "evidence_quote": "Furthermore, 8 participants had incomplete primary outcome data (EXP: lost to follow-up post measurement (n = 1, discontinued intervention n = 3; CON: discontinued intervention n = 4). Based on the intention-to-treat approach and the applied last observation carried forward method, missing data were replaced by the last valid data of the respective participant"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is a validated instrument applied identically and at identical times in both groups, but it is self-reported by participants who could not be blinded to whether they were doing jumping/reflexive training, which may influence symptom reporting (note that any such bias would favour the experimental group, whereas the result was null).",
+        "evidence_quote": "Primary outcome was the International Consultation on Incontinence Modular Questionnaire Urinary Incontinence short form (ICIQ-UIsf). The ICIQ-UIsf is a validated patient-reported measure"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered with a published a priori protocol specifying the ICIQ-UIsf as primary outcome, sample size calculation and analysis plan, and the reported results (including null findings and all secondary outcomes) correspond to these.",
+        "evidence_quote": "registered at (www.clinicaltrials.gov; study identifier: NCT02318251), and published including the detailed intervention PFMT description as \u201cAdditional file\u201d"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were well executed and the trial was prospectively registered with a published protocol, so D1 and D5 are low risk. Overall risk is \"some concerns\" driven by the inherent impossibility of blinding participants/therapists to an exercise intervention with a self-reported primary outcome, some inability to perform the experimental exercises, and reliance on last-observation-carried-forward imputation for missing data without sensitivity analysis."
+  },
+  {
+    "paper_id": "manual:feec11d3",
+    "paper_title": "824d21b4_12905_2017_Article_503",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"Randomisation was by computer allocation using the web-based randomisation service of the Norwich Clinical Trials Unit\", with stratified block randomisation of 73 women to SPC+MP or SPC.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central web-based computer randomisation with stratification and random-length blocks ensures concealed allocation, and baseline characteristics were similar between groups.",
+        "evidence_quote": "\"Randomisation was by computer allocation using the web-based randomisation service of the Norwich Clinical Trials Unit... In each stratum, balanced blocks of random length (4, 6 or 8) were fitted\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No blinding of participants, physiotherapists or researchers was possible, contact time differed substantially between arms (SPC group received more SPC sessions), many participants failed to attend scheduled treatments, and analysis was complete-case rather than intention-to-treat.",
+        "evidence_quote": "\"Due to the nature of the intervention, blinding of participants, physiotherapists and researchers was not feasible.\" ... \"A further aspect to be considered in future designs is the inequality of the two interventions in terms of contact time.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 49 of 73 randomised participants (about two-thirds) contributed to the complete-case analysis, with differential loss (14/36 intervention vs 10/37 control) and reasons for withdrawal (non-attendance at classes) plausibly related to the outcome; no sensitivity or imputation analysis was reported.",
+        "evidence_quote": "\"Consequently a complete dataset was obtained for about two-thirds of the randomised patients.\" ... \"14 and 10 women respectively were removed from the complete case analysis\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were validated self-report questionnaires administered identically by post, but participants were unblinded and all outcomes were self-reported subjective measures (no objective clinical measures such as pad tests), so reporting could be influenced by knowledge of allocation.",
+        "evidence_quote": "\"This study utilised self-reported measures of symptom severity in preference to clinical measures such as pad tests or pelvic floor muscle strength.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The trial was registered only retrospectively, no primary outcome was pre-specified among a large number of scales/subscales, and the headline positive findings derive from unadjusted subgroup (stratum) analyses after the primary pre-post comparisons were null.",
+        "evidence_quote": "\"Trial registration: ISRCTN74075972 Registered 12/12/12 (Retrospectively registered).\" ... \"Secondary sub-groups analyses indicated that SPC + MP in comparison to SPC improved self-esteem...\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was centrally computer-randomised with balanced baseline characteristics, the study is at high risk of bias overall due to substantial differential attrition (complete data for only ~two-thirds of randomised participants, analysed as complete cases) and selective reporting concerns (retrospective registration, no pre-specified primary outcome, and emphasis on unadjusted subgroup findings after null primary analyses). Lack of blinding with entirely self-reported subjective outcomes and unequal contact time add further concerns."
+  },
+  {
+    "paper_id": "manual:8a73ea4c",
+    "paper_title": "e11bb39c_jwh.2008.0950",
+    "design_classification": "randomized",
+    "design_rationale": "Participants with SUI were explicitly randomly allocated to Paula or PFMT arms using a table of random numbers with block size 4, stratified by age and residence.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and concealment (central telephone allocation by a coordinator blinded to baseline status) were adequate, but a statistically significant baseline imbalance in uterine prolapse \u2014 a factor plausibly related to continence outcomes \u2014 raises mild concern despite being potentially a chance finding among many comparisons.",
+        "evidence_quote": "\"Participants were randomized to one of two arms, Paula or PFMT instruction, using a table of random numbers prepared by a biostatistician, with a block size of 4... The research coordinator was blinded to the baseline status of the participants\"; \"There was a significant difference in the prevalence of uterine prolapse (grades 1 and 2): 37 of 113 (32.7%) of the Paula group ... vs. 21 of 116 (18.1%) of the PFMT group ... (p = 0.007)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and instructors necessarily knew their assigned exercise programme, and the arms differed markedly in intensity/dose (12 individual 45-min Paula sessions vs. 6 group 30-min PFMT sessions) with poor adherence documentation; analyses were per-protocol among evaluable participants with only a best/worst-case approximation of ITT.",
+        "evidence_quote": "\"In the Paula group, 86 (73.5%) participated in >50% of the prescribed lessons and 12 (10.2%) did not attend any lessons; the corresponding proportions in the PFMT group were 68 (55.2%) and 14 (11.4%)... There was poor documentation of home exercising.\"; \"We performed a best case\u2013worst case scenario in order to approximate an intention-to-treat analysis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "More than a quarter of randomized participants lacked primary outcome data, with differential (though non-significant) attrition favoring the Paula arm and dropouts having worse baseline leakage/QOL; a best/worst-case sensitivity analysis showed the superiority conclusion could flip to equivalence under the \"all dropouts improved\" assumption, indicating results could be biased by missingness.",
+        "evidence_quote": "\"A total of 176 of 240 (73.3%) participants were evaluable for assessment of the primary end point after the intervention, 92 of 117 (78.6%) in the Paula group and 84 of 123 (68.3%) in the PFMT group ... (p = 0.07)\"; \"The study was limited by a dropout rate of 26.6%.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The objective primary outcome was assessed identically by blinded nurses, but the 1-hour pad test has questionable repeatability and secondary outcomes (symptoms, QOL, backache) were self-reported by unblinded participants who knew which treatment they received.",
+        "evidence_quote": "\"The nurses (including the PI) who performed the pad test before and after the intervention were blinded to the intervention arm.\"; \"The 1-hour pad test has been shown to be a reliable tool (r=0.6) in some studies, although other investigators have found a large variability in test-retest results.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint, equivalence margins and sample size were prespecified, but no trial registration or protocol is cited, multiple secondary outcomes and an unadjusted subgroup (hormone status) interaction analysis are reported, and the headline superiority claim rests on a secondary cure-rate outcome after the prespecified equivalence criterion was not met.",
+        "evidence_quote": "\"This finding should be interpreted with caution, especially because adjustment for multiple comparisons was not carried out.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was centrally concealed and the primary pad-test outcome was assessed by blinded nurses, 26.6% of randomized women had no post-intervention primary outcome, attrition was differential between arms, and the authors' own best/worst-case analysis shows the superiority conclusion is sensitive to these missing data. This high-risk missing-data domain, compounded by unequal intervention intensity, unblinded self-reported secondary outcomes, and emphasis on a secondary cure-rate outcome without multiplicity adjustment, drives an overall judgment of high risk of bias."
+  },
+  {
+    "paper_id": "manual:dfb6182d",
+    "paper_title": "033f7356_nau.23261",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 40 eligible women to experimental and control groups using software: \"Forty women were randomly assigned to the experimental and control groups by the EpiData version 3.1\u00ae program using the contact list as reference for the allocation drawing,\" and it is registered as a randomized controlled trial (RBR-2HB4P8).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A software-based random sequence was used, but allocation concealment is never described (drawing from a contact list could permit foreknowledge), and there is a statistically significant baseline imbalance in a prognostically relevant variable (climacteric status, 82% vs 44%, P = 0.02) in a small sample.",
+        "evidence_quote": "\"Forty women were randomly assigned to the experimental and control groups by the EpiData version 3.1\u00ae program using the contact list as reference for the allocation drawing.\" / \"Climacteric (n/%) 7 (44) | 14 (82) | 0.02*\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the treating physiotherapist necessarily knew the assigned exercise programme, the home-exercise component was explicitly unmonitored so differential adherence/co-intervention cannot be excluded, and the analysis was of completers only (33/40) rather than intention-to-treat.",
+        "evidence_quote": "\"as this activity was not monitored, there could have been differences in the adhesion rates among the groups, which is a limitation on this study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Seven of 40 randomized women (17.5%) were lost to follow-up and excluded from analysis, no reasons or per-group breakdown are given in the text, no imputation or sensitivity analysis was performed, and attrition of this magnitude in a trial whose key finding rests on the 90-day follow-up could plausibly bias the between-group effect.",
+        "evidence_quote": "\"Due to lost to follow-up, 33 of the 40 women in the intervention groups were considered for statistical analysis, 17 in the experimental group and 16 in the control group\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated instruments (Incontinence Severity Index, voiding diary, King's Health Questionnaire, PGI-I) were applied identically and the assessor was reportedly blinded, but all primary and secondary outcomes are patient-reported by unblinded participants who knew they were receiving the \"extra\" experimental programme, which can bias self-reported severity and global impression of improvement.",
+        "evidence_quote": "\"All evaluations were performed by an uninformed physiotherapist regarding the allocation of women in the intervention groups.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (RBR-2HB4P8) and a primary outcome is pre-specified, but the registry protocol is not available for comparison and the results involve many outcome operationalizations (ISI, two diary frequencies, nine KHQ domains, PGI-I) at multiple timepoints with no adjustment for multiplicity, leaving scope for selective emphasis of the significant 90-day findings.",
+        "evidence_quote": "\"The severity of incontinence was the primary outcome, determined by the Incontinence Severity Index and voiding diary; QoL and impression of improvement were the secondary outcomes.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by missing outcome data (17.5% attrition with no reasons, no per-group breakdown, and completers-only rather than intention-to-treat analysis in a very small trial). Additional concerns arise from undescribed allocation concealment with a significant baseline imbalance in climacteric status, unmonitored home exercise with unblinded participants, and entirely patient-reported outcomes across many un-adjusted outcome measures and timepoints."
+  },
+  {
+    "paper_id": "manual:0ceb160b",
+    "paper_title": "51282c1e_ojsadmin,+30",
+    "design_classification": "randomized",
+    "design_rationale": "The Methodology states participants were allocated to the two exercise arms by random grouping: \"The participants were randomly grouped into group A and B\", indicating a (claimed) randomized parallel-group trial, albeit with no description of the sequence generation method.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no method of sequence generation or allocation concealment is described, and only means/SDs of age and outcomes are reported with no baseline comparability table, so chance imbalance cannot be verified (though pre-test scores appear similar).",
+        "evidence_quote": "The participants were randomly grouped into group A and B . Group A includes 15 females and underwent kegels training and group B with 15 females and received kegels combined with Pallof press exercise."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and therapists were necessarily aware of the assigned exercise programme, home/clinic-based exercise adherence over 8 weeks was not monitored or reported, no co-intervention control or ITT analysis is described, and outcomes were self-reported questionnaires highly susceptible to awareness of a \"combined/extra\" intervention.",
+        "evidence_quote": "The study was carried out at various physiotherapy clinics and houses in and around Bangalore"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No participant flow, dropout or attrition information is reported; analyses appear to include all 15 per group, but with no explicit statement of completeness or handling of missing data over the 8-week period some concern remains.",
+        "evidence_quote": "30 female subjects were selected based on the inclusion criteria for the experiment."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although the instruments are validated, outcomes are entirely self-reported by unblinded participants and assessment was done by the unblinded investigator with no mention of blinded assessors, so knowledge of the intervention could readily influence responses.",
+        "evidence_quote": "Subjects were assessed by RUIS - Revised urinary incontinence scale and IIQ7 \u2013Incontinence impact questionnaire."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or prospective registration is mentioned, and the reporting is internally inconsistent \u2014 the abstract states IIQ-7 was not significant while the Results/tables claim significance for both outcomes, and the key between-group comparison is asserted in text without any presented statistics, indicating selective/unreliable reporting.",
+        "evidence_quote": "The critical value of U at p<0.5is 64 which means its statistically significant in controlling incontinence and critical value is not significant for IIQ7."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: the trial claims randomization without describing the method, and critically, participants and assessors were unblinded with entirely self-reported outcomes, adherence to home exercise was unmonitored, and the reporting is inconsistent (abstract vs. tables) with no between-group analysis actually presented and no pre-registered protocol. Domains D2, D4 and D5 were judged high, which drives the overall rating."
+  },
+  {
+    "paper_id": "manual:8cdbf2d8",
+    "paper_title": "4d2a9e8a_s00192-004-1261-6",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated by a random number table in blocks of four, stratified by age (\"Randomization was performed according to a random number table in blocks of four\"), to Paula method vs pelvic floor training.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A valid random sequence (random number table, stratified blocks) was used, but allocation concealment is not described and small fixed blocks of four with an unblinded principal investigator assigning/informing participants leaves predictability concerns; some baseline imbalances (e.g., cystocele 83% vs 62%, age distribution) are also noted.",
+        "evidence_quote": "Randomization was performed according to a random number table in blocks of four. The randomization was stratified by age only into two groups... After randomization the participants were informed about treatment allocation by the principal investigator."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and care providers were necessarily aware of assignment in an unblinded behavioural trial with markedly unequal intervention intensity (12 weekly 45-min individual sessions vs 4 group sessions plus phone calls), the analysis excluded non-adherers rather than following intention-to-treat, and the design only compared within-group pre-post change, which cannot separate intervention effects from non-specific/attention effects or regression to the mean.",
+        "evidence_quote": "Of these, two women stopped exercising after 1 week (one from each group) and two randomized women did not start exercising (one from each group). Those four women were not evaluable for outcome assessments and therefore were not included in the study results"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 4 of 63 randomized women (~6%, balanced across arms) lacked outcome data, but they were excluded from analysis without any sensitivity analysis, and digital-examination data appear available for only subsets of participants (e.g., 16 and 14 women in the Paula group), suggesting further incomplete outcome reporting.",
+        "evidence_quote": "In total, 30 women in the Paula group and 29 women in the pelvic floor training group received the intended treatment, completed the study protocol, and were analyzed"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The pad test is objective and gynaecologists were blinded, but the primary outcome was partly assessed by the unblinded principal investigator, the pad test was non-standardized (oral fluid loading rather than standardized bladder volume), and patient-reported I-QOL outcomes were collected from unblinded participants.",
+        "evidence_quote": "The primary outcome was a change in urinary leakage measured by a 1-h pad test [17], performed by the principal investigator (M. Liebergall-Wischnitzer) or by trained registered nurses... The study gynecologists were blinded to allocation... However, there was no formal test of interobserver variation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol/trial registration is cited, the stated primary outcome (pad test) differs from the outcome used for sample-size calculation (perineometry), and multiple outcomes, subscores and post hoc analyses (outlier removal, nonparametric repeats) were reported, raising the possibility of selective emphasis on favourable results.",
+        "evidence_quote": "The required sample size determined for a before and after comparison within each intervention was 30 in each group based on a=0.05, 1-b=0.80, and a within-group D of 5 cm H2O in vaginal muscle strength assessed by a perineometer."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used a random number table and the examining gynaecologists were blinded, the trial is at high risk of bias overall, driven by Domain 2: participants and providers were unblinded, intervention intensity differed markedly between arms, non-adherent randomized women were excluded rather than analysed by intention-to-treat, and inference rests solely on within-group pre\u2013post change rather than between-group comparison. Additional concerns about allocation concealment with small fixed blocks, exclusion of missing cases, partly unblinded outcome assessment with a non-standardized pad test, and absence of a registered protocol compound the judgment."
+  },
+  {
+    "paper_id": "manual:a7e63e6d",
+    "paper_title": "554ffc21_ymmt-article-p247",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit computer-generated block randomization of 47 women with SUI to two parallel intervention groups (\"allocated according to computer-generated block randomization (http://www.randomization.com)\"), prospectively registered as a randomized clinical trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated block randomization with allocation handled by a separate researcher so investigator/assessor had no access to the list, and baseline characteristics (age, BMI, parity, menopause) appear balanced.",
+        "evidence_quote": "\"They were allocated according to computer-generated block randomization (http://www.randomization.com). A different researcher was in charge of the allocation; therefore, the investigator and the blind evaluator did not have access to the randomization list generated by the computer.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the single treating physiotherapist were necessarily unblinded (PFH sessions lasted 60 vs 40 min, creating differential attention/contact time), the primary outcome was a self-reported diary collected by the researcher at each session, and no intention-to-treat analysis was performed (4 dropouts excluded).",
+        "evidence_quote": "\"Finally, the intention-to-treat analysis was not performed.\" ... \"Each session lasted approximately 40 minutes for the PF group and 60 minutes for the PFH group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 4 of 47 (8.5%) were lost, attributed to \"personal issues,\" but they were not followed up or analysed, the per-group distribution/reasons are not detailed, and no sensitivity analysis addressed potential bias from missingness.",
+        "evidence_quote": "\"the 4 patients who interrupted the protocol were not evaluated at the end of the study because of difficulty in contacting.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Pre/post assessments (3-day diary, PFM strength, perineometry, QoL) were made by an experienced blinded assessor, but the primary outcome that drove the positive finding \u2014 the between-session follow-up voiding diary \u2014 was self-reported by unblinded participants and collected by the unblinded treating researcher at each session.",
+        "evidence_quote": "\"At the beginning of each session, from the first until the last, the researcher collected data regarding the number of urinary incontinence episodes that had occurred since the previous session\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT01948713) with no stated protocol deviation, but urine-leakage frequency was operationalized in two different ways (3-day diary vs follow-up diary) with the significant result coming from the non-standard follow-up diary, and the log-transformed difference-from-session-1 ANOVA analysis appears analytically flexible/post hoc.",
+        "evidence_quote": "\"The variable difference for each session was transformed by logarithmic function in order to approximate a normal distribution.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were adequate and a blinded assessor was used, but the single significant finding rests on an unblinded, self-reported between-session diary collected by the treating researcher, with unequal session durations, no intention-to-treat analysis, 4 unassessed dropouts, and two competing operationalizations of the primary outcome. These concerns across D2\u2013D5, none rising to clearly high risk, yield an overall judgment of some concerns."
+  }
+]

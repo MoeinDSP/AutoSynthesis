@@ -1,0 +1,38 @@
+{
+  "research_question": "Does treatment of child wasting (severe or moderate acute malnutrition) in children aged 6\u201359 months delivered by lay health workers (community health workers, volunteers, or other non-professional providers) achieve higher recovery/cure rates than treatment delivered by health professionals at health facilities?",
+  "treatment_label": "Acute malnutrition treatment delivered by lay health workers (CHWs, volunteers, non-professional providers)",
+  "control_label": "Acute malnutrition treatment delivered by health professionals at health facilities (standard care)",
+  "outcome_description": "Proportion of children aged 6\u201359 months treated for wasting who recovered/were cured by the end of treatment (events out of number of children treated per arm, intention-to-treat where available), using each trial's own definition of recovery or cure (e.g., attaining a weight-for-height z-score or MUAC threshold, or discharge as cured). Programme-wide cure rate preferred over subgroup rates; an already cluster-adjusted RR with CI is used as reported. Defaulting, death, relapse, weight gain, length of stay, and coverage are not used as outcomes.",
+  "positive_direction": "A positive Hedges g / RR > 1 means a HIGHER proportion of children recovered from wasting when treatment was delivered by lay health workers compared with health professionals.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "community health worker treatment severe acute malnutrition children recovery trial",
+    "lay health worker delivered management moderate acute malnutrition cure rate cluster randomized",
+    "community-based management acute malnutrition village volunteers versus health facility outpatient treatment outcomes"
+  ],
+  "inclusion_criteria": [
+    "Children aged roughly 6\u201359 months treated for wasting / acute malnutrition (severe, moderate, or both)",
+    "Compares an arm in which treatment is delivered by lay health workers, community health workers, volunteers or other non-professional providers with an arm delivered by health professionals in health facilities (randomised, cluster-randomised, controlled before-after, or other non-randomised comparative design)",
+    "Reports some quantitative recovery/cure outcome (numbers cured and treated per arm, proportions, or a risk ratio with uncertainty)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a lay-health-worker-delivered treatment arm and a health-professional-delivered control arm (e.g., both arms delivered by lay workers, single-arm programme evaluation)",
+    "No quantitative outcome data from which an effect size can be computed (no events/totals, proportions, test statistics, or risk/odds ratios)",
+    "Completely unrelated to the research topic (adult populations, prevention-only interventions, or outcomes limited to defaulting, mortality, relapse, weight gain, length of stay or coverage without recovery data)"
+  ],
+  "moderators_to_extract": [
+    "Study design (individually randomised, cluster-randomised, controlled before-after/non-randomised)",
+    "Malnutrition severity treated (SAM, MAM, or combined)",
+    "Type and training/supervision level of lay provider (CHW, volunteer, other)",
+    "Country / region and setting (rural vs urban)",
+    "Diagnostic and discharge criteria used (MUAC vs WHZ)",
+    "Sample size category (number of children treated)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio of recovery (lay health worker arm \u00f7 health professional arm) using a random-effects model on the log RR; invert any RR reported in the reverse orientation. Compute RR from numbers cured and numbers treated per arm (ITT where available). For cluster designs where children are treated within clusters (facilities, communities, districts), multiply the variance of the log RR by the design effect 1 + (average cluster size \u2212 1) \u00d7 ICC, using the trial-reported ICC; if none is reported, assume ICC = 0.02 and report a sensitivity analysis using 0.05. If a trial already reports a cluster-adjusted RR with CI, use that directly without further adjustment. For multi-arm trials, include only the lay health worker arm and the health professional arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "recovery from wasting"
+}

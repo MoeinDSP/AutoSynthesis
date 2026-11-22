@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with advanced (locally advanced or metastatic) pancreatic cancer, what is the effect of fluoropyrimidine-based combination chemotherapy regimens (e.g. nab-paclitaxel or gemcitabine combined with S-1, capecitabine, or 5-FU/leucovorin) compared with gemcitabine plus nab-paclitaxel on overall survival?",
+  "treatment_label": "Fluoropyrimidine-based combination chemotherapy regimen (e.g. nab-paclitaxel or gemcitabine plus S-1, capecitabine, or 5-FU/leucovorin)",
+  "control_label": "Gemcitabine plus nab-paclitaxel",
+  "outcome_description": "Overall survival (time from randomisation/treatment start to death from any cause), extracted as the paper's own Cox proportional hazards / time-to-event estimate \u2014 log[HR] with its standard error, or the reported RR/HR with 95% confidence interval. Progression-free survival, objective response rate, disease control rate, and grade 3/4 toxicity outcomes are not the target outcome.",
+  "positive_direction": "A positive Hedges g (i.e. an RR below 1 on the raw scale, re-signed so positive favors treatment) means the fluoropyrimidine-based combination regimen produced better overall survival (lower risk of death, longer survival) than gemcitabine plus nab-paclitaxel.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "nab-paclitaxel S-1 versus gemcitabine nab-paclitaxel advanced pancreatic cancer randomized trial overall survival",
+    "fluoropyrimidine capecitabine combination versus gemcitabine plus nab-paclitaxel metastatic pancreatic cancer clinical trial",
+    "gemcitabine nab-paclitaxel comparison 5-FU leucovorin regimen pancreatic adenocarcinoma survival hazard ratio"
+  ],
+  "inclusion_criteria": [
+    "Adults with advanced, locally advanced, or metastatic pancreatic cancer (any line of systemic therapy)",
+    "Compares a fluoropyrimidine-based combination regimen (S-1, capecitabine, or 5-FU/leucovorin combined with nab-paclitaxel and/or gemcitabine) against gemcitabine plus nab-paclitaxel",
+    "Reports a quantitative time-to-event estimate for overall survival (RR/HR with 95% CI, log[HR] with SE, or data from a Cox proportional hazards model)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, or purely theoretical/modelling paper)",
+    "No comparison between a treatment and a control condition, or the comparator is not gemcitabine plus nab-paclitaxel (e.g. best supportive care, gemcitabine alone, fluoropyrimidine alone), or the comparison is only between different doses/schedules of gemcitabine plus nab-paclitaxel",
+    "No quantitative overall-survival effect estimate from a Cox/time-to-event analysis that can produce an effect size (no log[HR] with SE and no RR/HR with 95% CI); outcome data limited to response rates or adverse-event counts",
+    "Completely unrelated to the research topic (not advanced pancreatic cancer, or not systemic fluoropyrimidine/gemcitabine-nab-paclitaxel chemotherapy)"
+  ],
+  "moderators_to_extract": [
+    "Study design (randomised controlled trial vs non-randomised/retrospective cohort)",
+    "Specific fluoropyrimidine used (S-1, capecitabine, 5-FU/leucovorin)",
+    "Backbone of experimental regimen (nab-paclitaxel-based vs gemcitabine-based)",
+    "Line of therapy (first-line vs second-line or later)",
+    "Disease extent (locally advanced vs metastatic vs mixed)",
+    "Sample size category and geographic region (Asia vs Western)"
+  ],
+  "search_start_year": 2005,
+  "effect_size_note": "Extract the paper-reported Cox proportional hazards estimate for overall survival (log[HR] and SE, or RR/HR with 95% CI) directly; do not back-calculate or approximate hazard ratios from response-rate, disease-control, or adverse-event counts. If no Cox-model estimate for overall survival is reported, mark the study as not usable for this outcome.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "overall survival"
+}

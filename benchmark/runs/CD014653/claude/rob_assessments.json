@@ -1,0 +1,384 @@
+[
+  {
+    "paper_id": "manual:53bc690f",
+    "paper_title": "91e8ee30_0090-4295%2892%2990203-9",
+    "design_classification": "randomized",
+    "design_rationale": "The EXCITE trial is explicitly a multicenter, parallel-group randomized controlled trial (NCT01255969) in which 296 dialysis patients were randomized to a home-based walking exercise program or usual care, with central randomization stratified by NYHA class.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central randomization stratified by NYHA class ensured allocation concealment, and baseline demographic, clinical and biochemical characteristics were comparable between arms (only systolic BP borderline, P=0.06).",
+        "evidence_quote": "\"randomization was stratified by NYHA class. Allocation concealment was ensured by central randomization and nominal communication of patient allocation in the two arms of the study across the whole recruitment phase of the trial.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was unblinded (participants and dialysis staff knew allocation) and adherence to the exercise prescription was quite variable (29 patients performed <10% of sessions; 47% classified as low adherence), although intention-to-treat analysis with imputation was used for the primary outcomes.",
+        "evidence_quote": "\"given the nature of the intervention, the trial was designed as a randomized, unblinded trial\" ... \"We used intention-to-treat analyses for both the primary study outcomes (the 6MWT and the 5STS), as well as for hospitalizations.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 227/296 (77%) were retested at 6 months, with differential attrition (31% in exercise vs 15% in control), which could relate to the outcome (physical capacity); although imputation-based ITT analyses gave similar results to completer analyses, substantial and unbalanced loss leaves residual concern.",
+        "evidence_quote": "\"227 of 296 patients (77%) could be retested after 6 months (104 in the active arm ... and 123 in the control arm)\" ... \"Missing longitudinal 6MWT and 5STS data were imputed along with recommendations made for the analysis of longitudinal data.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes (6MWT, 5STS, KDQOL-SF) are standardized and applied identically in both arms, but assessors from the rehabilitation team were explicitly not blinded to allocation and the performance tests are effort-dependent/self-reported QoL, making them susceptible to assessor and participant expectation effects.",
+        "evidence_quote": "\"no special measure was adopted to keep them blind to patient allocation\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT01255969) with pre-specified primary outcomes and a power calculation, but QoL was analyzed across 19 KDQOL-SF subscales without stated multiplicity adjustment and both ITT and completer analyses are reported for hospitalizations (significant only in completers), raising concern about selective emphasis.",
+        "evidence_quote": "\"in an analysis restricted to patients who completed the trial, the hospitalization-free survival was lower (P=0.04) in patients in the active group than in the control group\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were sound, but the trial was unblinded with effort-dependent and self-reported outcomes assessed by non-blinded rehabilitation staff, attrition was substantial and differential (23% overall; higher in the exercise arm), and multiple QoL subscale analyses with completer-based secondary analyses raise selective-reporting concerns. No single domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:f7d458fa",
+    "paper_title": "ce2ad961_0300060513509037",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that patients fulfilling inclusion criteria \"were divided randomly into a test group and a control group using a computerized random number generator,\" indicating explicit random allocation to intradialytic cycling vs. stretching control.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A credible random sequence generation method is reported, but allocation concealment is never described (patients were enrolled sequentially at a single dialysis unit), and although the authors report no significant baseline differences, some imbalances are numerically notable (mean dialysis duration 55.5 \u00b1 37.3 vs 39.8 \u00b1 29.7 months; employment 37.5% vs 18.2%).",
+        "evidence_quote": "\"Patients fulfilling the inclusion criteria were divided randomly into a test group and a control group using a computerized random number generator.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of participants and care providers was impossible for an exercise intervention and is not reported, so awareness of assignment could influence effort on performance tests and self-reported HRQoL; furthermore the analysis was restricted to the 65 completers rather than all 69 randomized (no intention-to-treat analysis), and adherence/exercise-session completion rates are not reported.",
+        "evidence_quote": "\"Patients in the test group performed a 5-min warm-up on the bike and then performed 10\u201315 min of recumbent cycling during each haemodialysis session... Patients in the control group were required to do some simple stretching exercises for 10\u201315 min during dialysis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was low (~6%) and balanced across arms, with reasons reported (transplant, transfer, death from unrelated cause, withdrawal) that are unlikely to be related to the true outcome value.",
+        "evidence_quote": "\"Therefore, 65 patients completed the whole study, giving a completion rate of 94.2% and drop-out rates in the test and control groups of 5.9% and 5.7%, respectively.\" \"All 65 patients completed the KDQOL-SF questionnaire.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Both co-primary outcomes are vulnerable to detection bias: HRQoL is self-reported by unblinded patients (with research staff guidance), and the exercise-capacity tests are effort-dependent and administered by assessors whose blinding is nowhere reported, making outcome assessment plausibly influenced by knowledge of assigned group \u2014 a concern reinforced by the very large, implausible SF-36 gain (52.7\u219272.6) in the test group.",
+        "evidence_quote": "\"The questionnaire was completed by the patients themselves under the guidance of the research staff at the start of the study and after 12 weeks.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned, there is no sample-size/power calculation, and the outcome domain was operationalized through five separate physical tests plus ~20 KDQOL-SF subscales analysed without adjustment for multiplicity, allowing considerable scope for selective emphasis of the many significant comparisons.",
+        "evidence_quote": "\"The primary monitoring indicators (exercise capacity and the kidney disease quality of life score [KDQOL-SF]) were measured in both groups at the beginning of the study and after 12 weeks.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 4: both exercise-capacity (effort-dependent performance tests) and HRQoL (patient-reported KDQOL-SF) outcomes were measured in unblinded participants by assessors of unreported blinding status, in a trial where the control condition (stretching) provides little masking of allocation. Additional some-concerns arise from undescribed allocation concealment with notable baseline imbalances, a completers-only rather than intention-to-treat analysis, and absence of registration/pre-specified analysis plan amid many multiplicitous outcome comparisons."
+  },
+  {
+    "paper_id": "manual:ed32ae28",
+    "paper_title": "6fa5bfdb_ASN.2006010034",
+    "design_classification": "randomized",
+    "design_rationale": "A 2x2 factorial randomized controlled trial: \"Participants were randomly assigned to treatment groups in a 1:1:1:1 manner by the research pharmacist using variable block sizes\", with double-blinded nandrolone/placebo injections.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was generated and held by the research pharmacist using variable block sizes unknown to investigators (adequate concealment), and baseline characteristics across the four groups showed no significant differences.",
+        "evidence_quote": "\"Participants were randomly assigned to treatment groups in a 1:1:1:1 manner by the research pharmacist using variable block sizes, which were not known to investigators until the completion of the study... There were no significant differences in baseline patient characteristics across study groups (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The drug comparison was double-blinded with high adherence and an ITT-style analysis (\"all available data were analyzed according to the original treatment assignment\"), but the exercise component is inherently unblinded for participants and supervising study personnel, which could influence behavior and effort-dependent outcomes; six participants discontinued study drug.",
+        "evidence_quote": "\"Resistance exercise training of the lower extremities was performed under the supervision of study personnel during hemodialysis sessions three times per week... For the analysis of outcomes, all available data were analyzed according to the original treatment assignment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "11 of 79 randomized patients (~14%) did not complete the study and only \"all available data\" were analyzed (no imputation or sensitivity analysis); although a CONSORT figure lists reasons for non-completion, per-group attrition numbers and evidence that missingness did not depend on the outcome are not clearly presented (e.g., Table 3 gender analysis includes only 32 of 39 nandrolone patients).",
+        "evidence_quote": "\"Sixty-eight patients completed the study. Reasons for noncompletion are shown in Figure 1.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes (DEXA LBM, MRI quadriceps CSA) are objective and measured identically across groups, but 3RM strength testing was performed by unblinded study personnel during dialysis and self-reported SF-36/HAP/POMS outcomes were reported by participants aware of their exercise assignment, so the exercise-related strength and quality-of-life findings could be influenced by knowledge of allocation.",
+        "evidence_quote": "\"3RM testing was performed during a dialysis session for knee extension, hip abduction, and hip flexion... exercise was associated with an improvement in self-reported physical functioning on the PF scale of the SF-36 (P 0.03).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes and an a priori power calculation are pre-specified in the text, but no trial registration or published protocol is cited, many outcome operationalizations are reported (multiple strength measures, three performance tests, accelerometry, HAP, SF-36, POMS subscales) with some P values differing between abstract and tables (e.g., SF-36 PF P=0.04 vs 0.03; quadriceps CSA P=0.01 vs 0.02), and interaction P values were not all reported.",
+        "evidence_quote": "\"P values for interactions between the interventions (three-way interactions) are not reported but are 0.10 in all cases except as noted for anger.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were well executed (pharmacy-controlled, variable block sizes, balanced baselines) and the drug arms were double-blind with objective primary outcomes, but the exercise intervention could not be blinded, ~14% attrition was handled with available-case analysis only, effort-dependent/self-reported outcomes were assessed by unblinded participants and staff, and there is no registered protocol against which the many reported outcomes can be checked. These issues yield \"some concerns\" overall rather than low risk, with the nandrolone/LBM findings more robust than the exercise-related strength and quality-of-life findings."
+  },
+  {
+    "paper_id": "manual:59e48e10",
+    "paper_title": "66df0569_Effects_Segura_UCHCEU_Tesis_2010",
+    "design_classification": "non_randomized",
+    "design_rationale": "The available text (Chapter 3 \"Patients\") describes recruitment of 27 patients from two different hemodialysis clinics (11 from one hospital, 16 from a private clinic) screened for eligibility; no random allocation sequence, randomization procedure, or concealment is explicitly described anywhere in the retrievable text, and the author's own prior pilot of the same intervention is labelled \"No RCT\" in Table II, so random assignment cannot be assumed.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Bias in selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Participants were screened prospectively against medical history with nephrologist authorisation and informed consent, and a participant flowchart is provided, but recruitment from two different clinics with an unspecified assignment mechanism raises the possibility that selection into a condition was related to clinic, health status and thus to the outcome.",
+        "evidence_quote": "\"All patients attending HD were evaluated for eligibility via medical history review and authorization from the patient\u2019s nephrologist before solicitation of interest and written informed cons\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "The intervention is clearly specified and documented prospectively (intradialytic progressive resistance training with defined exercises, sets/repetitions and RPE intensity, illustrated by photographs, versus a low-intensity aerobic comparison programme), so misclassification of condition is unlikely.",
+        "evidence_quote": "\"Photography 1. Knee Extension Exercise ....64 Photography 2. Triple Extension Exercise....65 Photography 3. Isometric Exercise....65\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "Adherence to the exercise programme was explicitly monitored (section 3.5), but participants and supervising therapists necessarily knew their condition, co-interventions during routine dialysis care are not described, and no intention-to-treat analytic framework is reported in the available text.",
+        "evidence_quote": "\"3.5. ADHERENCE TO EXERCISE PROGRAM .... 66\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "A participants flowchart is presented, implying attrition is documented, but in this frail 6-month dialysis cohort of only ~27 patients dropout is likely substantial (the author's pilot reported outcomes on only 7 of 8 per group) and no analysis addressing the impact of missingness is described.",
+        "evidence_quote": "\"Figure 1. Participants Flowchart ....71\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "Primary outcomes are effort-dependent performance tests (6MWT, STS-10/60, graded exercise test, dynamometry) and a self-report questionnaire (SF-36), all highly susceptible to motivation and assessor encouragement; no blinding of outcome assessors or standardised-encouragement procedure is reported, and assessment appears to have been carried out by the investigators who delivered the training.",
+        "evidence_quote": "\"3.3.a. Sit to Stand to Sit Test (STS 10 and STS 60).... 60 3.3.b. 6 Minutes Walking Test (6MWT).... 60 ... 3.3.e. Medical Outcomes Survey short form (SF-36).... 62\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "A priori hypotheses are stated in Chapter 2, which is reassuring, but there is no mention of a protocol/trial registration and a large number of outcomes and subscales (8 SF-36 scales plus 2 components, several performance tests, haematology, Kt/V, blood pressure) are reported in a small sample without stated correction for multiplicity.",
+        "evidence_quote": "\"Improve HRQoL, as measured by the SF-36 (8 scales and 2 components).\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Without random allocation, comparability of the resistance-training and low-intensity aerobic groups on strong prognostic factors (age, dialysis vintage, comorbidity/diabetes, baseline function) is not assured, and no confounder-adjustment strategy is described; the author's earlier pilot of the same protocol showed a large age imbalance (54.9 vs 68.8 years), indicating this is a real threat in this setting.",
+        "evidence_quote": "\"ExerciseN=8(54,9 \u00b1 15,6)ControlN=8(68,8 \u00b1 16,2) ... No RCT\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Overall risk of bias is serious under ROBINS-I, driven by uncontrolled confounding in a small, non-randomly allocated two-clinic sample and by unblinded measurement of effort-dependent performance tests and self-reported quality of life by the same team delivering the intervention. Moderate concerns about participant selection, deviations/co-interventions, attrition over 6 months of dialysis, and multiplicity of reported outcomes without a registered protocol compound the judgment."
+  },
+  {
+    "paper_id": "manual:cb047eaa",
+    "paper_title": "9ba1854f_fphys-08-00288",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of eligible hemodialysis patients to intervention or control groups using a computer-generated randomization list in a single-blind, controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used and the few reported baseline variables (age, BMI, months on hemodialysis) were similar, but allocation concealment is never described and baseline comparability is documented for only four crude characteristics.",
+        "evidence_quote": "\"Eligible patients were randomized into two groups using a computer-generated randomization list.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and trainers necessarily knew the assignment and controls received no attention/sham program, so expectation and differential-attention effects are plausible; no intention-to-treat analysis, adherence rates, or handling of non-compliance is reported.",
+        "evidence_quote": "\"Control group patients continued their regular lifestyle practice without direct intervention from the personnel of this investigation\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All analyses use the full n=21/n=20 with degrees of freedom (1,39) consistent with complete data, but the CONSORT flow diagram figure is not readable in the text and no explicit account of dropouts/withdrawals over the 4-month period in this frail dialysis cohort is given.",
+        "evidence_quote": "\"Intervention group consisted of 21 exercising male patients and control group consisted of 20 non-exercising male patients\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures are validated and identically applied with a blinded assessor and objective biochemical assays, but key outcomes (SF-36, HADS, MNA-LF, and effort-dependent performance tests with verbal encouragement) are self-reported or effort-dependent in unblinded participants, so assessor blinding cannot remove the risk of biased responding.",
+        "evidence_quote": "\"All assessments were performed by the same experienced investigator who was blinded as to the patients group assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number or pre-specified primary outcome or analysis plan is reported, and a large number of outcomes (physical, biochemical, nutritional, psychological) are analysed with dual frequentist and magnitude-based inference approaches, allowing selective emphasis of favourable results.",
+        "evidence_quote": "\"The study protocol was approved by the local Ethics Committee on Human Research (ECHR) of CHU Monastir (Tunisia).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization was computer-generated and outcome assessment was performed by a blinded assessor, but allocation concealment is undescribed, the no-treatment control leaves participants unblinded for self-reported and effort-dependent outcomes, dropout accounting is unclear, and there is no trial registration or pre-specified analysis plan for the many outcomes reported. These concerns across all five domains, with none reaching 'high', yield an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:54c21212",
+    "paper_title": "d0b6d99e_j.1365-2281.2002.00405.x",
+    "design_classification": "randomized",
+    "design_rationale": "Patients were explicitly randomly assigned after baseline testing to exercise training or control via coin flip: \"patients were randomly assigned to either an exercise training group (ET; 26 patients) or control group (C; 22 patients) by flip of a coin.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Coin flip is a random but non-concealable, unsequestered method with no described allocation concealment, and the authors themselves acknowledge apparent baseline imbalance in exercise capacity, age and comorbidity between groups (\"results presented in Tables 4 and 5 appeared to indicate a degree of baseline variability in exercise capacity between the ET and the C groups\").",
+        "evidence_quote": "\"After completion of all assessments at baseline, patients were randomly assigned to either an exercise training group (ET; 26 patients) or control group (C; 22 patients) by flip of a coin.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of participants and supervising exercise physiologists was impossible, patients who dropped out or were non-compliant were excluded rather than analysed by intention-to-treat (analysis restricted to the 33 completers), though the intervention itself was delivered as intended.",
+        "evidence_quote": "\"Patients who paused exercise training for various personal or medical reasons for more than 2 weeks had to start again from the exercise work rate that they stopped from... All the patients completed no less than 12 weeks of exercise training.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "A 31% attrition rate with reasons including loss of interest, non-compliance, frailty and exercise-related withdrawal (e.g. exercise hypotension), further loss for the functional capacity outcomes (n=14 and 13), no attrition breakdown by group, and no sensitivity/ITT analysis, means missingness plausibly depended on true outcome values and could bias results.",
+        "evidence_quote": "\"Of the 48 patients initially recruited, 33 patients finished the 3-month training and control observation period and had all the assessments repeated (31% drop out).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Physiological gas-exchange outcomes are objective and measured identically in both groups, but peak/effort-dependent tests and the sit-to-stand and walk tests require participant effort and assessor timing with no reported blinding of outcome assessors, who were likely the same unblinded investigators.",
+        "evidence_quote": "\"Respiratory gas response data were measured throughout the VO2 peak test using a fast response breath by breath gas analyser\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or protocol is cited, a large number of outcome measures and sub-components are reported with no adjustment for multiplicity, and near-significant findings (P = 0.059) are interpreted as trends, indicating scope for selective emphasis of results.",
+        "evidence_quote": "\"Significant group by time interactions were observed for VO2 and VO2/HR... The VO2 kinetics response at the absolute exercise intensity of 33 W was characterized by a trend approaching statistical significance for the group by time interaction\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven principally by substantial attrition (31% overall, with further loss for functional outcomes) analysed only among completers without ITT or sensitivity analyses. Additional concerns arise from unconcealed coin-flip allocation with acknowledged baseline imbalance, unavoidable lack of blinding with effort-dependent outcomes, and no pre-specified protocol for the many reported outcomes."
+  },
+  {
+    "paper_id": "manual:399dc8b3",
+    "paper_title": "0da8715b_ndt%2Fgft288",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports 1:1 random allocation of 24 haemodialysis RLS patients to progressive exercise versus no-resistance exercise using \"customized randomization software\", stratified by host hospital, and is registered as an RCT (NCT00942253).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A software-based random sequence stratified by hospital was used and baseline characteristics were reported as similar, but allocation concealment is not described and a notable baseline imbalance in functional capacity (NSRI 92.0 vs 62.0, P=0.019) and haemoglobin/haematocrit raises some concern in this very small trial.",
+        "evidence_quote": "\"The randomization procedure was completed using customized randomization software... Patients were randomized separately based on the host hospital\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the supervising exercise physiologist were necessarily aware of whether resistance was applied (only outcome assessors were blinded), adherence was not systematically recorded, and no intention-to-treat framework is described, though all 24 patients completed the programme and were analysed.",
+        "evidence_quote": "\"A limited number of exercise sessions were characterized as 'incomplete'... those events were not systematically recorded, thus we are unable to comment on whether the level of compliance... could affect the final outcomes.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear available for all 24 randomized participants with no attrition reported over the 6-month period.",
+        "evidence_quote": "\"All of the patients successfully completed the 6-month intervention programme with no adverse effects\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (IRLS severity) and secondary outcomes are validated but entirely self-reported/subjective, and participants could not be blinded to whether resistance was applied, so expectancy could influence symptom reporting despite the single-blind (assessor-blinded) design.",
+        "evidence_quote": "\"the severity of the symptoms was assessed using the IRLSSG severity rating scale\"; \"The patients of both groups exercised under the supervision of an exercise physiologist, during different dialysis days in order to sustain the single-blind design.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial is registered, but no pre-specified primary outcome or analysis plan is cited, multiple outcomes and functional tests are reported, and the described conditional/post hoc decision rule about when to run between-group \u0394 comparisons (plus heavy reliance on within-group pre\u2013post tests) indicates analytic flexibility.",
+        "evidence_quote": "\"Clinical Trial Registry number. NCT00942253.\"; \"In the case of outcome variables which changed in the same direction in both the progressive exercise and control groups, between-group comparisons were also performed (comparing \u0394-change values)\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small (n=24) randomized trial used software-based randomization with complete follow-up, but allocation concealment is unreported with a baseline functional-capacity imbalance, participants were unblinded to an entirely self-reported primary outcome, adherence was not systematically recorded, and the analysis plan/primary outcome were not pre-specified in detail. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:de849fa7",
+    "paper_title": "76b6e0b9_The_Effects_of_Aquatic_Exercise_on_Functional_Capa",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states participants \"were randomly assigned by simple allocation (drawing lots)\" to a 4-month aquatic exercise program or control status, so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation by drawing lots is stated and baseline age, BMI, Ht and outcome values appear comparable, but no allocation concealment procedure is described and lot-drawing by the investigators is potentially manipulable with unequal resulting group sizes.",
+        "evidence_quote": "They were randomly assigned by simple allocation (drawing lots) to either a 4-month therapeutic aquatic exercise program (Group A-15 patients), or control status (Group B- 12 patients)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and trainers were necessarily aware of assignment (unblinded exercise vs. no-intervention control with no attention control), adherence/co-intervention monitoring in controls relied on self-report, and the analysis was effectively per-protocol (only the 27 completers analysed) rather than intention-to-treat.",
+        "evidence_quote": "In addition, Group B had no formal intervention and was asked to continue their usual sedentary lifestyle."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 2 of 29 randomized patients (6.9%) were lost, with reasons given and unlikely to be related to the outcome, so results are unlikely to be biased by missing data.",
+        "evidence_quote": "Two patients dropped out of the study due to lack of interest and for personal reasons (family health issues)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes are effort-dependent performance tests and a self-reported quality-of-life questionnaire assessed in unblinded participants with no mention of blinded assessors, so knowledge of the intervention could readily influence both performance and subjective reporting (controls even declined on several measures).",
+        "evidence_quote": "All patients were also requested to complete the Short Form-36 Questionnaire (SF-36), in the first week of admission and at the end of the study."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, multiple functional and SF-36 outcomes were analysed with both within- and between-group comparisons and no adjustment for multiplicity, and reporting emphasis shifts between within-group and between-group results.",
+        "evidence_quote": "Changes of variables within the groups at baseline and the end of the study were evaluated by two-way ANOVA with repeated measures of variance with time and group being the independent variables."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by unblinded assessment of effort-dependent functional tests and self-reported SF-36 outcomes in a no-treatment control design (D4 high). Additional concerns arise from unreported allocation concealment, per-protocol analysis of a small sample, and absence of pre-registration with many outcomes tested."
+  }
+]

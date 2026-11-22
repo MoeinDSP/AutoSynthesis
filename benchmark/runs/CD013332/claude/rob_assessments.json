@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:f1ea62fd",
+    "paper_title": "64e95a65_ejcts%2Fezw225",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled two-centre trial in which patients were allocated to standard, Genta-Coll or InteguSeal groups using block randomization (\"Prospective randomization of the patients was carried out using block randomization\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Block randomization is stated and group sizes are balanced, but no information is given about sequence generation method or allocation concealment (block randomization without concealment can be predictable), and a statistically significant baseline imbalance in BMI >30 kg/m2 \u2014 itself later shown to be an independent predictor of SSI \u2014 raises some concern.",
+        "evidence_quote": "\"Prospective randomization of the patients was carried out using block randomization.\" ... \"All preoperative patient characteristics ... were similarly distributed in all three groups, except for an increased incidence of patients with a BMI of >30 kg/m2 (S-group: 28.3%, G-group: 22.9% and I-group: 31.4%; P-value 0.046)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No blinding was possible or described (surgeons necessarily knew whether a sponge or sealant was applied, and the control group received no placebo), co-interventions such as skeletonized vs pedicled IMA harvesting were left to surgeon preference, and no intention-to-treat analysis or handling of protocol deviations/crossovers is reported.",
+        "evidence_quote": "\"Standard group. CABG was performed in a standardized manner without using additional infection prophylaxis devices.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes appear available for all 996 randomized patients with no CONSORT flow diagram, but there is no explicit account of losses to 3-month follow-up (2.0% died and completeness of the 3-month wound assessment, e.g. 95.9% \"unremarkable\", is not fully reconciled), so missingness cannot be fully verified.",
+        "evidence_quote": "\"The incidence of superficial and deep sternal wound infections was evaluated during hospital stay and after 3 months postoperatively.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The outcome used standard CDC definitions and was assessed similarly in both centres, but outcome assessors were evidently not blinded (treating surgeons judged wound status) and superficial SSI involves subjective clinical judgement that could be influenced by knowledge of the prophylaxis used.",
+        "evidence_quote": "\"According to the Centers for Disease Control, SSIs are grouped into superficial and deep SSI [10].\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A pre-specified primary endpoint and a priori sample-size calculation are reported, but no trial registration number or published protocol is cited, and multiple outcome operationalizations (overall, superficial, deep SSI) plus post hoc univariable/multivariable risk-factor analyses and narrative emphasis on a non-significant \"trend\" leave scope for selective reporting.",
+        "evidence_quote": "\"The analysis is based on the hypothesis of a reduction of the sternal SSI rate from 6 to 2% ... The required sample size was calculated to be at least 296 patients in each group.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "All five RoB 2 domains were rated \"some concerns\": allocation concealment is unreported with a significant baseline BMI imbalance, no blinding of participants, surgeons or outcome assessors is described, follow-up completeness is not documented in a flow diagram, and no registered protocol is cited despite multiple outcome operationalizations and post hoc risk-factor analyses. The study is therefore at some concerns overall, with no single domain judged high risk."
+  },
+  {
+    "paper_id": "manual:db007763",
+    "paper_title": "fff68d6b_j.athoracsur.2004.06.043",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"The allocation sequence was computer-generated with a variable block size of 8, 12, or 16 patients and was stratified for center,\" performed by an external statistician with sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated, block-randomized, center-stratified sequence prepared by an independent statistician with concealed sealed envelopes opened only at the end of the operation; baseline characteristics were well balanced (minor imbalance in oral steroid use only).",
+        "evidence_quote": "\"An external statistician who was not involved in the enrolment or assessment of the patients performed the randomization. The allocation sequence was computergenerated with a variable block size of 8, 12, or 16 patients and was stratified for center. Assignments were concealed in sealed envelopes.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and postoperative assessors were blinded and analysis was intention-to-treat, but the operating surgeon necessarily knew allocation (no placebo collagen sponge arm), so care co-interventions could differ, though no documentation of group was left in the file.",
+        "evidence_quote": "\"A limitation of our study is the absence of a placebo arm with collagen without gentamicin. However, the patients and those assessing the outcome were blinded regarding treatment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 1950 of 1956 enrolled patients (only 6 lost to follow-up, <0.5%), with exclusions occurring before/at randomization and a documented trial profile.",
+        "evidence_quote": "\"Thus, 1956 patients entered the study. Six of these could not be reached at the follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome assessors were blinded and standardized CDC-based criteria used, but infection classification is partly subjective (and \"probable\" infections were included), with all classifications made by a single surgeon and follow-up partly by telephone/questionnaire.",
+        "evidence_quote": "\"Definition and classification of surgical site infections are, despite classification systems, occasionally subjective. In this study infections were therefore classified as definite or probable.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A pre-specified primary endpoint and a priori power calculation are reported, but no trial registration or protocol is cited and numerous post hoc subgroup/depth/etiology analyses not covered by the sample-size calculation are presented.",
+        "evidence_quote": "\"The sample size calculations did not account for these subgroup analyses but since the true incidence proved higher than assumed the analyses were considered justifiable.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation and follow-up were rigorous (independent computer-generated, concealed, stratified randomization; <0.5% loss to follow-up; intention-to-treat analysis), but the absence of a collagen-only placebo arm (unblinded surgeons), the partly subjective single-assessor infection classification including \"probable\" cases, and the lack of a registered protocol alongside numerous unplanned subgroup analyses raise some concerns."
+  },
+  {
+    "paper_id": "manual:c61d4223",
+    "paper_title": "ffce09d2_j.jhin.2004.10.005",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of consecutive CABG patients to gentamicin-collagen implant vs control: \"The patients were randomized to the gentamicin group or the control group using sealed envelopes.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation used sealed envelopes (suggesting some concealment) but the sequence generation method is not described, envelopes are not stated to be opaque/sequentially numbered, and baseline tables show minor imbalances (LVEF \u226430%: 6% vs 3%) though broadly compatible with chance.",
+        "evidence_quote": "The patients were randomized to the gentamicin group or the control group using sealed envelopes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label (surgeons and gentamicin-group patients necessarily aware of allocation, with differential consent procedures and no placebo sponge), and no intention-to-treat analysis or handling of protocol deviations is described, although the intervention is a one-off intraoperative implant with limited scope for co-intervention bias.",
+        "evidence_quote": "In the study group, the subjects gave their informed consent. The controls were not asked for informed consent because no additional appointments or investigations were necessary."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear essentially complete for the 542 randomized patients (exclusions/refusals occurred before randomization per the flow diagram) with only minimal missing covariate data.",
+        "evidence_quote": "All patients were followed-up three months after discharge from hospital... For most variables, data were missing for fewer than 0.5% of patients."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Standard CDC criteria were used and an independent blinded consultant could adjudicate, but diagnosis could alternatively be made by a cardiac surgeon who performed daily monitoring and may have known/observed the implant, so blinding of outcome assessment was not uniformly guaranteed.",
+        "evidence_quote": "The diagnosis of sternum infection was made either by a cardiac surgeon or an infection consultant who was not involved in this study and who did not know which study group each patient belonged to."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol/pre-registration or a priori primary outcome and sample-size plan is reported (power is calculated post hoc), and multiple infection endpoints (superficial, deep, osteitis, mediastinitis, total) plus numerous recorded variables allow selective reporting, though the key outcomes appear reported in full.",
+        "evidence_quote": "With the infection rates in our study (4% study group; 5.9% control group), the sample size necessary to detect a significant (P!0.05) RR with a statistical power of 0.8 would be 1275 patients in each group."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This randomized trial had complete outcome data and objective CDC-based infection criteria, but concerns remain about unreported sequence generation, an unblinded design with asymmetric consent procedures, outcome diagnosis potentially made by unblinded treating surgeons, and absence of a pre-specified protocol/primary outcome. No domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:6f1d9d43",
+    "paper_title": "56853668_j.jtcvs.2011.05.035",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a prospectively randomized, double-blind, placebo-controlled single-centre trial in which randomization and blinding were performed by an independent Centre for Clinical Studies, with sponges (verum vs placebo) labelled by randomization number.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was generated and concealed via centrally labelled identical sponges by an independent unit, but the exact sequence-generation method is not described and several baseline imbalances (sex, EF<30%, reoperation P=.004, creatinine P=.010) raise mild concern.",
+        "evidence_quote": "\"Randomization and blinding were carried out by the Centre for Clinical Studies of W\u20acurzburg University Hospital. After randomization, the 400 gentamicin-collagen sponges and the 400 placebo sponges were labeled with a sticker showing the randomization number.\" ... \"There were differences in preoperative factors (eg, gender) (P .041)... an ejection fraction of less than 30% was found in 4.8% ... versus 9.0% ... (P .029)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients, surgeons and assessors were blinded and care was standardized, but 80 randomized patients (including 20 who did not receive the specified sponge) were excluded from analysis rather than analysed by intention-to-treat.",
+        "evidence_quote": "\"The 2 sponges looked identical and could not be differentiated by the surgeon on the basis of their appearance or haptic characteristics.\" ... \"Some 80 of 800 patients (10%) could not be evaluated, the reasons being revision surgery because of bleeding (40x), perioperative mortality not associated with a wound infection (20x), and non-use of the specified sponge (20x).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were available for 90% of eligible/allocated patients, but the 10% excluded (bleeding revisions, deaths, non-use of sponge) are not reported by allocation group, so differential exclusion related to the outcome cannot be excluded for an event rate of only ~2%\u20133.5%.",
+        "evidence_quote": "\"A total of 720 of 800 (90%) of the screened patients were included in the study analysis after the end of the 30-day follow-up period\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Deep/superficial wound infection was defined by standard CDC criteria including microbiological confirmation, assessed identically in both groups with daily examination, laboratory parameters and 30-day telephone follow-up, with assessors blinded until unblinding.",
+        "evidence_quote": "\"DSWI and SSWI were defined on the basis of the criteria of the US Centers for Disease Control and Prevention...\" ; \"All criteria demanded of a randomized, double-blind study were met at all times\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary endpoint (30-day DSWI), but no protocol/sample-size calculation is shown, the results table reclassifies SSWI and \"all wound complications\" as primary endpoints contrary to the Methods, and multiple subgroup analyses were performed.",
+        "evidence_quote": "\"This trial is registered at Current Controlled Trials Limited, London with the assign ISRCTN 20849.\" ... \"All wound complications | 9 (2.54) | 24 (6.50) | 33 (4.56) | .012\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled randomized trial has strong blinding and an objective, CDC-defined outcome, but the randomization sequence method is unreported with several baseline imbalances, 10% of randomized patients were excluded post-randomization without intention-to-treat analysis or group-wise reporting, and endpoint labelling differs between Methods and Results. These issues yield an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:d67bf56a",
+    "paper_title": "6d792a62_joc05097_755_762",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit phase 3 prospective randomized controlled trial with central randomization via interactive voice response system, stratified by site with random block sizes (\"Randomization occurred after surgical incision using a central randomization interactive voice response system, thus providing complete allocation concealment\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central interactive voice response randomization occurring after incision guaranteed allocation concealment, the sequence was stratified by site with random block sizes, and Tables 1\u20132 show well-balanced baseline and intraoperative characteristics across the 753 vs 749 arms.",
+        "evidence_quote": "\"Randomization occurred after surgical incision using a central randomization interactive voice response system, thus providing complete allocation concealment. The randomization scheme was stratified by site and random block sizes were used.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was only single-blind: no placebo sponge was used, so surgeons and operating teams knew the assignment and could in principle have altered co-interventions or wound care, although the protocol standardized antibiotics, sternal fixation and skin preparation (Table 2 shows these were balanced), crossovers were minimal (10/753 received no sponge), and the primary comparison used intention-to-treat analysis with a concordant per-protocol analysis.",
+        "evidence_quote": "\"To avoid possible bacterial growth on an unimpregnated sponge, patients in the control group did not receive a placebo sponge. As a result, surgeons were not blinded to study group assignment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 12 of 1502 randomized patients (0.8%) failed to contribute to the primary end point and loss to follow-up at 90 days was 2.1% and balanced between arms (13 sponge vs 18 control), far too small to alter an 8.4% vs 8.7% event-rate comparison.",
+        "evidence_quote": "\"Of note, only 31 individuals (2.1%) were lost to follow-up at 90 days (13 in the gentamicin-collagen sponge group and 18 in the control group). Only 12 of 1502 individuals did not contribute information to the primary end point.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was adjudicated by an independent clinical events classification committee of three infectious disease experts blinded to allocation using standardized CDC/ASEPSIS criteria applied identically in both arms, and patients were also blinded; unblinded site investigators' assessments gave concordant results (19.7% vs 20.0%).",
+        "evidence_quote": "\"The independent clinical events classification committee was composed of 3 infectious disease experts blinded to the treatment assignments.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT00600483) with a pre-specified primary end point, a pre-specified statistical analysis plan defining the ITT and per-protocol populations, and all pre-specified secondary, subgroup and safety outcomes appear reported (including a planned cost analysis explicitly noted as not performed); analyses were done by an independent Duke statistical team with secondary results labelled descriptive.",
+        "evidence_quote": "\"The per-protocol population, as defined in the statistical analysis plan, included all randomized patients who completed the study and had none of the following prespecified major protocol deviations\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, centrally randomized, multicenter trial had excellent allocation concealment, near-complete follow-up, blinded central outcome adjudication, prospective registration and a pre-specified ITT analysis, so four of five domains are low risk. The overall rating of \"some concerns\" is driven solely by D2: the deliberate absence of a placebo sponge left surgeons unblinded, creating some potential for differential co-interventions or wound management, though protocol standardization and concordant ITT/per-protocol results make substantive bias in this null result unlikely."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of a single sympathetic nerve block, compared with standard care, on pain score at 14 days?",
+  "treatment_label": "Single sympathetic nerve block",
+  "control_label": "Standard care",
+  "outcome_description": "Pain score at 14 days post-intervention, measured using validated numerical or visual rating scales (e.g., Visual Analogue Scale [VAS], Numeric Rating Scale [NRS]).",
+  "positive_direction": "A positive effect size indicates greater pain reduction (lower pain score) favoring the sympathetic nerve block group over standard care.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "sympathetic nerve block standard care pain score trial",
+    "sympathetic block controlled trial pain outcome 14 days",
+    "stellate ganglion lumbar sympathetic block pain reduction randomized"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies examining patients undergoing a single sympathetic nerve block compared to standard care or control.",
+    "Reporting of quantitative pain score outcomes assessed at 14 days (or approximately 2 weeks) follow-up.",
+    "Controlled comparative study designs (e.g., randomized controlled trials, non-randomized comparative trials)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded).",
+    "No comparison between a sympathetic nerve block group and a standard care or control condition.",
+    "No quantitative outcome data on pain score at 14 days that can produce an effect size (means and SDs, medians with IQR, t/F statistics, or change scores required).",
+    "Completely unrelated to sympathetic nerve block or pain management."
+  ],
+  "moderators_to_extract": [
+    "Specific anatomical block target (e.g., stellate ganglion, lumbar sympathetic chain, celiac plexus)",
+    "Underlying clinical indication / pain etiology (e.g., CRPS, neuropathic pain, ischemic pain)",
+    "Control condition type (e.g., pharmacotherapy alone, sham injection, active comparator)",
+    "Injectate composition (e.g., local anesthetic alone vs. local anesthetic with corticosteroid or adjuvant)",
+    "Risk of bias / study design (e.g., RCT vs. non-randomized comparative trial)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Standardized mean difference (Hedges' g) or mean difference across validated pain assessment scales (e.g., VAS, NRS) measured at 14 days post-intervention.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Pain score at 14 days"
+}

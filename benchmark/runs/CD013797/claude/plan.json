@@ -1,0 +1,40 @@
+{
+  "research_question": "In adolescents and adults with asthma uncontrolled on medium-dose inhaled corticosteroids, does adding a long-acting beta2 agonist to the same medium-dose ICS in a single inhaler reduce the proportion of participants experiencing at least one moderate or severe asthma exacerbation compared with the same medium-dose ICS alone?",
+  "treatment_label": "Medium-dose ICS plus LABA in one inhaler (e.g. fluticasone/salmeterol, budesonide/formoterol, fluticasone furoate/vilanterol, beclomethasone/formoterol, mometasone/indacaterol)",
+  "control_label": "The same medium-dose ICS alone at the same dose (ICS monotherapy)",
+  "outcome_description": "Number of participants with at least one moderate or severe asthma exacerbation (requiring systemic corticosteroids, an emergency department visit, or hospitalisation) during the full randomised treatment period, out of the number randomised/analysed in each arm. Where several definitions are reported, the definition closest to \"moderate or severe\" is used; where only severe exacerbations are reported, those participant counts are used.",
+  "positive_direction": "A risk ratio below 1 (and a positive pooled effect in the signed effect-size convention) means ICS/LABA combination therapy reduced the proportion of participants with at least one moderate or severe exacerbation relative to the same medium-dose ICS alone, i.e. favours ICS/LABA.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "inhaled corticosteroid long-acting beta2 agonist combination inhaler asthma exacerbation randomised trial",
+    "budesonide formoterol versus budesonide alone uncontrolled asthma exacerbations trial",
+    "fluticasone salmeterol versus fluticasone alone asthma exacerbation controlled trial",
+    "fluticasone furoate vilanterol mometasone indacaterol beclomethasone formoterol asthma exacerbation randomized"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adolescents and/or adults with asthma that is uncontrolled or symptomatic on inhaled corticosteroids",
+    "Includes a combination ICS/LABA arm and a comparator arm of the same ICS alone at a comparable (medium) dose",
+    "Reports any quantitative exacerbation outcome data, including numbers of participants with at least one moderate or severe exacerbation (or data from which such counts can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a treatment and a control condition (e.g. single-arm or observational studies with no ICS-alone comparator; trials lacking a medium-dose ICS-alone control arm)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts/proportions, means+SDs, t/F values, or odds/risk ratios)",
+    "Completely unrelated to the research topic (not asthma, or not evaluating inhaled ICS/LABA versus ICS therapy)"
+  ],
+  "moderators_to_extract": [
+    "ICS/LABA drug combination (molecule pair)",
+    "Trial duration (weeks)",
+    "Baseline ICS dose level and dosing schedule (fixed-dose vs maintenance-and-reliever)",
+    "Exacerbation definition used (moderate or severe vs severe only)",
+    "Sample size category",
+    "Mean age / proportion adolescents and baseline severity or prior exacerbation history",
+    "Publication year and funding source (industry vs non-industry)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio (ICS/LABA vs ICS alone) using participant counts: numerator = participants with at least one moderate or severe exacerbation, denominator = number randomised (ITT) or analysed as reported. Use only the medium-dose ICS/LABA arm and the matching medium-dose ICS-alone arm in multi-arm trials; shared control arms are entered with their full reported size and events. RR < 1 favours ICS/LABA.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "moderate to severe asthma exacerbations"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "In people with established cardiovascular disease (secondary prevention), do interleukin-1 receptor antagonists / IL-1 pathway blockers (anakinra, canakinumab) reduce all-cause mortality compared with placebo or usual care?",
+  "treatment_label": "Interleukin-1 blockade (anakinra or canakinumab)",
+  "control_label": "Placebo or usual care",
+  "outcome_description": "All-cause mortality (death from any cause) during trial follow-up, reported as number of deaths per randomised group (or as an effect estimate such as RR/OR/HR with variance).",
+  "positive_direction": "A positive effect size means IL-1 blockade reduced all-cause mortality relative to placebo/usual care (fewer deaths in the treatment arm).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "anakinra cardiovascular randomized controlled trial mortality",
+    "canakinumab atherosclerosis myocardial infarction trial outcomes",
+    "interleukin-1 blockade anti-inflammatory therapy coronary artery disease clinical trial"
+  ],
+  "inclusion_criteria": [
+    "Studies in adults with established cardiovascular disease (e.g. prior myocardial infarction, acute coronary syndrome, stable coronary artery disease, heart failure, stroke) or at high cardiovascular risk",
+    "Evaluates an interleukin-1 receptor antagonist or IL-1 pathway blocker (anakinra, canakinumab, or similar IL-1 inhibitor) against placebo, usual care, or no added anti-inflammatory therapy",
+    "Reports any quantitative clinical outcome data, including death counts or any mortality/event estimate, at any follow-up duration"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, guideline, or purely theoretical/modelling paper)",
+    "No comparison between an IL-1 blockade treatment condition and a placebo/usual-care control condition (e.g. single-arm or uncontrolled case series)",
+    "No extractable quantitative outcome data permitting an effect size (no event counts, means+SDs, t/F statistics, proportions, or ratio estimates with variance)",
+    "Completely unrelated to IL-1 blockade in cardiovascular disease (e.g. purely rheumatologic, oncologic, or preclinical animal/in vitro studies with no clinical cardiovascular outcomes)"
+  ],
+  "moderators_to_extract": [
+    "Drug sub-type (anakinra vs canakinumab vs other IL-1 inhibitor)",
+    "Dose and treatment duration",
+    "Follow-up length",
+    "Baseline cardiovascular population (post-MI/ACS vs stable CAD vs heart failure)",
+    "Sample size category",
+    "Risk of bias / blinding and comparator type (placebo vs usual care)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as risk ratios (RR) with 95% CIs using event counts per arm; drug sub-type (anakinra vs canakinumab) analysed as separate subgroups within one pooled random-effects model, with a test for subgroup differences.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

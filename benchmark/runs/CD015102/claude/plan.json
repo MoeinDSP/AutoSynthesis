@@ -1,0 +1,38 @@
+{
+  "research_question": "In non-hospitalised adults with COVID-19 (outpatients and post-discharge patients), what is the effect of prophylactic anticoagulant or antiplatelet therapy (e.g. low-molecular-weight heparin, rivaroxaban, apixaban, aspirin) compared with placebo or no anticoagulant/standard care on the proportion of participants experiencing at least one adverse event?",
+  "treatment_label": "Prophylactic anticoagulant/antithrombotic (LMWH, rivaroxaban, apixaban, aspirin or similar)",
+  "control_label": "Placebo or no anticoagulant (standard care)",
+  "outcome_description": "Number of participants with at least one adverse event out of the number randomised in each arm during follow-up. Preference order: (1) any adverse event of any type; (2) if unavailable, serious adverse events; (3) if unavailable, bleeding events (major, clinically relevant non-major, or any bleeding). The definition used must be recorded for each trial. If several non-overlapping categories are reported and no broad total is given, sum only categories the paper explicitly defines as non-overlapping. Participants are counted, not episodes; trials reporting only event (episode) counts are excluded. Denominator is the number randomised (ITT); the safety population is used only if the randomised number is not reported, and this is flagged. Efficacy outcomes (death, hospitalisation, venous thromboembolism, symptom resolution, quality of life) are never used as adverse-event counts. In multi-arm trials, multiple anticoagulant doses/agents are combined into a single treatment group (summing events and participants) and compared with the placebo/no-treatment arm.",
+  "positive_direction": "A positive effect (equivalently RR < 1) means FEWER participants experienced adverse events with prophylactic anticoagulation than with placebo/no treatment, i.e. the result favours the anticoagulant. Conversely, RR > 1 means more adverse events with the anticoagulant (harm).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "anticoagulant thromboprophylaxis outpatient COVID-19 randomised trial adverse events bleeding",
+    "rivaroxaban apixaban enoxaparin aspirin non-hospitalised COVID-19 placebo controlled trial",
+    "post-discharge thromboprophylaxis COVID-19 randomized controlled trial safety bleeding outcomes"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults with COVID-19 who were not hospitalised at randomisation (community/outpatient) or who were randomised at or after hospital discharge",
+    "Compares a prophylactic anticoagulant or antithrombotic agent (e.g. LMWH, rivaroxaban, apixaban, aspirin, similar) with placebo, no anticoagulant, or standard care without anticoagulation",
+    "Reports some quantitative safety data allowing computation of the number of participants with at least one adverse event, serious adverse event, or bleeding event per arm"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, protocol without results, or purely theoretical/modelling paper)",
+    "No comparison between a treatment and a control condition, including trials whose comparator is another anticoagulant or a different dose of the same anticoagulant, and all non-randomised designs",
+    "No usable quantitative outcome data (only event/episode counts rather than participants, or no per-arm numerators and denominators, proportions or odds/risk ratios reportable)",
+    "Completely unrelated to the research topic, e.g. trials restricted to hospitalised/inpatient COVID-19 patients, non-COVID populations, paediatric populations, or reporting only efficacy outcomes (death, hospitalisation, VTE, symptom resolution, quality of life) with no safety data"
+  ],
+  "moderators_to_extract": [
+    "Adverse event definition used (any AE, serious AE, major bleeding, clinically relevant non-major bleeding, any bleeding)",
+    "Drug class/agent (LMWH, direct oral anticoagulant, aspirin/antiplatelet, other)",
+    "Setting/population (community outpatient vs post-hospital-discharge)",
+    "Control type (placebo vs no treatment/standard care)",
+    "Treatment duration and follow-up length",
+    "Sample size category and risk-of-bias/blinding status"
+  ],
+  "search_start_year": 2019,
+  "effect_size_note": "Pool as risk ratios (RR) with a random-effects model (DerSimonian-Laird or REML, Hartung-Knapp adjustment considered given few trials). RR > 1 indicates more participants with adverse events in the anticoagulant arm (harm); RR < 1 favours the anticoagulant. Participants with at least one event are the numerator and the number randomised (ITT) the denominator; zero-event arms handled with a continuity correction or Peto/Mantel-Haenszel-without-correction sensitivity analysis. Multi-arm trials: anticoagulant arms combined. Duplicate reports of the same trial (journal article plus preprint/repository copy) counted once.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "adverse events"
+}

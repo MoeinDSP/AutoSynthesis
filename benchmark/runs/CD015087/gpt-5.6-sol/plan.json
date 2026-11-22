@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children aged under 18 years undergoing any surgical procedure under general anaesthesia, what is the effect of perioperative diclofenac, administered by any route before, during, or after surgery, compared with an opioid analgesic administered by any route, on the risk of requiring any rescue or supplementary analgesic medication within the first 24 postoperative hours?",
+  "treatment_label": "Perioperative diclofenac (any dose, timing, or route, including rectal, intravenous, intramuscular, or oral)",
+  "control_label": "Opioid analgesic (any dose, timing, or route, including systemic, caudal, or epidural morphine, fentanyl, sufentanil, pethidine/meperidine, papaveretum, nalbuphine, or another opioid)",
+  "outcome_description": "Single dichotomous study-level count of children who received any rescue or supplementary analgesic after surgery within the first 24 hours, with the number randomised or analysed in each eligible arm as the denominator. Include equivalent descriptions such as analgesic complementation, supplementary analgesia, postoperative analgesia given, or number requiring an opioid, paracetamol, or other rescue medication postoperatively. Use the longest cumulative postoperative window reported up to 24 hours (for example recovery-ward stay, first 4 hours, until discharge, or 24 hours), and do not use a first-2-hour count if a longer eligible window is available. Convert percentages to integer event counts using group totals; where data occur only in a figure or bar chart, digitise/read the group percentages and convert them to counts. For multi-arm trials, retain the diclofenac arm and combine all eligible opioid arms by summing events and totals; disregard placebo/no-analgesia, local-anaesthetic-only, paracetamol, and other-NSAID arms. Do not substitute pain scores, time to first rescue, or rescue dose/analgesic consumption, and do not analyse other efficacy or safety outcomes.",
+  "positive_direction": "A positive standardized effect indicates a result favouring diclofenac, meaning fewer children required postoperative rescue analgesia in the diclofenac arm than in the opioid arm; for the requested risk-ratio analysis, RR below 1 favours diclofenac.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "diclofenac opioid children postoperative rescue analgesia trial",
+    "pediatric surgery diclofenac morphine fentanyl supplementary analgesia controlled",
+    "paediatric general anaesthesia diclofenac opioid analgesic complementation comparison"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies involving participants under 18 years who underwent any surgical procedure under general anaesthesia and received perioperative diclofenac in at least one study arm.",
+    "Studies containing a comparison between diclofenac and at least one opioid analgesic, with any eligible dose, route, and administration time before, during, or after surgery.",
+    "Studies reporting, or allowing extraction or derivation of, the number or proportion of children receiving any rescue or supplementary postoperative analgesic during an observation window ending no later than 24 hours after surgery."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and other non-primary reports.",
+    "No comparison between a diclofenac treatment condition and an opioid control condition; this excludes comparisons only against placebo/no analgesia, paracetamol, another NSAID, or a local anaesthetic.",
+    "No quantitative outcome data capable of producing an effect size\u2014such as events and totals, percentages or proportions with group sizes, means and SDs, t/F values, or odds ratios\u2014and no extractable rescue-analgesia event count from text, tables, or figures.",
+    "Completely unrelated to the research topic, including adult-only studies, studies not involving surgery under general anaesthesia, or reports that provide only pain intensity, time to rescue medication, analgesic dose/consumption, nausea/vomiting, bleeding, or other adverse-event outcomes without the required dichotomous rescue-analgesia outcome."
+  ],
+  "moderators_to_extract": [
+    "Age distribution or paediatric age group",
+    "Type of surgical procedure",
+    "Diclofenac route, dose, and timing relative to surgery",
+    "Opioid drug, route, and dose",
+    "Length of postoperative outcome-assessment window (up to 24 hours)",
+    "Study design and risk-of-bias features"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "Pool risk ratios using a random-effects model, coding rescue-analgesia receipt as the event; RR < 1 favours diclofenac. For each study, extract one eligible dichotomous comparison using the longest cumulative postoperative window available up to 24 hours. Derive counts from reported percentages or figures when necessary, documenting rounding or digitisation decisions. In multi-arm studies, combine all eligible opioid arms by summing events and totals, compare that combined control with the diclofenac arm, and omit ineligible comparator arms. Report 95% confidence intervals, heterogeneity (tau-squared and I-squared), and conduct sensitivity analyses as feasible for zero-event handling, derived/graph-read counts, risk of bias, and alternative random-effects estimators. Follow PRISMA 2020 with duplicate screening, a flow diagram, duplicate data extraction, risk-of-bias assessment, investigation of reporting bias when sufficient studies are available, and certainty assessment.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "receipt of postoperative rescue analgesia within 24 hours"
+}

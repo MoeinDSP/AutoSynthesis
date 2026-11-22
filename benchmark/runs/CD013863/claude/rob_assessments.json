@@ -1,0 +1,646 @@
+[
+  {
+    "paper_id": "manual:795dc21c",
+    "paper_title": "d072c692_16506073.2022.2065528",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit two-armed RCT: participants were allocated to tailored ICBT or waiting-list control using an independent online random number service (\"All randomizations were carried out using an independent online random number service (http://www.random.org)\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine random sequence was generated, but allocation concealment is not described and the authors themselves report baseline imbalances (psychiatric diagnoses, social support, quality of life, prior rehabilitation, sick-leave days) possibly arising from differential post-randomization exclusion of 39 participants before baseline measurement.",
+        "evidence_quote": "\"Simple randomization without restriction or stratification was used... All randomizations were carried out using an independent online random number service (http://www.random.org)\" ... \"some differences between groups at baseline were observed, with the control group reporting fewer ongoing psychiatric diagnoses, better social support and higher quality of life, which could potentially have skewed the results.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An appropriate ITT analysis was used, but participants and therapists were necessarily unblinded to a waiting-list comparator (with self-report outcomes), adherence was low (mean 49.7% of modules, only 22.9% completing all), and co-intervention in the control arm was unrestricted and unmeasured.",
+        "evidence_quote": "\"The intention-to-treat principle was used with all available data regardless of completion of the actual treatment.\" ... \"individuals in the control group were not restricted in their use of other health-care options while on the waiting list.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Nearly one-third of post-treatment data were missing (and only ~30% provided 12-month follow-up data), with evidence that missingness depended on outcome severity (dropouts had significantly higher depression, disability and distress and lower acceptance at baseline), so imputation cannot rule out bias in the effect estimates.",
+        "evidence_quote": "\"No data were missing at baseline but 30.7% of data were missing at post-intervention due to a combination of unanswered items and participant attrition.\" ... \"Twelve-month follow up data was collected from both groups (ICBT, n = 37; WLC, n = 23).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were well-validated instruments administered identically in both arms, but all are self-reported by unblinded participants against an inactive waiting-list control, so expectancy/demand effects could inflate the (very small) between-group differences.",
+        "evidence_quote": "\"Measures were obtained at five time points using online self-report questionnaires in the treatment platform.\" ... \"The control condition was a waiting-list and it would be preferable to use credible intervention alternatives.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and primary outcomes were pre-specified, but many secondary/subscale outcomes were analysed, both ITT and observed-data analyses are reported selectively depending on agreement, and the registration occurred in 2017 after the 2016 trial start, leaving some scope for selective reporting.",
+        "evidence_quote": "\"was registered at clinicaltrials.gov (NTC03316846)\" ... \"Results from the intention to-treat analyses are reported when observed data and ITT does not differ, and when there is a difference both results are presented\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by extensive missing outcome data (30.7% missing at post-treatment, ~70% missing at 12-month follow-up) that was demonstrably related to baseline symptom severity. Additional concerns arise from unconcealed allocation with baseline imbalances, unblinded participants providing self-report outcomes against an inactive waiting-list control, and some flexibility in which analysis (ITT vs observed) was reported."
+  },
+  {
+    "paper_id": "manual:9505264d",
+    "paper_title": "d1814c08_177284564_AV",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: 659 participants were randomised 1:1 to intervention or waitlist control using http://www.random.org with permuted blocks of 16, and the trial is prospectively registered (ACTRN12615001003561).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Sequence generated by a validated random number service with permuted blocks and allocation numbers assigned before screening so investigators could not influence allocation; baseline demographic, pain and outcome characteristics were closely balanced across groups.",
+        "evidence_quote": "\"Randomization was performed using http://www.random.org with permuted blocks of 16 and a 1:1 ratio. Participants were assigned a randomisation number prior at commencement of the online screening assessment, ensuring that study investigators were unable to affect group allocation.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and clinicians were necessarily aware of allocation and the comparator was an untreated waitlist (so expectancy/placebo effects on self-reported outcomes cannot be excluded), although analyses followed intention-to-treat principles and no co-intervention restrictions were violated.",
+        "evidence_quote": "\"All analyses were conducted using intention-to-treat principles.\" ... \"because the current study employed a waitlist-control group, no conclusions can be made about the cost-effectiveness\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Post-treatment questionnaire completion was high (~91%) and did not differ between groups, and missing data were handled with stratified multiple imputation under ITT principles.",
+        "evidence_quote": "\"No significant difference was found between the questionnaire completion rates of the Treatment (91%) and ... A stratified Multiple Imputation procedure was employed to account for missing data\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes used standardised, validated instruments administered identically online, but all primary outcomes (and cost/service use) are self-reported by unblinded participants who knew whether they were receiving treatment or waiting, which can inflate apparent benefit.",
+        "evidence_quote": "\"the current study relied on self-report medication and health service use, which may not be as accurate as accessing health record data\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and primary/secondary outcomes are clearly designated, but multiple outcome operationalizations (\u226530% and \u226550% responder thresholds, two cost perspectives, winsorized/unwinsorized costs, several ICER formulations) were reported without an available pre-specified analysis plan, and adverse effects were not analysed.",
+        "evidence_quote": "\"we did not formally examine for any negative effects (e.g., substantial deteriorations in disability, depression, anxiety, or pain) that may be associated with the intervention\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and retention were strong (concealed random.org block allocation, ~91% completion, ITT with multiple imputation), but the unblinded waitlist-control design combined with entirely self-reported outcomes and flexibility in outcome/cost operationalizations raises some concerns about inflated effect and cost-effectiveness estimates. No single domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:1733cd1b",
+    "paper_title": "7a3c534b_ajp.0b013e31822363db",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to immediate intervention or wait-list control: \"Upon completion of the baseline measures, participants were randomized to the intervention (INT) group or to a waitlist control (WLC) group using a random number table.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine random sequence (random number table) was used and baseline balance was checked, but allocation concealment is not described (web-based allocation at the point of baseline completion is plausible but unreported), and one baseline outcome difference prompted a post hoc change of analysis plan to ANCOVA.",
+        "evidence_quote": "\"participants were randomized to the intervention (INT) group or to a waitlist control (WLC) group using a random number table\"; \"independent groups t tests revealed no significant diferences between the groups on any dependent variable, with the exception of the Emotion subscale of the SOPA, t(139)= 2.15, P=0.034\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and staff were necessarily aware of assignment in an unblinded wait-list design, and analysis was explicitly not intention-to-treat \u2014 non-adherent participants were removed from follow-up assessment entirely, creating a per-protocol analysis that excludes those who did not use the intervention as intended.",
+        "evidence_quote": "\"each participant was required to complete at least 4 of the 6 chapters during the 3-week time allotted\"; \"Participants who did not complete the required amount of the intervention were considered study dropouts and were not ofered the second and third assessment or follow-up interview\"; \"An intent-to-treat methodology would have allowed us to investigate the reasons for drop out.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for ~7% at week 3 and ~16% at week 6 with differential attrition by group (and by minority status, sex, and age), attrition was partly engineered by excluding non-adherent participants, and no ITT or sensitivity analysis was performed, so bias from missingness cannot be excluded.",
+        "evidence_quote": "\"There was also diferential attrition between the 2 groups: more participants in the wait-list group dropped out of the study, both between weeks 1 and 3 and between weeks 3 and 6. It is possible that those who dropped out were less likely to have benefitted from the workbook\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were well-validated instruments administered identically online to both groups, but all were self-reported by unblinded participants in a wait-list design, so expectancy/nonspecific effects could inflate subjective outcome differences.",
+        "evidence_quote": "\"Self-report measures of pain, disability, disabling attitudes and beliefs, self-eficacy for pain control, and mood regulation were completed at baseline, week 3, and week 6.\"; \"a WLC group does not control for nonspecific efects of treatment as it is comparing the online treatment to no treatment\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, a large number of subscale outcomes were reported with the analytic approach (MANCOVA) chosen after inspecting baseline data, and eligibility criteria were altered mid-study, though hypotheses were stated a priori and type I error control was applied.",
+        "evidence_quote": "\"The Survey of Pain Attitudes (SOPA) was our primary outcome measure.\"; \"As the groups were slightly diferent at baseline, we elected to use multivariate analysis of covariance (MANCOVA) to test our hypotheses\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used a random number table and validated outcome measures were applied equally, the trial excluded non-adherent participants from follow-up rather than analysing by intention-to-treat and experienced differential attrition favouring the intervention arm (D2 and D3 both high). Combined with unblinded self-report outcomes in a wait-list design and no registered analysis plan, the study is at high overall risk of bias."
+  },
+  {
+    "paper_id": "manual:15341ae4",
+    "paper_title": "8cc1256e_AJP.0000000000000494",
+    "design_classification": "randomized",
+    "design_rationale": "A three-arm randomized controlled trial in which 284 consenting patients were randomized (2:2:1, stratified by sex) to internet PPI, iCBT, or waitlist control: \"Of the 301 eligible participants, 284 returned their informed consent and were subsequently randomized into either one of the treatments or waitlist condition.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was randomized with stratification by sex and unequal ratio, but the sequence-generation method and allocation concealment are not described, and some baseline imbalances (education, sick leave, anxiety, benefit finding) occurred, though these were non-significant after Bonferroni correction and adjusted for in analyses.",
+        "evidence_quote": "\"Randomization was performed with a 2:2:1 ratio with an overrepresentation of participants in the two treatment conditions... To guarantee an equal distribution of sexes over the three conditions, male and female participants were randomized separately.\" ... \"There were no significant differences between the three conditions in patient characteristics except for education (Chi2=10.4, p= 0.035) and sick leave (Chi2=6.4, p=0.040).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their condition (self-help internet programs vs waitlist, with telephone/email support from non-blinded assistants), and adherence to the exercises was unmeasured, although an appropriate intention-to-treat mixed-model analysis including all randomized starters was used.",
+        "evidence_quote": "\"Intention-to-treat analyses were performed by means of mixed linear regression analysis per outcome variable, which includes all patients that started with the intervention\" ... \"Finally we have no data regarding the frequency and intensity with which patients engaged in the exercises, and whether patients providing post-treatment data actually completed all modules.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "About 25% of participants lacked post-treatment data and roughly 55-62% lacked 6-month follow-up data (with no follow-up at all in the waitlist arm), which is substantial attrition for self-reported mood outcomes; although drop-out analyses found no significant predictors and mixed models used all available data, bias from missingness (which is plausibly related to the outcome in a well-being trial) cannot be excluded, as the authors themselves acknowledge.",
+        "evidence_quote": "\"Seventy participants (25.4%) dropped out in various weeks of the intervention period, resulting in 206 participants with completed post-treatment measures... We obtained data from 55 participants in the iCBT and 43 participants in the PPI condition, being respectively 49% and 38% of the original sample.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were validated (HADS, FIQ) or at least defensible (single-item happiness) self-reports collected identically across arms, but all outcomes were self-reported by unblinded participants comparing an active program with a waitlist, creating potential for expectancy/response bias in subjective outcomes.",
+        "evidence_quote": "\"Happiness was measured with one item, and assessed the feelings of happiness/unhappiness at the present moment.\" ... \"All pre- and post-intervention and follow-up questionnaires were delivered via the internet. At all three time points the same set of questionnaires was provided.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes were pre-specified in the paper with alpha adjustment for the many secondary measures, but no trial registration or protocol is cited to verify pre-specification, and the emphasized moderation-by-education findings were explicitly post hoc among numerous subgroup analyses.",
+        "evidence_quote": "\"Because of the large number of dependent variables being examined we defined three primary outcomes, happiness and depression as indicators of respectively positive and negative mental wellbeing and physical impairments as indicator of physical wellbeing.\" ... \"Because education effects were not a priori predicted, results should be viewed with caution\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by substantial missing outcome data (25% attrition at post-treatment and 51-62% at 6-month follow-up, with no follow-up data in the waitlist arm) for self-reported outcomes whose missingness could plausibly depend on well-being. Additional some-concerns arise from unreported allocation-sequence/concealment details with minor baseline imbalance, unblinded participants with unmeasured adherence, self-reported subjective outcomes, and absence of a cited protocol/registration alongside post hoc moderator analyses."
+  },
+  {
+    "paper_id": "manual:5d449e5a",
+    "paper_title": "1c8d2a6a_AJP.0000000000000566",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation of 140 FM patients to internet-based exposure therapy or waitlist using a true random number service (random.org), registered at ClinicalTrials.gov (NCT02638636).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A true random number service generated the 1:1 allocation sequence after participant inclusion, ensuring concealment from assessors/researchers, and baseline sociodemographic and clinical characteristics (Table 1) were well balanced and consistent with chance.",
+        "evidence_quote": "\"An independent true random number service (random.org) was used in order to ensure complete randomness. The random sequence was generated after the inclusion of participants to ensure that assignment of intervention was concealed from assessing psychologists and researchers of the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were necessarily aware of allocation (active internet treatment vs. no-treatment waitlist), so expectancy effects and differential co-intervention/help-seeking cannot be excluded, although an intention-to-treat analysis including all randomized participants (including the 9 non-starters) was appropriately applied.",
+        "evidence_quote": "\"We employed an intent-to-treat (ITT) approach, meaning that all participants were included in the analyses... Nine participants did not participate the iExp treatment but took part in the posttreatment assessments.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "There was no missing data on the primary outcome at the pre- and post-treatment (randomized comparison) time points, so bias from missingness in the between-group analysis is implausible.",
+        "evidence_quote": "\"There was no data loss at pre- or post-treatment on the primary outcome.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "All outcomes were validated self-report questionnaires administered identically online in both arms, but because outcome assessment is by unblinded participants who knew whether they received an active treatment or were waiting, subjective self-report outcomes could be influenced by knowledge of the intervention received.",
+        "evidence_quote": "\"All questionnaires were self-reported and administered at baseline, posttreatment and at 6- and 12-months follow-up.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT02638636) with a pre-specified primary outcome (FIQ), a pre-stated power calculation and analysis plan, and all listed secondary outcomes are reported (with cost-effectiveness measures explicitly flagged as registered and reported elsewhere).",
+        "evidence_quote": "\"The trial was registered at ClinicalTrials.gov (ID NCT02638636)... Additional measures were used to investigate cost-effectiveness (specified at clinicaltrials.gov), but will be reported elsewhere.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization, concealment, data retention and outcome reporting were exemplary (pre-registered, no primary-outcome data loss, ITT analysis), but the trial is unblinded with a no-treatment waitlist comparator and relies entirely on participant-reported subjective outcomes, raising concerns about expectancy/demand effects (D2 and D4). Overall risk is therefore 'some concerns', driven by the inability to blind participants and the self-report nature of all outcomes."
+  },
+  {
+    "paper_id": "manual:9c577cb3",
+    "paper_title": "1c890655_ijerph-18-10300",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"individuals who agreed to participate in the study were assigned to an alphanumeric code list and were randomized using the SPSS statistical package (v25) to either the active group or control group (TAU)\", with allocation delivered via numbered sealed envelopes prepared by an independent nurse; registered as an RCT (NCT04284566) and reported per CONSORT.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated random sequence (SPSS) was used with allocation concealed in numbered envelopes prepared by an independent nurse, and baseline characteristics were balanced on all variables except civil status (p = 0.04), a difference consistent with chance across ~20 comparisons.",
+        "evidence_quote": "\"individuals who agreed to participate in the study were assigned to an alphanumeric code list and were randomized using the SPSS statistical package (v25) ... This process was carried out using numbered envelopes containing sheets with information regarding participant allocation. The envelopes were prepared by a nurse from the CSSSU.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the delivering therapist were necessarily unblinded in a waiting-list-controlled behavioural trial, the intervention format was abruptly changed mid-trial to online videos, and actual exposure could not be verified (\"no complete certainty that patients had seen all the videos\"); however, an ITT approach including all randomized participants was used and co-interventions (drugs) were held constant.",
+        "evidence_quote": "\"Neither the participants nor the clinical professional who conducted the program (MS) could be blinded.\" ... \"there is also no complete certainty that patients had seen all the videos.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was large and strongly differential between arms (38.7% vs 6.6%, p < 0.001), missingness was related to baseline severity (non-completers in the intervention arm had worse baseline FIQR), and missing values were handled by last-observation-carried-forward, which for a waiting-list comparison biases toward the intervention by assuming no change in dropouts.",
+        "evidence_quote": "\"Statistical differences between groups were found regarding the retention rate at post-treatment (FIBROWALK+TAU: 61.3%; TAU: 93.4%; x2 = 22.27, p < 0.001). Non-completers from the FIBROWALK+TAU arm showed higher FIQR baseline scores than completers did (t = 2.047; p = 0.044).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary and secondary outcomes were validated but entirely self-reported by unblinded participants compared against an inactive waiting-list/TAU control, so expectancy and demand effects could plausibly influence the modest effect sizes; the authors themselves note the absence of objective or clinician-rated measures.",
+        "evidence_quote": "\"Moreover, as a result of treatment characteristics, participants were not blinded.\" ... \"further studies assessing the effects of virtual FIBROWALK should also include complementary objective outcomes such as aerobic fitness and other measures assessed by the clinician.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT04284566) with a clearly designated primary outcome (FIQR), multiplicity was controlled by Benjamini\u2013Hochberg, and both ITT and completer analyses are reported; however, the intervention and format deviated substantially from the registered protocol, no analysis plan is available for inspection, and responder/NNT and subgroup (responder vs non-responder) analyses appear post hoc.",
+        "evidence_quote": "\"The FIBROWALK study protocol was approved by the Ethical Committee ... and was registered at ClinicalTrials.gov NCT04284566.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization and allocation concealment were adequate and the trial was registered and CONSORT-reported, the overall risk is high, driven by severe differential attrition (38.7% in FIBROWALK+TAU vs 6.6% in TAU) that was related to baseline symptom severity and handled with LOCF imputation, combined with exclusively self-reported outcomes in unblinded participants compared against an inactive waiting-list control. These features could plausibly account for the small-to-moderate observed effects, consistent with the authors' own characterization of the study as proof-of-concept."
+  },
+  {
+    "paper_id": "manual:130c9499",
+    "paper_title": "c8f6e1a7_j.pain.0000000000000121",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"Randomization was implemented using computer-generated permuted block randomization (with random block sizes varying from 2 to 12) stratified by sex and site,\" with 1:1 allocation to PainCOACH or assessment-only control, registered at ClinicalTrials.gov (NCT01638871).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated permuted-block sequence stratified by sex and site, allocation concealed with sequentially numbered opaque envelopes until after baseline assessment, and no baseline imbalance on sociodemographic, medical, or outcome variables.",
+        "evidence_quote": "\"Randomization was implemented using computer-generated permuted block randomization (with random block sizes varying from 2 to 12) stratified by sex and site... Sequentially numbered opaque envelopes were used to conceal allocation until after the baseline assessment.\" / \"Participants in the 2 treatment conditions did not differ at baseline in terms of sociodemographic, medical, or study outcome variables.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and delivery staff were necessarily aware of assignment and the comparator was assessment-only with no attention control, so differential expectancy/attention (plus intervention-group-only motivational interviewing and retention phone calls) could have affected outcomes; however, an intent-to-treat analysis including all 113 randomized participants was used.",
+        "evidence_quote": "\"One limitation of the study is that it lacked an attention control group... a worthy goal for future work will be to use an active comparison group to evaluate effects of theorized therapeutically active components of PainCOACH and to rule out attention and expectancy factors.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was very low and balanced (96% completed postintervention; 3 control vs 1 intervention dropouts), mixed models used all available data, and completers did not differ from noncompleters on any measured variable.",
+        "evidence_quote": "\"The attrition rate from baseline to postintervention was 3.5%... Participants who completed study activities did not differ significantly from noncompleters... on any sociodemographic, medical, or outcome variable.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated instruments (AIMS2 pain, ASES, PASS, PANAS) were administered identically in both arms by staff blinded at postintervention, but all outcomes are self-reported by unblinded participants who knew whether they had received an active pain-coping program, which can bias subjective pain and self-efficacy reports.",
+        "evidence_quote": "\"Several steps were taken to ensure that the staff conducting this visit were blind to the participants' randomized study assignment... participants were reminded not to mention their group assignment during the visit.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary outcome (pain) and all hypothesized secondary outcomes are reported, but the analysis involved data-driven covariate selection (P \u2264 0.25), post hoc subgroup models restricted to women after a sex\u00d7treatment interaction, and reliance on effect sizes in an underpowered pilot, allowing analytic flexibility in the headline findings.",
+        "evidence_quote": "\"This finding led us to test a linear mixed model that included women only, retaining age and work status as covariates (a similar model for men was not tested because of the small number of men in the study).\" / \"any covariates identified as having an effect on the outcome being evaluated (P # 0.25) were added to the models\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were robust and attrition was minimal, but the trial carries some concerns because the assessment-only comparator left participants unblinded for entirely self-reported outcomes (no attention control), and because flexible, data-driven analysis choices\u2014including the post hoc women-only model that generated the main pain finding\u2014raise the possibility of selective result reporting in this small pilot."
+  },
+  {
+    "paper_id": "manual:fa6a65bb",
+    "paper_title": "06e303e4_j.pain.0000000000000251",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is explicitly titled a \"randomised controlled trial\" and states that \"Participants (n = 490) were randomised to 1 of 4 groups: (1) Regular Contact, (2) Optional Contact, (3) No Contact, and (4) a treatment-as-usual Waitlist Control Group.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation to four arms is explicitly stated, but the available text gives no information on the sequence generation method, allocation concealment, or baseline comparability, and the notably smaller control arm is unexplained.",
+        "evidence_quote": "Participants (n = 490) were randomised to 1 of 4 groups: (1) Regular Contact (n = 143), (2) Optional Contact (n = 141), (3) No Contact (n = 131), and (4) a treatment-as-usual Waitlist Control Group (n = 75)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and clinicians were necessarily aware of allocation in this open-label internet-delivered program, non-zero clinician time in the \"No Contact\" arm suggests some intervention-delivery contamination, and the available text does not state whether an intention-to-treat analysis was used.",
+        "evidence_quote": "The mean clinician time per participant was 67.69 minutes (SD = 33.50), 12.85 minutes (SD = 24.61), and 5.44 minutes (SD = 12.38) for those receiving regular contact, the option of contact, and no clinical contact, respectively."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Treatment completion is reported as high, but the available text provides no outcome-questionnaire completion rates, no attrition figures by arm at post-treatment and 3-month follow-up, and no sensitivity analysis addressing missingness \u2014 a particular concern for internet-delivered trials where dropout is typically substantial and may differ by level of clinician support.",
+        "evidence_quote": "High treatment completion rates and levels of satisfaction were reported"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes are standard validated self-report measures applied identically across arms, but they are self-assessed by unblinded participants who knew whether they received an active program or were waitlisted, which can inflate reported improvement.",
+        "evidence_quote": "significant improvements ... in disability (ds \u2265 0.50; avg. reduction \u2265 18%), anxiety (ds \u2265 0.44; avg. reduction \u2265 32%), depression (ds \u2265 0.73; avg. reduction \u2265 36%), and average pain (ds \u2265 0.30; avg. reduction \u2265 12%)"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration, protocol, or pre-specified primary outcome is identifiable in the available text, and results are summarised across four co-equal outcome domains at two time points with range-based effect sizes, leaving scope for selective reporting of analyses.",
+        "evidence_quote": "The 3 Treatment Groups reported significant improvements ... and no marked or consistent differences were observed between the Treatment Groups."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This is a genuine four-arm randomised controlled trial with a large sample (n = 490) and clinically plausible effects, but every domain raises some concerns: the available text does not describe sequence generation, allocation concealment, baseline comparability, attrition handling, or an analysis plan/pre-registration, and all outcomes are self-reported by necessarily unblinded participants (with a waitlist comparator). No domain reaches 'high' risk, so the overall judgment is 'some concerns', driven chiefly by unreported randomisation and missing-data detail combined with unblinded self-reported outcomes."
+  },
+  {
+    "paper_id": "manual:e1c98f6c",
+    "paper_title": "9204e93e_j.pain.0000000000000802",
+    "design_classification": "randomized",
+    "design_rationale": "Participants meeting eligibility were explicitly randomly allocated 1:1 to the Pain Course or a waiting-list control using an online randomization program (\"An online program (http://www.randomizer.org/) was used to assign participants to each condition using a 1:1 ratio and a simple randomization sequence\"), and the trial was prospectively registered (ISRCTN85116527).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-based random sequence was used with 1:1 allocation, allocation was concealed (sequence generated/revealed by an independent graduate student only after full screening was complete), and baseline demographic/clinical and outcome scores did not differ significantly between groups.",
+        "evidence_quote": "\"To prevent selection bias, randomization was conducted by a graduate student not involved in the study, who revealed the randomization results via email to the study staff only after the completion of the full screening.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the guide necessarily knew the assigned condition (active internet course vs waiting list), which with self-report outcomes can generate expectancy/attention effects (acknowledged by the authors, who recommend an active control), though analysis followed intention-to-treat principles with imputation of missing data.",
+        "evidence_quote": "\"Finally, in the future, it would be helpful to compare the Pain Course to a more active control group (eg, weekly e-mail contact) to explore the extent to which outcomes of the Pain Course could be attributed to attention or support.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a priori hypotheses and primary/secondary measures were pre-specified and all reported (including null findings), but the protocol/analysis plan is not available for verification, many outcome measures and multiple derived statistics (percentage change, NNT, 30%/50% response bands) were analysed without correction for multiplicity.",
+        "evidence_quote": "\"This study was registered with the Current Controlled Trials Register (ISRCTN85116527) prior to commencement\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were well-validated instruments administered identically online in both arms, but all were self-reported by unblinded participants aware of whether they had received treatment or were waiting, which can bias subjective symptom ratings; the FM diagnosis itself was also self-reported.",
+        "evidence_quote": "\"the current study relied on self-report of FM diagnosis due to privacy constraints in accessing medical information\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Post-treatment data were missing for ~17% of treatment participants (25/30 provided post-treatment data) with unreported attrition detail for the control arm, and only 57% provided follow-up data; missing values were model-imputed under ITT but no sensitivity analysis of missingness assumptions is reported.",
+        "evidence_quote": "\"A majority of treatment group participants (n 5 26; 87%) completed the course by the end of treatment and provided data immediately at post-treatment (n 5 25; 83%) and at follow-up (n = 17; 57%)\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were well executed with balanced baseline characteristics, but the unblinded waiting-list design with entirely self-reported outcomes, moderate post-treatment and substantial follow-up attrition (imputed without sensitivity analysis), and multiple uncorrected outcome analyses each raise some concerns. No single domain reached high risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:db833a10",
+    "paper_title": "76469b82_j.pain.2010.08.034",
+    "design_classification": "randomized",
+    "design_rationale": "Participants with FM were explicitly randomly allocated 1:1 to standard care or standard care plus the WEB-SM program using a computerized randomization program with allocation concealment.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computerized allocation sequence with concealment until after baseline assessment was used, and baseline demographic/clinical/outcome variables did not differ between arms.",
+        "evidence_quote": "\"A computerized randomization program assisted in the development of the allocation sequence for study. Allocation concealment was utilized to prevent selection bias and group assignment was given to both the participant and selected study staff only after completion of the baseline assessments.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their assignment (website access vs. standard care with no attention/sham control), so expectancy and non-specific effects could influence behaviour and reporting, although an intention-to-treat analysis of all 118 randomized participants was used and no co-intervention problems were reported.",
+        "evidence_quote": "\"the current design is limited if one wishes to attribute the outcomes exclusively to the specific content of the modules and not to other potential non-specific factors such as derivatives of increased internet use, or non-specific derivatives of having viewed the modules (e.g., increased self-focus, changes in daily routine etc.)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was modest (10.2%; 8 standard care vs 4 WEB-SM) and all randomized participants were analysed using a conservative baseline-observation-carried-forward imputation, which would bias against the intervention rather than favour it.",
+        "evidence_quote": "\"The attrition rate for the study was 10.2%. An intent-to-treat approach was used in this study; therefore all 118 individuals who were randomized at baseline were included in the subsequent analyses.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary and secondary endpoints were participant self-reports (BPI, SF-36 PF, PGIC) in unblinded participants with no sham/attention control, so knowledge of receiving an active web program plausibly inflated reported improvement (reinforced by the large between-arm differences in satisfaction and perceived benefit), despite the use of validated instruments and blinded clinic staff.",
+        "evidence_quote": "\"All patient-reported outcome measures were obtained by asking the participant to complete the questionnaires online in a supervised clinical setting... Study personnel assigned to assist participants in the clinic setting were blinded to participants\u2019 treatment assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis protocol is cited, one secondary outcome (PGIC) was added mid-trial and is reported for only about half the sample, and multiple responder thresholds/analyses were applied, although the two primary endpoints and the power calculation appear pre-specified.",
+        "evidence_quote": "\"This measure was not originally a part of the study but was added to the protocol mid-way through the trial... thus these data are available for roughly half of the subjects in each arm of the study.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Randomization, concealment and ITT handling of the modest attrition were well executed, but all outcomes were self-reported by unblinded participants compared against a no-treatment standard-care control, making outcome measurement highly susceptible to expectancy/response bias; added concerns about mid-trial addition of PGIC and absence of a registered protocol give an overall high risk of bias."
+  },
+  {
+    "paper_id": "manual:ef8e3975",
+    "paper_title": "a662db03_j.pain.2011.10.025",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a randomized controlled trial in which eligible consented participants were stratified by gender/race/ethnicity and \"assigned at random to either the control or experimental groups\" (330 randomized, CONSORT flow diagram presented).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation stratified by demographics is stated and groups did not differ significantly on demographics or pain history, but the sequence-generation method and allocation concealment are not described, and the intervention group had consistently (if non-significantly, e.g., CES-D p=.08) higher baseline symptom scores across nearly all outcomes.",
+        "evidence_quote": "\"Subgroups of potential participants were selected on the basis of gender, race, and ethnicity and assigned at random to either the control or experimental groups... all minorities were included and randomly assigned to either the experimental or control group.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An appropriate ITT analysis was used, but participants and the unblinded wait-list control design (with self-report outcomes and no attention/placebo control) leave open expectancy-driven deviations, and the authors acknowledge no fidelity/usage data were obtained (\"we were unable to obtain the sorts of data that would allow us to address fidelity of program use\").",
+        "evidence_quote": "\"In the experimental group, 29 individuals completed the initial assessment battery but failed to participate in the online pain program. Consistent with an intent-to-treat analysis, we included these individuals in the experimental condition for all statistical analyses.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary outcomes were self-reported by unblinded participants who knew whether they had received the program versus being wait-listed, so subjective outcome reporting could plausibly be influenced by awareness of allocation (including the pain-knowledge test derived directly from program content).",
+        "evidence_quote": "\"All recruitment, data collection, and participant involvement took place online.\" / \"although we have some reason to be optimistic that the CPMP provides more than mere expectancy enhancement, we must acknowledge the finding [20] that studies of computer-based intervention with lower levels of methodological quality tend to have a higher likelihood of reporting significant treatment effects\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 21\u201326% of randomized participants lacked follow-up data with differential attrition favoring loss in the experimental arm; full-information maximum likelihood under MAR mitigates but cannot rule out bias (e.g., non-responders may have been those not benefiting), and no sensitivity analysis under MNAR was reported.",
+        "evidence_quote": "\"Chi-square tests indicated that the probability of missing data differed across the 2 conditions, with the experimental group having the higher missing data rate.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified primary outcome/analysis plan is cited, more than 20 outcome scales were analyzed without multiplicity correction, the time metric was transformed post hoc after initial analyses, and the narrative highlights significant interactions\u2014raising concerns about selective reporting/analysis.",
+        "evidence_quote": "\"Because it was of interest to obtain a fine-grained evaluation of the intervention, we analyzed each scale separately... To streamline the subsequent presentation, we present the results for groups of scales, highlighting the estimates from the analyses that produced a significant group-by-time interaction effect.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by D4: all outcomes were participant self-reported in an unblinded wait-list-controlled design where the intervention group knew they had received the program, making expectancy-influenced reporting plausible. Additional concerns arise from undescribed allocation concealment with systematically higher baseline scores in the treatment arm, differential attrition (~21\u201326% missing, greater in the experimental group), absent fidelity/usage data, and many outcomes analyzed without pre-registration or multiplicity control."
+  },
+  {
+    "paper_id": "manual:8d9fb891",
+    "paper_title": "78bfdf91_j.pain.2013.03.005",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports that \"Sixty-three applicants met all inclusion criteria, agreed to participate, and were randomised via a permuted randomisation process to either the Treatment Group (n = 32) or the waitlist Control Group (n = 31)\", and the trial was prospectively registered as a CONSORT-compliant RCT (ACTRN12612000556842).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A permuted (block) randomisation sequence was used and allocation was generated before the eligibility-confirming telephone interview (so investigators conducting the interview could not foresee/manipulate assignment based on interview content), and extensive baseline comparisons showed no differences except one secondary subscale (PRSS-Coping), consistent with chance in a small trial.",
+        "evidence_quote": "\"were randomised via a permuted randomisation process to either the Treatment Group (n = 32) or the waitlist Control Group (n = 31). Group allocation preceded the telephone interview.\" ... \"One-way ANOVAs and \u03c72 tests failed to reveal any differences between the Treatment and Control Groups in age or any other demographic characteristics\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the treating clinician were necessarily unblinded against a waitlist control, raising expectancy/demand effects on self-reported outcomes; co-interventions were uncontrolled (participants \"started, changed, and stopped various treatments during the program\") and therapist adherence to the protocol was not formally assessed, although analyses retained nearly all randomised participants with last-observation-carried-forward imputation.",
+        "evidence_quote": "\"As the study involved a psychological intervention with a waitlist Control Group, blinding was not possible.\" ... \"many Treatment Group and Control Group participants started, changed, and stopped various treatments during the program (eg, medications, physiotherapy)\" ... \"adherence to these instructions was not formally assessed\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Posttreatment data were available for 30/31 in both arms (96%), with documented, outcome-unrelated reasons for the two missing cases (one uncontactable, one hospitalised for an unrelated condition), and missing values were conservatively imputed by last observation carried forward.",
+        "evidence_quote": "\"Thirty of 31 (96%) participants provided posttreatment data in both the Treatment and Control Groups.\" ... \"Missing data were conservatively imputed for all analyses by carrying forward the last available observation for that participant.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were well-validated, psychometrically sound self-report questionnaires administered identically online in both arms, but all primary outcomes were subjective self-reports by unblinded participants who knew whether they had received treatment or were waitlisted, and the treating clinician also delivered outcome feedback, so knowledge of allocation could plausibly influence reporting.",
+        "evidence_quote": "\"As the study involved a psychological intervention with a waitlist Control Group, blinding was not possible. The following outcome measures were administered online via the Website.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and primary vs. secondary outcomes were pre-specified with all measures (including a null result on PRSS-Coping) reported, but no protocol/analysis plan is available for inspection, multiple outcomes and multiple operationalisations (ANCOVA, effect sizes, \u226530% and \u226550% improvement thresholds, NNT) were reported without correction for multiplicity, and the decision to add PRSS-Coping as a covariate was made post hoc after observing a baseline imbalance.",
+        "evidence_quote": "\"Consequently, pretreatment scores on the Coping subscale were used as a covariate in analyses of the outcome measures between the 2 groups.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered RCT had a sound permuted randomisation procedure, balanced baselines and near-complete outcome data (96% at posttreatment), but the unavoidable absence of blinding combined with exclusively self-reported subjective outcomes against an inactive waitlist control, uncontrolled co-interventions, unassessed therapist protocol adherence, and a post hoc covariate/multiple outcome-operationalisation approach raise concerns in domains 2, 4 and 5. No domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:763caf7b",
+    "paper_title": "4bf3b721_mental_v7i4e16398",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: participants were \"randomly allocated to one of two groups (intervention group [IG] or WLC)\" using \"an automated, Web-based randomization program\" with permuted block randomization (block sizes 4, 6, 8; 1:1 ratio), conducted by an independent team member; registered as a two-armed pilot RCT (DRKS00010820).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation used a centralized, automated web-based permuted-block randomizer with variable block sizes applied by an independent team member after baseline assessment, giving adequate sequence generation and concealment, and reported baseline characteristics showed no clinically relevant differences (minor sex/marital-status imbalances are plausible chance findings in a 76-participant pilot and were adjusted for).",
+        "evidence_quote": "\"An automated, Web-based randomization program [30] was used, which features permuted block randomization. Variable randomly arranged block sizes of 4, 6, 8 and an allocation ratio of 1:1 were adopted. An independent research team member not otherwise involved in the study conducted the randomization.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants (and eCoaches) were necessarily aware of assignment to an active online program versus a waitlist, and the authors themselves invoke expectancy/nocebo effects in the waitlist arm; although an intention-to-treat analysis with multiple imputation was used (mitigating analysis-related bias), low intervention uptake (only 60% completed \u22655 of 7 modules; one participant never started) and unrestricted co-interventions (TAU, antidepressants, psychotherapy visits) introduce residual concern.",
+        "evidence_quote": "\"Participants were not blinded to treatment condition.\" ... \"Participants in the WLC knew that they were scheduled to get access to Get.Back after a waiting period. Therefore, there is a possibility of an expectancy effect.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were missing for 21% at posttreatment and 36% at 6-month follow-up, with somewhat differential attrition favouring the control arm (IG 58% vs WLC 72% complete at follow-up); although dropout did not differ statistically, multiple imputation was used and LOCF sensitivity analyses were concordant, missingness in self-reported depression could plausibly depend on the outcome itself in a non-blinded waitlist design, and some economic/sick-leave variables were available for only ~50-58% of participants.",
+        "evidence_quote": "\"Complete data at the 6-month follow-up were collected from 58% (23/40) of participants in the IG and 72% (26/36) of participants in the WLC, with an overall completion rate of 64% (49/76).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (CES-D) is a validated, appropriately administered web-based measure applied identically in both arms, but it is entirely self-reported by unblinded participants who knew whether they received the active intervention or were waiting, which can bias subjective symptom ratings; no blinded clinician assessment was performed at posttreatment or follow-up.",
+        "evidence_quote": "\"Fourth, no clinical interviews took place at posttreatment or the 6-month follow-up. Therefore, changes in the diagnosis of MDD could not be analyzed.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (DRKS00010820) with a clearly designated primary outcome (CES-D at posttreatment) and reports a full table of secondary outcomes, but there are notable analytic concerns: the a priori sample size and planned return-to-work/cost-effectiveness analyses were abandoned, many overlapping outcome operationalizations were analysed without multiplicity adjustment, one-sided alpha testing was applied (yielding borderline \"significant\" primary results, P=.03, with CIs spanning zero), and multiple imputation versus LOCF analyses give materially different conclusions for several outcomes, creating scope for favourable analytic selection.",
+        "evidence_quote": "\"Statistical significance in all analyses was set at alpha<.05 and was one-sided according to Cho and Abe [70].\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization was robustly implemented (centralized automated block randomization by an independent team member) and analyses were intention-to-treat with multiple imputation, but the trial carries \"some concerns\" in four domains: unblinded participants in a waitlist-controlled design with acknowledged expectancy effects, substantial and somewhat differential attrition (21% at posttreatment, 36% at follow-up), reliance exclusively on self-reported outcomes assessed by unblinded participants, and flexible analysis (one-sided testing, numerous unadjusted secondary outcomes, abandoned primary aims). No single domain reaches high risk, so the overall judgment is some concerns, with the borderline primary effect (P=.03, d=0.28, 95% CI \u22120.17 to 0.74) in this underpowered pilot warranting cautious interpretation."
+  },
+  {
+    "paper_id": "manual:c4eef583",
+    "paper_title": "21356ad6_pm%2Fpnz208",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation to Reboot Online vs usual care using a random number sequence generated at www.random.org by an independent person; described as a CONSORT-compliant two-arm RCT, prospectively registered.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation was genuinely random and generated by an independent person (suggesting concealment), but there were statistically significant baseline imbalances on three outcomes (PSEQ, PDI, TSK, plus simple analgesia use), which in a small trial (N=80) raises some concern even if plausibly due to chance.",
+        "evidence_quote": "\"Eligible participants were randomized based on a random number sequence generated at www.random.org by a person independent of the study.\" ... \"Participants in the intervention group, however, reported lower pain-related self-efficacy ... and a higher degree of pain-related disability ... and kinesiophobia ... at baseline.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and staff were necessarily unblinded in an open-label online psychological/physical intervention with self-reported outcomes, and usual care was unstandardized with co-interventions permitted; however, an appropriate intention-to-treat mixed-model analysis was used, and the UC comparison is conservative.",
+        "evidence_quote": "\"once randomization occurred, participants and study staff could not remain blinded to group allocation.\" ... \"Participants in the UC group continued with treatments already commenced at their intake assessment and were permitted to engage in any new interventions for chronic pain management during the study period.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 21\u201324% of self-report outcome data were missing in both arms, which exceeds a negligible level; attrition was balanced and ITT mixed models with likelihood-based estimation were used and no baseline predictors of dropout were found, but no sensitivity analyses for missing-not-at-random were reported.",
+        "evidence_quote": "\"76% completed post-treatment and three-month follow-up online assessments (31/41). A comparable proportion of the UC group completed post-treatment questionnaires ... (i.e., one week after the cessation of the active intervention phase, 79%).\" ... \"None of the baseline pain-related, depression, or psychological distress symptom measures significantly predicted completing the active intervention phase\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes are validated self-report instruments administered identically to both arms, but outcome assessors are the unblinded participants themselves in an unblinded trial with a non-active usual-care comparator, so expectancy/response bias in subjective pain and self-efficacy measures cannot be excluded (only the diagnostic interviews were blinded).",
+        "evidence_quote": "\"Interviewers conducting the three-month follow-up assessments were blinded to participant group allocation until completion of the interview.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered with a pre-specified protocol, primary (PSEQ, BPI) and secondary outcomes are clearly designated, and all outcomes\u2014including null findings for pain interference, catastrophizing, acceptance, and depression\u2014are reported with effect sizes and confidence intervals.",
+        "evidence_quote": "\"The trial was prospectively registered on the Australian New Zealand Clinical Trials Registry (ACTRN12616000249459), and the protocol was followed as per the registry.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospectively registered, properly randomized trial with ITT mixed-model analysis and transparent reporting of null results raises some concerns rather than low risk, driven by significant baseline imbalance on three outcome measures in a small sample, unavoidable lack of blinding of participants against an unstandardized usual-care control with self-reported subjective outcomes, and ~20\u201325% missing outcome data without sensitivity analyses. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  }
+]

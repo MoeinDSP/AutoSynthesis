@@ -1,0 +1,324 @@
+[
+  {
+    "paper_id": "manual:3961bc50",
+    "paper_title": "16c28580_3002758",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a pragmatic, two-arm, open randomised controlled trial in which \"Three hundred and twenty children were randomised, 160 to each group, using independent web-based computer-generated randomisation (with minimisation based on age, sex and baseline severity of OME)\" \u2014 explicit random allocation via a central, independent system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation used an independent, remote, web-based computer-generated sequence with minimisation on age, sex and baseline OME severity, so the sequence was concealed from recruiting nurses, and baseline characteristics of randomised children are tabulated and reported as comparable.",
+        "evidence_quote": "\"Three hundred and twenty children were randomised, 160 to each group, using independent web-based computer-generated randomisation (with minimisation based on age, sex and baseline severity of OME)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly open with no placebo, so nurses, children and parents knew the allocation, and control children with persisting effusions could be offered autoinflation after assessment (a potential co-intervention), although the primary analysis was by intention to treat and the comparison was pragmatically against usual care.",
+        "evidence_quote": "\"Owing to the nature of the intervention use of placebo was not possible, and therefore nurses, children and families were unable to be masked to treatment allocation.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcome data were available for 263/320 (82%) at 1 month and 245/320 (77%) at 3 months, i.e. roughly a fifth to a quarter missing with loss balanced across arms; multiple-imputation sensitivity analyses were performed, but these \"showed no significant differences between groups\", indicating the modest effect is somewhat sensitive to missingness.",
+        "evidence_quote": "\"Sensitivity analyses using multiple imputations and a PP population analysis showed no significant differences between groups.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary tympanometric outcome was objective and assessed by a blinded expert panel after anonymisation by the CTU (low risk), but the tympanograms were obtained by unblinded practice nurses whose readings differed from expert interpretation, and key secondary outcomes (OMQ-14 quality of life, symptom diaries, compliance) were parent-reported in an unblinded trial, where knowledge of allocation can influence reporting.",
+        "evidence_quote": "\"Tympanometry outcomes at 1 and 3 months were anonymised by the Primary Care and Vaccines Collaborative Clinical Trials Unit and assessed blind by an expert panel.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ISRCTN55208702) with a pre-specified analysis plan, pre-specified subgroups and a funder-reviewed protocol, which is reassuring; however, the report explicitly documents \"Changes to the protocol\" and \"Changes to the statistical analysis plan\", and the headline conclusion rests on the 3-month timepoint (\"At the selected 3 months end point\") after the 1-month primary endpoint was non-significant (p = 0.0582), raising some concern about outcome/timepoint selection.",
+        "evidence_quote": "\"At 1 month, those in the autoinflation group were 36% more likely to have resolution of at least one B-type ear [relative risk (RR) 1.36, 95% confidence interval (CI) 0.99 to 1.88; p=0.0582].\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This well-conducted, registered, centrally randomised pragmatic trial has a low risk of bias in its randomisation process and used blinded expert assessment of the objective tympanometric primary outcome, but the open (unblinded) design, 18\u201323% missing primary outcome data whose imputation attenuated the effect to non-significance, reliance on parent-reported secondary outcomes, and documented protocol/analysis-plan changes with emphasis on the 3-month rather than the non-significant 1-month endpoint each raise some concerns. No single domain reaches high risk, so the overall judgement is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:adf84001",
+    "paper_title": "baf3fc98_019459988910000412",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports stratified random allocation of enrolled children to autoinflation versus observation: \"Within each stratification, subjects were randomly assigned to either the autoinflation or the control group by the use of a set of random numbers.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine random sequence (random number set) with stratification on a prognostic factor is described and baseline characteristics in Table 1 appear balanced, but there is no information whatsoever on allocation concealment (e.g., sealed opaque envelopes, central allocation), and the investigator performing enrollment/diagnosis was also an author, leaving residual concern about foreknowledge of upcoming assignments.",
+        "evidence_quote": "\"All subjects were stratified according to their ability of tubal opening during autoinflation... Within each stratification, subjects were randomly assigned to either the autoinflation or the control group by the use of a set of random numbers.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, parents and care providers were necessarily aware of assignment (no sham/placebo inflation device was used, control was simple observation), and compliance in the treatment arm was monitored only by parent-completed score cards whose actual results are never reported; investigators did take sensible steps to prevent control-arm contamination and analysis appears to retain all randomized subjects in their assigned groups (19 vs 21 of 22), so concerns are moderate rather than high.",
+        "evidence_quote": "\"To keep the subjects in the control group and their parents from attempting autoinflation at home during the study, they were assured at the onset of the study that all subjects would have the opportunity to use the autoinflation system at the completion of the study... None of the subjects in the control group reported attempting autoinflation during the study period.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary two-week outcome data were available for 40 of 41 randomized children (97.6%), with the single loss (a control-group withdrawal) far too small and non-differential to plausibly alter the near-identical resolution rates in the two arms.",
+        "evidence_quote": "\"Of the 41 subjects who were entered, 38 (92.7 percent) were available for evaluation at the one-week endpoint; one subject in the control group withdrew from the study after entry and one subject from each of the two study groups failed to return for the one-week visit, but both of these children were evaluated at the two-week endpoint.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Presence/absence of effusion assessed by validated otoscopy plus tympanometry is an appropriate and uniformly applied outcome measure, but the assessor was an unblinded investigator-author and no blinding of outcome assessment is described, so knowledge of allocation could in principle have influenced this partly subjective judgment (though any such bias would likely favour the intervention, whereas the result was null).",
+        "evidence_quote": "\"The diagnosis of OME was based on the findings of one of the authors (K.H.C.), who is a 'validated otoscopist' (sensitivity = 82%; specificity = 89%)... All subjects received an otologic examination and tympanogram at each of the two weekly follow-up visits.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and analysis are clearly pre-specified in the Methods and reported for both the one- and two-week time points, but there is no accessible protocol or pre-registration (1989 trial), no stated sample-size/power calculation for this very small sample, and additional unplanned-looking analyses (e.g., the logistic regression of tubal opening on age reported only in the Discussion) suggest some analytical flexibility.",
+        "evidence_quote": "\"The proportions of children who were effusion-free at 2 weeks were compared in the two study groups by use of the Fisher's exact test. All reported significance levels are two-sided.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This stratified randomized trial used a legitimate random-number allocation sequence and had near-complete follow-up (40/41 at the two-week endpoint), but no domain reaches low risk apart from missing data: allocation concealment is unreported, there was no sham-inflation control so participants and the outcome-assessing investigator-author were unblinded, and there is no protocol/pre-registration or power calculation for this small (n=41) sample. Overall risk is therefore \"some concerns\"; notably, the unblinding and small size would most plausibly bias toward benefit, which strengthens rather than undermines the reported null finding, although the trial is clearly underpowered (90% CI -11.4% to 13.8%) to exclude a modest effect."
+  },
+  {
+    "paper_id": "manual:6bc8e5ab",
+    "paper_title": "c97c888c_archotol.1992.01880020041013",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that 100 children were consecutively randomized to either autoinflation or a no-treatment control group (\"The patients were randomized to either a group performing autoinflation for 2 weeks or to a group being observed without treatment for 2 weeks\"), so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no detail is given on sequence generation or allocation concealment; baseline comparability was reported for history variables but the groups differed notably in entry tympanogram distribution (C2 57.5% vs 43.1%; B 42.5% vs 56.9%), so some concerns remain.",
+        "evidence_quote": "One hundred children were consecutively randomized to undergo either autoinflation, using a new device, or placed in a control group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "No blinding was possible (device vs. no treatment), substantial non-adherence occurred (3 children never inflated, 10 only once), and the primary between-group comparison was restricted to per-protocol adherent children rather than an intention-to-treat analysis, which can bias the effect estimate.",
+        "evidence_quote": "Comparison of the two groups included only those children who had performed autoinflation as prescribed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Ear numbers fall substantially over follow-up (e.g., 73 to 49 control ears, 51 to 42 autoinflation ears by day 90) and the analysed autoinflation samples are much smaller than randomized (e.g., 22 vs 42 ears in Table 2), with no accounting for reasons for missingness or sensitivity analyses.",
+        "evidence_quote": "Of the 50 children randomized to the autoinflation group, 20 girls and 26 boys (median age, 5.3 years) attended, as a minimum, the first three trials"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Tympanometry is an appropriate, largely objective measure applied identically to both groups, but outcome assessors were almost certainly aware of allocation (no blinding reported) and tympanogram-type classification involves some judgment; secondary outcomes (acute otitis media, antibiotics) were self-reported by unblinded participants.",
+        "evidence_quote": "Otomicroscopy and tympanometry were performed after 2 weeks (at visit 3), after 1 month (visit 4), after 2 months (visit 5), and after 3 months (visit 6)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or pre-registration is reported, no primary outcome is pre-specified, and results are presented in multiple post hoc subsets (by baseline tympanogram type, by adherence level, per-protocol subgroups) with ears rather than children as the unit of analysis, indicating substantial scope for selective reporting of favourable analyses.",
+        "evidence_quote": "Comparison of the two groups included only those children who had performed autoinflation as prescribed."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: although randomization is claimed, the main between-group comparison excluded non-adherent children (per-protocol rather than intention-to-treat), there was substantial and unexplained attrition with analysed numbers far below those randomized, and there is no protocol/pre-specified primary outcome amid many post hoc subset analyses using ears as the unit. Unclear sequence generation/allocation concealment and unblinded outcome assessment add further concerns."
+  },
+  {
+    "paper_id": "manual:2a4b4c63",
+    "paper_title": "14675c7a_cmaj.141608",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation via an independent external agency providing a centralized web-based computer-generated randomization system with minimization on age, sex and baseline severity: \"An independent external agency provided a centralized Web-based computer-generated randomization system (www.sealedenvelope.com) for nurses to access while recruiting children.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central web-based computer-generated allocation by an independent agency ensures concealment until assignment, and Table 2 shows baseline characteristics (age, sex, severity, season, comorbidities, baseline OMQ-14) well balanced across the 160 vs 160 arms, consistent with chance.",
+        "evidence_quote": "\"An independent external agency provided a centralized Web-based computer-generated randomization system (www.sealedenvelope.com) for nurses to access while recruiting children. ... The randomization involved an algorithm with minimization based on 3 variables: age, sex and baseline severity (bilateral v. unilateral type-B tympanograms).\" ... \"Baseline characteristics of children who were randomly assigned were balanced between the 2 groups (Table 2).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "This is an open trial with no placebo, so participants, parents and nurses knew the allocation \u2014 a concern for the subjective symptom/quality-of-life outcomes (Hawthorne/performance bias acknowledged by the authors), although the pragmatic design, high compliance (89%/80%) and a modified intention-to-treat analysis ignoring compliance mitigate deviation-related bias for the primary tympanometric outcome.",
+        "evidence_quote": "\"Because of the nature of the intervention, use of placebo was not possible, and therefore nurses, children and families were not masked to treatment allocation.\" ... \"The main limitation of this study is that the intervention cannot be blinded, and Hawthorne effects are possible.\" ... \"We performed a modified intention-to-treat analysis, ignoring reported compliance but excluding children for whom no outcome measurement could be made.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition plus uninterpretable tympanograms removed roughly 18% (1 month) to 23% (3 months) of randomized children from the modified intention-to-treat analysis, and although losses were balanced across arms, the multiple-imputation sensitivity analysis lost statistical significance (RR 1.27, 0.95\u20131.71 and RR 1.22, 0.92\u20131.63), indicating the primary result is somewhat sensitive to missingness.",
+        "evidence_quote": "\"Retention was good, with 8.4% lost to follow-up at 1 month and 12.2% at 3 months. Uninterpretable tympanograms due to poor technique (leakage or low canal volume), and clinical problems (wax or perforation) were similar between groups, leaving 131 children in the autoinflation arm and 132 in the usual care arm\" ... \"Sensitivity analyses using multiple imputation for missing data yielded similar but slightly smaller RRs that did not achieve statistical significance.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome (tympanometric resolution) is an objective, well-validated measure applied identically in both arms and adjudicated from anonymized printouts by masked experts with a third-party tiebreaker, so assessor knowledge could not influence it; the secondary parent-reported OMQ-14/diary outcomes are unblinded and more susceptible, but the primary outcome drives this judgment.",
+        "evidence_quote": "\"Two members of the trial team, trained in tympanometry and masked to allocation, independently reviewed anonymized tympanometry printouts. The expert interrater agreement was 89%, and disagreement was settled by a third independent audiologist.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (ISRCTN 55208702), the protocol is published as an appendix, a prespecified analysis plan and prespecified subgroups are reported, sample size was pre-calculated, and non-significant results (1-month primary outcome, imputation sensitivity analyses, null subgroup interactions) are transparently reported.",
+        "evidence_quote": "\"Analyses were conducted using SAS version 9.3 and Stata version 13.0 according to a prespecified analysis plan.\" ... \"Trial registration: ISRCTN, No. 55208702.\" ... \"We conducted prespecified subgroup analyses of effects of age (< 6.5 yr v. \u2265 6.5 yr), severity ... and sex on the primary outcome.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall \"some concerns\": randomization (central web-based allocation with minimization, balanced baselines), masked adjudication of the objective tympanometric outcome, and prospective registration with a prespecified analysis plan are all strong, but the trial was necessarily open-label (participants, parents and nurses aware of allocation, with acknowledged Hawthorne/performance risk especially for parent-reported OMQ-14 and diary outcomes), and 18\u201323% of randomized children were excluded from the modified intention-to-treat analysis, with multiple-imputation sensitivity analyses attenuating the effect to non-significance."
+  },
+  {
+    "paper_id": "manual:5b1a5a91",
+    "paper_title": "ffa45583_Ercan-et-al-2005",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that children diagnosed with COME were allocated to autoinflation vs. control by random division (\"Ninety three ears of 60 children diagnosed as COME were randomly divided into 2 groups\"; \"The patients were randomly divided into two groups\"), so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation or allocation-concealment method is described, groups are suspiciously exactly 30/30, and the autoinflation group is defined as those \"who could inflate the nasal balloon,\" suggesting possible post-randomization selection; only age and sex comparability is reported (\"Distributions of age and sex of these groups were similar\") with no baseline effusion-severity data.",
+        "evidence_quote": "\"The patients were randomly divided into two groups... The autoinflation group consisted of 30 patients (48 ears, 12 unilateral and 18 bilateral) who could inflate the nasal balloon.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was unblinded (no placebo/sham device, parents and clinicians aware of allocation) and the primary outcome\u2014decision to insert a ventilation tube\u2014is clinician/parent-driven and therefore susceptible to performance bias; analyses appear per-ear with exclusions rather than clearly intention-to-treat, though interruptions were brief and treatment was completed.",
+        "evidence_quote": "\"Eleven children who had upper respiratory tract infection ceased the autoinflation for 5 days but autoinflation treatment was completed to 6 weeks.\"; \"2 ears of 1 patient who regretted the insertion of ventilation tube had still COME\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 10\u201312% of ears were lost to follow-up in each arm, with internally inconsistent reporting of the number lost (abstract says 6 and 5/6 ears; results say 4 and 3; denominators shift across Tables 3 and 4), and no sensitivity analysis or reasons for loss are given, although missingness is modest and similar between arms.",
+        "evidence_quote": "\"6 ears (12%) were lost in follow-up\" ... \"At the last control (in the 9th month) 4 ears were lost at follow-up\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes (effusion clearance and the subjective decision to insert a ventilation tube) were assessed by unblinded investigators using partly subjective otoscopic criteria, with no mention of blinded outcome assessment, creating substantial potential for detection bias in favour of the device arm.",
+        "evidence_quote": "\"Diagnosis of COME was established by the typical appearance ... of the tympanic membrane at the pneumatic otoscopic examination and type B tympanogram\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or prospective registration is cited, multiple time points and two related outcomes are reported with ears (not children) as the unit of analysis ignoring within-child clustering, and there are numerical inconsistencies (e.g., 22/42 reported as \"75%\") suggesting flexible/unverifiable reporting.",
+        "evidence_quote": "\"Examinations were recorded at 6th week, 3rd, 6th, and 9th month. ... Chi-square test was used for the statistical analysis.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by unblinded assessment of partly subjective outcomes (otoscopic effusion status and the clinician/parent decision to insert ventilation tubes). Additional concerns include an undescribed randomization/allocation-concealment procedure with possible post-randomization selection of balloon-capable children, incompletely and inconsistently reported loss to follow-up, and analysis by ear without clustering adjustment in the absence of a pre-specified protocol."
+  },
+  {
+    "paper_id": "manual:0c910612",
+    "paper_title": "42f95dc6_j.1365-2273.1992.tb00997.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states children were \"allocated at random into two groups\" (autoinflation vs. no treatment), indicating random allocation to conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no detail is given on sequence generation or allocation concealment, and no baseline comparison between groups (beyond overall age range) is reported.",
+        "evidence_quote": "\"The children so selected were, with the informed consent of their parents, allocated at random into two groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No blinding was possible (balloon inflation vs. no treatment), compliance was assessed only by informal parental report, and no intention-to-treat or per-protocol analysis strategy is described.",
+        "evidence_quote": "\"The parents reported good compliance with this technique.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 78 randomized ears appear in the results table with no apparent loss to follow-up, but the paper provides no explicit statement about withdrawals or dropouts at the 3-week review.",
+        "evidence_quote": "\"Twenty-one children with a total of 41 glue ears were allocated to Group A and 19 children with 37 glue ears were allocated to Group B.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcome definitions (10 dB audiogram gain or appearance of a tympanometric peak) are objective-ish, but outcomes include subjective/operator-dependent components (otoscopy, behavioural audiometry in young children) and there is no indication that assessors were blinded to allocation.",
+        "evidence_quote": "\"The children were reviewed after 3 weeks and had repeat otoscopy, pure tone audiogram and tympanogram.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol or pre-registration exists, the composite \"improvement\" outcome combines two flexible operationalizations, and analysis is at the ear level (78 ears) rather than the randomized child level, ignoring clustering \u2014 a favourable analytic choice that could have been selected post hoc.",
+        "evidence_quote": "\"The ear was considered to have improved if: (1) There was an average improvement of 10 dB in the pure tone audiogram... (2) A peak appeared in a previously flat tympanogram.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: although allocation is described as random, there are no details on sequence generation, concealment, or baseline comparability, outcomes were assessed unblinded using partly subjective measures, and the result is reported without a protocol using an ear-level composite \"improvement\" outcome that ignores clustering within children."
+  },
+  {
+    "paper_id": "manual:638e245f",
+    "paper_title": "151fa938_j.ijporl.2014.05.015",
+    "design_classification": "randomized",
+    "design_rationale": "The 45 eligible children with bilateral OME were explicitly randomised to Groups A and B using computer-generated allocation sequences in blocks of six, with a four-week cross-over (\"The remaining 45 children with bilateral OME ... were randomised to Groups A and B. Computer-generated, independent allocation sequences were used for randomisation\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence generation was adequate (computer-generated, blocked), but allocation concealment is not described and assignment was performed by the investigator who also conducted the clinical examinations, and two prognostically relevant baseline variables (age and hearing thresholds) differed significantly between groups.",
+        "evidence_quote": "\"Computer-generated, independent allocation sequences were used for randomisation... The children were enrolled by a secretary and assigned to group A or B by one of the authors (ABM).\" / \"There was a difference between the groups regarding age (p = 0.004) and hearing thresholds for the best hearing ear (p = 0.016) at entry.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was necessarily unblinded (device vs. no-treatment waiting), parents and children knew their condition which could influence effort on behavioural audiometry, compliance was incomplete in several children, and the analysis was a non-standard within-child \"treatment minus control effect\" rather than a clearly described intention-to-treat analysis.",
+        "evidence_quote": "\"In one case, the compliance was not satisfactory to complete the four-week treatment... Some parents reported partial compliance failure described as 'lack of time' to perform the exercise.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Data for the primary 8-week outcomes appear largely complete, but attrition occurred over follow-up (45 \u2192 40 \u2192 35 children), missing values were imputed by LOCF without sensitivity analyses, and per-timepoint numbers are only partially reported.",
+        "evidence_quote": "\"Additional statistical analyses were performed applying the last observation carried forward (LOCF) method in order to replace the missing values at six and 12 months.\" / \"A total of 40 children from Groups A and B were followed up for an additional 10 months\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Tympanometry is objective and the audiologist was blinded, but audiometry depended on child cooperation in an unblinded trial, two different audiometric methods (pure-tone vs sound-field) were used across children, and blinding of the tympanometry operator and of the single unblinded otomicroscopy examiner (who also decided surgery and treatment restart) is not established.",
+        "evidence_quote": "\"Pure tone air conduction thresholds for each ear or sound field audiometry for both ears were performed by an experienced audiologist who was blinded to the group allocation of the child.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No pre-registered protocol or analysis plan is cited, the planned cross-over analysis was abandoned in favour of a bespoke adjusted analysis, the target sample (30 per group) was not met, and outcomes are reported in many alternative operationalizations (mean pressure, responders, normalisation, by ear and by child, with and without LOCF, plus post hoc confounder-adjusted logistic regression), creating substantial scope for selective reporting.",
+        "evidence_quote": "\"Conventional cross-over analysis was not performed due to expected carry-over effect after the treatment period... The main analysis was defined as treatment effect adjusted by the control effect... Additional statistical analyses were performed applying the last observation carried forward (LOCF) method.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was computer-randomised and the audiologist was blinded, the overall risk is high, driven by D5: the absence of a registered protocol, abandonment of the planned cross-over analysis in favour of a bespoke \"treatment minus control\" approach, post hoc confounder adjustment and LOCF imputation, and numerous alternative outcome operationalizations. Additional concerns arise from unconcealed allocation with significant baseline imbalance in age and hearing, inevitable lack of participant blinding with incomplete compliance, and attrition over the 12-month follow-up with no concurrent control."
+  }
+]

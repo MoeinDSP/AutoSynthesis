@@ -1,0 +1,38 @@
+{
+  "research_question": "In people of any age requiring a peripherally inserted central catheter (PICC), what is the effect of non-valved PICCs compared with PICCs with integrated valve technology (proximal or distal valves) on catheter occlusion during catheter dwell time?",
+  "treatment_label": "Non-valved (open-ended) PICC",
+  "control_label": "Valved PICC (integrated proximal or distal valve; multiple valved arms combined)",
+  "outcome_description": "Catheter occlusion during catheter dwell time: number of participants (or catheters) with partial or complete occlusion, including withdrawal occlusion, lumen blockage, occlusion requiring thrombolytic/declotting therapy, or occlusion leading to catheter removal. Analysed as a dichotomous outcome (events/total per arm). Catheter failure, venous thromboembolism, infection/CLABSI, breakage, dislodgement and other complications are NOT pooled.",
+  "positive_direction": "A positive effect size means FEWER catheter occlusions in the non-valved PICC group than in the valved PICC group (i.e. favours non-valved PICCs).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "valved versus non-valved peripherally inserted central catheter occlusion trial",
+    "PICC valve technology Groshong PASV catheter occlusion randomized controlled comparison",
+    "open-ended versus valved PICC complications effect quantitative study"
+  ],
+  "inclusion_criteria": [
+    "Participants of any age (neonatal, paediatric or adult) in any clinical setting who received a peripherally inserted central catheter",
+    "Compares non-valved (open-ended) PICCs with valved PICCs (proximal or distal integrated valve), in any design including randomised, quasi-experimental and observational comparative studies",
+    "Reports some quantitative data on catheter occlusion (events and denominators, rates, proportions, or an effect estimate such as an odds/risk ratio)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, opinion pieces, commentaries, case reports, protocols or purely theoretical papers)",
+    "No comparison between a non-valved PICC group and a valved PICC comparison group (e.g. single-arm studies, or comparisons of catheter material, tip design or taper alone)",
+    "No quantitative occlusion data from which an effect size can be computed (no events/totals, proportions, test statistics or odds/risk ratios)",
+    "Completely unrelated to PICCs or to catheter occlusion (e.g. only non-PICC devices, or only reporting failure, thrombosis, infection or breakage without occlusion data)"
+  ],
+  "moderators_to_extract": [
+    "Study design (RCT vs quasi-experimental vs observational)",
+    "Population age group (neonatal/paediatric vs adult)",
+    "Valve type in comparator (proximal vs distal vs mixed/combined arms)",
+    "Clinical setting and indication (oncology, parenteral nutrition, home infusion, ICU)",
+    "Mean/median catheter dwell time",
+    "Unit of analysis (participants vs catheters) and sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Dichotomous data: extract occlusion events and totals per arm; combine multiple valved arms into a single comparator group. Unit of analysis = participants where available, otherwise catheters (record which). Random-effects pooling with heterogeneity assessed via I-squared.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "catheter occlusion"
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:ac83f4c5",
+    "paper_title": "ecd66aea_appi.ps.201100528",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated after baseline assessment by the data analyst, using blocked randomization stratified by age, race, and diabetes diagnosis.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Blocked, stratified random assignment by a data analyst and blinded baseline assessment support randomization, but sequence generation and allocation concealment are not fully described, and significant baseline imbalances occurred in BMI and waist circumference.",
+        "evidence_quote": "The data analyst then randomly assigned participants to LGCC or enhanced treatment as usual in blocks of 16 to 20 stratified by age, race, and diabetes diagnosis in order to ensure balance of these characteristics. The survey coordinator was blind to patient assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants could not be blinded to this behavioral intervention, adherence was incomplete, substantial nonprotocol wellness care occurred, and the analysis population appears to exclude three randomized participants without an explicit intention-to-treat strategy, although intervention fidelity was monitored.",
+        "evidence_quote": "In the LGCC group, 26 (79%) completed at least three self-management sessions...; 40% of the overall sample received diet and wellness group sessions apart from LGCC."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only three of 68 randomized participants lacked follow-up assessments, so outcome data were available for nearly all participants and attrition was unlikely to materially bias results.",
+        "evidence_quote": "Of the 68 enrolled patients, 34 were randomly assigned to LGCC and 34 to enhanced treatment as usual. Overall, 65 patients completed the six- and 12-month assessments."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The physiological and validated self-reported outcome measures were appropriate and applied across groups, and the survey coordinator was blinded at assignment, but blinding during follow-up outcome assessment is not clearly reported and self-reported functioning and symptoms could be influenced by participants' knowledge of treatment.",
+        "evidence_quote": "Outcomes included cardiometabolic risk (BMI and systolic and diastolic blood pressure), health-related quality of life as measured by the 12-item Short-Form Health Survey, functioning as measured by the World Health Organization Disability Assessment Scale (14), and psychiatric symptoms as measured by the Internal State Scale (15)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No prespecified analysis plan or registration is reported, many outcomes and subgroup thresholds were analyzed, and favorable findings came from explicitly post-hoc exploratory subgroup and interaction analyses, creating substantial risk of selective reporting despite a Bonferroni adjustment.",
+        "evidence_quote": "A post-hoc exploratory analysis limited the sample to participants with elevated cardiometabolic risk."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the reported favorable findings rely on explicitly post-hoc subgroup and interaction analyses among numerous outcomes, with no reported prespecified analysis plan. Additional concerns arise from incompletely described allocation concealment, potential deviations from intended treatment, and possible unblinded self-reported outcome assessment."
+  },
+  {
+    "paper_id": "manual:8e84a0e7",
+    "paper_title": "378b223e_bjp.bp.114.152520",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster-randomized controlled trial in which matched outpatient teams were explicitly assigned to collaborative care or treatment as usual using an internet random generator.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Although the cluster sequence was random and generated blind, patients were approached and consented after team allocation was known, permitting differential recruitment, and important baseline imbalances in depression and education were observed.",
+        "evidence_quote": "Because of the cluster randomisation patients were aware of the condition their treatment team was assigned to when their informed consent was asked."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and professionals could not be masked, intervention implementation was incomplete, and 13 intervention versus 4 control patients stopped allocated treatment, although the primary analysis followed the ITT principle and per-protocol analyses reportedly agreed.",
+        "evidence_quote": "Given the nature of the intervention, masking of participants and professionals to the assigned treatment condition was not possible."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Twelve-month outcomes were available for 85% overall with somewhat greater loss in the intervention arm, and withdrawal from collaborative care was predicted by prior mania duration, so outcome-dependent missingness cannot be excluded despite mixed-model handling of missing observations.",
+        "evidence_quote": "At T12, measurements of 117 patients (85%) were included in the analyses (intervention 80%, control 88%; P = 0.3)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The principal depression outcomes were patient-reported or elicited by unmasked interviewers, while participants knew allocation and the intervention could influence their reporting; the structured interview reduces but does not eliminate this differential measurement risk.",
+        "evidence_quote": "It was not possible to ensure masking of the research assistants who interviewed patients."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and primary outcomes were identified, but the text does not establish that a prespecified analysis plan preceded unblinded analysis, and multiple time points, symptom outcomes, adjusted and unadjusted analyses offered scope for selective reporting.",
+        "evidence_quote": "The trial was registered with The Netherlands Trial Registry (NTR2600)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by post-randomization recruitment with allocation known and resulting baseline imbalances, together with unmasked assessment of subjective depression outcomes. Concerns also remain about deviations, missing data, and selective reporting."
+  },
+  {
+    "paper_id": "manual:fce03624",
+    "paper_title": "855b0b21_Collaborative_care_for_schizophrenic_pat",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly describe a randomized controlled trial and state that 96 consenting patients were placed into two groups by simple random sampling.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although simple random sampling and broadly similar baseline characteristics are reported, the sequence-generation procedure and allocation concealment are not described, and the unequal 46/50 allocation is unexplained.",
+        "evidence_quote": "Out of 152 patients, 96 consented for the study and were kept in two groups by simple random sampling after examining their PANNS (positive and negative syndrome scale) score [9]."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers necessarily knew whether pharmacist counseling and extra follow-up were delivered despite the claimed double blinding; the paper reports intention-to-treat analysis but does not explain how exclusions or deviations were handled.",
+        "evidence_quote": "Drug adherence standards and quality of life were contrasted between study groups in an intent-to-treat fashion."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "There are substantial and internally inconsistent losses/exclusions: 96 were randomized, 92 remained after under-diagnosis exclusions, but baseline characteristics include only 80 participants, while neither reasons for this additional loss nor a valid missing-data analysis are provided.",
+        "evidence_quote": "A total of 96 patients were enrolled in which 46 in control 50 in intervention groups. 3 patients in intervention group and 2 patients in control were under-diagnosed. We compared the outcomes of subjects treated in this collaborative care model, 46 in intervention group with 46 controlled group subjects receiving usual hospital care."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Key outcomes such as adherence and quality of life were self-reported by participants who could not plausibly be blinded to intensive counseling and follow-up, and the paper does not identify blinded assessors for PANSS; knowledge of allocation could therefore materially influence measurements.",
+        "evidence_quote": "The control and intervention group patient's socio-demographic information, other data associated to medication adherence and quality of life (QOL) was collected by utilizing Morisky medication adherence scale (MMAS-4) and SF-12 questionnaires at the baseline, respectively."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No preregistration or prespecified analysis plan is reported, numerous scales, subscales, time points, and analyses were available, and reporting is inconsistent across the abstract, methods, tables, and narrative, creating a high risk of selective outcome or analysis reporting.",
+        "evidence_quote": "Different scales were used to check the severity of positive, negative and general symptoms of the disorder, adherence to the medication and quality of life."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial and inconsistently reported missing outcome data, nonblinded self-reported outcomes and unclear assessor blinding, and extensive analytical/reporting flexibility without a prespecified protocol. Additional concerns arise from absent details on sequence generation, allocation concealment, and handling of deviations."
+  },
+  {
+    "paper_id": "manual:96c497fc",
+    "paper_title": "56333924_fphar.2017.00722",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that enrolled participants were assigned to collaborative-care and usual-care groups using a simple randomization technique.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although simple randomization was reported and age/gender distributions appeared similar, the sequence-generation method and allocation concealment were not described, and baseline outcome comparability was not clearly presented.",
+        "evidence_quote": "The subjects who were enrolled into the study were grouped into collaborative care (test) and usual care (control) groups by using simple randomization technique."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers could not be blinded to education, and analysis excluded two randomized control participants rather than following intention-to-treat, although no intervention-related deviations beyond dropout were reported.",
+        "evidence_quote": "Data collected from only those patients who completed the study for all the followups was analyzed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 73 of 75 randomized participants (97.3%), with only two control-group dropouts, so the small amount of missingness is unlikely to materially bias results.",
+        "evidence_quote": "Initially, 38 patients were assigned to test and 37 patients were assigned to the control group. Two patients from the control group did not turn-up for the next follow-up after enrollment and were considered as dropouts."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated questionnaires were applied across groups, but adherence and quality of life were self-reported, participants knew their intervention assignment, and no blinded outcome assessment was described, permitting intervention-aware responses.",
+        "evidence_quote": "Patients were followed for three follow-ups and during each follow-up, the medication adherence and QOL were assessed by using Medication Adherence Rating Scale (MARS) and World Health Organization Quality of Life (WHOQOL-BREF) questionnaire, respectively."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No preregistration or prespecified analysis plan was reported, multiple follow-ups and WHOQOL-BREF domains were assessed, and the analysis/reporting is internally inconsistent and appears selectively summarized, creating substantial scope for selecting favorable outcome measurements or analyses.",
+        "evidence_quote": "The obtained results were compared between test and control groups for each follow-up."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by high risk in selection of the reported result because no prespecified protocol or analysis plan was reported despite multiple outcomes, domains, and time points with inconsistent summary reporting. Additional concerns arise from unreported allocation concealment, lack of blinding for subjective outcomes, and complete-case rather than intention-to-treat analysis."
+  },
+  {
+    "paper_id": "manual:c7d664f4",
+    "paper_title": "053533a1_nihms620233",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that participants were randomized to LGCC or enhanced usual care, with allocation conducted in blocks stratified by age, race, and diabetes diagnosis.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although block randomization stratified by age, race, and diabetes was reported and most baseline characteristics were balanced, the sequence-generation and allocation-concealment methods were not described, and a baseline BMI difference was noted.",
+        "evidence_quote": "Participants were randomized to the LGCC intervention or enhanced usual care (Table 1) in blocks of 15\u201320 people that were stratified by age, race, and diabetes diagnosis in order to ensure balance of these characteristics."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention personnel could not be blinded to this behavioral intervention, only 68% completed at least three of four sessions, possible provider-level contamination was acknowledged, and the analysis excluded participants lost immediately after randomization rather than clearly following intention-to-treat.",
+        "evidence_quote": "An additional eight dropped out immediately after randomization (n=7) or due to sudden death (n=1), leaving a total of 118 with complete baseline and follow-up data for analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Eight randomized participants were excluded immediately after randomization and two further deaths occurred, while mixed models accommodated intermittently missing observations but no sensitivity analysis established that missingness could not bias results.",
+        "evidence_quote": "We used repeated measures mixed effects models to examine LGCC effect, which allow unequal observations per subject, i.e., missing observations on some measures for some subjects."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were measured identically across groups using objective clinical procedures and validated questionnaires, and the clinical assessor was blinded to treatment assignment.",
+        "evidence_quote": "The clinical assessor was blinded to randomization of patient assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes were stated to be identified a priori and a protocol paper was cited, but no prespecified statistical analysis plan or trial registration is provided here, numerous outcomes and time points were analyzed, and nominally significant blood-pressure findings did not survive the reported Bonferroni correction.",
+        "evidence_quote": "After post-hoc Bonferoni adjustment for multiple comparisons, these findings were not statistically significant (P > 0.0125)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by unreported sequence generation and allocation concealment, post-randomization exclusions and incomplete intervention adherence, and limited assurance against selective reporting. Blinded outcome assessment and largely objective outcome measurement reduce concern in the measurement domain."
+  }
+]

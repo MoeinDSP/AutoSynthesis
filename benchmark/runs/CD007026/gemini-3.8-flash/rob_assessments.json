@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:99120eeb",
+    "paper_title": "25fa12a5_j.1747-4949.2012.00901.x",
+    "design_classification": "randomized",
+    "design_rationale": "The study is explicitly described as a prospective, randomized, placebo-controlled trial where patients were randomly assigned according to a precompiled 1:1 randomization schedule stratified by centre.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Participants were assigned via a precompiled 1:1 stratified randomization schedule, visually identical vials were used indicating concealed allocation, and baseline characteristics were balanced between groups.",
+        "evidence_quote": "Patients were randomly assigned to receive an intravenous infusion of either Cerebrolysin or placebo, starting immediately 1 h after thrombolytic treatment, according to a precompiled 1:1 randomization schedule, stratified by centre."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients and personnel were blinded with visually identical placebos, no cross-overs occurred, and analysis was conducted according to intention-to-treat.",
+        "evidence_quote": "All study personnel and participants were blinded to treatment assignment for the duration of the study. Thirty millilitres Cerebrolysin was diluted with 70 ml of 0\u00b79% physiological saline to a total volume of 100 ml. An identical amount of physiological saline (100 ml) was used as placebo. The vials containing the study drug and the placebo were visually identical."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data for the primary endpoint were available for 114 of 119 randomized patients (including deaths), with missingness minimal (5 patients in one group) and unlikely to bias the overall negative result.",
+        "evidence_quote": "In the Cerebrolysin group, no post-baseline data were available for five patients in this scale."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Standard validated stroke outcome scales (mRS, NIHSS, Barthel Index) were administered by trained, certified, and blinded outcome assessors.",
+        "evidence_quote": "Tests were performed by trained and certified observers. Follow-up assessments included functional measures, primarily the mRS, the NIHSS, the Barthel Index (BI \u2013 range from 0 to 100) and the Glasgow Outcome Scale (GOS \u2013 range from 1 to 5). All study personnel and participants were blinded to treatment assignment for the duration of the study."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The study followed a pre-established statistical analysis plan with sequential stopping boundaries and fully reported primary and secondary outcomes as specified prior to database lock.",
+        "evidence_quote": "The statistical analyses were carried out according to preestablished analysis plans. The primary end-point was the score on the mRS at day 90. A sequential design was applied using the triangular test... All analyses were specified prior to database lock."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The trial was a well-designed, randomized, double-blind, placebo-controlled study with blinded outcome assessment, intention-to-treat analyses, and pre-specified interim and final stopping rules. All risk-of-bias domains were judged to be at low risk of bias."
+  },
+  {
+    "paper_id": "manual:77007e3f",
+    "paper_title": "a7a29385_NDT.S75304",
+    "design_classification": "randomized",
+    "design_rationale": "The study is explicitly described as a randomized, double-blinded, placebo-controlled trial in which eligible patients were randomly assigned to two treatment groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The authors state that patients were randomly assigned, but no details regarding the method of sequence generation or allocation concealment are reported, though baseline characteristics appear balanced.",
+        "evidence_quote": "All patients who met inclusion criteria were randomly assigned into two groups to receive intravenously either 30 mL of cerebrolysin diluted in normal saline once a day for 10 days (n=23) or normal saline, as placebo, with a prescription order similar to the main drug (n=23)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The study was double-blinded with an identical-appearing placebo and co-interventions were standardized across groups, minimizing deviations from the intended intervention.",
+        "evidence_quote": "In a randomized, double-blinded, placebo-controlled clinical trial... normal saline, as placebo, with a prescription order similar to the main drug"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Patients who died (1 in Cerebrolysin, 2 in placebo; 6.5% total) were excluded from the primary neurological and hemodynamic outcome analyses, which could potentially bias the results since mortality in acute stroke is closely tied to outcome severity.",
+        "evidence_quote": "After receiving treatments, one patient in the cerebrolysin-received group and two patients in the placebo-received group died before day 30 (4.3% versus 8.7%); they were excluded from the final analysis due to lack of measuring their outcomes at 90-day follow-up (Figure 1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The trial was double-blinded and used standardized clinical (NIHSS) and objective physiological (transcranial Doppler) measurements that were unlikely to be biased by knowledge of the intervention.",
+        "evidence_quote": "In a randomized, double-blinded, placebo-controlled clinical trial... All patients were examined using the National Institutes of Health Stroke Scale and transcranial Doppler to measure the mean flow velocity and pulsatility index (PI) of their cerebral arteries"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospective trial registry or pre-published statistical analysis plan is referenced, raising some concerns for selection of the reported results among multiple endpoints and time points.",
+        "evidence_quote": "Any changes in the NIHSS score during the 90-day follow-up were considered as primary endpoints. The enhancement in the mean flow velocity (cm/s) of cerebral arteries... and decrease in the PI of mentioned arteries were considered as secondary endpoints."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The overall risk of bias is judged as some concerns due to an undescribed randomization and allocation concealment process, the exclusion of deceased patients from the final analysis, and the absence of a pre-registered trial protocol or pre-specified statistical analysis plan."
+  },
+  {
+    "paper_id": "manual:bcb58b89",
+    "paper_title": "a5cb67e5_s00702-004-0248-2",
+    "design_classification": "randomized",
+    "design_rationale": "Patients were randomly allocated in a 1:1 ratio using a computer-generated randomization code stratified by center.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The sequence generation was computerized, allocation was concealed using sealed envelopes and blinding of investigators/personnel, and baseline characteristics were well-balanced.",
+        "evidence_quote": "Patients who met all entry criteria were assigned to the treatment groups in a 1:1 ratio, according to a randomisation code generated by a computer software (EBEWE Pharma, Unterach, Austria). The randomisation was carried out in blocks of 12 patients, stratified by study centre. The investigators and all other study personnel were blind as to the random code assignment until the completion of the statistical analysis. For each patient a sealed envelope with information on the actual treatment dispensed was provided to the investigator for emergency cases. All envelopes remained sealed throughout the study."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The study was double-blind with identical placebo infusions, minimizing awareness of assignment and trial-related deviations, and an ITT approach was used for analysis.",
+        "evidence_quote": "Both, active and control medication were packaged in 100 mL amber glass vials and were indistinguishable in appearance. [...] An exploratory statistical analysis according to the intention-to-treat (ITT) principle with lastobservation-carried-forward (LOCF) was performed. The ITT population included all subjects who were randomised, received at least one dose of study medication and provided baseline as well as at least one post-baseline efficacy evaluation."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "There was differential drop-out due to consent withdrawal (9 in placebo vs 3 in Cerebrolysin) and overall missing data was ~18% at day 90, handled by last-observation-carried-forward (LOCF) which may introduce bias.",
+        "evidence_quote": "146 patients were randomised to two treatment groups and constituted the ITT population: 78 patients to the Cerebrolysin group and 68 patients to the placebo group. Of these patients, 67 of the Cerebrolysin group and 52 of the placebo group completed the study. Reasons for the 25 cases of study discontinuation were death (6 Cerebrolysin, 6 placebo), serious adverse event (1 placebo), and consent withdrawn (3 Cerebrolysin; 9 placebo). [...] An exploratory statistical analysis according to the intention-to-treat (ITT) principle with lastobservation-carried-forward (LOCF) was performed."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Assessors were blinded to group assignment and established, validated standardized neurological and cognitive assessment instruments were used across all participants.",
+        "evidence_quote": "The investigators and all other study personnel were blind as to the random code assignment until the completion of the statistical analysis. [...] Efficacy measures were the Canadian Neurological Scale (CNS) (Cote, 1986), the Barthel Index (BI) (Mahoney, 1965), the Glasgow Coma Scale (GCS) (Teasdale, 1974), the Clinical Global Impression (CGI) (Guy, 1976), the Mini-Mental State Examination (MMSE) (Folstein, 1975), the Syndrome Short Test (SST) (Erzigkeit, 1989)..."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol is referenced for this exploratory study, multiple endpoints and subscales were tested at multiple time points, and results highlight positive post-hoc subgroups (e.g., right-hemisphere strokes, specific Barthel items, within-6-hour window).",
+        "evidence_quote": "Since this was an exploratory study no sample size calculations have been performed. [...] In the CNS subscore A1-Motor Functions, a strong tendency towards a significant Cerebrolysin effect in comparison to placebo was seen in the full patient sample (p < 0.1). [...] The drug=placebo difference was most pronounced in the sub-group of patients with a stroke in the right brain hemisphere (p < 0.001; Mantel-Haenszel test). The difference in the MMSE score did not reach statistical significance, however, a highly significant effect of Cerebrolysin versus placebo was observed for the right-sided stroke subgroup (p < 0.001, Mantel-Haenszel test)..."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "While the trial was well-blinded with proper allocation concealment, there are some concerns regarding missing outcome data handled via LOCF with differential attrition, as well as potential selection of reported results from multiple endpoints, subscales, and post-hoc subgroup analyses without a pre-registered trial protocol."
+  },
+  {
+    "paper_id": "manual:5fb93dc3",
+    "paper_title": "ffd85af2_strokeaha.111.628537",
+    "design_classification": "randomized",
+    "design_rationale": "The study is explicitly described as a multicenter, randomized, double-blind, placebo-controlled parallel-group clinical trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The study is a double-blind randomized controlled trial with balanced baseline characteristics across arms, although detailed sequence generation and allocation concealment mechanisms are referenced in the protocol publication.",
+        "evidence_quote": "CASTA is a Phase IV clinical trial designed as a multicenter, randomized, double-blind placebo-controlled parallel-group study... There were no major differences in the baseline and efficacy characteristics among the treatment groups (Table 2)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blinding with matched placebo was maintained, deviations were balanced, and an appropriate intention-to-treat analysis was used.",
+        "evidence_quote": "They were either treated with 30 mL Cerebrolysin diluted in saline (total of 100 mL) at an intravenous infusion or with matched placebo (100 mL saline)... Patients and investigators remained strictly blinded to the treatment assignments... The primary analysis was based on the intention-to-treat population."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 1067 of 1069 treated patients (>99%), deaths were accounted for with worst score imputation, and missingness was low and balanced.",
+        "evidence_quote": "In 2 treated patients, there were no efficacy assessments so that the ITT population includes 1067 patients... Missing values were substituted by last observation carried forward. In patients who had died, a worst score correction was applied."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Standard validated neurological outcome scales were used, and both patients and outcome assessors remained blinded to treatment assignment throughout the trial.",
+        "evidence_quote": "The primary efficacy criterion was defined as the combined result of Barthel Index (BI), modified Rankin Scale (mRS), and the NIHSS evaluated in 1 global test... Patients and investigators remained strictly blinded to the treatment assignments, and the occurrence or nature of adverse events did not compromise the blinding either."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary end point was fully prespecified and reported as neutral, with exploratory and subgroup analyses transparently identified as post hoc.",
+        "evidence_quote": "The primary analysis was based on the intention-to-treat population... The confirmatory test was based on a directional global test of the efficacy variables NIHSS, BI, mRS... When stratified by severity however, a post hoc analysis of National Institutes of Health Stroke Scale and modified Rankin Scale showed a trend in favor of Cerebrolysin in patients with National Institutes of Health Stroke Scale \u226512"
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The CASTA trial is a well-conducted, double-blind, placebo-controlled randomized trial with low risk of bias across all RoB 2 domains. The primary analysis was appropriately reported according to the prespecified protocol, and post hoc analyses were clearly distinguished."
+  }
+]

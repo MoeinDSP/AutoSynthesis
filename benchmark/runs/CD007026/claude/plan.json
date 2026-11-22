@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults with acute ischaemic stroke, does Cerebrolysin (or Cortexin) compared with placebo (saline) reduce all-cause mortality during trial follow-up, pooled as a risk ratio from randomised placebo-controlled trials?",
+  "treatment_label": "Cerebrolysin or Cortexin (add-on or alone)",
+  "control_label": "Placebo (saline)",
+  "outcome_description": "All-cause death (mortality from any cause) at the longest follow-up reported for mortality in each trial (e.g. day 90 or end of trial), extracted as the number of participants who died out of the number randomised in each arm. Deaths reported only in safety/adverse-event sections are included. Stroke-related-death-only counts and functional outcome scales (mRS, NIHSS, Barthel) are not used. Where a trial has multiple active dose arms, events and participants are summed across dose arms and compared once against the single placebo arm. Randomised group sizes are used when analysed Ns are not reported; trials with zero deaths in both arms are retained and flagged.",
+  "positive_direction": "A risk ratio below 1 (equivalently, a positive effect size in the signed analysis) means fewer deaths with Cerebrolysin/Cortexin than with placebo, i.e. the treatment group has lower all-cause mortality.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "Cerebrolysin acute ischaemic stroke randomised placebo-controlled trial mortality",
+    "Cortexin ischemic stroke placebo controlled trial outcome",
+    "Cerebrolysin stroke neuroprotection trial death adverse events"
+  ],
+  "inclusion_criteria": [
+    "Randomised trial in adults with acute ischaemic stroke comparing Cerebrolysin or Cortexin (alone or as add-on, any dose or duration, including alongside thrombolysis such as alteplase) with placebo/saline",
+    "Reports any quantitative mortality data (number of deaths and number of participants per arm, or data allowing these to be derived), including deaths reported in safety or adverse-event tables",
+    "Any publication year, language, country, or trial size; broadly related to Cerebrolysin/Cortexin in acute stroke"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, protocols, editorials, opinion pieces, theoretical or commentary papers)",
+    "No comparison between a treatment and a control condition (no placebo/saline control arm; e.g. open-label single-arm, observational, or active-comparator-only studies)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts, proportions, means+SDs, t/F values, or odds/risk ratios reported or derivable)",
+    "Completely unrelated to the research topic (not Cerebrolysin/Cortexin, or not acute ischaemic stroke in adults)"
+  ],
+  "moderators_to_extract": [
+    "Drug studied (Cerebrolysin vs Cortexin)",
+    "Daily dose and total treatment duration",
+    "Time from stroke onset to first dose",
+    "Concomitant thrombolysis/alteplase use",
+    "Length of mortality follow-up (days)",
+    "Sample size category and risk-of-bias rating"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio using event counts (deaths / randomised N per arm) with a random-effects model; values below 1 favour Cerebrolysin/Cortexin. Multiple dose arms are collapsed into one treatment arm so placebo participants are counted once. Double-zero-event trials are retained in extraction and noted, and handled per the chosen zero-cell method (e.g. excluded from the RR pool or analysed with a continuity correction / Peto sensitivity analysis).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

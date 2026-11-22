@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:0b476c22",
+    "paper_title": "9c726953_1-s2.0-S2352302622001739-main",
+    "design_classification": "randomized",
+    "design_rationale": "Eligible participants were explicitly assigned 1:1 using a prespecified secure central web-based randomisation system with a random block design (block sizes 2 or 4), stratified by site.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated using random blocks through a secure central web-based system after eligibility and consent, providing adequate sequence generation and concealment despite the trial becoming open-label after assignment; reported baseline characteristics were broadly balanced.",
+        "evidence_quote": "The randomisation sequence was established before enrolment of the first patient and was done by use of a prespecified, secure, central, web-based randomisation system... Once a patient\u2019s data were entered as meeting criteria for the study, including informed consent, the electronic enrolment system provided the site with the appropriate random treatment assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and treating clinicians knew assignment, and treatment discontinuation/non-initiation and crossover occurred disproportionately, although the primary analysis appropriately used intention-to-treat and sensitivity analyses were similar.",
+        "evidence_quote": "The study was unblinded... Two patients who were randomly assigned to standard of care received enoxaparin and two patients who were randomly assigned to enoxaparin did not receive enoxaparin... Five patients from the standard-of-care group and 16 patients from the enoxaparin group were excluded from the per-protocol analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome follow-up at 21 days was available for 214 of 219 randomized participants, with only five participants having shorter follow-up and time-to-event analysis retaining all randomized participants.",
+        "evidence_quote": "114 included in intention-to-treat analysis... 111 with 21 days\u2019 follow-up... 105 included in intention-to-treat analysis... 103 with 21 days\u2019 follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome of all-cause death or hospitalization was objective, assessed consistently, source-verified, and centrally adjudicated by a committee blinded to treatment assignment.",
+        "evidence_quote": "Personal identifiers and treatment information were removed from all medical records before sharing the data with the Clinical Events Committee. The Clinical Events Committee were responsible for systematically adjudicating death, hospitalisation, and the classification of bleeding in a blinded way to the treatment assignment according to predefined clinical outcome definitions."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary endpoint and main intention-to-treat analysis were prespecified, and the reported primary analysis matched that plan; post-hoc outcomes were explicitly identified.",
+        "evidence_quote": "The primary efficacy endpoint was the composite of all-cause hospitalisation and all-cause mortality at 21 days after randomisation and, in our main analysis, was analysed in the intention-to-treat population... This trial is registered with ClinicalTrials.gov, NCT04492254."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the open-label design and imbalanced treatment nonadherence/discontinuation, which could permit deviations related to knowledge of assignment. Central randomization, near-complete outcome data, blinded adjudication of objective outcomes, prespecified reporting, and intention-to-treat analysis otherwise support low risk."
+  },
+  {
+    "paper_id": "manual:e89279a4",
+    "paper_title": "3846dbbb_ciab813",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that participants were randomized 1:1, stratified by site and symptom duration, to rivaroxaban or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment and stratification were reported, but the sequence-generation and allocation-concealment methods were not described, and there were some baseline imbalances in BMI and baseline disease severity.",
+        "evidence_quote": "Participants were randomized 1:1, stratified by site and symptom duration (<6 days vs \u22656 days), to receive either rivaroxaban (one 10-mg tablet) or placebo equivalent (multivitamin, 1 tablet) orally daily for 21 consecutive days."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "A placebo control and ITT primary analysis reduce bias, but blinding is not explicitly stated, the placebo was a multivitamin rather than clearly identical, adherence was incomplete, and early termination caused many treatment discontinuations, although these were reportedly similar between groups.",
+        "evidence_quote": "The intention-to-treat (ITT) population (all randomized participants) was used for the primary analysis after interactions with regulators."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary efficacy results included only 444 of 497 randomized participants, while 64 discontinued the study and early stopping interrupted follow-up, leaving substantial missing outcome data without evidence that missingness could not bias the result.",
+        "evidence_quote": "Between 16 August 2020 and 3 February 2021, 538 adults were screened and 497 were enrolled (246 in rivaroxaban and 251 in placebo). At study termination (4 February 2021), 321 (65%) had already completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome used an unvalidated ordinal scale and was driven largely by subjective shortness of breath; moreover, assessor blinding was not reported, so knowledge of treatment could plausibly influence outcome classification.",
+        "evidence_quote": "Our primary end point of disease progression was based on the Gates MRI scale that, like other instruments, was not validated at the time of use. It may have inaccurately captured disease progression due to the subjective nature of shortness of breath that defined the majority of the progression cases."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Prespecified endpoints and a group-sequential plan are described, but no registration or publicly available prespecified protocol/SAP is identified in the supplied text, the SAP was amended after interim information, and multiple outcomes and analyses were conducted without multiplicity adjustment.",
+        "evidence_quote": "The final statistical analysis plan was amended to remove a second planned interim analysis after 67% of participants completed day 28, due to fast enrollment. No adjustments were made for multiple comparisons."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial incomplete outcome ascertainment after early trial termination and high risk in outcome measurement from an unvalidated, partly subjective scale without clearly reported assessor blinding. Additional concerns arise from unreported allocation-concealment details, treatment deviations, and analytic/reporting flexibility."
+  },
+  {
+    "paper_id": "manual:8763f58b",
+    "paper_title": "13ed72eb_jama_connors_2021_oi_210109_1635806561.64174",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned centrally in a 1:1:1:1 ratio using computer-generated permuted blocks to aspirin, two apixaban doses, or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer generated, centrally implemented, and produced balanced baseline characteristics, supporting random sequence generation and concealment.",
+        "evidence_quote": "Randomization code lists were computer generated using permuted blocks with block size equal to 4 during the process of drug labeling and then implemented electronically through the central electronic data-capture system."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding reduced the likelihood of intervention-related deviations, but the primary efficacy analysis excluded 99 of 657 randomized participants who did not initiate therapy rather than using a fully intention-to-treat approach, although a secondary all-randomized analysis was similar.",
+        "evidence_quote": "The primary sample of interest for both efficacy and safety treatment comparisons was defined on an a priori basis and consisted of all randomized participants who initiated trial therapy and had at least 1 follow-up assessment during the 45-day treatment period."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome follow-up was virtually complete among participants in the primary analysis, with 99.6% having complete follow-up to day 45 or trial termination and only two participants lost to follow-up.",
+        "evidence_quote": "Among the 558 participants who initiated randomized trial treatment, 556 (99.6%) had complete follow-up at 45 days after drug initiation or at the time of trial termination, whichever came earlier, and 544 (97.5%) were followed up through day 45."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified clinical composite was appropriate and assessed consistently, with suspected events verified from medical records and adjudicated by a committee blinded to treatment assignment.",
+        "evidence_quote": "Medical records were sent to the Clinical Endpoints Committee, who adjudicated events using standardized criteria. Both the medical monitors and the end points committee were unaware of randomized drug assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary outcome and principal analysis population were prespecified, the protocol and statistical analysis plan were available, and both primary and secondary all-randomized analyses were reported; post hoc outcomes were clearly labeled.",
+        "evidence_quote": "The protocol and statistical analysis plan were approved at each of the 52 centers in the US that participated in the trial and are provided in Supplement 1 and Supplement 2."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the primary modified intention-to-treat analysis excluding randomized participants who never initiated treatment, including participants hospitalized before treatment began. Randomization, follow-up completeness, blinded outcome adjudication, and prespecified reporting were otherwise robust, and the all-randomized analysis gave similar findings."
+  },
+  {
+    "paper_id": "manual:5c7da77c",
+    "paper_title": "d72d7b4f_main",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1 using a computer-generated, block-stratified randomization sequence integrated into REDCap.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, stratified and embedded in REDCap by an independent clinical trials unit, with participants and study personnel unaware of the sequence, and baseline characteristics were broadly balanced.",
+        "evidence_quote": "The randomisation sequence was computer-generated and integrated into the electronic data capture software RedCAP... This task was done by personnel of the Clinical Trial Unit of the University Hospital Zurich... Participants and study personnel were aware of treatment allocation, but not of the allocation sequence."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although treatment was open label, adherence to enoxaparin was high, no toxicity-related discontinuations occurred, and efficacy was analyzed using the intention-to-treat principle, with no reported differential deviations likely to affect the outcome.",
+        "evidence_quote": "Compliance to the study treatment of at least 80%... was recorded in 211 (93%) of 226 participants... No patients required dose reductions or discontinued enoxaparin for drug-related toxicity... Analysis of the efficacy outcomes was done in the intention-to-treat (ITT) population."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary-outcome data were available for 472 of 475 randomized participants (99.4%), with only two withdrawals and one participant lost to follow-up, making material bias from missingness unlikely.",
+        "evidence_quote": "Two participants withdrew their participation in the study, whereas no follow-up data were available for one patient. The final intention-to-treat population consisted of 472 patients."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Hospitalization and death were appropriate and similarly defined outcomes, and admission decisions were made by personnel outside the study, but the open-label design and lack of independent outcome adjudication could have influenced hospitalization-related ascertainment or decisions.",
+        "evidence_quote": "The decision to admit a patient was taken by medical personnel not involved in the study... Since all serious adverse events, including hospitalisations, were adjudicated locally and by the sponsor... no independent adjudication of untoward hospitalisations and deaths was done."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary outcome and age-adjusted primary analysis were prespecified, and the interim stopping analysis used predefined criteria; post-hoc analyses were identified as such.",
+        "evidence_quote": "The study is registered with ClinicalTrials.gov (NCT04400799)... The main analysis of the primary outcome was based on a log-binomial model, including treatment group and stratification variable age group... as independent variables... At the predefined formal interim analysis for efficacy... the independent DSMB recommended early termination... on the basis of predefined statistical criteria."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the open-label design and absence of independent adjudication for the hospitalization-based primary outcome. Randomization, adherence and ITT analysis, outcome completeness, and prespecified reporting were otherwise robust."
+  },
+  {
+    "paper_id": "manual:d5f58599",
+    "paper_title": "423b2b63_PIIS0140673621023928",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated 1:1 using permuted blocks of variable size through a central, concealed, web-based automated randomisation system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence used variable permuted blocks and was implemented through a central concealed automated system, with balanced baseline characteristics indicating no evident randomization failure.",
+        "evidence_quote": "Randomisation was done in permuted blocks of variable size, using a central, concealed, web-based, automated randomisation system (RedCap, version 11.0.3)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants and investigators were unmasked, adherence was very high, deviations were few and documented, and the primary analysis followed randomized assignment apart from one consent withdrawal per group.",
+        "evidence_quote": "The MICHELLE trial was an open-label study, with no masking of investigators or patients to group allocation... 157 (99%) of 159 patients took the study medication up to day 35 without a discontinuation greater than 7 days."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Although vital/clinical follow-up was nearly complete, substantial and differential absence of protocol-mandated imaging could bias the composite primary outcome because it included asymptomatic events detectable only by CT angiography or ultrasound.",
+        "evidence_quote": "Not every patient received CT pulmonary angiogram (45 [28%] in the active group and 69 [43%] in the control group) or Doppler ultrasound (25 [16%] in the active group and 41 [26%] in the control group)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome definitions and blinded central adjudication were appropriate, but the open-label design could affect symptom-triggered event ascertainment and the availability of scheduled imaging differed between groups, despite blinded image review.",
+        "evidence_quote": "All events were evaluated by an independent clinical events adjudication committee, including a core laboratory for image analysis, whose members were unaware of the study treatment assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and its statistical analysis plan was finalized before unblinding, but the primary composite was amended during the study to add arterial events and the provided text does not establish that this change preceded access to accumulating outcome data.",
+        "evidence_quote": "During the study, we added an amendment including arterial events for the primary outcome."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial and differential missing protocol-mandated imaging for a primary composite that included imaging-only asymptomatic events. Open-label ascertainment and an in-study amendment to the primary composite add some concerns, despite strong randomization, blinded adjudication, and high treatment adherence."
+  },
+  {
+    "paper_id": "manual:a0c2c384",
+    "paper_title": "ff99c0cc_S2352-3026",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned 1:1 using a computer-generated, block-stratified randomization sequence integrated into REDCap.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated by an independent clinical trial unit, embedded in REDCap, concealed from participants and study personnel before allocation, and baseline characteristics were similar between groups.",
+        "evidence_quote": "The randomisation sequence was computer-generated and integrated into the electronic data capture software RedCAP... This task was done by personnel of the Clinical Trial Unit of the University Hospital Zurich... Participants and study personnel were aware of treatment allocation, but not of the allocation sequence."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although this was an open-label trial, adherence was high, no treatment discontinuations due to toxicity occurred, and efficacy was analyzed according to intention to treat, with no reported imbalanced deviations likely to affect the primary outcome.",
+        "evidence_quote": "Compliance to the study treatment of at least 80%... was recorded in 211 (93%) of 226 participants... No patients required dose reductions or discontinued enoxaparin for drug-related toxicity... Analysis of the efficacy outcomes was done in the intention-to-treat (ITT) population."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data were available for 472 of 475 randomized participants, with only two withdrawals and one participant lost to follow-up, making bias from missing data unlikely.",
+        "evidence_quote": "Two participants withdrew their participation in the study, whereas no follow-up data were available for one patient. The final intention-to-treat population consisted of 472 patients."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Hospitalization and death are appropriate outcomes and admission decisions were made by clinicians outside the study, but the open-label design and lack of independent outcome adjudication could have influenced ascertainment or admission decisions.",
+        "evidence_quote": "The decision to admit a patient was taken by medical personnel not involved in the study... Since all serious adverse events, including hospitalisations, were adjudicated locally and by the sponsor... no independent adjudication of untoward hospitalisations and deaths was done."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the primary analysis was described as prespecified, but the supplied report does not provide enough information to fully verify consistency against the complete prespecified analysis plan, and a secondary outcome was added after results of another trial became available.",
+        "evidence_quote": "The study is registered with ClinicalTrials.gov (NCT04400799)... In the final version of the protocol... a secondary composite outcome... was added on the basis of the results of the ACTIV-4b trial."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the open-label design and absence of independent adjudication for the hospitalization component of the primary outcome, plus incomplete assurance against selective reporting. Randomization, adherence/ITT analysis, and outcome completeness were otherwise robust."
+  }
+]

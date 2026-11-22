@@ -1,0 +1,38 @@
+{
+  "research_question": "In children up to six years of age who are learning a second language, what is the effect of vocabulary interventions (e.g. shared/dialogic book reading, explicit word teaching, dual-language instruction) compared with standard care or no intervention on immediate post-intervention expressive second-language vocabulary measured with distal (general/untaught-word) instruments?",
+  "treatment_label": "Vocabulary intervention (shared/dialogic book reading, explicit word teaching, or dual-language instruction) for young L2 learners",
+  "control_label": "Standard care, usual classroom instruction, or no intervention",
+  "outcome_description": "Expressive vocabulary in the second (societal/school) language assessed with a distal measure \u2014 a standardised or general expressive vocabulary test (e.g. picture naming, definitional vocabulary) not built from the words taught \u2014 at the first post-intervention assessment. Extract post-test mean, SD and n per arm (SD = SE \u00d7 \u221an if variability reported as SE/SEM; adjusted model-based means used and noted if these are all that is reported). One measure per trial: the standardised, broadest distal expressive test. Exclude receptive measures, proximal/taught-word tests, combined receptive+expressive totals, L1 outcomes, delayed follow-ups, and non-vocabulary outcomes. Cluster-randomised trials: use cluster-adjusted estimates if reported, otherwise divide sample sizes by the design effect 1 + (mean cluster size \u2212 1) \u00d7 ICC using the reported ICC or an assumed ICC of 0.15 (state which). Multi-arm trials: combine eligible intervention arms (pool means/SDs, sum n) or select the arm matching the review question, stating the choice, and use the control arm once.",
+  "positive_direction": "A positive Hedges' g means the intervention group had better (higher) expressive second-language vocabulary on the distal, untaught-word measure than the control group \u2014 i.e. the result favours the vocabulary intervention.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "vocabulary intervention randomized controlled trial preschool second language learners expressive vocabulary",
+    "dialogic shared book reading trial dual language learners vocabulary outcome",
+    "explicit word teaching bilingual preschool children randomized experiment standardized expressive vocabulary"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial (including cluster-randomised) of a vocabulary-focused intervention delivered to children up to about six years of age who are learning a second language (dual language learners, ESL/EAL, immigrant or minority-language background)",
+    "Comparison group receiving standard care, usual classroom instruction, a non-vocabulary activity, or no intervention",
+    "Reports some quantitative post-intervention vocabulary outcome data allowing an effect size to be computed (means and SDs, SE/SEM, t/F values, or adjusted means with variability)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, theoretical or methodological paper, protocol)",
+    "No comparison between a treatment and a control condition (single-arm, pre-post only designs, or control group that itself receives another vocabulary intervention)",
+    "No quantitative outcome data from which an effect size can be derived (no means+SDs, t/F, proportions or odds ratios)",
+    "Completely unrelated to the research topic (e.g. monolingual-only samples, children older than about six years, only receptive/proximal/first-language or non-vocabulary outcomes, or delayed follow-up only)"
+  ],
+  "moderators_to_extract": [
+    "Intervention type (shared/dialogic book reading vs explicit word teaching vs dual-language instruction vs multicomponent)",
+    "Intervention dose (total hours or number of sessions/weeks)",
+    "Deliverer (teacher, researcher, parent, paraprofessional)",
+    "Child mean age at baseline",
+    "Randomisation unit (individual vs cluster) and whether cluster adjustment was reported or assumed",
+    "Sample size category and risk-of-bias rating"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardised mean difference (Hedges' g) with a random-effects (REML) model using post-intervention means, SDs and per-arm n. Higher scores indicate better vocabulary, so positive g favours the intervention; no sign reversal needed. Convert SE/SEM to SD via SD = SE \u00d7 \u221an; use adjusted means when only these are reported and flag them. Apply design-effect adjustment to n for cluster-randomised trials lacking cluster-adjusted estimates (ICC reported or 0.15 assumed). One effect size per trial.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "distal expressive second-language vocabulary"
+}

@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of oral hygiene, diet, and feeding practice advice, compared with standard care, on caries presence in any primary teeth in young children?",
+  "treatment_label": "oral hygiene, diet, and feeding practice advice",
+  "control_label": "standard care",
+  "outcome_description": "Presence of dental caries in any primary teeth (measured across diagnostic thresholds such as dmfs, d2, d3mft, or white spot lesions at ages 1 to 6 years)",
+  "positive_direction": "Lower risk of caries presence in any primary teeth, favoring the oral hygiene, diet, and feeding practice advice intervention over standard care",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "oral hygiene diet feeding advice caries young children trial",
+    "feeding practice oral health education caries primary teeth randomized controlled trial",
+    "dietary feeding advice dental caries preschool children controlled study"
+  ],
+  "inclusion_criteria": [
+    "Controlled trials evaluating oral hygiene, diet, or feeding practice advice delivered to parents, caregivers, or young children compared to standard care or inactive control.",
+    "Studies reporting quantitative data on caries presence in any primary teeth in children up to age 6 years across diagnostic criteria (e.g., dmfs, d2, d3mft, or white spot lesions)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (e.g., systematic reviews, meta-analyses, study protocols, editorials, or commentaries).",
+    "No comparison between an oral health advice intervention and a standard care or control condition.",
+    "No extractable quantitative outcome data on caries presence or incidence in primary teeth (e.g., dichotomous event counts per arm, risk ratios, or odds ratios).",
+    "Unrelated to oral health/feeding advice interventions or pediatric dental caries."
+  ],
+  "moderators_to_extract": [
+    "caries diagnostic threshold (e.g., enamel/white spot vs dentinal cavitation)",
+    "child age at final outcome assessment / length of follow-up",
+    "intervention components (diet/feeding practice advice, oral hygiene instruction, or combined)",
+    "delivery setting and format (e.g., home visits, primary care clinics, group education)",
+    "background fluoridation status of the study population"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk Ratio (RR) pooled using the number of children with caries presence in any primary teeth and the total number of children analyzed/randomized per arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "caries presence in any teeth"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "In community-dwelling older people (aged 60+), what is the immediate post-intervention effect of cognitive behavioural therapy (CBT) interventions, delivered alone or combined with exercise or other behaviour-change/motivational components, compared with usual care, no intervention, or an attention/education/discussion control, on fear of falling (falls-related self-efficacy)?",
+  "treatment_label": "CBT-based intervention (CBT alone, or CBT/behaviour-change components combined with exercise, Tai Chi, or motivational interviewing; e.g. 'A Matter of Balance')",
+  "control_label": "Control (usual care, no intervention, waiting list, or attention/discussion/education control)",
+  "outcome_description": "Fear of falling / falls-related self-efficacy at the first assessment after the intervention ended (within about one month of its end where possible; earliest available follow-up otherwise), extracted as post-intervention mean, SD and n per arm. Preferred instrument order per study: FES-I (incl. short FES-I), then modified FES / FES / Swedish FES-S / ABC scale, then a single-item fear-of-falling question. Confidence-type scales (FES-S, mFES, ABC) are reverse-signed so that a lower value always denotes less fear before computing the SMD. Post-intervention scores are used in preference to change scores.",
+  "positive_direction": "A positive Hedges' g means the CBT-based intervention group had LESS fear of falling (i.e. greater falls-related self-efficacy/confidence) immediately after the intervention than the control group \u2014 the intervention is favoured.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cognitive behavioural therapy fear of falling older adults randomised trial",
+    "fear of falling intervention falls efficacy FES-I community-dwelling older people controlled trial",
+    "A Matter of Balance cognitive behavioral program falls self-efficacy effect"
+  ],
+  "inclusion_criteria": [
+    "Randomised (including cluster-randomised) controlled trial in community-dwelling people with mean/target age around 60 years or older",
+    "Intervention includes a cognitive behavioural or behaviour-change component, alone or combined with exercise/Tai Chi/motivational support, compared with usual care, no intervention, or attention/education control",
+    "Reports quantitative post-intervention fear-of-falling or falls-related self-efficacy data (mean and SD or convertible statistics) allowing effect-size calculation"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, protocol, or purely theoretical/qualitative paper)",
+    "No comparison between an intervention and a control/comparison condition (e.g. single-arm pre-post study)",
+    "No quantitative outcome data usable for an effect size (no means+SDs, t/F values, proportions, or odds ratios)",
+    "Not relevant to the research topic: exercise-only, education-only, home-modification or hip-protector interventions with no CBT/behavioural component; institutionalised or hospital-based populations; or outcome not fear of falling/falls-related self-efficacy"
+  ],
+  "moderators_to_extract": [
+    "Intervention type (CBT alone vs CBT plus exercise/Tai Chi vs exercise plus motivational interviewing)",
+    "Control condition type (usual care/no intervention vs attention/education control)",
+    "Delivery format and provider (group vs individual; home-based vs centre-based; lay vs health professional)",
+    "Fear-of-falling instrument used (FES-I, mFES/FES, FES-S, ABC, single item)",
+    "Randomisation unit (individual vs cluster-randomised)",
+    "Sample size category and mean participant age"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool with a random-effects model (REML, Hedges' g SMD with Knapp\u2013Hartung adjustment where available). Signs are harmonised so a positive g favours the intervention (less fear); confidence-based scales (FES-S, mFES, ABC) are multiplied by -1 before computation. One effect size per trial, using the preferred instrument hierarchy and the first post-intervention timepoint; later (6-month+) follow-ups are not pooled. For multi-arm trials, all arms with a CBT/behaviour-change component are included and the shared control group's sample size is split equally across comparisons; exercise-only arms are excluded. For cluster-randomised trials, cluster-adjusted estimates are used, or sample sizes are deflated by the design effect when clustering was ignored. Multiple reports of one trial contribute a single effect size. Heterogeneity assessed via tau-squared, I-squared and prediction interval; small-study effects via funnel plot and Egger's test.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "fear of falling"
+}

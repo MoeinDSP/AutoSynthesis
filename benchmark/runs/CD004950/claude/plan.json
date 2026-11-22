@@ -1,0 +1,38 @@
+{
+  "research_question": "In term or preterm neonates undergoing a painful procedure (heel lance, venipuncture, intramuscular or intradermal injection, or similar), what is the effect of breastfeeding (direct breastfeeding or breast milk given during the procedure), compared with no intervention (routine care, no analgesia or comfort measure), on the duration of crying in seconds?",
+  "treatment_label": "Breastfeeding during the painful procedure (direct breastfeeding or supplemental breast milk)",
+  "control_label": "No intervention (routine care, no analgesia or comfort measure)",
+  "outcome_description": "Total duration of crying in seconds during and immediately after the painful procedure (crying time / duration of first cry as defined by the paper), extracted as mean, SD and number of neonates per arm. Prefer total crying time over latency to first cry; convert minutes to seconds; convert SE/SEM to SD (SD = SE \u00d7 \u221an); estimate mean and SD from median plus range/IQR with a standard method where necessary. Do not use pain scores (PIPP, NIPS, NFCS), heart rate, oxygen saturation, or crying expressed as a percentage of time.",
+  "positive_direction": "A positive Hedges g (or negative MD in seconds) indicates that breastfeeding reduced crying duration relative to no intervention, i.e. neonates cried for less time with breastfeeding (favours breastfeeding).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "breastfeeding neonatal pain heel lance crying duration randomized trial",
+    "breast milk analgesia venipuncture newborn crying time controlled trial",
+    "breastfeeding procedural pain preterm neonate injection crying duration effect"
+  ],
+  "inclusion_criteria": [
+    "Randomised or quasi-randomised controlled trial in neonates (up to 28 days of age) undergoing a painful procedure such as heel lance, venipuncture, or intramuscular/intradermal injection",
+    "Compares breastfeeding or breast milk given during the procedure with a no-intervention/routine-care control arm (multi-arm trials eligible; extract only these two arms)",
+    "Reports some quantitative data on duration of crying (mean/SD, median/range or IQR, SE, t or F values) permitting calculation of an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, or purely theoretical paper)",
+    "No comparison between a breastfeeding/breast-milk treatment condition and a no-intervention control condition (e.g. only active comparators such as sucrose, glucose, water, positioning, non-nutritive sucking, or skin-to-skin contact without breastfeeding)",
+    "No quantitative crying-duration outcome data usable for an effect size (means+SDs, t/F values, or convertible medians/ranges absent; only pain scores or percentage of time crying reported)",
+    "Completely unrelated to the research topic, or conducted in older infants/children beyond 28 days of age"
+  ],
+  "moderators_to_extract": [
+    "Gestational age group (term vs preterm)",
+    "Type of painful procedure (heel lance, venipuncture, injection/vaccination)",
+    "Breastfeeding modality (direct breastfeeding vs expressed breast milk)",
+    "Randomisation type (randomised vs quasi-randomised) and blinding of outcome assessment",
+    "Sample size category",
+    "Country/region and publication year"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as mean difference (MD) in seconds using a random-effects model (DerSimonian-Laird or REML), with crying duration treated as a harm scale so that a negative MD (positive signed effect) favours breastfeeding. One row per trial; for trials reporting multiple procedures, use the primary procedure. Record original units and all conversions (minutes to seconds, SE to SD, median/IQR to mean/SD).",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "duration of crying (seconds)"
+}

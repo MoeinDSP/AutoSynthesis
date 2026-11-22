@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of shared decision-making interventions focused only on enhanced communication (without a component clarifying patient values and preferences), compared with control, on patient knowledge (measured on a continuous scale)?",
+  "treatment_label": "Shared decision-making intervention (enhanced communication only)",
+  "control_label": "Usual care or standard control",
+  "outcome_description": "Patient knowledge regarding medical condition, options, risks, and benefits measured on a continuous scale",
+  "positive_direction": "Positive values indicate higher patient knowledge favoring the enhanced-communication shared decision-making intervention over control",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "shared decision making enhanced communication patient knowledge trial",
+    "shared decision making communication intervention knowledge controlled trial",
+    "decision support communication patient knowledge randomized comparison"
+  ],
+  "inclusion_criteria": [
+    "Empirical controlled trials or comparative studies evaluating shared decision-making interventions focused on enhanced communication without patient values-clarification components",
+    "Comparison with a control group (e.g., usual care, attention control, or standard information)",
+    "Quantitative measurement of patient knowledge on a continuous scale with extractable effect size data"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (e.g., systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols)",
+    "Interventions that include explicit patient values-clarification exercises or do not focus on enhanced communication",
+    "No comparison between an eligible enhanced-communication shared decision-making intervention and a control condition",
+    "No quantitative continuous outcome data available for patient knowledge (e.g., lacking means, SDs, sample sizes, or convertible test statistics)"
+  ],
+  "moderators_to_extract": [
+    "Clinical domain / decision context (e.g., oncology, cardiology, primary care, screening)",
+    "Intervention delivery format (e.g., clinician training, patient-facing decision tool, digital/multimedia)",
+    "Type of control condition (e.g., usual care vs. active information control)",
+    "Timing of knowledge outcome assessment (e.g., immediate post-intervention vs. delayed follow-up)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Standardized mean difference (SMD, Hedges' g) pooled across studies reporting continuous knowledge scores measured with varied instruments.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "patient knowledge"
+}

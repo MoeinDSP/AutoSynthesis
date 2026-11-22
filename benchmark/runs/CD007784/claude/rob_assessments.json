@@ -1,0 +1,370 @@
+[
+  {
+    "paper_id": "manual:ca422d22",
+    "paper_title": "81bc7da8_01.HYP.0000022805.11288.7F",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that 66 proteinuric patients were randomized in a parallel, double-blind, placebo-controlled trial to pravastatin 10 mg/d or placebo for 6 months, with a randomized code number assigned to each patient.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment appears adequate (coded packaging, sealed envelopes) and baseline characteristics were balanced (all NS in Table 1), but the actual method of generating the random sequence is never described, leaving some uncertainty.",
+        "evidence_quote": "\"Each patient received a randomized code number, according to which the study assistant supplied the study drug. Special drug packaging was used to maintain blindness of treatment. A sealed envelope, with information on the treatment allocated, was kept in the clinical file of each patient.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 3 of 66 (4.5%) randomized patients lacked outcome data, balanced across arms (1 placebo, 2 pravastatin) and excluded for a reason (invalid urine collection) unlikely to be related to the true outcome value.",
+        "evidence_quote": "\"Of the 66 patients enrolled in this study, 3 patients had incomplete 24-hour urine collection assessed by urinary sodium and chloride measurement. Thus, there were a total of 63 evaluable patients (32 in the placebo group and 31 in the pravastatin group).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome is an objective laboratory assay applied identically in both groups under a double-blind design, with validity checks on urine collection, making assessor influence unlikely.",
+        "evidence_quote": "\"Proteinuria was measured in 24-hour urine samples by using the trichloroacetic acid technique... To verify a correct urine sampling, 24-hour urinary sodium and chloride excretion were checked.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind design with matched packaging and constant background therapy reduces risk, but the analysis was not intention-to-treat (3 randomized patients were excluded from analysis) and no details are given on blinding success or co-intervention monitoring beyond lipid changes.",
+        "evidence_quote": "\"This study was conducted prospectively in a parallel, double-blind, randomized, and controlled manner in a single medical center... To evaluate the add-on effect of pravastatin, all antihypertensive agents were kept constant throughout the study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned, and multiple outcomes (raw and log-transformed proteinuria, ET-1, IgG, RBP), subgroup analyses by losartan use, and several correlation/multivariate models are reported, allowing scope for selective reporting.",
+        "evidence_quote": "\"Thus, we investigated (1) whether pravastatin administration was effective in reducing proteinuria... (2) the add-on effect of pravastatin... and (3) whether renoprotection is mediated by inhibiting renal ET-1 synthesis.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled randomized trial has low risk for missing data and outcome measurement, but the random sequence generation method is undescribed, the analysis excluded 3 randomized patients rather than being intention-to-treat, and there is no pre-registration/pre-specified analysis plan despite multiple reported outcomes and subgroup analyses. The overall judgment is therefore 'some concerns', driven by domains 1, 2 and 5."
+  },
+  {
+    "paper_id": "manual:fb6800e9",
+    "paper_title": "4f056626_10641969909070853",
+    "design_classification": "randomized",
+    "design_rationale": "The paper states participants meeting cholesterol criteria \"were randomly assigned to the pravastatin and placebo groups\" in a multicenter trial, indicating explicit random allocation (albeit open-label).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "No description of sequence generation or allocation concealment, unequal group sizes (25 vs 32), and clinically important baseline imbalances (mean age 49.5 vs 58.5 years; baseline Scr 1.6 vs 1.3 mg/dl; BUN 26.2 vs 20.5 mg/dl) on the key prognostic/outcome variable, suggesting the randomization may have failed.",
+        "evidence_quote": "\"Since the baseline Scr was different between groups (see results), slope of the change in 1/Scr (dl\u00b7mg-1\u00b7month-\u00b9) was calculated in individuals and compared between groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly an open (unblinded) trial despite a \"placebo\" comparator, co-interventions (varied dihydropyridine agents, steroids, antiplatelet drugs) were permitted, and 5 of 62 registered subjects were excluded after the study with no intention-to-treat analysis described.",
+        "evidence_quote": "\"The study was a multicenter open trial.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial and variable missing data across outcomes (e.g., total cholesterol analysed in only 20/25 placebo and 17/32 pravastatin patients; Ccr in 17 and 26; urinary protein in 17 and 19; Scr/BUN in 23 and 28), with no analysis or sensitivity assessment addressing missingness.",
+        "evidence_quote": "\"Several subjects discontinued the study; three cases due to poor compliance to visit the clinic or to take the medication, one with metastatic lung cancer, and one with a change in antihypertensive drug treatment.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes are objective laboratory measures (Scr, BUN, lipids) unlikely to be influenced by assessor knowledge, but the trial was open-label, multicentre with differing creatinine assays (Jaffe vs enzymatic), and no central/blinded laboratory assessment is described.",
+        "evidence_quote": "\"serum creatinine (Scr) \u22651.2 mg/dl and <2.5 mg/dl by Jaffe method or \u22650.9 mg/dl and <2.2 mg/dl by the enzymatic method\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol/pre-registration or pre-specified primary outcome; many outcomes were measured and an alternative analysis (slope of 1/Scr) was devised post hoc after observing baseline imbalance, and the abstract reports Scr difference as significant (p=0.05) whereas the Results report the same comparison as a non-significant trend (P&lt;0.1).",
+        "evidence_quote": "\"The increase in Scr in the placebo group tended to be greater than that in the pravastatin group (F = 3.75, P<0.1).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by an undescribed randomization process with marked baseline imbalance in the primary renal outcome, substantial and differential missing outcome data, and evidence of selective/post hoc analysis reporting (inconsistent abstract vs results significance for the Scr comparison). The open-label design and permitted co-interventions add further concern."
+  },
+  {
+    "paper_id": "manual:2e18c826",
+    "paper_title": "c1a46c90_ajkd.2003.50140",
+    "design_classification": "randomized",
+    "design_rationale": "After a 12-month run-in on ACE inhibitors/ARBs, patients were explicitly allocated by randomization to atorvastatin or no atorvastatin: \"At the end of 12 months of antihypertensive therapy, patients were randomly selected blindly to receive either atorvastatin (group A) or no atorvastatin (group B)\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no method of sequence generation or allocation concealment is described, and the perfectly balanced group sizes and identical sex distributions (28 vs 28; \"Each group included 19 men and 9 women\") raise questions about the allocation mechanism, although reported baseline variables were similar.",
+        "evidence_quote": "\"At the end of 12 months of antihypertensive therapy, patients were randomly selected blindly to receive either atorvastatin (group A) or no atorvastatin (group B)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label with an untreated (no placebo) control, so patients and treating physicians knew the assignment and could alter co-interventions or adherence; although antihypertensive/antiplatelet drug use was reported as similar between groups, no intention-to-treat analysis, adherence data, or handling of dose-titration deviations is described.",
+        "evidence_quote": "\"This is a controlled, prospective, open-label study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 56 enrolled patients appear accounted for in the two groups of 28, but there is no participant flow information, no statement about withdrawals/losses over the 2-year follow-up, and no description of how any missing laboratory values were handled.",
+        "evidence_quote": "\"Fifty-six patients with mild to moderate chronic kidney disease, proteinuria, and hypercholesterolemia were enrolled in this study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes (24-hour urine protein excretion and creatinine clearance) are laboratory-based and measured identically in both groups, but the open-label design means neither patients (who performed the 24-hour urine collections) nor investigators/assessors were blinded, and no blinded laboratory assessment is reported.",
+        "evidence_quote": "\"Serum lipids, proteinuria, and creatinine clearance were measured after 3, 6, 9, and 12 months after the initiation of the therapy with atorvastatin.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No pre-registered protocol or analysis plan is available, and the reported proteinuria results are internally inconsistent (abstract 2.0\u21921.8, text 2.1\u21921.86, Table 2 medians 2.6\u21922.2; control decline reported as \"P value not significant\" in the abstract but \"P < 0.01\" in the text), with proteinuria presented variably as means and medians, indicating flexible/selective reporting of outcome measurements and analyses.",
+        "evidence_quote": "\"urinary protein excretion decreased only from 2.1 \u00b1 0.1 to 1.86 \u00b1 0.1 g every 24 hours (-10%; P < 0.01...)\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the selective/inconsistent reporting of the primary proteinuria outcome (conflicting values and p-values across abstract, text and tables, with no pre-specified protocol). This is compounded by some concerns in all other domains: an unspecified randomization/concealment method, an open-label no-treatment control without placebo or ITT analysis, and no participant flow or missing-data reporting."
+  },
+  {
+    "paper_id": "manual:ccb289ba",
+    "paper_title": "b79b2862_bf00400731",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states participants were allocated by block randomization to lovastatin or placebo: \"The patients were randomly assigned by block randomization in a single-blind fashion to receive treatment with either lovastatin or placebo.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Block randomization was used and baseline characteristics were comparable (all p > 0.15), but the sequence generation method and allocation concealment are not described, and the single-blind design (investigators aware) raises concern about concealment.",
+        "evidence_quote": "The patients were randomly assigned by block randomization in a single-blind fashion to receive treatment with either lovastatin or placebo"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Only single blinding (patients blinded, caregivers/investigators unblinded) with dose titration based on cholesterol and concurrent adjustment of antihypertensive and glycaemic therapy, which could be influenced by knowledge of allocation; analysis appears to be of completers only rather than intention-to-treat.",
+        "evidence_quote": "Lovastatin was started at 20 mg/day given as a single evening dose, and increased by 20 mg/day at 6-week intervals if fasting total cholesterol remained above 5.2 mmol/l... Dosage of drugs for the treatment of diabetes and hypertension was adjusted to maintain good glycaemic and blood pressure control."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 2 of 36 patients withdrew (5.6%), for reasons unrelated to the outcome (occupational change and emigration), so missingness is unlikely to bias results.",
+        "evidence_quote": "Two patients withdrew from the study after 3 and 6 months, respectively \u2013 one could not attend the frequent follow-up due to a change in occupation and another emigrated."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes (Cr51-EDTA GFR, serum creatinine, 24-h protein) are objective laboratory measures applied identically to both groups, but outcome assessors/investigators were not blinded (single-blind) and 24-h urine collection adequacy depends on unblinded staff supervision.",
+        "evidence_quote": "Glomerular filtration rate (GFR) was measured using $Cr^{51}$ -EDTA at 0, 12 and 24 months as described previously"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No pre-registered protocol or pre-specified primary outcome is reported, multiple renal and lipid outcomes are presented, and the key conclusion rests on within-group (vs baseline) significance rather than a pre-specified between-group comparison \u2014 all between-group renal comparisons were non-significant, suggesting selective emphasis of favourable analyses.",
+        "evidence_quote": "There was no significant difference in GFR, serum creatinine or 24-h urinary protein excretion between the two groups at baseline (Table 1), 12 months or 24 months. GFR decreased in the placebo group (p < 0.05, F = 3.92) but showed no significant reduction in the lovastatin patients"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "This small single-blind randomized trial (n=34) has high risk of bias driven mainly by selective reporting: no pre-specified protocol/primary outcome is described and the headline conclusion of retarded nephropathy progression rests on within-group changes from baseline, while all between-group renal comparisons were non-significant. Additional concerns arise from undescribed allocation concealment, single (not double) blinding with concurrent treatment adjustments, and completer-only analysis."
+  },
+  {
+    "paper_id": "manual:e06c633b",
+    "paper_title": "6f74a87e_internalmedicine.47.1159",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of CKD patients to rosuvastatin vs. non-rosuvastatin arms: \"A 12-month, prospective, randomized study was designed...\" and \"All patients who met the eligibility criteria were randomly assigned to two groups,\" though the method of sequence generation is not described.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "No description of sequence generation or allocation concealment is given, the stated allocation is internally inconsistent (50 \"randomly selected\" patients in two groups of 25 vs. final 22/16 with unequal, unexplained attrition), and a baseline imbalance in a key prognostic variable (eGFR) was statistically significant, with RLP-C also visibly imbalanced.",
+        "evidence_quote": "\"Fifty CKD patients were randomly selected for this study and divided into two groups (25 patients \u00d7 2 groups). However, 3 patients in group A did not complete the study protocol and 9 patients in group B took different stains for treatment.\" ... \"eGFR in group A was significantly lower (50.7\u00b118.7 mL/min/1.73 m2) than those (54.9\u00b110.6 mL/min/1.73 m2) in group B (p<0.05).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The trial was open-label with no placebo (control arm simply received no lipid-lowering drug), 9 of 25 originally allocated control patients deviated by taking other statins and were excluded rather than analysed as randomized, so the analysis was clearly not intention-to-treat and the per-protocol approach is likely to bias the effect estimate.",
+        "evidence_quote": "\"9 patients in group B took different stains for treatment... group B included 16 patients who did not take lipid-lowering drugs.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Although the paper states all analysed patients completed follow-up, 12 of the 50 originally randomized patients (24%) are absent from the analysis with differential loss between arms (3 in A vs. 9 in B) and no reasons, sensitivity analysis, or evidence that missingness was unrelated to outcome.",
+        "evidence_quote": "\"All patients from group A and group B completed the study.\" (yet 50 were randomized and only 38 analysed)"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Lipids, hs-CRP, eGFR and adiponectin are objective laboratory measures, and IMT was reportedly read blinded; however, IMT is operator-dependent, all measurements were made by a single examiner with no reliability data, and participants were unblinded, so outcome ascertainment cannot be fully verified.",
+        "evidence_quote": "\"All measurements were made by the same examiner under blind conditions.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration, protocol or pre-specified primary outcome is mentioned; many outcomes (lipid fractions, eGFR, U-P, hs-CRP, ADPN, IMT) are reported, and the analysis emphasises within-group baseline-to-12-month paired comparisons rather than between-group comparisons, a flexible analytic choice that inflates apparent treatment effects.",
+        "evidence_quote": "\"We assessed differences between baseline and 12 month values using the t test for paired data... \\*p<0.01, \\*\\*p<0.001 vs. baseline values.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by an undescribed and internally inconsistent randomization process with significant baseline eGFR imbalance (D1), an open-label design with exclusion of 9 deviating control patients and no intention-to-treat analysis (D2), 24% unexplained differential attrition from the randomized sample (D3), and absence of any protocol/registration combined with reliance on within-group paired comparisons across many outcomes (D5). These problems, compounded by the very small sample, mean the reported anti-atherosclerotic and renoprotective effects of rosuvastatin cannot be considered reliable."
+  },
+  {
+    "paper_id": "manual:f1df43d8",
+    "paper_title": "6b1e4295_j.1523-1755.2005.00457.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective, parallel, double-blind, placebo-controlled randomized trial with patients randomized to pravastatin 10 mg or placebo, followed by a second randomization of pravastatin-treated patients to continue or withdraw the drug.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation appears concealed (coded drug packaging, sealed envelopes) and baseline characteristics were well balanced, but the method of generating the random sequence (and of the second, withdrawal randomization) is never described.",
+        "evidence_quote": "\"Each patient received a randomized code number, according to which the study assistant supplied the study drug. Special drug packaging was used to maintain blindness of treatment. A sealed envelope, with information on the treatment allocated, was kept in the clinical file of each patient.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind design with placebo and good compliance supports low deviation risk in the first phase, but no intention-to-treat analysis is described (analyses appear to be of completers only, with 6 placebo patients lost by 12 months) and blinding in the withdrawal phase is not clearly stated.",
+        "evidence_quote": "\"This study was conducted prospectively in a parallel, double-blind, randomized, and controlled manner... Patient compliance with the treatment was >80% by pill count\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "42 pravastatin patients at 6 months become only 36 (19+17) re-randomized, and placebo drops from 40 to 35, yet reasons for and handling of these losses are not reported or analysed for bias.",
+        "evidence_quote": "\"patients treated with placebo (N = 40 at 6 months, N = 35 at 12 months), pravastatin for 6 months but subsequent discontinuing for 6 months (N = 17), and pravastatin for 12 months (N = 19)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Proteinuria and urinary ET-1 are objective laboratory measures obtained identically in both groups under double-blind conditions, making assessor influence unlikely.",
+        "evidence_quote": "\"Twenty-four\u2013hour urine samples for the determination of proteinuria were provided by patients carefully instructed in proper collection methods... ET-1 was measured by immunoassay (R&D Systems Inc.)\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome or sample-size calculation is reported, and multiple outcomes, transformations and regression analyses are presented, leaving scope for selective reporting.",
+        "evidence_quote": "\"The relationship between the decline of proteinuria after the statin withdrawal and the influencing factors such as patient age, gender, hypertension duration, lipid profiles, and statin use were evaluated using linear and multiple regression analysis\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled randomized trial used objective laboratory outcomes with balanced baseline groups, but the random sequence generation is undescribed, participant attrition between the two phases is unexplained with no intention-to-treat analysis, and there is no pre-registration/protocol to rule out selective reporting. No domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:45895354",
+    "paper_title": "c1b4054a_jdi-120039826",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that after a 4-week run-in period patients were \"randomly allocated\" to fluvastatin plus diet or diet alone for 48 weeks, indicating random allocation to parallel groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is asserted but no method of sequence generation or allocation concealment is described; baseline comparability is reported, which is reassuring, but concealment in an open-label design cannot be verified.",
+        "evidence_quote": "\"After a 4-week run-in period, patients were randomly allocated to receive fluvastatin 20 mg/day and dietary therapy (group F), or dietary therapy alone (nontreated group N), for a period of 48 weeks.\" ... \"Table 1 shows that the baseline characteristics of the two groups were not significantly different.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label with no placebo, so patients and clinicians knew allocation (potentially affecting dietary adherence and co-medication in the diet-only arm), and the analysis was per-protocol (80 of 88 randomized) rather than intention-to-treat.",
+        "evidence_quote": "\"This was an open-label, prospective study.\" ... \"Four patients in group F and 4 patients in group N discontinued the study due to protocol infringements or noncompliance. ... The final analyses were carried out on 80 patients.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 8 of 88 randomized patients (9%, balanced: 6 in group F vs 5 in group N including withdrawals for dizziness) were lost, with reasons given and similar across arms, making bias from missingness unlikely despite the absence of imputation or sensitivity analysis.",
+        "evidence_quote": "\"Of the 88 patients initially enrolled ... Four patients in group F and 4 patients in group N discontinued the study due to protocol infringements or noncompliance. Two patients in group F and 1 patient in group N withdrew due to dizziness.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes are objective laboratory measures (lipids, creatinine clearance, creatine kinase, myoglobin) obtained with standardized autoanalyzer/immunoassay methods identically in both groups, so lack of blinding is unlikely to bias them; the subjective adverse-event ascertainment is a minor exception.",
+        "evidence_quote": "\"Routine hematological and biochemical parameters were analyzed with an autoanalyzer (Hitachi 7250, Hitachi, Tokyo, Japan). ... Myoglobin level was determined by an immunoradiometric assay.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol is cited and no single primary outcome is designated; many outcome domains (multiple lipid fractions, renal indices, several muscle enzymes) at five time points were analyzed, so selective reporting from multiple eligible outcomes/analyses cannot be excluded, although an a priori power calculation for total cholesterol is reported.",
+        "evidence_quote": "\"Based on previous studies, it was estimated that the cholesterol-lowering therapy would induce a difference in serum total cholesterol of 1 mmol/L (15%) with SD of 2 mmol/L compared to control group. Then a sample size of 32 per group would provide 80% power with a error of 5%.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is \"some concerns\": the trial used objective laboratory outcomes with minimal and balanced attrition, but the randomization and allocation-concealment methods are undescribed, the design was open-label with no placebo and a per-protocol (non-ITT) analysis, and there is no pre-registered protocol defining a single primary outcome among the many reported."
+  },
+  {
+    "paper_id": "manual:40f791ca",
+    "paper_title": "7998d184_ndt%2F17.5.798",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that the 40 hypercholesterolaemic CGN patients were \"randomly assigned to one of two groups\" receiving cerivastatin 0.15 mg/day or placebo for 6 months, indicating a randomized placebo-controlled parallel-group trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no details of sequence generation or allocation concealment are given, although reported baseline characteristics (blood pressure, creatinine, lipids, proteinuria, podocytes) did not differ significantly between groups.",
+        "evidence_quote": "\"The 40 patients with CGN and hypercholesterolaemia were randomly assigned to one of two groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "A placebo comparator suggests participant blinding, but the paper never states that patients or treating clinicians were blinded, reports no adherence/co-intervention data, and gives no information on whether analysis followed intention-to-treat.",
+        "evidence_quote": "\"those treated with 0.15 mg/day cerivastatin ... and those treated with placebo ... for 6 months\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Analyses appear to include all 20 patients per group with no reported withdrawals, but there is no explicit flow of participants, no statement about dropouts or missing 24-h urine collections over the 6-month follow-up.",
+        "evidence_quote": "\"We randomly assigned 40 normotensive hypercholesterolemic patients with CGN to receive either cerivastatin 0.15 mg/day (n=20) or placebo (n=20)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory measures (lipids, Lowry-method proteinuria) assessed identically in both arms, and the key podocyte count was quantified by three pathologists blinded to group.",
+        "evidence_quote": "\"Quantitative analysis was performed by three different pathologists in a blind fashion.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, and multiple outcomes and time points were analysed with repeated t-tests, leaving potential for selective reporting.",
+        "evidence_quote": "\"Plasma total cholesterol, HDL-cholesterol, LDL-cholesterol and triglycerides, urinary protein excretion and the number of podocytes were measured before treatment and at 3 and 6 months after treatment.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small placebo-controlled randomized trial used objective, blindly assessed outcomes, but reporting is sparse: no details on sequence generation/allocation concealment, blinding of participants and clinicians, adherence, participant flow/dropouts, or a pre-specified protocol. These information gaps across four domains yield an overall judgment of some concerns, with no single domain reaching high risk."
+  }
+]

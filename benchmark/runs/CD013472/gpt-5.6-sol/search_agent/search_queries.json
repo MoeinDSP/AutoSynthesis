@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of music or voice interventions (recorded music, live singing, parental voice or lullabies, with or without kangaroo care or skin-to-skin contact), compared with standard care or no music, on heart rate during the intervention in preterm infants (born before 37 weeks of gestation)?  Effect measure: pool as a mean difference (MD) in beats per minute (bpm) using the same pooling model the pipeline provides; report fixed-effect and random-effects estimates if both are available. MD < 0 means a lower heart rate with music (favours music).  Outcome: heart rate measured during the intervention session (while the music or voice is being delivered), extracted as the mean, SD and number of infants per arm. - Use heart rate recorded during the session. Do not use heart rate before the session, immediately after it, or at a later follow-up. - If a study reports both final values during the intervention and change from baseline, prefer the final value during the session. If only change from baseline is reported (mean change and SD of change), use those for both arms, and record that change scores were used. Do not mix a final value in one arm with a change score in the other. - If variability is reported as SE or SEM, convert to SD = SE \u00d7 \u221an. Check table footnotes for whether \"\u00b1\" is SD or SE. - Heart rate must be in beats per minute; convert from other units if necessary. - Control: standard care, usual NICU environment, silence or no music. Exclude trials whose control is another active intervention. - If several music conditions are compared with one control (for example live and recorded music), combine them into one group or split the shared control equally among the comparisons so control infants are not counted twice. - Cross-over trials: if a paper reports results from the first period only, use that. If only combined paired data are reported, use the reported means and SDs and state that the data came from a cross-over design. - Use the number of infants randomised or analysed as reported, and assign arms by treatment description, not by column position. - Include only randomised controlled trials of preterm infants. Exclude trials in term infants or older children, studies without a standard-care or no-music control, and non-randomised studies.  Do not pool oxygen saturation, respiratory rate, pain scores, weight gain, length of stay, sleep, feeding or neurodevelopmental outcomes, or heart rate outside the intervention period.",
+  "planned_search_queries": [
+    "preterm infant music heart rate randomized trial",
+    "premature neonate parental voice lullaby heart rate controlled",
+    "preterm NICU live singing recorded music heart rate experiment"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "preterm infants music intervention heart rate trial",
+    "premature neonates live singing heart rate controlled study",
+    "preterm NICU recorded music lullaby heart rate experiment",
+    "preterm infants parental voice heart rate comparison",
+    "premature infants music kangaroo care skin-to-skin heart rate trial"
+  ]
+}

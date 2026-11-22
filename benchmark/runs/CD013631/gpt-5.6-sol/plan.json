@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people with chronic kidney disease of any stage, including diabetic nephropathy and dialysis populations, what is the effect of single-strain or multi-strain probiotic supplements or probiotic-containing foods, compared with placebo or no treatment, on end-of-treatment serum creatinine after approximately 8 to 24 weeks of treatment?",
+  "treatment_label": "Probiotics (single-strain or multi-strain supplements or probiotic-containing foods such as probiotic yoghurt, soy milk, or honey)",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Serum creatinine in mg/dL at the end of treatment, using the last assessment within 8 to 24 weeks. Extract mean, SD, and analysed participant count per arm. Prefer end-of-treatment values when reported; if only arm-level change from baseline is available, use mean change and SD of change for both arms and flag the study as using change scores. Never combine an end value from one arm with a change score from the other. Define change as end minus baseline and preserve negative signs. Convert \u00b5mol/L to mg/dL by dividing by 88.4, recording the original unit and conversion. Convert SE/SEM to SD as SD = SE \u00d7 sqrt(n), after checking table footnotes to establish whether \u00b1 denotes SD or SE. Assign arms from their definitions rather than column order and document any inferred headings. For multi-arm trials, combine eligible probiotic arms using standard pooled mean/SD formulas, compare them with the eligible placebo/no-treatment arm, and omit arms receiving other supplements. Do not include GFR/eGFR, albuminuria/proteinuria, inflammatory markers, lipids, glucose, microbiota outcomes, or adverse events.",
+  "positive_direction": "For standardized effects, a positive Hedges g means lower serum creatinine with probiotics and therefore favors probiotics; for the requested untransformed mean difference calculated as probiotic minus control, values below 0 mg/dL favor probiotics.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "probiotic chronic kidney disease randomized trial serum creatinine",
+    "probiotic dialysis controlled trial creatinine",
+    "probiotic diabetic nephropathy randomized creatinine"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling people with chronic kidney disease at any stage, including diabetic nephropathy and dialysis populations.",
+    "Trials comparing an eligible probiotic supplement or probiotic-containing food with placebo or no treatment for approximately 8 to 24 weeks.",
+    "Trials reporting serum creatinine with sufficient quantitative data at an eligible end-of-treatment assessment, or change-from-baseline data when end values are unavailable, to calculate a mean difference."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible comparison between a probiotic treatment and placebo or no treatment, including comparisons only between two probiotics.",
+    "No quantitative serum-creatinine outcome data capable of producing an effect size, such as arm-level means with SDs or convertible SEs/SEMs and sample sizes, or other statistics from which these can be derived.",
+    "Completely unrelated to the research topic, including participants without kidney disease; also exclude prebiotic-only or synbiotic interventions."
+  ],
+  "moderators_to_extract": [
+    "CKD stage and population type, including non-dialysis, haemodialysis, peritoneal dialysis, and diabetic nephropathy",
+    "Probiotic format, including capsule/powder versus probiotic-containing food",
+    "Strain composition, including single-strain versus multi-strain, species/strains, dose, and viable count",
+    "Treatment duration and exact assessment week selected within the 8-to-24-week window",
+    "Comparator type, including placebo versus no treatment",
+    "Outcome-data form and data processing, including end values versus change scores, original unit/conversion, and SD versus converted SE/SEM"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool the unadjusted mean difference in serum creatinine (probiotic minus control) in mg/dL using a random-effects model; MD < 0 favors probiotics. Use each study's last assessment within 24 weeks provided treatment duration is approximately 8 to 24 weeks. Prefer end-of-treatment mean and SD; use arm-level mean change and SD of change only when end values are unavailable, and never mix end and change data across arms. Preserve the sign of change scores (end minus baseline). Convert \u00b5mol/L to mg/dL using value \u00f7 88.4 and record original units. Convert SE/SEM to SD using SD = SE \u00d7 sqrt(n), verifying table footnotes. Determine arm identity from group definitions, not column position, and explicitly record any inferred headings. For multiple eligible probiotic arms, combine their means and SDs with standard Cochrane formulas while avoiding double counting of controls; ignore ineligible cointervention arms. Assess heterogeneity with tau\u00b2 and I\u00b2, report the pooled MD with 95% CI, conduct sensitivity analyses for change-score studies and studies requiring unit/variance conversion or inferred arm labels, and assess small-study effects only if enough studies are available.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serum creatinine"
+}

@@ -1,0 +1,876 @@
+[
+  {
+    "paper_id": "manual:5dd7aac4",
+    "paper_title": "110ec775_ana.0000000000000603",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated to control or ESP block groups using a computer-generated random table: \"Participants were randomly allocated to 1 of 2 groups using a computer-generated random table.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used and baseline characteristics were well balanced, but there is no description of allocation concealment (e.g., sealed opaque envelopes or off-site allocation).",
+        "evidence_quote": "\"Participants were randomly allocated to 1 of 2 groups using a computer-generated random table\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "No sham block was used and patients, clinicians and investigators were all unblinded, so awareness of allocation could influence rescue morphine administration and the subjective outcomes; the authors themselves acknowledge this bias.",
+        "evidence_quote": "\"The major limitation of this study is that patients, surgeons, anesthesiologists, and investigators could not be blinded to the intervention; this may have added an element of bias.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 40 randomized patients completed the study with no attrition reported.",
+        "evidence_quote": "\"Forty patients were randomly assigned to either the control or ESP block (test) groups, and all completed the study\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The postoperative assessor was stated to be unaware of group assignment and morphine consumption is a fairly objective outcome, but the absence of a sham block means patients (who self-report pain and satisfaction and request rescue analgesia) knew their allocation, and the stated blinding of assessors conflicts with the limitation that investigators could not be blinded.",
+        "evidence_quote": "\"Patients were observed for 24 hours after surgery in the postanaesthesia care unit by an anesthesiologist who was not aware of the patients group assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (CTRI/2018/02/012143) with a clearly stated primary outcome, but the registry protocol was not referenced for analysis plans and some reported numbers are internally inconsistent (e.g., P = 0.002 in abstract vs. <0.0001 in tables; a 10-h pain time point not listed in the methods), raising mild concern about selective reporting.",
+        "evidence_quote": "\"registered with the clinical trial registry, India (CTRI/2018/02/012143)\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization produced balanced groups with no missing outcome data, the complete absence of blinding (no sham block for patients, clinicians or investigators) means that rescue opioid administration, pain scores and satisfaction\u2014all key outcomes\u2014could have been influenced by knowledge of allocation. This high-risk domain, together with unreported allocation concealment and minor reporting inconsistencies, yields an overall high risk of bias."
+  },
+  {
+    "paper_id": "manual:a46c74cd",
+    "paper_title": "a43ae6e6_comparison-of-ultrasound-guided-lumbar-erector-spinae-plane",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states patients were allocated to three groups using \"simple randomization using the sealed envelope technique,\" with trial registration (NCT03508544) and a CONSORT flow diagram.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization with sealed envelopes is reported and baseline demographics/surgery types were balanced, but the envelopes are not described as opaque/sequentially numbered and the sequence generation method is unspecified; notably the three groups ended up with exactly equal n=20 and identical distributions of surgery types (4/4/4 nails), which is unusual for \"simple randomization\" and raises concern about allocation concealment.",
+        "evidence_quote": "Group assignments were determined using simple randomization using the sealed envelope technique."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blocks were performed under general anesthesia by operators not involved in data collection, so patients were blinded between block groups; however, the control group received no sham block, so care providers were aware of group status and the no-block comparison is unblinded at the provider level, and no intention-to-treat analysis statement is given (analysis appears per-protocol of the 60 allocated patients with no post-randomization exclusions reported).",
+        "evidence_quote": "Patients underwent the same surgical procedures but received no block. The same preoperative and postoperative analgesia protocols were performed in this group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 12 exclusions occurred before allocation (anesthesia technique, neurological pathology, chronic opioid use) and complete 24-hour data are reported for all 60 allocated patients (20 per group) with no dropouts described.",
+        "evidence_quote": "After exclusion, 60 patients were allocated to three equal groups (control, L\u2011ESB and QLB\u2011t). ... All procedures were completed uneventfully and no complications due to L\u2011ESPB, QLB\u2011t or general anesthesia were observed."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "NRS is an appropriate, validated pain measure collected at identical time points and data collectors/analyst were reported blinded, but the primary outcome is patient-reported and control patients received no sham procedure, so awareness of not having received a block (and provider awareness when administering rescue analgesia, a co-primary/secondary outcome) could influence reporting; the authors also concede the outcome choice was suboptimal.",
+        "evidence_quote": "We determined a decrease in the NRS score in different frames as the primary outcome in our study. This can be regarded as a methodological problem."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT03508544) and Bonferroni correction was applied, but the primary outcome is defined as NRS at 10 separate time points (a multiple-operationalization outcome, listed inconsistently between the Methods and Results, e.g. the 9th hour is omitted from the outcome list), the analysis plan mixes several tests, and the authors acknowledge post hoc reconsideration of the primary outcome, so selective reporting from multiple eligible measurements cannot be excluded without the registry protocol.",
+        "evidence_quote": "Primary outcome measures were postoperative NRS pain score at 30th min, and 1st, 3rd, 6th, 12th, 15th, 18th, 21st, and 24th h both at rest."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered, prospectively randomized three-arm trial had complete outcome data and blinded data collection/analysis, but it raises some concerns in four domains: incompletely described sequence generation/concealment with implausibly perfect group balance, an unblinded no-sham control arm affecting a patient-reported pain outcome and clinician-administered rescue analgesia, and a primary outcome defined across 10 time points without a clearly pre-specified single analysis. No domain reached high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:e52ccc33",
+    "paper_title": "9dfedccf_efficacy-of-single-shot-ultrasound-guided-erector-spinae",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective, randomized, single-blinded trial with computer-generated allocation (\"Computer generated randomization was performed for both groups (www.random.org)\") and prospective CTRI registration.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "An adequate random sequence generation method is described and baseline characteristics were comparable, but no allocation concealment mechanism (e.g., sealed opaque envelopes, central allocation) is reported.",
+        "evidence_quote": "\"Computer generated randomization was performed for both groups (www.random.org). Patients were randomized to receive either a single-shot US-guided ESPB (ESP group) or no intervention (control group).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No sham block was used, so anaesthetists/care providers (and potentially patients) knew group allocation, which could influence intraoperative fentanyl and rescue morphine administration decisions; analysis was per-protocol (2 re-explored patients excluded) rather than strictly intention-to-treat, though the exclusions were few and balanced.",
+        "evidence_quote": "\"Being a single-blind study, there was no sham block performed in the control group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 100/102 enrolled patients (98%), with one exclusion from each group for a reason unrelated to the intervention, making bias from missing data unlikely.",
+        "evidence_quote": "\"Two patients were excluded as they underwent re-exploration for surgical site bleeding. Finally, 100 patients (50 in each group) were analyzed.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Morphine consumption is an objective count, but it is driven by subjective patient-reported VAS and clinician decisions in an unblinded (no sham) setting, and the paper does not state that outcome assessors were blinded to allocation.",
+        "evidence_quote": "\"The visual analogue scale (VAS) was used to assess pain postoperatively... Intravenous morphine was used as rescue analgesic in both groups, if the VAS score was more than 4\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with pre-specified primary (24 h morphine) and secondary (PONV) outcomes, but the registry protocol/analysis plan was not available for comparison and there are internal inconsistencies in reported values (abstract reports control morphine 1.70\u00b12.29 mg vs Table 3 1.10\u00b12.29 mg; fentanyl 142.20 vs 145.20 \u00b5g), raising concerns about reporting accuracy.",
+        "evidence_quote": "\"The trial was registered prospectively with CTRI with registration number: CTRI/2018/09/015668.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospectively registered RCT used computer-generated randomization with balanced baseline characteristics and near-complete outcome data, but allocation concealment is unreported, no sham block was used (so providers deciding opioid dosing were unblinded), outcome assessor blinding is not described, and reported numbers are internally inconsistent between the abstract and tables. These issues yield four domains at \"some concerns\" and an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:d00ca3ee",
+    "paper_title": "82953bbd_end.2019.0777",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a prospective randomized controlled trial in which 60 PCNL patients were allocated to ESPB (n=30) or conventional analgesia (n=30) using a computer-generated list (\"Randomization was performed using a computer-based list before the operation\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated allocation sequence was used, but no allocation concealment mechanism (e.g., sealed opaque envelopes, central allocation) is described, and the authors themselves flag a sex-distribution imbalance between groups (12/18 vs 19/11) that they consider relevant to pain perception.",
+        "evidence_quote": "\"Randomization was performed using a computer\u2010based list before the operation.\" ... \"Another limitation was that there was a significant differences in term of sex distrubation between the groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The block was performed after induction of general anaesthesia and patients/observer were reportedly blinded, but without a sham injection the control patients' and treating clinicians' awareness of assignment cannot be excluded, and no intention-to-treat/analysis-population statement is provided.",
+        "evidence_quote": "\"we did not have a sham block group due to ethical considerations\" ; \"All patients and an independent observer who was responsible for follow\u2010up during 24 postoperative hours were blinded to the randomization groups.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Data appear complete for all 30 patients per group at every time point, but there is no CONSORT flow diagram and \"missing data\" and \"patient withdrawal\" are listed as exclusion criteria, so post-randomization exclusions cannot be ruled out.",
+        "evidence_quote": "\"The exclusion criteria were ... missing data, and patient withdrawal from the study.\" ; \"The patients were randomly assigned to the ESPB (n = 30) and CA (n = 30) groups.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "VAS is an appropriate and uniformly applied pain measure recorded by a blinded independent observer, but the primary outcome is entirely patient-reported and, in the absence of a sham block (and with possible sensory numbness/dressing cues), patient blinding may have been incomplete.",
+        "evidence_quote": "\"The VAS scores were recorded at hours 0, 1, 6, 12 and 24 by an independent observer in accordance with the patients\u2019 reports.\" ; \"we did not have a sham block group\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary endpoints are stated and all appear reported, but there is no prospective trial registration or published protocol, no a priori sample-size calculation, and pain was analysed at multiple time points plus an aggregated \"total/median\" score, leaving scope for selective reporting of analyses.",
+        "evidence_quote": "\"A decrease in the pain score was the primary endpoint of our study. Our secondary endpoints were the determination of time to first rescue analgesic, rates of tramadol and paracetamol use, length of hospital stay, and postoperative stone\u2010free rates.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This single-centre RCT used computer-based randomization and a blinded independent observer, but allocation concealment is undescribed, there was an acknowledged sex imbalance between groups, no sham block was used for the subjective patient-reported primary outcome, and there is no prospective registration/protocol or sample-size calculation. No single domain reaches 'high' risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:49445681",
+    "paper_title": "ae39991b_eng",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 50 patients to ESPB vs. control using sequentially numbered opaque sealed envelopes, with prospective trial registration (NCT03415646).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation concealment was addressed with sequentially numbered opaque sealed envelopes (citing a methodological guide), and baseline demographics, ASA class, surgery type and duration were well balanced (all p>0.4), consistent with chance; only the sequence-generation method itself is unstated.",
+        "evidence_quote": "\"Sequentially numbered opaque sealed envelope technique was used for randomization and patients were randomized to one of the two groups as ESPB group and Control group.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No sham block was given, so patients (and perioperative staff) could know the assigned condition, which in a trial whose main outcome is patient-triggered PCA morphine use introduces possible performance/placebo effects; however, anesthesia and rescue-analgesia protocols were standardized and all 25+25 randomized patients appear to have been analyzed as assigned.",
+        "evidence_quote": "\"First of all patients were not fully blinded to the study... For observing and comparing the placebo efect it might be better to perform a sham block to control group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 50 enrolled patients (25 per group) contributed NRS and morphine-consumption data at every time point per the CONSORT flow diagram and results tables, with no reported dropouts or exclusions.",
+        "evidence_quote": "\"A total of 50 patients were enrolled in the study (Fig. 2).\" / Tables report \"ESPB group (n=25)\" and \"Control group (n=25)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although the recording nurse and block performers were blinded, the primary outcome (24-h PCA morphine consumption) and NRS scores are self-reported/self-administered by unblinded patients who knew whether they received an injection, so outcome assessment could plausibly be influenced by knowledge of the intervention\u2014an issue the authors themselves flag.",
+        "evidence_quote": "\"the patients might know that whether they had an injection for ESPB or not. For observing and comparing the placebo efect it might be better to perform a sham block to control group.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered before enrollment (NCT03415646) with an a priori sample-size calculation, and the pre-specified primary (24-h morphine consumption) and secondary outcomes (NRS, PONV, side effects) are all reported, including the null NRS and PONV findings.",
+        "evidence_quote": "\"The study was registered prior to patient enrollment with clinicaltrials.gov (NCT03415646) on January 2018.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Despite adequate allocation concealment, complete outcome data, and prospective registration, the absence of a sham block left patients unblinded while the primary outcome (patient-controlled morphine consumption) and pain scores were entirely patient-generated, giving a high risk of bias in outcome measurement (D4) and some concerns about deviations/placebo effects (D2). By the worst-domain convention, the overall risk of bias is high, although the very large 75% opioid-sparing effect is unlikely to be explained by this bias alone."
+  },
+  {
+    "paper_id": "manual:dd3691ae",
+    "paper_title": "54cde7c1_IJA-63-200",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 40 patients to control (GA only) vs ESP block groups: \"Patients were randomly allocated into groups by using computer generated random table. Randomisation was done by statistician\", with prospective trial registration (CTRI/2018/03/012712).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation was computer-based and allocation apparently concealed until the preanaesthetic room, but no concealment mechanism (e.g., sealed opaque envelopes) is described and baseline ASA class distribution differs notably (7/6/7 vs 9/8/3, with ASA III patients reported despite stated ASA I\u2013II eligibility and no P value given).",
+        "evidence_quote": "Patients were randomly allocated into groups by using computer generated random table. Randomisation was done by statistician and group of the patient was revealed only when the included patient was shifted to preanaesthetic room."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Despite being labelled \"double-blind\", there was no sham block and patients (and the intraoperative team) were aware of the assignment, which the authors acknowledge could bias self-reported pain and consequent on-demand morphine use; analysis included all randomised patients, but awareness of condition is highly relevant to these subjective, demand-driven outcomes.",
+        "evidence_quote": "The major limitation of our study was that patients knew they were receiving some intervention to decrease their pain, thus increasing the chance of bias."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for all 40 randomised patients with no loss to follow-up over the 24-hour observation period.",
+        "evidence_quote": "No patients were excluded during the follow\u2011up period; hence, 20 patients per group were included in the final analysis as seen in consort diagram"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The outcome assessor was blinded and morphine consumption is a relatively objective measure, but it is driven by patient-reported NRS and on-demand requests from unblinded patients, and discrepancies in reporting (text says \"three patients\" required morphine while Table 2 reports 2 (20%), and satisfaction scores appear mislabelled) raise concerns about measurement/recording accuracy.",
+        "evidence_quote": "The patients were observed for 24 h after surgery in the postanaesthesia care unit (PACU) by an anaesthesiologist who was not aware of the patients\u2019 group assignment and was not present in operating room complex."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary outcome, but the protocol was not available for comparison and reported results are internally inconsistent (P = 0.01 in abstract vs 0.001 in Table 2; extra NRS time points at 8 and 10 h not listed in the methods; satisfaction medians inconsistent with the stated direction), suggesting some flexibility/inaccuracy in reporting.",
+        "evidence_quote": "The protocol of this study was approved by Institutional Research Committee and prospectively registered in the Clinical Trial Registry, India (www.ctri.nic.in) with identification number CTRI/2018/03/012712."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 2: no sham block was used and patients (and the intraoperative team) were aware of allocation, which the authors themselves flag as a key limitation for subjective pain and on-demand opioid outcomes. Additional some-concerns arise from undescribed allocation concealment with apparent baseline ASA imbalance, and from internally inconsistent reporting of results despite prospective registration and complete follow-up."
+  },
+  {
+    "paper_id": "manual:e2afc867",
+    "paper_title": "3a47f15d_j.jclinane.2018.06.033",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with allocation by sequentially numbered opaque sealed envelopes: \"Randomization was achieved using the sequentially numbered opaque sealed envelope technique (SNOSE)\" and \"Patients were randomized to receive either single-shot ESP block (ESP group) or no intervention (control group).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "An accepted allocation-concealment method (SNOSE, citing Doig & Simpson) was used and baseline demographics, ASA status, surgery type and duration were balanced (Table 1), consistent with chance, though the exact sequence-generation method is not stated.",
+        "evidence_quote": "Randomization was achieved using the sequentially numbered opaque sealed envelope technique (SNOSE) [10]."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and the proceduralists/anesthesiologists were aware of allocation because the control group received no sham injection, and since the primary outcome is patient-controlled morphine self-administration, expectation effects could plausibly have affected the outcome; no ITT/deviation handling is described.",
+        "evidence_quote": "First, it was only a single-blinded study. No sham block group was established... Since patients know whether or not they have received an injection for ESP block, we could not minimize the placebo effect."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 50 randomized patients (25 per group) appear in the analysis tables with no reported dropouts or missing data.",
+        "evidence_quote": "Fifty patients were enrolled in the study... ESP group (n = 25) ... Control group (n = 25)"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Morphine consumption from the PCA device is an objective, identically measured outcome and assessors were blinded, but outcome ascertainment depends on unblinded patients' self-administration behaviour and subjective NRS reporting, which could be influenced by knowledge of receiving a block.",
+        "evidence_quote": "A pain nurse blinded to the study groups was responsible for postoperative follow-up."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes with an a priori power calculation are clearly stated and all appear to be reported, but no trial registration number or pre-specified analysis plan is cited, so selective reporting of analyses cannot be excluded.",
+        "evidence_quote": "Our primary aim was to compare postoperative opioid consumption rates at 24 h. Secondary end points were to compare pain scores, opioid-related side-effects, nausea and vomiting."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation concealment (SNOSE) and complete outcome data support low risk in D1 and D3, but the absence of a sham block means patients (and clinicians) were unblinded, which could influence self-administered PCA morphine consumption and NRS reporting; no prospective registration is cited. These issues yield 'some concerns' in D2, D4 and D5 and an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:bcfac167",
+    "paper_title": "acfb8f7e_j.jclinane.2019.06.036",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of 75 patients into three groups (ESP, PVB, Control) using computer-generated random number tables with sealed opaque envelopes, and is registered as a randomized controlled trial (NCT03480958).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated random sequence with sealed opaque envelopes provided adequate generation and concealment, and baseline demographic, ASA, and surgical characteristics were similar across the three groups (all p > 0.29), consistent with chance.",
+        "evidence_quote": "\"Randomization was performed according to computer-generated random number tables, and allocation to treatment group was done using the sealed opaque envelope technique.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The control group received no sham intervention, so patients (and the block-performing anesthesiologists) were aware of allocation \u2014 a problem the authors themselves acknowledge \u2014 which could influence self-reported pain and PCA morphine demand; no intention-to-treat statement is given, although all 75 randomized patients appear to be analyzed and anesthetic/analgesic protocols were standardized.",
+        "evidence_quote": "\"although this study is planned as a double-blinded study; the control group patients, even they were sedated in the preoperative holding area, could know that they did not receive any intervention.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all randomized participants, with 25 patients analyzed in each of the three groups and a CONSORT flow diagram reported, indicating no attrition after allocation.",
+        "evidence_quote": "\"Data from 75 patients were used in the final analyses.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (PCA morphine consumption) is objective and was recorded identically by a blinded pain nurse, but because control patients could recognize they received no block, the patient-reported NRS scores and self-administered PCA demands could be influenced by knowledge of allocation.",
+        "evidence_quote": "\"A blinded pain nurse performed postoperative follow-up of patients and collected the data. Other researchers who were blinded to the groups were done the analyses of all data.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT03480958) with a clearly pre-specified primary outcome (24-hour morphine consumption) and stated secondary outcomes (morphine at 1/6/12 h, pain scores, PONV), all of which are reported with a pre-planned sample size calculation and analysis plan.",
+        "evidence_quote": "\"Our primary aim was to compare the analgesic effect of these two blocks with a control group ... regarding to morphine consumption at postoperative 24 h. Secondary aims were comparing morphine consumptions at postoperative 1, 6, and 12 h, pain scores, postoperative nausea, and vomiting incidences.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization, outcome completeness, and prospective registration were all well handled, but the absence of a sham procedure in the control group means patients were effectively unblinded, raising concerns for both deviations from intended interventions (D2) and measurement of the subjective/self-administered outcomes (D4). Overall risk is therefore \"some concerns,\" driven by the acknowledged failure of blinding in the no-intervention control arm."
+  },
+  {
+    "paper_id": "manual:4d6461f3",
+    "paper_title": "3937577a_j.jvca.2018.05.050",
+    "design_classification": "randomized",
+    "design_rationale": "The report explicitly describes a \"prospective, randomized, controlled single blinded study\" in which \"Patients were randomized into 2 groups\" (ESP block n=53 vs paracetamol/tramadol n=53), with a CONSORT flow chart.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted and baseline demographic/clinical variables appear balanced (all p>0.1), but no details on sequence generation method or allocation concealment are reported in the available text.",
+        "evidence_quote": "\"A prospective, randomized, controlled single blinded study... Patients were randomized into 2 groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Only single blinding with no sham/placebo block, so caregivers (and probably patients) knew the assignment, and the markedly different co-interventions \u2014 nearly 5-fold higher intraoperative fentanyl and different postoperative analgesic regimens/extubation management in the control group \u2014 represent performance differences beyond the intervention that plausibly affected the pain outcomes.",
+        "evidence_quote": "\"single blinded study\"; \"Intraoperative fentanyl usage(mcg) 149.43\u00b14.97 ... 721.98\u00b118.82 ... 0.0001\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Frequency tables show NRS data for all 53 patients in each group at every timepoint through 12 hours, indicating essentially complete outcome data.",
+        "evidence_quote": "\"0:53 (100%)\" (all 53 patients per group reported at each timepoint); \"Figure 1: CONSORT FLOW CHART\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The NRS is an appropriate but subjective, self-reported outcome, and with only single blinding and no sham procedure both the patients reporting pain and the unblinded assessors could be influenced by knowledge of the intervention; the implausibly uniform results (100% scoring 0/10 for 6 hours) heighten this concern.",
+        "evidence_quote": "\"The primary study outcome was to evaluate pain at rest using 11-point Numeric Rating Scale(NRS)\"; \"single blinded study\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary outcome is clearly stated, but no trial registration or protocol is cited in the available text and many secondary outcomes/time points are reported, so selective reporting cannot be excluded.",
+        "evidence_quote": "\"The primary study outcome was to evaluate pain at rest using 11-point Numeric Rating Scale(NRS).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by the absence of a sham block/double blinding combined with grossly unequal co-interventions (\u22485-fold difference in intraoperative fentanyl and different analgesic protocols), which bias both the delivered intervention and the subjective self-reported NRS outcome. Incomplete reporting of randomization/allocation concealment and lack of a cited protocol add further concerns, though outcome data were complete."
+  },
+  {
+    "paper_id": "manual:72e220a0",
+    "paper_title": "7ff35645_j.jvca.2019.04.026",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states patients were allocated using a computerized randomization program: \"The patients were divided into 2 groups of 30 patients each using a randomizing computer program,\" and reports a CONSORT flow diagram, indicating a parallel-group randomized trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-based random sequence was used and baseline characteristics were balanced, but no allocation concealment mechanism (e.g., sealed opaque envelopes, central allocation) is described, and the exactly equal 30/30 group sizes raise uncertainty about the sequence generation/concealment.",
+        "evidence_quote": "The patients were divided into 2 groups of 30 patients each using a randomizing computer program: an ESPB group (Group I) and a control group (Group II)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "There was no sham block or placebo; control patients received nothing and were not taken to the block room, so patients and treating clinicians were unblinded to a subjective pain outcome (PCA use and VAS), creating a strong potential for performance/expectancy-driven deviations, and no intention-to-treat analysis is described.",
+        "evidence_quote": "The control group received no such intervention... Group I patients were taken to a regional block room."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all 60 randomized patients (30 per group analyzed, with a CONSORT flow diagram presented), indicating no appreciable attrition.",
+        "evidence_quote": "There were 30 (50%) patients in each group for a total of 60 patients included in the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The assessor was reportedly blinded and outcomes (PCA opioid consumption, VAS) are appropriate and measured identically, but patients themselves were unblinded (no sham injection), so self-reported VAS and self-administered opioid demand could be influenced by knowledge of allocation.",
+        "evidence_quote": "A postoperative pain assessment was performed by a nurse anesthetist blinded to the procedure using a VAS (0 = no pain, 10 = the most severe pain felt)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes are pre-specified in the text and all appear reported, but no trial registration or published protocol is cited and the power calculation is vaguely referenced, leaving the possibility of selective analysis/reporting unverifiable.",
+        "evidence_quote": "Whereas the primary outcome of this study was the patients\u2019 postoperative opioid consumption, the secondary outcomes were their postoperative visual analogue scale (VAS) pain scores and any adverse events related to the opioid treatments"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 2: the control group received no sham block, leaving patients and clinicians unblinded for highly subjective, expectancy-sensitive outcomes (patient-controlled opioid consumption and VAS), with no ITT analysis described. Additional concerns include unreported allocation concealment and absence of a registered protocol, although outcome data were complete and assessors were reportedly blinded."
+  },
+  {
+    "paper_id": "manual:435011cb",
+    "paper_title": "2461d0c3_JARSS_27_1_9_14",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with computer-generated random number tables and sealed opaque envelope allocation: \"Randomization was performed according to computer-generated random number tables, and allocation to treatment group was done using the sealed opaque envelope technique.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "An adequate random sequence (computer-generated tables) with concealed allocation (sealed opaque envelopes) was used, and baseline demographics, ASA status and surgical duration were well balanced (all p>0.3).",
+        "evidence_quote": "\"Randomization was performed according to computer-generated random number tables, and allocation to treatment group was done using the sealed opaque envelope technique.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No sham block or placebo injection was used, so patients and the clinical team were aware of allocation, and knowledge of having received a block could plausibly alter self-administered PCA morphine use; however, anaesthetic and rescue-analgesia protocols were standardized and all randomized patients appear to have been analysed as allocated.",
+        "evidence_quote": "\"Due to the nature of the study, the patients could not be blinded to whether they had ESP block or not.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all 46 enrolled patients (23 per group) with a flow diagram reported; the planned 25 per group included padding for dropouts, and no losses to follow-up or exclusions after randomization are described.",
+        "evidence_quote": "\"Forty-six patients were enrolled in the study (flow diagram).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although the data-collecting pain nurse was blinded, the outcomes (NRS pain scores, shoulder pain, and patient-controlled morphine consumption) are all generated by unblinded patients who knew whether they had received a block, so outcome ascertainment could be influenced by knowledge of the intervention.",
+        "evidence_quote": "\"A pain nurse blinded to the procedure did all data collection.\" ... \"Due to the nature of the study, the patients could not be blinded to whether they had ESP block or not.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT03420703) with a clearly stated primary outcome, but no protocol comparison is presented, several reported p-values are inconsistent between abstract, text and tables (e.g., p=0.22 vs 0.022; p<0.01 vs p<0.001), and the conclusion claims PONV \"significantly decreased\" despite non-significant results (p=0.093, p=0.284), suggesting some selective emphasis.",
+        "evidence_quote": "\"The study was registered prior to patient enrollment with clinicaltrials.gov (NCT03420703).\" ... \"In parallel with this outcome, NRS scores and incidence of PONV significantly decreased.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Randomization, allocation concealment and outcome completeness were well handled, but the absence of a sham block left patients unblinded while all primary and secondary outcomes (PCA morphine consumption, NRS pain, shoulder pain) were patient-generated and therefore susceptible to ascertainment bias (D4 high). Added concerns about unblinded performance/behaviour (D2) and inconsistent/overstated reporting of results relative to the registration (D5) support an overall high risk of bias."
+  },
+  {
+    "paper_id": "manual:9a099af8",
+    "paper_title": "85d49148_JARSS_28_3_170_178",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that the 90 patients were allocated to the three arms (ESPB, TPVB, control) using a computerized randomization program: \"The patients were divided into these groups using a randomizing computer program,\" and the trial is described as prospective, randomized, controlled with a CONSORT flow diagram.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used and baseline characteristics (age, sex, ASA, surgery type/duration) were well balanced, but there is no description of allocation concealment (e.g., sealed opaque envelopes, independent allocator) or of who generated/implemented the sequence.",
+        "evidence_quote": "\"The patients were divided into these groups using a randomizing computer program.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The control group received no intervention and no sham block, so patients, block performers, and the intraoperative anaesthesia team were necessarily aware of allocation; intraoperative fentanyl supplementation and rescue meperidine were administered at clinician discretion (a co-intervention forming part of the primary outcome), and no intention-to-treat/per-protocol analysis framework is described.",
+        "evidence_quote": "\"We did not perform any intervention in the control group.\" ... \"Additional analgesia during surgery was provided with 1 mcg kg-1 fentanyl if heart rate and mean arterial pressure of the patient could be raised 20% above the baseline.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 90 randomized patients (30 per group) appear in the analyses of opioid consumption, VAS and adverse events, with a CONSORT flow diagram presented and no dropouts or exclusions reported.",
+        "evidence_quote": "\"This study comprised 90 patients, with 30 in each group.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (PCA fentanyl consumption) is device-recorded and the outcome assessor nurse was blinded, but the absence of a sham procedure means patients themselves were unblinded, which can influence self-reported VAS and PCA button pressing; blinding of the assessor is also only loosely described (\"blinded to the study\") and block procedure time/one-time puncture success were necessarily unblinded.",
+        "evidence_quote": "\"A pain nurse anesthetist, who was blinded to the study, evaluated and recorded the postoperative pain and opioid consumption.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number or pre-specified analysis plan is reported, and although primary/secondary outcomes are stated in the Introduction, the power analysis appears to have been calculated post hoc from the observed effect size (1.97), raising concern about selective reporting of outcomes/analyses.",
+        "evidence_quote": "\"In the power analysis performed with the total opioid consumption variable that was the primary outcome of the study, it was determined that the effect size was 1.97 in the 95% confidence interval and the power was 0.99 in the significance level. This result shows that the study sample is sufficient.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 2: the control arm received no sham block, so patients and treating clinicians were aware of allocation while discretionary intraoperative fentanyl and rescue analgesia (components of the primary outcome) were given, and no ITT analysis is described. Additional some-concerns arise from undescribed allocation concealment, patient unblinding affecting self-reported VAS/PCA use, and absence of prospective registration with an apparently post hoc power calculation."
+  },
+  {
+    "paper_id": "manual:de0f82b9",
+    "paper_title": "0d5cb53b_JPR.S248171",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a prospective randomized controlled trial in which 60 patients undergoing open posterior lumbar decompression were \"randomized into two groups\" with allocation revealed via sequentially numbered sealed envelopes, and it was prospectively registered (ChiCTR1800015002).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment via sequentially numbered sealed envelopes is described and baseline characteristics were balanced, but the method of generating the random sequence (e.g., computer-generated list, block randomization) is never reported and the envelopes are not stated to be opaque.",
+        "evidence_quote": "\"Allocation of T12 ESPB group or control group was performed by the investigator physician with treatment divulged by sequentially numbered sealed envelopes before injection.\" ... \"There were no statistically significant differences in any variables at baseline among the two groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Controls received only an ultrasound scan with no sham injection, so claimed patient blinding is implausible and block performers were unblinded; this is highly consequential for a self-reported sedation/pain context with patient-controlled opioid delivery, and no intention-to-treat analysis is described (16 of 76 enrolled patients did not complete the protocol and analyses used per-protocol n of 30 or 28).",
+        "evidence_quote": "\"Second, to ensure patient safety, our study design precluded blinding of the block physicians who were not responsible for outcome evaluation. Third, no sham injection was performed in the control group, and the placebo effect of injection could not, therefore, be assessed. This may have introduced bias and amplified differences.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Sixteen of 76 enrolled patients (21%) did not complete the protocol and a further 2 per group were lost for morphine outcomes (n=28), with reasons given only in a CONSORT figure that is not legible in the text and no sensitivity or ITT analysis reported.",
+        "evidence_quote": "\"Among the 76 patients enrolled in the study, 60 patients completed the study protocol.\" ... \"(B) n = 28 for all groups.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The MOAA/S primary outcome is an observer-rated scale assessed by a reportedly blinded adjudicator, but in the absence of a sham block the presence of a needle/skin marks and the patients' own awareness could unblind assessors and influence subjective ratings, and no verification of blinding success is provided.",
+        "evidence_quote": "\"The patient, anesthesiologist responsible for the operation, and evaluating physician (ie, outcome adjudicator) were blinded to the assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary outcome and sample-size calculation, but no protocol-to-report comparison is possible from the text and many secondary outcomes/time points are reported (with some inconsistencies, e.g., morphine consumption p-values versus the large reported differences), leaving some possibility of selective reporting.",
+        "evidence_quote": "\"The trial was registered prior to patient enrollment at chictr.org.cn (no. ChiCTR1800015002...)\" ... \"a power analysis to determine sample size was performed before initiation of the study based on the estimated differences among the two groups for the primary outcome measure\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 2: the control group received no sham injection and block performers were unblinded, so effective patient blinding is implausible for subjective sedation/pain and patient-controlled opioid outcomes (a limitation the authors themselves acknowledge as potentially \"amplifying differences\"), compounded by the absence of an intention-to-treat analysis. Other domains raise some concerns (unreported sequence-generation method, ~21% non-completion without sensitivity analysis, and unverified assessor blinding), though prospective registration and a pre-specified primary outcome partly mitigate reporting bias."
+  },
+  {
+    "paper_id": "manual:fe70c308",
+    "paper_title": "9f5b18ca_JPR.S274808",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports computer-generated randomization with closed-envelope allocation of 75 patients into three parallel groups: \"A computer system-generated randomization was used and patients were randomly allocated by the anesthesia resident using the closed-envelope technique into one of three study groups.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated and baseline characteristics were balanced (all p > 0.5), but the \"closed-envelope\" concealment is not described as sealed, opaque or sequentially numbered, and the same anesthesia resident both recruited and allocated patients, leaving residual uncertainty about concealment.",
+        "evidence_quote": "\"A computer system-generated randomization was used and patients were randomly allocated by the anesthesia resident using the closed-envelope technique into one of three study groups... The three groups were comparable in their demographic data and clinical characteristics (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients were blinded (blocks performed after induction) and co-interventions were protocolized, but the treating anesthesiologists were necessarily unblinded while making intraoperative fentanyl and postoperative rescue-analgesia decisions, no sham injection was given to the morphine group, and the analysis appears to be per-protocol (n = 25 per group after excluding patients with missing data) rather than intention-to-treat.",
+        "evidence_quote": "\"this parallel double-blinded (patient and postoperative outcome assessor) randomized controlled study\"; \"data from five patients were missing\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Five patients with missing data were excluded, but the text does not state in which groups these losses occurred or the reasons for missingness, and the final analysis of exactly 25 per group suggests exclusions were handled to preserve the target sample size rather than analysed as randomized.",
+        "evidence_quote": "\"Eleven patients refused to participate in the study, 14 patients did not meet the inclusion criteria and data from five patients were missing (Figure 4).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The VAS, morphine consumption and time-to-first-morphine are appropriate, standard outcomes assessed identically across groups by a blinded outcome assessor with patients also blinded, making detection bias unlikely.",
+        "evidence_quote": "\"parallel double-blinded (patient and postoperative outcome assessor)\"; \"All patients were made familiar with the Visual Analogue scale (VAS) used\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered before enrolment, primary and secondary outcomes are pre-specified and all appear reported (including the null VAS result), with analyses matching the pre-stated sample-size plan.",
+        "evidence_quote": "\"The study was prospectively registered at clinicaltrials.gov (NCT 04248608).\"; \"Our primary outcome measures were postoperative VAS score, total postoperative morphine consumption and first time to receive morphine; secondary outcome measures included intraoperative and postoperative hemodynamics.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospectively registered, double-blinded three-arm RCT has strong outcome measurement and reporting practices (blinded assessor, pre-registered primary outcomes), but raises some concerns from incompletely described allocation concealment (\"closed-envelope\" by the same resident who recruited), an unblinded treating team making rescue-analgesia decisions with no sham injection in the morphine arm, and apparent per-protocol analysis after excluding five patients with unexplained missing data. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:6dabda82",
+    "paper_title": "21bb2222_kjp-34-1-106",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation 1:1 to two arms using an internet randomization program: \"An internet program (www.randomizer.org) was used for randomization in a 1:1 ratio, to allocate enrolled patients to group P (n = 30) or group E (n = 30)\"; trial is prospectively registered (KCT0003465).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A valid random sequence generator was used and baseline characteristics were comparable, but no information is given on allocation concealment (e.g., sealed opaque envelopes, central allocation), and the unblinded investigators performed the block.",
+        "evidence_quote": "An internet program (www.randomizer.org) was used for randomization in a 1:1 ratio, to allocate enrolled patients to group P (n = 30) or group E (n = 30)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No sham block was used, so both patients and the proceduralists/intraoperative anesthesiologists were aware of assignment; intraoperative fentanyl was given at the discretion of unblinded clinicians based on blood pressure, which could bias a key component of the primary opioid-consumption outcome, although the protocol was standardized and all randomized patients appear analyzed by assigned group.",
+        "evidence_quote": "We did not perform the sham block and both patients and physicians (Choi J and Bang Y) could not be blinded to the type of pain control."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary 24-hour outcome data were available for 58/60 (96.7%), which is unlikely to bias results, but the secondary persistent-pain (BPI-SF) outcomes had substantial attrition (84.5% and 79.3% response at 3 and 6 months) with no analysis of the impact of missingness.",
+        "evidence_quote": "Two patients were excluded for refusing pain assessment; the remaining 58 patients completed the study... The telephone interview respondents at 3 and 6 months postoperatively were 49 (84.5%) and 46 (79.3%), respectively."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (opioid consumption recorded from PCA device) is objective and measured identically in both groups, but it is partly patient-driven (PCA demand) and patients were unblinded; outcome assessors were nominally blinded yet the authors concede this blinding may have been compromised, and subjective outcomes (NRS, satisfaction, telephone BPI) are susceptible to this.",
+        "evidence_quote": "Even if investigators involved in outcome assessment were blinded, patients knew about their block and the investigators might have known which procedures had been done for each patient during follow-up."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (KCT0003465) with IRB approval, the primary outcome and sample-size calculation were pre-specified, and all stated primary and secondary outcomes (including null findings for NRS, PONV, and BPI-SF) are reported with Bonferroni correction for multiple comparisons.",
+        "evidence_quote": "This prospective randomized clinical trial was approved by the Institutional Review Board of Samsung Medical Center (IRB no. SMC 2018-08-032-003) and was registered on the Clinical Trial Registry of Korea (KCT0003465)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospectively registered RCT used adequate random sequence generation, had balanced baseline groups, near-complete primary outcome data, and transparent pre-specified reporting, but allocation concealment is unreported and no sham block was performed, leaving patients and treating anesthesiologists unblinded. Because unblinded clinicians titrated intraoperative fentanyl (a component of the primary outcome) and assessor blinding may have been compromised, the overall judgment is \"some concerns\" rather than low risk."
+  },
+  {
+    "paper_id": "manual:b711aa16",
+    "paper_title": "1125b662_s00101-020-00848-w",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a prospective trial in which 120 patients were allocated 1:1:1 to ESP, MTP, or Control groups via a sealed opaque envelope opened after induction of general anaesthesia, and is registered at ClinicalTrials.gov (NCT04193488).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No sham injection was used in the control group and the blocks were performed by a single unblinded anaesthesiologist, so patients and ward staff administering rescue analgesia could plausibly have been aware of group assignment; the paper also does not state whether an intention-to-treat analysis was used, although all 120 randomized patients appear analysed in their assigned groups and the multimodal analgesic protocol was standardized.",
+        "evidence_quote": "\"The patients in the group Control did not receive a block.\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed in sealed opaque envelopes opened only after induction and baseline characteristics were well balanced, but the method of generating the random sequence (e.g., computer list, block randomization) and whether envelopes were sequentially numbered are not described.",
+        "evidence_quote": "\"A sealed, opaque envelope containing allocated randomization was opened in the operating room after induction of GA. The patients were allocated in a 1:1:1 ratio to one of three groups\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 120 randomized patients (40 per group) appear in the results tables with complete outcome data at all time points through 48 h, and a CONSORT flow diagram is presented, indicating essentially no attrition.",
+        "evidence_quote": "\"A total of 120 adult patients were included in the study and randomized into 3 groups: group ESP (n = 40), group MTP (n = 40) and group Control (n = 40).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The VAS is an appropriate and uniformly applied measure and the assessor was blinded, but the primary outcome is patient-reported and patients were not blinded (no sham block in the control group), so knowledge of having received an intervention could influence reported pain scores and PCA demands.",
+        "evidence_quote": "\"Postoperative pain was evaluated using a visual analogue scale (VAS 0: no pain, 10 cm: worst pain ever) ... by a research assistant who was blinded to the study groups.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with pre-specified primary and secondary outcomes, but no analysis plan is available for verification and numerous additional outcomes (satisfaction, complications) and many time points/pairwise comparisons were reported, with some internally inconsistent statistics (e.g., p > 0.05 reported alongside F = 220.14 at 48 h), raising some concern about selective reporting.",
+        "evidence_quote": "\"The trial was registered with the Clinical Trials.gov (NCT04193488). ... Primary outcome measure was mean pain scores. Secondary outcome measures were consumption of opioid rescue analgesic and the amount of analgesic which was delivered by the patient-controlled analgesia (PCA).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered, prospective three-arm trial had concealed envelope allocation, balanced baseline characteristics, complete outcome data and a blinded assessor, but the random sequence generation method is unreported, the control arm received no sham block so patients were effectively unblinded for a subjective self-reported pain outcome, and multiple outcomes/time points were reported without an available analysis plan. These issues yield an overall judgment of some concerns, with no domain reaching high risk."
+  },
+  {
+    "paper_id": "manual:8a668756",
+    "paper_title": "1918dbd1_s00540-020-02848-x",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation 1:1 to ESPB vs control using a random number table (www.randomization.com) with concealed, sequentially opened envelopes in a prospective single-centre trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Random sequence generated by random number table by an anesthesiologist not involved in the study, concealed in envelopes opened just before anesthesia, and baseline characteristics were balanced.",
+        "evidence_quote": "\"The randomized schedule was hidden and generated by the anesthesiologist in charge of the case, who was not part of the study. The same anesthesiologist prepared the envelopes, and the envelopes were opened just before anesthesia.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No sham block was used (blank control), so although patients were under general anesthesia at block time and managing anesthesiologists/assessors were blinded, the block-performing anesthesiologist was aware and no sham injection means group status could be inferred (e.g., puncture site); analysis also excluded six randomized patients rather than following strict intention-to-treat.",
+        "evidence_quote": "\"Group C was set as blank control group without ESPB\"; \"Following randomization, five patients were excluded because they underwent thoracotomy, and one patient was excluded due to the need for postoperative mechanical ventilation.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 6 of 86 randomized patients (7%) were excluded for pre-specified protocol reasons (conversion to thoracotomy, postoperative ventilation), and complete data were available for all 80 analyzed patients, making bias from missingness unlikely.",
+        "evidence_quote": "\"Therefore, we analyzed the results of 40 patients in each group.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (PCA sufentanil consumption) and cytokine assays are objective and the data collector was reportedly blinded, but patients were not blinded by a sham procedure, so self-reported NRS and PCA demand could be influenced by awareness of having received a block.",
+        "evidence_quote": "\"The collection of all the data was performed by the same anesthesiologist who unaware of the patients' details and grouping\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered before enrollment, with a pre-specified primary outcome and sample-size calculation, and all stated primary and secondary outcomes (including null findings) are reported.",
+        "evidence_quote": "\"The trial was registered prior to patient enrollment at chictr.org.cn (identifier: ChiCTR1900022217).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization, allocation concealment, outcome data completeness and prospective registration are strong, but the use of a \"blank\" control without a sham block leaves patients effectively unblinded, raising concerns for the subjective NRS/PCA-based outcomes, and the per-protocol exclusion of six randomized patients deviates from intention-to-treat. Overall rated some concerns, driven by domains 2 and 4."
+  },
+  {
+    "paper_id": "manual:2d426d0c",
+    "paper_title": "8cc01c75_s42077-020-00083-w",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a prospective, randomized, observer-blind, controlled clinical trial with allocation by \"a random sequence number generated by the computer kept in sealed envelopes\", registered on ClinicalTrials.gov (NCT03749395).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence was used and baseline demographics, ASA status, surgery type and duration were well balanced (all p > 0.05), but the envelopes are only described as \"sealed\" (not opaque or sequentially numbered), so full allocation concealment cannot be verified.",
+        "evidence_quote": "\"Patients were randomly chosen to receive either ESP plus conventional opioid analgesics (group ESP, n = 30) or receive only the conventional opioid analgesics (group C, n = 30) by a random sequence number generated by the computer kept in sealed envelopes.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "No sham/placebo block was used, so patients and the intraoperative anaesthesia team were aware of allocation; co-interventions (intraoperative fentanyl at clinician discretion, rescue morphine triggered by patient-reported VAS) could therefore be influenced by knowledge of the assigned condition, and no intention-to-treat analysis is described.",
+        "evidence_quote": "\"First, it was only a single-blinded study. No other block group was established... Since patients know whether or not they have received an injection for ESP block, the placebo effect could not be minimized.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 60 randomized patients (30 per group) appear to have been followed and analysed for the 24-h morphine consumption and VAS outcomes, with no reported dropouts or exclusions after randomization (CONSORT flow chart provided).",
+        "evidence_quote": "\"The remaining 60 patients were allocated equally into two groups: ESP (study) group and C (control) group.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures (VAS, morphine consumption) were appropriate and identically applied with a blinded postoperative observer, but the primary and secondary outcomes depend on patient self-report/analgesic requests from unblinded patients, which could be influenced by knowledge of having received a block.",
+        "evidence_quote": "\"The observer anaesthesiologist postoperative will be blinded to which group the patient belongs.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and a primary outcome was clearly declared, but no accessible protocol/statistical analysis plan is cited and numerous secondary outcomes at multiple time points were reported, so selective reporting of analyses cannot be fully excluded.",
+        "evidence_quote": "\"Trial registration: ClinicalTrials.gov, NCT03749395. Registered 13 November 2018\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization was computer-generated with balanced baseline characteristics and no missing outcome data, the absence of a sham block meant patients and the treating team were unblinded (D2 high), raising the risk that co-interventions and self-reported pain/analgesic demand were affected by knowledge of allocation. Combined with some concerns over allocation concealment, subjective outcome measurement, and the lack of an available analysis plan, the overall risk of bias is high."
+  },
+  {
+    "paper_id": "manual:e57336c1",
+    "paper_title": "d639f241_SJA-14-186",
+    "design_classification": "randomized",
+    "design_rationale": "Patients were explicitly allocated to block or control groups \"using computer-generated random numbers\" with concealment in opaque envelopes, in a trial described as a randomized controlled trial adhering to CONSORT.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and allocation concealment were adequate (computer-generated numbers in opaque envelopes opened just prior to block), but a statistically significant baseline age imbalance (46.4 vs 52.6 years, P = 0.01) raises some concern about the groups' comparability.",
+        "evidence_quote": "\"Patients were allocated to either block group (group B) or control group (group C) using computer\u2011generated random numbers. Random numbers were concealed using opaque envelopes\" ... \"However, the mean age was significantly different between two groups [mean (SD), 46.4 (9.7) VS 52.6 (9.0) year ... P = 0.01].\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "The control group received no sham block, so patients and the proceduralist were aware of assignment, which can influence self-administered PCA morphine consumption and self-reported pain, the trial's outcomes; no ITT/per-protocol analysis details are given and 5 of 65 assessed patients appear unaccounted for in the final analysis.",
+        "evidence_quote": "\"the control group did not receive any intervention\" ... \"Second, the patient and the anesthetist performing the block were not blinded to the group assignment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 60 randomized patients (30 per group) appear in the outcome tables, with the 5 excluded patients removed before randomization for ineligibility.",
+        "evidence_quote": "\"65 patients undergoing total mastectomy and axillary clearance were assessed for eligibility, out of 5 were excluded and 60 patients were randomized into two groups\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (PCA morphine consumption) is objective and the pain assessor was reported blinded, but patients themselves were unblinded and both morphine self-administration and NRS pain scores are patient-reported, so outcome measurement could be influenced by knowledge of allocation.",
+        "evidence_quote": "\"The pain score on a numeric rating scale (NRS) was recorded at 0, \u00bd, 1, 2, 4, 6, 8, 12, and 24 h by an investigator blinded to the study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol is cited, so pre-specification of the primary outcome and analysis cannot be verified, although a clear primary outcome with an a priori power calculation and multiple pre-stated secondary outcomes are reported; a reported CI (2.1, 95% CI 2.0\u20132.2) is implausibly narrow, suggesting imprecise reporting.",
+        "evidence_quote": "\"The 24\u2011hour morphine consumption was considered as the primary outcome and secondary outcomes included time to first rescue analgesia, pain scores...\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization and allocation concealment were adequate and outcome data were complete, the absence of a sham block left patients and the proceduralist unblinded, which plausibly biased patient-controlled morphine consumption and self-reported pain scores (D2 high). Additional concerns arise from a significant baseline age imbalance and the lack of a registered protocol, yielding an overall high risk of bias."
+  }
+]

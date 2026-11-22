@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women undergoing hysterectomy for benign gynaecological disease, what is the effect of laparoscopic hysterectomy\u2014laparoscopically assisted vaginal hysterectomy, total laparoscopic hysterectomy, or laparoscopic hysterectomy of unspecified type\u2014compared with vaginal hysterectomy on the odds of receiving any blood transfusion intra-operatively, post-operatively during the hospital stay, or by the end of reported follow-up?",
+  "treatment_label": "Laparoscopic hysterectomy (laparoscopically assisted vaginal hysterectomy, total laparoscopic hysterectomy, or laparoscopic hysterectomy of unspecified type)",
+  "control_label": "Vaginal hysterectomy",
+  "outcome_description": "Binary outcome: number of women receiving any blood transfusion (intra-operative or post-operative) out of the number randomised to each eligible arm, using intention-to-treat denominators. Do not substitute blood-loss volume, haemoglobin decline, haematoma, or other complications. Extract event counts and randomised totals by procedure description rather than column position. Retain double-zero trials visibly with zero events and full arm sizes, although they carry no weight in the odds-ratio estimate. For trials with multiple eligible laparoscopic arms sharing one vaginal-hysterectomy arm, treat each laparoscopic approach as a separate comparison and divide the shared vaginal group\u2019s events and total equally across comparisons; exclude abdominal and robotic arms.",
+  "positive_direction": "For the requested odds ratio, OR greater than 1 means higher odds of transfusion with laparoscopic hysterectomy and therefore favours vaginal hysterectomy; OR less than 1 means fewer transfusions and favours laparoscopic hysterectomy. If represented on a signed standardized-effect scale, a positive Hedges g would be oriented to mean fewer transfusions with laparoscopic hysterectomy (a result favouring treatment).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "laparoscopic hysterectomy vaginal hysterectomy randomized trial transfusion",
+    "laparoscopically assisted vaginal hysterectomy vaginal hysterectomy controlled comparison blood transfusion",
+    "total laparoscopic hysterectomy vaginal hysterectomy randomised quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials directly comparing an eligible laparoscopic hysterectomy approach with vaginal hysterectomy in women undergoing surgery for benign gynaecological disease.",
+    "Trials reporting blood-transfusion events and randomised arm totals, or sufficient quantitative information from which these values can be obtained.",
+    "Any eligible laparoscopic subtype, transfusion timing, clinical setting, publication status, language, and duration of follow-up."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study: systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, observational studies, quasi-randomised studies, and other non-randomised studies are excluded.",
+    "No eligible comparison between laparoscopic hysterectomy as treatment and vaginal hysterectomy as control; comparisons involving only abdominal or robotic hysterectomy are excluded, and abdominal or robotic arms in otherwise eligible multi-arm trials are ignored.",
+    "No quantitative transfusion outcome data capable of producing an effect size\u2014eligible data require transfusion event counts/proportions with denominators or other recoverable statistics such as an odds ratio; blood loss, haemoglobin decline, and haematoma alone are insufficient.",
+    "Completely unrelated to the research topic or conducted exclusively for malignant gynaecological disease rather than benign disease."
+  ],
+  "moderators_to_extract": [
+    "Laparoscopic approach subtype (laparoscopically assisted vaginal, total laparoscopic, or unspecified laparoscopic)",
+    "Transfusion ascertainment period (intra-operative, post-operative/in-hospital, or through later follow-up)",
+    "Transfusion threshold or protocol, where reported",
+    "Single eligible comparison versus multi-arm trial requiring shared-control splitting",
+    "Sample size category",
+    "Risk-of-bias domain ratings, especially allocation concealment and missing outcome data"
+  ],
+  "search_start_year": 1989,
+  "effect_size_note": "Calculate study-level odds ratios directly from transfusion events and numbers randomised, with laparoscopic hysterectomy assigned as treatment and vaginal hysterectomy as control by procedure description. Pool using a fixed-effect Mantel\u2013Haenszel model if available; otherwise use a random-effects odds-ratio model. Preserve studies with zero transfusions in both groups in extraction and displays but allow them zero weight in conventional odds-ratio pooling. Use intention-to-treat denominators. For multiple eligible laparoscopic arms sharing one vaginal arm, create separate comparisons and split the vaginal arm\u2019s events and total equally across them (using standard approximately even allocation procedures if counts are indivisible) to prevent double-counting. Do not pool operating time, hospital stay, non-transfusion complications, return to normal activities, conversion to laparotomy, pain, cost, blood-loss volume, haemoglobin decline, or haematoma. Report OR > 1 as more transfusions with laparoscopic hysterectomy.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "receipt of blood transfusion"
+}

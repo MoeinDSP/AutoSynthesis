@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of statins compared with placebo on deep vein thrombosis (DVT), stratified by type of statin (rosuvastatin, atorvastatin, pravastatin), for the primary prevention of venous thromboembolism?",
+  "treatment_label": "Statin therapy",
+  "control_label": "Placebo",
+  "outcome_description": "Incidence of deep vein thrombosis (DVT) reported as number of events per randomized arm.",
+  "positive_direction": "A positive effect / lower odds of DVT indicates a beneficial reduction in deep vein thrombosis events favoring statin therapy over placebo.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "statin placebo deep vein thrombosis randomized trial",
+    "rosuvastatin atorvastatin pravastatin venous thromboembolism controlled trial",
+    "statin DVT incidence randomized placebo controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials comparing statin therapy (such as rosuvastatin, atorvastatin, or pravastatin) to placebo.",
+    "Conducted in adult populations evaluated for cardiovascular or venous thromboembolic primary prevention.",
+    "Reports quantitative event data on deep vein thrombosis (DVT) or venous thromboembolism allowing computation of odds ratios."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, and protocols are excluded).",
+    "No placebo control group (e.g., head-to-head statin comparisons or open-label studies without a placebo arm).",
+    "No extractable quantitative outcome data for deep vein thrombosis (e.g., missing event counts and sample sizes per arm).",
+    "Completely unrelated to statin therapy or venous thromboembolism outcomes."
+  ],
+  "moderators_to_extract": [
+    "Statin type (rosuvastatin, atorvastatin, pravastatin)",
+    "Statin dosage and intensity (low, moderate, high intensity)",
+    "Trial follow-up duration (years)",
+    "Baseline participant risk profile / clinical indication",
+    "Mean age and sex distribution of participants"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Dichotomous event data (DVT events and total participants per arm) will be pooled as Odds Ratios (OR) with 95% confidence intervals, analyzed and presented stratified by statin type (rosuvastatin, atorvastatin, pravastatin).",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "deep vein thrombosis"
+}

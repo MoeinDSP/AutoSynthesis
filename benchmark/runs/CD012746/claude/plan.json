@@ -1,0 +1,38 @@
+{
+  "research_question": "In randomised trials of parenting or family interventions for children with conduct problems, does a personalised (tailored, adapted, or subgroup-matched) version of an intervention reduce child conduct problems at end of treatment, measured on the Eyberg Child Behavior Inventory (ECBI) Problem scale, compared with the standard non-personalised version of the same active intervention?",
+  "treatment_label": "Personalised / tailored or subgroup-adapted parenting or family intervention",
+  "control_label": "Standard non-personalised version of the same active parenting or family intervention",
+  "outcome_description": "Child conduct problems at the first post-treatment assessment, measured with the Eyberg Child Behavior Inventory (ECBI) Problem scale (number of behaviours rated as a problem; range 0-36), mother's report preferred when multiple reporters are available. Extract post-treatment mean, SD and n per arm; convert SE or CI to SD where needed. Exclude the ECBI Intensity scale, follow-up assessments, other child behaviour scales and parent-level outcomes.",
+  "positive_direction": "A positive effect means the personalised/tailored intervention produced fewer child conduct problems (lower ECBI Problem scale score) at end of treatment than the standard non-personalised version; i.e. a raw MD below zero on the ECBI Problem scale favours personalisation.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "tailored parenting program randomised trial Eyberg Child Behavior Inventory conduct problems",
+    "adapted versus standard parent training child disruptive behaviour randomized controlled comparison",
+    "personalised family intervention matched subgroup child conduct problems outcome trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised trial (or randomised comparison) of a parenting or family intervention for children with conduct, disruptive, oppositional or externalising behaviour problems",
+    "Compares a personalised, tailored, adapted, enhanced-matching or subgroup-specific version of an intervention with a standard/generic version of a broadly comparable active intervention",
+    "Reports quantitative child behaviour outcome data at or after end of treatment, including an ECBI Problem scale score or data from which it can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion or purely theoretical/protocol paper)",
+    "No comparison between a treatment condition and a control/comparison condition (single-arm or pre-post only), or the comparator is a waitlist, no-treatment or treatment-as-usual rather than a non-personalised active intervention",
+    "No quantitative outcome data usable for an effect size (no means with SDs/SEs, t/F values, proportions or odds ratios)",
+    "Completely unrelated to parenting/family interventions for child conduct problems"
+  ],
+  "moderators_to_extract": [
+    "Type of personalisation (content tailoring, subgroup matching, dose/delivery adaptation, cultural adaptation)",
+    "Base intervention programme (e.g. PCIT, Incredible Years, Triple P, other)",
+    "Child age group at baseline",
+    "Delivery format and setting (individual vs group; clinic, home, online)",
+    "Sample size per arm",
+    "Risk of bias / attrition rate and intention-to-treat vs completer analysis"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool raw mean differences in ECBI Problem scale points with a random-effects (DerSimonian-Laird or REML) model. Use only the first post-treatment assessment; do not pool follow-ups, ECBI Intensity scores, other behaviour scales or parent outcomes. Prefer mother-reported scores; convert reported SEs or 95% CIs to SDs (SD = SE x sqrt(n)) when SDs are not given. MD < 0 favours the personalised intervention, and effect signs are flipped so that a positive pooled value indicates benefit of personalisation.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "child conduct problems (ECBI Problem scale)"
+}

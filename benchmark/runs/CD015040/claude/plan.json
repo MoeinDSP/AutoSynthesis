@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of active repetitive transcranial magnetic stimulation (rTMS, including deep TMS and theta-burst stimulation) compared with sham stimulation on PTSD symptom severity (change from baseline to the assessment immediately after the treatment course) in adults with post-traumatic stress disorder?",
+  "treatment_label": "Active rTMS (including deep TMS and theta-burst stimulation)",
+  "control_label": "Sham rTMS (sham coil or sham stimulation)",
+  "outcome_description": "Change in PTSD symptom severity from baseline to the assessment immediately after the course of stimulation, measured on the trial's primary validated PTSD scale (e.g. CAPS/CAPS-5, PCL/PCL-5, Davidson Trauma Scale, PSS, IES-R). Extracted as mean change, SD of change and n per arm, using the trial's intention-to-treat / primary analysis population. Where only baseline and post-treatment means and SDs are reported, the mean change is computed as post minus baseline and the SD of change derived assuming a pre-post correlation of 0.5; SEs are converted to SDs as SE x sqrt(n). Scales are oriented so that a higher score means worse PTSD. Only the end-of-treatment (nearest post-course) assessment is used; later follow-ups are ignored. In multi-arm trials, active arms are combined and compared with the single sham arm.",
+  "positive_direction": "A positive Hedges' g means active rTMS produced a greater reduction in PTSD symptom severity from baseline to immediately after treatment than sham stimulation (i.e. favours rTMS).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "repetitive transcranial magnetic stimulation PTSD randomized sham-controlled trial",
+    "theta burst stimulation post-traumatic stress disorder sham controlled trial outcome",
+    "deep TMS PTSD symptom severity CAPS PCL randomized trial effect"
+  ],
+  "inclusion_criteria": [
+    "Adults with post-traumatic stress disorder (clinical diagnosis or validated PTSD scale threshold), including comorbid samples such as veterans or patients with depression",
+    "Randomised trial comparing active rTMS (any protocol, including high- or low-frequency rTMS, deep TMS/H-coil, intermittent or continuous theta-burst stimulation) with a sham stimulation arm",
+    "Reports quantitative PTSD symptom severity data at or near the end of the treatment course that can yield an effect size (means and SDs/SEs, change scores, t/F statistics, or sufficient summary statistics)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, commentary, opinion piece, protocol, case report or theoretical paper)",
+    "No sham/control comparison arm (open-label, single-arm, uncontrolled, or active-comparator-only designs, including crossover data reported without a sham-controlled parallel phase)",
+    "No quantitative outcome data from which an effect size can be computed (no means+SDs/SEs, change scores, test statistics, or proportions)",
+    "Completely unrelated to the research topic (e.g. non-PTSD populations only, paediatric samples only, non-TMS neuromodulation such as tDCS or ECT, or reports only non-PTSD outcomes such as depression, anxiety, quality of life, adverse events or dropout)"
+  ],
+  "moderators_to_extract": [
+    "Stimulation frequency/protocol (low-frequency, high-frequency, iTBS/cTBS, deep TMS)",
+    "Cortical target and laterality (left vs right DLPFC, mPFC, bilateral)",
+    "Total number of sessions / cumulative pulses (dose)",
+    "Population type (combat veterans/military vs civilian trauma)",
+    "PTSD outcome instrument (CAPS vs PCL vs DTS/other)",
+    "Sample size category and risk-of-bias / sham credibility method"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool as standardised mean difference (Hedges' g) of pre-post change scores using a random-effects model (DerSimonian-Laird or REML, with Knapp-Hartung adjustment where feasible). Signs are set so that a positive g favours active rTMS (greater symptom reduction); this corresponds to the user's convention of SMD < 0 favouring rTMS on raw symptom-severity scales. Change SDs derived from baseline and post SDs assume r = 0.5 and are flagged as derived; SEs converted via SD = SE x sqrt(n). Multi-arm trials combine active arms (summing n, pooling means and SDs) and use the sham arm once to avoid double counting. Heterogeneity assessed with tau^2 and I^2; small-study effects examined with funnel plots and Egger's test when >= 10 studies.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "PTSD symptom severity"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:eb28adb8",
+    "paper_title": "e2f203de_1471-0528.16108",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is an explicitly registered (NCT01968317) single-center, open-label phase II randomised controlled trial in which 150 patients were stratified by pathology and \"randomly assigned (1:1)\" via \"a computer-based procedure of simple randomization\" to MA alone or MA plus metformin.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated, stratified 1:1 sequence was used and baseline characteristics (age, histology, BMI, insulin resistance) were balanced, but allocation concealment before assignment is never described and physicians were aware of assignment, leaving uncertainty about concealment.",
+        "evidence_quote": "\"Patients were firstly stratified according to the pathological type (AEH or EEC), and then both randomly assigned (1:1) to receive metformin plus MA or MA-only treatments. A computer-based procedure of simple randomization ... study physicians were aware of treatment assignment.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label with no placebo so patients and treating physicians knew the assignment, and the so-called \"intention-to-treat\" analysis actually excluded randomized patients who did not undergo the scheduled hysteroscopy (125/150 and 136/150), so it was not a true ITT analysis, although the co-intervention (MA 160 mg) and management protocol were otherwise identical across arms.",
+        "evidence_quote": "\"The lack of double-blinding design and placebo was also a weakness of this trial.\" ... \"Intention-to-treat analyses were performed for these 125 and 136 patients.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary 16-week endpoint was available for only 125/150 randomized patients (~17% missing, including 5 who had surgery before evaluation), with no imputation or sensitivity analysis; missingness arose from cancelled/delayed hysteroscopies in an unblinded trial and could plausibly depend on treatment response, and the authors themselves concede this could generate bias.",
+        "evidence_quote": "\"some patients eventually delayed (for 2-4 weeks) or cancelled the hysteroscopy for various situations ... Thus, most (125 and 136) women underwent hysteroscopies within 16 and 32 weeks of treatment and were included into intention-to-treat analyses. Nevertheless, lacking sufficient cases for statistical analyses could generate bias\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Complete response was an objective histopathological outcome assessed identically in both arms by two blinded pathologists with a consensus procedure for disagreements, making detection bias unlikely despite the open-label design.",
+        "evidence_quote": "\"Pathologic diagnosis was confirmed by two experienced gynecological pathologists ... All the pathologists who assessed the specimens were unaware of the treatment allocations.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the (null) primary endpoint is reported, but the primary timepoint was changed post hoc from 3/6 months to cumulative 16/32 weeks and the emphasized positive findings come from many admittedly retrospective, unadjusted-for-multiplicity subgroup analyses (AEH, non-obese, insulin-sensitive, non-hypertensive, non-diabetic).",
+        "evidence_quote": "\"The primary objective was to determine whether metformin plus MA would be associated with a higher CR rate at 3 ... rate at 6 months treatment ... However, concerning patients eventually underwent the first and second hysteroscopies for endometrium evaluation within 16 and 32 weeks of the treatment, the cumulative CR rates\" ... \"We retrospectively investigated whether the efficacy of metformin correlated with metabolic status.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by missing primary-outcome data (only 125/150 randomized patients contributed to the 16-week CR analysis, with no imputation or sensitivity analysis and missingness potentially related to treatment/response in an unblinded trial). Additional concerns arise from unreported allocation concealment, the open-label design without placebo and a non-true ITT analysis, and post hoc changes to the primary timepoint with emphasis on multiple retrospective subgroup analyses; outcome measurement by blinded pathologists was the one clearly low-risk domain."
+  },
+  {
+    "paper_id": "manual:f7bd3b31",
+    "paper_title": "8dffdc8c_j.jogoh.2020.101863",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"An epidemiologist in the research center did the computer-generated randomization with permuted blocks of size six\", with sealed opaque envelopes and a placebo control, in a registered double-blind trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated block randomization performed by an independent epidemiologist with concealed, sealed opaque envelopes, and baseline characteristics (age, gravidity, bleeding duration, menopausal status, BMI, labs) did not differ significantly between groups.",
+        "evidence_quote": "An epidemiologist in the research center did the computergenerated randomization with permuted blocks of size six without any contact with patients. The allocation process was sealed in opaque envelops."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding with an identical placebo was well implemented, but analysis was not intention-to-treat (4 of 60 randomized participants excluded, including one who withdrew for non-compliance/hysterectomy) and adherence to the 3-month regimen is not reported.",
+        "evidence_quote": "each patient received the same dose of megestrol acetate plus two tablets of placebo which were identical in shape and color to the metformin... Participants and study staffs (site investigator and trial coordinating center staff) were blinded to study treatment group assignment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 4/60 (6.7%) had missing outcome data, but the per-group distribution of losses is not clearly reported (29 vs 27 analyzed from 30 vs 30), and the withdrawal for non-compliance/hysterectomy could plausibly be related to treatment failure, with no sensitivity analysis provided.",
+        "evidence_quote": "Three patients were dropped out of the study because they were lost to follow-up, and one withdrew from the study due to non-compliance and chose hysterectomy. Fifty-six subjects were included in the final analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (histopathological resolution of hyperplasia on endometrial biopsy) is objective and measured identically in both groups under double-blind conditions, but blinding of the pathologist is not explicitly stated and the authors acknowledge no systematic double histologic review.",
+        "evidence_quote": "Another potential limitation is the lack of systematic double histologic analysis for all of the cases"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and a clear primary outcome with a priori sample size calculation is stated, but the registry protocol is not compared to the report, multiple secondary outcomes/subgroup comparisons (atrophy, BMI, BS, Hb, liver/renal tests) are reported, and some inconsistencies in the results tables (e.g., percentages and statistical tests labelled \"independent t-test chi2 test\") raise mild concerns.",
+        "evidence_quote": "registered in Iran Registry of Clinical Trial (IRCT), (registration code: IRCT20140820018866N6)"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial used adequate computer-generated block randomization with concealed allocation and an identical placebo under double-blind conditions (D1 low), but it was analysed per-protocol rather than by intention-to-treat with unclear per-group attrition, pathologist blinding/double histologic review was not assured, and the registered protocol outcomes could not be verified against the multiple reported analyses. These issues yield 'some concerns' in domains 2\u20135 and therefore an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:89329ac8",
+    "paper_title": "d0be8762_jgo.2014.25.3.214",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states allocation was random (\"Patients were randomized into two groups\"; \"All patients signed informed consent before participating in this research and randomization\"), so RoB 2 is applied \u2014 though the authors confusingly also label the work a \"controlled, single-blinded, prospective cohort study\" and give no details of the randomization method.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation or allocation-concealment method is described, the design is simultaneously described as a cohort study, and no formal baseline comparison table (beyond age and MS status) is presented for the very small groups.",
+        "evidence_quote": "\"Patients were randomized into two groups.\" / \"This was a controlled, single-blinded, prospective cohort study\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "There was no placebo, so patients and treating clinicians knew the assigned regimen; adherence is not reported and the analysis was restricted to the 16 completers rather than intention-to-treat.",
+        "evidence_quote": "\"Each patient in the MA group received 160 mg of MA daily, whereas patients in the MET group received the same dose of MA plus 0.5 g of metformin thrice daily.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Nearly half (14/30) of enrolled patients were excluded from analysis, reasons (choosing surgery, loss to follow-up) are plausibly related to treatment response, and no per-group breakdown or sensitivity analysis is provided.",
+        "evidence_quote": "\"Thirty patients were enrolled initially, and 16 patients were included in the final analysis... 14 were excluded, which consisted of eight patients who chose to undergo an operation and were remitted, three patients who were lost during follow-up, and three patients who had incomplete data\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Histological response is an appropriate and objective-leaning outcome assessed identically in both arms by at least two pathologists, but the study is only described as \"single-blinded\" without specifying who was blinded, and the authors themselves note D&C is less accurate than hysteroscopy.",
+        "evidence_quote": "\"Treatment response was assessed by histological examination of the D&C specimens obtained after 12 weeks.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/analysis plan is cited, multiple response operationalizations and subgroup analyses (MS present/absent) are reported in a 16-patient pilot, and later data are withheld to another paper, raising selective-reporting concerns.",
+        "evidence_quote": "\"In this study, 12 weeks was set as an endpoint; therefore, data collected after the endpoint, which are included in another study, are not shown.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by extensive missing outcome data (only 16 of 30 enrolled patients analysed, with exclusions plausibly related to response and no ITT or sensitivity analysis). Additional concerns arise from an undescribed randomization/allocation-concealment procedure, open-label unblinded treatment, and absence of a registered protocol in a very small pilot with subgroup analyses."
+  },
+  {
+    "paper_id": "manual:4720fd58",
+    "paper_title": "862c8580_pdf_IJWHR_272",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a single-blind clinical trial in which eligible patients were allocated to two equal groups using randomization software (\"RandList software (version 2.1, Germany with sequentially numbered containers) was used for randomization\"), and it is registered in the Iranian Registry of Clinical Trials with a CONSORT flow diagram.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "12 of 96 randomized patients (12.5%) lacked outcome data, including withdrawals related to refusing re-sampling and changing therapy, and no sensitivity/imputation analysis was reported to show results were robust to missingness (reasons are also not broken down by arm).",
+        "evidence_quote": "\"Twelve cases were excluded from the study; 1 case was expired because of unknown cause, 4 cases changed their therapeutic approach, 5 patients had no possibility of following up and 3 cases did not accept re-sampling after the first course of treatment.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and treating physician were unblinded (open-label apart from the pathologist), 4 participants changed their therapeutic approach, and the analysis appears to be per-protocol (only completers analysed) rather than intention-to-treat.",
+        "evidence_quote": "\"In this study, the patients and physician were aware of the type of treatment and the pathologist was blind to the treatment.\" ... \"4 cases changed their therapeutic approach\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcomes (endometrial histology and thickness) are objective measures assessed identically in both arms, and the pathologist assessing histology was blinded to treatment allocation.",
+        "evidence_quote": "\"the pathologist was blind to the treatment\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation sequence was computer-generated with sequentially numbered containers suggesting concealment, and baseline demographics/paraclinical findings did not differ significantly between groups.",
+        "evidence_quote": "\"RandList software (version 2.1, Germany with sequentially numbered containers) was used for randomization and eligible patients were randomly allocated to the intervention groups.\" ... \"there were no significant differences between basic findings of the 2 groups.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (IRCT), but the protocol/analysis plan was not available for comparison, the stated primary endpoint (3-mm difference in endometrial thickness) and target sample size (80) differ from what was enrolled/reported (96 enrolled; multiple histologic and thickness outcomes reported), and some analyses were reportedly abandoned due to \"inappropriate distribution of data.\"",
+        "evidence_quote": "\"Due to the inappropriate distribution of data, a meaningful evaluation of the distribution of data between the 2 groups was impossible.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and outcome measurement were adequate (software-based allocation with sequentially numbered containers; blinded pathologist assessing objective histology/thickness endpoints), but the open-label design with apparent per-protocol analysis, 12.5% attrition without sensitivity analysis, and discrepancies between the stated primary endpoint/sample size and reported analyses raise some concerns. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  }
+]

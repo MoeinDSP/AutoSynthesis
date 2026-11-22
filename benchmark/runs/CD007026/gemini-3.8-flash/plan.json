@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of Cerebrolysin or Cortexin (cerebral peptide mixtures), compared with placebo, on all-cause death in adults with acute ischaemic stroke?",
+  "treatment_label": "Cerebrolysin or Cortexin",
+  "control_label": "Placebo",
+  "outcome_description": "All-cause mortality: number of participants who died from any cause out of the number randomised to each arm (intention-to-treat denominator), measured over the longest reported follow-up period in the trial (typically 10 to 90 days).",
+  "positive_direction": "Lower mortality / fewer deaths in the Cerebrolysin or Cortexin group compared with the placebo group",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "Cerebrolysin Cortexin acute ischaemic stroke randomized trial mortality",
+    "Cerebrolysin acute ischemic stroke placebo controlled trial outcome",
+    "Cortexin ischemic stroke trial death mortality quantitative"
+  ],
+  "inclusion_criteria": [
+    "Randomised placebo-controlled trials comparing Cerebrolysin or Cortexin (with or without concurrent standard therapy such as thrombolysis) against placebo in adults with acute ischaemic stroke",
+    "Studies reporting all-cause mortality over follow-up (using intention-to-treat randomised denominators)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, study abstracts that only summarise other trials, and theoretical papers are excluded)",
+    "No comparison between a Cerebrolysin or Cortexin arm and a placebo control arm (e.g., non-placebo or uncontrolled designs)",
+    "No extractable quantitative outcome data on all-cause mortality (deaths and randomised sample sizes) that can produce an effect size",
+    "Completely unrelated patient populations or diagnoses (e.g., haemorrhagic stroke, traumatic brain injury, dementia, or non-human animal studies)"
+  ],
+  "moderators_to_extract": [
+    "Drug administered (Cerebrolysin vs Cortexin)",
+    "Follow-up duration (days to longest follow-up)",
+    "Baseline stroke severity (e.g., baseline NIHSS)",
+    "Concurrent acute treatment (e.g., thrombolysis vs standard medical care)",
+    "Daily dose and treatment duration"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk ratio (RR) calculated using intention-to-treat denominators (number randomised). For multi-arm trials with multiple doses against a shared placebo group, active arms are combined and compared to the single placebo group. RR < 1 indicates reduced risk of death with treatment.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

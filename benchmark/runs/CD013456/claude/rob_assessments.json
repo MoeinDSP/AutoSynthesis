@@ -1,0 +1,706 @@
+[
+  {
+    "paper_id": "manual:cbfab59c",
+    "paper_title": "4967716c_%2F0022-006X.70.4.867",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states participants were randomly allocated to three conditions: \"One hundred seventy-one female rape victims were randomized into 1 of the 3 conditions\" and \"The design of the project involved random assignment of participants to CPT, PE, or MA,\" with further randomization of MA participants into an active treatment afterward.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is explicitly stated and baseline demographic, trauma-history, medication and pretreatment symptom comparisons were balanced, but the method of sequence generation and whether allocation was concealed from those enrolling participants are never described.",
+        "evidence_quote": "\"The design of the project involved random assignment of participants to CPT, PE, or MA.\" ... \"In the ITT sample, there were no significant differences in demographic characteristics among the three groups.\" ... \"Follow-up one-way analyses of variance (ANOVAs) indicated no pretreatment differences among any of the three groups on either measure.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 27% of each active arm dropped out and dropouts were not reassessed (requiring LOCF imputation), and follow-up samples shrank further (e.g., only 26 CPT and 26 PE completers at 9 months, with 5 higher-severity women excluded); however, dropouts did not differ from completers on baseline PTSD or depression and convergent mixed-effects regression analyses reproduced the findings.",
+        "evidence_quote": "\"Thirty-seven women dropped out of treatment, and 121 women completed treatment... Dropout rates for the two active treatment groups were similar: 26.8% for CPT and 27.3% for PE... Unfortunately, this study was designed and conducted before ITT analysis became standard. Therefore, we did not continue to assess women who dropped out of treatment.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were well-validated instruments applied identically across arms with strong documented interrater reliability and assessors independent of the therapists, but the paper never states that interviewers were blind to treatment condition, and the self-report outcomes (PSS, BDI, TRGI) were reported by unblinded participants who knew whether they had received therapy or been on a waiting list.",
+        "evidence_quote": "\"Independent assessments were made at pretreatment, posttreatment, and 3 and 9 months posttreatment.\" ... \"Categorical diagnostic analyses revealed that the kappa coefficient for the overall PTSD diagnosis was .74, with 92% interrater agreement.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were necessarily aware of assignment (psychotherapy vs. minimal-attention waiting list), the active arms were not equated on homework dose and 5 women crossed over to the alternative treatment, though an appropriate ITT (LOCF plus mixed-effects) analysis of the randomized sample was performed, adherence/competence were independently verified, and treatment expectancy did not differ between arms.",
+        "evidence_quote": "\"Although therapist contact time was equated, it was not possible to equate the homework assignments without violating the protocols... the CPT group averaged 22.6 hr of homework, whereas the PE group averaged 44.8 hr... Initially, all of the participants who were accepted and randomized into the trial were analyzed with their last observations carried forward (LOCF).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol or analysis plan is available, assessment schedule and battery were altered mid-trial, and results are presented under three different analytic frameworks (LOCF ITT, random-regression, completers) across many outcome measures and subscales, leaving scope for selective reporting\u2014though the main hypotheses (PTSD, depression, guilt) were stated a priori and both supportive and null findings are reported.",
+        "evidence_quote": "\"Once the study started, a 9-month follow-up was added.\" ... \"After the study was under way, a decision was made to administer some of the measures to the MA participants only at the second assessment session to reduce the size of the assessment battery.\" ... \"The results were analyzed in three different ways for comparison purposes.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This is a well-conducted randomized comparative trial with balanced baseline characteristics, strong treatment-fidelity monitoring, validated outcome measures with documented interrater reliability, and convergent ITT and mixed-effects analyses, but no domain reaches 'low' risk. Overall risk is 'some concerns', driven by unreported sequence-generation/allocation-concealment methods, substantial (~27%) non-reassessed treatment dropout requiring imputation, unstated assessor blinding alongside unblinded self-report outcomes, and the absence of a pre-specified protocol with mid-trial changes to the assessment schedule."
+  },
+  {
+    "paper_id": "manual:e0b2bcb3",
+    "paper_title": "edb5c53b_0022-006x.73.5.953",
+    "design_classification": "randomized",
+    "design_rationale": "Participants who consented were allocated by the study statistician using a weighted randomization procedure to PE, PE/CR, or wait-list at each site.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was performed centrally by a statistician (implying concealment), but the sequence-generation method is not described and there was a statistically significant baseline imbalance on the primary outcome (PSS\u2013I) between the two active treatment arms.",
+        "evidence_quote": "\"The study statistician assigned participants who provided informed consent to one of the three conditions using a weighted randomization procedure such that participants were assigned to one of the active treatment conditions at a greater rate than to WL.\" ... \"A main effect for treatment condition emerged on the PSS\u2013I, F(2, 176) = 3.4, p < .05 ... revealed lower scores for PE/CR (M = 31.1) than PE (M = 34.0)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were necessarily aware of assignment in this psychotherapy trial and the markedly differential discontinuation in active treatment arms likely reflects awareness-related deviations, although adherence to manuals was monitored (97% of components delivered) and an intent-to-treat analysis with baseline carried forward was reported.",
+        "evidence_quote": "\"Therapists ... informed them of the specific treatment condition at the first session. WL participants were informed by phone that they had been assigned to the WL condition.\" ... \"The overall dropout rate was 32.4% and was lower for WL (3.8%) than PE/CR (40.5%) ... and PE (34.2%)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Roughly a third of randomized participants lacked posttreatment outcome data, with strongly differential attrition (3.8% WL vs 34\u201341% active treatment) and documented completer/noncompleter differences; missingness was handled only by baseline substitution/last-observation-carried-forward with emphasis on completer analyses, and no sensitivity analyses were reported.",
+        "evidence_quote": "\"The overall dropout rate was 32.4% ... Completers differed from noncompleters on level of education ... being more likely to have a bachelor\u2019s degree or higher (34% vs. 12%)\" ... \"substituting pretreatment scores for missing posttreatment scores\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (PSS\u2013I) was a validated interview administered by blinded, reliable independent evaluators, but blinding integrity was not verified and secondary outcomes (BDI, PSS\u2013SR) were self-reported by unblinded participants.",
+        "evidence_quote": "\"All evaluations were conducted by trained doctoral or master\u2019s level CTSA clinicians who were blind to study condition ... Participants were instructed by their therapists and the evaluators to not reveal any information that might unblind the evaluator to treatment condition.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Hypotheses, a designated primary outcome and secondary measures are clearly stated and all appear reported in both ITT and completer samples, but no pre-registered protocol or analysis plan is available and multiple analysis sets/exploratory subgroup analyses were conducted.",
+        "evidence_quote": "\"We hypothesized the following: (a) There would be greater reduction in PTSD, depression, and social and work dysfunction in PE and PE/CR than in WL ...\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial (32%) and strongly differential attrition between active treatment and wait-list arms with documented completer/noncompleter differences and only simple baseline-substitution imputation. Additional concerns arise from undescribed sequence generation with a significant baseline PSS\u2013I imbalance, inherent lack of participant/therapist blinding, and absence of a pre-registered analysis plan."
+  },
+  {
+    "paper_id": "manual:fc1241b1",
+    "paper_title": "f0321584_11606_2021_Article_6851",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit randomized controlled trial: \"women ... were randomized to the intervention or control condition using a standard randomization procedure within the computerized software\" with a registered trial (NCT02957747).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was computer-generated and concealed, but there were notable baseline imbalances in the primary outcome (number of risks, p = .09; PTSD risk 77.6% vs 57.1%) and in some demographics (education, relationship status), raising some concern despite adequate sequence generation.",
+        "evidence_quote": "\"The randomization sequence was known only to the computer program and optimized for balanced assignment over time between the two conditions.\" ... \"At baseline, results of Mantel-Haenszel chi-square tests indicated that the group difference in number of risks was just over the .05 significance level, \u03c72 (1, n = 152) = 2.82, p = .09 ... with those in the SHE group reporting a higher number of risks.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and staff were necessarily aware of allocation (SHE modules vs assessment-only control), and co-intervention (direct referral assistance \"any time throughout the study if requested\") could differ by group, though an appropriate ITT analysis was used.",
+        "evidence_quote": "\"All analyses use the full intent-to-treat sample.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial attrition on self-reported outcomes (n = 117 of 153 at 2 months, ~24% missing; 130/153 for self-reported treatment use) with no imputation, sensitivity analysis, or evidence that missingness was unrelated to outcome; analyses were effectively complete-case despite the ITT label.",
+        "evidence_quote": "\"At 2 months, the linear association between group and number of risks was significant ... \u03c72 (1, n = 117)\" ; self-report treatment use \"\u03c72 (1, n = 130)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated instruments administered identically by computer and objective chart review reduce risk, but unblinded participants self-reporting symptoms and treatment use (and non-blinded staff performing chart tallies) could be influenced by knowledge of assignment; measurement windows also differed between baseline and follow-up (e.g., AUDIT past year vs past 2 months).",
+        "evidence_quote": "\"Health risks were measured via validated self-report instruments. Treatment initiation and utilization were measured via self-report and chart review.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Trial was prospectively registered with pre-specified primary/secondary outcomes, but the authors acknowledge many eligible outcome operationalizations and both adjusted and unadjusted analyses reported without correction, with the headline positive finding (chart-review utilization) one of several tested.",
+        "evidence_quote": "\"Although we pre-specified our primary and secondary outcomes, the total number of analyses reported for number of health risks and treatment use (including both chart review and self-report) was large ... Thus, there was some inflation of type I error risk due to this multiple testing.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by substantial and differentially analyzed missing follow-up data (only 117\u2013133 of 153 contributed to several outcomes, with no imputation or sensitivity analyses). Additional concerns arise from baseline imbalance in the primary outcome, unblinded participants with self-reported outcomes, and multiple testing across outcome operationalizations acknowledged by the authors."
+  },
+  {
+    "paper_id": "manual:e3e28e0c",
+    "paper_title": "20b02eb9_16506070801969088",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of eligible participants to a treatment or wait-list control condition: \"Eligible participants (n=60) were randomly assigned to either the control condition (n=31) or the treatment condition (n=29).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is stated but the sequence generation method and allocation concealment are not described, and there were near-significant baseline imbalances in trauma type (serious accident, murder of friend/family).",
+        "evidence_quote": "Eligible participants (n560) were randomly assigned to either the control condition (n531) or the treatment condition (n529)... There was a trend toward group differences on type of trauma experienced."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were necessarily aware of allocation (active group therapy vs. wait-list with biweekly supportive phone counseling, which is itself a co-intervention), and seven randomized treatment participants who never attended a session were excluded from analyses, though an ITT-style analysis with LVCF was otherwise used and adherence/competence were verified.",
+        "evidence_quote": "All women in the control condition were assessed before and after and were then offered the active treatment... Intent-to-treat analyses were conducted... Missing data for individuals who dropped out of the study were imputed, using a last-value-carried-forward procedure."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Roughly 30\u201336% of participants were lost or excluded (7 never-attenders dropped entirely from the randomized sample plus 16 dropouts), missingness was differential in favour of the control group, and the primary emphasis on completer analyses (which also merged delayed-treatment participants, breaking randomization) means results could plausibly be biased by attrition despite imputation and the absence of significant completer-vs-dropout differences.",
+        "evidence_quote": "seven participants assigned to the treatment group were excluded from analyses because they did not attend a single treatment session. Additionally, 16 participants dropped out of the study... The dropout rate did not significantly differ between the treatment (36.4%, n=8) and control (25.8%, n=8) groups"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes used well-validated instruments and interviewers were reportedly blind, but blinding integrity is unverifiable in an unmasked wait-list design and several key outcomes (MPSS-SR, PRS, BDI) are self-reported by unblinded participants, with no inter-rater reliability reported for the CAPS/SCID.",
+        "evidence_quote": "All assessments were completed in person by an independent evaluator unaware of treatment condition."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or pre-specified primary outcome is reported, many outcome measures and multiple analysis samples (ITT, completers, combined/delayed treatment, end-state functioning) are reported without correction for multiplicity, raising the possibility of selective reporting; however, the analysis plan is described a priori in the text and results appear reported for all listed measures.",
+        "evidence_quote": "Next, one- and two-way multivariate analyses of variance (MANOVAs) and ANOVAs were conducted on the intent-to-treat sample... For the completer data, analyses were first conducted to compare the randomly assigned treatment group (n=14) and the delayed-treatment group (n=11)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial and differential attrition/exclusion (7 never-attenders removed from the randomized sample plus 16 dropouts, ~30% loss) combined with heavy reliance on completer analyses that merged delayed-treatment controls into the treatment group. Additional concerns arise from undescribed sequence generation/allocation concealment, borderline baseline imbalances, an unblinded wait-list comparator with self-report outcomes, and no pre-registered primary outcome amid many tested measures."
+  },
+  {
+    "paper_id": "manual:8b82c80a",
+    "paper_title": "3c769e06_A_Comparison_of_Exposure_Therapy_Stress_Inoculatio",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states participants meeting criteria \"were randomly assigned to one of the following four conditions: PE, SIT, combined treatment (PE\u2013SIT), or WL,\" making this a randomized controlled trial (with a later adaptive change in allocation ratio favoring active arms).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is asserted and baseline psychopathology/demographics were broadly comparable, but no detail is given on sequence generation or allocation concealment, and the allocation ratio was changed mid-study (\"After enrolling 10 participants into WL, we assigned more participants to the three active groups than to WL\"), plus a near-significant baseline imbalance in employment status (p = .09) that later predicted dropout.",
+        "evidence_quote": "Those who met criteria for the study and signed consent forms were randomly assigned to one of the following four conditions: PE, SIT, combined treatment (PE\u2013SIT), or WL. After enrolling 10 participants into WL, we assigned more participants to the three active groups than to WL."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists necessarily knew the assigned psychotherapy (unblindable), and expectancy differs markedly between active treatments and a wait-list; however, manualized protocols with supervision and formal adherence checks showed 93% component completion with only one trivial deviation, and intent-to-treat analyses were conducted alongside completer analyses.",
+        "evidence_quote": "On average, therapists completed 93% (SD = 12%) of the components prescribed for a given session in the corresponding protocol (PE, SIT, or PE\u2013SIT). Only one deviation from the protocol was detected"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary PTSD outcome was assessed by trained independent evaluators blind to treatment assignment using a validated interview, but the authors concede interrater reliability was not monitored across the 5-year trial (possible rater drift), and self-report measures (BDI, STAI-S) were completed by unblinded participants.",
+        "evidence_quote": "we did not evaluate interrater reliability systematically for the PSS\u2013I, the SAS, and the SCID throughout the 5 years of this study, allowing for the possibility of rater drift."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was substantial (17/96, 18% at posttreatment, rising to ~46 of 64 active completers with 12-month data) and, critically, differed significantly by arm (8% PE vs 27% SIT and 27% PE\u2013SIT, p &lt; .025), so differential missingness is plausibly related to the outcome and could bias the between-treatment comparisons; the authors themselves acknowledge no in-treatment assessments exist for dropouts and that last-value-carried-forward imputation may underestimate SIT/PE\u2013SIT efficacy.",
+        "evidence_quote": "The dropout rate differed significantly across groups, $\\chi^{2}(3, N = 96) = 10.62, p < .025$ ... We did not conduct assessments during the active-treatment phase and therefore do not have information on the status of dropouts at the time of termination... this could have resulted in underestimating the efficacy of the former treatments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Two a priori hypotheses were stated and both intent-to-treat and completer results are reported transparently, but there is no pre-registration or protocol, no designated single primary outcome, and the paper reports a large number of outcome operationalizations (four measures, end-state functioning, diagnostic status, effect sizes, 2\u00d72 factorial analyses, multiple follow-up points) with many uncorrected simple comparisons, leaving scope for selective emphasis.",
+        "evidence_quote": "In the intent-to-treat sample, PE was superior to SIT and PE\u2013SIT on four of seven indexes of treatment outcome"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 3: attrition was substantial and significantly differential across arms (8% in PE vs 27% in both SIT and PE\u2013SIT), with no mid-treatment data on dropouts and reliance on last-value-carried-forward imputation, which directly threatens the key finding of PE superiority. Remaining domains raise some concerns (unreported allocation-sequence/concealment detail plus a mid-trial ratio change, unblindable interventions, unmonitored interrater reliability over 5 years, and no pre-registration with many outcome indexes), though blinded independent evaluators, manualized treatments with verified adherence, and ITT analyses are notable strengths."
+  },
+  {
+    "paper_id": "manual:3954d4eb",
+    "paper_title": "0f45ef94_A_One-Session_Treatment_of_PTSD_After_Single_Sexua",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes individual random allocation: \"single-center, individually randomized waitlist-controlled treatment study with 1:1 allocation\" using \"sequenced computer-generated simple randomization\" prepared by an independent trial alliance.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated by an independent body and baseline characteristics were balanced, but allocation envelopes were held by trial staff and were not always drawn in strict numeric order, which weakens allocation concealment.",
+        "evidence_quote": "\"Preparation of the trial material and randomization was conducted by the independent data and safety monitoring board Karolinska Trial Alliance (KTA) via sequenced computer-generated simple randomization with 1:1 allocation... Due to initial misunderstandings, the prepared sealed envelopes were initially not always picked in strict numeric order.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were necessarily aware of allocation and the comparator was a waiting list (acknowledged by authors as potentially exaggerating efficacy), although an intention-to-treat analysis was applied and there were no discontinuations or protocol deviations reported.",
+        "evidence_quote": "\"Participants could not be blinded to their treatment allocation due to the nature of this nonpharmacological intervention. Therapists involved in delivery of the intervention were also unblinded.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 3/36 (8%) lacked primary-outcome data at the main time point, for reasons unrelated to outcome (technical problems/forgetting), and ITT (LOCF) and per-protocol analyses gave concordant results.",
+        "evidence_quote": "\"two could not complete the second self-rating because of technical problems with the online self-rating, and one participant forgot to answer within the given time frame. The remaining 33 participants all completed the second self-rating\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome was an unblinded participant-reported symptom scale in a waitlist-controlled trial of an intervention participants knew they had received, so outcome assessment (self-report) was highly susceptible to expectancy/response bias, with no blinded clinician-rated verification.",
+        "evidence_quote": "\"Other limitations associated with resources were that allocation envelops were kept and handled by the trial staff and that we relied on self-report data and self-rating rather than on clinical assessment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT03141047) with a pre-specified primary outcome, but the planned blinded external analysis was abandoned and an unplanned interim analysis prompted by observed large group differences led to early stopping at 36 of a target 100 participants, which risks outcome-driven reporting and effect-size inflation.",
+        "evidence_quote": "\"The major differences between the groups at time point two in combination with lack of funding, led us to the decision to perform an interim analysis when 36 patients had completed the second measurement at time point two... the study was closed.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by outcome measurement: the primary endpoint was an unblinded self-reported PTSD scale in a waitlist-controlled trial where participants and therapists knew allocation. Additional concerns arise from imperfect allocation concealment (envelopes handled by trial staff and not always drawn in order), unblinded in-house analysis, and early stopping after a data-driven interim analysis at 36 of a planned 100 participants."
+  },
+  {
+    "paper_id": "manual:139d6604",
+    "paper_title": "adc8ef11_AnOpen-LabelRandomizedControlledTrialoftheReconsolidationofTraumaticMemoriesProtocolRTMinMilitaryWomen",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to RTM treatment or waitlist control using a pre-generated list of random numbers: \"Participants were admitted to the study in cohorts of 10 and randomly assigned to treatment or control groups by the site manager. This assignment was based on a list of random numbers, previously generated at an independent location using Microsoft Excel 2016's random number function.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "This was explicitly an open-label waitlist trial, so participants and the single (RTM-expert, project-affiliated) therapist knew the assigned condition and expectancy effects are acknowledged, and co-interventions (medications in 17/30; two seeing another clinician) were permitted and unbalanced (10 RTM vs 7 control); however, fidelity was video-monitored and an appropriate intention-to-treat analysis was used.",
+        "evidence_quote": "\"That many of the referrals came by word of mouth was problematic due to possible expectancy effects... Our results may have been further compromised by participants' concurrent enrollment in other treatment modalities including pharmacotherapy.\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine random sequence generated off-site was used and baseline PSS-I/PCL-M scores were closely comparable (43.6 vs 42.5; 73.5 vs 68.7), but allocation concealment is not described\u2014the site manager held the number list and assigned within fixed cohorts of 10, which leaves upcoming assignments potentially foreseeable.",
+        "evidence_quote": "\"Participants were admitted to the study in cohorts of 10 and randomly assigned to treatment or control groups by the site manager. This assignment was based on a list of random numbers, previously generated at an independent location using Microsoft Excel 2016's random number function.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "For the primary randomized comparison (treatment at 2 weeks vs controls at week 5) outcome data were essentially complete (1/30 dropout, 3%) with ITT/LOCF imputation; substantial attrition occurred only at the 6-month and 1-year follow-ups, which fall outside the randomized between-group comparison.",
+        "evidence_quote": "\"All 15 individuals in the RTM group completed treatment... One waitlist-control participant dropped out during treatment, citing family problems... all computations were based on intent-to-treat analyses. Incomplete values were imputed using the last observation carried forward.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although independent psychometricians were described as blinded at intake/postwait/2 weeks, blinding is implausible to maintain in an open waitlist design (controls at week 5 know they are untreated), the primary PSS-I is an interviewer-rated measure susceptible to assessor expectation, its internal consistency in this sample was poor (alpha = .64), and all follow-up measures were taken by the treating clinician himself\u2014an authors' acknowledged \"obvious source of potential bias.\"",
+        "evidence_quote": "\"Although independent psychometricians evaluated participants at intake and 2 weeks posttreatment, later measures were made by the therapist by telephone. This is an obvious source of potential bias.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited (only IRB approval), the use of one-tailed tests and multiple outcome operationalizations (severity scores, diagnostic cut-offs, symptom clusters, MCID thresholds, flashback/nightmare counts, multiple time points) permits analytic flexibility, and the authors concede that the MST subgroup emphasis was not an a priori hypothesis.",
+        "evidence_quote": "\"All significance testing used student's independent t test, 1-tailed... While the level of MST in our sample was significant (22/30 or 73%), we were insufficiently aware of its presence during the study design to legitimately frame it as one of our initial hypotheses.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by outcome measurement (D4): the open-label waitlist design makes assessor blinding difficult to sustain for an interviewer-rated primary outcome with poor internal consistency (alpha = .64), and all longer-term follow-up assessments were conducted by the treating clinician, an author-acknowledged source of bias. Additional concerns arise from undescribed allocation concealment, a single developer-affiliated therapist with acknowledged expectancy effects and unbalanced co-medication, and the absence of pre-registration combined with one-tailed testing and multiple outcome operationalizations; missing outcome data for the primary randomized comparison was the only clearly low-risk domain."
+  },
+  {
+    "paper_id": "manual:81b47181",
+    "paper_title": "c213799c_datadivajac,+19303-79596-5_Final",
+    "design_classification": "non_randomized",
+    "design_rationale": "Although the abstract claims participants were \"randomly assigned,\" the Results explicitly state allocation was by alternation based on order of return of prescreening materials (\"alternately assigned between the LZNF group and HRVB group according to the order in which they returned their prescreening materials\"), which is a quasi-experimental, non-random, non-concealable allocation mechanism.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Alternate allocation did not balance groups: the LZNF group had notably higher baseline HRV and more comorbid diagnoses, no statistical adjustment for confounders was performed (only unadjusted nonparametric pre-post and between-group tests), and most participants were concurrently receiving psychotherapy/medication plus numerous acknowledged life stressors.",
+        "evidence_quote": "\"The largest baseline differences were in the HRV measures, for which the LZNF group had higher initial levels.\" ... \"The LZNF group reported a larger number of comorbid diagnoses at baseline (i.e., LZNF = 21, HRVB = 15).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Participants were a self-selected volunteer convenience sample recruited by advertisement and enrolled first-come first-served, with assignment determined by the order prescreening materials were returned \u2014 a feature plausibly related to participant characteristics \u2014 although all participants were enrolled at a common baseline before intervention started.",
+        "evidence_quote": "\"Twenty-four eligible adults were enrolled on a first-come, first-served basis and alternately assigned between the LZNF group and HRVB group according to the order in which they returned their prescreening materials.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Both interventions were clearly defined a priori with explicit protocols (15 sessions, 20 min training, SCL-FNM/Z-Tunes for LZNF; resonant-frequency protocol for HRVB), and group status was recorded prospectively at enrollment, independent of outcome.",
+        "evidence_quote": "\"All participants attended 15 sessions of the training to which they were assigned (i.e., LZNF or HRVB) at a rate of two sessions per week.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "moderate",
+        "rationale": "Participants and providers were unblinded to condition (authors acknowledge this) and training protocols were individually adjusted mid-course, though matched feedback/psychoeducation, 100%/92% completion, and equal session numbers limit co-intervention imbalance.",
+        "evidence_quote": "\"However, participants were unblinded to the training they were undergoing, which is a complication inherent to the use of active controls.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "Only one of 24 enrolled participants (HRVB) withdrew and analyses appear complete-case, but the dropout was excluded rather than analysed on an intention-to-treat basis and no reason for withdrawal or sensitivity analysis is reported in a very small sample where one case is influential.",
+        "evidence_quote": "\"Only one participant assigned to the HRVB group withdrew participation prior to completion of the study.\""
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "Primary outcomes were self-reported symptom questionnaires (PCL-5, BAI) completed by unblinded participants who knew whether they received the \"experimental\" brain training, and EEG artifacting/manual editing and threshold adjustment were performed by the unblinded investigator, so outcome assessment could be influenced by knowledge of condition.",
+        "evidence_quote": "\"This was followed by a manual scan of the full EEG recording to remove any artifact data that the software had incorrectly selected ... and add any true EEG data that it had inaccurately omitted\""
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "serious",
+        "rationale": "No pre-registration or protocol is cited; seven outcome measures across multiple analytic operationalizations were examined without multiplicity control, and a post hoc \"LZNF Responders\" subgroup defined by the direction of the outcome itself was created and highlighted as the key significant neurophysiological finding.",
+        "evidence_quote": "\"For this reason, a subgroup of the LZNF group (n = 9), termed LZNF Responders, was analyzed further ... This subgroup consisted of participants in the LZNF group who showed any amount of decrease from Time 1 to Time 2 in the total number of significant CSD z-scores within the targeted networks.\""
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "Despite the abstract's claim of randomization, allocation was by alternation according to order of prescreening return, leaving uncontrolled baseline imbalances (HRV, comorbidity) with no confounder adjustment in a sample of 23. Combined with unblinded self-report primary outcomes, investigator-dependent EEG editing, and an outcome-defined post hoc \"Responder\" subgroup reported without pre-registration or multiplicity control, the study is at serious risk of bias."
+  },
+  {
+    "paper_id": "manual:f75f12c7",
+    "paper_title": "b9a3af0e_j.janxdis.2016.07.010",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports an RCT in which 87 eligible college women with rape-related PTSD were randomly allocated to the interactive From Survivor to Thriver program (n=46) or a psycho-educational self-help website (n=41) using an explicit random mechanism: \"Participants were randomized to the interactive program or psycho-educational website based on a computerized coin flip.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was genuinely random (computerized coin flip) and allocation occurred after telephone eligibility screening, but allocation concealment is never explicitly described and one baseline prognostic characteristic (severe perpetrator force) differed significantly between arms, so chance imbalance cannot be fully ruled out.",
+        "evidence_quote": "\"Participants were randomized to the interactive program or psycho-educational website based on a computerized coin flip.\" ... \"women assigned to the interactive program were more likely to report that the perpetrator used severe force, \u03c72 (1, N = 82) = 5.71, p = 0.017\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and staff were necessarily aware of assignment and adherence was very poor (only 15.8% of interactive-program participants completed all modules; 14/87 never logged in), and the principal between-group and moderation analyses were conducted on initiators/completers rather than on an intention-to-treat basis, although supplementary ITT analyses with multiple imputation were also reported.",
+        "evidence_quote": "\"Analyses were conducted on individuals who initiated the assigned programs and provided data at post-test assessments.\" ... \"Six participants (15.8%) completed the entire program.\" ... \"Women who did not log in to the interactive program for four weeks were considered dropouts (15.2%, n = 7)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial and differentially distributed attrition (post-treatment PSS-I available for only 23/46 interactive vs 28/41 website participants, i.e. roughly 40\u201350% missing in the interactive arm versus ~32% in the control arm), with missingness plausibly related to the outcome (treatment dropouts largely failed to provide post-treatment data), so the completer-based effect estimates are likely biased despite some comparisons of dropouts and completers on baseline variables.",
+        "evidence_quote": "\"Among women assigned to the interactive program, 26 (66%) completed at least one post-treatment assessment ... Among women assigned to the psycho-educational website, 29 (83%) completed at least one post-treatment assessment\" ... \"overall only 72.6% of individuals who initiated one of the two programs completed the post-treatment assessment, and thus it is not known whether these individuals who did not complete the assessment experienced clinical benefit.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome was the interviewer-administered PSS-I and the authors explicitly acknowledge that assessors were unblinded to condition; because the interviewers were study staff invested in the interactive program, knowledge of allocation could plausibly have influenced the clinician-rated PTSD scores, and no inter-rater reliability for the interviews was reported.",
+        "evidence_quote": "\"Additionally, given the nature of the trial, individuals completing pre-, post- and follow-up assessments were not blind to participants' intervention condition.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration number or pre-specified analysis plan is cited, multiple outcome operationalizations are reported (completer, ITT-imputed, RCI, four interference ratings, three symptom measures, follow-up), and the headline conclusion about treatment-intensity matching rests on a moderation analysis whose simple slopes were both non-significant, raising concerns about selective emphasis in reporting.",
+        "evidence_quote": "\"Examining the simple slopes revealed that for women with low PTSD symptomology at pre-treatment, women assigned to the interactive program had higher post-treatment PTSD symptom scores ... b = 5.12, SE = 2.89, p = 0.082. In contrast, for women high in PTSD symptomology at pre-treatment, the interactive program resulted in lower post-treatment levels ... b = \u22123.93, SE = 2.77, p = 0.164\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by two domains: substantial and differentially distributed missing outcome data (only 23/46 interactive and 28/41 website participants provided post-treatment PSS-I data, with treatment dropouts largely unassessed) and explicitly unblinded assessment of the interviewer-rated primary PTSD outcome. Although randomization used a computerized coin flip and supplementary ITT analyses were reported, the reliance on completer analyses, poor program adherence, a significant baseline imbalance in perpetrator force, and absence of a stated pre-registered analysis plan add further concerns."
+  },
+  {
+    "paper_id": "manual:f7d49ca3",
+    "paper_title": "58663d3f_jfn.0000000000000080",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of female sexual assault survivors to standard care or video intervention (\"One hundred and sixty-four women were randomized to experimental conditions\"), and is titled a randomized trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but the sequence-generation method and allocation concealment are not described, and a notable baseline imbalance in completed rape (a plausible prognostic factor) was observed.",
+        "evidence_quote": "\"Before beginning the study, participants were randomized into one of two conditions, SC or VI.\" ... \"No differences were observed on these variables, except that more individuals in the SC condition reported a completed rape (67.1%) than those in the VI condition (46.8%)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the SANE/advocate staff were necessarily aware of condition, no manipulation/fidelity check was performed, and analyses were restricted to follow-up completers rather than an intention-to-treat sample.",
+        "evidence_quote": "\"There was no manipulation check in the study; thus, we were unable to examine the extent to which the women attended to the information in the video\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were well-validated self-report instruments administered identically in both arms by assessors blind to condition.",
+        "evidence_quote": "\"trained research assistants, blind to the study condition, contacted the participants\" ... \"the STAI exhibited excellent internal consistency for each time point\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition exceeded 50% at both follow-ups (and was even greater for some measures), with the authors acknowledging completers may differ systematically from dropouts, so results could well be biased by missingness.",
+        "evidence_quote": "\"Of the 164 women randomized in the study, data from 69 participants at 2 weeks and 74 participants at 2 months were available for analyses\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or analysis plan is cited, the analytic approach was changed after seeing attrition, and multiple outcomes (SUDs, STAI, PSS-SR), time points, and subgroup analyses were examined with only selected significant findings emphasized.",
+        "evidence_quote": "\"A repeated measures design was considered, but the power for the analyses was significantly impacted by sample attrition. Therefore ... one-way analysis of covariance (ANCOVA) was conducted\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven principally by severe attrition (only 69/164 and 74/164 participants contributed follow-up data) with no analysis demonstrating that results were unaffected by missingness. Additional concerns arise from unreported randomization/allocation-concealment methods with a baseline imbalance in completed rape, absence of fidelity checks and intention-to-treat analysis, and a post hoc, non-preregistered analytic approach across multiple outcomes and subgroups."
+  },
+  {
+    "paper_id": "manual:1cf91fba",
+    "paper_title": "1779d4e7_jts.20096",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that 90 female assault survivors were randomly assigned to B-CBT, assessment condition, or supportive counseling (\"participants were randomly assigned to either four sessions weekly of B-CBT or AC; 1 year into the study, the SC condition was added, and randomization was adjusted accordingly\"), and the authors describe it as a randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is stated but the sequence generation method and allocation concealment are not described, the allocation ratio changed mid-trial with the late addition of SC, and there was a statistically significant baseline imbalance in assault type (a known prognostic factor) across conditions, though it was handled as a covariate.",
+        "evidence_quote": "\"At the start of the study, participants were randomly assigned to either four sessions weekly of B-CBT or AC; 1 year into the study, the SC condition was added, and randomization was adjusted accordingly to increase the probability of participants being assigned to the SC condition... There was a difference in assault type across intervention conditions, \u03c72(2, N = 90) = 12.00, p < .05.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists were necessarily aware of condition (and the same clinicians delivered all three conditions, raising allegiance/contamination concerns), and the primary analysis was completers-only rather than intention-to-treat, although LOCF sensitivity analyses were reported and generally concordant.",
+        "evidence_quote": "\"Tapes of intervention sessions were reviewed in weekly supervision to ensure adherence... only data for completers will be presented here. All analyses also were conducted using the last observation carried forward method (LOCF)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Over a quarter of randomized participants dropped out (with further attrition at follow-up, e.g., only 19\u201324 per arm with outcome data), the featured analyses were completers-only, and some key findings (good end-state functioning in sexual-assault survivors; 3-month BAI difference) lost significance under LOCF, indicating results are sensitive to missingness.",
+        "evidence_quote": "\"Twenty-four participants (26.7%) dropped out of the intervention, leaving 66 completers... Missing data for the completer analyses were counted as missing and not imputed in any way.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were assessed with well-validated interview (PSS-I) and self-report (PSS-SR, BDI, BAI) instruments applied identically across arms, with clinician-rated outcomes obtained by assessors blind to condition; self-report measures are unblinded but are standard and appropriate for this field.",
+        "evidence_quote": "\"Interviewers blind to treatment assignment conducted independent evaluations.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registration or protocol is cited, multiple outcome operationalizations (PSS-I, PSS-SR, BDI, BAI, diagnosis, good end-state functioning, clinically significant change) were analysed at multiple time points without correction, and subgroup/post hoc analyses (assault type, ASD status, \"last available follow-up\") plus reporting of p = .06\u2013.068 as \"trends\" raise selective-reporting concerns, though both completer and LOCF results are described.",
+        "evidence_quote": "\"Because we had specific, directional hypotheses regarding the relative efficacy of the three interventions (B-CBT > AC; B-CBT > SC), we conducted planned comparisons to test these hypotheses\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial attrition (26.7% dropout plus further follow-up loss) with completer-based primary analyses and several key findings losing significance under LOCF. Additional concerns include unspecified sequence generation/allocation concealment with a mid-trial change in allocation ratio and a significant baseline imbalance in assault type, unblinded participants/therapists, and absence of a pre-specified protocol amid many outcomes and time points."
+  },
+  {
+    "paper_id": "manual:20107f48",
+    "paper_title": "cc27b8b1_nihms699295",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is an explicitly described pilot randomized controlled trial (NCT02139137) in which 42 women with PTSD who completed baseline assessment were \"randomly assigned to the HIC condition or the LIC condition based on a computer-generated random number system,\" with allocation performed by an independent third party.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated random sequence was implemented by an independent third party with concealment from participants and research personnel, and no baseline differences in demographic or clinical variables were detected.",
+        "evidence_quote": "\"Individuals who completed all baseline assessments were randomly assigned to the HIC condition or the LIC condition based on a computer-generated random number system prior to attending the first training session. Conditions were assigned by an independent third party using computer software, so that participants and research personnel remained blind to subjects' conditions.\" ... \"participants in the two groups did not differ on age or measures of clinical features ... (all ps > .10)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of participants and personnel was intended and the two programs were closely matched, and an ITT (LOCF) analysis was conducted; however, four participants were removed for \"not following study instructions\" (a per-protocol-type exclusion), and the post-training credibility difference (LIC rated as more logical, p < .01) suggests conditions were not experienced identically, raising some concern about differential non-specific/expectancy effects.",
+        "evidence_quote": "\"four were removed for not following study instructions or experiencing a change that would meet exclusion criteria\" ... \"results suggested that individuals in the LIC condition rated the program as more logical than those in the HIC at the post-training assessment, F (1, 24) = 8.42, p < .01\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 21 of 42 randomized participants (13 HIC, 8 LIC) completed post-training assessment \u2014 roughly 50% attrition, far exceeding the observed effect \u2014 and the \"ITT\" analysis relied on last-observation-carried-forward imputation, which for improving outcomes biases toward no change and cannot be assumed unrelated to the outcome despite the absence of detected baseline differences between completers and dropouts.",
+        "evidence_quote": "\"Of these, eight did not return to begin the intervention (HIC; N = 3, LIC; N = 5), nine additional participants dropped out after treatment initiation and were unavailable for subsequent assessments (HIC: N = 4, LIC: N = 5), and four were removed...\" ... \"The rate in the present study (40% of those randomized, 26% of those who began the intervention) is on the upper end of the published rates in prior research.\" ... \"missing data imputed using the last observation carried forward (LOCF) method\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes used well-validated instruments (CAPS, Ospan) applied identically at pre- and post-training, and assessors were intended to be blind, but the paper does not report whether blinding of the post-training CAPS interviewers was verified or maintained, nor is inter-rater reliability reported for severity scores (only diagnostic agreement), leaving the clinician-rated primary outcome potentially susceptible to assessor influence.",
+        "evidence_quote": "\"Conditions were assigned by an independent third party using computer software, so that participants and research personnel remained blind to subjects' conditions.\" ... \"Interviews were videotaped, and a portion of the tapes were rated by a second independent clinician to assess inter-rater agreement for PTSD diagnoses. Interviewers agreed on diagnostic status in all cases.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT02139137) with clearly pre-stated primary outcomes and hypotheses, and both ITT and completer analyses plus null secondary outcomes are reported; however, no protocol/analysis plan is available for inspection, outcomes were analysed with multiple covariate-adjusted ANCOVA specifications (education and PTSD symptoms added as covariates only for Ospan), one data point was winsorized post hoc, and the reported effect sizes are internally inconsistent (e.g., partial eta-squared of .03 accompanying p < .01 at F(1,42) = 8.45), suggesting some analytic flexibility and imprecise reporting.",
+        "evidence_quote": "\"Because PTSD symptoms and education (as a proxy for vocabulary and reading ability) would be predicted to impact cognitive performance on WMC tasks, these were also included as covariates on analyses of Ospan score.\" ... \"For one data point deemed to be an outlier in the cognitive task data ... a winsorizing procedure was applied\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D3: approximately half of the 42 randomized participants (21 completers; HIC n=13, LIC n=8) were missing post-training outcome data, with results depending on LOCF imputation in a small pilot sample. Randomization was well executed (D1 low), but residual concerns about differential perceived credibility/per-protocol exclusions (D2), unverified assessor blinding for the clinician-rated primary outcome (D4), and analytic flexibility with inconsistently reported effect sizes (D5) compound the attrition problem."
+  },
+  {
+    "paper_id": "manual:43127198",
+    "paper_title": "8ea75596_nihms907385",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is an explicitly registered parallel-group randomized clinical trial (NCT01430624) with 1:1:1 allocation: \"A computerized random numbers generator was used to randomly assign participants to one of three conditions via a stratified blocked randomization procedure with variable block sizes of 9 or 12.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computerized random number generator with stratified blocked randomization and variable block sizes was used, allocation was concealed in sealed numbered envelopes (phase 2) with nurses blind until opening, and Table 1 shows no significant baseline differences across the three conditions on age, education, marital status, income, student/employment status, minority status, prior SA, or pre-SA substance use.",
+        "evidence_quote": "A computerized random numbers generator was used to randomly assign participants to one of three conditions via a stratified blocked randomization procedure with variable block sizes of 9 or 12... stored in envelopes prepared by a study coordinator and labeled only with a participant subject number until opened by the nurse, who was blind to study condition to that point."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "A mid-trial \"approved change of scope\" meant 18% of participants received full-length videos pre-exam via internet link while the remainder received shortened videos on CD post-exam, so not all participants underwent the same procedure, and the TAU arm was necessarily unblinded; moreover, the authors explicitly state they could not conduct intention-to-treat analyses because baseline substance use was not collected.",
+        "evidence_quote": "Although there were no significant differences in distress between groups who received the brief and long versions of the video it may be important to note that all participants did not undergo the same procedure... A final limitation is that we included only participants who had at least one follow-up because we did not collect baseline substance use data; future studies should collect these data to conduct intent-to-treat analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 154 of 233 randomized participants (66%) provided any follow-up data, and the analysed sample fell further to 135 (T2) and 121 (T3); the 34% with no outcome data at all were excluded by design, and because no baseline substance use was collected no ITT or sensitivity analysis of missingness on the outcome itself was possible, so substantial attrition cannot be shown to be non-biasing despite the absence of differences by condition, age or minority status.",
+        "evidence_quote": "Of the 233 participants, 154 (66%) completed one or more follow-up assessments... A final limitation is that we included only participants who had at least one follow-up because we did not collect baseline substance use data"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were assessed identically across arms using validated instruments (AUDIT, DAST) by telephone interviewers blind to condition, but all substance use outcomes are self-reported by unblinded participants (who knew whether they received a video), and key moderators/covariates such as pre-SA use were collected retrospectively at follow-up rather than at baseline, raising recall concerns.",
+        "evidence_quote": "Participants completed up to three structured telephone follow-up interviews targeted at 1.5, 3, and 6 months post-SA conducted by Counseling Psychology doctoral students who were blind to study condition."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and a Bonferroni correction was applied across 124 tested effects, which mitigates multiplicity, but the full protocol is not publicly available, there were four outcome operationalizations across three time points with three moderators, enrolment stopped when funding ended rather than at a pre-specified target, and the conclusions rest on subgroup interactions rather than the pre-specified main-effect hypotheses.",
+        "evidence_quote": "The trial is registered at clinicaltrials.gov under the registration number NCT01430624 and includes protocol information, although full protocol is not publicly available... Initial sample size was determined via power analysis, and as many participants as possible were recruited before funding ended."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomization was well executed with concealed allocation, balanced baseline characteristics, blinded outcome assessors and a multiplicity correction, the overall judgment is driven by high risk from missing outcome data: 34% of randomized participants provided no follow-up data and were excluded by design, and the absence of baseline substance use measurement precluded any intention-to-treat or sensitivity analysis. Additional some-concerns arise from the mid-trial change in video length/timing of delivery, reliance on participant self-report in an unblinded design, and reliance on subgroup interactions rather than the pre-specified main effects (which were all null)."
+  },
+  {
+    "paper_id": "manual:060081c4",
+    "paper_title": "df8f937c_nihms930064",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated 1:1 to standard of care or ImpACT using a small block randomization procedure with sealed envelopes, in a registered pilot RCT (NCT02223390).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was random and concealed in sealed envelopes, but small block sizes permit some predictability and, despite the claim of no significant differences in Table 1, the ImpACT arm had markedly higher baseline PTSD severity and subscale scores (43.28 vs 30.72, flagged as significant in Table 2), an imbalance on the primary outcome.",
+        "evidence_quote": "\"Participants were randomly assigned (1:1) ... using a small block (size 8 or 10) randomization procedure. Condition assignments were placed in sealed envelopes, blinded to study staff until assignment.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes were analyzed intention-to-treat, but participants and staff were unblinded, group-session delivery largely failed (only 25% attended any group session) and extra contact/remuneration and psychiatric referrals could introduce co-intervention effects; secondary adherence analyses also excluded non-initiators.",
+        "evidence_quote": "\"Due to the nature of the intervention conditions, neither participants nor staff could be blinded to condition assignment.\" ... \"Participants were retained in these analyses regardless of intervention exposure, following an intent-to-treat analysis of the outcomes.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcomes (PTSD symptoms, coping, adherence motivation) and key secondary outcome (self-reported adherence) are subjective self-reports collected by interview from unblinded participants by unblinded study staff, so knowledge of assignment and social desirability toward the intervention could plausibly bias measurement.",
+        "evidence_quote": "\"Interviewer-administered assessments were conducted within a private room in the clinic\" ... \"neither participants nor staff could be blinded to condition assignment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Follow-up data were available for only 45/64 (3 months) and 51/64 (6 months) participants and attrition was related to prognostic factors (hazardous drinking, recent IPV), though loss did not differ by arm and mixed models were used without sensitivity analyses for missingness.",
+        "evidence_quote": "\"Participants lost to follow-up at the 6-month assessment were significantly more likely than those retained to have reported hazardous drinking (69.2% vs. 37.3%, p = 0.04) and recent physical intimate partner violence at baseline (46.2% vs. 17.65%, p = 0.03).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial was registered, the analyses are self-described as exploratory with many outcome operationalizations (PCL total plus four subscales, three data-derived coping factors, multiple time contrasts, post-hoc responder analyses) and no apparent pre-specified analysis plan or multiplicity correction, so the highlighted significant results may be selectively reported.",
+        "evidence_quote": "\"Exploratory post-hoc analysis revealed that a significantly larger proportion of participants in the ImpACT arm compared to SoC had clinically significant reductions in total symptom severity scores\" ... \"A principal axis factor analysis ... was performed on the baseline data to explore the structure of coping items. Five items did not logically group with any factor and were removed from further analysis.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "This registered pilot RCT used concealed block randomization and intention-to-treat analysis, but outcome assessment relied on interviewer-administered self-report with no blinding of participants or staff (D4 high) and the reported effects came from avowedly exploratory, multiplicity-laden and post-hoc analyses without a pre-specified analysis plan (D5 high). Combined with baseline PTSD imbalance favoring detection of change in the ImpACT arm and prognostically related attrition, the overall risk of bias is high."
+  },
+  {
+    "paper_id": "manual:96d2c834",
+    "paper_title": "5e89949f_S2056472421010292a",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"a research assistant randomised participants to either trial condition using a virtual coin toss programme\", in a registered two-arm parallel feasibility RCT (NET vs wait-list).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random sequence (virtual coin toss by a research assistant after baseline assessment) was used, but no stratification or allocation concealment details are given and baseline imbalances were notable (unequal 15/10 allocation, interpreter need 33% vs 70%, country of origin, age, and a statistically significant baseline difference in dissociation scores).",
+        "evidence_quote": "\"Randomisation did not yield equal allocation across the two groups. There were also some notable group differences in the distribution of other participant characteristics, including whether the participant was an English speaker, and in terms of country of origin.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and therapists were necessarily aware of allocation, protocol deviations occurred (session numbers exceeded the 20-session cap, extra unrecorded advocacy/practical support sessions provided unevenly, NET period ~7.4 months vs 5-month wait), and analysis was completer-based rather than intention-to-treat.",
+        "evidence_quote": "\"Given that this was a feasibility study with only a small sample and some missing data, we analysed completer data rather than performing an intention-to-treat (ITT) analysis.\" ... \"some individuals received more than the allocated number of NET (or non-NET) sessions, because clinicians used their discretion to extend the course of therapy\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were unavailable for roughly 20% of randomised participants (2/15 NET and 3/10 wait-list lost, plus 3 missing data points), analyses used only completers (n = 18\u201320), and reasons for missingness (suicide risk deterioration, physical health decline, no longer wanting trauma-focused therapy) are plausibly outcome-related with no sensitivity analysis.",
+        "evidence_quote": "\"In total, 13 participants completed NET, and seven completed the waiting period (and post-wait assessments).\" ... \"Where data were missing, these participants were excluded from these specific analyses.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although validated measures (CAPS-5, PCL-5, PHQ-9, GAD-7) were used, intended assessor blinding broke down in several cases\u2014with assessors sometimes also being trial therapists\u2014and non-standardised interpreter-mediated translations of measures were used, both of which could bias the subjective, self- and clinician-rated outcomes.",
+        "evidence_quote": "\"Unblinding therefore occurred in several cases, either \u2018accidentally\u2019 (e.g. the assessor had encountered the participant attending for a therapy appointment) or because the participant made a disclosure during an assessment session\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ISRCTN95136302) and all listed outcomes are reported, but the clinically-significant-change threshold was chosen post hoc, the analysis approach (completer ANCOVA) deviated from ITT, and no protocol-specified analysis plan is available to verify against.",
+        "evidence_quote": "\"No formal power calculation was completed for this feasibility study.\" ... \"Given our small sample size and the relatively high variability in scores, we deemed it inappropriate to apply a very stringent method of assessing reliable change (two standard deviations from the mean) and instead used Halvorsen\u2019s other suggested method: a change of >30% from baseline score.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: although allocation was by virtual coin toss within a registered feasibility RCT, the efficacy estimates are undermined by acknowledged breakdown of assessor blinding for subjective PTSD outcomes, completer-only (non-ITT) analysis with ~20% attrition likely related to clinical deterioration, and protocol deviations (extra sessions, unequal practical support, treatment period longer than the wait period). Notable baseline imbalances (including dissociation scores) and post hoc choice of change criteria add further concern."
+  }
+]

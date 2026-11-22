@@ -1,0 +1,508 @@
+[
+  {
+    "paper_id": "manual:1139ba30",
+    "paper_title": "f994a240_70765",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a registered clinical trial in which 66 preterm infants \"were randomly allocated into the three groups of 22 (silent, mother's voice and stranger's voice) by computer randomization\" (IRCT2015081623636N1).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence is reported and baseline demographic/clinical characteristics were balanced across the three groups, but no information is given on allocation concealment (who generated/implemented the sequence, whether it was concealed from recruiters).",
+        "evidence_quote": "The samples were randomly allocated into the three groups of 22 (silent, mother's voice and stranger's voice) by computer randomization."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Nine percent of randomized infants (6/66) were removed from the analysis on the basis of their outcome values being \"outliers\", with no per-group breakdown, no sensitivity analysis, and a post-hoc, outcome-dependent exclusion rule that could plausibly bias the between-group heart-rate comparison.",
+        "evidence_quote": "However, the data of six infants were omitted from analysis as they were outliers (the data showed excessive increase or decrease in heart rates insofar as it seemed that the pulse oximeter probes placed on infant's legs were dislocated)"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Infants were unaware of allocation and procedures were standardized, but mothers/nurses and researchers delivering the intervention necessarily knew the condition, some mothers could not attend as scheduled, and no intention-to-treat analysis is described (six infants were excluded post hoc).",
+        "evidence_quote": "some of the mothers could not be present at the infants' bedside at the appointed time in three consecutive days"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Heart rate is an objective physiological outcome recorded automatically by the same calibrated monitoring system in identical fashion across all three groups, so assessor knowledge of allocation is unlikely to have influenced measurement.",
+        "evidence_quote": "The patient monitoring system was set to record the heart rate automatically every five minutes for 30 minutes."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the single primary outcome (heart rate) is clearly specified, but the registered protocol/analysis plan is not available for comparison and the results are reported in multiple ways (phase means, repeated-measures, post-hoc Tukey, interaction) with a post-hoc outlier exclusion, leaving some scope for selective reporting.",
+        "evidence_quote": "This study is registered in Iranian registry of clinical trials with registration number: IRCT2015081623636N1."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although this registered trial used computer randomization, achieved balanced baseline characteristics, and measured an objective automatically-recorded outcome, the exclusion of six of 66 randomized infants (9%) from analysis based solely on their outcome values being \"outliers\", without per-group reporting or sensitivity analysis, places the study at high risk of bias for missing outcome data. Additional some-concerns arise from unreported allocation concealment, unblinded intervention delivery with non-attendance of some mothers, and the absence of an accessible pre-specified analysis plan."
+  },
+  {
+    "paper_id": "manual:435fc3a4",
+    "paper_title": "8ffda058_000504357",
+    "design_classification": "randomized",
+    "design_rationale": "The paper states it was a randomized controlled trial with preterm infants allocated to four groups using a computer-based block randomization program (\"Randomization was carried out using a computer program (www.randomization.org/block design)\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated block randomization sequence was used and baseline characteristics (gestational age, birth weight, Apgar, NTISS) were similar across groups, but there is no description of allocation concealment, and block randomization in an unblinded single-unit NICU is potentially predictable.",
+        "evidence_quote": "\"Randomization was carried out using a computer program (www.randomization.org/block design).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The interventions (incubator cover, audible maternal voice recording, breast milk odor sponge) were inherently unblinded to NICU staff and the researcher who collected data, and no information is given on co-interventions, protocol adherence, or whether analysis was intention-to-treat (13 of 136 randomized infants were excluded after randomization).",
+        "evidence_quote": "\"The sample of the study comprised 136 preterm infants who met the inclusion criteria and who were randomly assigned to each group. However, due to some infants being excluded, the total number of the infants was 123\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 10% of randomized infants (13/136) were excluded post-randomization with no stated reasons or per-group breakdown in the text (only a flow diagram is referenced), so differential exclusion related to outcomes cannot be excluded.",
+        "evidence_quote": "\"However, due to some infants being excluded, the total number of the infants was 123\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes (SpO2, heart rate, respiratory rate, anthropometry) are largely objective monitor/physical measures, but the unblinded researchers performed the measurements and the subjective judgment of \"time of transition to total oral feeding\" could be influenced by knowledge of group allocation.",
+        "evidence_quote": "\"Measurements were made by the researchers.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is reported, multiple outcomes and time points were measured (physiological parameters averaged over three daily measurement times, growth, feeding transition), and the SpO2 result is reported as significant despite an F value (0.186) inconsistent with p < 0.05, raising concerns about selective/flexible reporting.",
+        "evidence_quote": "\"Oxygen saturation | 95.43\u00b13.58 | 95.26\u00b13.56 | 96.80\u00b13.51* | 95.18\u00b13.55 | 0.186 | <0.05\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Although computer-generated randomization produced well-balanced groups, concerns arise in every domain: allocation concealment is not described, the interventions and outcome assessment were unblinded with measurements made by the researchers, ~10% of randomized infants were excluded without clearly documented reasons or an ITT analysis, and there is no pre-registration with an internally inconsistent significance claim for the primary physiological outcome. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:1aa01788",
+    "paper_title": "df15c256_14767058.2014.973392",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a \"Prospective open-label study, randomized, controlled parallel group\" in which \"the subject was assigned on the basis of a list of randomization to one of the two groups in the study\" (TOS vs. environmental noise), with 17 infants per arm.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was based on a randomization list and baseline characteristics were well balanced (all p>0.29), but the method of sequence generation and whether allocation was concealed from enrolling staff are not described, and the exactly equal 17/17 split hints at possible non-concealed/restricted allocation.",
+        "evidence_quote": "\"Subsequently, the subject was assigned on the basis of a list of randomization to one of the two groups in the study\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly open-label, so the nurses delivering care, administering TOS and recording outcomes knew the allocation (controls received no sham/placebo sound), and the intervention dose is reported inconsistently (abstract: \"20-min period, three times a day\"; methods/discussion: \"duration of each session was approximately 30 min\"), with no intention-to-treat or co-intervention/fidelity information provided.",
+        "evidence_quote": "\"Prospective open-label study, randomized, controlled parallel group.\" ... \"Data collection was performed with the help of the nursing staff of the department, trained on how to conduct the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No flow diagram of screened/excluded/withdrawn infants is reported and the wording \"34 evaluable subjects\" implies possible exclusions; moreover, the protocol covered 10 days but results are presented only for days 1\u20133, with no accounting for infants discharged earlier or for missing later measurements.",
+        "evidence_quote": "\"We enrolled a total of 34 evaluable subjects (17 per experimental group).\" ... \"Each infant concluded the trial at discharge from the NICU and in any case after 10 d of hospitalization.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcome assessors were the unblinded nursing staff who also delivered the intervention; while HR/RR/SpO2 are relatively objective monitor-derived measures, the headline \"calming effect\" outcome is a subjective 1\u20137 observer-rated behavioral scale highly susceptible to assessor expectation bias in an open-label design, and timing of measurement also differed between arms (immediately after TOS versus \u226530 min after nursing).",
+        "evidence_quote": "\"Behavior of each infant was measured using a scale with a score ranging from 1 to 7 ... Data collection was performed with the help of the nursing staff of the department, trained on how to conduct the study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "There is no mention of a registered protocol or pre-specified analysis plan; although HR was the stated primary endpoint, multiple outcomes were tested at multiple time points (days 1\u20133 of a planned 10-day study) and emphasis shifted in the abstract/discussion to a borderline day-2 HR result (p=0.05) and the behavioral OR, with contradictory statements about significance (\"No significant differences emerged between the two groups during the first 3 d of life on HR\"), indicating selective reporting and flexible analysis.",
+        "evidence_quote": "\"Heart rate in the treated group was positively correlated with TOS exposure, showing a significant (p \u00bc 0.05) reduction on day 2 and lower values during the first day.\" ... \"Since our study was exploratory (1 SD difference as significant), we may have missed the numerosity and/or the length of treatment sufficient to detect greater differences between treatments.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by outcome measurement (D4: unblinded nursing staff both delivered the intervention and rated the subjective 1\u20137 behavioral scale, with different measurement timing across arms) and selection of the reported result (D5: no pre-registration/protocol, multiple outcomes and time points, emphasis on a borderline p=0.05 day-2 HR finding and contradictory significance statements). Randomization, deviations and missing data each raise additional \"some concerns\" because sequence generation/concealment are undescribed, the trial was open-label with inconsistently reported dosing, and participant flow over the planned 10-day period is not accounted for in this very small (n=34) exploratory trial."
+  },
+  {
+    "paper_id": "manual:67069970",
+    "paper_title": "bb743f24_CalabroWolfeShoemark",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomised controlled trial with random allocation of 22 infants to music or control groups \"using blocked allocation with the Moses-Oakford algorithm and table of random numbers\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A valid random sequence (blocked allocation with random number tables) was used, but allocation concealment is not described and the authors themselves note notable baseline imbalances (respiration rate 54 vs 46; disorganised behaviours 0.6 vs 2.8) in this very small sample.",
+        "evidence_quote": "\"Subjects were randomly allocated to either the control or music group using blocked allocation with the Moses-Oakford algorithm and table of random numbers... Despite random allocation the groups were not evenly matched at baseline.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were neonates (unaware of allocation) and data collectors were masked with blank tapes/headphone music, but nursing staff and parents could not be blinded to the audible music, co-intervention/care timing was negotiated per infant, and the analysis excluded 5 randomised infants rather than following intention-to-treat.",
+        "evidence_quote": "\"The data collectors were unaware of group allocation and listened to recorded music themselves ... to ensure they did not hear whether the infant was receiving music or silence.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "5 of 22 randomised infants (23%; 3 music, 2 control) were excluded from analysis after participation (one discharge, four late-diagnosed hearing impairments), with no sensitivity analysis, and the authors acknowledge the resulting sample was small and potentially skewed.",
+        "evidence_quote": "\"Of these, five infants were not included in analysis (n = 2 control, n = 3 music). One infant was discharged before completing the study and four infants were diagnosed with a hearing impairment.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Physiological outcomes were read from monitors and behaviour coded with a standardised form by two trained nurse researchers blinded to allocation (masking music via headphones) with 98% inter-rater reliability, applied identically in both groups.",
+        "evidence_quote": "\"Inter-rater reliability was tested at 98% prior to the study commencing... Data collectors were unaware of group allocation\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol/registration is cited; hypotheses and a primary outcome (oxygen saturation) were pre-specified, but multiple secondary analyses (by sex, by day, adjusted disorganised-behaviour definitions) are reported only as \"data not shown\", leaving scope for selective reporting.",
+        "evidence_quote": "\"Secondary analysis divided by sex and adjusted disorganised behaviour measures also showed no significant effect for any behaviour for any day (data not shown).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven principally by the loss of 23% of randomised infants from the analysis without intention-to-treat or sensitivity analyses in an already very small sample (n=17 analysed). Additional concerns arise from unreported allocation concealment with acknowledged baseline imbalance, non-blinded care staff, and partially unreported secondary analyses, although outcome measurement was well-blinded and reliable."
+  },
+  {
+    "paper_id": "manual:b1659c98",
+    "paper_title": "b06472a5_j.ijnurstu.2021.103934",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a parallel three-group randomized controlled trial with a computer-generated random number sequence (Microsoft Excel) and concealed envelope allocation: \"A random sequence of 103 numbers was generated using Microsoft Excel and divided by three by a third-party researcher.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated random sequence by an independent third party, allocation concealed by sealed opaque envelopes opened sequentially after consent, and baseline characteristics did not differ significantly among groups.",
+        "evidence_quote": "\"The allocation was concealed using the closed-envelope method and was kept by the third researcher... No significant differences were found in sexes, types of delivery, use of dexamethasone, Apgar scores at one min, gestational ages, birth weights, and body weights at the time of study among the three groups (p>0.05).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were infants (unaware), but researchers delivering the auditory interventions and NICU staff could not be blinded, and co-interventions such as feeding type (breast milk vs. formula) that plausibly affected the primary weight outcome were uncontrolled; however, an ITT analysis was conducted.",
+        "evidence_quote": "\"In our study, the preterm infants were fed using baby bottles or gastric tubes with breast milk if the mothers had provided it. Otherwise, formula milk was used, which may have influenced weight gain.\" ... \"Additionally, an intention to treat (ITT) analysis was conducted\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "12 of 103 infants (~12%) withdrew (clinical deterioration, discharge) with somewhat differential attrition across arms (5/4/3), and missing data were handled by mean imputation within an ITT framework, an approach that can bias effect estimates and does not permit a clear assessment that missingness did not depend on the true outcome.",
+        "evidence_quote": "\"missing measurement data were replaced by means\" ... \"Finally, 91 preterm infants completed the interventions and all the measurements.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective and instrument-based (actigraphy, ELISA salivary cortisol, electronic scale with a nurse blinded to allocation, bedside monitors), measured identically across groups, so assessor knowledge is unlikely to have influenced measurement.",
+        "evidence_quote": "\"The preterm infants were weighed using an electronic weighing machine (HC ER60, China)... by a nurse who was blinded to the allocation of the infants.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ChiCTR-INR-17012755) and states outcomes matched pre-specified ones, but many outcome operationalizations (six sleep parameters, multiple time points/sessions, numerous interaction terms) were analysed with explicitly no adjustment for multiplicity, and the highlighted positive finding (white noise vs mothers' voice weight gain) derives from post-hoc pairwise comparisons among secondary outcomes.",
+        "evidence_quote": "\"No other adjustments for multiplicity were applied.\" ... \"The final primary and secondary outcomes were same as the pre-specified primary and secondary outcomes.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and objective outcome measurement were well handled (low risk), but there are some concerns from unblinded intervention delivery with uncontrolled co-interventions (feeding type affecting weight gain), ~12% attrition handled by mean imputation, and extensive multiple testing without multiplicity adjustment, with the headline result arising from post-hoc pairwise comparisons. Overall risk is therefore \"some concerns\" rather than low."
+  },
+  {
+    "paper_id": "manual:39503b26",
+    "paper_title": "d09f4fd0_jcim-2020-0507",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is explicitly described as a randomized controlled clinical trial with allocation of preterm infants to three arms \"by simple random sampling using a random number table\" and registration with the Iranian Registry of Clinical Trials (IRCT20181216042011N1).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "The allocation description is internally inconsistent \u2014 a random number table is claimed, yet the actual procedure is deterministic sequential rotation (alternation) with convenience sampling and no mention of allocation concealment, and a baseline imbalance in 1-min Apgar score (p=0.02) suggests the sequence was not adequately concealed/random.",
+        "evidence_quote": "\"one infant was placed in the mother's live lullaby group, one in the recorded lullaby group, and the third infant in the control group. The same procedure was repeated until all participants were assigned\" ... \"Apkar minute 1 ... p-Value 0.02\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Mothers and researcher were unblinded and groups were co-located in one room so ambient lullaby sound could contaminate other arms (\"ambient sounds were not completely controlled in live lullabies\"); the daily intervention was partly mother-delivered with only text-message reminders, and adherence was not reported, though analysis appears to include all retained participants.",
+        "evidence_quote": "\"Neither the researcher nor mothers were not blind to the study.\" ... \"it was not possible to keep intervention groups in separate rooms due to limited physical space\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was small (6/96, ~6%), balanced across the three arms, and due to discharge \u2014 a reason unlikely to be related to the outcome.",
+        "evidence_quote": "\"Two infants from the control group and two infants from the intervention group with mother's live lullaby music and two infants from the intervention group with recorded lullabies were excluded from the study because of discharge during the intervention. Finally, 90 infants (each group with 30 infants) participated\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although monitor-derived heart rate and SpO2 are objective, the key positive finding (sleep duration) was assessed with an unvalidated researcher-made checklist completed by an unblinded researcher (and apparently reliant on mothers/ward observation), creating substantial potential for observer bias favouring the intervention arms.",
+        "evidence_quote": "\"A researcher-made sleep checklist developed based on the literature was used to measure infant's daily and overnight sleep duration per minute.\" ... \"Neither the researcher nor mothers were not blind to the study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered, but no protocol/pre-specified primary outcome or analysis plan is presented, multiple outcome operationalizations (heart rate, SpO2, day and night sleep at several timepoints) were analysed, and reported statistics are internally inconsistent (e.g., baseline night-sleep means differ between text and Table 4; ANOVA F/p values and \"p=0.33\" for t=2.235), raising concerns about selective/flexible reporting.",
+        "evidence_quote": "\"the clinical trial code (IRCT20181216042011N1) from Iranian Registry of Clinical Trials (IRCT)\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by a flawed/contradictory allocation procedure (sequential rotation despite claimed random number table, convenience sampling, no allocation concealment, baseline Apgar imbalance) and by unblinded assessment of the key sleep outcome using an unvalidated researcher-made checklist. Additional concerns arise from cross-group sound contamination in a shared room and from inconsistent, non-pre-specified result reporting."
+  },
+  {
+    "paper_id": "manual:855814e9",
+    "paper_title": "933d6d13_jp.2016.1",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of 62 preterm infants to two intervention arms or a control arm using consecutive sealed envelopes in a \"randomized, controlled non-blinded trial\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment by sealed envelopes is described but the sequence-generation method is not reported (no mention of random number generator/opaque numbered envelopes), and a baseline imbalance in postnatal age at study start reached significance.",
+        "evidence_quote": "\"Infants were randomly assigned to one of two intervention groups or a control group by opening consecutive sealed envelopes.\" ... \"The three groups did not differ significantly with respect to the infants' baseline characteristics, except postnatal age at the start of the study.\" (P = 0.03)"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly non-blinded so staff (and parents) knew assignment, which could influence care/handling during the measurement windows, although the intervention was highly standardized and an intention-to-treat analysis was used; no information is given about co-interventions or protocol deviations.",
+        "evidence_quote": "\"This randomized, controlled non-blinded trial was done at a German Level III Perinatal Center\" ... \"All analyses were performed on the intention-to-treat population.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 11 of 62 infants (~18%) had dropout or incomplete data, and although reasons appear largely unrelated to the intervention and ITT analysis with mixed models using all available data was performed, no analysis of the impact of missingness per group is reported.",
+        "evidence_quote": "\"During the study, nine infants dropped out: in one infant of the control group parents withdrew consent, one infant died from necrotizing enterocolitis and seven infants were discharged before completion of the study period. Because of technical problems, data collection in two infants was incomplete\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective, automatically recorded physiological and accelerometer measures collected identically in all groups, minimizing assessor influence despite the lack of blinding.",
+        "evidence_quote": "\"All infants were routinely and continuously monitored using Solar 8000i monitors ... heart rate and respiratory rate were collected each minute during three periods\" ; \"By using accelerometers, we were able to measure activity of preterm infants during stimulation independently of the observer's impression.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes were pre-specified with multiplicity control, but no trial registration or protocol is cited, sample size was \"an empirical number\" for a pilot, and some analyses (sensitivity models, activity sub-analyses by day and pooled) are reported selectively with data not shown.",
+        "evidence_quote": "\"The primary outcome was the difference in mean heart rate during the stimulation (30 min interval) compared with prior stimulation (baseline)\" ... \"Sensitivity analyses using mixed models for repeated measurements were done ... These analyses confirm the results of the main analysis (data not shown).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall some concerns: randomization sequence generation is not described and postnatal age differed significantly at baseline, the trial was explicitly non-blinded, ~18% of infants had dropout/incomplete data, and there is no registered protocol with some analyses reported as \"data not shown\". Outcome measurement was objective and automated, which is the main strength."
+  },
+  {
+    "paper_id": "manual:834fb495",
+    "paper_title": "02869b63_NPM-2010-0101",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states it was \"a randomized, controlled trial\" and that \"Infants were randomly assigned to one of two groups\" (Music vs Control), so random allocation of participants to conditions is claimed.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "No description of sequence generation method or allocation concealment is given, and a baseline imbalance in head circumference (p = 0.008) is reported despite the text claiming groups \"did not differ in demographic and clinical characteristics\".",
+        "evidence_quote": "\"Infants were randomly assigned to one of two groups.\" ... \"Birth head circumference (cm) 28.7 \u00b1 1.2 | 27.7 \u00b1 1.5 | 0.008\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Infants themselves could not be aware of allocation (limiting performance bias), but caregivers/researchers were necessarily unblinded, controls received no sham headphones, and no information is given on co-interventions, protocol adherence, or whether analysis followed intention-to-treat.",
+        "evidence_quote": "\"during the post observation period music was discontinued and the infant was observed by the researcher.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 44 enrolled infants appear to be analysed with no reported dropout over the 8-day protocol, but there is no flow diagram or explicit statement about withdrawals, deaths, or missing daily measurements in this fragile NICU population.",
+        "evidence_quote": "\"A total of 44 preterm infants were studied (Music n = 22 and Control n = 22).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes are objective physiological/anthropometric measures recorded identically in both groups, but data were manually transcribed by an unblinded researcher who knew group allocation (notably respiratory rate counted manually), and no blinded outcome assessment is described.",
+        "evidence_quote": "\"Heart rates and oxygen saturation levels as displayed on the pulse oximeter record ed every minute. Respiratory rate was recorded every 5 minutes and weight gain was measured daily by a digital weight scale.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No pre-registration or protocol is cited, multiple outcomes were analysed in many ways (phase-specific change scores, day-by-day comparisons, adjusted regression) with inconsistent reporting (RR p = 0.01 in the abstract vs 0.017 in results; a claim of remaining significance immediately after a null weight-gain result; reference to a \"Table 3\" not presented), indicating selective/flexible reporting.",
+        "evidence_quote": "\"In the linear model regression, after controlling for variables such as birth weight, gestational age, caloric intake before and after intervention, phototherapy, start feeding and sex, the difference between the groups remained significant.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 5: there is no protocol/registration, many outcomes and analytic approaches (phase-wise change scores, per-day comparisons, adjusted models) were reported with internal inconsistencies in p-values and a missing table, suggesting selective reporting. Additional \"some concerns\" arise from undescribed randomization/allocation concealment with a baseline imbalance in head circumference, unblinded outcome recording, and incomplete reporting of participant flow."
+  },
+  {
+    "paper_id": "manual:ec1b646c",
+    "paper_title": "8b957d03_peds.2012-1367",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a \"randomized clinical multisite trial\" using a crossover design in which the sequence of the three live music interventions and control was computer-generated by a biostatistician (\"Randomization of the sequence of presentation was generated by computer\"), with infants serving as their own controls.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence with concealment from enrolling staff is reported, but only the order of conditions within a within-infant crossover was randomized, with no participant flow/CONSORT information, no check of comparability across sequence groups, and no consideration of period or carryover effects.",
+        "evidence_quote": "\"Randomization of the sequence of presentation was generated by computer to allow for separate sequences for morning and afternoon during the week... Allocation sequencing was generated by the biostatistician, who had no contact with the participants.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Interventions were delivered live by 17 therapists/8 interns across 11 sites and sometimes by parents, with variable co-interventions (holding, skin-to-skin, parental singing) and no blinding of deliverers or caregivers; no intention-to-treat or per-protocol analysis strategy is described, so deviations arising from the unblinded trial context plausibly affected outcomes.",
+        "evidence_quote": "\"The interventions included a mix of music therapist and parent applications of the lullabies over the course of the study period of 2\u00bd years.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only a small number of exclusions is mentioned and mixed models were used, but no flow diagram, denominators per outcome, or analysis of missingness is given (e.g., Table 1 percentages are internally inconsistent: \"153 (88%)\" of 272), leaving uncertainty about how much outcome data were actually available.",
+        "evidence_quote": "\"Some infants were omitted because of early discharge (n = 4) or data collection availability was not possible (n = 8).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although monitor-derived vital signs are objective and collectors are claimed to be \"blinded,\" blinding is implausible for observers present during live music sessions, subjective outcomes (activity level, sleep state, suck pattern) were rated by unblinded-in-practice observers, and the parental stress outcome was self-reported by unblinded parents with a single-item pre\u2013post scale and no control comparison.",
+        "evidence_quote": "\"Each infant's development involved observation and collection of data by a blinded data collector\"; \"Parental perceptions of their own level of stress were assessed by using a Likert rating scale and questionnaire administered at the beginning at end of the 2-week intervention period\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Despite trial registration, very many outcomes, time points and subgroup comparisons (3 interventions \u00d7 before/during/after \u00d7 multiple vitals, plus song-of-kin vs \"Twinkle\" and parental stress) were analysed with no adjustment for multiplicity, inconsistencies between abstract and results P values, and selective emphasis on significant findings, indicating likely selective reporting from multiple eligible analyses.",
+        "evidence_quote": "\"Primary outcomes included the infants vital signs (HR, RR, and O2 saturation levels) and activity level... Secondary outcomes included feeding, sleeping, and caloric intake\"; \"A level of significance of .05 was used for all analyses.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: while the condition sequence was computer-randomized by an independent biostatistician, the trial involved unblinded live delivery by many therapists and parents with variable co-interventions, partly subjective and plausibly unblinded outcome assessment (including parent self-reported stress without a control comparison), and extensive multiple testing without multiplicity control or clear primary-analysis specification. These concerns in D2, D4 and D5 drive the overall judgment."
+  },
+  {
+    "paper_id": "manual:e9cf0223",
+    "paper_title": "fd96956d_REF_Mar2017_55to64_engcorrigido",
+    "design_classification": "randomized",
+    "design_rationale": "The authors describe an experimental randomized controlled (pre-/post-test) trial in which eligible preterm infants were allocated with dedicated randomization software: \"the selected infants were randomly assigned to one of the groups using the Random Allocation Software, version 1.0: control group (CG) and experimental group (EG)\", reported per CONSORT 2010.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine computerized random sequence was used and baseline characteristics were balanced, but no information is given on allocation concealment (who generated/held the sequence, whether it was concealed from the recruiting investigator), and with only 9 infants per group small-sample imbalance (e.g., sex distribution 3 vs 1 male) cannot be excluded.",
+        "evidence_quote": "\"the selected infants were randomly assigned to one of the groups using the Random Allocation Software, version 1.0: control group (CG) and experimental group (EG)\" ... \"No statistically significant diferences were found between the groups regarding their characterization (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Blinding of caregivers/staff was impossible and the timing/delivery of the intervention was left to the discretion of the attending nurse, no co-intervention control or adherence data are reported, exclusion of record periods was applied, and there is no indication of an intention-to-treat analysis (analysis appears to be of pooled observation epochs rather than randomized infants).",
+        "evidence_quote": "\"The decision to play the audio track was made by the nurse responsible for the infant\u2019s care plan.\" ... \"Any interference (medical exams, nursing care, clinical examinations or procedures) would result in the elimination of any records of the vital signs.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 18 randomized infants appear to contribute data, but an unquantified amount of monitoring data was deliberately deleted when care activities intervened, and the number of discarded/available recording epochs per group is never reported, so differential loss of observations cannot be ruled out.",
+        "evidence_quote": "\"Any interference (medical exams, nursing care, clinical examinations or procedures) would result in the elimination of any records of the vital signs.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes (heart rate, respiratory rate, SpO2) are objective, automatically captured physiological measures applied identically to both arms, but outcome assessors/data extractors were not blinded and the decision to discard records during care episodes was made by unblinded staff, leaving some potential for influence.",
+        "evidence_quote": "\"Newborns\u2019 vital signs were recorded using permanent monitoring - MP30 (Philips MP30 Patient Monitor) - for 45 minutes before, 45 minutes during, and 45 minutes after the intervention.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, the statistical approach is only vaguely described (no test named for the main comparisons, no accounting for repeated measures/clustering within infants, results reported week-by-week in seven separate comparisons with implausible uniform p = .000), indicating substantial scope for selective reporting of analyses.",
+        "evidence_quote": "\"Data were analyzed using the statistical analysis software SPSS (Statistical Package for the Social Sciences), version 20, and the confidence interval was set at 95%.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used randomization software and baseline characteristics were balanced, the trial is at high risk of bias overall because intervention delivery was left to unblinded nursing discretion with no adherence or ITT analysis (D2) and because the absence of a registered protocol combined with a vaguely specified, repeated-measures-ignoring analysis creates strong potential for selective reporting (D5). Additional some-concerns ratings for allocation concealment, discarded monitoring epochs, and unblinded outcome handling reinforce this judgment in a very small (n = 18) sample."
+  },
+  {
+    "paper_id": "manual:1f77561c",
+    "paper_title": "55dbda88_s00431-020-03890-3",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of the order of conditions in a within-subject crossover trial: \"The allocation for the first session (either SSC or SSC with maternal singing during MT) was decided using a random number table and presented to the researcher in a sealed, opaque envelope.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Sequence (order of first condition) was generated with a random number table and concealed in a sealed opaque envelope; as a within-subject crossover each infant serves as own control, so baseline imbalance is minimal (reported comparable post-menstrual age and study duration).",
+        "evidence_quote": "\"The allocation for the first session (either SSC or SSC with maternal singing during MT) was decided using a random number table and presented to the researcher in a sealed, opaque envelope.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Mothers, therapists and the on-site research assistant were necessarily unblinded to condition and sessions could be paused when infants showed stress; analysis was per-protocol (only infants completing all six sessions analyzed) rather than intention-to-treat, and potential carry-over/wash-out between sessions 3\u20135 days apart is acknowledged by the authors.",
+        "evidence_quote": "\"Participants could not be blinded due to the nature of the intervention... Only infants who completed all sessions were included in the analysis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 5 of 40 enrolled infants (12.5%) were not analyzed, with reasons given (non-completion of sessions, prolonged illness interrupting timing), and these exclusions apply equally to both within-subject conditions, making bias from missingness unlikely.",
+        "evidence_quote": "\"Three did not complete all sessions, and two were excluded due to prolonged illnesses... Therefore, 35 preterm infants were included in the final analysis\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary HRV outcome was objectively machine-derived and the data analyst was blinded, but secondary outcomes (NIDCAP/Als behavioral state recorded by an unblinded research assistant present in the room; maternal STAI self-report by unblinded mothers) are susceptible to assessor and reporting influence.",
+        "evidence_quote": "\"The outcome assessor (IL) was blinded to treatment allocation... A second NIDCAP-certified research assistant, familiar with study protocol, sat near the mother and recorded the infant\u2019s physiological and behavioral data\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A trial registration number and a pre-specified primary outcome with power calculation and analysis plan are reported, but the registered protocol is not described in detail, multiple secondary outcomes/time intervals were available, and the ANCOVA aggregated over intervals (with interval-specific means presented \"for reference only\"), leaving some flexibility in reported analyses.",
+        "evidence_quote": "\"The statistical analysis did not include the \u201cinterval\u201d variable, and the means are presented here for reference only\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization of condition order and the within-subject crossover design with blinded data analyst and low attrition support low risk in D1 and D3, but unavoidable unblinding of mothers, therapist and the in-room observer, per-protocol analysis with possible carry-over, and subjective secondary outcomes (behavioral state, maternal STAI) plus limited protocol transparency raise some concerns. Overall risk is therefore 'some concerns', driven by domains 2, 4 and 5."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of continuous intravenous infusion of a loop diuretic (furosemide, torsemide or bumetanide), compared with intermittent bolus injection of the same loop diuretic, on net weight loss in kilograms in adults hospitalised with acute heart failure?  Effect measure: pool as a mean difference (MD) in kilograms using a random-effects model. Orient the difference as continuous infusion minus bolus, so MD > 0 means more weight lost with continuous infusion (favours continuous infusion).  Outcome: net weight loss in kilograms during the treatment period, extracted as the mean, SD and number of participants per arm. Weight loss is a positive number (kilograms lost). - Use the weight loss over the period each trial reports (for example at 72 hours, until discharge, or until decompensation or resolution of congestion). If a trial reports several periods, use the longest period that is still within the hospital stay, and state the period used. - If weight is reported as a change, make sure it is positive for weight lost; reverse the sign if the paper reports weight change as negative for loss. Do not use change in weight as a percentage. - Convert pounds to kilograms (\u00f7 2.205). - If variability is reported as SE or SEM, convert to SD = SE \u00d7 \u221an. If a median with interquartile range is reported, estimate the mean and SD with a standard method and say so. - If the number analysed per arm is not stated for weight loss, use the number randomised to each arm and say so. - Factorial and multi-arm trials (for example continuous versus bolus crossed with low versus high dose): combine the dose arms within each delivery mode, so that all continuous-infusion participants are one group and all bolus participants are the other; sum participants, and pool means and SDs. - Compare only continuous infusion with bolus of the same loop diuretic; exclude trials that compare a loop diuretic with another drug, with ultrafiltration, or with placebo. - Assign arms by delivery mode, not by column position. - Include only randomised controlled trials in hospitalised adults with acute heart failure.  Do not pool urine output, fluid balance, mortality, length of stay, readmission, renal function or any other outcome.",
+  "planned_search_queries": [
+    "acute heart failure continuous infusion bolus loop diuretic randomized trial weight loss",
+    "furosemide continuous infusion intermittent bolus controlled trial acute decompensated heart failure",
+    "bumetanide torsemide infusion bolus randomized hospital weight change"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "acute heart failure continuous infusion bolus loop diuretic randomized trial weight loss",
+    "acute decompensated heart failure furosemide infusion intermittent bolus controlled trial weight change",
+    "hospitalized heart failure bumetanide continuous infusion bolus trial body weight",
+    "hospitalised acute heart failure torsemide infusion bolus comparison net weight loss",
+    "congestive heart failure intravenous loop diuretic continuous versus bolus quantitative trial weight"
+  ]
+}

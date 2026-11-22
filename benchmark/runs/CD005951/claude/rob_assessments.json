@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:1bb6e627",
+    "paper_title": "ae20eee9_j.jstrokecerebrovasdis.2013.11.007",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit computerized random allocation (2:1) with minimization in a prospective, double-blind, placebo-controlled phase IIa trial: \"Computerized randomization was performed 2:1 (TA:placebo) with minimization on age, sex, baseline severity (National Institutes of Health Stroke Scale [NIHSS]), and time from stroke onset.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Computerized minimization-based allocation with a matching placebo implies adequate sequence generation and probable concealment, but concealment is never explicitly described, and several prognostically relevant baseline imbalances (larger hematoma volume, prior stroke, antiplatelet use, hyperlipidemia all 0% in placebo) exist, which\u2014although plausibly chance in a 24-patient 2:1 trial\u2014cannot be excluded as allocation-related.",
+        "evidence_quote": "\"Computerized randomization was performed 2:1 (TA:placebo) with minimization on age, sex, baseline severity (National Institutes of Health Stroke Scale [NIHSS]), and time from stroke onset.\" ... \"patients randomized to TA had a trend to larger hematoma volumes, earlier randomization, and were more likely to have had previous stroke and be on antiplatelet therapy.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blind design with identical-regime saline placebo means participants and carers were unaware of assignment, the single incomplete infusion was due to clinical deterioration rather than protocol deviation, and analysis was intention-to-treat.",
+        "evidence_quote": "\"All patients received the correct randomized treatment; 1 patient in the TA group did not complete the infusion because of neurologic deterioration.\" ... \"Analysis was by intention-to-treat\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Core outcomes (death, mRS, hematoma expansion) were essentially complete with no loss to follow-up, but cognition/mood/quality-of-life outcomes had unquantified missingness related to stroke severity (a determinant of outcome), and one placebo patient lacked a 24-hour CT (16 vs 7 scanned), with no sensitivity analysis reported.",
+        "evidence_quote": "\"No patients were lost to follow-up; however, cognition, mood, and quality of life data were missing in a number of participants who were unable to answer questions because of communication problems.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes used validated instruments (NIHSS, mRS, Barthel, EuroQoL) with blinded endpoint adjudication, volumetric hematoma analysis performed blind to allocation, and demonstrated high interobserver reliability (ICC .997 for absolute ICH volume).",
+        "evidence_quote": "\"All image analyses were performed blinded to clinical status and treatment allocation.\" ... \"blinded end point single-center phase IIa trial\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ISRCTN50867461) with a clearly pre-specified feasibility primary outcome, but a very large number of secondary clinical and radiological outcomes were reported with unadjusted, flexibly chosen tests (\"as appropriate\") and no published protocol-level analysis plan, leaving scope for selective reporting of the exploratory safety/efficacy results.",
+        "evidence_quote": "\"The primary outcome was trial feasibility...\" ... \"As this was a feasibility study, no formal sample size calculation was performed.\" ... \"Data were analyzed using Fisher exact test, t test, and Mann\u2013Whitney U test, as appropriate.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered, double-blind, placebo-controlled pilot RCT had strong blinding, blinded endpoint/imaging assessment and intention-to-treat analysis (D2, D4 low), but is rated overall \"some concerns\" driven by unreported allocation concealment alongside notable baseline prognostic imbalances in a very small 2:1 sample (D1), unquantified missingness in cognition/mood/quality-of-life outcomes and one missing follow-up CT (D3), and many secondary outcomes analysed with flexible, unadjusted tests absent a pre-specified analysis plan (D5). No domain reached high risk, and the authors appropriately frame the secondary clinical findings as underpowered and exploratory rather than conclusive."
+  },
+  {
+    "paper_id": "manual:8a1b69a1",
+    "paper_title": "5194922d_mjms-22-SpecialIssueNeuroscience-062",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a \"single-blinded randomised placebo-controlled trial\" in which allocation to drug or control group was determined by sealed envelopes \"assigned using a random sequence programmer\", i.e. explicit random allocation of patients to conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random sequence generator and sealed envelopes were used, but the envelopes are not described as opaque/sequentially numbered (patients drew them from a box), and there is a notable baseline imbalance in the key prognostic factor (mean baseline haematoma volume 14.33 cm\u00b3 control vs 10.64 cm\u00b3 treatment, and more low-GCS patients in the control arm) with no formal baseline comparison reported.",
+        "evidence_quote": "\"Patients or their family members randomly chose one envelope from a box containing 30 closed envelopes. Each envelope represented either the drug or control group, which was assigned using a random sequence programmer.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Only single-blinded (treating clinicians/investigators aware of allocation) and, despite being called \"placebo-controlled\", no placebo infusion for the control arm is described; co-interventions (urgent craniotomy in three control patients) occurred, withdrawals were handled by exclusion rather than intention-to-treat, and no ITT or sensitivity analysis is reported.",
+        "evidence_quote": "\"Patients in the drug group were blinded and received a rapid administration of TXA (1 g diluted in 100 mL of 0.9% saline)... Two patients in the control group were withdrawn because of uncontrolled hypertension... and 3 patients in the treatment group were withdrawn because of data loss.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Five of 30 randomised patients (17%) were withdrawn (2 control for uncontrolled hypertension \u2014 plausibly related to the outcome \u2014 and 3 treatment for \"data loss\"), yet the results tables still present 15 patients per arm with no participant flow diagram or explanation, so the analysed sample and handling of missingness cannot be reconciled.",
+        "evidence_quote": "\"Two patients in the control group were withdrawn because of uncontrolled hypertension (systolic pressure > 200 mmHg for > 8 hours), and 3 patients in the treatment group were withdrawn because of data loss.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Haematoma volume is an objective imaging outcome measured identically in both arms by planimetric volumetry, and the radiologist assessing the 24-hour scan (and the statistician) were reported to be blinded to allocation.",
+        "evidence_quote": "\"After 24 hours, another CT brain scan was performed, and a blinded radiologist evaluated the size and volume of the haematoma.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified analysis plan is available (only an ethics approval number), the headline inference rests on within-group paired tests rather than a pre-specified between-group comparison, secondary outcomes (GOS, surgery) are reported only narratively, and the reported statistics are internally inconsistent (e.g. \"P < 0.001\" vs \"P = 0.001\", medians labelled as means, a volume difference sign discrepancy for treatment patient 14).",
+        "evidence_quote": "\"Control group showed significant hematoma expansion compared to treatment group (14.3300 vs 17.9940, P = 0.001).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias: although the outcome (CT haematoma volume) was objectively and blindly assessed, the trial was only single-blinded with no actual placebo infusion, 5/30 randomised patients were withdrawn (partly for outcome-related reasons) without any intention-to-treat accounting, and the reported analyses were unregistered, inconsistent, and based on within-group rather than pre-specified between-group comparisons, compounded by baseline imbalance in haematoma volume favouring the treatment arm."
+  },
+  {
+    "paper_id": "manual:70942a81",
+    "paper_title": "136187c1_S0140-6736%2818%2931033-X",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes central real-time random allocation 1:1 to tranexamic acid or matching placebo via a secure website, with a random allocation sequence generated by the trial programmer, stratification by country and minimisation on prognostic factors; it is described as an international double-blind, randomised, placebo-controlled, parallel-group phase 3 trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation sequence was computer-generated and administered centrally in real time via a secure website (ensuring concealment), with stratification/minimisation on key prognostic factors, and the reported baseline characteristics were closely balanced between the two arms.",
+        "evidence_quote": "\"Randomisation was done centrally in real time. A secure website was used to randomly assign all participants eligible for inclusion to receive tranexamic acid or matching placebo, with 1:1 allocation. The random allocation sequence was generated by the trial programmer... Treatment allocation was concealed from all staf and patients involved in the trial.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, carers and all trial staff were masked by use of identical-appearing ampoules of placebo (0\u00b79% saline), adherence to the full allocated regimen was 95% and did not differ between groups, and analysis followed the intention-to-treat principle with participants analysed as allocated.",
+        "evidence_quote": "\"Adherence to per protocol treatment for the allocated treatment was high: 2207 (95%) of 2325 participants received all of their randomised treatment, whereas only 15 (1%) received no treatment... Analyses were done in accordance with the intention-to-treat (ITT) principle, with participants kept in the groups to which they were allocated by the minimisation algorithm.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome data were available for 2307/2325 (99%) participants with only nine lost to follow-up and nine withdrawals, balanced across arms, so bias from missingness is implausible (the secondary haematoma-expansion outcome had more missing data, ~9%, but balanced between groups).",
+        "evidence_quote": "\"The primary outcome of mRS at day 90 was assessed in 2307 (99%) of 2325 participants; nine (<1%) were lost to follow-up and nine (<1%) withdrew from their day 90 follow-up\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The mRS is the standard, guideline-recommended outcome in stroke trials and was assessed identically across groups by trained, certified central assessors masked to allocation; imaging and serious adverse events were also centrally adjudicated masked to treatment assignment.",
+        "evidence_quote": "\"Central assessors, who were trained and certified in administration of the mRS and masked to treatment allocation, did the final follow-up at 90 days by telephone... Central independent expert assessors, who were masked to treatment assignment, assessed CT scans\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (ISRCTN93732214) with a published protocol and a published, prespecified statistical analysis plan; the prespecified primary analysis, sensitivity analyses and subgroups are reported in full, with the single post-hoc analysis (haematoma volume subgroup) explicitly labelled as such, though the stated absence of multiplicity adjustment across many secondary/subgroup tests warrants cautious interpretation of the nominally significant secondary findings.",
+        "evidence_quote": "\"We followed a prespecified statistical plan and analysed the primary outcome as a shift in the mRS at 90 days... All subgroups were predefined except for intracerebral haemorrhage volume, which was added as a post-hoc analysis.\""
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "All five RoB 2 domains were judged at low risk: central concealed computer-generated randomisation with minimisation produced well-balanced arms, double-blinding with identical-appearing placebo and 95% adherence with ITT analysis, 99% primary-outcome completeness, masked central mRS assessment and masked imaging/SAE adjudication, and a pre-registered protocol with published statistical analysis plan. The only minor caveat is the absence of multiplicity adjustment for numerous secondary and subgroup analyses, which affects interpretation of the nominally significant secondary outcomes rather than the primary result."
+  },
+  {
+    "paper_id": "manual:93b93063",
+    "paper_title": "bc8b11cb_S1474-4422%2820%2930369-0",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation via a centralised web-based procedure with randomly permuted blocks of varying size in a double-blind, placebo-controlled phase 2 trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was generated and concealed by a centralised web-based system using randomly permuted blocks of varying size, and baseline characteristics were broadly comparable (only a modest sex imbalance, 54% vs 70% men, consistent with chance in n=100).",
+        "evidence_quote": "\"Patients were randomly assigned to receive either placebo or tranexamic acid (1:1) using a centralised web-based procedure with randomly permuted blocks of varying size.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, treating clinicians and outcome assessors were masked with indistinguishable kits prepared by an unmasked third party, masking was never broken, all 100 patients received allocated treatment, and the primary/safety analyses were intention-to-treat; the 28 protocol violations were mainly timing delays and per-protocol results mirrored the full analysis set.",
+        "evidence_quote": "\"All patients had complete 3-month follow-up and study masking was not broken in any individual.\" ... \"The primary eficacy and safety analyses were done on an intention-to-treat basis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only one of 100 participants lacked a 24 h follow-up scan (early palliation) and was imputed as worst outcome per the pre-fixed analysis plan, with complete 90-day follow-up for all patients; such a small amount of missingness cannot plausibly bias the effect estimate.",
+        "evidence_quote": "\"One participant in the tranexamic acid group did not have a follow-up scan because of early palliation and was assigned the intracerebral haemorrhage growth outcome as per the statistical analysis plan. All patients had complete 3-month follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was an objective CT-based volumetric measure obtained identically in both groups by planimetry, with centrally adjudicated spot sign and masked imaging/clinical assessors, and trained certified raters for mRS/NIHSS.",
+        "evidence_quote": "\"Patients and all those involved in patient management or clinical or imaging assessment of adverse events or outcomes were masked to treatment allocation.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (NCT01702636, EudraCT 2013-001262-42), the protocol was published in advance with protocol changes documented in the appendix, and the statistical analysis plan was fixed before database lock with pre-specified primary, secondary and subgroup analyses; post-hoc analyses are explicitly labelled as exploratory.",
+        "evidence_quote": "\"The statistical analysis followed an analysis plan fixed before database lock.\" ... \"The protocol has been published and protocol changes are described in the appendix (p 3).\""
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "All five RoB 2 domains were judged low risk: concealed centralised block randomisation with balanced baseline characteristics, intact double-masking with ITT analysis, essentially complete outcome data (1/100 imputed), objective masked/centrally adjudicated imaging outcomes, and a pre-registered published protocol with an analysis plan fixed before database lock. The trial's main weaknesses (small sample size/possible type II error, slow and selective recruitment limiting generalisability, and delay from baseline scan to treatment) concern power and external validity rather than internal bias."
+  },
+  {
+    "paper_id": "manual:927b01dd",
+    "paper_title": "b9a9ad80_str-54-2223",
+    "design_classification": "randomized",
+    "design_rationale": "Patients with NOAC-associated ICH were randomly allocated 1:1 to intravenous tranexamic acid or matching placebo via a centralized web-based procedure with minimization on prognostic factors, in a double-blind placebo-controlled phase 2 trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was generated centrally by an independent clinical trial unit with a web-based concealed procedure and minimization including a random element; baseline characteristics were broadly balanced, and the modest imbalances in lobar ICH and onset-to-treatment time are plausibly due to chance in a 63-patient sample.",
+        "evidence_quote": "\"Participants were randomly allocated to receive either TXA or matching placebo in a 1:1 ratio via a centralized, Web-based, secure procedure, with minimization for key prognostic factors... To avoid predictable alternation of treatment allocation, and thus potential loss of allocation concealment, participants were allocated with a probability of 80% to the treatment group that would minimize between-group imbalances\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blind placebo-controlled design with masking maintained in all participants (\"allocation masking was not broken in any participant\"), only 4 protocol deviations in treatment administration, and an appropriate intention-to-treat analysis with consistent per-protocol results.",
+        "evidence_quote": "\"Participants, investigators involved in study assessments, and independent physicians involved in patient management were all masked to treatment allocation... Analyses were done on an intention-to-treat basis as prespecified in the statistical plan and were repeated in the per-protocol population\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were essentially complete (only 2 balanced cases of missing follow-up imaging, imputed conservatively as prespecified) and 90-day follow-up was complete for all 63 randomized, evaluable participants.",
+        "evidence_quote": "\"All participants had follow-up imaging, but 2 who died before follow-up imaging could be acquired (1 TXA and 1 placebo) and were assigned the HE outcome as prespecified in the statistical plan... All participants had complete 90-day follow-up\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome (hematoma expansion) used a standard, objective, validated definition and was assessed centrally by masked raters with high interrater agreement and a tie-breaking third rater; the use of MRI instead of CT in 3 participants is a minor deviation.",
+        "evidence_quote": "\"All imaging assessments of deidentified scans were performed by an independent central reader (G.M.K.), masked to treatment allocation and clinical outcomes... Independent validation of the volumetric assessments was performed by a second masked rater... Interrater reliability of the primary outcome assessment ... was almost perfect (90.5% agreement; \u03ba, 0.81)\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered with a version-controlled statistical analysis plan posted before database lock and unmasking, and the prespecified primary outcome and analysis were reported; numerous non-prespecified subgroup/exploratory analyses are transparently labelled as post hoc and hypothesis-generating.",
+        "evidence_quote": "\"TICH-NOAC was performed and reported in accordance with the study protocol and prespecified statistical analysis plan (under version control; latest version 1.4 ... made available online at https://clinicaltrials.gov (NCT02866838) before database closure [March 22, 2022] and unmasking [March 24, 2022]\""
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "All five RoB 2 domains were judged low risk: concealed central randomization with minimization, maintained double-blinding with ITT analysis, near-complete outcome data, masked central adjudication of an objective imaging outcome, and a prospectively registered, pre-specified analysis plan. The main limitation is imprecision from premature termination at 63 of 109 intended participants (an issue of power/precision rather than bias), with clearly flagged exploratory subgroup analyses."
+  },
+  {
+    "paper_id": "manual:b346f9ae",
+    "paper_title": "8f949de2_svn-2021-000942",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation to tranexamic acid or matching placebo using a computer-generated sequence with permuted blocks, administered via a centralised allocation system in a multicentre double-blind placebo-controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated permuted-block sequence with centralised allocation and indistinguishable sealed treatment kits ensured concealment; baseline characteristics were largely balanced, with only minor differences (platelet count, thalamic vs basal ganglia location) consistent with chance across many comparisons.",
+        "evidence_quote": "\"Patients were randomly assigned to receive either placebo (0.9% NaCl) or tranexamic acid (1:1) using a computer-generated procedure with randomly permuted blocks of varying size. The treatment number was allocated using a centralised treatment allocation system at the baseline visit.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double-blind with identical placebo, masking never broken, all 171 randomised patients received their allocated treatment, co-interventions were balanced, and analysis followed the intention-to-treat principle.",
+        "evidence_quote": "\"All 171 patients received the allocated treatment and were included in the intention-to-treat analysis. ... Study masking was not broken in any individual.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome available for 169/171 (98.9%), with the two missing values imputed conservatively as worst case; 90-day mRS available for 164/171 (95.9%), with balanced, small losses unlikely to bias results.",
+        "evidence_quote": "\"Of these, 169 (98.9%) patients had 24hours follow-up CT scans ... Missing outcome values were imputed assuming the worst possible primary outcome (haematoma growth).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Haematoma volumes were measured identically at baseline and 24 hours by central independent assessors blinded to allocation using a standard ABC/2 method; mortality/mRS are objective or standardised outcomes with maintained blinding.",
+        "evidence_quote": "\"Both baseline and 24hours ICH volumes were obtained using the ABC/2 method by central independent assessors, who were masked to treatment assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (NCT02625948) with a published protocol and prespecified statistical analysis plan and the prespecified primary outcome is reported, but inclusion criteria were broadened mid-trial, the sample size was re-estimated and the trial stopped early, and several subgroup analyses are labelled \"post hoc\", introducing some concerns about selective reporting of analyses.",
+        "evidence_quote": "\"Justified by absence of previous efficacy data, we performed a sample size re-estimation with a renewed sample size of 188 participants. Because of the neutral results reported from the STOP-AUST trial, this study was terminated in March 2020\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled, centrally randomised trial had strong allocation concealment, complete adherence, near-complete outcome data and blinded central outcome adjudication (D1\u2013D4 low). Overall judgement of \"some concerns\" is driven by D5: mid-trial broadening of eligibility criteria, sample-size re-estimation with early termination at 85% of planned enrolment, and explicitly post hoc subgroup analyses."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of estrogen alone (oral, transdermal or vaginal estradiol or conjugated estrogens, at any dose), compared with placebo or no treatment, on sexual function in perimenopausal and postmenopausal women?",
+  "treatment_label": "Estrogen alone (oral, transdermal, or vaginal)",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Composite or overall sexual function score at the end of treatment (e.g., Female Sexual Function Index total score, McCoy Female Sexuality Questionnaire total score, or sexual sub-score/item from MENQoL or WHQ if overall scale unavailable). Direction oriented so higher values represent superior sexual function.",
+  "positive_direction": "Positive SMD (Hedges' g > 0) indicates superior/improved sexual function in the estrogen group compared to placebo/control (favours estrogen)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "estrogen postmenopausal sexual function randomized controlled trial",
+    "estradiol perimenopause female sexual functioning placebo trial",
+    "conjugated estrogens sexual function trial quantitative"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating estrogen alone (oral, transdermal, or vaginal estradiol or conjugated estrogens at any dose) versus placebo or no treatment in perimenopausal or postmenopausal women",
+    "Assessment of sexual function using a validated overall/composite sexual function scale (e.g., FSFI, McCoy) or sexual domain subscale of a quality-of-life questionnaire (e.g., MENQoL, WHQ) at the end of treatment",
+    "Reporting quantitative data suitable for computing standardised mean differences (e.g., sample sizes, post-treatment means and standard deviations, or change from baseline data)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, comments, or theoretical papers)",
+    "No comparison between estrogen alone and an inactive control (e.g., trials where the control group receives another active hormone, testosterone, DHEA, tibolone, or vaginal moisturizer; or arms combining estrogen with progestogen/testosterone)",
+    "No quantitative outcome data on sexual function from which an effect size can be extracted or calculated (means and SDs, change scores, or test statistics)",
+    "Studies conducted exclusively in premenopausal women, or participants undergoing/following cancer treatment, or non-randomised designs"
+  ],
+  "moderators_to_extract": [
+    "Route of estrogen administration (oral vs transdermal vs vaginal)",
+    "Estrogen formulation (estradiol vs conjugated equine estrogens vs other)",
+    "Participant menopausal status (perimenopausal vs postmenopausal vs mixed)",
+    "Treatment duration (weeks)",
+    "Outcome instrument type (dedicated sexual function scale vs QoL sexual subscale)"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Standardised mean difference (SMD, Hedges' g) pooled using a random-effects model. Scales where higher scores indicate worse function or greater bother (e.g., MENQoL sexual domain) must have values inverted/reversed so positive effects consistently indicate better sexual function.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "sexual function"
+}

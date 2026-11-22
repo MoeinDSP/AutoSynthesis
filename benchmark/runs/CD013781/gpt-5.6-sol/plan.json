@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults undergoing cardiac surgery, what is the effect of perioperative levosimendan compared with placebo on all-cause mortality?",
+  "treatment_label": "Perioperative levosimendan",
+  "control_label": "Placebo",
+  "outcome_description": "All-cause mortality, analyzed as the number of deaths among the total number randomized in each arm at the mortality time point reported by each eligible trial; each trial contributes one mortality comparison to the primary pool.",
+  "positive_direction": "For directionally harmonized effects, a positive effect means levosimendan favors survival by reducing all-cause mortality compared with placebo; for the requested Risk Ratio itself, RR < 1 favors levosimendan and RR > 1 favors placebo.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "levosimendan placebo cardiac surgery randomized trial mortality",
+    "levosimendan cardiac surgical patients controlled trial deaths",
+    "perioperative levosimendan placebo cardiac surgery survival outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies enrolling adults undergoing any cardiac surgical procedure and evaluating perioperative levosimendan against placebo.",
+    "Studies reporting all-cause deaths and randomized totals by treatment arm, or sufficient quantitative information to derive those values and a Risk Ratio.",
+    "Any eligible publication status, setting, language, cardiac procedure, levosimendan regimen, and reported mortality follow-up duration."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, commentaries, and theoretical papers.",
+    "No comparison between a levosimendan treatment condition and a placebo control condition.",
+    "No quantitative outcome data capable of producing an effect size, such as arm-specific deaths and totals, proportions, odds ratios, or other sufficient statistics; means with SDs or t/F values alone are insufficient for this binary mortality analysis unless deaths and denominators can also be recovered.",
+    "Completely unrelated to levosimendan use in adults undergoing cardiac surgery."
+  ],
+  "moderators_to_extract": [
+    "Cardiac surgery type, including CABG, valve, combined, or other procedures",
+    "Baseline ventricular function or low-cardiac-output risk profile",
+    "Levosimendan dose, loading dose use, infusion duration, and timing relative to surgery",
+    "Mortality follow-up duration and mortality definition",
+    "Study design characteristics, including multicenter status and risk-of-bias domains",
+    "Participant age, sex distribution, and randomized sample size"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool arm-level all-cause mortality as Risk Ratios using each trial's reported number of deaths and total randomized per arm, preferably according to the randomized assignment/available intention-to-treat denominator. Use a random-effects primary model with a 95% confidence interval and report a fixed-effect sensitivity analysis if appropriate. Trials with zero deaths in both arms are not estimable for an RR and must be excluded from the pooled estimate without adding a continuity correction; list them separately and report their randomized sample sizes. For trials with zero deaths in only one arm, use the prespecified software's standard single-zero handling and assess sensitivity to alternative continuity-correction methods. Avoid double-counting overlapping reports, selecting the most complete mortality dataset for each trial. Assess heterogeneity with tau-squared, I-squared, and Cochran's Q; evaluate influence/leave-one-out results and risk-of-bias sensitivity analyses. Assess small-study effects with funnel plots and an appropriate regression test only if enough estimable studies are available. Follow PRISMA 2020 for searching, duplicate removal, dual screening, extraction, risk-of-bias assessment, study flow, excluded-study reasons, synthesis reporting, and certainty assessment.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

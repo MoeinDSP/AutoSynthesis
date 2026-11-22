@@ -1,0 +1,38 @@
+{
+  "research_question": "Among young people aged up to 25 years in education settings who already show early signs or symptoms of suicide risk (such as current suicidal ideation or a history of self-harm), what is the effect of indicated interventions, compared with a control condition, on suicidal ideation measured immediately at the end of the intervention?",
+  "treatment_label": "Indicated interventions for symptomatic or already-affected young people at risk of suicide in education settings",
+  "control_label": "Control conditions, including usual care, waitlist, attention control, minimal intervention, or no intervention",
+  "outcome_description": "Suicidal ideation measured immediately at intervention completion (postintervention) using a validated or study-defined quantitative suicidal-ideation measure. Include only the immediate end-of-intervention assessment; do not use measurements at 1\u20133 months, 4\u201312 months, or longest follow-up. If a study reports several eligible suicidal-ideation instruments at the same immediate postintervention timepoint, prespecify a hierarchy favoring a validated dedicated suicidal-ideation scale, then a validated suicide-risk scale's ideation subscale, then a single-item measure, and avoid entering multiple statistically dependent estimates from the same participants into one pooled analysis.",
+  "positive_direction": "A positive Hedges g means the indicated intervention produced a greater reduction in suicidal ideation at immediate postintervention than the control condition.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "indicated suicide prevention suicidal ideation students intervention controlled trial",
+    "self-harm history youth education setting suicidal ideation intervention experiment",
+    "school college university suicide risk intervention postintervention quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies evaluating an indicated intervention among young people up to age 25 who already have suicidal ideation, self-harm history, or comparable early signs or symptoms of suicide risk, with participants recruited from or treated in an education setting.",
+    "Studies comparing an eligible indicated-intervention condition with any control condition, including usual care, waitlist, attention control, minimal intervention, or no intervention.",
+    "Studies reporting suicidal ideation immediately at the end of the intervention with sufficient quantitative information to calculate an effect size or obtainable data from study authors."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between an indicated-intervention condition and a control condition; this includes universal interventions delivered regardless of risk and selective interventions aimed at nonsymptomatic at-risk groups when no eligible indicated arm is available.",
+    "No quantitative immediate-postintervention suicidal-ideation data capable of producing an effect size, such as means and standard deviations, t/F statistics, proportions, or odds ratios; studies reporting only 1\u20133-month, 4\u201312-month, or longest-follow-up ideation outcomes are excluded from this outcome.",
+    "Completely unrelated to the research topic, including studies outside education settings, populations not meeting the symptomatic/indicated-risk definition, populations entirely older than 25, or outcomes unrelated to suicidal ideation."
+  ],
+  "moderators_to_extract": [
+    "Intervention type and theoretical approach",
+    "Education setting (school, college/university, vocational or other educational setting)",
+    "Participant age and developmental stage",
+    "Baseline risk indicator and severity (suicidal ideation, self-harm history, or both)",
+    "Control-condition type",
+    "Intervention delivery format, provider, intensity, and duration"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "For continuous suicidal-ideation outcomes, orient scores so lower raw ideation is better and sign standardized effects so positive values favor the indicated intervention; use small-sample correction when deriving Hedges g. Use the immediate end-of-intervention assessment only. For a multi-arm trial with multiple eligible indicated-intervention arms and one shared control, extract every eligible intervention-versus-shared-control contrast as a separate row; do not merge intervention arms or discard an eligible arm. Preserve the shared-control structure in analysis by using a dependency-aware approach (for example, multilevel/robust-variance modeling) or, in a conventional pairwise sensitivity analysis, divide the shared control sample size across comparisons without changing its mean or SD. If a randomized study reports only the total sample size and no arm-specific counts, assume an equal 50/50 allocation unless the report indicates otherwise, and explicitly flag and document that imputation. Prefer randomized assignment, but retain broadly eligible controlled empirical designs and extract study design for sensitivity or moderator analysis. Document database searches, deduplication, dual screening, full-text exclusion reasons, data extraction, risk-of-bias assessment, and synthesis decisions in accordance with PRISMA 2020.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "suicidal ideation"
+}

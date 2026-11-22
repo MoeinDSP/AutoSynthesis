@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of sodium-glucose co-transporter 2 (SGLT2) inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, bexagliflozin or similar), compared with placebo, on non-fatal myocardial infarction in adults with type 2 diabetes and chronic kidney disease (all stages of kidney disease, including people with preserved kidney function in the trial population)?\n\nEffect measure: pool as a hazard ratio (HR) from the reported hazard ratio and 95% confidence interval, using a random-effects model on the log hazard ratio. HR < 1 means fewer non-fatal myocardial infarctions with the SGLT2 inhibitor (favours the SGLT2 inhibitor).\n\nOutcome: the time-to-first-event hazard ratio for non-fatal myocardial infarction, SGLT2 inhibitor versus placebo, with its 95% confidence interval.\n- Use the hazard ratio the paper reports for non-fatal (not fatal and non-fatal combined) myocardial infarction, from the main results text, a results table, the figure of secondary or exploratory outcomes, or the supplementary results table in the PDF. Convert the confidence interval to a standard error of the log HR.\n- Do not rebuild a hazard ratio from event counts. If a paper reports non-fatal MI only as counts, leave it out of this analysis and say so.\n- If a trial reports hazard ratios for several populations (for example the whole trial population and a chronic kidney disease subgroup), use the whole randomised population.\n- Orient the HR as SGLT2 inhibitor versus placebo, and invert it (HR to 1/HR, with the interval swapped) if the paper reports placebo versus SGLT2 inhibitor.\n- If a trial has several SGLT2 inhibitor doses, use the combined-dose hazard ratio the paper reports, or the pooled treatment arm versus placebo.\n- Use the longest follow-up reported.\n- Include only randomised placebo-controlled trials of an SGLT2 inhibitor in adults with type 2 diabetes and chronic kidney disease, or cardiovascular outcome trials whose population included people with chronic kidney disease. Exclude trials against an active comparator and trials of other drug classes.\n\nDo not pool fatal myocardial infarction, any myocardial infarction, stroke, cardiovascular death, heart failure, kidney outcomes or adverse events.",
+  "planned_search_queries": [
+    "SGLT2 inhibitor placebo type 2 diabetes non-fatal myocardial infarction trial",
+    "canagliflozin dapagliflozin empagliflozin chronic kidney disease cardiovascular outcomes trial",
+    "SGLT2 inhibitors diabetes renal outcomes myocardial infarction hazard ratio randomized trial"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "SGLT2 inhibitor type 2 diabetes chronic kidney disease myocardial infarction randomized trial",
+    "canagliflozin dapagliflozin empagliflozin chronic kidney disease nonfatal myocardial infarction trial",
+    "SGLT2 inhibitors diabetic kidney disease myocardial infarction hazard ratio placebo controlled trial",
+    "sodium glucose co-transporter 2 inhibitor diabetes nephropathy myocardial infarction outcome trial",
+    "SGLT2 inhibitor placebo comparison type 2 diabetes renal disease myocardial infarction trial"
+  ]
+}

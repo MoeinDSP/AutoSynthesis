@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of galantamine 16\u201324 mg/day (regular release, 8\u201312 mg twice daily) compared with placebo on cognitive function, measured as ADAS-cog change from baseline at approximately 6 months, in people with Alzheimer's disease?",
+  "treatment_label": "Galantamine 16\u201324 mg/day (regular release, 8\u201312 mg twice daily)",
+  "control_label": "Placebo",
+  "outcome_description": "Cognitive function measured by the Alzheimer's Disease Assessment Scale \u2013 cognitive subscale (ADAS-cog), as change from baseline at approximately 6 months (range 3\u20136 month endpoint accepted). Lower ADAS-cog scores indicate better cognition; the pooled statistic is a Mean Difference (MD) on the common ADAS-cog metric. For multi-dose trials sharing one placebo group (e.g. Tariot 2000, Brodaty 2005), only the 16\u201324 mg/day regular-release arm is extracted against the shared placebo.",
+  "positive_direction": "A positive effect size means galantamine 16\u201324 mg/day produced better cognitive outcomes than placebo (i.e. less deterioration / greater improvement on ADAS-cog, corresponding to a lower ADAS-cog change score).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "galantamine Alzheimer's disease randomized placebo-controlled trial ADAS-cog",
+    "galantamine 24 mg day cognition trial Alzheimer outcome",
+    "cholinesterase inhibitor galantamine placebo controlled dementia cognitive effect"
+  ],
+  "inclusion_criteria": [
+    "Participants with Alzheimer's disease (any severity) or probable Alzheimer's dementia",
+    "Study compares galantamine (regular release, around 16\u201324 mg/day) with a placebo control condition",
+    "Reports some quantitative cognitive outcome, preferably ADAS-cog change from baseline (means with SD/SE, CIs, or test statistics usable for an effect size)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, commentary, theoretical or narrative paper)",
+    "No comparison between a galantamine treatment condition and a placebo/control condition (e.g. open-label single-arm extensions, active-comparator-only designs)",
+    "No quantitative outcome data from which an effect size can be computed (no means+SDs/SEs, t/F values, proportions, or odds ratios)",
+    "Completely unrelated to galantamine treatment of Alzheimer's disease cognition (e.g. other drugs, other diseases, non-clinical/animal studies)"
+  ],
+  "moderators_to_extract": [
+    "Exact galantamine daily dose and titration schedule",
+    "Trial duration / ADAS-cog assessment timepoint",
+    "Baseline disease severity (baseline MMSE or ADAS-cog)",
+    "Analysis population (ITT/LOCF vs completers/observed cases)",
+    "Sample size category",
+    "Publication year and funding source (industry vs independent)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool as Mean Difference on the ADAS-cog scale (all studies use the same instrument). Sign results so that a positive value favours galantamine; since lower ADAS-cog = better, the raw between-group difference (galantamine minus placebo) must be reversed in sign. For multi-arm trials with a shared placebo group, extract only the 16\u201324 mg/day regular-release arm; do not double-count the shared placebo across dose arms.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "ADAS-cog cognitive function"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with chronic non-headache pain, what is the effect of remotely delivered cognitive behavioural therapy (internet-, telephone-, app-, or video-delivered CBT, including acceptance and commitment therapy or exposure-based variants with a cognitive-behavioural basis), compared with treatment as usual, usual care, waiting list, or usual care plus waiting list, on functional disability or physical functioning at the first assessment after treatment ends?",
+  "treatment_label": "Remotely delivered cognitive behavioural therapy (including internet-, telephone-, app-, or video-delivered CBT and cognitive-behaviourally based ACT or exposure variants)",
+  "control_label": "Treatment as usual/usual care, waiting list, or usual care plus waiting list",
+  "outcome_description": "Functional disability or physical functioning at the first assessment after treatment ended (typically 3\u201324 weeks after randomisation), using one measure per trial. Prefer a disability-specific measure (e.g., Roland\u2013Morris Disability Questionnaire, Pain Disability Index, Oswestry Disability Index, WHO-DAS, or similar) over a general quality-of-life physical-function subscale; use an SF-36/SF-12 or comparable physical-function subscale only when no disability-specific measure is available. Extract post-treatment mean, SD, and analysed or randomised n as reported for each arm. Do not extract or pool later follow-up assessments or pain intensity, pain improvement, general quality of life, mood, anxiety, adverse events, or other outcomes.",
+  "positive_direction": "A positive internally harmonised Hedges' g means better physical functioning or less functional disability with remote CBT than with control (favours remote CBT). For the requested published CBT-minus-control convention, reverse that internally harmonised sign so that SMD < 0 indicates less disability and favours remote CBT.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "remote cognitive behavioral therapy chronic pain randomized trial disability",
+    "internet telephone app CBT chronic pain controlled physical functioning",
+    "telehealth acceptance commitment exposure therapy chronic pain trial disability"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials comparing remotely delivered cognitive-behavioural therapy with treatment as usual/usual care, waiting list, or usual care plus waiting list.",
+    "Adult participants with chronic non-headache pain, including low back pain, fibromyalgia, osteoarthritis, or mixed chronic pain populations.",
+    "Reports a quantitative end-of-treatment functional-disability or physical-function outcome from which an effect size can be calculated."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible comparison between remote CBT and a non-active treatment-as-usual/usual-care or waiting-list control; exclude active psychological therapies, attention controls, face-to-face therapy, and non-randomised comparisons.",
+    "No quantitative functional-disability or physical-function outcome data capable of producing an effect size (e.g., post-treatment means with SDs or convertible SEs/SEMs and arm n, or sufficient t/F statistics); also exclude reports providing only pain, quality-of-life, mood, anxiety, adverse-event, or other non-disability outcomes.",
+    "Completely unrelated to the research topic, or conducted exclusively in children/adolescents or headache/migraine populations."
+  ],
+  "moderators_to_extract": [
+    "Remote delivery mode (internet/web, telephone, app, video, or mixed)",
+    "Pain condition (low back pain, fibromyalgia, osteoarthritis, or mixed/other chronic non-headache pain)",
+    "Intervention variant and therapist support/contact intensity",
+    "Control type (treatment as usual/usual care, waiting list, or usual care plus waiting list)",
+    "Treatment duration and timing of the first post-treatment assessment",
+    "Outcome-measure type (disability-specific scale versus general physical-function subscale)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool standardised mean differences as Hedges' g using a random-effects model. Compute the primary effect from post-treatment mean, SD, and n for each arm at the first assessment after treatment ends. Orient all source measures so lower values indicate less disability: retain disability scales on which higher scores mean worse disability, and multiply means by \u22121 for physical-function scales on which higher scores mean better function (the SD is unchanged). Calculate/report the contrast as remote CBT minus control so SMD < 0 favours remote CBT, as requested. If variability is reported as SE or SEM, convert using SD = SE \u00d7 sqrt(n), checking table footnotes to determine whether \u201c\u00b1\u201d denotes SD or SE. Use the number randomised or analysed as reported, and identify arms from treatment descriptions rather than column order. If a trial has multiple eligible remote-CBT arms, combine them into one CBT group using standard pooled-mean and pooled-SD formulas and sum participant counts, then compare once with the shared control. Select only one eligible disability/function measure per trial according to the prespecified hierarchy. Assess heterogeneity with tau\u00b2 and I\u00b2, report a 95% CI and prediction interval where estimable, use an appropriate random-effects estimator (e.g., REML) with Hartung\u2013Knapp adjustment where feasible, and investigate small-study effects only when enough studies are available. Document study selection with a PRISMA 2020 flow diagram, duplicate screening and extraction, risk of bias with RoB 2, and certainty of evidence with GRADE.",
+  "target_effect_measure": "HEDGES_G",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "functional disability"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adolescents and adults with asthma that remains uncontrolled on medium-dose inhaled corticosteroids (ICS), does treatment with the same medium-dose ICS combined with a long-acting beta2 agonist (LABA) in one inhaler, compared with that medium-dose ICS alone at the same dose, reduce the risk of having at least one moderate or severe asthma exacerbation during the full randomised treatment period?",
+  "treatment_label": "Medium-dose ICS plus LABA in a single inhaler",
+  "control_label": "The same medium-dose ICS alone at the same dose",
+  "outcome_description": "Dichotomous participant-level outcome: number of participants with at least one moderate or severe asthma exacerbation during the full treatment period, divided by the number randomised or analysed in each eligible arm (intention-to-treat population when available). Moderate or severe exacerbations are those requiring systemic corticosteroids, an emergency visit, or hospitalisation. If only severe exacerbations are reported, or several definitions are available, use the reported definition closest to moderate-or-severe exacerbation. Do not use event rates per person-year when participant counts are available in the text. For multi-arm trials, include only the eligible medium-dose ICS/LABA arm and same-dose medium-dose ICS-alone arm; retain the full reported control-arm events and denominator even if that arm is shared with other comparisons. Pool participant-count risk ratios for ICS/LABA versus ICS alone, for which RR below 1 favours ICS/LABA.",
+  "positive_direction": "A positive direction after harmonising effects means fewer participants experience at least one moderate or severe exacerbation with medium-dose ICS/LABA than with the same medium-dose ICS alone; on the requested raw risk-ratio scale, this benefit is represented by RR below 1.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "asthma medium dose inhaled corticosteroid LABA randomized trial exacerbation",
+    "ICS LABA single inhaler ICS alone controlled trial asthma exacerbation",
+    "fluticasone salmeterol budesonide formoterol mometasone indacaterol randomized asthma exacerbation"
+  ],
+  "inclusion_criteria": [
+    "Original randomised trials in adolescents and/or adults with asthma that is uncontrolled on medium-dose ICS and that compare a medium-dose ICS/LABA single-inhaler regimen with the same medium-dose ICS alone at the same dose.",
+    "Trials reporting, or permitting extraction of, quantitative participant counts for at least one moderate or severe asthma exacerbation during the treatment period, using randomised or analysed denominators.",
+    "Eligible trials regardless of ICS or LABA brand, dosing schedule, treatment duration, sample size, publication status, or the presence of additional ineligible trial arms."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, protocols, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between an eligible treatment condition and control condition\u2014specifically, no medium-dose ICS/LABA arm versus the same medium-dose ICS-alone arm at the same dose.",
+    "No quantitative outcome data capable of producing an effect size, such as participant-level exacerbation proportions/counts, means with SDs, t/F-values, or reported odds/risk estimates; in particular, studies reporting only exacerbation rates per person-year with no participant counts or convertible participant-risk data are excluded.",
+    "Completely unrelated to the research topic, population, intervention, comparator, or asthma-exacerbation outcome."
+  ],
+  "moderators_to_extract": [
+    "Age group or mean age (adolescent, adult, or mixed)",
+    "ICS/LABA drug combination and ICS molecule",
+    "LABA and ICS dosing schedule",
+    "Trial treatment duration",
+    "Baseline asthma severity and operational definition of uncontrolled asthma",
+    "Exacerbation definition used and analysis population/denominator (randomised, intention-to-treat, or other analysed set)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Primary pooling measure is the participant-level Risk Ratio (RR), calculated as [participants with at least one moderate/severe exacerbation \u00f7 denominator] in medium-dose ICS/LABA divided by the corresponding risk in same-dose medium-dose ICS alone. RR < 1 favours ICS/LABA. Use the full treatment period and intention-to-treat/randomised denominators when available. Ignore high-dose ICS, high-dose ICS/LABA, ICS/LAMA, and all other ineligible arms. For a shared eligible ICS control arm, use its full reported events and denominator for the eligible comparison. Apply an appropriate prespecified continuity correction only when required for a study with a zero-event arm; double-zero studies do not estimate an RR and should be described separately or handled in sensitivity analysis using a method that can accommodate them.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "participants with at least one moderate or severe asthma exacerbation"
+}

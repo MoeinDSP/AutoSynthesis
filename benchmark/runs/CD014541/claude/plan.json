@@ -1,0 +1,38 @@
+{
+  "research_question": "In acutely ill hospitalized medical patients receiving venous thromboembolism prophylaxis, does extended-duration anticoagulation, compared with standard-duration anticoagulation, increase the risk of major bleeding within 45 days (short-term, primary analysis)?",
+  "treatment_label": "Extended-duration anticoagulant thromboprophylaxis",
+  "control_label": "Standard-duration anticoagulant thromboprophylaxis (or placebo after standard course)",
+  "outcome_description": "Major bleeding events (as defined by each trial, typically ISTH criteria) occurring within 45 days of randomization (short-term), reported as number of patients with a major bleeding event and total randomized per arm. Primary-analysis population only (all randomized acutely ill medical patients), excluding COVID-19-only sensitivity analyses, same-extended-agent sensitivity analyses, and any subgroup analyses (sex, age, cancer history, D-dimer, infection status).",
+  "positive_direction": "A positive effect (RR below 1 expressed in the favorable direction) means extended-duration anticoagulation produced FEWER major bleeding events than standard-duration anticoagulation; a negative effect means extended duration caused MORE major bleeding (the expected harm signal).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "extended duration thromboprophylaxis acutely ill medical patients randomized trial major bleeding",
+    "extended anticoagulation versus standard duration venous thromboembolism prophylaxis hospitalized medical patients trial",
+    "betrixaban rivaroxaban apixaban enoxaparin extended prophylaxis medically ill randomized controlled trial bleeding outcomes"
+  ],
+  "inclusion_criteria": [
+    "Studies of acutely ill hospitalized medical patients (including COVID-19 and other acute medical illness) receiving anticoagulant thromboprophylaxis",
+    "Compares an extended-duration anticoagulation regimen with a standard-duration regimen (or placebo/no anticoagulation after the standard course)",
+    "Reports quantitative bleeding outcome data, including number of major bleeding events and number randomized or analyzed per arm"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, narrative review, opinion piece, protocol, or purely theoretical/modelling paper)",
+    "No comparison between an extended-duration treatment arm and a standard-duration/control arm",
+    "No quantitative outcome data from which an effect size can be computed (no event counts/denominators, proportions, odds ratios, or means+SDs)",
+    "Completely unrelated to extended-duration anticoagulant thromboprophylaxis in acutely ill medical patients (e.g. surgical/orthopedic prophylaxis only, treatment of established VTE, atrial fibrillation stroke prevention)"
+  ],
+  "moderators_to_extract": [
+    "Anticoagulant class/agent used in the extended arm (DOAC vs LMWH)",
+    "Duration of extended prophylaxis (days)",
+    "Bleeding definition used (ISTH vs other)",
+    "Patient population (COVID-19 vs non-COVID acute medical illness)",
+    "Sample size category",
+    "Risk of bias / blinding (double-blind placebo-controlled vs open-label)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a Risk Ratio using each trial's reported number of major bleeding events and total randomized per arm (intention-to-treat denominators where available), restricted to the short-term window (\u226445 days) from the primary analysis population. Trials reporting zero major bleeding events in BOTH arms are \"not estimable\" for a ratio measure and should be excluded from pooling rather than continuity-corrected; single-zero-arm trials may use a standard continuity correction or Mantel-Haenszel pooling without correction. A higher event rate in the extended-duration arm reflects genuine harm, not an extraction error, because major bleeding is a safety outcome.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "major bleeding"
+}

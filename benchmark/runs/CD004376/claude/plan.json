@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of exercise therapy, compared with no treatment, usual care, or limited/minimal education, on quality of life at longer-term follow-up (up to and including 12 months post-intervention) in adults with knee osteoarthritis?",
+  "treatment_label": "Exercise therapy (land- or water-based therapeutic exercise programme)",
+  "control_label": "No treatment, usual care, or limited/minimal education",
+  "outcome_description": "Health-related quality of life at longer-term follow-up (post-intervention follow-up assessments up to and including 12 months), measured with whichever instrument the study itself designates as its quality-of-life outcome (e.g. SF-36/SF-12 physical or mental component summary, EQ-5D index, AQoL, WOMAC/KOOS quality-of-life subscale, Nottingham Health Profile, or disease-specific QoL questionnaires). Data measured immediately at the end of the intervention period are not eligible for this timepoint.",
+  "positive_direction": "A positive Hedges g / SMD means the exercise group had BETTER quality of life than the no-treatment, usual-care, or limited-education control group at longer-term (up to 12-month) follow-up.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "exercise therapy knee osteoarthritis randomized controlled trial quality of life",
+    "knee osteoarthritis exercise program usual care control trial 12 month follow-up outcomes",
+    "therapeutic exercise knee OA health-related quality of life SF-36 EQ-5D trial effect"
+  ],
+  "inclusion_criteria": [
+    "Adults with knee osteoarthritis (clinically or radiographically diagnosed) in any setting",
+    "Study compares an exercise intervention with a non-exercise comparator such as no treatment, waiting list, usual care, or limited/minimal education",
+    "Reports some quantitative quality-of-life outcome at a follow-up assessment after the end of the intervention, up to and including 12 months"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, protocol, narrative or theoretical paper)",
+    "No comparison between an exercise treatment condition and an eligible control condition; comparator is an attention-control/placebo/sham condition, another active treatment, or a co-intervention design in which exercise is added on top of a treatment received by both arms",
+    "No quantitative quality-of-life outcome data usable for an effect size (no means+SDs, t/F values, confidence intervals, or equivalent), or quality-of-life data reported only at the immediate end-of-intervention timepoint with no later follow-up up to 12 months",
+    "Completely unrelated to exercise for knee osteoarthritis (e.g. hip-only or other joint populations, post-arthroplasty rehabilitation, animal or non-clinical studies)"
+  ],
+  "moderators_to_extract": [
+    "Quality-of-life instrument used (generic vs disease-specific)",
+    "Exercise type (strengthening, aerobic, mind-body/water-based, mixed)",
+    "Intervention duration and supervision (supervised vs home-based)",
+    "Comparator type (no treatment/waitlist vs usual care vs limited education)",
+    "Length of follow-up after intervention end (months)",
+    "Sample size category and risk-of-bias rating"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardized mean difference (Hedges g corrected) because studies use different quality-of-life instruments. For each study extract only the instrument the paper itself frames as its quality-of-life outcome, and only the longer-term follow-up assessment (post-intervention, up to and including 12 months); if several eligible follow-ups exist, use the one closest to 12 months. Reverse-sign scales on which higher = worse (e.g. WOMAC, Nottingham Health Profile) so that positive values always favour exercise. Random-effects (REML) model with Knapp-Hartung adjustment.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "quality of life"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "In HIV-positive pregnant women, does daily cotrimoxazole prophylaxis (CTXp) combined with an additional antimalarial (mefloquine or dihydroartemisinin-piperaquine) reduce the risk of low birth weight (<2500 g) compared with CTXp alone (with or without placebo, current standard of care)?",
+  "treatment_label": "Daily cotrimoxazole prophylaxis plus an additional antimalarial (mefloquine or dihydroartemisinin-piperaquine)",
+  "control_label": "Daily cotrimoxazole prophylaxis alone, with or without placebo (standard of care)",
+  "outcome_description": "Low birth weight, defined as a live-born infant weighing less than 2500 g at birth; extracted as the number of low-birth-weight events and the total number of women/infants randomized (or evaluated) per trial arm.",
+  "positive_direction": "A positive effect (RR below 1 after signing) means the added antimalarial plus CTXp reduced the risk of low birth weight relative to CTXp alone \u2014 i.e. fewer low-birth-weight babies in the intervention arm.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cotrimoxazole prophylaxis mefloquine HIV pregnant women randomized trial birth weight",
+    "dihydroartemisinin-piperaquine intermittent preventive treatment HIV pregnancy trial low birth weight",
+    "malaria chemoprevention HIV-infected pregnant women cotrimoxazole controlled trial birth outcomes"
+  ],
+  "inclusion_criteria": [
+    "Studies of pregnant women who are HIV-positive (or with an HIV-positive subgroup) receiving cotrimoxazole prophylaxis, in which an additional antimalarial (e.g. mefloquine, dihydroartemisinin-piperaquine, or similar chemoprevention) is compared with cotrimoxazole alone or cotrimoxazole plus placebo",
+    "Any controlled or comparative design (randomized, quasi-experimental, or controlled cohort) reporting at least one birth or pregnancy outcome",
+    "Reports quantitative data on birth weight or low birth weight (<2500 g), including event counts, proportions, means, or effect estimates"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, opinion pieces, guidelines, or purely theoretical/modelling papers)",
+    "No comparison between a treatment arm and a control/standard-of-care arm (single-arm or purely descriptive studies)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts/proportions, means+SDs, t/F values, or risk/odds ratios with uncertainty)",
+    "Completely unrelated to malaria chemoprevention or cotrimoxazole prophylaxis in HIV-positive pregnancy and birth outcomes"
+  ],
+  "moderators_to_extract": [
+    "Additional antimalarial agent used (mefloquine vs dihydroartemisinin-piperaquine vs other)",
+    "Use of placebo in the control arm (placebo-controlled vs open-label CTXp alone)",
+    "Country/region and malaria transmission intensity",
+    "Gravidity (primigravid vs multigravid proportion)",
+    "Antiretroviral therapy coverage/regimen",
+    "Sample size category and risk-of-bias rating"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as a Risk Ratio using each trial's reported low-birth-weight event counts and total randomized (or evaluable) participants per arm, with a random-effects model; RR < 1 favours the added antimalarial.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "low birth weight (&lt;2500 g)"
+}

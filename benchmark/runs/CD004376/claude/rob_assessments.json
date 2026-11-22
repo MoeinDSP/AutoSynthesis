@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:c33b8db0",
+    "paper_title": "37f3f411_1471-2474-6-27",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"After written informed consent, sixty-five subjects were randomized. Randomization was performed by the patient drawing a sealed envelope containing a piece of folded paper with either the word 'exercise' or 'control' written on it.\" The trial is also registered (ISRCTN20244858) and titled a randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was by patients drawing sealed envelopes in batches of eight or more, but the method of generating the sequence is not described and envelopes were not stated to be opaque, sequentially numbered or managed by an independent party; additionally four participants were randomized before eligibility was confirmed and then excluded post-randomization, although baseline characteristics (Table 1) appear balanced and consistent with chance.",
+        "evidence_quote": "\"Randomization was performed by the patient drawing a sealed envelope containing a piece of folded paper with either the word \"exercise\" or \"control\" written on it. Four persons were falsely randomized ... and thus 61 subjects entered the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the single delivering/assessing physical therapist necessarily knew the assignment in this unblinded exercise trial with a no-treatment (non-attention-matched) control, so expectancy/attention effects could influence self-reported outcomes (the authors themselves note \"Group dynamics, support, or attention received may possibly have influenced the quality of life more than the exercise itself\"); adherence was high (89.9% of sessions) but the analysis appears to be per-protocol on 28 per group rather than intention-to-treat, with no imputation for the post-randomization dropouts.",
+        "evidence_quote": "\"The controls were told not to make any lifestyle changes. They met the physical therapist (CT) for one hour at three times; baseline, follow up at 6 weeks and 6 months.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Loss was modest and balanced (28/30 and 28/31, ~8%), but one stated reason for dropout \u2014 \"increased knee symptoms\" \u2014 is plausibly related to the outcome and intervention, no per-group breakdown of reasons or sensitivity/ITT analysis is presented, and with a small sample already described as potentially underpowered, exclusion of dropouts could affect the estimates.",
+        "evidence_quote": "\"Twenty-eight patients in each group were available for follow-up. The reasons for dropout were lack of time, reorganization at work, sudden illness, and increased knee symptoms (Figure 1).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "KOOS and SF-36 are validated, appropriately timed, identically administered instruments, but they are self-reported by unblinded participants, and the same physical therapist (CT) delivered the intervention and conducted all assessments and performance tests, so knowledge of allocation could have influenced reporting and measurement of the subjective outcomes (notably the quality-of-life and mental-component findings).",
+        "evidence_quote": "\"The primary outcome measure was the disease-specific Knee injury and Osteoarthritis Outcome Score (KOOS) ... Questionnaires were distributed prior to randomization at baseline, after 6 weeks, and 6 months.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial is registered and KOOS is pre-specified as primary, the sample-size calculation was performed post hoc, numerous outcomes were tested without adjustment for multiplicity (5 KOOS subscales at 2 time points, SF-36 summary and 8 subscales, ergometer test and 5 performance tests), additional post-hoc subgroup analyses were run, and the one borderline positive result (KOOS QOL, p = 0.05) is emphasized in the abstract and conclusion \u2014 the authors concede \"it can not be excluded that this result could be due to chance.\"",
+        "evidence_quote": "\"Post-hoc, a power analysis was performed to estimate the number of patients needed to show a clinically significant difference between groups.\" / \"A post-hoc analysis was performed to study the possibility that the benefit from exercise was larger in subjects with worse pain at baseline.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D5 (selection of the reported result): the power calculation was post hoc, many outcomes and subscales were tested across two time points without multiplicity adjustment, additional post-hoc subgroup analyses were conducted, and a single borderline result (KOOS quality of life, p = 0.05) is highlighted in the abstract and conclusions. The remaining domains raise some concerns \u2014 an incompletely described envelope-drawing allocation with four post-randomization exclusions, an unblinded no-treatment control with self-reported outcomes assessed by the same therapist who delivered the intervention, and ~8% attrition analysed without an intention-to-treat approach."
+  },
+  {
+    "paper_id": "manual:13acf35c",
+    "paper_title": "7ccf27e6_1471-2474-13-118",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit stratified random allocation of matched triplets to RT, NMES or control using computer-generated random numbers in a registered RCT (ISRCTN85231954).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine computer-generated random sequence stratified on age/sex was used and allocation was performed by an investigator with no clinical involvement, but concealment is not explicitly described and baseline WOMAC physical function was visibly higher in the NMES group (41.0 vs ~31.7), raising mild concern in this very small sample.",
+        "evidence_quote": "\"A stratified randomisation technique was employed to ensure that gender and age distribution was similar in each group. Each subject was matched with 2 participants of the same gender and similar age. Each group of three was then randomly assigned to one of the experimental conditions using computer-generated random numbers.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and intervention providers were unblinded with no sham/placebo for controls, the RT group additionally received frequent supervision/contact (co-intervention asymmetry), adherence was incomplete (83\u201391%), and the analysis appears to be of completers only (10/10/6 of 41 randomised) rather than intention-to-treat.",
+        "evidence_quote": "\"Whereas patients and exercise specialists were aware of the allocated intervention... Limitations of this study include ... the lack of a placebo intervention for the control group\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Roughly 22% of randomised participants were missing at the primary post-intervention assessment and 37% at week 14, with no imputation, no sensitivity analysis and no evidence that missingness was unrelated to outcome; the implausible control-group week-14 improvements (e.g., walk test 16.6s\u219211.6s in n\u22486) suggest attrition strongly influenced results.",
+        "evidence_quote": "\"Overall, 41 of 66 eligible participants underwent stratified randomisation, 32 of 41 (78%) completed postintervention testing and 26 (63%) were available for assessment at week 14.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures were validated and assessors blinded with a familiarisation visit, but the performance-based primary outcomes are effort-dependent and the secondary WOMAC/SF-36 outcomes are self-reported by unblinded participants who knew whether they received an active intervention.",
+        "evidence_quote": "\"outcome assessors and data analysts were kept blinded to the allocation. Patients were repeatedly reminded not to disclose their intervention to outcome assessors.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (ISRCTN85231954) and a primary outcome is pre-specified with Bonferroni correction, but no protocol/analysis plan is available for comparison and reporting emphasises multiple within-group comparisons across several outcomes and time points, leaving scope for selective emphasis.",
+        "evidence_quote": "\"The primary outcome measure was objective functional capacity, assessed using a 25 m walk test, a repeated chair rise test, and a stair climb test.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although randomisation was adequately generated and outcome assessors were blinded, the trial is at high risk of bias due to substantial attrition (22% at post-intervention, 37% at follow-up) analysed without intention-to-treat or sensitivity analyses, combined with an unblinded, non-placebo-controlled design in which the RT arm received extra supervision/contact. The very small sample (n=10/10/6 analysed) amplifies these concerns."
+  },
+  {
+    "paper_id": "manual:dfdfae3a",
+    "paper_title": "8683fa9a_12891_2023_Article_6831",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit three-arm parallel RCT with computer-generated randomization lists, 1:1:1 allocation in blocks of 6, and registration at ClinicalTrials.gov (NCT01682980).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation sequence was computer-generated by an independent biostatistician and concealed in envelopes, but the envelopes are not described as opaque/sequentially numbered and some baseline imbalances (more men and markedly more smokers in usual care, and large differences in previous knee injury: 48%/57% vs 30%) raise minor concern.",
+        "evidence_quote": "\"Computer-generated randomization lists were prepared by a biostatistician not involved in the project. Participants were randomly allocated with 1:1:1 ratio within block sizes of 6. A research coordinator prepared concealed envelopes from the randomization list for four recruitment centers before recruitment\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and treating physiotherapists were necessarily unblinded; adherence was poorly documented (only ~60% returned diaries), interventions were individually tailored by 68 different physiotherapists with no fidelity monitoring, and usual-care participants had more physiotherapy consultations during follow-up, although a (modified) intention-to-treat mixed-model analysis was used.",
+        "evidence_quote": "\"The physiotherapists were told to tailor the intervention within the frame of the program, but we have no information on how this was conducted other than information from the training diary... Training diaries were delivered by 60% in the strength exercise group (33/55) and 57% in the aerobic exercise group (32/56).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcome data at 1 year were available for only 125/168 randomized (45, 39 and 41 per group; ~25% missing, plus 19 who attended baseline only and 7 consent withdrawals), and although a mixed model using all available data was applied, no sensitivity analysis of missingness assumptions is reported.",
+        "evidence_quote": "\"Numbers At 1 year for KOOS QoL: strength training (n = 45), stationary cycling (n = 39), usual care (n = 41)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (KOOS QoL) is a validated, standardized self-report measure collected identically across arms and assessors were reported as blinded, but participants self-reporting outcomes could not be blinded to their assigned exercise or usual-care condition, which can influence subjective QoL/pain reporting.",
+        "evidence_quote": "\"The self-reported data and objective outcomes assessors were blinded for group assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered with a published protocol, the primary outcome and analysis plan were specified before unblinding, and deviations (early termination, dropped MRI/blood sampling, widened age range) are transparently reported with all pre-specified secondary outcomes presented.",
+        "evidence_quote": "\"The statistical analyses were pre-planned prior to participant enrolment and published at clinicaltrials.gov (NCT01682980) before we revealed the group allocation.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospectively registered, protocol-published three-arm RCT used adequate random sequence generation and pre-specified analyses (D5 low), but carries some concerns across D1\u2013D4: baseline imbalances (sex, smoking, prior injury), inevitable participant unblinding with poorly documented adherence/fidelity across 68 therapists, ~25% missing 1-year primary outcome data without sensitivity analyses, and self-reported outcomes from unblinded participants. No single domain reached high risk, so the overall judgment is \"some concerns\"; early termination also left the trial underpowered and imprecise."
+  },
+  {
+    "paper_id": "manual:7e5da060",
+    "paper_title": "2fc9eb28_16501977-0134",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a single-blind randomized controlled trial in which 79 patients were randomly allocated to aquatic exercise, land-based exercise, or control using opaque envelopes with blocks of 18.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment via opaque envelopes with block randomization is described, but the sequence-generation method is not reported and a statistically significant baseline imbalance in body weight (a plausible prognostic factor the authors themselves discuss as a possible explanation for findings) raises some concerns.",
+        "evidence_quote": "\"The 79 patients were randomized (envelope method (opaque) with blocks of 18 (3 \u00d7 6) subjects)... Informed consent was given prior to randomization, and the baseline measurements were also taken at this point in order to keep the randomization concealed.\" / \"A significant difference between all 3 groups was found for body weight (p = 0.03, Table I)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and exercise instructors could not be blinded to an exercise versus no-exercise condition, co-interventions (\"asked to continue any other treatment as usual\") and possible home exercise were uncontrolled and are invoked to explain results, and the key muscle-strength/balance outcomes were analysed per-protocol rather than ITT.",
+        "evidence_quote": "\"an intention-to-treat analysis was included as recommended (27), using the last observation carried forward methodology\"; \"The pooled clustered empirical analyses were only carried out on a per-protocol basis\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was modest overall (~10%) and addressed with LOCF imputation, but losses were unbalanced (5/25 land-based vs 1/27 aquatic) and partly outcome-related (drop-out due to increased pain), which could bias effect estimates in the favoured group.",
+        "evidence_quote": "\"Of the 79 patients randomly allocated, 8 dropped out during the exercise period: 5 from the land-based exercise group, 3 due to increased pain...\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures were validated and assessors were blinded, but the primary outcome (VAS pain) and KOOS are self-reported by unblinded participants who knew whether they received exercise or no treatment, which can influence subjective reporting.",
+        "evidence_quote": "\"All measurements were carried out by 2 independent physiotherapists, who were both experienced in the measuring methods and blinded to the treatment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A pre-specified primary outcome and a priori significance level are stated and both ITT and per-protocol results are presented, but no trial registration or protocol is cited, pain was reported in two forms (rest and walking) across two time points with many secondary outcomes, and some analyses (pooled SMD clustering, post-hoc comparisons) appear analytically flexible.",
+        "evidence_quote": "\"Pain was chosen as the primary outcome (20)\"; \"If a significant difference was found, the 2 interventions was compared post hoc\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This randomized trial used concealed envelope allocation and blinded assessors, but all five domains raise some concerns: unreported sequence generation with a significant baseline body-weight imbalance, inevitable lack of participant blinding with uncontrolled co-interventions and per-protocol analysis of strength/balance outcomes, differential outcome-related attrition handled only by LOCF, self-reported primary pain outcome, and absence of a registered protocol with multiple outcome operationalizations. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:72761318",
+    "paper_title": "36e2e12e_art.22995",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster randomization of primary care practices to three arms, with a randomization list generated centrally by an author not involved in trial execution: \"Practices were randomly allocated in blocks of 3 to receive 1) usual primary care... 2) usual primary care plus individual rehabilitation... or 3) usual primary care plus rehabilitation in groups of 8.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Cluster allocation was centrally generated and concealed from the trial team and baseline characteristics were well balanced, but because individuals consented after being told which intervention they would receive (\"potential participants were given specific written information detailing the intervention they would receive\"), identification/recruitment bias inherent to cluster trials cannot be fully excluded, and recruitment was acknowledged to be harder in the group arm.",
+        "evidence_quote": "\"The randomization list was generated at a central location away from the research center by an author (BR), who was not involved in the execution of the trial. ... Practices were randomly allocated in blocks of 3\"; \"Although it was slightly more difficult to recruit participants into Grp-rehab, there was no evidence of differential recruitment to trial arms and all baseline characteristics were balanced\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An appropriate intention-to-treat analysis was used and co-intervention (usual primary care) was documented, but participants and the single delivering physiotherapist were necessarily aware of allocation in this behavioural trial, adherence differed substantially between the two rehabilitation arms, and usual-care participants may have altered behaviour on learning they received no additional intervention.",
+        "evidence_quote": "\"Statistical analysis followed a prespecified protocol, based on intent-to-treat with no interim or post hoc analyses.\"; \"105 (85%) of 120 Indiv-rehab participants and 59 (55%) of 107 Grp-rehab participants attended 10 of the 12 sessions.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Roughly 18% of outcome data were missing and withdrawal was demonstrably related to the outcome itself in an arm-dependent manner, but the investigators modelled predictors of withdrawal in a joint longitudinal sensitivity analysis which indicated that attrition, if anything, under-estimated the treatment effect, partially mitigating the concern.",
+        "evidence_quote": "\"By 6 months, 76 (18%) participants had withdrawn\"; \"Participants who withdrew from the study between the 6-week and 6-month assessment had poorer functioning at 6 weeks than those who remained in the study (mean WOMAC-func 28.0 for dropouts versus 21.5 for non-dropouts; P 0.013)\"; \"participants in the usual care arm who withdrew tended to have worse functioning at 6 weeks ... whereas participants in Grp-rehab who withdrew tended to have better functioning\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome is a self-reported, subjective functioning score completed by unblinded participants who knew they had received an active rehabilitation programme versus nothing additional, and nominal assessor blinding was frequently broken (61% correctly identified), a bias the authors themselves acknowledge could have affected the outcome.",
+        "evidence_quote": "\"The WOMAC was completed by the participants.\"; \"Assessors correctly identified allocation in 133 (61%) of 219 participants in the rehabilitation groups.\"; \"Our assessors frequently identified allocation correctly based on what participants said or did not say, introducing assessor bias that could have affected outcome.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "A single prespecified primary outcome and endpoint, a prespecified analysis plan with preplanned subgroup/interaction tests, and full reporting of all secondary outcomes (including null results) make selective reporting unlikely, despite the absence of a publicly available trial registration.",
+        "evidence_quote": "\"Statistical analysis followed a prespecified protocol, based on intent-to-treat with no interim or post hoc analyses.\"; \"6 months after completion of rehabilitation or 7.5 months after recruitment to the usual care arm, the prespecified primary end point\"; \"Preplanned interaction tests were performed\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 4: the primary outcome (WOMAC physical function) was self-reported by participants who were necessarily aware of their allocation to an active rehabilitation programme versus usual care alone, and the nominal assessor blinding was broken in 61% of rehabilitation participants \u2014 a limitation the authors explicitly acknowledge. This is compounded by some concerns in the randomization (post-randomization individual consent with knowledge of the assigned intervention), intervention-delivery (unblinded participants, unequal adherence between rehabilitation arms), and missing-data domains (18% attrition demonstrably related to outcome in an arm-dependent way), although the prespecified protocol, intention-to-treat analysis, multilevel modelling for clustering, and withdrawal sensitivity analyses are methodological strengths."
+  },
+  {
+    "paper_id": "manual:81bd9977",
+    "paper_title": "36f9d739_jospt.2014.4791",
+    "design_classification": "randomized",
+    "design_rationale": "Patients were explicitly randomly allocated 2:1 to exercise intervention or waitlist control by an independent person using a random-number generator, with allocation in opaque envelopes (protocol registered NCT01641874).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated by an independent person and baseline characteristics/outcome scores were comparable (P>.05), but the envelopes are not described as sealed or sequentially numbered, and the markedly differential immediate post-randomization withdrawal (21 intervention vs 1 control) raises some doubt about the integrity of concealment/recruitment process.",
+        "evidence_quote": "\"Patients were randomly assigned, at a 2:1 ratio, to the exercise intervention group or the control group, respectively, by an independent person using a random-number generator. Opaque envelopes were prepared with group assignment and were opened in order as patients were recruited.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and therapists were necessarily unblinded with a no-treatment waitlist comparator (risk of performance/expectation effects on self-reported outcomes), although an ITT-consistent analysis was used; 22 post-randomization withdrawals (21 intervention) were excluded as they provided no baseline data.",
+        "evidence_quote": "\"It was not feasible to blind the therapists to the exercise intervention groups... Physical therapists were not blind to group allocation\" ; \"All ANCOVA analyses were consistent with the intention-to-treat principle for patients who completed baseline measures.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "There was substantial and strongly differential post-randomization attrition (12% overall, almost entirely from the intervention arm) plus further dropout largely due to proceeding to total knee replacement; follow-up missingness was handled by regression imputation but no sensitivity analysis of the missingness assumption is reported.",
+        "evidence_quote": "\"Twenty-two patients subsequently withdrew their consent after randomization (21 from the exercise intervention group and 1 from the control group)... These 22 patients provided no baseline data and were not included in the analysis.\" ; \"Missing 2-week and 3-month data were imputed using regression equations developed from complete data\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures (P4, KOOS) are validated and applied identically across groups by a blinded assessor, but the outcomes are patient-reported and participants knew whether they received exercise or remained on a waitlist with no intervention, which can bias subjective pain/function ratings.",
+        "evidence_quote": "\"All outcomes were collected using self-report questionnaires at baseline, 2 weeks, and 3 months by an independent person blinded to group assignment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered (NCT01641874) and primary/secondary outcomes are pre-specified and all reported, but the planned 1-year time point was dropped post hoc and multiple outcome operationalizations/analyses (ANCOVA, effect sizes, MDC90 responder rates, non-randomized subgroup comparisons) were reported, leaving some potential for selective emphasis.",
+        "evidence_quote": "\"Analysis of 1-year data was originally planned; however, a large number of patients proceeded to TKR prior to this time point, so 1-year outcomes were not included in the analysis.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered RCT used adequate random sequence generation and a blinded outcome assessor, but all five domains raise some concerns: unblinded patients/therapists with a no-treatment waitlist comparator and entirely patient-reported outcomes, substantial differential post-randomization withdrawal (21 of 22 from the intervention arm) handled by regression imputation without sensitivity analysis, and a post hoc dropped 1-year time point. No single domain reaches 'high' risk for the primary randomized comparison, so the overall judgment is some concerns (note that the MDT subgroup comparisons are explicitly non-randomized and should be treated as exploratory/high risk)."
+  }
+]

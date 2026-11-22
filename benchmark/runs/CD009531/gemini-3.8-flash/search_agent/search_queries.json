@@ -1,0 +1,16 @@
+{
+  "user_prompt": "Meta-analysis of randomised controlled trials of collaborative care versus usual care in adults with severe mental illness (bipolar disorder, schizophrenia, schizoaffective disorder or other psychotic disorders) treated in community or outpatient settings.\n\nOutcome: health-related quality of life in the MENTAL HEALTH domain, measured as an endpoint score (post-intervention mean and SD per group, not change from baseline), at the follow-up closest to 6 months and no later than 6 months.\n\nEffect measure: Standardised Mean Difference (SMD, Hedges' g), collaborative care minus usual care. Different scales are used, so standardise. Positive values favour collaborative care (higher score = better quality of life).\n\nOutcome rules:\n- Use one mental-health quality-of-life score per trial:\n  - SF-12 or SF-36 Mental Component Summary (MCS), or\n  - the WHOQOL-BREF psychological domain.\n- Do not use the physical-health component or the physical domain.\n- Do not use the overall or total quality-of-life score.\n- Do not use symptom scales, functioning scales or satisfaction scales.\n- If a trial reports several follow-ups, use the one at 6 months, or the nearest earlier one if there is none at 6 months (for example 2 months). Do not use 12-month or longer follow-ups.\n- Use the randomised group sizes if the analysed Ns are not reported.\n- If only SE or a 95% CI is given, convert it to SD using the group n.\n\nInclude the trials found in the uploaded papers. Do not exclude a trial because of its diagnosis, its country, or its quality-of-life instrument. Exclude only reviews and protocols, and trials without a usual-care control.",
+  "planned_search_queries": [
+    "collaborative care severe mental illness randomised controlled trial",
+    "collaborative care bipolar schizophrenia quality of life trial",
+    "collaborative care usual care mental health quality of life controlled trial"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "collaborative care severe mental illness quality of life randomized controlled trial",
+    "collaborative care usual care bipolar schizophrenia mental health quality of life trial",
+    "collaborative care outpatient severe mental illness SF-36 SF-12 controlled trial",
+    "collaborative care community mental health WHOQOL psychological domain trial",
+    "collaborative care usual care serious mental illness health-related quality of life effectiveness trial"
+  ]
+}

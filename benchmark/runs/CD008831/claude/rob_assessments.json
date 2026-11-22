@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:3ef5c21c",
+    "paper_title": "a8614bcd_1748-717X-5-31",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective, randomized, double-blind, placebo-controlled trial in which patients were \"randomly assigned in a double blind fashion to receive study drug or placebo in a 1:1 ratio\" after stratification by age, stage and radiotherapy technique.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was stratified and concealed to some degree via identical pre-packaged numbered medication, and baseline characteristics were balanced, but the method of generating the random sequence is not described and ECOG performance status differed notably (93.5% vs 75% grade 0, p = 0.08).",
+        "evidence_quote": "\"Patients were stratified by age, stage, and whole pelvis radiotherapy technique. Patients were randomly assigned in a double blind fashion to receive study drug or placebo in a 1: 1 ratio.\" ... \"Pre-packaged (blinded) study medication differing solely in the patient numbers on the medication package was provided by the sponser.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients and treating physicians were blinded by an identical-appearing placebo, compliance was monitored by capsule return, and all randomized patients were analysed in their assigned groups (intention-to-treat).",
+        "evidence_quote": "\"Neither the patient nor the treating physician knew if the patient was on the study drug or placebo.\" ... \"Patients who took < 80% of the medication were considered non-compliant, but were included in the intent-to-treat analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were assessed with a standardized validated toxicity scale applied weekly and identically in both groups, with assessors (patients, physicians, laboratory technicians) blinded to allocation, although diarrhea grading partly relies on patient self-report of stool frequency.",
+        "evidence_quote": "\"Patients were evaluated weekly for the severity of diarrhea according to the National Cancer Institute Common Toxicity Criteria; NCI CTC version 2.0\" ... \"Stool consistency was objectively defined by the technician in the laboratory and cell counts were analyzed by fresh stool examination (wet mount).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear available for all 63 randomized patients with no reported dropouts or exclusions from analysis.",
+        "evidence_quote": "\"sixty-three patients were randomly allocated to receive lactobacillus acidophilus plus bifidobacterium bifidum (Infloran\u00ae) in 32 patients or a placebo in 31 patients (Fig 1). All 63 patients were eligible and assessable.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary endpoint and sample-size calculation are stated, but no trial registration or pre-specified analysis plan is cited, and multiple secondary outcomes (stool consistency, WBC/RBC in stool, weight, treatment time) and dichotomization choices (grade 1 vs grade 2\u20133) leave scope for selective reporting.",
+        "evidence_quote": "\"The primary endpoint was to reduce the incidence of diarrhea, defined by a CTC grade 2 or more, and the need for antidiarrheal medication.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind, placebo-controlled trial had good blinding, complete outcome data and standardized outcome measurement, but the random sequence generation method is unreported with a borderline baseline imbalance in performance status, and there is no evidence of prospective registration or a pre-specified analysis plan. The overall judgment of 'some concerns' is driven by domains 1 (randomization process) and 5 (selection of the reported result)."
+  },
+  {
+    "paper_id": "manual:faa6b8cb",
+    "paper_title": "6508698f_int-j-radi-v14n3p205-en",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states a randomized, placebo-controlled trial in which \"Simple randomization was used to allocate patients to three groups\" (probiotic, probiotic+honey, placebo), with trial registration (IRCT2015030421338N1).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but the sequence-generation method and allocation concealment are not described; baseline characteristics (age, sex, cancer type, chemoradiation) appear balanced with non-significant p-values, which is reassuring but does not resolve the concealment uncertainty.",
+        "evidence_quote": "Simple randomization was used to allocate patients to three groups"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Capsules were matched to placebo, but the honey arm could not be blinded (30 g of honey daily vs nothing), blinding of patients/carers is never explicitly stated, no mention of intention-to-treat analysis, and 11 patients lost to follow-up were apparently excluded rather than analysed as randomized.",
+        "evidence_quote": "Placebo capsules containing 500 mg of corn starch, with the same size, shape and color of probiotic capsules were purchased from Zist Takhmir Company"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 14% of enrolled patients were excluded for loss to follow-up with no breakdown by arm, no reasons given, and no sensitivity/ITT analysis, so bias from differential attrition cannot be excluded (though the proportion is modest).",
+        "evidence_quote": "Among 78 patients involved in this study, 11 patients were excluded for failure to follow up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes are standard validated scales (CTC grade, Bristol scale) applied identically, but they are largely patient-reported/subjective, assessment was by a single unblinded-appearing assessor, and blinding of outcome assessors is never stated\u2014particularly problematic for the unblindable honey arm.",
+        "evidence_quote": "The patients evaluated for the daily number of bowel movement (defecation), diarrhea grade, stool consistency score, the need for antidiarrheal medication and bloating weekly by one person."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (IRCT2015030421338N1) but retrospectively relative to enrolment (Oct 2012\u2013May 2013; registered 2015) and no protocol/pre-specified analysis plan is available; the reported analyses (linear mixed model, Mann-Whitney) differ from those stated in the methods section and results are presented selectively by week (weeks 4 and 5), suggesting flexibility in analysis and outcome timing.",
+        "evidence_quote": "Data were analyzed using: Chi-square, Fisher\u2019s exact and one-way ANOVA test. Post analysis was done by LSD (Least Significant Difference) method"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "All five RoB 2 domains raise some concerns: the randomization method and allocation concealment are unspecified, the honey arm could not be blinded, ~14% of enrolled patients were excluded for loss to follow-up without ITT or per-arm reporting, outcomes were subjective and assessor blinding was not described, and the trial was registered retrospectively with analyses that diverge from the stated statistical methods. No single domain reaches high risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:17143d49",
+    "paper_title": "1355ac7f_PIIS0261561413002744",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes prospective block randomization of 246 patients to placebo, standard-dose, or high-dose probiotic with double blinding: \"Patients were block-randomized by the research nurse and received a standard dose of Bifilact probiotics or placebo according to the random list generated by blocks of 2, 4, or 6 patients, according to random permutations.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Stratified block randomization with concealed coding by the nurse and comparable baseline characteristics are reassuring, but the high-dose arm was added mid-trial with altered allocation ratios, creating a non-concurrent comparison group (acknowledged by authors as a possible time-dependent imbalance).",
+        "evidence_quote": "\"Patients were block-randomized by the research nurse ... according to the random list generated by blocks of 2, 4, or 6 patients, according to random permutations ... Moreover, another random block using higher probiotics dosage to the randomization was added ... New random lists were generated for each stratum with a 3:1:1 ratio (higher dose, standard dose, placebo) to compensate for the late start of the higher dose group.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double blinding and >90% compliance are strengths, but co-interventions differed in intensity of prescribed dosing schedule (BID vs TID vs placebo), probiotic-enriched yogurt intake was permitted (32\u201342% across groups), and 17 randomized patients were excluded from analysis rather than an explicit intention-to-treat analysis.",
+        "evidence_quote": "\"All the bottles had a similar appearance... Only the nurse knew the coding system... The two registered dieticians and caregivers were blinded to these processes to preserve the double blind.\" / \"The patients in each group took over 90% of their prescribed medication.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only ~7% of randomized patients were excluded (229/246 analyzed, consistent with the anticipated 5% loss), but the reasons and group distribution of exclusions are given only in a figure and some subgroup analyses have additional missing data (1\u20132 patients), so freedom from bias cannot be fully verified from the text.",
+        "evidence_quote": "\"Between December 2006 and September 2010, 246 patients were randomly assigned at the UHC-HDQ. Seventeen patients were excluded (Fig. 1).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Diarrhea grade was recorded by patients in standardized daily logbooks and translated using validated WHO/NCI scales by dieticians who were blinded to allocation, applied identically across arms.",
+        "evidence_quote": "\"Severity of the diarrhea was evaluated according to toxicity criteria of the World Health Organization (WHO)... The registered dietician also analyzed the patient's logbook to translate what the patient had recorded into official WHO or NCI grading.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The pre-specified primary endpoint was null (p = 0.13) and the highlighted positive findings come from post hoc subgroup and time-point analyses (60 days, surgery subgroup, grade 4 diarrhea) decided after seeing the data, and trial registration (NCT01839721) occurred years after recruitment began, raising selective-reporting concerns despite transparent reporting of the null primary result.",
+        "evidence_quote": "\"Following this observation, we decided to perform a sub-group analysis for patients that experienced surgery... Interestingly, patients that were operated on and received a standard dose of Bifilact experienced lesser grade 4 diarrhea (97%) compared to the placebo group (p = 0.03).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This double-blind placebo-controlled randomized trial had adequate allocation concealment, blinded standardized outcome grading, high compliance and minimal attrition, but concerns arise from the mid-trial addition of the high-dose arm with a changed allocation ratio (non-concurrent comparison), a permitted co-intervention (probiotic yogurt) plus intensive dietetic counselling, exclusion of 17 randomized patients without clear ITT analysis, and emphasis on post hoc subgroup/time-point findings after a null primary endpoint with retrospective registration. Overall risk is therefore \"some concerns,\" driven by the randomization-process, deviation, missing-data and selective-reporting domains."
+  },
+  {
+    "paper_id": "manual:c327efad",
+    "paper_title": "3c16630d_PIIS0360301607045105",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a \"placebo-controlled, double-blind, randomized clinical trial in two parallel groups\" with patients \"randomly assigned to a probiotic drink or placebo\" using block randomization stratified by tumor type.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Block, stratified randomization with double-blind placebo and comparable baseline characteristics is reassuring, but no details on sequence generation method or allocation concealment are reported.",
+        "evidence_quote": "\"Randomization was done in blocks and stratified by tumor type.\" ... \"Both groups were well matched according to standard variables.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and investigators to an indistinguishable sterilized placebo was maintained, but 33 of 118 randomized patients were excluded post-randomization for withdrawal, protocol violations and non-compliance, so the analysis deviates from intention-to-treat.",
+        "evidence_quote": "\"Subsequent review determined that 33 of the total number of patients were ineligible and were excluded from the study. Of these 33 patients, 17 withdrew prematurely for personal reasons, 11 were excluded for protocol violations, and 5 were excluded for a lack of compliance.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "28% of randomized patients were excluded from analysis without reporting their distribution by arm or any sensitivity/imputation analysis, and additional outcomes (QoL in 72 of 85; calprotectin in only 23) had further substantial missingness.",
+        "evidence_quote": "\"a total of 118 patients were randomly allocated to either the active product or placebo. Subsequent review determined that 33 of the total number of patients were ineligible and were excluded from the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated, standardized outcome instruments were applied identically in both arms under double-blind conditions with weekly assessment by the same investigator, so assessor knowledge is unlikely to have biased measurement.",
+        "evidence_quote": "\"Diarrhea was evaluated according to the Common Toxicity Criteria of the National Cancer Institute... Stool consistency was assessed using the 7-point Bristol scale\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A pre-specified primary endpoint is stated, but with multiple Bristol-score operationalizations (types 5, 6, 7), several subgroup/stratified analyses, no trial registration cited, and emphasis in the conclusions on the single borderline-significant Type 6 result (p = 0.048), selective reporting of the favorable analysis cannot be excluded.",
+        "evidence_quote": "\"All analyses were also repeated stratifying by center, body weight (normal, overweight, obese), and primary cancer site... In addition, a Cox regression analysis was performed\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven primarily by missing outcome data: 33 of 118 randomized patients (28%) were excluded post-randomization for withdrawal, protocol violations and non-compliance, with no per-arm breakdown or sensitivity analysis, precluding intention-to-treat inference. Additional concerns arise from unreported sequence generation/allocation concealment, premature termination well below the planned sample size (85 vs 154), and emphasis on a borderline secondary stool-consistency outcome among multiple analyses, although blinding and validated outcome measures were strengths."
+  }
+]

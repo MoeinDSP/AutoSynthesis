@@ -1,0 +1,876 @@
+[
+  {
+    "paper_id": "deep_research:4067765",
+    "paper_title": "Effect of Alternate-Day Fasting on Weight Loss, Weight Maintenance, and Cardioprotection Among Metabolically Healthy Obese Adults: A Randomized Clinical Trial",
+    "design_classification": "randomized",
+    "design_rationale": "This was a three-arm randomized clinical trial in which participants were explicitly randomized 1:1:1 using a stratified random sampling procedure based on sex, age, and BMI.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The trial used stratified random allocation and baseline characteristics were comparable, but the method used to generate the sequence and whether allocation was concealed until assignment were not reported.",
+        "evidence_quote": "Participants were randomized in a 1:1:1 ratio... Randomization was performed by a stratified random sampling procedure by sex, age... and body mass index... All baseline characteristics had comparable distributions between the alternate-day fasting group, the daily calorie restriction group, and the control group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their assigned diet, adherence differed substantially from prescribed intake\u2014particularly in the alternate-day fasting arm\u2014and attrition related to difficulty adhering was differential, although the primary analysis was intention-to-treat.",
+        "evidence_quote": "Participants in the alternate-day fasting group exceeded their prescribed energy goal... [and] ate less than their prescribed goal... We conducted an intention-to-treat analysis, which included data from all 100 participants who underwent randomization."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 69% completed the study, with substantial and differential dropout (38% in alternate-day fasting versus 29% and 26%), including withdrawals due to intervention adherence, while the mixed model relied on an unverifiable missing-at-random assumption and the authors acknowledged possible selection bias.",
+        "evidence_quote": "The dropout rate was highest in the alternate-day fasting group (13 of 34 [38%]), relative to the daily calorie restriction group (10 of 35 [29%]) and control group (8 of 31 [26%])... The higher dropout rate in the alternate-day fasting group may have also introduced a possible selection bias between groups."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, body weight, was measured monthly with an objective digital scale under standardized clothing conditions, making differential measurement by intervention knowledge unlikely.",
+        "evidence_quote": "The primary outcome of the study was change in body weight, which was measured monthly via a digital scale while the participant was in a hospital gown."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The primary outcome and time points were clearly specified, the trial was prospectively registered, and a full protocol was available, with no evident mismatch or selective reporting for body weight.",
+        "evidence_quote": "The primary outcome of the study was change in body weight... The full protocol is available in Supplement 1... clinicaltrials.gov Identifier: NCT00960505."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial, differential, and intervention-related attrition creates a high risk of bias from missing outcome data despite intention-to-treat mixed-model analysis. Additional concerns arise from incomplete reporting of allocation concealment and meaningful deviations from the assigned dietary regimens."
+  },
+  {
+    "paper_id": "deep_research:9958567",
+    "paper_title": "Effects of intermittent and continuous calorie restriction on body weight and metabolism over 50 wk: a randomized controlled trial",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1:1 using sex- and age-stratified block randomization with a fixed block size of 6, and the web-based RANDI2 software generated the random allocation sequence.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was generated using stratified block randomization and dedicated web software, and baseline characteristics were broadly balanced, but the report does not explicitly state that allocation was concealed until assignment.",
+        "evidence_quote": "Participants were assigned to 1 of the 3 study arms (ICR, CCR, or Control) in a ratio of 1:1:1 by stratified block randomization (sex and age <50 compared with age \u226550 y) with a fixed block size of 6. The web-based software RANDI2 (12) was used to generate the random allocation sequence."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention personnel were unblinded, adherence waned and physical activity decreased in the ICR group, but contacts were broadly standardized and outcomes were analyzed using an intention-to-treat mixed-model approach.",
+        "evidence_quote": "Because the HELENA Trial was a dietary intervention study, it was not feasible for participants or all study personnel to be blinded to the group assignment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Retention was high through week 12 and week 50, dropout was limited across groups, and prespecified mixed models used all available randomized-participant data under a missing-at-random assumption.",
+        "evidence_quote": "Overall, 144 participants (96.0%) completed the 12-wk intervention phase, 143 (95.3%) the 12-wk maintenance phase, and 136 (90.7%) the 26-wk follow-up phase."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The anthropometric, imaging, and laboratory outcomes were measured consistently across groups using objective methods, and technical laboratory and data-management staff were blinded to assignment, making differential measurement unlikely.",
+        "evidence_quote": "However, the technical staff was blinded for downstream laboratory work and data management."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and its primary endpoint and 82 genes were prespecified with multiplicity correction, but numerous secondary outcomes and pairwise analyses were reported without multiplicity adjustment and two prespecified secondary endpoints were not assessed.",
+        "evidence_quote": "No adjustment for multiple comparisons was made for any of the secondary outcome measures."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by incomplete reporting of allocation concealment, the open-label behavioral intervention with imperfect adherence and possible co-intervention changes, and multiplicity/selective-reporting concerns for secondary outcomes. Missing data and objective outcome measurement were unlikely to introduce important bias."
+  },
+  {
+    "paper_id": "pubmed:37889487",
+    "paper_title": "Effect of Time-Restricted Eating on Weight Loss in Adults With Type 2 Diabetes: A Randomized Clinical Trial.",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 75 participants were randomized 1:1:1 to time-restricted eating, calorie restriction, or control using a stratified random sampling procedure.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although stratified random assignment was reported, the method used to generate the sequence and conceal allocation was not described, and baseline use of weight-affecting diabetes medications differed empirically between groups.",
+        "evidence_quote": "Randomization was performed by a stratified random sampling procedure by sex, age (18-49 and 50-80 years), BMI (30-39 and 40-50), and HbA level (6.50%-8.75% and 8.76%-11.00%)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were unblinded, dietary adherence differed between active groups, and intervention groups received healthy-eating instruction not given to controls, although the prespecified intention-to-treat analysis reduced concern about analysis-related bias.",
+        "evidence_quote": "Participants were not blinded."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was low and fairly balanced (4%-12%), all randomized participants were included in intention-to-treat mixed-model analyses, and multiple-imputation sensitivity analyses did not change conclusions for body weight or HbA1c.",
+        "evidence_quote": "The attrition rate (ie, participants lost to follow-up) was 2 (8%) in the TRE group, 3 (12%) in the CR group, and 1 (4%) in the control group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, body weight, was an objective measure collected repeatedly, and control participants attended the research center at the same frequency for outcome measurement; lack of participant blinding is unlikely to bias the measurement itself.",
+        "evidence_quote": "The primary outcome of the study was percentage change in body weight among the TRE, CR, and control groups by month 6."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial had a registered protocol and statistical analysis plan, identified body weight as the primary outcome, prespecified multiplicity handling, and reported the planned intention-to-treat mixed-model analysis, leaving little indication of selective reporting.",
+        "evidence_quote": "The full trial protocol and statistical analysis plan are provided in [the supplement]."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incomplete reporting of sequence generation and allocation concealment, empirical baseline medication imbalances, and the unblinded behavioral intervention with differing adherence and ancillary nutrition instruction. Missing data, objective outcome measurement, and selective reporting were judged unlikely to materially bias the primary result."
+  },
+  {
+    "paper_id": "pubmed:37364268",
+    "paper_title": "Time-Restricted Eating Without Calorie Counting for Weight Loss in a Racially Diverse Population : A Randomized Controlled Trial.",
+    "design_classification": "randomized",
+    "design_rationale": "This was a prospective parallel-group trial in which 90 adults were explicitly randomly assigned in a 1:1:1 ratio to TRE, calorie restriction, or control using stratified random sampling.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was explicitly randomized and stratified, and baseline characteristics were similar, but the report does not describe the method used to generate the random sequence or whether allocation was concealed until enrollment and assignment.",
+        "evidence_quote": "Randomization was done by a stratified random sampling procedure by sex, age (18 to 42 years and 43 to 65 years), and BMI (30 to 40 kg/m\u00b2 and 40.1 to 50 kg/m\u00b2)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were unblinded and the active groups received dietary counseling and behavioral support not given to controls, which could influence weight independently of the assigned dietary strategy, although adherence was reported and an intention-to-treat analysis was used.",
+        "evidence_quote": "Participants were not blinded."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Thirteen of 90 participants did not complete follow-up, with modestly differing attrition across groups and dropouts differing prognostically from completers, but mixed models under a missing-at-random assumption and multiple-imputation sensitivity analyses supported robustness.",
+        "evidence_quote": "The participants who dropped out of the study were generally younger, heavier, and more insulin resistant when compared with those who completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively measured body weight, measured repeatedly and analyzed consistently across randomized groups, so participant nonblinding is unlikely to materially bias its measurement.",
+        "evidence_quote": "The primary outcome was absolute change in body weight between the TRE, CR, and control groups by month 12."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered, a full protocol was available, the primary outcome and time point were prespecified, and the reported primary analysis followed the stated intention-to-treat mixed-model approach; multiplicity limitations chiefly concerned secondary outcomes.",
+        "evidence_quote": "The trial is registered at [ClinicalTrials.gov]. The full study protocol ... and the CONSORT check-list ... are available."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incomplete reporting of sequence generation and allocation concealment, participant nonblinding with unequal behavioral support across groups, and 14% attrition involving participants with different prognostic characteristics. Objective weight measurement, intention-to-treat mixed modeling, multiple-imputation sensitivity analysis, and prospective registration reduce concern."
+  },
+  {
+    "paper_id": "deep_research:7860271",
+    "paper_title": "Is two days of intermittent energy restriction per week a feasible weight loss approach in obese males? A randomised pilot study",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports a parallel-group randomized controlled trial in which participants were assigned to the SERD or 5:2 diet by a blinded investigator drawing a dietary group from a concealed envelope.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed by envelope drawing and baseline characteristics did not significantly differ, but the method used to generate the allocation sequence and safeguards such as sequential numbering and opaque envelopes were not reported.",
+        "evidence_quote": "Participants were randomised to one of two groups... by a blinded investigator who drew one of two dietary groups from a concealed envelope."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and treating dietitians necessarily knew the assigned behavioral diet, adherence declined to roughly three quarters by six months, and the analysis approach was not explicitly described as intention-to-treat, although support was balanced and no protocol deviations were reported.",
+        "evidence_quote": "There was no deviation to the outlined protocol."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 23 of 24 randomized participants, with the sole withdrawal attributed to a long hospital admission, making material bias from missing outcome data unlikely.",
+        "evidence_quote": "Twenty-four participants commenced the study and 23 participants completed the entire 6-month trial. One participant withdrew due to a long hospital admission."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary anthropometric and biochemical outcomes were objectively measured using standardized instruments and procedures at the same time points by a blinded investigator, limiting differential measurement bias.",
+        "evidence_quote": "Measurements were taken at baseline and at three and six months. A blinded investor took all measurements in the morning after a 12-hour fast."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the stated outcomes were reported, but no prespecified statistical analysis plan or sufficiently detailed registry information is provided to rule out selection among multiple time points, outcome measures, and analyses.",
+        "evidence_quote": "The trial was prospectively registered with the Australian New Zealand Clinical Trials Registry Trial ID#: ACTRN12614000396628."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by incomplete reporting of sequence generation, lack of an explicit intention-to-treat analysis despite imperfect adherence, and insufficient information to exclude selective reporting. Missing outcome data were minimal, and objective outcomes were measured by a blinded investigator using standardized methods."
+  },
+  {
+    "paper_id": "manual:8358e4a2",
+    "paper_title": "1-s2.0-S0002916522003926-main",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized 1:1 at baseline using an online random number generator, with stratification by years since gestational diabetes and BMI.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was generated randomly and stratified, and baseline characteristics were broadly balanced, but concealment of the allocation sequence until enrollment and assignment was not described.",
+        "evidence_quote": "Randomization was undertaken using an online random number generator (www.randomization.com) and was stratified by the number of years since GDM (\u22645 y and >5 y) and BMI (<30 kg/m2 and \u226530 kg/m2)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their assigned behavioral diet, adherence information was incomplete, and the primary intention-to-treat analysis used last observation carried forward rather than a robust method, although both groups otherwise received similar contact and recommendations.",
+        "evidence_quote": "Both completer and intention-to-treat analyses were performed. The intention-to-treat analysis was performed using the last measure carried forward on the primary outcome only."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Nearly half of randomized participants lacked 12-month outcome data, leaving fewer completers than planned and creating a substantial possibility that missingness biased the estimated intervention effect despite similar withdrawal proportions and reported baseline characteristics.",
+        "evidence_quote": "In total, 62 participants completed the trial to 12 mo (49% attrition)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, body weight, was measured identically across groups using calibrated electronic scales to the nearest 0.1 kg, making differential measurement bias unlikely even without reported assessor blinding.",
+        "evidence_quote": "Body weight was measured at each visit in light clothing without shoes using calibrated electronic digital scales (SECA) and was recorded to the nearest 0.1 kg."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the primary outcome and noninferiority margin were specified, but no protocol or prespecified statistical analysis plan is provided here to exclude selective choice among completer versus imputed analyses and multiple analytic approaches.",
+        "evidence_quote": "The research study was approved by The University of South Australia\u2019s Human Research Ethics Committee (protocol number 200,165) and was registered with the Australian New Zealand Clinical Trials Registry (ACTRN12617001476325)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by 49% attrition and an inadequate last-observation-carried-forward approach to missing primary outcome data. Additional concerns arise from unreported allocation concealment, the unblinded behavioral intervention, and limited information excluding selective analysis or reporting."
+  },
+  {
+    "paper_id": "manual:b9412fb7",
+    "paper_title": "1-s2.0-S2451847618300290-main",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that eligible participants were assigned to the two dietary interventions using a computer-generated randomisation table.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used and no statistically significant baseline differences were reported, but allocation concealment and implementation of the sequence were not described, and the sample of 10 was too small to assess balance reliably.",
+        "evidence_quote": "Using a computer-generated randomisation table, eligible participants were randomised to one of two dietary weight loss interventions."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and staff necessarily knew the assigned behavioral diet, insulin modifications differed by group, and adherence and intention-to-treat methods were not clearly reported, although no participants withdrew and the interventions were described as tolerated.",
+        "evidence_quote": "Both diet interventions were well tolerated and no participants withdrew from the study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 10 randomized participants remained in the study, and outcome tables report five participants per arm through 52 weeks, indicating essentially complete outcome data.",
+        "evidence_quote": "Both diet interventions were well tolerated and no participants withdrew from the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Weight and metabolic outcomes were measured with appropriate objective methods across groups, but assessor blinding was not reported and some safety data depended on participant-performed glucose monitoring that could be affected by awareness of diet assignment.",
+        "evidence_quote": "Body weight measurements were taken to the nearest 0.1 kg in the fasted state in light clothing and without shoes using calibrated scales."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No protocol, preregistration, or prespecified analysis plan is reported; numerous outcomes and time points were measured, while the paper emphasizes within-group significance despite reporting no between-group differences, creating substantial scope for selective outcome and analysis reporting.",
+        "evidence_quote": "There were no between group diferences in these outcomes."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by high risk in selection of the reported result because no prespecified protocol or analysis plan was provided amid multiple outcomes, time points, and emphasis on within-group findings. Additional concerns arise from unreported allocation concealment, unavoidable lack of participant blinding with unclear adherence/ITT handling, and unreported assessor blinding."
+  },
+  {
+    "paper_id": "manual:0eeffb55",
+    "paper_title": "jamanetworkopen.2023.3513",
+    "design_classification": "randomized",
+    "design_rationale": "Eligible participants were explicitly assigned 1:1 using a computer-generated randomization sequence with a block size of 6, prepared by an independent researcher.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated by an independent researcher and baseline characteristics were comparable, but concealment of allocation until enrollment and assignment was not explicitly described.",
+        "evidence_quote": "Randomization was conducted in a block size of 6. The computer-generated randomization sequence was prepared by an independent researcher who was not involved in the study."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants necessarily knew their behavioral diet assignment, but both groups received comparable counseling and calorie targets, adherence was similar, and the analysis followed intention-to-treat with no important differential deviations evident.",
+        "evidence_quote": "Data were analyzed according to participants\u2019 randomization assignment (intention-to-treat)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Follow-up was 92% at 6 months but only 84% at 12 months, and although multiple imputation and sensitivity analyses were used, the assumption that the 12-month missingness was at random cannot be fully verified.",
+        "evidence_quote": "Of those participants, 81 (92%) completed the 6-month intervention and 74 (84%) completed the entire 12-month intervention."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively measured with the same MRI method in both groups, and outcome assessors were blinded to assignment, making differential measurement unlikely.",
+        "evidence_quote": "Investigators who assessed the study outcomes and analyzed the data were blinded to the group assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A protocol and statistical analysis plan were available and the primary outcome was specified, but the trial duration was changed from 6 to 12 months and separately registered, leaving some concern about prospective specification of all reported time points and analyses.",
+        "evidence_quote": "The duration of intervention of the original study design was 6 months (registered as NCT03786523); at the beginning of the study, we revised the design and prolonged the intervention to 12 months to compare the long-term effects of TRE vs DCR on NAFLD (registered separately as NCT04988230)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by absent explicit reporting of allocation concealment, 16% loss to follow-up at 12 months despite imputation, and uncertainty related to the revised duration and separate registration. Objective blinded outcome measurement, intention-to-treat analysis, and comparable adherence reduce concern in the other domains."
+  },
+  {
+    "paper_id": "manual:08ee2a04",
+    "paper_title": "nihms-2008518",
+    "design_classification": "randomized",
+    "design_rationale": "This was a cluster randomized controlled pilot trial in which churches were explicitly allocated to IF or CER using a random permutation implemented with the R sample function.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The cluster sequence was generated with a valid random procedure by an author separate from the assigning author, but concealment of the sequence until church assignment was not explicitly described and only five clusters were randomized.",
+        "evidence_quote": "Black churches were randomized to either a 6-month, community-health worker delivered IF intervention, or a 6-month, community-health worker delivered CER intervention using a random permutation procedure implemented using the R sample function."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention personnel necessarily knew the behavioral intervention, delivery mode varied across churches because of COVID-19, and although intention-to-treat was stated, the paper does not clearly specify whether all randomized participants were analyzed in their assigned groups for every outcome.",
+        "evidence_quote": "Some churches delivered the intervention in-person only, some churches had a mixture of in-person and remotely delivered lessons through Zoom, and the others delivered the intervention entirely through Zoom."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Eight of 42 randomized participants lacked six-month follow-up data (81% retention), and multiple imputation was used, but reasons and missingness by intervention arm were not reported sufficiently to rule out outcome-dependent missingness.",
+        "evidence_quote": "A total of 34 participants completed both baseline and 6-month follow-up, for a retention rate of 81%."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary effectiveness outcome, body weight, was objectively measured in all groups with the same instrument, and follow-up data collectors were blinded to intervention assignment, making differential measurement unlikely.",
+        "evidence_quote": "Blinded data collection staff conducted the follow-up assessment at the end of the intervention (6 months)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The study was registered and identified feasibility and weight loss outcomes, but no prespecified protocol or statistical analysis plan is provided to verify the reported analyses amid numerous anthropometric, behavioral, biomarker, adherence, and subgroup analyses.",
+        "evidence_quote": "The study was approved by the (anonymous) Institutional Review Board and is registered in ClinicalTrials.gov (NCT04557540)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The main issues are unclear allocation concealment, unblinded behavioral intervention with heterogeneous delivery modes, 19% loss to follow-up without adequate arm-specific reasons, and incomplete evidence that all reported analyses were prespecified; objective blinded weight measurement mitigates outcome-measurement bias."
+  },
+  {
+    "paper_id": "manual:905cec08",
+    "paper_title": "PIIS0168822724008039",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated 1:1 after baseline to TRE or DIET using REDCap with block randomisation stratified by sex and baseline HbA1c.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A stratified block-randomized REDCap allocation was used, but concealment from the allocating dietitian was not explicitly described and notable baseline imbalances in age, BMI/body mass, and ethnicity raise some concern about the randomization process.",
+        "evidence_quote": "After the baseline metabolic visit, participants were randomly allocated to time-restricted eating (TRE) or individualised dietetic practice (DIET), by the study dietitian using REDCap, in a 1:1 ratio using block randomisation, stratified by sex (male/female) and baseline HbA1c."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the treating dietitian could not be blinded in this behavioral trial, adherence declined and differed by group, and although the primary analysis was labeled ITT it used last observation carried forward rather than a more robust missing-data approach.",
+        "evidence_quote": "Due to the nature of the study, the dietitian and participants were not blinded to condition, but all other study staff were."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Eight of 51 randomized participants did not complete the six-month intervention, and the primary ITT analysis replaced missing six-month HbA1c using last observation carried forward without evidence that missingness could not bias the result.",
+        "evidence_quote": "Forty-three participants ... completed the intervention."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome HbA1c was measured objectively with the same specified instrument and schedule in both groups, and study staff other than the dietitian were blinded to allocation, making differential measurement unlikely.",
+        "evidence_quote": "HbA1c was measured using venous whole blood samples (EDTA) with a Cobas b 101 instrument (Roche Diagnostics Ltd., Basel, Switzerland)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary endpoint, non-inferiority margin, covariates, and ITT/PP analyses were described as prespecified, and the authors state that all secondary outcomes were reported in the article or supplement.",
+        "evidence_quote": "Ethical approval ... and prospective registration (Australia New Zealand Clinical Trial Registry, ACTRN12620000453987) were obtained."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incomplete reporting of allocation concealment alongside notable baseline imbalances, lack of participant blinding with differential adherence, and attrition handled using last observation carried forward. Objective HbA1c measurement and prospective registration reduce concerns in the outcome-measurement and selective-reporting domains."
+  },
+  {
+    "paper_id": "manual:bc5926d1",
+    "paper_title": "PIIS266675682400028X",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly used 1:1 random assignment with varying block sizes, and the allocation list was generated by an external statistician.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was externally generated using varying, researcher-unknown block sizes, and allocation was withheld until all baseline assessments were completed, with no compelling baseline imbalance suggesting a randomization failure.",
+        "evidence_quote": "Randomisation was done in blocks varying in size, which were unknown to the researchers. The randomisation list was generated by an external statistician who was otherwise not involved in the trial."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Although participants and staff were necessarily unmasked in this behavioral intervention, adherence was high, both groups received otherwise similar dietary guidance, and the primary effect was estimated using an intention-to-treat mixed model.",
+        "evidence_quote": "To estimate the intention-to-treat efect of treatment assignment, we used a linear mixed model with fixed efects for treatment assignment, visit, and their interaction and a repeated efect at the participant level."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Primary outcome retention was high and balanced between groups at intervention completion (92% in each), with only modest and nearly balanced additional loss by follow-up, making material bias from missing data unlikely.",
+        "evidence_quote": "Of those 100, 46 (92%) in the TRE group and 46 (92%) in the control group completed the intervention period. Three participants were lost during follow-up and testing (two in the TRE group and one in the control group)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, bodyweight, was objectively measured at the trial site using the same standardized digital-scale procedure in both groups, so knowledge of assignment was unlikely to materially influence measurement.",
+        "evidence_quote": "At the trial site during visits 1\u20134, height was measured with a stadiometer (Seca Vogel & Halke, Hamburg, Germany) and bodyweight was measured with a digital scale (Tanita BWB-620A, Amsterdam, Netherlands) when participants were wearing only light clothes."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered and had a published protocol and prespecified statistical analysis plan, while departures were transparently identified and described as occurring before examination of treatment effects.",
+        "evidence_quote": "The statistical analysis plan is available (appendix p 23)."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias is low for the primary bodyweight outcome. Randomization and delayed allocation disclosure were robust, missingness was low and balanced, bodyweight was measured objectively and consistently, the primary analysis followed intention-to-treat principles, and prospective registration plus a statistical analysis plan limited selective reporting concerns."
+  },
+  {
+    "paper_id": "manual:c4bd2b1b",
+    "paper_title": "PIIS2589004221016679",
+    "design_classification": "randomized",
+    "design_rationale": "The human trial explicitly states that 28 participants were randomly assigned 1:1 to daily caloric restriction or intermittent fasting using a blocked sequence stratified by sex.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A blocked, sex-stratified 1:1 randomization sequence was reported and baseline characteristics were generally similar, but the method used to generate the sequence and allocation concealment were not described, while some baseline imbalances were present in blood pressure, eGFR, and ACEi/ARB use.",
+        "evidence_quote": "Randomization was 1:1 (DCR:IMF) with a blocked randomization sequence with stratification by sex."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants necessarily knew their dietary assignment, intervention-related tolerability caused one IMF withdrawal and a protocol-permitted caloric modification, and although the study is called intent-to-treat, use of last available post-month-6 weight rather than a clearly specified full ITT approach leaves some potential for bias.",
+        "evidence_quote": "Due to the nature of the intervention, study participants were not blinded."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "In this very small trial, several randomized participants discontinued and the exploratory MRI analysis included only 20 of 28 randomized participants, with missingness partly related to tolerability and return for follow-up, so the result could plausibly be biased by missing outcomes.",
+        "evidence_quote": "One participant in the DCR group and one participant in the IMF group were not included in the MRI analysis due to contraindication (DCR) and not returning in person at 12 months due to COVID-19 (IMF), respectively."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The principal outcomes were measured using appropriate objective methods, including calibrated scales and MRI, consistently across groups, and investigators acquiring and analyzing data were blinded to treatment status.",
+        "evidence_quote": "Members of the investigative team involved in the acquisition and analysis of data were blinded to the treatment status."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The authors refer to an a priori analysis plan and provide a protocol, but the trial had many outcomes and analyses, no clearly identified prespecified statistical analysis plan is presented in the supplied text, and exploratory testing was not adjusted for multiplicity, allowing selective emphasis of favorable results.",
+        "evidence_quote": "Statistical testing was not adjusted for multiple comparisons given the exploratory nature of many outcomes in the human study; thus, significant p values may be spurious."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial missing outcome data in a very small randomized pilot trial, particularly for the MRI endpoint, could materially bias results. Additional concerns arise from incompletely reported allocation concealment, open-label behavioral interventions with differential tolerability, and analytic/reporting flexibility across numerous exploratory outcomes."
+  },
+  {
+    "paper_id": "manual:ad156bf4",
+    "paper_title": "s41591-023-02287-7",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized 2:2:1 using a computer-generated, block-stratified allocation list prepared by a statistician with no clinical involvement.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The sequence was computer-generated and prepared independently with stratified blocks, and baseline characteristics were broadly balanced, but concealment of allocation until enrollment/assignment was not explicitly described.",
+        "evidence_quote": "Randomization was block-stratified by sex (male; female) and AUSDRISK (score \u226512 to 19; score \u226520), according to a computer-generated randomization list prepared by a statistician with no clinical involvement in the trial."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The dietary trial was open-label, support differed substantially between active and standard-care groups, and the primary analysis excluded some randomized participants rather than clearly using intention-to-treat, although no specific intervention-related deviations likely to explain the iTRE-versus-CR result were established.",
+        "evidence_quote": "This open-label, three-arm, parallel group sequential randomized controlled trial... Only the iTRE and CR groups were provided one-on-one diet counseling during first 6 months."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary six-month outcome was unavailable for a substantial and somewhat differential fraction of randomized participants (67/85 iTRE and 62/83 CR), with withdrawals often due to unwillingness to continue or loss to contact and no reported analysis demonstrating robustness to outcome-dependent missingness.",
+        "evidence_quote": "At month 6, 46 participants had withdrawn: 29 did not wish to continue, 12 were lost to contact, 4 withdrew owing to health conditions unrelated to the study and 1 was withdrawn by the investigators owing to very low blood pressure at baseline."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was an objective laboratory glucose AUC measured with a standardized mixed-meal protocol and the same assay schedule across groups, making influence from the open-label assignment unlikely.",
+        "evidence_quote": "Blood glucose was assayed by the hexokinase method (Cobas Integra 400 plus, Roche)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A registered protocol and statistical analysis plan were available and the reported primary outcome was prespecified, but the group-sequential design changed after an interim analysis from dual primary outcomes to one primary outcome, leaving some concern about selection despite independent committee agreement.",
+        "evidence_quote": "The original study design was a group sequential design... with dual primary outcomes (HbA1c and postprandial glucose AUC). The design was changed after the first interim analysis to a single additional (final) analysis of postprandial glucose AUC owing to slow accrual and the coronavirus pandemic."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because substantial missing primary-outcome data were analyzed without a convincing sensitivity analysis addressing potentially outcome-related attrition. Additional concerns arise from unreported allocation concealment, open-label/non-ITT features, and modification of the primary-outcome plan after an interim analysis."
+  },
+  {
+    "paper_id": "manual:55431558",
+    "paper_title": "sfaf069",
+    "design_classification": "randomized",
+    "design_rationale": "This was a parallel-group randomized controlled trial; participants were randomly assigned to TRE or healthy-eating control using 1:1 blocked randomization stratified by sex.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Blocked 1:1 randomization stratified by sex was reported and baseline characteristics were broadly balanced, but the method used to generate the sequence and allocation concealment were not described.",
+        "evidence_quote": "Blocked randomization was 1:1 with stratification by sex."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants were unblinded, adherence to the assigned TRE window was poor, intervention separation was limited, and analyses were primarily restricted to completers rather than an intention-to-treat population, creating substantial risk from deviations and inappropriate analysis.",
+        "evidence_quote": "Of the 29 randomized individuals, 23 completed the study, including 71% (n 10) of those in the TRE group and 87% (n 13) in the HE group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were incomplete and differentially missing between groups, with only 23 of 29 completing the study and the primary adherence measure available for just 13 participants, without analyses demonstrating robustness to missingness.",
+        "evidence_quote": "The eating window was assessed via photographic records in 13 participants, including 5 in the TRE group and 8 in the HE group."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary adherence outcome relied on participant-generated photographic food records and was burdensome and incomplete, although objective clinical measures were standardized and MRI TKV was assessed by a blinded investigator.",
+        "evidence_quote": "A 7-day photographic food record at baseline and month 12 was used to evaluate meal timing and determine eating window."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and the primary endpoint was specified, but numerous secondary and exploratory outcomes and analyses were reported without enough protocol or analysis-plan information in the article to exclude selective reporting.",
+        "evidence_quote": "The trial was registered at Clinicaltrials.gov: NCT04534985."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial missing outcome data, differential attrition, very limited availability of the primary adherence outcome, poor intervention adherence/separation, and completer-based rather than clearly intention-to-treat analyses. Additional concerns arise from insufficient reporting of allocation concealment and possible selective reporting among many exploratory analyses."
+  },
+  {
+    "paper_id": "deep_research:9182485",
+    "paper_title": "Effects of time-restricted feeding on body weight, body composition and vital signs in low-income women with obesity: A 12-month randomized clinical trial",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated using a random sequence generated in R software, with the sequence held by a researcher who had no initial participant contact.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated and concealed by an independent researcher until assignment, and the reported baseline characteristics do not indicate major imbalances suggestive of a randomization problem.",
+        "evidence_quote": "The participants were randomly allocated... according to a random sequence of numbers generated in the software R v 3.6.1... To guarantee the confidentiality of the allocation, the random sequence generated by the software was kept by a researcher who did not maintain initial contact with the participants."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention personnel could not be blinded, adherence to the prescribed diet and feeding window was not objectively established, and the primary analysis used LOCF rather than a likelihood-based or multiple-imputation approach, although participants were analyzed in their assigned groups.",
+        "evidence_quote": "Due to the nature of the intervention, it cannot be double-blind or placebo-controlled... it was not possible to determine whether women effectively followed the proposed diet plan."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "More than half of randomized participants lacked 12-month observations, and LOCF cannot rule out bias when dropout may be related to expectations or early weight-loss response, despite similar attrition rates between groups and a per-protocol sensitivity analysis.",
+        "evidence_quote": "Fifty-eight women were randomized and 31 (53.44%) were lost to follow-up at 12 months... Intention-to-treat analysis were performed using the method of the last observation carried forward."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Weight, waist circumference, bioimpedance, and vital signs were measured using standardized methods across groups, but assessor blinding was not reported and knowledge of allocation could influence operator-dependent measurements such as waist circumference and bioimpedance procedures.",
+        "evidence_quote": "Weight was measured using a digital scale... WC was measured with an inelastic tape... Body fat was estimated from the tetrapolar electrical bioimpedance Sanny BI 1010."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and identified body weight as primary, but the available text does not establish a prespecified statistical analysis plan, while multiple time points, outcome metrics, and analyses were conducted and significant secondary findings were emphasized.",
+        "evidence_quote": "The protocol of this study was previously published in the Brazilian Registry of Clinical Trials... Hence, the primary objective of this study was to evaluate the long-term effects of the TRF regimen on body weight... Body composition and vital signs were also measured as secondary outcomes."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because 53.44% of participants were lost by 12 months and the LOCF analysis does not adequately demonstrate that results were robust to potentially informative missingness. Additional concerns arise from unverified adherence, lack of reported assessor blinding, and analytic flexibility for secondary outcomes."
+  },
+  {
+    "paper_id": "deep_research:176514",
+    "paper_title": "A randomized pilot study comparing zero-calorie alternate-day fasting to daily caloric restriction in adults with obesity",
+    "design_classification": "randomized",
+    "design_rationale": "Participants who tolerated the test fast were explicitly randomized to alternate-day fasting or caloric restriction, with stratification by sex.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was randomized and stratified by sex, but the sequence-generation and concealment methods were not reported, and important baseline imbalances in weight, fat mass, insulin, and RMR arose in this small trial.",
+        "evidence_quote": "All participants tolerated the fast and were then randomized to either ADF or CR, stratified by sex."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants necessarily knew their dietary assignment, follow-up diets were uncontrolled and could differ by randomized arm, and the efficacy analysis excluded post-randomization withdrawals and one intentionally noncompliant ADF participant rather than following intention-to-treat.",
+        "evidence_quote": "Randomized participants with at least one post-baseline efficacy observation were included in the analyses with the exception of one ADF participant who was intentionally non-compliant with the protocol."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Three of 29 randomized participants withdrew before intervention, 21 completed week 32, no imputation was used, and evidence that missingness could not bias results was not provided, although short-term retention among starters was high.",
+        "evidence_quote": "Twenty\u2013nine participants were randomized, however three withdrew post-randomization but prior to beginning the intervention. Twenty-six participants completed the 8-week intervention, and twenty-one completed the 24-week unsupervised follow-up."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Weight, body composition, and metabolic outcomes were measured identically across groups using calibrated or standardized objective methods, making bias from assessor knowledge unlikely.",
+        "evidence_quote": "Body weight was measured using a calibrated digital scale to the nearest 0.1 kg."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, while numerous outcomes, time points, absolute and relative measures, adjusted analyses, and sensitivity analyses created scope for selective reporting.",
+        "evidence_quote": "Sensitivity analyses were used in various ways to examine the strength of the conclusions."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven chiefly by deviations from intended intervention and a non-ITT efficacy analysis that excluded post-randomization withdrawals and one noncompliant participant. Unreported allocation concealment, baseline imbalances, missing follow-up data, and lack of reported preregistration add further concerns."
+  },
+  {
+    "paper_id": "deep_research:2817176",
+    "paper_title": "Effect of intermittent versus continuous energy restriction on weight loss, maintenance and cardiometabolic risk: A randomized 1-year trial",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated 1:1 using a computer-generated random-number list with stratified block randomization.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, stratified by sex and BMI, and concealed in consecutively opened numbered sealed envelopes; baseline characteristics were generally balanced, with only triglycerides differing.",
+        "evidence_quote": "A statistician prepared a computergenerated random number list. The project leader (TS) opened numbered and sealed envelopes consecutively with no exception."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and researchers were unblinded in this behavioral dietary trial, and optional maintenance-phase contacts could introduce differential co-intervention, although counseling was otherwise similar and an intention-to-treat analysis was used.",
+        "evidence_quote": "Researchers and participants were not blinded to the intervention group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only seven of 112 participants dropped out, with similar losses between groups, and per-protocol analyses reportedly did not differ substantially from the intention-to-treat analysis.",
+        "evidence_quote": "four dropouts occurred in the intermittent versus three in the continuous energy restriction group"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome, body weight, was measured objectively after a standardized fast using the same calibrated digital scale, making influence from unblinded measurement unlikely despite assessors not being blinded.",
+        "evidence_quote": "Body weight was measured following a 10-h fast using the same calibrated digital scale to the nearest 0.1 kg."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the primary endpoint was identified, but no prespecified analysis plan is provided here, and several analytic approaches and time points leave some scope for selective reporting.",
+        "evidence_quote": "The study was registered at www.clinicaltrials.gov NCT02480504."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by the open-label behavioral intervention and limited information establishing that reported analyses were fully prespecified. Randomization and allocation concealment were adequate, attrition was low, and the primary outcome was objectively measured."
+  },
+  {
+    "paper_id": "scopus:2-s2.0-85207215182",
+    "paper_title": "Optimizing muscle preservation during weight loss in patients with cirrhosis: A pilot study comparing continuous energy restriction to alternate-day modified fasting for weight loss in patients with obesity and non-alcoholic cirrhosis of the liver",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly describe a 24-week parallel-arm randomized controlled trial in which eligible participants were randomized to ADMF or LCD, although the sequence-generation method is not reported.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is stated, but the sequence-generation and allocation-concealment methods are not reported, and the very small groups show potentially important baseline imbalances in BMI and diabetes prevalence.",
+        "evidence_quote": "Eligible participants were randomized to follow ADMF or a control diet using continuous energy restriction with a LCD."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and intervention personnel necessarily knew the assigned behavioral diet, adherence and attendance differed between groups, and only 13 of 20 randomized participants were analyzed rather than using an intention-to-treat analysis.",
+        "evidence_quote": "Therefore, 13 individuals completed the intervention, provided final data, and were included in the analysis (LCD: 6; ADMF: 7)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Final outcome data were available for only 13 of 20 randomized participants (65%), with exclusions in both groups and no analysis demonstrating that missingness could not bias the results.",
+        "evidence_quote": "Three participants from each group withdrew from the intervention and one additional participant from ADMF was unable to schedule the final testing visit."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Weight and body composition were measured using appropriate standardized methods across groups, but assessor blinding is not reported and some functional outcomes could be influenced by knowledge of assignment.",
+        "evidence_quote": "Dual energy X-ray absorptiometry (DXA) at the KUMC Division of Physical Activity and Weight Management (Prodigy Advance Plus, GE) was used to assess body composition."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered, but the paper does not report a prespecified analysis plan or establish that the many body-composition, functional, laboratory, and satisfaction outcomes and analyses were selected without flexibility.",
+        "evidence_quote": "Trial Registration: ClinicalTrials.gov Identifier: NCT05367596."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven chiefly by substantial missing outcome data and a completer-only analysis of 13 of 20 randomized participants rather than intention-to-treat. Additional concerns arise from unreported sequence generation/allocation concealment, lack of reported assessor blinding, and limited evidence against selective reporting."
+  },
+  {
+    "paper_id": "deep_research:2762662",
+    "paper_title": "Early time-restricted eating compared with daily caloric restriction: A randomized trial in adults with obesity",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that participants were randomized 1:1 to E-TRE plus daily caloric restriction or daily caloric restriction alone.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Participants were explicitly randomized 1:1 and baseline characteristics were broadly balanced, but the report does not describe sequence generation or allocation concealment.",
+        "evidence_quote": "Following written informed consent, each participant underwent screening procedures, baseline measures, and were then randomized 1:1 to E-TRE+DCR or DCR (see Supplementary Materials for details)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants necessarily knew their behavioral assignment, and the E-TRE intervention instructions were modified after the first cohort so that only this group prioritized its eating window over the common calorie goal, while the control group also shortened its eating window; these deviations could affect the estimated intervention effect despite use of ITT models.",
+        "evidence_quote": "Because participants randomized to E-TRE+DCR in the first cohort of the study reported difficulty focusing on both TRE and DCR within the initial weeks of the intervention, the instructions were modified such that participants in E-TRE+DCR were asked to prioritize eating within their 10-hour windows over meeting calorie goals."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Week-12 retention was 86% and balanced by group, but outcome availability was incomplete and COVID-19 caused substantial missing measurements; mixed-model ITT analysis was reported without clear evidence that results were robust to outcome-dependent missingness.",
+        "evidence_quote": "Overall retention was 86% at week 12 and 78% at week 39 and did not differ between groups."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Body weight was an appropriate objective outcome, but the prespecified week-12 DXA weight was replaced by a mixture of class-scale and participant-observed home-scale measurements after COVID-19, so measurement methods differed by cohort and blinding of assessors was not reported.",
+        "evidence_quote": "Because dual x-ray absorptiometry (DXA) measured weights at week 12 (prespecified primary outcome) were missing in cohort 3, the primary outcome was changed to week 12 scale weights obtained in group classes (cohorts 1 and 2) or at home (cohort 3)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The prespecified primary outcome was changed after data collection was underway from week-12 DXA weight to clinic/home scale weight, creating a substantial risk that the reported primary result was selected from multiple eligible measurements, notwithstanding the stated COVID-19 rationale and trial registration.",
+        "evidence_quote": "Because dual x-ray absorptiometry (DXA) measured weights at week 12 (prespecified primary outcome) were missing in cohort 3, the primary outcome was changed to week 12 scale weights obtained in group classes (cohorts 1 and 2) or at home (cohort 3)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by important deviations from the intended interventions and a post-enrollment change from the prespecified DXA primary outcome to heterogeneous clinic/home scale measurements. Additional concerns arise from unreported sequence concealment, incomplete outcome data, and differing measurement procedures after COVID-19 disruption."
+  }
+]

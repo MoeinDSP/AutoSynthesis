@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:dd428b7b",
+    "paper_title": "2a79759b_01.jsm.0000171258.16941.13",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports that a research assistant used a random number generator with a block design to allocate subjects among four treatment groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was generated randomly and measured baseline characteristics were similar, but the report does not describe concealment of the block-randomized sequence before assignment.",
+        "evidence_quote": "Following baseline evaluation of the outcome measurements, a second research assistant used a random number generator with block design to assign subjects to 1 of 4 treatment groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants necessarily knew whether they exercised or wore a brace/sleeve, and the explicitly non\u2013intention-to-treat analysis excluded withdrawals and two participants who crossed over, creating a substantial risk that deviations affected the estimated effect.",
+        "evidence_quote": "Subjects who withdrew from the study were not followed (non\u2013intention-to-treat analysis)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were excluded for 23 of 152 eligible/enrolled subjects, including withdrawals for lack of interest and treatment crossover, and no follow-up or analysis was performed to show that missingness could not bias the results.",
+        "evidence_quote": "Twentyone subjects withdrew from the study because of a job transfer or lack of interest. Two subjects were crossed over to another treatment group before 3 months and considered to be withdrawals from the study. Therefore, a total of 129 subjects...were included in the final analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were measured consistently and investigators were reportedly blinded, but pain and function were participant-reported, participants could not be blinded to these visibly different behavioral/device treatments, and the function scale was modified without reported validation of the modified version.",
+        "evidence_quote": "The investigators were blinded to the treatment group of each subject."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, and several outcomes, time points, and possible analyses were available, leaving potential for selective reporting despite presentation of the stated main outcomes.",
+        "evidence_quote": "The outcome measurements were performed at baseline and at 3, 6, and 12 weeks."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the non\u2013intention-to-treat exclusion of withdrawals and crossovers and appreciable missing outcome data without evidence that missingness was unrelated to outcomes. Additional concerns arise from unreported allocation concealment, participant-reported outcomes in an unblinded intervention context, and absence of a prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:338f4b59",
+    "paper_title": "ceeafa76_bmj.b4074.full",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated after inclusion using a computer-generated sequence prepared by an independent researcher, with stratification and blocks of eight.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The computer-generated stratified block sequence and balanced baseline characteristics support random allocation, but the report does not explicitly state that the sequence was concealed from enrolling personnel until assignment.",
+        "evidence_quote": "The randomisation was done by an independent researcher who used a computer generated list in which patients were stratified by age (14-17 years or 18 years and older) and by recruiting physician (GP or sport physician). A block size of eight was used within the four strata."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open label and 14 participants deviated from assigned treatment, but deviations diluted rather than exaggerated the contrast and the primary analysis used intention-to-treat methods.",
+        "evidence_quote": "The differences between the intervention group and the control group were further diminished by violation of the protocol by 14 people: 6 people in the intervention group did not visit the physical therapist and subsequently did not receive the supervised exercise therapy, and eight people in the control group visited a therapist and received physical therapy although they were instructed not to."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome availability was high and similar between groups at both primary time points, with repeated-measures analyses also incorporating available observations from other follow-ups.",
+        "evidence_quote": "Outcomes at 3 and 12 months were missing for some patients, but available data from other time points were included in the analyses."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All primary outcomes were subjective patient-reported measures, and participants necessarily knew whether they received supervised therapy, so knowledge of assignment could plausibly influence reported pain, function, and recovery.",
+        "evidence_quote": "A methodological problem that cannot be solved in randomised controlled trials of exercise therapy is that patients in the intervention group cannot be blinded for the exercise therapy and, therefore, may be biased for positive outcome (placebo effect)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A protocol and trial registration existed and the prespecified primary outcomes were reported, but the article describes alternative dichotomization of recovery and covariate-selected adjusted models, leaving some scope for selective analysis without enough information here to verify a prespecified statistical analysis plan.",
+        "evidence_quote": "When we used the outcome measurement \u201cimproved\u201d (that is, \u201cfully recovered,\u201d \u201cstrongly recovered,\u201d or \u201cslightly recovered\u201d), however, we found that recovery at 3 months was significantly more likely in the exercise group than in the control group."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the open-label comparison used entirely subjective self-reported primary outcomes that could be influenced by participants' knowledge of treatment assignment. Additional concerns arise from incompletely described allocation concealment, treatment crossover/nonadherence, and some analysis flexibility, although attrition was limited and intention-to-treat analysis was used."
+  },
+  {
+    "paper_id": "manual:82c2d1b6",
+    "paper_title": "6b807eed_fukuda-et-al-2010-short-term-effects-of-hip-abductors-and-lateral-rotators-strengthening-in-females-with-patellofemoral",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly assigned to three groups by random drawing of opaque, sealed envelopes after baseline evaluation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation used opaque, sealed envelopes drawn by an independent person after baseline assessment, but the method used to generate and safeguard the envelope sequence was not described, so fully random and concealed allocation cannot be confirmed.",
+        "evidence_quote": "The assignment of patients in the 3 groups was performed randomly using opaque and sealed envelopes containing the names of the groups: CO, KE, and KHE. The envelopes were picked by an individual not involved in this study."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and treating therapists could not be blinded to exercise or no-treatment assignment, adherence and unintended deviations were not fully reported, and the stated intention-to-treat analysis used potentially biased group-mean imputation, although its results reportedly agreed with the per-protocol analysis.",
+        "evidence_quote": "We performed an intention-to-treat analysis, and the results were consistent with the per-protocol analysis as presented above. This parallel method was based on the imputation of the group mean to each missing value for each of the 3 groups (CO, KE, and KHE)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Postintervention data were available for 64 of 70 randomized participants (91%), with only six missing participants distributed as two per group, and sensitivity analysis including imputed values reportedly yielded consistent results.",
+        "evidence_quote": "Two patients in the KE group and 2 patients in the KHE group did not complete the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated outcomes were measured consistently and the examiner was blinded, but key pain and function outcomes were participant-reported and participants necessarily knew whether and which exercise treatment they received, allowing knowledge of assignment to influence responses.",
+        "evidence_quote": "This examiner was blind to the group assignment of the patients and did not participate in the intervention."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, and several outcomes, stair conditions, and planned pairwise comparisons provided scope for selective choice of reported results despite generally comprehensive tabular reporting.",
+        "evidence_quote": "The data for the 2 functional scales (AKPS and LEFS), the singlelimb single hop test, and the NPRS were analyzed using separate 3-by-2 (group by time) mixed-model 2-way ANOVAs."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by incomplete reporting of sequence generation, lack of participant blinding with self-reported outcomes, limited information on deviations and adherence, group-mean imputation, and absence of a reported preregistered analysis plan. Missing outcome data were limited and balanced, and outcome assessment otherwise used validated measures with a blinded examiner."
+  },
+  {
+    "paper_id": "manual:4bff3bc7",
+    "paper_title": "10df1fa2_herrington-al-sherhi-2007-a-controlled-trial-of-weight-bearing-versus-non-weight-bearing-exercises-for-patellofemoral",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that patients were randomly assigned to one of three groups by opening a sealed and numbered envelope.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation and sealed numbered envelopes were reported, and groups were similar at baseline, but the sequence-generation method and whether envelopes were opaque and sequentially opened were not described.",
+        "evidence_quote": "Patients were then randomly assigned by opening a sealed and numbered envelope to 1 of 3 groups"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants necessarily experienced their assigned exercise or no-exercise condition, but interventions were standardized and supervised, all participants completed the assigned program, and no consequential deviations or crossovers were reported.",
+        "evidence_quote": "The physical therapist was present during the exercise regimen to monitor that pain-free training occurred."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete because all 45 randomized participants completed the study.",
+        "evidence_quote": "All 45 participants completed the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated or reliability-tested outcomes were measured using standardized procedures in all groups by an independent assessor blinded to intervention assignment.",
+        "evidence_quote": "Testing was conducted by an independent assessor (an experienced physical therapist) blinded to intervention group."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The reported outcomes and analyses are plausible and consistently presented, but no preregistration or prespecified statistical analysis plan is reported, leaving possible selection among measurements or analyses.",
+        "evidence_quote": "A factorial analysis of variance (ANOVA) (group, 3 levels; time, 2 levels) was used to compare the baseline results with the 6-week assessments across the 3 groups for each of the outcome measures."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The main issues are incomplete reporting of sequence generation and allocation concealment safeguards and the absence of preregistration or an accessible prespecified analysis plan; missing data and outcome measurement present low risk."
+  },
+  {
+    "paper_id": "manual:02c4fea2",
+    "paper_title": "03d80284_ptj0409",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly assigned to three groups using stratified block allocation and numbered opaque envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment used stratified blocks and opaque envelopes, with no important baseline imbalances, but the method used to generate the random sequence and whether envelopes were sequentially numbered/sealed are not reported clearly enough to establish adequate sequence generation and concealment.",
+        "evidence_quote": "Participants were randomly assigned to the LP group, LPHA group, or control group in blocks of 9 (chosen through numbered opaque envelopes)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the intervention therapist could not plausibly be blinded to exercise versus no exercise, but adherence was high, co-interventions were standardized within exercise groups, participants were instructed to avoid outside exercise, and an intention-to-treat analysis was reported; the handling of missing postintervention values is not described.",
+        "evidence_quote": "Data were subjected to an intention-to-treat analysis and included all dropouts."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Ten of 89 randomized participants (11.2%) did not complete follow-up, with modest imbalance across groups, and although all dropouts were reportedly included in intention-to-treat analyses, the paper does not explain how their missing outcomes were imputed or otherwise handled.",
+        "evidence_quote": "Ten participants later dropped out of the study due to personal factors (not knee pain) or work commitment. Seventy-nine participants completed the trial (27 in each exercise group and 25 in the control group, Fig. 1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Pain, function, and VMO morphology were measured with established or reliability-tested methods in the same manner across groups, and the outcome assessor was blinded to group allocation.",
+        "evidence_quote": "Two assessment sessions were performed by another physical therapist (blinded to each patient\u2019s grouping) before and after the 8-week intervention."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The specified outcomes and principal analyses are reported, but no prospective registration or publicly available statistical analysis plan is identified, and the paper includes a post hoc subanalysis, leaving some possibility of selective choice among analyses.",
+        "evidence_quote": "Because the Lysholm scale is not a PFPS-specific scale, we made a further subanalysis of the stair-climbing and squatting items."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. The main issues are incomplete reporting of sequence generation/allocation concealment, unclear handling of missing outcome values despite a stated intention-to-treat analysis, lack of participant blinding in a behavioral intervention, and no identified prospective protocol or analysis plan; blinded outcome assessment and validated measures reduce measurement concerns."
+  },
+  {
+    "paper_id": "manual:d44111c3",
+    "paper_title": "8e1cf38b_v059p00700",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly allocated to four treatment groups using an individualized computer-generated randomization program.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The allocation sequence was computer-generated and measured baseline characteristics were broadly balanced, but concealment until assignment was not described and allocation was performed by the treating physiotherapist.",
+        "evidence_quote": "The patients were then randomly allocated by the physiotherapist to one of four groups using an individualised computer generated randomisation programme."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and therapists could not be blinded in this behavioral/physical intervention, although therapist contact was controlled and withdrawals were reportedly analyzed by intention to treat; adherence and intervention-related deviations were not fully reported.",
+        "evidence_quote": "The patients themselves were not completely blinded because they were aware that of the four types of treatment one group would receive advice only."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Although 10 withdrawals were said to be included in the intention-to-treat analysis, the handling or imputation method is unclear, and only 49 of 81 participants provided 12-month questionnaires, creating substantial potential for attrition bias in long-term outcomes.",
+        "evidence_quote": "10 patients withdrew during the study and these were included in the analysis on an intention to treat basis. 49 patients returned the questionnaires at 12 months."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Independent assessors were blinded and validated or standardized secondary measures were used consistently at three months, but the primary satisfaction/discharge outcome was subjective and could be influenced by participants' knowledge of treatment, while the one-year administration mode differed.",
+        "evidence_quote": "A blinded independent observer undertook assessment on the sixth visit. The primary outcome measure was an assessment of patient satisfaction (satisfied = discharge, not satisfied = continue physiotherapy, or refer to consultant)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prespecified protocol or registration is reported, and numerous outcomes, time points, group contrasts, change scores, and statistical tests leave scope for selective reporting or analysis.",
+        "evidence_quote": "We found no evidence of an interaction between exercise and taping and so our analysis focused on comparing all four groups and comparing taped with non-taped patients and exercising with non-exercising patients."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven principally by substantial missing 12-month outcome data (49/81 questionnaire responses) without a clear method demonstrating that missingness could not bias results. Additional concerns arise from unclear allocation concealment, unavoidable participant awareness, subjective outcomes, and no reported prespecified analysis plan."
+  }
+]

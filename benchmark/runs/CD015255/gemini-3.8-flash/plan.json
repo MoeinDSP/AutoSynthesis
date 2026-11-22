@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of intranasal steroids compared with no steroid treatment on persistence of otitis media with effusion in children at up to 1 month?",
+  "treatment_label": "Intranasal steroids (with or without co-treatment)",
+  "control_label": "No steroid treatment (no treatment or identical co-treatment alone)",
+  "outcome_description": "Persistence of middle ear effusion at the first assessment up to 1 month after treatment initiation (dichotomous outcome)",
+  "positive_direction": "Favors intranasal steroids (lower rate of persistent otitis media with effusion)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "intranasal steroids otitis media effusion children trial",
+    "topical steroid spray persistent middle ear effusion controlled study",
+    "intranasal corticosteroid glue ear comparison quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Children diagnosed with otitis media with effusion (OME or glue ear)",
+    "Comparison of intranasal corticosteroids (with or without co-treatment) against no steroid treatment (no treatment or identical co-treatment alone)",
+    "Quantitative reporting of persistent middle ear effusion or resolution at follow-up up to 1 month"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, commentaries, editorials, and case reports are excluded)",
+    "No comparison between intranasal steroids and a no-steroid control (studies evaluating oral steroids or using a placebo control are excluded)",
+    "No quantitative outcome data on middle ear effusion persistence or resolution up to 1 month that can produce an effect size",
+    "Completely unrelated to otitis media with effusion in children"
+  ],
+  "moderators_to_extract": [
+    "Specific intranasal corticosteroid agent and daily dose",
+    "Follow-up duration within the 1-month window (e.g., 2 weeks vs 4 weeks)",
+    "Unit of assessment (children vs ears)",
+    "Type of concurrent co-treatment administered to both groups (e.g., antibiotics, antihistamines, none)",
+    "Mean or median participant age"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Dichotomous outcome measured as persistence of effusion at up to 1 month; positive effect sizes indicate reduction in persistent effusion favoring intranasal steroids.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "persistence of otitis media with effusion"
+}

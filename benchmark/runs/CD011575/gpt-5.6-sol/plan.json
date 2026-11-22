@@ -1,0 +1,38 @@
+{
+  "research_question": "Among older adults with hypertension, what is the effect of assignment to a higher blood pressure target (approximately systolic/diastolic 150\u2013160/95\u2013100 mmHg; the less intensively treated arm) versus a lower blood pressure target (approximately 140/90 mmHg; the more intensively treated arm) on all-cause mortality?",
+  "treatment_label": "Higher blood pressure target (approximately 150\u2013160/95\u2013100 mmHg; less intensive treatment), matched to each trial\u2019s higher-target arm",
+  "control_label": "Lower blood pressure target (approximately 140/90 mmHg; more intensive treatment), matched to each trial\u2019s lower-target arm",
+  "outcome_description": "Single dichotomous outcome: all-cause mortality (death from any cause), using the reported number of deaths and total randomized in each arm. Cardiovascular mortality, non-cardiovascular mortality, stroke, and all other outcomes are outside this analysis.",
+  "positive_direction": "A positive standardized effect, if one were calculated, would indicate lower all-cause mortality and therefore favor the higher-BP-target treatment arm; for the requested pooled risk ratio, RR < 1 favors the higher-target arm and RR > 1 favors the lower-target arm.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "older adults hypertension higher versus lower blood pressure target randomized trial mortality",
+    "elderly hypertension blood pressure treatment target controlled trial deaths",
+    "less intensive versus intensive blood pressure target older adults all-cause mortality trial"
+  ],
+  "inclusion_criteria": [
+    "Original empirical comparative studies of older adults with hypertension assigned to higher versus lower blood pressure treatment targets broadly corresponding to the target ranges of interest.",
+    "Studies reporting all-cause mortality as deaths and randomized totals by treatment-target arm, or equivalent quantitative information from which a risk ratio can be derived.",
+    "Any publication status, setting, language, or follow-up duration, provided the treatment-target comparison and usable mortality data are available."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, commentaries, guidelines, and theoretical papers.",
+    "No comparison between a higher blood pressure target treatment arm and a lower blood pressure target control arm.",
+    "No quantitative all-cause mortality outcome data capable of producing an effect size, such as arm-level deaths with denominators, proportions, odds ratios, or other convertible statistics; means with SDs or t/F-values alone are not sufficient for this dichotomous outcome.",
+    "Completely unrelated to blood pressure treatment targets in older adults with hypertension."
+  ],
+  "moderators_to_extract": [
+    "Mean or median participant age and minimum age eligibility",
+    "Exact systolic and diastolic targets assigned in each arm",
+    "Achieved between-arm blood pressure difference",
+    "Follow-up duration",
+    "Trial design and setting",
+    "Baseline cardiovascular risk or comorbidity burden"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool arm-level all-cause mortality as a risk ratio (RR) using deaths and total randomized per arm, preserving intention-to-treat denominators where reported. Code each trial\u2019s higher-target group as treatment and lower-target group as control based on the trial\u2019s assigned targets, never on treatment intensity; the higher target is generally the less intensively treated arm. RR < 1 indicates fewer deaths with the higher target. Keep all-cause mortality separate from cause-specific mortality and other outcomes. Record handling of zero-event arms and avoid double-counting overlapping reports or shared comparator groups.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

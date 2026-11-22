@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults aged 50 years or older, what is the effect of live attenuated Oka/Merck herpes zoster vaccine (Zostavax), compared with placebo, on the risk of experiencing one or more adverse events of any type during the trial-defined short-term post-vaccination safety follow-up?",
+  "treatment_label": "Live attenuated Oka/Merck herpes zoster vaccine (Zostavax) administered using the licensed or trial vaccine schedule",
+  "control_label": "Placebo",
+  "outcome_description": "Binary outcome: participants experiencing one or more adverse events of any type (injection-site or systemic, vaccine-related or not) during the short-term post-vaccination safety interval defined by each paper, divided by the number randomised or vaccinated in each arm. Use the comprehensive post-vaccination safety window (for example, days 0\u201328 or 0\u201342), not multi-year follow-up. Exclude vaccine-related adverse events as a restricted category, injection-site events alone, systemic events alone, serious adverse events, hospitalisations, deaths, herpes-zoster efficacy, post-herpetic neuralgia, immunogenicity, and all other outcomes. For a safety substudy, use only substudy events and denominators if the outcome was not measured in the full trial. Prefer the number randomised per arm as denominator when reported, even if published percentages use a smaller complete-case safety population; if only percentages are reported, derive counts using the arm denominator to which those percentages refer. Assign arms by intervention definition, omit ineligible vaccine or schedule arms, and combine eligible vaccine batches or doses by summing events and participants.",
+  "positive_direction": "For the requested risk ratio, RR greater than 1 indicates that more participants experienced at least one adverse event with Zostavax than with placebo (worse vaccine safety and favoring placebo); RR less than 1 favors Zostavax.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "Zostavax placebo randomized trial adverse events",
+    "live attenuated herpes zoster vaccine controlled safety trial adults",
+    "Oka Merck zoster vaccine placebo quantitative adverse event"
+  ],
+  "inclusion_criteria": [
+    "Original randomised, placebo-controlled trials comparing live attenuated Oka/Merck herpes zoster vaccine (Zostavax) with placebo in adults aged 50 years or older.",
+    "Trials reporting, for both eligible arms, the number or proportion of participants with one or more adverse events of any type during a short-term post-vaccination safety follow-up, with sufficient quantitative information to calculate a risk ratio.",
+    "Full-trial safety cohorts and prospectively defined safety substudies are eligible; eligible vaccine batches or dose groups may be combined when they represent the live zoster vaccine comparison of interest."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No randomised comparison between eligible live attenuated Zostavax treatment and a placebo control condition, including single-arm studies, trials comparing two vaccines, recombinant/non-live zoster vaccine trials, and arms using a different vaccine or ineligible schedule.",
+    "No quantitative data capable of producing the requested effect size\u2014arm-level event counts and totals, usable proportions, or convertible statistics such as odds ratios are unavailable\u2014or the report provides only excluded outcomes such as vaccine-related events, injection-site events alone, systemic events alone, serious adverse events, hospitalisations, death, efficacy, or immunogenicity.",
+    "Completely unrelated to live attenuated herpes zoster vaccination, placebo-controlled safety, adults aged 50 years or older, or the occurrence of one or more adverse events."
+  ],
+  "moderators_to_extract": [
+    "Participant age distribution (50\u201359, 60\u201369, 70 years or older, or reported mean/median)",
+    "Length and definition of the short-term safety follow-up window",
+    "Safety ascertainment method (active diary/card or interview versus passive reporting)",
+    "Safety cohort type (whole randomised cohort versus safety substudy)",
+    "Vaccine dose, potency, batch, and administration schedule",
+    "Trial setting, country/region, and sample size"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool arm-level risk ratios using a random-effects model. Code vaccine as treatment and placebo as control, so RR = risk of one or more adverse events in the vaccine arm divided by that in the placebo arm; RR > 1 indicates more adverse events with vaccine. Use one short-term result per independent comparison and avoid double-counting overlapping full-trial and safety-substudy populations. For multi-batch or multi-dose eligible vaccine arms sharing one placebo arm, combine eligible vaccine arms by summing events and totals before calculating the RR. Use randomised denominators when reported; otherwise use the explicitly applicable vaccinated/safety denominator. Convert reported percentages to integer counts using the denominator to which they refer, documenting rounding assumptions. Apply an appropriate continuity correction only for zero-event cells and conduct sensitivity analysis for correction choice if sparse data materially affect results. Estimate 95% confidence intervals and heterogeneity (tau-squared and I-squared), inspect influence/outliers, and assess small-study effects when enough studies are available. Follow PRISMA 2020 with duplicate screening and extraction, a documented study-flow diagram, trial-level risk-of-bias assessment, and certainty assessment for the single safety outcome.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "one or more adverse events"
+}

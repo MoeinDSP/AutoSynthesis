@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults undergoing cardiac surgery through a sternotomy, what is the effect of placing an implantable gentamicin-collagen sponge (gentamicin-impregnated collagen implant) locally in the sternal wound during closure, compared with no topical antimicrobial, on superficial surgical site infection?",
+  "treatment_label": "Implantable gentamicin-collagen sponge placed locally in the sternotomy wound during closure",
+  "control_label": "No topical antimicrobial in the sternotomy wound (usual care, including equivalent systemic antibiotic prophylaxis, permitted)",
+  "outcome_description": "Single dichotomous target outcome: superficial surgical site infection of the sternotomy wound (event/no event), as defined by each trial. Extract the reported number of superficial SSI events and total randomized participants in each arm. Do not use deep SSI, mediastinitis, or combined/total SSI figures.",
+  "positive_direction": "For standardized directional coding, a positive effect means the gentamicin-collagen sponge favors treatment by reducing superficial SSI versus no topical antimicrobial. For the requested Risk Ratio itself, RR < 1 favors the gentamicin-collagen sponge and RR > 1 favors control.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "gentamicin collagen sponge sternotomy superficial surgical site infection trial",
+    "gentamicin impregnated collagen implant cardiac surgery controlled comparison",
+    "local gentamicin collagen sternal wound superficial infection randomized trial"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of adults undergoing cardiac surgery through a sternotomy that compare a locally implanted gentamicin-collagen sponge or gentamicin-impregnated collagen implant during wound closure with no topical antimicrobial/usual wound closure.",
+    "Studies reporting superficial sternotomy surgical site infection as a distinct dichotomous outcome, with quantitative arm-level information sufficient or potentially obtainable for effect-size calculation.",
+    "Any eligible cardiac surgical procedure, care setting, publication language, or publication status; concomitant systemic perioperative antibiotic prophylaxis is allowed when it does not constitute the topical comparison."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between the specified gentamicin-collagen implant treatment and a control condition receiving no topical antimicrobial; this excludes studies of only systemic antibiotics, antiseptic washes, other topical antimicrobials, or non-collagen gentamicin delivery.",
+    "No quantitative outcome data capable of producing the requested effect size (superficial SSI events and denominators, or recoverable equivalent data such as proportions); studies reporting only deep SSI, mediastinitis, or a combined/total SSI figure without separable superficial SSI data are excluded from this analysis.",
+    "Completely unrelated to the research topic, including studies outside adult cardiac sternotomy wound management or studies not evaluating the specified gentamicin-collagen sponge/implant."
+  ],
+  "moderators_to_extract": [
+    "Study design and randomization method",
+    "Gentamicin-collagen sponge dose, size, and number of implants",
+    "Type of cardiac surgical procedure",
+    "Trial definition and ascertainment method for superficial SSI",
+    "Duration of postoperative infection surveillance",
+    "Baseline infection-risk profile, including diabetes, obesity, and reoperation/emergency status"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool superficial SSI as a Risk Ratio (RR) using each trial's reported superficial SSI event count and total randomized per arm, preferably by intention to treat. Keep deep SSI/mediastinitis and combined or total SSI out of this outcome. Use log RRs and inverse-variance weights for synthesis, report pooled RR with 95% CI, and state that RR < 1 favors the implant. Prespecify a random-effects model with a common-effect sensitivity analysis; estimate heterogeneity with tau-squared and I-squared. For a study with zero events in one arm, apply the prespecified continuity-correction method needed to estimate an RR; studies with zero superficial SSI events in both arms are non-informative for conventional RR pooling and should be described and addressed in sensitivity analysis. Avoid double-counting participants across multiple reports of the same trial.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "superficial surgical site infection"
+}

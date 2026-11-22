@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with knee osteoarthritis, what is the sustainable longer-term effect of exercise, compared with no treatment, usual care, or limited/minimal education, on quality of life measured after the end of the intervention and up to and including 12 months post-intervention?",
+  "treatment_label": "Exercise intervention alone for adults with knee osteoarthritis",
+  "control_label": "No treatment, usual care, or limited/minimal education",
+  "outcome_description": "Quality of life at longer-term follow-up after the intervention, up to and including 12 months post-intervention; exclude measurements taken immediately at the end of the intervention. Use the instrument that each paper explicitly identifies in its methods/outcomes description as the quality-of-life outcome, rather than selecting a measure solely from its name or table position. If a study reports multiple eligible post-intervention follow-ups, use the follow-up closest to 12 months (and no later than 12 months) to represent sustainability while avoiding non-independent effects.",
+  "positive_direction": "A positive standardized mean difference (Hedges g) means that exercise produces better quality of life than no treatment, usual care, or limited/minimal education at longer-term follow-up.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "knee osteoarthritis exercise quality of life randomized trial follow-up",
+    "knee OA exercise usual care quality of life controlled trial 12 month",
+    "knee osteoarthritis physical activity rehabilitation quality of life quantitative follow-up"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of adults with knee osteoarthritis that evaluate an exercise intervention and include an eligible comparator of no treatment, usual care, or limited/minimal education.",
+    "Studies reporting a paper-designated quality-of-life outcome at a post-intervention follow-up occurring after the immediate end-of-intervention assessment and no later than 12 months post-intervention.",
+    "Studies providing, or allowing derivation of, quantitative data for the exercise-versus-eligible-control quality-of-life comparison."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible treatment-control comparison: this includes no comparison group, attention-control/placebo comparators, and co-intervention/add-on designs in which exercise plus another treatment is compared with that other treatment alone.",
+    "No quantitative quality-of-life outcome data at an eligible longer-term timepoint from which an effect size can be calculated, such as means and SDs, t/F statistics, proportions, or odds ratios; immediate end-of-intervention data alone are ineligible.",
+    "Completely unrelated to exercise, adult knee osteoarthritis, or quality of life."
+  ],
+  "moderators_to_extract": [
+    "exercise modality and content",
+    "exercise dose and intervention duration",
+    "supervision or delivery setting",
+    "length of post-intervention follow-up",
+    "comparator type (no treatment, usual care, or limited/minimal education)",
+    "quality-of-life instrument used"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a standardized mean difference, preferably bias-corrected Hedges g, because quality of life may be measured with different instruments. Harmonize scale direction so positive effects favor exercise. Select the measure the study itself designates as quality of life; do not default to the first similarly named table outcome. Use one independent quality-of-life effect per comparison, selecting the eligible follow-up closest to 12 months when several are reported. Account for shared control groups or multiple exercise arms by combining eligible exercise arms or otherwise adjusting dependence before pooling.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "quality of life"
+}

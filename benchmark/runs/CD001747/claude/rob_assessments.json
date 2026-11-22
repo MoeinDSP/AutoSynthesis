@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:d6e729ba",
+    "paper_title": "ba1d1faf_000086613",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 971 patients in a 1:1:1 ratio to galantamine PRC, galantamine, or placebo via an interactive voice response system in a phase III double-blind, placebo- and active-controlled parallel-group trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central, concealed allocation by an interactive voice response system generating subject number and treatment code only at the moment of dosing, with large groups balanced on demographics and baseline MMSE; the noted slight excess of milder cases in placebo is small and consistent with chance in a 971-patient trial.",
+        "evidence_quote": "\"Randomization to treatment was determined by calling an interactive voice response system immediately before medication was administered at visit 3. The subject number and treatment code (which corresponded to a specifi c medication kit) was randomly generated after the caller at the site provided the requested subject details.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "(Re-recorded with correct paper ID.) Double-blind with identical-appearing capsules and double-dummy dosing, but the primary analysis used the observed-case subset rather than a full intention-to-treat population, and 40 subjects had major protocol deviations.",
+        "evidence_quote": "\"The primary effi cacy analyses and conclusions for galantamine PRC were based on the observed case (OC) population at week 26 (a subset of the intent-to-treat population).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 21% did not complete and week-26 observed-case analyses included only roughly 240\u2013258 of ~320 per group (~25% missing), with somewhat differential attrition favoring placebo retention; LOCF sensitivity analyses gave similar results, which mitigates but does not eliminate concern.",
+        "evidence_quote": "\"A total of 768 (79%) randomized and treated patients completed the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Validated, standard instruments (ADAS-cog/11, CIBIC-plus, ADCS-ADL, NPI) were applied identically across arms by trained raters who were blinded to assignment, although the subjective, rater-dependent nature of CIBIC-plus is acknowledged by the authors as a source of variability (non-differential).",
+        "evidence_quote": "\"All study personnel and participants were blinded to treatment assignment for the duration of the study.\" ... \"All raters were trained on outcome measures.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Two co-primary endpoints were tested without multiplicity adjustment and, after CIBIC-plus failed, multiple non-prespecified post-hoc analyses (MMSE 10\u201322 subgroup, US vs non-US sites, OC vs LOCF) were run and emphasized in the conclusions, indicating selective reporting of favourable analyses; no trial registration/protocol availability is reported.",
+        "evidence_quote": "\"Additional analyses, not prespecifi ed in the protocol, were conducted ... Several post-hoc hypotheses were tested, including disease severity, geographical variation, and consistency of response.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Allocation and blinding were well handled and outcomes were measured with validated instruments, but the overall judgment is driven by high risk in selection of the reported result: unadjusted co-primary endpoints plus heavily emphasized post-hoc subgroup/severity/geographic analyses after the CIBIC-plus failed, compounded by ~21% attrition with observed-case primary analysis."
+  },
+  {
+    "paper_id": "manual:210d00e4",
+    "paper_title": "30e86bc6_bmj.321.7274.1445",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation: \"patients were randomly assigned to one of two galantamine treatment groups or a placebo group by simple randomisation. The randomisation schedule was computer generated at the Janssen Research Foundation.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated simple randomisation with sequentially numbered, sealed opaque envelopes provided adequate allocation concealment, and baseline characteristics were comparable across the three groups.",
+        "evidence_quote": "\"The randomisation schedule was computer generated at the Janssen Research Foundation. The assignments were kept in sealed, opaque, numbered envelopes, each containing the allocation for the next patient... The baseline characteristics of the three treatment groups were comparable\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind design with matched placebo and few serious protocol deviations (4%), but the markedly higher rate of cholinergic adverse events (nausea 37-40% vs 12%) could have unblinded participants/clinicians, and the primary efficacy analysis was observed-case rather than intention-to-treat (ITT with LOCF only used as a confirmatory analysis).",
+        "evidence_quote": "\"All individual doses of galantamine and placebo were taken twice daily and were identical in appearance, taste, and smell... All results discussed are based on the observed case analysis unless otherwise stated.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was substantial and differential (completion 87% placebo vs 80% and 75% for galantamine, with discontinuation for adverse events 9% vs 18%), and only ~70-80% contributed observed-case data; although LOCF ITT analyses were consistent, missingness was plausibly related to drug effects/outcome.",
+        "evidence_quote": "\"87% (186/215) of those in the placebo group compared with 80% (176/220) and 75% (163/218) in the lower and higher galantamine dose groups, respectively, completed the study\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated, standard instruments were applied identically across groups with a clinician blinded to other assessments, but the global (CIBIC-plus) and functional (DAD) outcomes are subjective and rely on clinician/caregiver judgment that could be influenced if blinding was compromised by characteristic cholinergic side effects.",
+        "evidence_quote": "\"The clinician\u2019s interview was scored relative to baseline by a clinician blinded to other assessments and was based on separate interviews with the patient and the caregiver\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes and the power calculation are pre-specified in the paper, but there is no accessible protocol/registration, multiple analysis populations (observed case and ITT) and additional exploratory subgroup analyses (MMSE strata, ApoE) are reported, and the industry sponsor generated the randomisation and funded the trial.",
+        "evidence_quote": "\"An exploratory analysis showed that in patients with mild and moderate disease, both doses of galantamine were superior to placebo... Funding: The study was supported by funding from Janssen Research Foundation\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was properly randomised and concealed, but there are some concerns from differential attrition (25% dropout in the high-dose arm vs 13% in placebo) with observed-case data as the primary analysis, possible unblinding via characteristic cholinergic adverse effects affecting subjective global/functional outcomes, and absence of a pre-registered protocol in an industry-sponsored trial reporting multiple analysis populations and exploratory subgroups."
+  },
+  {
+    "paper_id": "manual:293b30e8",
+    "paper_title": "3a8c1028_s0140-6736%2802%2908267-3",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation to galantamine 24 mg/day or placebo in a 2:1 ratio using a randomisation code generated by the sponsor: \"patients were randomly assigned placebo or galantamine 24 mg/day for 6 months according to a randomisation code generated by the Janssen Research Foundation.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A central sponsor-generated randomisation code with a 2:1 ratio and identical tablets suggests adequate sequence generation, but the method of sequence generation and allocation concealment are not described, and there were baseline imbalances in the primary outcome measure (ADAS-cog 24.1 vs 22.3) and MMSE requiring a post-hoc ANCOVA.",
+        "evidence_quote": "\"After a 4-week, single-blind, placebo run-in period, patients were randomly assigned placebo or galantamine 24 mg/day for 6 months according to a randomisation code generated by the Janssen Research Foundation.\" ... \"There were small differences in ADAS-cog/11 and scores on the minimental state examination between the treatment groups at baseline\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind administration with identical tablets was used, but the marked excess of cholinergic adverse effects (nausea 23.5% vs 7.1%) during the rapid 1-week dose escalation could have functionally unblinded patients, carers and clinicians, and the primary analysis was observed-case rather than intention-to-treat (although an LOCF ITT analysis confirmed the findings).",
+        "evidence_quote": "\"Galantamine and placebo were administered as identical single tablets taken orally twice daily.\" ... \"The primary statistical assessment of efficacy was an observed-case analysis\" ... \"nausea and vomiting, which caused 16% of withdrawals in the galantamine group and 3% in the placebo group\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial and differential attrition (26% galantamine vs 17% placebo) with the imbalance driven by adverse-event withdrawals, and the primary analysis was observed-case, which excludes dropouts; the LOCF sensitivity analysis is itself a biased imputation approach in a progressive disease and no modern missing-data sensitivity analysis (e.g. multiple imputation or tipping-point) was reported.",
+        "evidence_quote": "\"The proportions of patients continuing in the trial were ... 74\u00b72% (n=294) versus 83\u00b72% (n=163) at month 6. Thus, more galantamine patients than placebo patients discontinued the trial, mostly as a result of adverse events (19\u00b77% vs 8\u00b72%).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "ADAS-cog, DAD, NPI and CIBIC-plus are validated, standard dementia instruments applied identically in both arms with a dedicated masked rater for CIBIC-plus, but CIBIC-plus, DAD and NPI are subjective/caregiver-dependent ratings that could be influenced if side-effect-driven unblinding occurred, and no inter-rater reliability data across the multinational centres are reported.",
+        "evidence_quote": "\"To avoid any potential unmasking of treatment allocation, an independent (masked to other components of the study), experienced, trained clinician undertook the CIBIC-plus assessments ... The investigator took care to elicit only factual information and refrained from asking the carer's opinion about the condition of the patient.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary endpoints, the ANOVA model, the mixed-effects longitudinal analysis and the MMSE subgroup analysis are described as a-priori/prespecified, but the trial predates mandatory registration and no protocol is available, the sponsor conducted the analysis with employees as authors/statistician, and multiple outcome operationalisations (ADAS-cog/11 and /13, two responder definitions, observed-case and LOCF, several unpowered subgroups and individual NPI items) were reported without clear multiplicity control.",
+        "evidence_quote": "\"Janssen Research Foundation, in collaboration with the key investigators, participated in development of the study design, and in collection, analysis, and interpretation of data.\" ... \"a subgroup analysis by diagnosis provided interesting results\" ... \"SL and CVD are employees of Janssen Research Foundation and have stock ownership in Johnson and Johnson.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by D3: substantial differential attrition at 6 months (25.8% galantamine vs 16.8% placebo, largely from drug-related adverse events) combined with an observed-case primary analysis and only an LOCF sensitivity analysis. Additional some-concerns arise from undescribed allocation concealment with baseline ADAS-cog/MMSE imbalance, possible side-effect-driven unblinding affecting subjective global/caregiver outcomes, and sponsor-controlled analysis without an available protocol alongside numerous outcome and subgroup analyses."
+  },
+  {
+    "paper_id": "manual:83fad951",
+    "paper_title": "e2546e91_wnl.54.12.2261",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a 6-month, parallel-group, placebo-controlled, double-blind trial in which \"patients were randomly assigned (using a computer-generated code) to one of two oral galantamine treatment groups or placebo,\" indicating explicit random allocation; RoB 2 therefore applies to the double-blind phase (the subsequent open-label extension is non-randomized).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated allocation code was used, baseline characteristics across the three arms were closely comparable with only one marginal difference (time since diagnosis, p=0.02) that is plausibly a chance finding among many comparisons, suggesting adequate randomization; allocation concealment is not explicitly described but the double-blind, identical-tablet, placebo run-in design makes subversion unlikely.",
+        "evidence_quote": "\"Following a 4-week, single-blind placebo run-in period, patients were randomly assigned (using a computer-generated code) to one of two oral galantamine treatment groups or placebo.\" ... \"The only significant difference between the groups at baseline was the time since diagnosis of probable AD (p 5 0.02), although the magnitude of this difference is unlikely to be clinically meaningful.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding was maintained with identical tablets and investigators blinded throughout, protocol deviations were low (10%) and balanced, and an ITT (LOCF) analysis supported the primary observed-cases analysis; however, the markedly higher discontinuation for adverse events in galantamine arms (23% and 32% vs 8%) and characteristic cholinergic gastrointestinal side effects could have functionally unblinded participants/caregivers and clinicians, which is relevant for the subjective CIBIC-plus and caregiver-reported DAD outcomes.",
+        "evidence_quote": "\"Galantamine and placebo were administered as identical single tablets taken twice daily.\" ... \"Discontinuations due to adverse events during the double-blind phase were more common in galantamine-treated patients than in those receiving placebo (23% in the 24 mg/d group and 32% in the 32 mg/d group versus 8% with placebo)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 69% completed the double-blind phase and the primary reported analysis was observed cases, with ADAS-cog/11 data available for just 157/213 placebo, 131/212 (24 mg) and 117/211 (32 mg) patients \u2014 missingness is both substantial and strongly differential by arm (driven by adverse-event withdrawals that plausibly relate to outcome), and the supportive LOCF imputation is itself a biased approach in a progressive disease where carried-forward values favor early dropouts in the active arms.",
+        "evidence_quote": "\"Of the 764 patients screened for the initial phase, 636 were randomly assigned to trial medication, of whom 438 (69%) completed the double-blind phase.\" ... \"All results discussed are based on OC analysis unless otherwise stated.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "ADAS-cog/11 and CIBIC-plus are appropriate, validated, standardly applied AD trial outcomes assessed identically across arms by trained clinicians under nominal double-blinding, but CIBIC-plus (and caregiver-based DAD) are subjective judgments that could be influenced if raters or caregivers inferred allocation from the distinctive cholinergic adverse-event profile, and no formal test of blinding integrity is reported.",
+        "evidence_quote": "\"The CIBIC-plus was scored by a trained clinician based on separate interviews with the patient and the caregiver.\" ... \"Throughout the 12 months, investigators remained blinded to the treatment to which patients had been randomly assigned at the start of the doubleblind phase.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes and a power calculation are pre-specified in the Methods and both OC and ITT results are reported, but no trial-registration or accessible protocol is cited, multiple analytic models were run with only one reported (\"The ANCOVA and ANOVA models produced similar conclusions; therefore, results based on the ANOVA model are reported\"), subgroup/exploratory APOE analyses were conducted, and the trial was industry-sponsored with two authors employed by the sponsor.",
+        "evidence_quote": "\"The ANCOVA and ANOVA models produced similar conclusions; therefore, results based on the ANOVA model are reported in this paper.\" ... \"T.W. and W.Y. are employees of the Janssen Research Foundation.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 3: 31% attrition over the double-blind phase with markedly differential, adverse-event-related dropout in the galantamine arms (23\u201332% vs 8% placebo), combined with reliance on an observed-cases primary analysis and LOCF imputation. Randomization appears sound (D1 low), but potential functional unblinding from distinctive cholinergic side effects affecting subjective CIBIC-plus/DAD ratings, and the absence of a registered protocol in an industry-sponsored trial, add further concerns (D2, D4, D5 some concerns)."
+  },
+  {
+    "paper_id": "manual:8e76e8c6",
+    "paper_title": "4f898c8d_wnl.54.12.2269",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation to four parallel arms using a computer-generated code: \"Following a 4-week single-blind, placebo run-in period, patients were randomized to one of four treatment arms for 5 months, using a computer-generated code,\" in a multicenter, double-blind, placebo-controlled design.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was generated by a computer-generated code with a pre-specified unequal allocation ratio, and the reported baseline demographic, cognitive (MMSE, ADAS-cog), functional, behavioral and APOE characteristics were comparable across the four arms, consistent with chance; concealment is not described explicitly but the double-blind use of identical tablets makes subversion unlikely.",
+        "evidence_quote": "\"patients were randomized to one of four treatment arms for 5 months, using a computer-generated code (weeks 1 to 21)... The baseline demographic and medical characteristics of the treatment groups were comparable (table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was double-blind with identical tablets, but the pre-specified primary efficacy analysis was of observed cases rather than intention-to-treat (ITT/LOCF was only a supportive confirmation), protocol deviations occurred in 12\u201317% of patients, and dose-related cholinergic adverse events (nausea 16.5% vs 4.5%) could have partially unblinded participants, caregivers and clinicians.",
+        "evidence_quote": "\"The primary statistical analysis of efficacy was of observed cases (OC analysis)... Furthermore, to confirm the robustness of the efficacy results, more conservative intention-to-treat (ITT) analyses were performed using the last observation carried forward method.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 80% completed and the primary observed-case analysis excluded substantial proportions (e.g., ADAS-cog OC n=225/286 placebo, 101/140 in the 8 mg group, i.e. ~21\u201328% missing), with attrition apparently differential by dose; although LOCF ITT analyses reproduced the main findings, LOCF is itself a biased imputation and no sensitivity analysis of missingness mechanisms is reported.",
+        "evidence_quote": "\"Of the 1178 patients screened, 978 were randomized to trial medication, of whom 80% completed the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were standard, validated instruments (ADAS-cog, CIBIC-plus, ADCS/ADL, NPI) applied identically at fixed timepoints, but the CIBIC-plus, ADCS/ADL and NPI are subjective clinician/caregiver-rated measures and characteristic dose-dependent gastrointestinal adverse events could have unblinded raters, with no formal check of blinding integrity or inter-rater reliability reported.",
+        "evidence_quote": "\"The CIBIC-plus was scored by a trained clinician, based on separate interviews with the patient and the caregiver. The protocol recommended that the interview order should be standardized.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary and secondary outcomes, the power calculation and an a priori step-down multiplicity procedure were pre-specified and both OC and ITT results are reported, but no trial registration or publicly available protocol is cited, data from one site were excluded post hoc (albeit stated to be before database analysis), and the ANOVA rather than ANCOVA results were chosen for presentation, leaving some analytic flexibility unverifiable; industry sponsorship and author employment by the sponsor add concern.",
+        "evidence_quote": "\"Data from one site were excluded from the efficacy analyses (but not the safety analyses) before the database was analyzed... The ANCOVA and ANOVA models produced similar conclusions, and therefore the results based on the ANOVA model are reported here.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This large, computer-randomized, double-blind, placebo-controlled multicenter trial has a sound randomization process and balanced baseline characteristics, but overall risk is \"some concerns\" driven by a primary observed-case (non-ITT) analysis with ~20% attrition, subjective clinician/caregiver-rated outcomes vulnerable to unblinding via dose-dependent cholinergic side effects, and the absence of a registered protocol alongside post hoc site exclusion and sponsor involvement. None of these issues reaches the threshold for high risk, since ITT/LOCF analyses reproduced the main dose-related benefits on all primary and secondary measures."
+  }
+]

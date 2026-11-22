@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of vasopressin type 2 receptor (V2R) antagonists compared with control (placebo or standard therapy) on serious adverse events in people with autosomal dominant polycystic kidney disease?",
+  "treatment_label": "Vasopressin type 2 receptor (V2R) antagonist",
+  "control_label": "Control (placebo or standard therapy)",
+  "outcome_description": "Incidence of serious adverse events (SAEs) in randomized participants",
+  "positive_direction": "A positive effect indicates a lower risk of serious adverse events in the V2R antagonist group compared to control (favoring the intervention).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "vasopressin receptor antagonist autosomal dominant polycystic kidney disease trial",
+    "tolvaptan ADPKD serious adverse events randomized controlled trial",
+    "V2 receptor antagonist polycystic kidney safety placebo trial"
+  ],
+  "inclusion_criteria": [
+    "Studies evaluating vasopressin type 2 receptor (V2R) antagonists (e.g., tolvaptan, lixivaptan, satavaptan) in individuals diagnosed with autosomal dominant polycystic kidney disease (ADPKD).",
+    "Studies including a concurrent control group receiving placebo or standard medical therapy.",
+    "Studies reporting quantitative data on serious adverse events (SAEs) or adverse event counts per randomized arm."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, conference abstracts without data, and study protocols).",
+    "No comparison between a V2R antagonist intervention group and a concurrent control condition (e.g., single-arm trials).",
+    "No quantitative safety outcome data reporting serious adverse events (or counts per group allowing calculation of risk ratios).",
+    "Completely unrelated to vasopressin type 2 receptor antagonists or autosomal dominant polycystic kidney disease (ADPKD)."
+  ],
+  "moderators_to_extract": [
+    "Specific V2R antagonist drug and dosing regimen",
+    "Trial duration / follow-up length",
+    "Baseline renal function / CKD stage or mean eGFR",
+    "Control type (placebo vs standard therapy)",
+    "Trial design and phase (Phase 2 vs Phase 3 RCT)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Risk Ratio (RR) calculated from the number of patients experiencing at least one serious adverse event and total randomized sample size in each treatment arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "serious adverse events"
+}

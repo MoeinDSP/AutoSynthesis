@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:107f0359",
+    "paper_title": "1c852b38_1-s2.0-S1322769620300548-main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a waitlist-controlled randomised controlled trial in which \"The first author (HSYM) generated a random allocation sequence table\" and 358 students \"were randomised into either the experimental group (n = 182) or the control group (n = 176)\".",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random allocation sequence was generated and baseline demographics were broadly similar, but the method of sequence generation is unspecified and there is no description of allocation concealment (e.g., sealed opaque envelopes/central allocation); baseline imbalances in prior mental health training (13.9% vs 8.0%, p=0.07) and a notable pre-test difference in mental health first-aid action scores (1.33 vs 2.23) raise mild concern.",
+        "evidence_quote": "\"The first author (HSYM) generated a random allocation sequence table. Two research assistants were responsible for then enrolling and assigning the participants to either the experimental group or a waitlisted control group.\" ... \"A chi-square test and independent samples t-test found no significant differences between the experimental and control groups in terms of sex ..., age ..., or previous training in mental health [\u03c72 (1) = 3.32, p = 0.07]\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and trainers inevitably knew their allocation in this waitlist design and the authors acknowledge possible contamination within a single institution, although an intention-to-treat analysis was used and only 14/182 did not complete training.",
+        "evidence_quote": "\"All the nursing students were recruited from a single tertiary institution, so study contamination may have occurred, although the students were also instructed to avoid disclosing any study information to their peers.\" ... \"the data analysis, which was conducted on an intention-to-treat basis\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was very low and similar in both arms (167/182 experimental and 165/176 control at follow-up, ~8% and ~6%), and an intention-to-treat analysis with LOCF imputation was applied, making bias from missing data unlikely.",
+        "evidence_quote": "\"The missing data for every outcome measure were imputed by using the last-observation-carried-forward method.\" ... \"167 students completed the follow-up questionnaire early in 2018. Meanwhile, 175 and 165 of the 176 students in the control group completed the post-test and follow-up questionnaires, respectively.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All outcomes (literacy, social distance, confidence, helping intentions, wellbeing) are self-reported by unblinded participants who knew they had received MHFA training, creating substantial potential for social-desirability/expectancy-driven reporting, and the main inference rests on these subjective self-reports with no blinded or objective assessment.",
+        "evidence_quote": "\"The outcomes were measured in terms of local relevance and application, according to the participants' self-completed responses to two well-validated questionnaires\" ... \"a minor limitation is that the validity and reliability of the translated training manual had not been conducted.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or publicly available protocol is cited and no primary outcome is designated among the many reported sub-scales and time points, so selective reporting from multiple eligible outcome measurements/analyses cannot be excluded, although all five stated objectives appear to be reported.",
+        "evidence_quote": "\"After receiving ethical approval for the study from the Research Ethics Sub-Committee of the participating institution ...\" (no trial registration number or protocol/pre-specified primary outcome reported)"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 4: every outcome was self-reported by participants who were necessarily aware of their allocation in a waitlist-controlled design of a training programme, making expectancy and social-desirability effects a plausible explanation for the large observed gains. Additional concerns arise from unreported allocation concealment with a borderline baseline imbalance, possible within-institution contamination, and absence of trial registration or a pre-specified primary outcome; attrition handling was the one clearly low-risk domain."
+  },
+  {
+    "paper_id": "manual:fe7ba270",
+    "paper_title": "3f86e0da_1471-244x-10-51",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit cluster randomization of schools: \"Using the Random Integers option of Random.org, one school in each pair was randomly assigned to the immediate group and the other school to the wait-list group\", with trial registration ACTRN12608000561381.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Substantial attrition (22\u201328% of teachers, 24% of students) was handled with maximum-likelihood mixed models that assume data are missing at random, but no comparison of completers vs non-completers or sensitivity analysis under alternative missingness assumptions is reported, and dropout could plausibly be differential given that trained teachers were more engaged.",
+        "evidence_quote": "\"Twentytwo percent of teachers did not complete the post-test questionnaire and 28% the follow-up questionnaire. In relation to the students, 24% did not complete the follow-up questionnaire.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and deliverers were necessarily aware of allocation (wait-list design, demand characteristics plausible in a training/attitude trial), and the primary analysis excluded two non-adhering clusters rather than being strictly intention-to-treat, although a supplementary analysis including them was reported.",
+        "evidence_quote": "\"Blinding of participants was not possible... All participants who completed a pre-test questionnaire and were at one of the 14 schools that adhered to randomization were included in the analysis. However, a supplementary analysis was also carried out which included the 2 additional schools that did not adhere.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All outcomes were self-reported by unblinded participants on questionnaires distributed by school staff, so knowledge of the intervention (and course content directly matching the knowledge quiz items) could readily influence responses \u2014 a concern the authors themselves raise regarding social desirability on stigma items.",
+        "evidence_quote": "\"Post-test and follow-up questionnaires were self-completed by teachers who knew whether they had completed the training or not... we speculate that it may be due to social desirability effects with stigma questions.\""
+      },
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Although the sequence was genuinely random (Random.org, matched pairs), allocation was revealed to schools before baseline assessment and before individual teachers were identified/enrolled, and two clusters had their allocation swapped post-randomization \u2014 a classic cluster-trial identification/recruitment bias, compounded by markedly unequal group sizes (221 vs 106 teachers) and some baseline imbalances (teaching experience, leadership roles).",
+        "evidence_quote": "\"Schools were told about the allocation before their teachers completed the pre-test questionnaire... After randomization and before baseline questionnaires, two schools decided that they were unable to follow the allocation... it was agreed to swap the allocation for these two schools\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary outcome (teacher knowledge) that is reported, but a very large number of secondary outcomes with multiple operationalizations/cut-offs were analysed, including a data-driven switch from planned scale scores to individual stigma items, and the authors acknowledge that the proportion of significant findings far exceeds chance.",
+        "evidence_quote": "\"These items were intended to be analyzed as scales based on a previous principal components analysis [14]. However, because the principal components could not be replicated in the teacher data, the responses to these questions were analyzed as individual items.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D1 (allocation disclosed to schools before baseline assessment and participant enrolment, with two clusters' allocations swapped post-randomization, yielding unequal arms and some baseline imbalance) and D4 (all outcomes self-reported by unblinded teachers/students, with knowledge items directly mirroring taught course content and acknowledged social-desirability effects). Additional concerns from 22\u201328% attrition handled only under a missing-at-random assumption and extensive multiple outcome testing further reduce confidence, particularly in the many secondary findings."
+  },
+  {
+    "paper_id": "manual:2ab2e234",
+    "paper_title": "e2295b28_00048674.2010.516426",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit individually randomized three-arm parallel trial using a computerized random number generator (Random.org) with registered protocol (ACTRN12608000188336).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Sequence was computer-generated by an investigator blinded to participant details, allocation was concealed from the staff member enrolling participants until after baseline data collection, and baseline characteristics across the three arms appear similar.",
+        "evidence_quote": "\"A computerized random number generator (Random Integers option in Random.org) was used to carry out a simple randomization procedure... The allocation sequence was concealed from J.F. until it was time to advise participants of their random assignment... that is, after baseline data was collected.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants were necessarily unblinded (waiting-list vs CD vs manual), self-report outcomes could be influenced by awareness of allocation, and adherence varied (some participants read only part of the material, with missing adherence data), though an intention-to-treat analysis including all randomized participants was used.",
+        "evidence_quote": "\"Blinding of participants was not possible.\" ... \"An intention-to-treat approach was used, with all participants included in the analyses.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Attrition was modest (9% post-test, 13% follow-up) and analysed with maximum-likelihood mixed models, but retention differed systematically by arm (worst in the CD group, best in the waiting list) and the claim of no bias is asserted rather than demonstrated by sensitivity analysis.",
+        "evidence_quote": "\"there were differences in sample retention across groups, with the waiting list group having the best retention and the CD group the worst... Despite the differential retention, the drop-out rate was relatively small and there was no evidence that this biased the findings.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were previously used, appropriate self-report measures administered identically online across arms, but all are participant-reported with outcome assessors/participants aware of allocation, and the authors themselves invoke social desirability effects on stigma items.",
+        "evidence_quote": "\"We speculate that it may be due to social desirability effects with stigma questions.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and primary/secondary hypotheses were stated, but many outcomes were measured and post-hoc dichotomizations (e.g., at the median of pooled pre/post/follow-up data, cut-points chosen \"based on the frequency distribution\") plus a highlighted secondary 'days out of role' analysis introduce analytic flexibility.",
+        "evidence_quote": "\"Because of skew in the distribution, the principal component scores were dichotomized at the median of all the data (pre, post and follow up).\" ... \"However, a secondary analysis of the 'days of out of role' questions... showed that the CD group had significantly greater reduction...\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were well executed and attrition was modest with ITT mixed-model analysis, but unblinded participants reporting their own stigma/confidence outcomes (with acknowledged social-desirability re-test effects), differential retention across arms, and post-hoc dichotomization plus emphasized secondary analyses raise some concerns. No single domain reached 'high', so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:cfd991d6",
+    "paper_title": "183a4866_journal.pone.0100911",
+    "design_classification": "randomized",
+    "design_rationale": "Participants who gave informed consent (n=406) were randomly allocated to immediate MHFA training or a 6-month waiting list using the Random Integers option at random.org, performed by a researcher using ID numbers.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A true random sequence was generated centrally by a researcher after consent and baseline data collection (so allocation could not be foreseen or manipulated), and baseline demographic/clinical characteristics were well balanced across arms.",
+        "evidence_quote": "\"Each participant was given a specific ID-number on the list, which was then sent to one of the researchers (BS) who performed the randomization procedure by using the Random Integers option at the http://random.org website [29]. The participants where anonymous to the researchers.\" ... \"There were no significant differences between the two groups concerning background characteristics or familiarity with mental health problems.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and trainers were necessarily aware of allocation (training vs. waiting list), which in a self-report literacy/attitude trial can generate expectancy and demand effects; although an intention-to-treat analysis was used, no information is given on co-interventions, course attendance/adherence in the waiting-list arm, or contamination between colleagues at shared worksites.",
+        "evidence_quote": "\"A randomized controlled trial was planned with the control group placed on a waiting list during a 6 month follow-up.\" ... \"Intention to treat analyses were performed in the RCT.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Roughly one third of participants in each arm (129/406) lacked 6-month outcome data and the values were handled by multiple imputation based only on baseline score, gender, age and education; the authors themselves cannot rule out that attrition was related to experience of the course, and the result tables are internally inconsistent (header reports \"Exp. Group (n = 100)\" vs \"Contr. Group (n = 207)\"), so missingness could plausibly have biased the effect estimates.",
+        "evidence_quote": "\"At the six month follow up 64 participants in the experimental group and 65 in the control group had not completed the questionnaires.\" ... \"The attrition rate between base-line and six months follow-up was rather high. Whether the causes for this are negative experiences of the MHFA course or something else is difficult to ascertain.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "All outcomes, including the primary outcome of help provided, are self-reported by unblinded participants who knew whether they had received training, so knowledge of the intervention could readily influence responses; the two-year follow-up additionally uses a newly constructed, unvalidated questionnaire asking retrospectively about improvement attributable to the course, with no concurrent control comparison.",
+        "evidence_quote": "\"The pre-test assessment was administered by mailed questionnaires with reply envelopes sent to participants in the month prior to the intervention.\" ... \"Outcomes for the two year follow-up were self-reported change in skills in providing support ... A new questionnaire was constructed for this purpose.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited (only an ethics approval number), and numerous outcome operationalizations are reported (17 separate measures across two vignettes, plus multiple post hoc two-year items), with post hoc power analyses, raising the possibility of selective emphasis among many eligible analyses.",
+        "evidence_quote": "\"The study was approved by the Regional Ethical Review Board at Lund University. Registration no. 2011/4.\" ... \"Post hoc power analyses were performed using G-power [30].\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was genuinely random and the arms were well balanced at baseline, the trial is at high risk of bias overall because ~32% of participants lacked 6-month outcome data (handled only by multiple imputation, with attrition possibly related to course experience) and because all outcomes were self-reported by unblinded participants, with the two-year follow-up relying on a new, uncontrolled, retrospective self-attribution questionnaire. Lack of trial registration and many reported outcome measures add further concerns about selective reporting."
+  },
+  {
+    "paper_id": "manual:12c1ab4a",
+    "paper_title": "a9566a4a_s00127-016-1176-9",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were individually randomized to immediate MHFA training or a 6-month waitlist control using a computer-generated concealed allocation sequence: \"An independent researcher provided the randomization by a computer-generated concealed randomization sequence with variable block size.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was by a concealed computer-generated sequence with variable block size prepared by an independent researcher, and baseline characteristics were balanced between groups.",
+        "evidence_quote": "\"An independent researcher provided the randomization by a computer-generated concealed randomization sequence with variable block size.\" ... \"There were no differences between the groups concerning background characteristics, such as gender, education or age and familiarity with mental health problems.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial and differential attrition (40% intervention vs 29% control) was handled only by multiple imputation using age and gender under an untested MAR assumption, and the authors themselves attribute the differential loss to the waitlist design, so missingness plausibly depends on the outcome.",
+        "evidence_quote": "\"At 6 months follow-up 117 (40 %) participants in the intervention group and 80 (29 %) in the control group had not completed the questionnaire.\" ... \"Age and gender were the only baseline values applied in the imputation model, under the assumption of data being missing at random or completely at random.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and instructors were necessarily aware of allocation and the authors acknowledge a real risk of contamination between groups sharing workplaces, although an intention-to-treat analysis was used.",
+        "evidence_quote": "\"The trial also implied a risk of contamination between the two groups. The participants were often sharing workplace cross-groups, and experiences and knowledge gained at the training course could have been subject to exchange between the groups in unrelated contexts.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The primary outcome (self-rated confidence in helping) is subjective and was self-reported by unblinded participants who knew whether they had received the training, so knowledge of allocation could readily influence the reported outcome (expectancy/demand effects), despite blinding of the analysing researcher.",
+        "evidence_quote": "\"Neither participants, instructors on the MHFA training course nor outcome assessors were blinded... It is considered to be important to be able to blind outcome assessors when participants and treatment providers are not blinded. However, this was not possible in this trial, since it was a self-report study.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A protocol exists and the primary outcome was pre-specified, but trial registration appears to have occurred late (25 April 2015, shortly before submission) and many secondary outcome measures/analyses were reported without a clear pre-specified analysis plan; a co-author is also employed by the organisation selling the training.",
+        "evidence_quote": "\"The protocol was registered at https://clinicaltrials.gov on the 25th of April 2015, identifier NCT02334020.\" ... \"Co-author Per B. Vendsborg is an employee at the Mental Health Foundation in Denmark, the organization that implements and sells the MHFA training course.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was properly randomized and concealed with balanced baseline groups, the trial is at high risk of bias overall because of large differential attrition (40% vs 29%) handled only by a minimal multiple-imputation model, and because the subjective primary outcome was self-reported by unblinded participants in a waitlist design. Additional concerns arise from possible cross-group contamination within shared workplaces, late trial registration, and a co-author's affiliation with the organisation selling the intervention."
+  }
+]

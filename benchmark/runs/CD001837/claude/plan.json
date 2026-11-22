@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults who smoke and are hospitalised (for any reason, including cardiovascular admissions), what is the effect of bupropion compared with placebo or no bupropion (usual care) on smoking abstinence at the longest follow-up of at least six months?",
+  "treatment_label": "Bupropion (sustained-release bupropion, alone or added to counselling)",
+  "control_label": "Placebo or no bupropion (usual care/counselling only)",
+  "outcome_description": "Number of participants abstinent from smoking (events) out of the number randomised to each arm (total) at the longest reported follow-up of at least six months (e.g. 6 or 12 months). Use the strictest abstinence definition each trial reports \u2014 preferring sustained/continuous abstinence, biochemically validated where available, otherwise point-prevalence abstinence \u2014 and record which definition was used. Participants lost to follow-up are counted as continuing smokers (intention-to-treat); denominators are the numbers randomised taken from the participant-flow diagram where available, converting reported percentage quit rates into counts if necessary. Self-reported \"reduced smoking\", short-term (\u22643 month) quitting, adverse events, cardiovascular events and withdrawal symptoms are not pooled.",
+  "positive_direction": "A risk ratio greater than 1 (positive effect) means more participants were abstinent from smoking in the bupropion arm than in the placebo/no-bupropion arm \u2014 i.e. bupropion increased long-term quitting among hospitalised smokers.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "bupropion smoking cessation hospitalised patients randomised trial",
+    "bupropion versus placebo smoking abstinence hospital inpatients trial",
+    "bupropion smoking cessation after acute myocardial infarction randomized controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial enrolling adult smokers who were hospitalised (admitted as inpatients for any reason, including cardiovascular, respiratory or surgical admissions)",
+    "Compares bupropion (alone or added to a behavioural/counselling co-intervention given to both arms) with placebo or no bupropion (usual care)",
+    "Reports some quantitative smoking abstinence outcome at a follow-up of six months or longer, in counts or percentages that can be converted to counts"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, narrative or theoretical paper)",
+    "No comparison between a bupropion arm and a placebo/no-bupropion control arm (e.g. control receives nicotine replacement therapy, varenicline or another smoking-cessation drug; single-arm or uncontrolled studies)",
+    "No quantitative outcome data usable for an effect size (no abstinence event counts, percentages with denominators, risk/odds ratios or equivalent statistics at \u22656 months)",
+    "Unrelated to the research topic (non-hospitalised/outpatient or general community smokers, non-drug interventions only, non-adult samples, or outcomes other than smoking abstinence at \u22656 months)"
+  ],
+  "moderators_to_extract": [
+    "Admission type (cardiovascular/post-MI vs general medical/surgical/other)",
+    "Abstinence definition used (continuous/sustained vs point prevalence; biochemically validated vs self-reported)",
+    "Length of longest follow-up (6 months vs 12 months or more)",
+    "Control condition (placebo-controlled vs usual care/no bupropion)",
+    "Intensity of co-interventional counselling provided to both arms",
+    "Sample size category and country/setting"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool as a risk ratio (bupropion abstinence risk divided by control abstinence risk) using a random-effects model (DerSimonian\u2013Laird or REML with Hartung\u2013Knapp adjustment), with events = participants abstinent and totals = participants randomised per arm (ITT, lost-to-follow-up counted as smoking). Apply a continuity correction only where an arm has zero events; report heterogeneity (I\u00b2, tau\u00b2) and inspect for small-study effects if \u226510 trials. Multi-arm trials contribute only the bupropion arm and its matched control arm.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "smoking abstinence at longest follow-up of at least 6 months"
+}

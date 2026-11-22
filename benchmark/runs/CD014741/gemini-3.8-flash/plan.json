@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of interleukin-1 receptor antagonists (anakinra and canakinumab), compared with placebo or usual care, on all-cause mortality for secondary prevention in people with established cardiovascular disease?",
+  "treatment_label": "Interleukin-1 receptor antagonists (anakinra or canakinumab)",
+  "control_label": "Placebo or usual care",
+  "outcome_description": "All-cause mortality during follow-up",
+  "positive_direction": "Positive values favor the interleukin-1 antagonist group (indicating lower all-cause mortality / reduced risk of death compared to control)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "interleukin 1 antagonist cardiovascular disease mortality randomized trial",
+    "anakinra canakinumab myocardial infarction death controlled trial",
+    "IL-1 receptor antagonist secondary prevention all-cause mortality trial"
+  ],
+  "inclusion_criteria": [
+    "Empirical comparative studies (e.g., randomized controlled trials or controlled clinical trials) evaluating interleukin-1 receptor antagonists (anakinra or canakinumab) versus placebo or usual care",
+    "Adult participants with established cardiovascular disease undergoing secondary prevention (e.g., acute myocardial infarction, stable coronary artery disease, heart failure)",
+    "Reporting of quantitative data on all-cause mortality at follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, conference abstracts without data, and theoretical papers are excluded)",
+    "No comparison between an interleukin-1 antagonist treatment group and a control group (placebo or usual care)",
+    "No quantitative outcome data allowing calculation of an effect size for all-cause mortality (event counts, hazard ratios, odds ratios, or relative risks)",
+    "Studies conducted in populations without established cardiovascular disease or evaluating non-IL-1-targeted therapies"
+  ],
+  "moderators_to_extract": [
+    "Intervention drug sub-type (anakinra vs canakinumab)",
+    "Clinical condition / patient population (e.g., acute coronary syndrome, stable CAD, heart failure)",
+    "Follow-up duration",
+    "Dose and route of administration",
+    "Study design and risk of bias"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

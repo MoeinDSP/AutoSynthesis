@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of diclofenac compared with an opioid analgesic on the risk of requiring postoperative rescue analgesia in children undergoing surgery under general anaesthesia?",
+  "treatment_label": "Diclofenac",
+  "control_label": "Opioid analgesic",
+  "outcome_description": "Requirement for postoperative rescue or supplementary analgesic medication within the first 24 hours after surgery (dichotomous count: events / total randomised)",
+  "positive_direction": "Fewer children requiring rescue analgesia in the diclofenac group compared to the opioid group (favours diclofenac)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "diclofenac opioid postoperative rescue analgesia children trial",
+    "diclofenac morphine fentanyl pediatric surgery randomized controlled",
+    "pediatric postoperative analgesia diclofenac comparison opioid trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials or comparative clinical studies evaluating paediatric patients (under 18 years) undergoing any surgical procedure under general anaesthesia",
+    "Direct comparison between diclofenac (any route or timing) and an active opioid analgesic comparator (any route or timing)",
+    "Reporting quantitative data on the proportion or count of children requiring rescue or supplementary analgesia within the first 24 postoperative hours"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, or study protocols)",
+    "No direct comparison between diclofenac and an opioid analgesic (e.g., comparisons against placebo, paracetamol, other NSAIDs, or local anaesthetics alone)",
+    "Studies conducted in adult populations (aged 18 or older) or non-surgical/non-general anaesthesia settings",
+    "No quantitative dichotomous outcome data on postoperative rescue analgesic requirements"
+  ],
+  "moderators_to_extract": [
+    "Specific opioid comparator (e.g., morphine, fentanyl, pethidine, nalbuphine)",
+    "Route and timing of diclofenac administration (e.g., rectal, IV, oral; preoperative vs intraoperative vs postoperative)",
+    "Type of surgical procedure (e.g., ENT/tonsillectomy, abdominal/inguinal, orthopaedic)",
+    "Duration of the postoperative rescue observation window (e.g., recovery stay, 4 hours, 24 hours)",
+    "Mean or median age of the paediatric cohort"
+  ],
+  "search_start_year": 1985,
+  "effect_size_note": "Extract dichotomous count data: number of children receiving rescue or supplementary analgesia (events) and total randomised/analysed per arm, within the longest postoperative window reported up to 24 hours. For multi-arm trials, combine all opioid arms into a single control group. Ignore placebo, paracetamol, local anaesthetic, or other NSAID arms. Convert percentages to counts if necessary. Do not extract pain scores, time to rescue, or total analgesic consumption.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "rescue analgesia requirement"
+}

@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of omega-3 polyunsaturated fatty acids (EPA, DHA or combinations), compared with placebo, on quality of life at the end of treatment in adults with major depressive disorder?",
+  "treatment_label": "Omega-3 polyunsaturated fatty acids (EPA, DHA, or combinations)",
+  "control_label": "Placebo",
+  "outcome_description": "Quality of life measured by any validated scale (such as SF-36, Q-LES-Q, or WHOQOL) at the end of treatment",
+  "positive_direction": "A positive effect size indicates greater improvement or higher quality of life favoring omega-3 fatty acids over placebo",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "omega-3 fatty acids major depressive disorder quality of life randomized trial",
+    "EPA DHA depression quality of life controlled trial",
+    "fish oil depression SF-36 trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Adults diagnosed with major depressive disorder receiving omega-3 polyunsaturated fatty acids (EPA, DHA, or combination) compared with a placebo control",
+    "Original empirical studies reporting quantitative quality-of-life outcomes using a validated measurement instrument at the end of treatment"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols)",
+    "No comparison between omega-3 polyunsaturated fatty acids and a placebo control group",
+    "No quantitative outcome data on quality of life allowing calculation of an effect size (means and standard deviations, standard errors, change scores, or test statistics)",
+    "Studies in populations without major depressive disorder or completely unrelated to omega-3 supplementation"
+  ],
+  "moderators_to_extract": [
+    "Omega-3 composition/formulation (EPA-pure/predominant vs DHA-pure/predominant vs balanced)",
+    "Daily dose of omega-3 (mg/day of EPA and DHA)",
+    "Treatment duration (in weeks)",
+    "Treatment setting (monotherapy vs adjunctive to standard antidepressants)",
+    "Quality of life instrument used (e.g., SF-36, Q-LES-Q, WHOQOL)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Standardized mean difference (Hedges g) for continuous quality-of-life scale scores at end of treatment.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "quality of life"
+}

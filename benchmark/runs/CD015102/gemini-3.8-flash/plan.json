@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of prophylactic anticoagulants, compared with placebo or no treatment, on adverse events in non-hospitalised adults with COVID-19 (including outpatients and post-discharge patients)?",
+  "treatment_label": "Prophylactic anticoagulation",
+  "control_label": "Placebo or no treatment (standard care)",
+  "outcome_description": "Number of participants experiencing at least one adverse event out of the total randomised participants during the follow-up period",
+  "positive_direction": "A positive effect indicates a lower incidence/risk of adverse events in the anticoagulant arm compared to control (favoring anticoagulation)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "COVID-19 anticoagulant outpatient randomized trial",
+    "thromboprophylaxis non-hospitalized COVID-19 adverse events trial",
+    "anticoagulation post-discharge COVID-19 placebo controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials evaluating prophylactic anticoagulants (e.g., low-molecular-weight heparin, rivaroxaban, apixaban, aspirin) compared to placebo or no treatment / standard care",
+    "Adults with COVID-19 managed in non-hospitalised settings (outpatients or post-discharge patients)",
+    "Reporting quantitative participant-level counts of adverse events (any adverse events, serious adverse events, or bleeding events)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and study protocols)",
+    "Non-randomised studies, observational designs, or studies conducted exclusively in currently hospitalised COVID-19 inpatients",
+    "No comparison between an anticoagulant arm and a placebo or no-treatment control arm (e.g., trials comparing different active anticoagulants or different doses of the same anticoagulant without a control arm)",
+    "No usable quantitative participant-level adverse event data (e.g., only reporting total episodes/events without participant counts, or completely unrelated to the research topic)"
+  ],
+  "moderators_to_extract": [
+    "Anticoagulant drug class and agent (e.g., LMWH, direct oral anticoagulant, aspirin)",
+    "Patient population/setting (ambulatory outpatients vs. post-discharge patients)",
+    "Adverse event reporting definition (all-cause/any adverse event vs. serious adverse events vs. bleeding events)",
+    "Control condition type (placebo vs. open-label standard care/no treatment)",
+    "Duration of follow-up"
+  ],
+  "search_start_year": 2020,
+  "effect_size_note": "Pooled as Risk Ratio (RR) using a random-effects model; RR > 1 indicates a higher risk of adverse events in the anticoagulant group.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "adverse events"
+}

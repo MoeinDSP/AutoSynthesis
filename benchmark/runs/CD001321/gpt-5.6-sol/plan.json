@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women with a history of recurrent urinary tract infections (UTIs), what is the effect of cranberry products (juice, capsules, tablets, or powder, at any dose) versus placebo, no treatment, or another non-active control on the risk of having at least one symptomatic, culture-verified UTI during the longest on-treatment study follow-up?",
+  "treatment_label": "Cranberry products (juice, capsules, tablets, or powder, at any dose)",
+  "control_label": "Placebo, no treatment, or non-active control",
+  "outcome_description": "Binary participant-level outcome: number of women with at least one symptomatic, culture-verified UTI during the full study period (longest follow-up on treatment) divided by the number analysed in each arm. Use the paper's primary UTI definition combining symptoms with a positive urine culture. Do not use episode counts, incidence rates, asymptomatic bacteriuria, bacteriuria alone, or symptoms-only definitions when a culture-verified definition is available. Prefer intention-to-treat denominators when reported; otherwise use the reported analysed sample and record which denominator was used. In multi-arm trials, combine eligible cranberry arms by summing participants and events; retain only eligible placebo/no-treatment/non-active control arms and ignore arms receiving other active agents.",
+  "positive_direction": "A positive treatment effect means cranberry reduces the occurrence of symptomatic, culture-verified UTI relative to placebo, no treatment, or a non-active control (corresponding to RR < 1 before any direction harmonisation).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cranberry recurrent urinary tract infection women randomized trial",
+    "cranberry juice capsules recurrent UTI placebo controlled women",
+    "cranberry symptomatic culture verified UTI women trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials enrolling women with a history of recurrent UTIs, including women who are currently infected or infection-free at baseline.",
+    "Trials comparing any cranberry product, formulation, or dose with placebo, no treatment, or another non-active control.",
+    "Trials reporting participant-level quantitative data for women with at least one symptomatic, culture-verified UTI during follow-up, with data sufficient to obtain events and totals for eligible arms."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised controlled trial, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols without results, and non-randomised studies.",
+    "No eligible comparison between cranberry and placebo, no treatment, or a non-active control; this includes cranberry-versus-antibiotic or cranberry-versus-probiotic studies with no eligible inactive control arm.",
+    "No quantitative participant-level outcome data that can produce an effect size: eligible arm totals and numbers of participants with at least one symptomatic, culture-verified UTI are unavailable; episode counts or incidence rates alone are insufficient and will not be converted to participant counts.",
+    "Completely unrelated to the research topic, or conducted exclusively in excluded populations such as children, pregnant women, institutionalised older people, or people with neurogenic bladder or urinary catheters."
+  ],
+  "moderators_to_extract": [
+    "cranberry formulation (juice, capsule, tablet, or powder)",
+    "cranberry dose and proanthocyanidin content where reported",
+    "baseline infection status (currently infected versus infection-free)",
+    "recurrent-UTI eligibility definition and baseline UTI frequency",
+    "duration of on-treatment follow-up",
+    "risk-of-bias domains, including allocation concealment, blinding, attrition, and outcome ascertainment"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool risk ratios (RRs) with a random-effects model using participants, not UTI episodes, as the unit of analysis. For each arm, extract the number of participants with at least one symptomatic, culture-verified UTI and the corresponding total. RR < 1 favours cranberry. Use intention-to-treat data when reported; otherwise use the analysed sample and explicitly record the choice. If several follow-up times are reported, use the cumulative outcome over the whole study period at the longest follow-up on treatment. For multi-arm trials, combine eligible cranberry arms by summing events and totals; use only eligible inactive-control arms, and omit active comparator arms. Do not substitute asymptomatic bacteriuria, adverse effects, adherence, dropouts, urinary E. coli counts, antibiotic use, bacteriuria-only outcomes, or symptoms-only outcomes when a culture-verified definition is reported. Report pooled RR with 95% CI, heterogeneity estimates (tau-squared and I-squared), study weights, and sensitivity analyses appropriate to risk of bias and sparse/zero-event data. Follow PRISMA 2020 for study identification, screening, exclusions, data extraction, risk-of-bias assessment, synthesis, certainty assessment, and reporting.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "occurrence of symptomatic, culture-verified urinary tract infection"
+}

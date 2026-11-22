@@ -1,0 +1,38 @@
+{
+  "research_question": "In people at risk of acute kidney injury (e.g. after cardiac surgery, critical illness or trauma, contrast exposure, or kidney transplantation), do erythropoiesis-stimulating agents (epoetin alfa/beta/zeta, darbepoetin, methoxy polyethylene glycol-epoetin beta or other ESAs), compared with placebo or usual care without an ESA, reduce the incidence of acute kidney injury?",
+  "treatment_label": "Erythropoiesis-stimulating agent (epoetin alfa/beta/zeta, darbepoetin, CERA or other ESA)",
+  "control_label": "Placebo or usual care without an ESA",
+  "outcome_description": "Number of participants who developed acute kidney injury (events) out of the number randomised to each arm (intention-to-treat denominator; number analysed if that is all that is reported), during the trial's follow-up. AKI defined by the trial's own definition, preferring consensus criteria in the order KDIGO, AKIN, RIFLE, otherwise the trial's stated primary definition (e.g. a defined rise in serum creatinine or fall in eGFR). Participants with AKI are counted, not episodes; need for dialysis, continuous creatinine values, or undefined \"kidney dysfunction\" are not accepted as AKI. Trials reporting zero AKI events in both arms are retained with arm sizes; trials not reporting AKI are excluded. In multi-arm trials only the ESA and control arms are used, with multiple ESA doses combined (events and participants summed).",
+  "positive_direction": "A positive effect (RR &lt; 1, i.e. a positive Hedges g equivalent) means fewer participants developed acute kidney injury in the ESA arm than in the placebo/usual-care arm \u2014 that is, the ESA reduced AKI incidence (favours ESA).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "erythropoietin acute kidney injury randomized controlled trial",
+    "darbepoetin epoetin renal protection cardiac surgery trial",
+    "erythropoiesis-stimulating agent contrast-induced nephropathy prevention randomized"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults or children, in any clinical setting, comparing an erythropoiesis-stimulating agent with placebo or usual care without an ESA (ESA given to prevent AKI or to treat another condition)",
+    "Reports the number of participants developing acute kidney injury (by any stated definition) per arm, including trials reporting zero events in both arms",
+    "Any dose, route, schedule or duration of ESA; multi-arm trials eligible if an ESA arm and a non-ESA control arm can be identified"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, theoretical or modelling paper, conference abstract without data)",
+    "No comparison between an ESA treatment arm and a placebo/usual-care control arm (e.g. single-arm study, observational cohort without control, or control arm receiving another active kidney-protective drug)",
+    "No quantitative outcome data allowing an effect size (no AKI event counts and denominators, or only continuous creatinine/eGFR, dialysis need, or undefined 'kidney dysfunction' reported)",
+    "Completely unrelated to ESAs or to acute kidney injury outcomes"
+  ],
+  "moderators_to_extract": [
+    "Clinical setting (cardiac surgery, critical illness/trauma, contrast exposure, kidney transplantation, other)",
+    "AKI definition used (KDIGO, AKIN, RIFLE, creatinine threshold, eGFR fall)",
+    "ESA type and cumulative dose",
+    "Timing of administration relative to the renal insult (pre-, peri-, post-insult)",
+    "Population age group (adults vs children) and baseline kidney function",
+    "Sample size category and risk-of-bias / blinding status"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a random-effects risk ratio (ESA \u00f7 control) of participants developing AKI; RR &lt; 1 favours ESA. Use number randomised as denominator (number analysed if only that is reported, and note it). Combine multiple ESA dose arms into a single group; retain double-zero trials visibly. Do not pool mortality, dialysis requirement, haemoglobin, transfusion, thromboembolic events or length of stay.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "incidence of acute kidney injury"
+}

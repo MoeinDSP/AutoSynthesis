@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:d204d748",
+    "paper_title": "1cbbb7cd_1-s2.0-S0167494314001095-main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 64 eligible male patients to atorvastatin or control: \"The 64 participants were randomized (conducted with complete randomization using SPSS package for Windows, version 17.0) to atorvastatin treatment group (n = 32) or control group (n = 32)\", making this a parallel-group randomized controlled trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated (complete) randomization sequence is described and the extensive baseline table shows no significant between-group differences, but nothing is reported about allocation concealment (who generated/held the sequence, how assignments were delivered), leaving the possibility of foreknowledge of allocation.",
+        "evidence_quote": "\"The 64 participants were randomized (conducted with complete randomization using SPSS package for Windows, version 17.0) to atorvastatin treatment group (n = 32) or control group (n = 32).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label with no placebo, so participants and care providers knew the assigned condition (potentially affecting co-interventions such as calcium/vitamin D use, diet and activity), and the analysis appears to be of completers (n=30 per group) rather than intention-to-treat, although compliance was monitored and no obvious intervention deviations were reported.",
+        "evidence_quote": "\"The treatment group received 10 mg/day atorvastatin and lifestyle guidance, while the control group received lifestyle guidance only... our findings should be interpreted prudently due to the relatively small sample size, non-placebo-controlled design\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 4/64 participants (6%) were lost, balanced across arms (2 vs 2), with reasons given that are unrelated to the outcome (travel abroad, re-treatment for other reasons), so bias from missingness is unlikely.",
+        "evidence_quote": "\"After 1-year follow-up, 60 subjects completed the treatment with atorvastatin or control, respectively (Fig. 1). In the former, two patients were lost to follow-up at weeks 4 and 24, respectively. In the latter, two drop-outs occurred at weeks 4 and 24, respectively.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes (DXA BMD, immunoassay bone markers) are objective, standardized instrument-based measures applied identically at the same time points in both groups, but no blinding of DXA technicians/analysts or laboratory staff is reported in this open-label trial, and the between-group hip difference partly reflects a decline in the unblinded control arm (region-of-interest placement in DXA analysis is operator-dependent).",
+        "evidence_quote": "\"BMD values were analyzed with DXA applying the Lunar-Prodigy densitometer... The accuracy of the scanner was \u00b10.03 g/cm2 and the CV for repeated measurement was 1% at lumbar spine or total hip.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol is cited and no a priori sample-size calculation was performed; although primary/secondary endpoints are stated in the paper, many skeletal sites (left/right/mean hip, femoral neck, L1\u2013L4) and multiple markers and analytic approaches (between-group t-tests, repeated-measures ANOVA, within-group one-way ANOVA with LSD, correlation analyses) were reported, so selective emphasis on the significant total hip and within-group CTx findings cannot be excluded.",
+        "evidence_quote": "\"In addition, it will be better if we had pre-test estimation for the sample size.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small (n=64) 1-year RCT used computer-generated randomization with well-balanced baseline characteristics and minimal, balanced attrition, but it was open-label without placebo, allocation concealment and blinding of DXA/laboratory assessors were not described, and there was no registered protocol or pre-specified sample size amid many reported sites, markers and analyses. No single domain reaches 'high', so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:49d9d29f",
+    "paper_title": "9c9048b8_BPJ_Vol_9_No_3_p_1041-1048",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes itself as a double-blind clinical trial in which \"People qualified for the research were randomly divided into randomized blocks containing 4 people in each one,\" with an atorvastatin arm and a placebo (vitamin B1) arm, indicating explicit random allocation to conditions (despite a contradictory sentence about \"sequential nonrandom sampling,\" which appears to refer to recruitment rather than allocation).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Block randomization is claimed but the sequence-generation method and allocation concealment are not described, the text contradicts itself by also mentioning \"sequential nonrandom sampling,\" and baseline differences (e.g., mean age 27.7 vs 30.9 years; FBS 97.6 vs 106.6; arterial resistance 0.51 vs 0.64) suggest possible imbalance in a small sample with no baseline comparison testing reported.",
+        "evidence_quote": "\"People qualified for the research were randomly divided into randomized blocks containing 4 people in each one.\" ... \"Sequential nonrandom sampling method was used in both groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and assessors is asserted and a placebo tablet was used, but there is no information on adherence, co-interventions, loss or crossover, nor any statement of intention-to-treat analysis; the inconsistent description of administration (\"injected\" vs 40 mg pills) and treatment duration (\"6 weeks\" vs \"40 days\") raises concerns about implementation fidelity.",
+        "evidence_quote": "\"The patients and the measurers had no idea of the variables associated with attribution of the patients.\" ... \"For a period of 6 weeks, one group was injected with a daily dose of 40 mg atorvastatin, while the other group just received placebo.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Both arms report n=20 at analysis with no flow diagram, no statement of how many were randomized, screened or withdrew, so completeness of outcome data can only be inferred rather than verified.",
+        "evidence_quote": "\"The case group included 20 patients suffering from PCOS who received atorvastatin, while there were 20 patients with PCOS in the witness group who just received placebo.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Laboratory assays are objective and standardized and assessors are said to be blinded, but the ultrasound/Doppler outcomes (ovary size, resistance index) are operator-dependent with no report of cycle-phase standardization, single vs multiple sonographers, or inter/intra-observer reliability, and only RI was measured.",
+        "evidence_quote": "\"Vaginal Doppler and sonography were carried out by radiologist in sonography ward of Firouzgar Hospital. A Voluson 730 Expert machine with a 6 to 12 MHz micro convex vaginal probe was used for sonography.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or protocol is cited, no primary outcome is pre-specified among many measured outcomes (lipids, multiple androgens, FBS, ovary sizes, bilateral RI), and the key ovarian-artery conclusion rests on a post-hoc regression \"adjusting\" for the outcome variable itself after the unadjusted between-group comparisons were non-significant (p=0.357 and p=0.414), indicating selective/flexible reporting.",
+        "evidence_quote": "\"Forward linear regression was used to study the confounding effect.\" ... \"A statistically significant difference was observed between the two groups in terms of stromal arterial resistance of ovary having eliminated the confounding influence of RI variable.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 5: there is no registered protocol or pre-specified primary outcome among numerous measured endpoints, and the headline ovarian-artery finding depends on a post-hoc regression adjustment after non-significant between-group comparisons. Additional \"some concerns\" arise from unspecified sequence generation/allocation concealment with apparent baseline imbalance in a small (n=40) sample, absent participant-flow and adherence data, internally contradictory methods descriptions, and operator-dependent Doppler outcomes without reliability data."
+  },
+  {
+    "paper_id": "manual:3587c131",
+    "paper_title": "29f137e1_jcem0103",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random assignment of 40 PCOS patients to atorvastatin 20 mg or placebo using a computer-generated randomization list in a double-blind, placebo-controlled trial registered as ISRCTN24474824.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated allocation sequence with labeling performed by personnel not involved in the trial (implying concealment), and baseline characteristics (age, BMI, all biochemical parameters) did not differ significantly between groups.",
+        "evidence_quote": "\"Forty subjects who fulfilled both inclusion and exclusion criteria were randomly assigned to the atorvastatin or the placebo group based on a computer-generated randomization list. Each randomization number corresponded with one of the two possible interventions, and labeling was done by personnel not involved in the trial.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind design with matched placebo supplied by the sponsor and 99% compliance by pill count, but the analysis excluded the 3 non-compliant dropouts (per-protocol rather than intention-to-treat) and no formal blinding verification is described.",
+        "evidence_quote": "\"Compliance with treatment was calculated by counting the returned medications... After their exclusion, compliance was 99% in both groups.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "37 of 40 randomized participants (92.5%) completed, a small amount of attrition, but dropouts were unbalanced (2 placebo, 1 atorvastatin), all due to noncompliance, and were excluded without imputation or sensitivity analysis in a small sample.",
+        "evidence_quote": "\"Thirty-seven patients completed the study. Two patients from the placebo group ... and one patient from atorvastatin group ... dropped out of the study within 4 wk due to noncompliance.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory assays (hsCRP, HOMA-IR, testosterone) measured identically in both arms with documented analytical methods and CVs, so assessor knowledge is unlikely to have influenced measurement.",
+        "evidence_quote": "\"Serum testosterone was measured on an Architect analyzer... Plasma glucose was measured using a Synchron LX 20 analyzer (Beckman-Coulter), using the manufacturer's recommended protocol.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (ISRCTN24474824) with pre-specified primary (hsCRP) and secondary (HOMA-IR, testosterone) endpoints, but many additional outcomes and correlations are reported, the primary endpoint's between-group percent-change comparison was only borderline (P=0.05) while within-group analyses are emphasized, and no protocol-specified analysis plan is available for verification.",
+        "evidence_quote": "\"The primary endpoint of the study was a change in hsCRP, and the secondary endpoints were a change in homeostasis model assessment for insulin resistance (HOMA-IR) and total testosterone.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was adequately randomized and outcomes were objective laboratory measures, but the study carries some concerns from per-protocol exclusion of non-compliant dropouts without ITT analysis, modest unbalanced attrition in a small sample (n=37), and reliance on within-group comparisons alongside many unpre-specified secondary outcomes/correlations (primary hsCRP between-group difference only borderline at P=0.05)."
+  },
+  {
+    "paper_id": "manual:5ab8ba7c",
+    "paper_title": "61fb38e2_jcem4798",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation to atorvastatin 20 mg/d or placebo using a computer-generated randomization list in blocks of 6, prepared by pharmacy personnel not involved in the study; trial registered as a randomized, double-blind, placebo-controlled trial (NCT01072097).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Sequence generation and allocation concealment were adequate (computer-generated blocked list, sequentially numbered sealed envelopes prepared by uninvolved pharmacy staff), but several baseline characteristics relevant to the primary outcome differed significantly between groups (fasting glucose, fasting insulin, Matsuda index, testosterone, ALAT), and the authors acknowledge skewed group profiles.",
+        "evidence_quote": "\"Randomization was conducted using a computer-generated randomization list in blocks of 6, and it was carried out at the Oulu University Hospital Pharmacy by personnel not involved in the study. They also repacked the medication in closed envelopes, which were sequentially numbered.\" ... \"This was a small study where double blinding resulted in slightly skewed study group profiles where age and BMI tended to be higher in the atorvastatin group\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and investigators were blinded by identical placebo, but four women were excluded for non-adherence and two withdrew for musculoskeletal symptoms, and the analysis was per-protocol (only the 28 completers) rather than intention-to-treat.",
+        "evidence_quote": "\"During the first 4 months of the study, 4 women (2 subjects in the atorvastatin group and 2 in the placebo group) were excluded as a result of nonadherence to the study protocol... Twentyeight women completed the study (n  15 in the atorvastatin group; n  13 in the placebo group) and were included in the analysis\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 28 of 38 randomized women (74%) contributed outcome data, with 10 post-allocation exclusions/withdrawals (including for nonadherence and adverse effects plausibly related to statin), additional missing laboratory values and one IVGTT excluded, and no sensitivity analysis or imputation to show results were robust to missingness in this very small trial.",
+        "evidence_quote": "\"After allocation, one subject from the placebo group was excluded because of menorrhagia with anemia, and 3 subjects... were excluded as a result of T2DM found at baseline screening... 1 subject from the placebo group withdrew because of myalgia, and 1 from the atorvastatin group withdrew because of arthralgia.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective laboratory/physiological measures (OGTT, IVGTT minimal model, LC-MS/MS testosterone, automated immunoassays) measured identically in both groups under double-blind conditions, with all samples from a subject run in the same assay.",
+        "evidence_quote": "\"All samples (ie, baseline and 3 and 6 months) from the same subject were analyzed in the same assay.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with pre-specified primary (androgen secretion, glucose metabolism) and secondary outcomes, but many alternative operationalizations of glucose metabolism were reported, analyses relied largely on within-group pre-post comparisons rather than pre-specified between-group contrasts, and a post hoc exclusion of one participant was used to obtain a significant CRP effect.",
+        "evidence_quote": "\"However, 1 subject in the atorvastatin group most likely presented with infection... After excluding her from the analysis, there was a significant decrease in CRP levels in the atorvastatin group compared with the placebo group\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation was adequately generated and concealed, double-blinding was maintained, and outcomes were objective, 26% of randomized participants were lost post-allocation with a completers-only analysis and no sensitivity analysis, in a very small trial with notable baseline imbalance in glucose/insulin parameters. The missing-outcome-data domain therefore drives an overall judgment of high risk of bias."
+  },
+  {
+    "paper_id": "manual:a2df821e",
+    "paper_title": "b56ef8f6_nihms254278",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a double-blind, placebo-controlled trial in which \"subjects were randomized in a double-blind fashion to receive either atorvastatin 40 mg or placebo\", with a biostatistician-generated permuted block randomization scheme.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A statistician-generated permuted block sequence was held by the pharmacist with over-encapsulated drug/placebo, ensuring concealment, and baseline characteristics were reported as similar (though with n=20 some numeric imbalance, e.g., age 33.8 vs 29.4 and total T, is consistent with chance in a small trial).",
+        "evidence_quote": "The biostatistician generated a permuted block randomization scheme for the allocation sequence and provided it to the pharmacist. The atorvastatin and placebo were over-encapsulated by the pharmacist so that the participants, research coordinator who administered the intervention, and investigators who assessed the outcomes were blinded to group assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants, the coordinator administering the drug, and outcome assessors were blinded and analysis was by intention-to-treat, but adherence/compliance was not reported, 2 of 20 did not complete treatment, one placebo participant was on oral contraceptives, and the unmasking potential of marked lipid changes in a lipid-lowering trial is not addressed.",
+        "evidence_quote": "All analyses were performed by intention-to-treat using SAS software, version 9.1... Twenty eligible women were randomized and started the allocated treatment. Eighteen women completed their treatment. One woman was on oral contraceptives during the study."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Two of 20 randomized women (10%) did not complete treatment and the reasons, group allocation of dropouts, and whether follow-up outcome data were obtained are not reported; mixed-model analysis mitigates but does not eliminate the concern in such a small sample.",
+        "evidence_quote": "Twenty eligible women were randomized and started the allocated treatment. Eighteen women completed their treatment."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome (brachial artery FMD) and secondary biochemical outcomes were measured with standardized ultrasound protocols and validated laboratory assays identically at baseline and 6 weeks, with outcome assessors blinded to allocation.",
+        "evidence_quote": "investigators who assessed the outcomes were blinded to group assignment... All blood samples were analyzed in either the General Clinical Research Center or Core Endocrine Laboratory at the Penn State Hershey Medical Center using validated assays."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (FMD) was pre-specified and the trial was stopped early for funding reasons after an interim analysis, but no trial registration or protocol is cited, many exploratory secondary outcomes are reported with emphasis on significant within-group changes, and the authors concede these analyses were not pre-powered.",
+        "evidence_quote": "Conclusions for these secondary outcomes are exploratory in nature as they were not formally powered."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation and blinded outcome assessment were well executed, but concerns remain from unreported adherence, 10% non-completion with unexplained dropouts, early termination after an interim analysis, and emphasis on multiple unpowered, non-pre-registered secondary outcomes. The overall judgment is therefore 'some concerns', driven by domains 2, 3 and 5 in a very small (n=20), underpowered trial."
+  },
+  {
+    "paper_id": "manual:d3652dd0",
+    "paper_title": "9d431319_s11255-012-0126-z",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 120 ED patients to three arms using a computerized randomization program: \"The patients were randomized to 3 groups\" and \"For randomization, NCSS program was used.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used and baseline characteristics appear balanced (Table 1, no statistical comparison given), but allocation concealment is not described at all, and one arm received no medication so concealment was necessarily imperfect.",
+        "evidence_quote": "For randomization, NCSS program was used, and patients were blinded for the treatment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "With no placebo, patients in the control arm received nothing and so effectively knew they were untreated (and tadalafil/atorvastatin differ in dosing schedule and side-effect profile), care providers were unblinded, and 9 participants discontinued treatment with no intention-to-treat analysis described, so analysis appears to be of completers only.",
+        "evidence_quote": "The single blinding and lack of placebo are important limitations of the study"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Losses to follow-up and discontinuations (notably for \"lack of efficacy\", a reason plausibly related to the outcome, concentrated in the control and atorvastatin arms) total ~14 patients, yet the reported group denominators (41/40/39) equal the randomized numbers, so how missing data were handled is unclear and potentially outcome-related.",
+        "evidence_quote": "One patient in group 1, 2 patients in group 2 and 2 patients in group 3 were lost to follow up. Of the 9 discontinuations, 3 of them were in group 1..."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome tools (IIEF, NPT) are validated and applied identically across arms, but the primary IIEF outcome is self-reported by participants whose effective blinding is doubtful given the untreated control arm, and blinding of NPT assessors is not reported.",
+        "evidence_quote": "we think that single blinding does not affect the results significantly as an objective tool (NPT test) was used. Also IIEF questionnaires were filled by the patients themselves who were blinded to the treatment arms."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes are pre-specified in the Methods, but no trial registration or protocol is cited, a lipid-level subgroup analysis is reported post hoc as a \"secondary outcome\", and no adjustment for the multiple pairwise comparisons is described.",
+        "evidence_quote": "Primary outcome measures were the change in IIEF score and NPT results."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 2: the trial used a no-treatment control rather than placebo with only single blinding, so participants' awareness of assignment plausibly affected the self-reported primary outcome, and discontinuations were handled without a described intention-to-treat analysis. Additional some-concerns judgments for unreported allocation concealment, outcome-related attrition, and absence of a registered protocol compound this."
+  }
+]

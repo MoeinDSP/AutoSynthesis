@@ -1,0 +1,38 @@
+{
+  "research_question": "In patients with uremic (chronic kidney disease-associated) pruritus, what is the effect of kappa-opioid receptor agonists (e.g. difelikefalin, nalbuphine, nalfurafine) compared with placebo on pruritus severity measured on a 0-10 cm visual analogue scale (VAS), based on parallel-group studies?",
+  "treatment_label": "Kappa-opioid receptor agonist (difelikefalin, nalbuphine, nalfurafine, or other kappa agonist), pooled as one drug class",
+  "control_label": "Placebo",
+  "outcome_description": "Pruritus (itch) severity rated on a 0-10 cm visual analogue scale (VAS), where 0 = no itch and 10 = worst imaginable itch. Endpoint or change-from-baseline VAS itch scores in participants with uremic/CKD-associated pruritus, extracted as means with SDs (or convertible statistics) for the kappa-opioid agonist and placebo arms.",
+  "positive_direction": "A positive Mean Difference indicates that the kappa-opioid agonist reduced pruritus severity more than placebo (i.e. lower VAS itch scores, less itching, a better outcome for the treatment group).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "difelikefalin uremic pruritus randomized placebo-controlled trial",
+    "nalbuphine nalfurafine kappa opioid agonist itch hemodialysis trial",
+    "kappa opioid receptor agonist chronic kidney disease associated pruritus visual analogue scale effect"
+  ],
+  "inclusion_criteria": [
+    "Participants with uremic / chronic kidney disease-associated pruritus (including hemodialysis or peritoneal dialysis patients)",
+    "Evaluates a kappa-opioid receptor agonist (e.g. difelikefalin, nalbuphine, nalfurafine, or similar) against a placebo or control condition",
+    "Reports some quantitative itch/pruritus severity outcome, preferably a VAS-type itch score, for both groups"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion piece, case report, or purely theoretical/modelling paper)",
+    "No comparison between a kappa-opioid agonist treatment condition and a placebo/control condition",
+    "No quantitative outcome data from which an effect size can be computed (no means with SDs/SEs, t/F values, CIs, proportions, or odds ratios)",
+    "Crossover-design studies, or topic completely unrelated to kappa-opioid agonists for uremic pruritus"
+  ],
+  "moderators_to_extract": [
+    "Specific kappa-opioid agonist drug and dose",
+    "Route of administration (intravenous vs oral)",
+    "Treatment duration / length of follow-up (weeks)",
+    "Dialysis modality and baseline pruritus severity",
+    "Sample size category",
+    "Risk of bias / blinding and funding source"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "All included studies use the same 0-10 cm VAS pruritus scale, so results are pooled as a raw Mean Difference (MD) in VAS units rather than a standardized measure. Effects are signed so that a positive MD favors the kappa-opioid agonist (greater reduction in VAS itch score). Only parallel-group designs are pooled; crossover studies and the fixed-effects sensitivity analysis are handled in separate analyses of this review. All kappa-opioid agonist drugs are pooled together as a single drug class (no per-drug subgroups), with random-effects pooling.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pruritus severity (0-10 cm VAS)"
+}

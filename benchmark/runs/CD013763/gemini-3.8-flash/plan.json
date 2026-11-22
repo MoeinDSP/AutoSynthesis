@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of ultrasound-guided erector spinae plane block (ESPB), compared with no block, on cumulative postoperative opioid consumption at 24 hours in adults undergoing surgery?",
+  "treatment_label": "ultrasound-guided erector spinae plane block (ESPB)",
+  "control_label": "no block (general anaesthesia and usual analgesia only, no injection)",
+  "outcome_description": "cumulative postoperative opioid consumption over the first 24 hours after surgery (in milligrams of oral morphine equivalents)",
+  "positive_direction": "ESPB reduces 24-hour cumulative postoperative opioid consumption compared to no block (lower opioid use in ESPB group)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "erector spinae plane block postoperative opioid consumption trial",
+    "erector spinae block postoperative morphine trial",
+    "ESPB randomized controlled trial opioid consumption"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials evaluating ultrasound-guided erector spinae plane block (ESPB) versus a no-block control in adult surgical patients",
+    "Reports cumulative postoperative opioid consumption over the first 24 hours post-surgery",
+    "Provides quantitative outcome data convertible to oral morphine equivalents in milligrams with measures of central tendency and dispersion"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, conference abstracts without full data, editorials, commentaries, case reports, or study protocols)",
+    "No comparison between ESPB and a true no-block control group (e.g., trials with sham/saline injection control, or active comparison with other regional blocks/epidurals)",
+    "No quantitative 24-hour cumulative postoperative opioid consumption data that can produce an effect size (means/SDs or convertible medians/IQRs)",
+    "Studies conducted in pediatric populations (<18 years of age) or non-surgical/chronic pain settings"
+  ],
+  "moderators_to_extract": [
+    "Type of surgical procedure (e.g., thoracic, abdominal, spinal, breast, laparoscopic)",
+    "ESPB technique and regimen (single-shot vs. continuous catheter; local anesthetic type, concentration, and volume)",
+    "Timing of block administration (preoperative vs. postoperative)",
+    "Primary postoperative PCA opioid regimen and delivery route",
+    "Sample size per arm"
+  ],
+  "search_start_year": 2016,
+  "effect_size_note": "Pool as mean difference (MD) in milligrams of oral morphine equivalents (OME). All opioids must be converted to oral morphine equivalents using standard equianalgesic conversion factors. When median and IQR are reported, estimate mean and SD using standard methods (e.g., Wan et al. or Hozo et al.). If SE or SEM is reported, convert to SD = SE * sqrt(n). An MD < 0 indicates lower opioid consumption in the ESPB group.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cumulative 24-hour postoperative opioid consumption"
+}

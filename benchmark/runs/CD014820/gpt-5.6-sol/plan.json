@@ -1,0 +1,38 @@
+{
+  "research_question": "Among people at risk of acute kidney injury (including those undergoing cardiac surgery or kidney transplantation, experiencing critical illness or trauma, or receiving iodinated contrast), what is the effect of an erythropoiesis-stimulating agent compared with placebo or usual care without an ESA on the incidence of AKI during trial follow-up?",
+  "treatment_label": "Erythropoiesis-stimulating agent (including epoetin alfa, beta, or zeta; darbepoetin; methoxy polyethylene glycol-epoetin beta; or another ESA)",
+  "control_label": "Placebo or usual care without an erythropoiesis-stimulating agent",
+  "outcome_description": "Binary incidence of acute kidney injury during the trial's follow-up: number of participants who developed AKI out of the number randomized in each arm. Use each trial's own AKI definition and record it. If multiple definitions are reported, select KDIGO preferentially, then AKIN, then RIFLE; if none applies, use the trial's primary definition (such as a prespecified serum-creatinine rise or estimated-GFR decline). Count participants with at least one AKI event, not episodes. Do not substitute dialysis requirement, continuous serum creatinine, or continuous eGFR for AKI incidence.",
+  "positive_direction": "For standardized orientation, a positive effect means fewer participants develop AKI with an ESA than with control (favours ESA); for the requested risk ratio itself, RR below 1 favours ESA and RR above 1 favours control.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "erythropoiesis stimulating agent acute kidney injury randomized trial",
+    "epoetin darbepoetin AKI placebo controlled",
+    "erythropoietin renal protection cardiac surgery critical illness contrast transplantation trial"
+  ],
+  "inclusion_criteria": [
+    "Original empirical trials in people considered at risk of AKI, including perioperative, critical illness, trauma, contrast-exposure, or kidney-transplant settings.",
+    "A comparison of any erythropoiesis-stimulating agent with placebo or usual care that does not include an ESA.",
+    "Reports AKI incidence, or sufficient quantitative information to derive the number of randomized participants who developed AKI and the randomized total in each arm during trial follow-up."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers).",
+    "No comparison between an ESA treatment condition and a placebo or usual-care condition without an ESA.",
+    "No quantitative outcome data capable of producing an effect size (for this outcome, arm-level AKI event counts and totals or equivalent proportions are required; studies reporting only continuous renal markers, dialysis, means and SDs, t/F-values, odds ratios without recoverable AKI incidence data, or AKI episode counts are insufficient).",
+    "Completely unrelated to ESA use for prevention or reduction of AKI in people at risk of AKI."
+  ],
+  "moderators_to_extract": [
+    "Clinical risk setting (cardiac surgery, critical illness/sepsis, trauma, contrast exposure, kidney transplantation, or other)",
+    "ESA agent, dose, route, number of doses, and timing relative to the AKI risk exposure",
+    "AKI definition used (KDIGO, AKIN, RIFLE, trial-specific creatinine threshold, eGFR decline, or other)",
+    "Length and timing of outcome follow-up",
+    "Control type (placebo versus usual care)",
+    "Study design and risk-of-bias features, including randomization, allocation concealment, blinding, and attrition"
+  ],
+  "search_start_year": 1989,
+  "effect_size_note": "Pool arm-level participant risks as risk ratios calculated as risk in the ESA arm divided by risk in the control arm, using a random-effects model. RR < 1 indicates fewer participants with AKI and favours ESA. Analyze participants with AKI, not AKI episodes, using intention-to-treat randomized denominators where available. For trials with multiple eligible ESA arms sharing one control, combine eligible ESA arms when clinically appropriate or otherwise split the shared control to avoid double counting. Apply an appropriate prespecified continuity correction for zero cells; trials with zero AKI events in both arms do not directly inform the conventional RR but should be retained and described. Record the trial's AKI definition and apply the hierarchy KDIGO, then AKIN, then RIFLE, then the trial's primary definition. Assess heterogeneity with tau-squared, I-squared, and a prediction interval when estimable; conduct sensitivity analyses by AKI definition, risk of bias, and zero-event handling. Report PRISMA 2020 study flow, study characteristics, risk of bias, forest plot, and certainty of evidence.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "acute kidney injury incidence"
+}

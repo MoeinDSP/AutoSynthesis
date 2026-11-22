@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults aged 18 years or older living with obesity, what is the effect of once-weekly tirzepatide at any dose, administered for at least 6 months, compared with placebo, on percentage change in body weight from baseline at medium-term follow-up (6 to 24 months)?",
+  "treatment_label": "Once-weekly tirzepatide (any dose; dose arms combined where appropriate)",
+  "control_label": "Placebo",
+  "outcome_description": "Percentage change in body weight from baseline, expressed in percentage points, at the assessment closest to the end of the 6-to-24-month window. Search for and extract this outcome whether primary or secondary and wherever reported in text, tables, figures, or legends. Prefer, in order: (1) adjusted tirzepatide-minus-placebo estimated treatment difference with 95% CI from ANCOVA or a mixed model under any estimand, used directly with SE=(upper CI-lower CI)/3.92; (2) arm-level estimated or least-squares means with SE or 95% CI, converting SE to SD as SE*sqrt(n); (3) arm-level raw means with SDs. Use analysed n when reported, otherwise randomised n; randomised n is appropriate for treatment-regimen analyses. For multi-dose trials, use a reported pooled tirzepatide group; otherwise combine dose arms by pooling means and SDs and summing n, or, if only dose-specific treatment differences are available, use 15 mg versus placebo. For randomised-withdrawal trials, measure change from randomisation through the randomised period; likewise use change from randomisation after an intensive lifestyle lead-in. Combine two sub-studies within one paper when arm-level data permit, or retain their separate tirzepatide-versus-placebo estimates within the trial when only separate contrasts are available. Exclude follow-up beyond 24 months and off-treatment periods. Do not extract or pool body weight in kg, BMI, waist circumference, categorical weight-loss thresholds, adverse events, cardiovascular events, quality of life, mortality, glycaemic outcomes, lipid outcomes, or any outcome other than percentage body weight change.",
+  "positive_direction": "For standardized directional coding, a positive Hedges g would mean a greater reduction in percentage body weight with tirzepatide than with placebo (favouring tirzepatide). For the explicitly requested raw mean difference, retain the stated tirzepatide-minus-placebo scale, so MD below 0 percentage points means greater weight loss and favours tirzepatide.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "tirzepatide obesity placebo randomized trial body weight percentage change",
+    "tirzepatide once weekly placebo controlled weight loss adults",
+    "tirzepatide obesity comorbidity randomized placebo percentage body weight outcome"
+  ],
+  "inclusion_criteria": [
+    "Original parallel-group randomised controlled trials comparing once-weekly tirzepatide at any dose with placebo in adults aged 18 years or older living with obesity, including populations with comorbidities such as type 2 diabetes, prediabetes, obstructive sleep apnoea, or heart failure with preserved ejection fraction.",
+    "Tirzepatide exposure and randomised comparison lasting at least 6 months, with an eligible on-treatment assessment between 6 and 24 months; randomised-withdrawal and intensive-lifestyle-lead-in designs are eligible when change is measured from randomisation.",
+    "Reports percentage change in body weight from baseline quantitatively as an adjusted treatment difference with uncertainty, arm-level estimated means with SE/CI, or arm-level raw means with SDs, including when this is a secondary outcome or appears only in results text, tables, figures, or figure legends."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible treatment-control comparison: exclude studies without a tirzepatide-versus-placebo randomised comparison, nonrandomised studies, cross-over trials, active-comparator-only trials, and comparisons shorter than 6 months or assessed only outside the 6-to-24-month window.",
+    "No quantitative percentage-body-weight-change data capable of producing the requested effect size, such as an estimated difference with 95% CI, arm means with SD/SE/CI, t/F statistics, proportions, or other sufficient statistics; threshold p-values alone are insufficient when no usable estimate is reported.",
+    "Completely unrelated to tirzepatide treatment of adults living with obesity or reporting only ineligible outcomes such as weight in kg, BMI, waist circumference, categorical weight-loss response, safety, cardiovascular events, quality of life, mortality, glycaemic measures, or lipids."
+  ],
+  "moderators_to_extract": [
+    "Tirzepatide dose strategy (pooled doses, fixed dose, maximum tolerated dose, or highest-dose contrast)",
+    "Participant comorbidity or clinical population (e.g., type 2 diabetes, obstructive sleep apnoea, HFpEF, or obesity without the specified comorbidity)",
+    "Follow-up duration in weeks/months within the 6-to-24-month window",
+    "Trial design and baseline anchor (standard parallel group, randomised withdrawal, or lifestyle lead-in)",
+    "Estimand/analysis type and source of estimate (treatment-regimen vs efficacy; adjusted direct contrast vs arm-level data)",
+    "Background co-intervention or sub-study stratum (e.g., intensive lifestyle intervention or background therapy)"
+  ],
+  "search_start_year": 2015,
+  "effect_size_note": "Pool tirzepatide-minus-placebo mean differences in percentage points using a random-effects model. Preserve the raw sign convention: MD < 0 indicates more weight loss with tirzepatide and favours tirzepatide. For an adjusted treatment difference and 95% CI, use the contrast directly and calculate SE=(upper-lower)/3.92; do not require arm SDs, an exact p-value, or an F statistic. For arm-level estimates, derive SD from SE as SD=SE*sqrt(n) where needed. Use analysed n if stated, otherwise randomised n. Avoid double-counting a shared placebo: preferentially pool tirzepatide dose arms; if this is impossible because only dose-specific contrasts are reported, select 15 mg versus placebo. Assign arms from treatment descriptions rather than column order. Use one assessment per trial, closest to the end of the 6-to-24-month window, and exclude extensions after 24 months and off-treatment periods. Quantify heterogeneity (tau-squared and I-squared), report the pooled MD with 95% CI and prediction interval when estimable, examine influence/outliers and prespecified moderators when enough studies are available, and assess small-study effects only when the number of independent comparisons is adequate. Document study selection with a PRISMA 2020 flow diagram, duplicate screening/extraction, risk-of-bias assessment using RoB 2, and certainty of evidence using GRADE.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "percentage change in body weight from baseline"
+}

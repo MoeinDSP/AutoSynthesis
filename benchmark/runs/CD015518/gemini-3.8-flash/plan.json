@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of resistance training during anticancer therapy, compared with no training, on cancer-related fatigue measured at 12 weeks or less, in people with cancer?",
+  "treatment_label": "resistance training during anticancer therapy",
+  "control_label": "no training (usual care or waitlist control)",
+  "outcome_description": "Cancer-related fatigue measured at 12 weeks or less from baseline/intervention start",
+  "positive_direction": "A positive effect size indicates lower fatigue (better clinical outcome) in the resistance training group compared to the control group.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "resistance training anticancer therapy cancer related fatigue trial",
+    "strength exercise oncology fatigue controlled study",
+    "resistance exercise chemotherapy fatigue quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Studies of individuals with cancer receiving active anticancer therapy (e.g., chemotherapy, radiation, hormone therapy)",
+    "Interventions incorporating resistance training compared against a no-training or usual care control condition",
+    "Quantitative assessment of cancer-related fatigue measured at or before 12 weeks"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded)",
+    "No comparison between a resistance training group and a non-exercise or usual-care control group",
+    "No quantitative outcome data for fatigue that can produce an effect size (e.g., means and standard deviations, change scores, or test statistics)",
+    "Fatigue assessed exclusively after 12 weeks or completely unrelated to resistance training during active anticancer therapy"
+  ],
+  "moderators_to_extract": [
+    "cancer type (e.g., breast, prostate, mixed/other)",
+    "anticancer therapy type (chemotherapy, radiation therapy, androgen deprivation/hormone therapy)",
+    "supervision level (fully supervised, partially supervised, or unsupervised)",
+    "intervention duration in weeks (<=12 weeks)",
+    "fatigue measurement scale/instrument"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Standardized mean difference (Hedges g) calculated such that positive values indicate reduced fatigue in the resistance training group.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cancer-related fatigue"
+}

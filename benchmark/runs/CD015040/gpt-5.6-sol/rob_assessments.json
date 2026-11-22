@@ -1,0 +1,278 @@
+[
+  {
+    "paper_id": "manual:9b2c217c",
+    "paper_title": "b349899a_0706743720923064",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports random sequence generation and allocation of participants to active 1-Hz, active 10-Hz, sham 1-Hz, or sham 10-Hz rTMS with concealed allocation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random sequence generation and envelope allocation concealment were reported, but the sequence-generation method and safeguards for the envelopes were not described, and the small groups showed some potentially meaningful baseline imbalances despite nonsignificant tests.",
+        "evidence_quote": "Participants were randomized by random sequence generation 2:2:1:1 with allocation concealment by the envelope method"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and raters were intended to be blinded, medications and psychotherapy were held stable, and intention-to-treat mixed models were used, but the treatment nurse was unblinded and blinding integrity was not assessed, leaving uncertainty about intervention-related deviations or unblinding.",
+        "evidence_quote": "The rTMS was administered solely by the clinic\u2019s rTMS nurse (S.W.) who was unblinded to the protocol."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Treatment-end primary outcome data were available for nearly all randomized participants, with only two noncompleters among 31 and intention-to-treat mixed-model analysis; the severely incomplete 3-month data were appropriately not analyzed.",
+        "evidence_quote": "Study completers: 10 (90.9%) [1-Hz], 9 (100%) [10-Hz], 8 (88.8%) [sham]."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome was measured consistently using the validated clinician-administered CAPS-IV by a blinded rater, but active and sham stimulation may have been distinguishable and the study did not verify blinding integrity, so assessor influence cannot be fully excluded.",
+        "evidence_quote": "This semistructured instrument was administered by a blinded rater at baseline, at the conclusion of the blinded treatment phase, and at 3-month follow-up."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the primary outcome was identified, but no prespecified protocol or statistical analysis plan is presented to establish that the reported mixed-model contrasts and covariate-adjusted analysis were selected without knowledge of the results.",
+        "evidence_quote": "We conducted a 2-week, double-blind (participants and raters) randomized sham-controlled study of rTMS in the treatment of PTSD (NCT01806168)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. The treatment-end analysis had little missing data and used blinded outcome assessment and intention-to-treat mixed models, but incomplete reporting of sequence/concealment procedures, unverified blinding with an unblinded treatment nurse, and insufficient information about prespecified analyses create concerns in several domains."
+  },
+  {
+    "paper_id": "manual:1235e2f1",
+    "paper_title": "41a5b36c_j.biopsych.2021.04.019",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, double-blind, sham-controlled trial; the statistician generated a stratified blocked random sequence and allocation was implemented through an interactive web-based system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated with stratified random blocks, implemented through a web-based system that concealed assignment, and reported baseline characteristics were balanced.",
+        "evidence_quote": "The study statistician generated the randomization allocation sequence using a stratified blocking method with a random block size (2, 4, 6, or 8 for each block). Participants were assigned to the intervention according to an interactive webbased randomization system."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and operators were blinded with matched sham procedures and stable concomitant treatment was required, but the predefined primary efficacy analysis excluded participants with major protocol deviations rather than using intention-to-treat, creating potential bias from deviations even though an ITT analysis was also reported.",
+        "evidence_quote": "The per-protocol analysis set served for the efficacy assessment as predefined in the protocol. The efficacy analysis on the intention-to-treat dataset is provided as well."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 91 of 125 randomized participants reached the week-5 primary endpoint, and the text provides no convincing evidence that this substantial missingness was unrelated to outcomes or handled with a method robust to informative missingness.",
+        "evidence_quote": "Of 125 participants included in the interim safety analysis performed on January 17, 2020, 109 (per-protocol) participants without major protocol deviations were included in the main preplanned efficacy analysis, and 91 reached the primary end point at week 5."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The validated clinician-administered CAPS-5 was measured consistently by trained, certified raters who were blinded and excluded from treatment sessions, making differential measurement unlikely.",
+        "evidence_quote": "All efficacy outcome measures were performed by a blinded rater who was not permitted to attend the treatment sessions. Raters were required to pass a rater certification program developed to ensure adequate and reliable assessment and scoring skills."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary endpoint and time point were clearly prespecified, and the authors state that the efficacy analysis and interim analysis were preplanned, with no clear indication that the reported primary result was selected from multiple eligible analyses.",
+        "evidence_quote": "The study was registered in ClinicalTrials.gov, the National Institutes of Health clinical trials registry (NCT02479906)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall RoB 2 risk is high because substantial primary-outcome data were missing (only 91 of 125 randomized participants reached week 5) without evidence sufficient to exclude missingness-related bias. Additional concerns arise because the prespecified main efficacy analysis was per protocol rather than intention-to-treat, although randomization, blinding, outcome measurement, and prospective registration were otherwise strong."
+  },
+  {
+    "paper_id": "manual:dfd87a17",
+    "paper_title": "ed40ee44_j.brs.2011.02.002",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that the 20 participants were randomly assigned to active rTMS or sham rTMS.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment was stated and the groups were equal in size, but the sequence-generation and allocation-concealment methods were not reported, and there were potentially meaningful baseline differences in symptom severity and comorbidity in this very small trial.",
+        "evidence_quote": "Subjects were then randomly assigned to either active rTMS treatment or sham rTMS."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "A visually and acoustically matched sham and stable concomitant-treatment requirements reduced the likelihood of deviations, but participant blinding was not verified, the authors acknowledged it might have failed, and no intention-to-treat analysis was explicitly described.",
+        "evidence_quote": "Although we did use a sham device and every effort was made to blind subjects to treatment assignment, it is possible that our blinding was not effective."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Results appear to use all 10 participants per group at baseline and immediately posttreatment, but participant flow, exclusions after randomization, and completeness of follow-up outcome data were not explicitly reported.",
+        "evidence_quote": "Of the 10 subjects who received rTMS, six showed a 10 point or greater worsening in PTSD symptoms between the immediate posttreatment assessment and the 2 month posttreatment assessment."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "PTSD outcomes were measured in both groups at the same scheduled times using established instruments, and clinician-administered assessments were completed by a rater blinded to treatment assignment; self-reported outcomes could be affected by imperfect participant blinding, but the principal clinician-rated CAPS assessment was protected.",
+        "evidence_quote": "All assessments were completed by research psychologist (B.L.) blinded to whether the patients were receiving active or sham treatments."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan was reported, while several outcomes, time points, and within- and between-group comparisons were available, creating scope for selective reporting or analysis.",
+        "evidence_quote": "Subjects were assessed at baseline, after 10 rTMS sessions, 1 month after the last session, and 2 months after the last session. The following instruments were used."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall RoB 2 judgment is some concerns. The trial used a sham intervention and blinded outcome rater, but sequence generation and allocation concealment were unreported, participant blinding and intention-to-treat analysis were uncertain, attrition reporting was incomplete, and no preregistration or prespecified analysis plan was provided."
+  },
+  {
+    "paper_id": "manual:ba3ee26f",
+    "paper_title": "9cb5698b_j.brs.2012.07.008",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 30 enrolled PTSD patients were randomly allocated to one of three treatment groups, so RoB 2 applies.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation is stated and reported baseline differences were not statistically significant, but the sequence-generation and allocation-concealment methods are not described.",
+        "evidence_quote": "Patients were randomly allocated to one of 3 treatment groups"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Sham stimulation was designed to mimic active treatment and concomitant medication was kept stable, but the traumatic versus positive scripts made exposure assignment apparent to participants, blinding success was not evaluated, and the principal analysis excluded patients receiving fewer than eight sessions despite ITT results also being presented.",
+        "evidence_quote": "Analysis of outcome measures took place on 26 patients who received at least 8 treatment sessions."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Only 26 of 30 randomized participants entered the main outcome analysis, exclusions were related to tolerability or adverse effects and were concentrated in active-treatment arms, and the reported ITT approach and handling of missing outcomes are not explained, so missingness could bias this very small trial.",
+        "evidence_quote": "Analysis of outcome measures took place on 26 patients who received at least 8 treatment sessions."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary CAPS outcome is an established clinician-administered measure, was assessed at the same scheduled times in all groups, and ratings were performed by a blinded experienced rater.",
+        "evidence_quote": "All symptoms scales and assessments were done by a blinded experienced rater or self-rated by the patients."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "Although the trial was registered, the report emphasizes a significant CAPS intrusion-subscale result and within-group preplanned contrasts despite a nonsignificant primary total-CAPS group-by-time interaction, while multiple scales, subscales, populations, and analysis choices create substantial scope for selective reporting and no prespecified analysis plan is provided.",
+        "evidence_quote": "Repeated measures ANOVA (performed for the baseline and 5th week data) on the CAPS of all groups did not indicate significant group*time interaction (P = 0.12), however, preplanned comparisons showed the improvements in CAPS score to be significant only in the EXP-STIM group"
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by potentially informative exclusions/missing outcome data in a very small trial and substantial concern about selective emphasis among multiple outcomes and analyses. The randomization and concealment procedures were also insufficiently reported."
+  },
+  {
+    "paper_id": "manual:1a41a601",
+    "paper_title": "932ccf4b_nihms-1531538",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 50 participants were randomized 1:1 to active versus sham iTBS, stratified by PTSD severity and sex.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random allocation was explicit, stratification and separation of randomization/coil selection from treatment and assessment were reported, and baseline groups were broadly balanced, but the method used to generate the sequence and whether the sequence itself was concealed until enrollment were not described.",
+        "evidence_quote": "Participants were randomized in a 1:1 design, stratified by PTSD symptom severity and sex. A study member uninvolved with TBS delivery performed randomization."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The double-blind sham-controlled phase used staff separation for coil selection, participant blinding was empirically successful, ongoing treatments were required to remain unchanged, and analyses were described as intention-to-treat among all randomized participants who began treatment.",
+        "evidence_quote": "Participants were unable to accurately guess group assignment (ChiSq=1.43, p=.49)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only three of 50 randomized participants withdrew during the blinded phase, and missing outcomes were addressed using multiple imputation or maximum-likelihood estimation, making material bias from missingness unlikely.",
+        "evidence_quote": "Only three participants (2 sham, 1 active) withdrew during the double-blind phase."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The study used established clinician- and self-reported measures applied across both groups, clinician-administered scales were obtained by blinded raters, and participant blinding was successful, limiting differential measurement bias.",
+        "evidence_quote": "Blinded raters obtained all clinician-administered scales."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The paper reports several outcomes and both ANOVA and longitudinal mixed-model analyses, but no accessible prespecified protocol, registration identifier, or analysis plan is provided to verify that outcome measures, time points, and analyses were selected before results were known.",
+        "evidence_quote": "Primary outcome measures included acceptability (retention rates), changes in PTSD (clinician- and self-rated symptoms), quality of life, social and occupational function, and depression."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incomplete reporting of random-sequence generation/allocation concealment and the inability to verify prespecified outcomes and analyses. Blinding, outcome measurement, retention, missing-data methods, and intention-to-treat analysis during the randomized double-blind phase were otherwise reassuring."
+  },
+  {
+    "paper_id": "manual:9dc946b4",
+    "paper_title": "6c630bbc_yct.0000000000000505",
+    "design_classification": "randomized",
+    "design_rationale": "The Methods explicitly state that the eight treated participants were randomized among active/sham and left/right rTMS cells using a simple randomization method.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random assignment is explicit, but the sequence-generation and allocation-concealment procedures are insufficiently described, and substantial baseline imbalances in depression and medication use raise concern despite the very small sample making chance imbalance plausible.",
+        "evidence_quote": "After randomization (simple randomization method), each subject was assigned an initial smart card (active or sham)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Active versus sham delivery was smart-card controlled and the study was described as double-blinded, but masking success, intervention deviations, and the analysis population/approach were not adequately reported; moreover, the unequal randomized groups and incomplete measures leave the handling of assigned participants unclear.",
+        "evidence_quote": "The device was the same TMS system used in the optimizing TMS for depression trial, but used a smart card system...to control active versus sham stimulation delivery."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Although the four withdrawals occurred before randomization, secondary outcome datasets among the eight randomized participants were explicitly incomplete and omitted from the results, creating a high risk that missingness biased the reported treatment outcomes.",
+        "evidence_quote": "Data sets for the other secondary outcome measures were incomplete and, thus, not included here in results."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated clinician-rated PTSD and depression instruments were used and treatment providers were separate from raters, but the paper does not clearly confirm that outcome raters remained blinded or report masking success, while subjective ratings could be influenced by knowledge of treatment.",
+        "evidence_quote": "Trained treaters, who were not raters, delivered the treatment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, several weekly outcomes and time points were available, and incomplete secondary measures were excluded while selected CAPS and HRSD findings were presented, allowing substantial selective-reporting risk.",
+        "evidence_quote": "Several secondary measures were administered weekly, to monitor mood and PTSD symptoms throughout treatment. These included the CAPS, Hamilton Rating Scale for Depression and Anxiety, and the PTSD Checklist."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because incomplete outcome datasets were omitted and the availability of multiple outcomes and weekly time points without a reported prespecified analysis creates high risk of selective reporting. Additional concerns arise from limited reporting of allocation concealment, masking success, and analysis according to randomized assignment."
+  }
+]

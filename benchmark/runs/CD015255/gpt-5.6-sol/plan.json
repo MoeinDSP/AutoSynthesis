@@ -1,0 +1,38 @@
+{
+  "research_question": "Among children with otitis media with effusion (OME), what is the effect of intranasal corticosteroids, with or without co-treatments administered equally in both eligible arms, versus no intranasal steroid treatment (no treatment or the same co-treatment alone) on persistence of middle ear effusion at the first assessment up to 1 month (operationally \u22646 weeks) after treatment initiation?",
+  "treatment_label": "Intranasal corticosteroid (e.g., mometasone, beclomethasone, budesonide, or fluticasone), with any co-treatment given equally to both arms",
+  "control_label": "No intranasal steroid treatment (no treatment or the same co-treatment alone), excluding placebo nasal spray controls",
+  "outcome_description": "Dichotomous persistence of OME at the first post-baseline assessment occurring no later than 6 weeks after treatment initiation, extracted as events and total participants per arm. Persistence includes effusion still present, type-B tympanogram, type-C2 or non-type-A tympanogram when defined by the study as failure, not cured, no improvement, or persistent effusion. Resolution/cure includes type-A tympanogram or complete clearance; when only resolution or improvement counts are reported, derive persistence as total minus resolved. For ordinal or multi-category headline outcomes, seek post-treatment tympanogram or cure/no-cure tables and derive persistence rather than discarding the study. Prefer child-level data; if only ear-level data are available, sum events and totals across right and left ears and never select one ear alone. Do not include hearing thresholds or air-bone gap, symptoms or parent-reported improvement, quality of life, adverse events, or outcomes measured after 6 weeks.",
+  "positive_direction": "A positive Hedges g, if a standardized effect is displayed, means less persistent middle ear effusion and therefore favors intranasal steroids; for the prespecified pooled risk ratio, RR below 1 favors intranasal steroids.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "intranasal corticosteroid children otitis media with effusion trial persistence",
+    "nasal steroid pediatric glue ear controlled treatment outcome",
+    "mometasone beclomethasone budesonide fluticasone otitis media effusion comparison"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of children with OME that compare an intranasal corticosteroid regimen with an eligible no-steroid condition; co-treatments are permitted when administered equally to the compared arms.",
+    "Studies reporting quantitative information on persistence, resolution, cure, improvement, or post-treatment tympanogram categories from which persistent effusion event counts and arm totals can be obtained or derived at a first assessment no later than 6 weeks.",
+    "Studies reporting outcomes per child or per ear; ear-level studies are eligible when data for both ears can be combined."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between an intranasal-steroid treatment condition and an eligible no-steroid control condition receiving no treatment or the same co-treatment; also exclude oral/systemic steroid comparisons, placebo nasal-spray controls, and unmatched active-treatment arms.",
+    "No quantitative outcome data capable of producing an effect size\u2014specifically, no usable event counts and totals, means with SDs, t/F statistics, proportions, or odds ratios\u2014and persistence counts cannot be derived from resolution, cure, improvement, or tympanogram data.",
+    "Completely unrelated to pediatric OME or reporting only ineligible outcomes/time points, such as hearing thresholds or air-bone gap, symptoms or parent-reported improvement, quality of life, adverse events, or assessments after 6 weeks."
+  ],
+  "moderators_to_extract": [
+    "Specific intranasal corticosteroid and dose",
+    "Treatment duration",
+    "Use and type of equally administered co-treatment",
+    "Outcome ascertainment/definition of persistence",
+    "Unit of analysis (children versus ears)",
+    "Timing of the eligible follow-up assessment"
+  ],
+  "search_start_year": 1950,
+  "effect_size_note": "Pool study-level risk ratios using a random-effects model. Define the event as persistent effusion, so RR < 1 favors intranasal steroids. Extract events and totals for steroid and control arms; convert resolution/cure to persistence by subtracting resolved cases from the relevant total. For ear-level reporting, sum right- and left-ear events and totals and do not use one ear alone. In multi-arm trials, retain only the intranasal-steroid arm and the no-steroid arm with the same co-treatment, ignoring oral-steroid, montelukast, antihistamine-only, and other active arms. Use the first eligible assessment at \u22646 weeks. Document effect estimator, random-effects method, confidence intervals, heterogeneity (tau-squared and I-squared), and sensitivity analyses for child- versus ear-level data and alternative persistence definitions where feasible.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "persistence of otitis media with effusion"
+}

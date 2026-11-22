@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with acute ischaemic stroke, does Cerebrolysin or Cortexin, given alone or as an add-on, reduce all-cause mortality by the longest reported trial follow-up compared with saline placebo in randomised placebo-controlled trials?",
+  "treatment_label": "Cerebrolysin or Cortexin, alone or as an add-on to usual care or another co-intervention",
+  "control_label": "Saline placebo with otherwise comparable usual care or co-intervention",
+  "outcome_description": "All-cause death during trial follow-up, extracted as the number who died out of the number randomised in each arm at the longest mortality follow-up reported (for example, day 90 or trial end). Include deaths from any cause wherever reported, including safety and adverse-event sections; do not substitute stroke-related mortality or functional outcomes. Use analysed denominators when clearly reported and randomised group sizes otherwise. For trials with multiple eligible treatment dose groups and one placebo group, sum deaths and participants across treatment groups and compare with the placebo group once. Retain and flag trials with zero deaths in both arms; such trials are non-estimable for a conventional individual risk ratio but remain in the study table and may be handled according to the prespecified RR model's zero-event method.",
+  "positive_direction": "For harmonised effects, a positive Hedges g would mean lower all-cause mortality and therefore favour Cerebrolysin or Cortexin; for the requested risk ratio, RR values below 1 favour Cerebrolysin or Cortexin and values above 1 favour placebo.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "Cerebrolysin acute ischemic stroke randomized placebo mortality trial",
+    "Cortexin acute ischaemic stroke randomized placebo death trial",
+    "Cerebrolysin Cortexin stroke controlled placebo safety deaths"
+  ],
+  "inclusion_criteria": [
+    "Original randomised trial in adults with acute ischaemic stroke comparing Cerebrolysin or Cortexin, alone or as an add-on, with saline placebo; include all doses, treatment durations, and otherwise balanced co-interventions, including alteplase.",
+    "Trial reports or permits extraction of all-cause deaths and arm denominators at any follow-up, with the longest reported mortality follow-up selected for analysis.",
+    "All eligible trials identified in the uploaded papers or associated reports, regardless of publication status, language, dose, duration, or setting."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical trial report, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and protocols.",
+    "No comparison between an eligible Cerebrolysin or Cortexin treatment arm and a saline-placebo control condition.",
+    "No quantitative outcome data capable of producing an effect size after checking all linked reports and safety/adverse-event sections; for mortality this requires arm-level death counts or equivalent recoverable proportions/odds with denominators.",
+    "Completely unrelated to Cerebrolysin or Cortexin treatment in adults with acute ischaemic stroke."
+  ],
+  "moderators_to_extract": [
+    "Study drug (Cerebrolysin versus Cortexin)",
+    "Treatment regimen and total dose or dose-group structure",
+    "Use and type of balanced co-intervention, including alteplase",
+    "Time from stroke onset to treatment initiation",
+    "Longest mortality follow-up duration",
+    "Baseline stroke severity and trial setting"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Pool arm-level all-cause mortality using risk ratios for Cerebrolysin/Cortexin versus placebo, based on event counts and denominators at the longest reported mortality follow-up. Combine multiple eligible treatment dose groups by summing their deaths and participants, while entering the shared placebo group only once. Prefer analysed denominators when reported; otherwise use randomised group sizes. Verify mortality in efficacy, safety, adverse-event, flow-diagram, and supplementary sections and reconcile duplicate or companion reports. Keep double-zero trials in extraction and describe them explicitly; document the prespecified software/model treatment of zero cells and perform a sensitivity analysis using an appropriate continuity-correction or alternative zero-event method if needed. Values below RR=1 favour treatment.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

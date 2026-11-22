@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with established cardiovascular disease receiving secondary prevention, what is the effect of interleukin-1 receptor antagonist therapy with anakinra or canakinumab, compared with placebo or usual care, on all-cause mortality at the longest reported follow-up? The primary synthesis will combine both drugs in one class-level random-effects meta-analysis of risk ratios.",
+  "treatment_label": "Interleukin-1 receptor antagonist therapy (anakinra or canakinumab; all eligible doses or regimens combined within each trial)",
+  "control_label": "Placebo or usual care",
+  "outcome_description": "All-cause mortality: number of participants who died from any cause out of the number randomised in each treatment arm, assessed at the longest follow-up reported. Cardiovascular death and other non-all-cause outcomes will not be substituted.",
+  "positive_direction": "A positive Hedges g, if a standardized effect is displayed secondarily, means fewer all-cause deaths and therefore an outcome favoring interleukin-1 receptor antagonist therapy; for the prespecified pooled risk ratio, RR below 1 favors the drug.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "anakinra cardiovascular disease randomized trial mortality",
+    "canakinumab cardiovascular secondary prevention controlled trial death",
+    "interleukin-1 antagonist established cardiovascular disease placebo mortality"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling adults with established cardiovascular disease, such as previous myocardial infarction, heart failure, peripheral artery disease, or stroke (secondary prevention populations).",
+    "Trials comparing anakinra or canakinumab with placebo or usual care; eligible drug doses or regimens may be represented in multiple intervention arms.",
+    "Trials reporting arm-level all-cause death counts and relevant randomised denominators, or text from which those counts can be directly determined or inferred under the prespecified counting rules, at any follow-up duration."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, observational studies, and non-randomised trials.",
+    "No comparison between an eligible treatment and placebo or usual care, including single-arm studies, active-comparator-only studies, primary-prevention trials, or studies without an eligible secondary-prevention cardiovascular population.",
+    "No quantitative arm-level all-cause mortality outcome data capable of producing the requested effect size: exclude reports with only a hazard ratio, adjusted association, cardiovascular-death count, or other outcome and no usable death counts and denominators; do not replace counts with reported HRs, ORs, or adjusted estimates.",
+    "Completely unrelated to interleukin-1 receptor antagonist treatment, established cardiovascular disease, or all-cause mortality."
+  ],
+  "moderators_to_extract": [
+    "Drug (anakinra versus canakinumab)",
+    "Cardiovascular disease population (for example myocardial infarction, heart failure, peripheral artery disease, or stroke)",
+    "Control type (placebo versus usual care)",
+    "Length of follow-up",
+    "Dose or regimen structure, including number of drug arms combined",
+    "Mortality-count status (explicitly reported, zero deaths explicitly stated, inferred zero in the unmentioned arm, or subgroup-only reporting)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool the risk ratio of all-cause death as drug divided by control using a random-effects model, computed only from arm-level event counts and numbers randomised (intention-to-treat denominator) at the longest reported follow-up. RR < 1 indicates fewer deaths with treatment. Always extract deaths and total randomised by arm and assign arms according to treatment rather than column position. Do not use a reported hazard ratio or adjusted association in place of counts; omit a trial if only an HR or adjusted estimate is available. If the report identifies death(s) in one arm and is silent about deaths in the other arm, enter zero deaths for the silent arm and flag that value as inferred. If it states that no deaths occurred, enter zero events in both arms with their randomised arm sizes. If mortality is reported only for a subgroup of randomised participants, use the subgroup's event counts and denominators and explicitly flag and describe this deviation from the full randomised population. For trials with multiple eligible drug doses or regimens, sum events and participants across all drug arms and include the shared control arm only once. Combine anakinra and canakinumab trials in one overall class analysis. Handle zero-event cells using the meta-analysis software's prespecified RR method and document any continuity correction; double-zero trials provide no conventional RR information and should be retained descriptively but excluded from the conventional inverse-variance RR estimate unless a method supporting them is prespecified. Do not pool cardiovascular death alone, myocardial infarction, stroke, infection, or any other outcome.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

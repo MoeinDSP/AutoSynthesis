@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of a removable ankle support, compared with a non-removable ankle support (e.g. a cast), on activity limitation at end of treatment after surgical fracture management?",
+  "treatment_label": "Removable ankle support (e.g., removable brace/boot/orthosis)",
+  "control_label": "Non-removable ankle support (e.g., cast/rigid plaster)",
+  "outcome_description": "Activity limitation and functional recovery scores at end of treatment (measured using validated scales such as OMAS, Mazur ankle score, or equivalent).",
+  "positive_direction": "Favors removable ankle support (greater activity function and reduced activity limitation).",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "removable support non-removable cast ankle fracture trial",
+    "removable brace cast surgical ankle fracture randomized comparison",
+    "orthosis cast ankle fracture activity limitation quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Controlled trials or comparative studies of adults undergoing surgical fracture management (e.g., open reduction and internal fixation) for ankle fractures.",
+    "Comparison of a removable ankle support (e.g., removable brace, boot, or splint) with a non-removable support (e.g., plaster or fiberglass cast).",
+    "Reports quantitative post-treatment activity limitation or functional score (e.g., OMAS, Mazur score, FAOS, AOFAS)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, or commentaries).",
+    "No direct comparison between a removable ankle support and a non-removable ankle support.",
+    "No quantitative outcome data that can produce an effect size (e.g., missing means, SDs, sample sizes, or test statistics).",
+    "Completely unrelated to post-surgical ankle fracture management or activity limitation."
+  ],
+  "moderators_to_extract": [
+    "Type of removable device (e.g., pneumatic walking boot, lace-up orthosis, removable splint)",
+    "Weight-bearing status during immobilization (early weight-bearing vs. non-weight-bearing)",
+    "Timing of assessment / end-of-treatment duration (e.g., 6 weeks vs. 12 weeks)",
+    "Functional outcome scale utilized (e.g., OMAS, Mazur score, FAOS)",
+    "Fracture complexity / classification (e.g., unimalleolar vs. bimalleolar/trimalleolar, Weber type)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Standardized mean difference (SMD) pooled across diverse functional instruments (e.g., Olerud-Molander Ankle Score [OMAS], Mazur ankle score) where higher scores represent superior functional recovery / less activity limitation.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "activity limitation"
+}

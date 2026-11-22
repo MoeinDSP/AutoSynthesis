@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of mobile phone reminders sent to parents or caregivers, compared with routine immunisation care without reminders, on receipt of the third dose of DTP-containing vaccine (DTP3/Penta-3) in children in low- and middle-income countries?",
+  "treatment_label": "Mobile phone reminders (SMS text messages or phone calls)",
+  "control_label": "Routine immunisation care (no reminders)",
+  "outcome_description": "Receipt of the third dose of DTP-containing vaccine (DTP3 / DPT3 / pentavalent-3 / Penta-3) at primary follow-up",
+  "positive_direction": "A risk ratio greater than 1 (RR > 1) indicates a higher proportion of children receiving DTP3/Penta-3 in the mobile phone reminder arm compared with routine care (favours reminders)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "mobile phone SMS reminder child immunization pentavalent DTP trial",
+    "text message reminders caregiver childhood vaccination DPT3 LMIC randomized",
+    "automated phone call reminders infant immunisation Penta-3 controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials (individual or cluster) evaluating mobile phone reminders (SMS text messages or phone/voice calls) sent to parents/caregivers for routine childhood immunisation in low- and middle-income countries",
+    "Comparison against routine immunisation care without mobile phone reminders",
+    "Reporting quantitative data on the receipt or completion of the third dose of DTP-containing vaccine (DTP3 / DPT3 / Penta-3)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial (systematic reviews, meta-analyses, protocols, editorials, observational, quasi-experimental, or non-randomized studies are excluded)",
+    "No comparison between mobile phone reminders (SMS/calls alone) and a routine care (no-reminder) control group",
+    "No extractable quantitative outcome data for DTP3/Penta-3 completion (missing event counts or denominators per arm)",
+    "Studies conducted outside low- and middle-income countries, or studies focusing solely on other vaccines without DTP3/Penta-3 data"
+  ],
+  "moderators_to_extract": [
+    "Reminder modality (SMS text message vs automated interactive voice response vs direct phone call)",
+    "Trial design (individually randomised vs cluster-randomised trial)",
+    "World Bank income classification / country region",
+    "Timing of primary assessment (e.g., by 14-18 weeks vs 6 months vs 12 months of age)",
+    "Frequency and schedule of reminders (single reminder vs multiple reminders)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Extract raw unadjusted event counts (children who received DTP3/Penta-3) and ITT denominators (all randomized/enrolled children) per arm. For multi-arm trials, extract the isolated reminder arm versus routine care control, excluding incentive or education-only co-intervention arms. Do not convert adjusted ORs or cluster-adjusted GEE estimates when raw counts are available.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "DTP3/Penta-3 vaccination completion"
+}

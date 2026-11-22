@@ -1,0 +1,39 @@
+{
+  "research_question": "In women with endometrial hyperplasia (with or without atypia), does metformin plus megestrol acetate increase the rate of histological regression to normal (proliferative, secretory or atrophic) endometrium at the end of treatment compared with megestrol acetate alone?",
+  "treatment_label": "Metformin plus megestrol acetate",
+  "control_label": "Megestrol acetate alone",
+  "outcome_description": "Complete histological regression of endometrial hyperplasia at the end of the treatment course (approximately 3-6 months): number of women whose endometrial biopsy/curettage showed return to normal endometrium (proliferative, secretory or atrophic) out of the number randomised/analysed in each arm. Events = women WITH complete regression; persistence, progression and partial response are NOT counted as events. Counts for hyperplasia with and without atypia are summed when reported separately; percentages are converted to counts using arm sizes; randomised group sizes are used when analysed Ns are not reported.",
+  "positive_direction": "A positive effect (OR above 1) means that metformin plus megestrol acetate produced more complete regression of endometrial hyperplasia to normal endometrium than megestrol acetate alone.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "metformin megestrol endometrial hyperplasia randomized controlled trial",
+    "metformin plus progestin endometrial hyperplasia regression trial",
+    "megestrol acetate endometrial hyperplasia atypia treatment response trial"
+  ],
+  "inclusion_criteria": [
+    "Studies of women with endometrial hyperplasia (with or without atypia), or early endometrial lesions treated conservatively, reporting histological outcomes",
+    "Comparison of metformin added to megestrol acetate (or other progestin regimen including megestrol) versus megestrol acetate alone",
+    "Reports any quantitative outcome data on regression/response rates (event counts or percentages with group sizes) allowing computation of an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, study protocols, editorials, opinion pieces, theoretical or commentary papers)",
+    "No comparison between a treatment and a control condition (e.g. single-arm studies, or no megestrol-alone control arm; metformin-alone, placebo, LNG-IUS or other non-megestrol comparator arms only)",
+    "No quantitative outcome data from which an effect size can be computed (no event counts, proportions, means+SDs, t/F values or odds ratios)",
+    "Completely unrelated to the research topic (not concerning endometrial hyperplasia or metformin/progestin therapy)"
+  ],
+  "moderators_to_extract": [
+    "Presence of atypia (atypical hyperplasia vs non-atypical vs mixed)",
+    "Metformin daily dose",
+    "Megestrol acetate daily dose",
+    "Treatment duration (months) / timing of histological assessment",
+    "Country or region of trial",
+    "Sample size category (total randomised)",
+    "Mean BMI or proportion with PCOS/obesity"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as an odds ratio from 2x2 event counts (women with complete regression / total randomised or analysed per arm), metformin + megestrol versus megestrol alone. OR > 1 favours metformin + megestrol. Use a random-effects model (DerSimonian-Laird or REML) with continuity correction for zero cells if needed; assess heterogeneity with I-squared and publication bias if >=10 trials.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "regression of endometrial hyperplasia"
+}

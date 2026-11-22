@@ -1,0 +1,38 @@
+{
+  "research_question": "Does Mental Health First Aid (MHFA) training, compared with a control condition (waiting list, no training, or an unrelated activity), improve trainees' correct recognition of depression in a case vignette at follow-up of six months or longer?",
+  "treatment_label": "Mental Health First Aid (MHFA) training (any delivery format, including e-learning, face-to-face, or blended; multiple training arms combined)",
+  "control_label": "Control (waiting list, no training, delayed training, or unrelated activity/attention control)",
+  "outcome_description": "Proportion of participants who correctly identified depression (naming \"depression\" or an equivalent diagnostic label such as \"major depression\") in a vignette depicting a person with depression, assessed via open-ended or closed-choice question, at the first follow-up occurring at or after six months post-training. Pooled as an odds ratio of correct recognition (MHFA vs control) using a random-effects model on the log odds ratio. Counts/percentages per arm are converted to log OR and SE using the number analysed (or number randomised, if the analysed number is unclear, noted as such); reported adjusted ORs with 95% CIs are used as given with the CI converted to an SE; continuous vignette recognition scores are converted via log OR = SMD \u00d7 \u03c0/\u221a3 (conversion flagged); cluster-randomised trials use the authors' cluster-adjusted OR, or the SE inflated by the design effect.",
+  "positive_direction": "A positive effect (OR > 1 / positive log OR, equivalently positive Hedges g) means MHFA-trained participants were more likely than controls to correctly recognise depression in the vignette at six-month-or-longer follow-up \u2014 i.e., the result favours MHFA training.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "Mental Health First Aid training randomised controlled trial depression recognition vignette",
+    "mental health first aid course trial mental health literacy outcomes follow-up",
+    "mental health literacy training vignette recognition of depression controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial (including cluster-randomised trials) in which participants received Mental Health First Aid training or a closely equivalent MHFA-branded mental health literacy course",
+    "Includes a control condition (waiting list, no training, delayed training, or unrelated activity)",
+    "Reports some quantitative outcome on recognition of depression in a case vignette (counts, percentages, odds ratios, or mean recognition scores), ideally at a follow-up of six months or longer"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, or purely theoretical/descriptive paper)",
+    "No comparison between an MHFA training condition and a control condition (single-arm, pre-post only, or non-randomised design)",
+    "No quantitative outcome data from which an effect size can be computed (no counts/percentages, means and SDs, t/F values, proportions, or odds ratios with confidence intervals)",
+    "Completely unrelated to MHFA training or to recognition of depression in a vignette (e.g. only stigma, confidence, helping behaviour, knowledge scores, or recognition of other disorders such as psychosis/schizophrenia; or only immediate post-training outcomes with no follow-up data)"
+  ],
+  "moderators_to_extract": [
+    "Trainee population (e.g. general public, teachers/school staff, students, health or social care workers, workplace employees)",
+    "Randomisation unit (individual vs cluster-randomised)",
+    "Follow-up length used (6 months vs 12 months vs 24 months or longer)",
+    "MHFA delivery format (face-to-face, e-learning, blended; single vs multiple training arms combined)",
+    "Country/region and MHFA programme version (e.g. Australia, USA, youth MHFA)",
+    "Recognition question format (open-ended vs closed choice) and effect size derivation (counts, reported adjusted OR, or SMD conversion)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Primary measure is the odds ratio of correct depression recognition (MHFA vs control), pooled on the log OR scale with a random-effects (DerSimonian\u2013Laird / REML) model. Hierarchy for deriving log OR and SE: (1) arm-level counts or percentages correct with the number analysed per arm (Haldane\u2013Anscombe 0.5 continuity correction if a zero cell occurs); (2) a reported OR with 95% CI, preferring the estimate adjusted for clustering and/or baseline, with SE = (ln(upper) \u2212 ln(lower))/3.92; (3) continuous vignette recognition scores converted via log OR = SMD \u00d7 \u03c0/\u221a3 with SE scaled identically (conversion explicitly flagged in the results). Where the number analysed at follow-up is unclear, the number randomised is used and noted. Multiple training arms within a trial are combined into a single training group (events and participants summed) before the single comparison with control. Cluster-randomised trials use the authors' cluster-adjusted estimate; otherwise the SE is inflated by sqrt of the design effect (1 + (m \u2212 1)\u00b7ICC). Only the first follow-up at or after six months is used; immediate post-training assessments are excluded. OR > 1 favours MHFA.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "correct recognition of depression in a case vignette"
+}

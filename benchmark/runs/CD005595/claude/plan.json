@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults undergoing surgical management of ankle (or lower limb) fractures, what is the effect of postoperative immobilisation with a removable ankle support (e.g. removable brace, orthosis, walking boot, functional support) compared with a non-removable support (e.g. plaster cast or other non-removable immobilisation) on activity limitation / ankle function at the end of the treatment period?",
+  "treatment_label": "Removable ankle support (removable brace, orthosis, walker boot, functional removable immobilisation) after surgical fracture fixation",
+  "control_label": "Non-removable ankle support (plaster or synthetic cast, non-removable immobilisation) after surgical fracture fixation",
+  "outcome_description": "Activity limitation / ankle function at end of the treatment (immobilisation) period, measured with patient-reported or clinician-rated ankle function instruments such as the Olerud-Molander Ankle Score (OMAS), Mazur/AOFAS ankle score, Foot and Ankle Outcome Score, Foot and Ankle Ability Measure, Baird-Jackson score, or similar activity/function scales. All instruments are oriented so that higher = better function before pooling as a standardized mean difference.",
+  "positive_direction": "A positive Hedges g means the removable ankle support group had better activity/function (less activity limitation) at end of treatment than the non-removable (cast) group.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "removable brace versus cast ankle fracture surgery randomized trial functional outcome",
+    "postoperative immobilisation orthosis versus plaster cast ankle fracture fixation Olerud-Molander",
+    "early functional support versus cast after ankle fracture internal fixation controlled trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Studies of adults or adolescents who received surgical fixation of an ankle or related lower-limb fracture and then some form of postoperative immobilisation",
+    "Compares a removable form of ankle support/immobilisation with a non-removable support such as a cast (any controlled or comparative design, randomised or not)",
+    "Reports any quantitative measure of activity limitation, ankle function, or related functional outcome from which an effect size can be derived"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, narrative review, editorial, opinion, commentary, protocol, or purely theoretical/biomechanical modelling paper)",
+    "No comparison between a removable support condition and a non-removable/cast control condition (single-arm or before-after only)",
+    "No usable quantitative outcome data for computing an effect size (no means with SDs/SEs/CIs, t/F statistics, proportions, or odds ratios)",
+    "Completely unrelated to postoperative ankle/lower-limb fracture immobilisation and functional outcome"
+  ],
+  "moderators_to_extract": [
+    "Study design (RCT vs non-randomised comparative)",
+    "Fracture type/location and fixation method",
+    "Type of removable device (brace, orthosis, walker boot, functional bandage)",
+    "Duration of immobilisation and whether early weight-bearing/mobilisation was permitted",
+    "Outcome instrument used (OMAS, Mazur/AOFAS, other)",
+    "Sample size category and risk-of-bias rating"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardized mean difference (Hedges g) because studies use different functional instruments (OMAS, Mazur, etc.). Scores are oriented so higher = better function; any instrument where higher = worse must be sign-reversed before pooling. Use end-of-treatment (end of immobilisation period) values; where only change scores or medians/IQRs are reported, convert using standard approximations.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "activity limitation (ankle function)"
+}

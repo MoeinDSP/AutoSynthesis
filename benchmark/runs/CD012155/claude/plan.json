@@ -1,0 +1,39 @@
+{
+  "research_question": "Does oral hygiene, diet and feeding-practice advice delivered to pregnant women, new mothers or other primary caregivers (e.g. motivational interviewing, family-centred health promotion, brushing and diet counselling, photograph-based feedback), compared with standard care or no advice, reduce the proportion of children who develop dental caries in their primary teeth?",
+  "treatment_label": "Caregiver-directed oral hygiene, diet and feeding-practice advice (counselling, motivational interviewing, family-centred oral health promotion)",
+  "control_label": "Standard care, usual dental/antenatal care, or no advice",
+  "outcome_description": "Presence of dental caries in any primary teeth of the child at the longest reported follow-up: number of children with caries (events) out of the number of children assessed in each arm (total). The trial's own caries definition is used and recorded (e.g. any decay in primary teeth, dmft/dmfs > 0, cavitated lesions, decay into dentin, or white-spot lesions), preferring the definition counting any carious lesion in any primary tooth rather than a subset of teeth (e.g. not maxillary incisors only). Percentages are converted to counts using the number of children assessed in that arm; if only the number randomised is available for that outcome it is used and noted. Multi-arm trials: advice arms are combined into one group and the control group used once; arms adding fluoride or another active treatment are excluded in favour of the advice-only arm. Cluster-randomised trials reporting an adjusted RR or OR contribute that adjusted estimate as reported. Excluded from this outcome: mean dmft/dmfs severity scores, caries limited to the front four teeth, bacterial (mutans streptococci) counts, caregiver knowledge/behaviour outcomes, and adverse events.",
+  "positive_direction": "A favourable (positive) effect means fewer children in the advice group had dental caries in their primary teeth than in the standard-care/no-advice group, i.e. RR < 1 favours the caregiver advice intervention.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "oral health education pregnant women mothers randomized controlled trial early childhood caries children",
+    "anticipatory guidance motivational interviewing caregivers infant feeding diet counselling dental caries primary teeth trial",
+    "family centred oral health promotion intervention preschool children caries incidence controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials, including cluster-randomised trials, of oral hygiene, diet or infant feeding advice/counselling delivered to pregnant women, mothers or other primary caregivers",
+    "Comparison with standard care, usual care, or no advice",
+    "Reports any quantitative child dental caries outcome in primary teeth (counts, proportions, or an adjusted risk/odds ratio for having caries)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, or purely theoretical paper)",
+    "No comparison between an advice/counselling condition and a control (standard care or no advice) condition, e.g. single-arm or uncontrolled before-after studies",
+    "No quantitative data usable for an effect size on the proportion of children with caries (e.g. only mean dmft/dmfs severity, bacterial counts, knowledge or behaviour outcomes, or no events/totals, t/F, proportions or odds ratios reported)",
+    "Topic unrelated to caregiver-delivered oral hygiene/diet/feeding advice and child caries, or interventions consisting solely of fluoride varnish or xylitol administration"
+  ],
+  "moderators_to_extract": [
+    "Caries definition used (any lesion, cavitated/dentin, including white-spot lesions)",
+    "Timing of intervention start (prenatal vs postnatal/infancy)",
+    "Intervention delivery mode and intensity (motivational interviewing, counselling sessions, home visits, photograph-based feedback; number of contacts)",
+    "Length of follow-up (months/years) and child age at caries assessment",
+    "Randomisation unit (individual vs cluster) and whether an adjusted RR/OR was used",
+    "Country income level / care setting (dental clinic, primary care, community, home)",
+    "Sample size category and attrition rate"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio (advice / standard care) with a random-effects model (DerSimonian\u2013Laird or REML, Mantel\u2013Haenszel weighting where events/totals are available). Use events = children with caries in any primary teeth and total = children assessed at the longest follow-up. Convert reported percentages to counts using the arm's assessed sample; where only randomised numbers are available, use them and flag this. Cluster trials reporting adjusted RR/OR are entered on the log scale with their reported confidence intervals (OR treated as RR only when the event risk is low, otherwise noted as a limitation); unadjusted cluster data are design-effect corrected where an ICC is available. RR < 1 favours the advice intervention. Heterogeneity assessed with I\u00b2 and tau\u00b2; small-study effects explored with funnel plots and Egger's test if \u226510 trials.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "dental caries in primary teeth (children with caries)"
+}

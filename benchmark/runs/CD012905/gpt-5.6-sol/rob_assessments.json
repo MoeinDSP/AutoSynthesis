@@ -1,0 +1,370 @@
+[
+  {
+    "paper_id": "manual:28f6620b",
+    "paper_title": "5fe568bd_1-s2.0-S0002870302003599-main",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 45 patients were randomized by an unblinded pharmacist using sealed treatment-assignment envelopes to receive half-normal saline or half-normal saline plus fenoldopam.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment was plausibly maintained with sealed envelopes handled by an unblinded pharmacist and reported baseline characteristics were broadly balanced, but the method used to generate the allocation sequence and whether envelopes were opaque and sequentially numbered were not reported.",
+        "evidence_quote": "After baseline GFR and ERPF measurements were obtained, an unblinded pharmacist with sealed treatment assignment envelopes randomized patients to receive 1/2 NS or 1/2 NS plus fenoldopam mesylate at 0.1 \u03bcg/kg/min."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial used blinded, matched-rate infusions and otherwise similar hydration, but symptomatic hypotension led to stopping fenoldopam in some patients and the analysis was based on patients completing clearance measurements rather than an explicit intention-to-treat analysis.",
+        "evidence_quote": "Paraaminohippurate clearance data from patients who completed all preparaaminohippurate and postparaaminohippurate clearances were included in the statistical analyses."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Although 45 patients were randomized, the report contains inconsistent group denominators and explicitly restricts the primary clearance analysis to completers without stating how many participants had complete RPF or creatinine outcomes by randomized group, so substantial outcome-dependent bias cannot be excluded in this small pilot trial.",
+        "evidence_quote": "Paraaminohippurate clearance data from patients who completed all preparaaminohippurate and postparaaminohippurate clearances were included in the statistical analyses."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was objectively measured by para-aminohippurate clearance at prespecified, common time points in both groups, and matched infusion procedures maintained blinding, making differential measurement unlikely.",
+        "evidence_quote": "To maintain a double-blind format, the concentration of fenoldopam mesylate was adjusted to give 0.1 \u03bcg/kg/min at a constant infusion of 100 mL/h."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, and multiple repeated RPF/GFR time points, creatinine outcomes, subgroup analyses, and analysis methods created scope for selective reporting, including an explicit instance where GFR data were not shown.",
+        "evidence_quote": "GFR did not change at any other time point in either group tested (data not shown)."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the completer-only primary-outcome analysis, unclear outcome completeness, and inconsistent denominators in a very small trial. Additional concerns arise from incompletely described sequence generation, intervention discontinuations without an explicit intention-to-treat analysis, and lack of prospective registration or an accessible prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:5e93cccc",
+    "paper_title": "ef637291_01.ccm.0000186413.04875.ef",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that patients were randomly assigned to fenoldopam or placebo using a computer-based random number generator.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated allocation sequence was used, allocation was handled by an independent nurse outside patient care, blinding was maintained, and reported baseline characteristics were well balanced.",
+        "evidence_quote": "Patients were randomly assigned to study groups using a computer-based random number generator. Code numbers were transmitted from the central office to the randomization authority of each center. This authority was a nurse not involved in the care of the trial patients who was responsible for preparation and distribution of trial drug infusion."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and ICU personnel were blinded with indistinguishable infusions, no blinding breaches were reported, no treatment-stopping adverse effects occurred, and outcomes were analyzed by intention to treat.",
+        "evidence_quote": "No patient, other nurse, investigator, or any other medical staff in ICU were aware of the treatment assignment for the duration of the study protocol... None were reported... We performed outcome analysis according to the intention-to-treat principle."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 300 randomized participants were included in the primary binary acute-renal-failure outcome counts, with only isolated missing observations reported for some secondary variables.",
+        "evidence_quote": "Of the remaining 300 patients, 150 were randomized to fenoldopam and 150 to placebo... The incidence of ARF was lower in the fenoldopam group (29 vs. 51 patients)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary outcome was based on daily serum creatinine measured centrally and identically in both groups, while double blinding minimized influence from knowledge of assignment.",
+        "evidence_quote": "The primary outcome measure for the study was the incidence of ARF, defined as serum creatinine concentration >150 \u03bcmol/L during trial drug infusion... Serum creatinine concentrations were analyzed daily by the central biochemistry laboratory."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome and analysis approach were described, but no prospective registration or publicly available analysis plan is reported, and numerous secondary outcomes and analyses leave some scope for selective reporting.",
+        "evidence_quote": "Secondary outcome measures included peak serum creatinine concentration, the incidence of severe ARF... relative increase in serum creatinine... minimum glomerular filtration rate... duration of ICU stay, and survival to ICU discharge."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by the absence of reported prospective registration or a publicly available prespecified analysis plan amid multiple outcomes and analyses. Randomization, concealment/blinding, primary-outcome completeness, and objective outcome measurement were otherwise robust."
+  },
+  {
+    "paper_id": "manual:3d833d4d",
+    "paper_title": "400c14ab_cc10295",
+    "design_classification": "randomized",
+    "design_rationale": "This was a prospective double-blind placebo-controlled trial with an explicitly computer-generated random allocation sequence, stratified by neonatal versus infant age.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer generated and stratified by age, concealment used sealed envelopes opened after recruitment by an independent nurse, and reported baseline characteristics were similar between groups.",
+        "evidence_quote": "The allocation sequence was generated by using two computerized random-generation programs stratified by two age groups... After recruitment, the day of operation, sealed envelopes containing the allocation group were opened by a nurse who did not participate in the study or in data collection."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and clinical staff were blinded, placebo administration matched fenoldopam administration, only one placebo infusion was mistakenly interrupted, and all randomized participants were analyzed according to intention to treat.",
+        "evidence_quote": "The rest of the nurses and medical staff in the operation room and in the intensive care unit were blinded to group assignment... in only one case was treatment interrupted by mistake (group P), but data from this patient were analyzed with ITT."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 80 enrolled patients were retained in the intention-to-treat analysis, and the report does not indicate missing primary-outcome measurements.",
+        "evidence_quote": "Intention to treat (ITT) was applied, and all enrolled patients were considered for statistical analysis at the end of the study."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Renal biomarkers were objective laboratory outcomes collected at prespecified common time points and measured identically with validated assays, while clinical and laboratory personnel were blinded to assignment.",
+        "evidence_quote": "Plasma and urinary NGAL were measured with a sandwich enzyme-linked immunosorbent assay... whereas plasma and urinary cystatin C were evaluated with nephelometry... The rest of the nurses and medical staff in the operation room and in the intensive care unit were blinded to group assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although the trial was registered and outcomes and time points were described, the registration timing and a prespecified statistical analysis plan are not established here, and the broad primary endpoint included multiple biomarkers and time points that allowed several eligible comparisons.",
+        "evidence_quote": "The primary end point of this study was to assess whether high-dose fenoldopam infusion during CPB affects renal function by perioperative urinary and plasma NGAL, CysC, and Crea levels measurement."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by possible selective reporting across multiple biomarker outcomes, measurement times, and analyses without an available prespecified analysis plan. The randomization, concealment, blinding, intention-to-treat analysis, outcome completeness, and objective measurement methods otherwise indicate low risk."
+  },
+  {
+    "paper_id": "manual:dddb151a",
+    "paper_title": "014fefc9_ccd.10323",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports that a random-allocation table was used to assign patients to saline, saline plus N-acetylcysteine, or saline plus fenoldopam.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random-allocation table indicates a random sequence and measured baseline characteristics were generally similar, but allocation concealment was not described and ACE-inhibitor use differed across groups.",
+        "evidence_quote": "A random-allocation table was used to assign patients to one of the three arms of the study."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Three participants assigned to fenoldopam were withdrawn after intervention-related hypotension, and the efficacy analysis excluded them rather than following intention-to-treat, potentially biasing the fenoldopam comparison.",
+        "evidence_quote": "A total of 126 patients were enrolled in the study; 123 patients completed the study as per the protocol. Three patients were withdrawn from the study as they developed hypotension due to fenoldopam."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data were available for 123 of 126 enrolled participants, but all three missing participants were from the fenoldopam arm and their missingness resulted from an adverse effect of that intervention, so bias cannot be excluded despite the small proportion missing.",
+        "evidence_quote": "Three patients were withdrawn from the study as they developed hypotension due to fenoldopam."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "RCIN was objectively defined from serum creatinine measured at prespecified, common time points in all groups, making differential assessment unlikely even though blinding was not reported.",
+        "evidence_quote": "RCIN was defined as an absolute increase in serum creatinine level of at least 0.5 mg/dL within 48 hr of the injection of the radiocontrast medium."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prespecified protocol or statistical analysis plan is reported, and multiple creatinine time points and outcome formulations were available, leaving some potential for selective reporting despite reporting the stated primary RCIN definition.",
+        "evidence_quote": "Serum creatinine and blood urea nitrogen levels were checked at baseline (within 24 hr prior to the procedure), immediately prior to the procedure, and then at 24 and 48 hr after the procedure."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because three fenoldopam-assigned participants were excluded after intervention-related hypotension and the reported per-protocol analysis could bias the treatment comparison. Additional concerns arise from unreported allocation concealment and lack of a prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:0d2d7dc4",
+    "paper_title": "2549c5e9_j.jvca.2007.02.022",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that allocation used a computer-generated randomization list, with assignments held in sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated sequence and sealed-envelope allocation were used, treatment preparation preserved concealment, and reported baseline characteristics were well balanced.",
+        "evidence_quote": "Details of randomization (generated by a computer list) were contained in a set of sealed envelopes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and study personnel were blinded and no important intervention-related deviations were reported, but one randomized participant was excluded after allocation and an explicit intention-to-treat analysis was not used.",
+        "evidence_quote": "One patient in the fenoldopam group who had an uneventful postoperative period was excluded from the study because he was later discovered not to have the described inclusion criteria."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome results were reported for all 193 analyzed participants, with only one of 194 randomized participants excluded because of ineligibility rather than missing outcome data.",
+        "evidence_quote": "AKI developed in 12 of 95 (12.6%) patients receiving fenoldopam and in 27 of 98 (27.6%) patients receiving placebo."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "AKI was measured identically in both groups using prespecified, objective serum-creatinine thresholds at fixed time points, and all study personnel were blinded to assignment.",
+        "evidence_quote": "The primary endpoint was AKI defined as a postoperative serum creatinine level of >2 mg/dL with an increase in serum creatinine level of 0.7 mg/dL or greater from preoperative to maximum postoperative values, limited to day 1 and day 2."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint and measurement times are described, but no preregistration or publicly available prespecified analysis plan is reported, and multiple renal outcomes and statistical tests leave some scope for selective reporting.",
+        "evidence_quote": "The data analysis was with 2-way repeated analysis of variance, Student t test, Fisher exact test, Mann-Whitney U test, chi-square test, or correlation analysis."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by the post-randomization exclusion of one fenoldopam participant without an explicit intention-to-treat analysis and the absence of reported preregistration or a prespecified statistical analysis plan. Randomization, blinding, outcome completeness, and objective outcome measurement were otherwise strong."
+  },
+  {
+    "paper_id": "manual:d80ff65d",
+    "paper_title": "5fc49bf4_jama.290.17.2284",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, double-blind, placebo-controlled trial; patients were assigned 1:1 using concealed, diabetes-stratified randomization schedules in blocks of 6.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed through sequential assignment by a nonclinical research pharmacist using sponsor-prepared, diabetes-stratified block schedules, but the method used to generate the random sequence was not reported and hypertension was imbalanced at baseline.",
+        "evidence_quote": "Two concealed randomization schedules (for diabetic and nondiabetic patients), each in blocks of 6, were prepared by the sponsor and maintained by a research pharmacist at each site."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and caregivers were blinded, all randomized patients received study drug, co-interventions were similar, and the available-data analysis retained participants in their randomized groups despite differential dose intolerance and discontinuation.",
+        "evidence_quote": "Unless otherwise stated, all analyses were by intention to treat (ie, all available data were analyzed from all randomized patients according to their initial treatment assignment, regardless of the actual medication, dose, and duration administered)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome was unavailable for 32 of 315 randomized participants (10%), with somewhat more missing data in the fenoldopam group, although baseline comparisons and extreme-case sensitivity analyses reportedly did not alter the conclusion.",
+        "evidence_quote": "The primary study end point of contrastinduced nephropathy could not be determined in approximately 10% of patients in whom serial creatinine measurements were not available."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary outcome was an objective serum-creatinine endpoint measured at scheduled times in a central laboratory, with participants, caregivers, and committee members blinded to assignment.",
+        "evidence_quote": "All caregivers, trial participants, patients, and committee members were blinded to the group assignment..."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint definition and analysis were described as prespecified, but no publicly accessible protocol or prospective registration is reported to verify that the published result was not selected from multiple eligible measurements or analyses.",
+        "evidence_quote": "The primary efficacy end point was the development of contrast-induced nephropathy, defined as an increase in serum creatinine level of 25% or more from baseline to the maximum value obtained within the 24- to 96-hour period following completion of study drug administration."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns. The trial was blinded with concealed allocation and objective central-laboratory outcome measurement, but the sequence-generation method was not reported, the primary endpoint was missing for about 10% of participants, and no protocol or registration was available to rule out selective reporting."
+  },
+  {
+    "paper_id": "manual:5b2bd558",
+    "paper_title": "fb6d8ce5_lt.20145",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized before surgery to fenoldopam, dopamine, or placebo using sealed allocation envelopes whose order was blindly determined by an independent secretarial staff member.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed with sealed envelopes and measured baseline characteristics were similar, but the method used to generate a genuinely random envelope sequence is not described beyond saying that its order was determined blindly.",
+        "evidence_quote": "Before undergoing surgery, the patients were randomized to one of the following intravenous treatments using unmarked, sealed envelopes containing the group allocation (the order of the envelopes was determined blindly by a member of the Department\u2019s secretarial staff who played no other role in the study)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "ICU physicians were blinded, there were no crossovers or treatment discontinuations, and co-interventions were standardized, but participant and intraoperative clinician blinding is not reported and the exclusion of four randomized participants is inconsistent with a full intention-to-treat analysis.",
+        "evidence_quote": "The ICU physicians were not aware of which group the patients had been randomized to... There was no therapy crossover between the groups, nor was it necessary to discontinue any of the study drugs at any time because of the occurrence of adverse events potentially attributable to them."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Four of 144 participants were excluded because outcome sample collections were incomplete, with no group allocation or sensitivity analysis reported, although the proportion missing was small (2.8%).",
+        "evidence_quote": "This study involved a population of 144 consecutive subjects who underwent OLT at our Centre between January 2001 and July 2003; 4 were excluded because of incomplete sample collections. The analysis was therefore based on 140 patients."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Renal outcomes were objectively measured using serum and timed blood/urine collections according to the same prespecified schedule across groups, and ICU physicians were blinded to allocation.",
+        "evidence_quote": "Postoperative creatinine clearance (calculated every 12 hours by means of the simultaneous collection of blood and urine samples, the latter from continuous collections)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No preregistration or prespecified statistical analysis plan is reported, and numerous renal outcomes, time points, and possible comparisons were available, leaving scope for selective reporting or analysis.",
+        "evidence_quote": "Absolute changes from baseline in serum creatinine and creatinine clearance levels 24, 48, 72 and 96 hours after the end of surgery."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns. Concerns arise from incomplete reporting of sequence generation, exclusion of four participants with incomplete samples rather than a clear intention-to-treat analysis, and the absence of preregistration despite multiple outcomes and time points; objective blinded outcome measurement lowers concern in that domain."
+  },
+  {
+    "paper_id": "manual:8c4260d3",
+    "paper_title": "7840975d_R02Y2010N04A0249",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomly allocated to fenoldopam or placebo using a computerized random generation program with allocation managed by external pharmacy staff.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated in blocks by external pharmacy staff, with assignment concealed in sealed envelopes held and opened by the pharmacy, and reported baseline differences were compatible with chance.",
+        "evidence_quote": "The random allocation sequence was generated using a computerized random generation program. The randomization was generated in blocks of 20 patients. This procedure was performed by an external staff person working in the hospital pharmacy."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and treatment providers were blinded, placebo was administered identically, no changes to usual care were planned, and analysis was explicitly intention-to-treat; the differential use of vasodilators appears to reflect protocolized clinical management rather than a bias-inducing deviation.",
+        "evidence_quote": "The participants, those administering the drug, and those assessing the outcomes were blinded to group assignment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were reported for all 80 randomized participants, with the two chronic-dialysis patients excluded only from renal-function outcomes for a prespecified clinical reason that made those endpoints inapplicable.",
+        "evidence_quote": "Two patients with chronic renal failure under dialytic treatment in the fenoldopam group were excluded from the analysis of secondary endpoints related to changes in renal function and AKI incidence."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The physiologic and renal outcomes were objective, measured at prespecified times and by the same methods in both groups, and outcome assessors were blinded to assignment.",
+        "evidence_quote": "The participants, those administering the drug, and those assessing the outcomes were blinded to group assignment."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and endpoints and a subgroup analysis were described as prespecified, but the text permits unspecified adjustment and additional analyses and does not provide a protocol or statistical analysis plan sufficient to exclude selective choice among multiple repeated measurements and analyses.",
+        "evidence_quote": "Additional analyses were considered in case significant differences in other parameters that were a part of our standard data collection but were not considered as primary or secondary outcome measurements, were found."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by potential selective reporting or analysis flexibility despite prospective registration and stated prespecification. Randomization, concealment, blinding, outcome completeness, and objective measurement were otherwise well conducted."
+  }
+]

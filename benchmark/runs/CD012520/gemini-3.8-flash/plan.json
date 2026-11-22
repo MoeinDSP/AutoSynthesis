@@ -1,0 +1,36 @@
+{
+  "research_question": "What is the effect of multifaceted implementation interventions compared with no implementation intervention or usual practice on adherence to evidence-based recommendations in the care of people with acute stroke during hospital admission?",
+  "treatment_label": "Multifaceted implementation intervention",
+  "control_label": "Usual care or no implementation intervention",
+  "outcome_description": "Proportion of eligible patients receiving recommended evidence-based acute stroke processes of care during hospital admission (primary process/adherence measure per trial)",
+  "positive_direction": "Higher adherence to evidence-based acute stroke recommendations in the multifaceted intervention group compared to control (RR > 1)",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "multifaceted implementation stroke guideline adherence trial",
+    "quality improvement acute stroke care pathway controlled trial",
+    "audit feedback education stroke care adherence randomized"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials (including cluster-randomised trials) evaluating multifaceted implementation interventions in acute stroke hospital care",
+    "Comparison against usual practice, standard care, or no active implementation intervention",
+    "Quantitative reporting of adherence to evidence-based clinical recommendations or acute stroke care processes during hospital admission"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, protocol papers, and theoretical articles)",
+    "No comparison between a multifaceted implementation intervention and a usual care/no-intervention control condition (including studies comparing active implementation strategies against each other or single-component interventions)",
+    "No quantitative outcome data reporting adherence to evidence-based acute stroke processes of care (events and totals or adjusted risk ratios/odds ratios)",
+    "Studies not involving acute stroke hospital care or evaluating exclusively post-discharge, outpatient, or non-stroke populations"
+  ],
+  "moderators_to_extract": [
+    "Intervention components (e.g., audit and feedback, educational meetings, local champions, clinical pathways)",
+    "Randomisation level (cluster-randomised vs. individual-patient randomised)",
+    "Targeted stroke process of care (e.g., thrombolysis administration, dysphagia screening, comprehensive stroke unit care protocol)",
+    "Study geographic region or healthcare system setting"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Risk ratio (RR) of adherence (intervention vs. control) pooled under a random-effects model on the log risk ratio scale. For cluster-randomised trials without reported cluster-adjusted RRs/ORs, standard errors are adjusted by the design effect using reported ICC or an assumed ICC of 0.05.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "adherence to evidence-based recommendations"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of percutaneous nephrolithotomy (PCNL, including mini-, super-mini, and micro-PCNL) compared with retrograde intrarenal surgery (RIRS) on postoperative pain on the day of surgery (postoperative day 0) in adults with renal stones?",
+  "treatment_label": "Percutaneous nephrolithotomy (PCNL, including mini-, super-mini, and micro-PCNL)",
+  "control_label": "Retrograde intrarenal surgery (RIRS)",
+  "outcome_description": "Postoperative pain score on the day of surgery (postoperative day 0, first postoperative pain assessment within ~24 hours; earliest at or after 6 hours if multiple times reported, or 1-hour value if that is the only one available) measured on a 0\u201310 visual analogue scale (VAS).",
+  "positive_direction": "Lower postoperative pain score with PCNL compared to RIRS (favours PCNL); under unadjusted raw difference (PCNL minus RIRS), MD > 0 indicates more pain after PCNL (favours RIRS)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "PCNL RIRS postoperative pain visual analogue scale trial",
+    "percutaneous nephrolithotomy retrograde intrarenal surgery pain randomized trial",
+    "PCNL versus RIRS kidney stones postoperative pain comparison"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trials comparing any form of percutaneous nephrolithotomy (standard PCNL, mini-PCNL, super-mini PCNL, or micro-PCNL) with retrograde intrarenal surgery (RIRS/flexible ureteroscopy) in adult patients with renal calculi",
+    "Reporting quantitative assessment of postoperative pain on the day of surgery (postoperative day 0 / within first 24 hours) on a visual analogue scale (VAS) or numerical rating scale",
+    "Reporting or allowing derivation of arm-level sample size, mean, and standard deviation (SD) for day-of-surgery pain"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, letters, comments, or conference abstracts without extractable data)",
+    "No comparative evaluation between PCNL (standard, mini, super-mini, or micro) and RIRS (e.g. single-arm studies, or comparisons solely against ESWL or open surgery)",
+    "No quantitative postoperative pain data on the day of surgery (postoperative day 0) convertible to mean and standard deviation per arm",
+    "Paediatric patient cohorts (under 18 years of age) or studies unrelated to surgical management of renal calculi"
+  ],
+  "moderators_to_extract": [
+    "PCNL technique and sheath size (standard PCNL vs mini-PCNL vs super-mini / micro-PCNL)",
+    "Mean stone size / burden (diameter in mm)",
+    "Postoperative pain assessment timing on day 0 (e.g. 1 hour, 6 hours, 12 hours)",
+    "Nephrostomy tube and ureteral stent placement strategy (e.g. tubeless vs stented vs nephrostomy)",
+    "Postoperative analgesia protocol or regional block administration"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as a mean difference (MD) in points on a 0\u201310 VAS using a random-effects model. Extract mean, SD, and N for PCNL (treatment) and RIRS (control) arms for pain on postoperative day 0 (earliest assessment at or after 6 hours, or at 1 hour if only that is reported). If a 0\u2013100 mm VAS is used, rescale to 0\u201310. Positive raw MD (PCNL - RIRS > 0) indicates more pain after PCNL (favors RIRS).",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "postoperative pain on day of surgery"
+}

@@ -1,0 +1,646 @@
+[
+  {
+    "paper_id": "manual:74133916",
+    "paper_title": "3ab6e496_13224_2014_Article_562",
+    "design_classification": "randomized",
+    "design_rationale": "The authors explicitly state random allocation of participants to the three surgical routes: \"A simple prospective randomized study... They were randomly assigned 50 each to three routes of hysterectomy\", so RoB 2 applies despite the absence of any methodological detail about the randomization procedure.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "No sequence-generation method or allocation concealment is described, exactly equal group sizes of 50 suggest a non-random (e.g., alternating/quota) allocation, and baseline data show non-trivial imbalances (mean age 40.8 vs 41.4 vs 44.6; prior caesarean 20 % vs 4 % vs 10.9 %; uterine size 12\u201314 weeks in AH vs 10\u201312 in VH) that favour the conclusion, suggesting selection by surgical suitability rather than chance.",
+        "evidence_quote": "A simple randomized prospective comparative study was performed between June 2011 and Dec 2012 among 150 consecutive women requiring hysterectomy for benign uterine conditions. Fifty patients in each group were assigned to abdominal, vaginal, and laparoscopic-assisted vaginal route for hysterectomy."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and patients were necessarily aware of the assigned route (unavoidable in surgery), and the five participants converted to laparotomy were excluded from their assigned groups (analysed denominators of 49 and 46 rather than 50), i.e. a per-protocol rather than intention-to-treat analysis, which could bias effect estimates in favour of the minimally invasive arms.",
+        "evidence_quote": "Four women in LAVH group and one in vaginal group were converted to abdominal route and considered failure of procedure."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Five randomized participants (10 % of LAVH, 2 % of VH) were removed from the analysed groups as \"failures\" and no sensitivity analysis including them is reported; although numbers are small, their exclusion is directly related to the outcomes (complications, operating time).",
+        "evidence_quote": "AH(50) | VH(49) | LAVH(46)"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes such as analgesic requirement, length of hospital stay and complication classification are subjective/clinician-determined, assessors were unblinded (same surgical team), no definitions of discharge criteria or analgesia protocol are given, and length of stay in particular is highly susceptible to expectation-driven decisions.",
+        "evidence_quote": "Operative observations and complications were tabulated for each woman (data were analyzed statistically using Chi square test and z test and P value was determined)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or trial registration is mentioned, no primary outcome or sample-size calculation is specified, and multiple outcomes with inconsistent/incompletely labelled pairwise P values are reported, leaving scope for selective reporting.",
+        "evidence_quote": "The analysis was done on the basis of the following: route of hysterectomy, age and parity, pathological diagnosis, operating time, additional procedure, hematocrit fall, analgesic requirement, length of hospital stay, and complications."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by an undescribed and implausibly balanced \"randomization\" with baseline imbalances suggesting allocation by clinical suitability (D1) and unblinded assessment of subjective outcomes such as analgesia need and hospital stay (D4). Per-protocol exclusion of converted cases, absence of a registered protocol/primary outcome, and no sample-size calculation add further concerns."
+  },
+  {
+    "paper_id": "manual:fa29181a",
+    "paper_title": "a78dc096_13224_2015_Article_756",
+    "design_classification": "randomized",
+    "design_rationale": "The paper is titled a \"Prospective Randomized Comparative Study\" and states that eligible patients (all operable by any of three routes) \"were randomly selected for any of the three routes of surgery,\" indicating explicit random allocation to the three hysterectomy approaches.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no method of sequence generation or allocation concealment is described, and only indication distributions (not full baseline characteristics such as age, parity, BMI, prior surgery) are reported, so balance cannot be verified.",
+        "evidence_quote": "\"They were randomly selected for any of the three routes of surgery andthe results were compared\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and surgeons is impossible for differing surgical routes and the paper reports no information on crossovers/conversions (e.g., laparoscopic to open), co-interventions such as analgesia protocols, or whether an intention-to-treat analysis was used.",
+        "evidence_quote": "\"The above mentioned parameters were studied in Vaginal, Abdominal and Laparoscopic Hysterectomies carried out by surgeons of similar caliber at our teaching institute.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 150 randomized patients appear in the outcome tables (50 per group), but no flow diagram or explicit accounting of withdrawals/loss to follow-up is given, and the authors themselves flag concern about loss to follow-up for later outcomes.",
+        "evidence_quote": "\"The hospital stay was prolonged due to detailed observation of patients postop, as most patients belonged to lower strata of society, and there was fear of loss to follow-up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Key outcomes (estimated blood loss, VAS pain, timing of discharge/mobilization) are subjective or assessor-determined, outcome assessors and patients were necessarily unblinded to the obvious surgical route (incision), and no blinded or standardized assessment procedure (e.g., gravimetric blood loss measurement, discharge criteria) is described.",
+        "evidence_quote": "\"There was significant difference in the pain scores using VAS among the three groups on day 0 and day 1\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is mentioned, statistical methods are not described, and results are presented selectively (p values given for some comparisons, means without SDs, mobilization/feeding outcomes only narratively), raising the possibility of selective reporting.",
+        "evidence_quote": "\"Aims and objectives of the present study were to compare the following: Intraoperative and postoperative complications; Times taken for surgery; Blood loss; Postoperative pain and mobilization; Duration of hospital stay\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by the measurement-of-outcome domain: principal outcomes (estimated blood loss, VAS pain, hospital stay/mobilization) are subjective and were assessed by unblinded patients and clinicians with no standardized or blinded assessment protocol. This is compounded by some concerns in all other domains, including an unspecified randomization and allocation-concealment method, absent baseline characteristics, no participant flow/withdrawal accounting, and no pre-registration or described statistical analysis plan."
+  },
+  {
+    "paper_id": "manual:45f3ba37",
+    "paper_title": "3e60fcc7_Acta Obstet Gynecol Scand - 2002 - Soriano - Recovery from vaginal hysterectomy compared with laparoscopy\u2010assisted vaginal",
+    "design_classification": "randomized",
+    "design_rationale": "Participants referred for hysterectomy were allocated to vaginal hysterectomy or LAVH using an explicit random allocation method: \"A total of eighty women were randomized prospectively to undergo either VH (40 patients) or LAVH (40 patients) using a predetermined computer-generated randomization code.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used but allocation concealment is not described, and baseline data show notable imbalances (gravidity 3.7 vs 2.4, parity 2.7 vs 1.6, previous cesarean 17.5% vs 0%) that are not obviously consistent with chance, despite the authors' claim of no significant differences.",
+        "evidence_quote": "\"A total of eighty women were randomized prospectively to undergo either VH (40 patients) or LAVH (40 patients) using a predetermined computer-generated randomization code.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Patients and care providers were necessarily unblinded, and the three LAVH patients converted to laparotomy were excluded from analysis rather than analyzed as randomized, so the analysis was not intention-to-treat and systematically removed the worst-recovery cases from one arm.",
+        "evidence_quote": "\"Three women in the laparoscopic group had laparoconversion due to inaccessibility to uterine pedicle and therefore were excluded since laparotomy is associated with higher postoperative pain and longer recovery.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcome data appear available for all analysed patients, but 3/40 (7.5%) randomized LAVH patients were removed from analysis for an outcome-related reason (conversion to laparotomy associated with worse recovery), with no sensitivity analysis reported.",
+        "evidence_quote": "\"Three women in the laparoscopic group had laparoconversion ... and therefore were excluded\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes (analgesic consumption, hemoglobin drop, hospital stay) are largely objective and uniformly assessed, but patients and nursing assessors were unblinded to the surgical route, and pain-driven analgesic dosing is subjective and potentially influenced by knowledge of the procedure.",
+        "evidence_quote": "\"pain was evaluated every 5 min by assistant anesthesia nurses, using a numeric scale ... Data regarding the patient characteristics and immediate and short-term postoperative outcome was available from the patient hospital medical records.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No protocol or prospective registration is cited, the sample size was powered for complications while the reported primary focus is recovery parameters, and inconsistencies in reporting (hospital stay reported as median 4.3 vs 3.2 in text but mean 5.3 vs 5.7 in Table II; implausible operative-time ranges) raise concerns about selective/unclear reporting.",
+        "evidence_quote": "\"The power calculation used to estimate study size assumed that the incidence of complications in patients undergoing laparoscopic hysterectomy is 10% and there will be an increase of complication rate to 40%\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 2: the three LAVH patients converted to laparotomy were excluded from analysis (non-intention-to-treat) precisely because of their expected worse recovery, in an inherently unblinded surgical trial. Additional concerns include undescribed allocation concealment with baseline imbalances (parity, previous cesarean), unblinded subjective pain-based analgesic outcomes, absence of a registered protocol, and internally inconsistent reporting of results."
+  },
+  {
+    "paper_id": "manual:ad87ff92",
+    "paper_title": "f9c53c67_bmj32800129",
+    "design_classification": "randomized",
+    "design_rationale": "Two parallel multicentre randomised controlled trials with central telephone randomisation to a computer-generated allocation programme (\"Randomisation ... was made by telephone access to a computer-generated randomisation programme held at the Northern and Yorkshire Clinical Trials Research Unit\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central, computer-generated 2:1 allocation accessed by telephone ensures concealment, minimisation balanced key prognostic factors, and baseline characteristics were \"well matched in each of the allocated trials\".",
+        "evidence_quote": "\"Randomisation to the selected conventional approach or laparoscopic hysterectomy alternative was made by telephone access to a computer-generated randomisation programme held at the Northern and Yorkshire Clinical Trials Research Unit. We minimised randomisation by proposed trial, surgeon, intended removal of ovaries, and body mass index\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and surgeons is impossible in a surgical trial and some preoperative crossovers occurred (partly surgeon-driven), though the primary analysis was intention to treat with supportive per-protocol and sensitivity analyses that did not change direction of effect; residual performance/co-intervention differences (e.g., surgeon experience, haemostasis technique) cannot be excluded.",
+        "evidence_quote": "\"We performed a per protocol analysis as 46 (3.3%) patients were allocated to one procedure but had an alternative operation because of preoperative conversion (patient\u2019s decision (25 cases, 54%) and surgeon\u2019s unavailability (10 cases, 22%)).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The primary complication outcome was essentially complete (only 34/1380 had no operation, addressed by sensitivity analyses), but substantial attrition for the secondary pain/quality-of-life outcomes (\u224840% missing questionnaires, follow-up forms outside time windows excluded) could bias those results.",
+        "evidence_quote": "\"1380 women were recruited; 1346 had surgery; 937 were followed up at one year.\" ... \"Overall the compliance with quality of life questionnaires was excellent, but only 60% (828/1380) of patients returned questionnaires at all three time points.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Complications were mostly objective and an independent reviewer adjudicated anaesthetic problems, but outcome ascertainment was by unblinded recruiting surgeons and the composite included unintended laparotomy, an event structurally more likely in the laparoscopic arm; pain and quality-of-life outcomes were self-reported by unblinded patients.",
+        "evidence_quote": "\"Including unintended laparotomy as a major complication caused debate in the trial\u2019s steering committee. It represented the second most common major complication, and a large proportion of these patients did not have any other complication.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The primary endpoint, sample size and analysis plan were clearly pre-specified and a full report exists in the HTA monograph series, but no trial registration/protocol is cited, recruitment stopped short of target, and numerous secondary, subgroup and exploratory predictor analyses are reported without adjustment for multiplicity.",
+        "evidence_quote": "\"The primary end point of the trials was the occurrence of at least one major complication... The primary analysis was by intention to treat.\" ... \"The trial steering committee closed the trials in September 2000 because funding ended and the rate of recruitment decreased.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was centrally randomised with minimisation and baseline groups were well matched, and the primary complication outcome was near-complete with ITT plus sensitivity analyses; however, the unavoidable lack of blinding of surgeons/patients, surgeon-ascertained composite outcome including unintended laparotomy, large attrition for questionnaire-based secondary outcomes, early termination short of the recruitment target, and absence of a registered protocol with many secondary analyses together generate some concerns. No single domain reached high risk, so the overall judgment is \"some concerns\", driven mainly by outcome measurement and missing data for secondary endpoints."
+  },
+  {
+    "paper_id": "manual:7817f05d",
+    "paper_title": "f6420b1c_j.1471-0528.2000.tb11652.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes computer-generated random allocation of 120 women into three surgical arms with concealed sealed opaque envelopes: \"The randomisation procedure was based on computer-generated numbers and information about the allocation schedule was kept in sealed opaque envelopes prepared by and successively opened by the research nurse.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation sequence was computer-generated with block randomization and concealed in sealed opaque envelopes opened by an independent research nurse; baseline age, weight, height, uterine weight and indications were comparable, with only minor imbalances in parity/previous caesarean section plausibly due to chance in a trial of n=40 per arm.",
+        "evidence_quote": "\"Patients were randomly allocated to one of the three operating methods in four blocks of 30 to ensure a balanced number of patients throughout the study period... The randomisation procedure was based on computer-generated numbers and information about the allocation schedule was kept in sealed opaque envelopes prepared by and successively opened by the research nurse.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients, surgeons and care staff was impossible for surgical routes, and outcomes such as hospital stay and convalescence are discharge/judgement-dependent and explicitly acknowledged by the authors as potentially influenced by traditional practice and patient expectations; however, deviations were few (5 conversions, 1 protocol violation) and intention-to-treat analysis was used.",
+        "evidence_quote": "\"One patient in the total abdominal hysterectomy group had a laparoscopic assisted vaginal hysterectomy due to protocol violation, but was analysed according to intention to treat... It is possible that these figures are biased by our traditional practice\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 120 randomised women were followed up and analysed in their assigned groups (n=40 per arm in all outcome tables), with the authors explicitly stating complete follow-up.",
+        "evidence_quote": "\"All patients were followed up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Operative/anaesthesia times were objectively charted, but the key outcomes of hospital stay and convalescence were determined by unblinded surgeons who also conducted the follow-up visits and decided on extended sick leave \u2014 a source of observer bias the authors themselves acknowledge, mitigated only partly by a sensitivity analysis excluding the principal investigator.",
+        "evidence_quote": "\"All patients were seen at an early follow up visit by the surgeons. This is a possible source for observer bias but regarded as important to ensure continuity of care.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or accessible pre-specified protocol is cited, and although the primary outcome (hospital stay) was pre-specified via the power calculation, several post hoc subgroup analyses (five highest-volume surgeons, with/without principal investigator) and an unplanned-detail interim analysis are reported, leaving some scope for selective reporting.",
+        "evidence_quote": "\"An interim analysis was done after 25 patients were randomised in each group... In order to address the importance of individual surgeon's experience we looked at the five surgeons who did 75% of all cases.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial has a robust, concealed computer-generated randomisation sequence and complete follow-up with intention-to-treat analysis, but the unavoidable lack of blinding means the main subjective outcomes (hospital stay, convalescence/sick leave) were assessed by the operating surgeons, an observer-bias risk the authors acknowledge, and there is no pre-registered protocol alongside several post hoc analyses. No domain reaches high risk, so the overall judgment is \"some concerns\", driven by D2, D4 and D5."
+  },
+  {
+    "paper_id": "manual:5263086a",
+    "paper_title": "a08b8a90_j.1600-0412.2002.811206.x",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes allocation by \"opening sealed envelopes containing computer-generated block randomization numbers, with a block size of 10\", assigning 90 patients to LAVH, TVH or TAH.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated block randomization with sealed envelopes provides an adequate random sequence and plausible concealment, and the reported baseline characteristics (age, parity, BMI, prior surgery) did not differ between arms.",
+        "evidence_quote": "\"Randomization was carried out by opening sealed envelopes containing computer-generated block randomization numbers, with a block size of 10 to ensure roughly equal numbers of patients in each arm\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeon and patients were necessarily unblinded to the surgical approach, three allocated procedures were converted to the abdominal route, and it is not stated whether data were analysed by intention-to-treat (the apparently differing uterine weights by group suggest possible post-conversion reassignment or exclusion).",
+        "evidence_quote": "\"Two patients with failed planned TVH (6.6%) ... The uterine diameter of a patient with failed planned LAVH (3.3%) was 12.5cm ... All three surgeries were reverted to the abdominal route.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 90 randomized patients (n=30 per arm) are accounted for in every outcome table, with no reported losses to follow-up at 6 weeks.",
+        "evidence_quote": "\"A total of 90 patients (30 women in each group) entered this study.\" and all outcome rows report n=30 per group"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were measured identically across arms but key endpoints are subjective/estimated and assessed by unblinded staff \u2014 blood loss was visually estimated by the surgical nurse, pain scored by unblinded patients, and discharge decided by the unblinded surgical team.",
+        "evidence_quote": "\"The surgical nurse estimated the amount of bleeding in a routine manner.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, and although a power calculation for operative time is given, many secondary outcomes (complications, antibiotics, ultrasound-weight correlations) are reported with multiple groupings and no adjustment, allowing selective reporting.",
+        "evidence_quote": "\"We assumed an SD of 30 min for surgery time as observed from previous studies. The power of analysis was 80% at \u03b1 = 0.05.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and outcome-data completeness were adequately handled, but the unavoidable lack of blinding combined with subjectively estimated outcomes (blood loss, pain, discharge timing), unclear intention-to-treat handling of three surgical conversions, and absence of a registered protocol raise some concerns. No single domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:781b75f5",
+    "paper_title": "2f4540ae_j.ijgo.2008.07.006",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of 150 women into three surgical arms using a computer-generated randomization list with serially numbered, opaque, sealed envelopes (\"A total of 150 women ... were randomly allocated into 3 treatment groups\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated allocation sequence with serially numbered opaque sealed envelopes was used, concealment until assignment is explicitly stated, and baseline characteristics (age, BMI, parity, uterine weight) were balanced across the three arms, consistent with chance.",
+        "evidence_quote": "\"The randomization procedure was based on a computer-generated list using serially numbered, opaque, sealed envelopes... The sequence was concealed until the interventions were assigned.\" Baseline table: age P=0.42, BMI P=0.63, parity P=0.70, uterine weight P=0.53."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding is inherently impossible in a surgical trial \u2014 surgeons necessarily know which route they are performing and patients see their incision \u2014 so the stated 'blinding' only concerns study membership; although no crossovers or conversions occurred and all 150 randomized patients were analyzed, no intention-to-treat analysis is explicitly stated and co-interventions (analgesia, discharge decisions) could be influenced by awareness of the assigned procedure.",
+        "evidence_quote": "\"Those performing the surgical procedures did not know which patients had been included in the study.\" / \"The procedures were performed successfully in all patients... No conversion to standard laparotomy was necessary in either group.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all 50 patients in each arm, with no reported losses to follow-up or exclusions after randomization for the operative and early postoperative outcomes.",
+        "evidence_quote": "\"Enrolment was closed when 150 consecutive patients were included and 50 patients were allocated to each arm... The procedures were performed successfully in all patients.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome definitions were pre-specified and applied uniformly (explicit discharge criteria, standardized blood-loss and ileus measurement), but the claim of blinded assessors is not plausible because the surgical route is evident from the abdominal/vaginal incision, and subjective outcomes such as the patient-reported VAS pain score and clinician-determined discharge readiness could be influenced by knowledge of the procedure received.",
+        "evidence_quote": "\"Those assessing the outcomes were blinded to the group assignment.\" / \"Postoperative pain was assessed at 24 hours using a visual analog scale (VAS)\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary outcome and a priori power calculation are stated, but no trial registration or pre-specified analysis protocol is cited, multiple secondary outcomes and post-hoc GLM/regression analyses of variable interactions are reported, and pain was re-categorized into five VAS bands, leaving scope for selective reporting of analyses.",
+        "evidence_quote": "\"The primary outcome was the difference in hospital discharge time (measured in hours) among the 3 procedures... A power calculation verified that greater than 36 patients in each group would be necessary... A general linear model (GLM) procedure was also used to investigate interactions between variables (regression analysis).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The trial used an adequate computer-generated, concealed randomization sequence with balanced baseline characteristics and complete outcome data for all 150 participants, but concerns remain because blinding of surgeons, patients, and outcome assessors is not credible in a trial comparing visibly different surgical routes, which may affect subjective outcomes such as VAS pain and discharge readiness. Combined with the absence of prospective trial registration/protocol and the use of post-hoc GLM regression analyses among many secondary outcomes, the overall risk of bias is judged 'some concerns'."
+  },
+  {
+    "paper_id": "manual:6982ccea",
+    "paper_title": "bada2459_JSAFOG-13-31",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation is described: \"At each site, block randomization in multiples of three was done by opening sealed opaque envelopes containing computer-generated block randomization numbers\", in a pragmatic multicenter three-arm RCT registered in the Sri Lanka clinical trials registry.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated block randomization sequence was concealed in sealed opaque envelopes at each site, and baseline characteristics (age, BMI, parity, uterine weight) were similar across the three arms, consistent with chance.",
+        "evidence_quote": "\"At each site, block randomization in multiples of three was done by opening sealed opaque envelopes containing computergenerated block randomization numbers to ensure approximately equal numbers in each arm at any given point of the study.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and surgeons was impossible in a surgical trial, and the authors themselves acknowledge a differential expertise bias (greater surgeon competence in TAH than in NDVH/TLH) that may have affected delivery of the assigned interventions; however, the trial was pragmatic and analysis followed the intention-to-treat principle, including the three NDVH and two TLH cases converted to laparotomy.",
+        "evidence_quote": "\"A diferential expertise bias favoring TAH would need to be considered because even though being competent in all three routes, the competency for TAH would have been higher than for either NDVH or TLH.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for 145/147 (98.6%) participants, with only one loss in each of the NDVH and TLH arms; such minimal and balanced attrition could not plausibly bias the effect estimate, and multiple imputation was used for the small amount of missing cost data.",
+        "evidence_quote": "\"Over 6 months of follow-up, 145 patients out of 147 completed all the assessments.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome, \"time to recover\", is a self-reported subjective measure collected from unblinded patients (and assessed by non-blinded researchers from clinical records), and the authors concede its subjectivity; the measure was however applied identically in all three arms and the direction of any bias is unclear.",
+        "evidence_quote": "\"The time to recover although subjective incorporates patient beliefs, efort, and optimism into the clinical outcome measure and mimics the real-life scenario.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered (SLCTR/2016/020) with a published protocol, the primary outcome and sample-size/Bonferroni analysis plan were pre-specified, and CONSORT/CHEERS checklists plus multiple pre-defined sensitivity scenarios are reported, making selective reporting unlikely.",
+        "evidence_quote": "\"The trial was registered in the Sri Lanka clinical trials registry (SLCTR/2016/020) on July 26, 2016... The study protocol was published.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was adequately randomized and concealed, attrition was negligible (145/147), and the trial was prospectively registered with a published protocol. Overall judgment of \"some concerns\" is driven by the unavoidable lack of blinding in a surgical trial combined with an acknowledged differential surgical expertise bias favouring TAH, and by reliance on a subjective, self-reported primary outcome (time to recover) in unblinded participants."
+  },
+  {
+    "paper_id": "manual:cd62e643",
+    "paper_title": "9d844550_PIIS0002937805012627",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized trial with computer-generated random assignment delivered in sequentially numbered opaque envelopes, allocating 48 patients to LAVHO or VHO.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computer-generated random sequence was concealed in sequentially numbered opaque envelopes opened on the day of surgery, and baseline characteristics (age, BMI, parity, menopausal status, indication, prior surgery) were similar between groups.",
+        "evidence_quote": "\"Randomization took place the day of the procedure; treatment randomization used sequentially numbered opaque envelopes containing a card with the computer-generated random assignment allocating patients to 1 of the 2 groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "No blinding was (or could be) used in this surgical trial, so patients, surgeons and care providers knew the allocated procedure and could influence peri-/postoperative care decisions (e.g., prolongation of care), although no crossovers occurred and all randomized patients received and were analyzed in their allocated group.",
+        "evidence_quote": "\"No eligible patients refused to participate in the study. All had surgery as planned, and the allocated surgery was completed for all.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all 48 randomized patients, with all patients attending the 1-month follow-up visit and no reported losses.",
+        "evidence_quote": "\"All patients were seen again 1 month after the surgery. No complications were found then.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The composite complication outcome depended partly on subjective/assessor-influenced judgments (blood loss measured by suction, hematoma \"requiring prolongation of care\") assessed by unblinded surgeons who had a stated prior expectation that LAVHO is more morbid, and laparoscopy itself alters blood-collection conditions (e.g., trocar-port hematomas only possible in LAVHO).",
+        "evidence_quote": "\"Blood loss was assessed by measuring the blood collected by suction both during the laparoscopy and the vaginal procedure.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol is cited, and although an a priori sample-size calculation for a composite complication rate is reported, the authors themselves acknowledge the composite was a heterogeneous post hoc-style grouping of minor and serious events, and Table III reports a P value (.039) aligned with the total rather than the individual components, raising concern about selective reporting of outcome operationalization.",
+        "evidence_quote": "\"We therefore studied all of the complications together, regardless of their seriousness. Only by combining them all were we able to assess enough subjects with complications in each group.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was properly randomized and concealed with complete outcome data, but the unavoidable lack of blinding in a surgical trial, a partly subjective composite complication outcome assessed by unblinded surgeons with prior expectations, and the absence of a registered protocol with an acknowledged heterogeneous composite endpoint raise some concerns. No single domain reached high risk, so the overall judgment is \"some concerns.\""
+  },
+  {
+    "paper_id": "manual:eadd4009",
+    "paper_title": "235dc30c_s0029-7844%2801%2901194-2",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports random allocation of 80 women to vaginal hysterectomy or LAVH using a computer-generated randomization code (\"Eighty women were assigned randomly to vaginal hysterectomy or LAVH (40 per group) using a predetermined computer-generated randomization code\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used but allocation concealment is not described, and some baseline imbalances are apparent (previous cesarean 7 vs 0; gravidity 3.7 vs 2.4; parity 2.7 vs 1.6; adnexectomy 52.5% vs 37.5%) which raises mild concern about the process despite reported non-significance.",
+        "evidence_quote": "Eighty women were assigned randomly to vaginal hysterectomy or LAVH (40 per group) using a predetermined computer-generated randomization code."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons and patients were necessarily aware of the assigned surgical route and the study was conducted in a centre specialising in vaginal surgery (potential co-intervention/performance effects); conversions appear to have been analysed within the assigned group but intention-to-treat analysis is not explicitly stated.",
+        "evidence_quote": "Conversion to laparotomy was required in three of 40 (7.5%) women who had LAVH, compared with none in the vaginal hysterectomy group"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all 80 randomized women (40 per group reported in all tables), with no losses described for the short-term perioperative outcomes.",
+        "evidence_quote": "The incidence of intraoperative and postoperative complications, febrile morbidity, analgesia requirements, and postoperative hospital stay were recorded in all cases."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes are mostly objective (complications, hemoglobin drop, hospital stay) but assessment was unblinded and based on record review by investigators who clearly favoured the vaginal route; operating time was also defined differently for the two arms (LAVH timed from Veress needle including positioning, VH only from vaginal incision), biasing that comparison.",
+        "evidence_quote": "Data on the patient characteristics and immediate and short-term postoperative outcome were available from the patient hospital and outpatient medical records."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or published protocol is cited and the composite \"all complications\" outcome combines heterogeneous minor and major events with analysis choices (e.g., total vs major complications, conversion counted as a complication) not pre-specified, raising concern about selective reporting; a prior sample size calculation is, however, reported.",
+        "evidence_quote": "The power calculation used to estimate study size assumed that the incidence of complications in women who had laparoscopic hysterectomies was 10% and there was an increase of complication rate to 40%"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This small single-centre randomized trial used a computer-generated allocation sequence with complete outcome data, but allocation concealment is unreported, there are visible baseline imbalances, outcome assessment was unblinded with an asymmetric definition of operating time, and no protocol/registration supports the composite complication outcome. No single domain reaches high risk, so the overall judgment is some concerns."
+  },
+  {
+    "paper_id": "manual:64481ea6",
+    "paper_title": "2a1df8e1_s00404-010-1778-5",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomised trial in which 90\u201399 women with benign uterine disease were \"randomised into three groups\" (TLH, LAVH, NDVH), with allocation revealed to the surgeon just before induction of anaesthesia.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although allocation appears to have been concealed until just before anaesthesia and baseline characteristics (age, BMI, parity, uterine weight, indications) were comparable across groups, the method of generating the allocation sequence (e.g., random number table, software, block/stratification) is not described at all.",
+        "evidence_quote": "\"Ninety-nine women were recruited for hysterectomy and subjected to any of the three-planned procedures for hysterectomy. Randomisation was revealed to the surgeon just before induction of anaesthesia.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeon and patients were necessarily unblinded to the surgical route, one case was converted to laparotomy, and five randomised and operated patients were excluded post hoc rather than analysed by intention-to-treat, so the analysis deviates from the randomised allocation.",
+        "evidence_quote": "\"Of 99 operated women, five patients were excluded (3 in group A and 2 in group B) as they required adnexal removal. This was done to minimise the selection bias leading to interference in operative time and blood loss.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Nine of 99 operated women (\u22489%) are missing from the analysis (5 excluded for adnexal removal, 4 lost to follow-up) and the group allocation of the losses to follow-up is not reported, with no sensitivity analysis; the conveniently exact n=30 per arm suggests exclusions were used to balance groups.",
+        "evidence_quote": "\"Four women did not come for follow-up. Hence, 90 women (30 in each group) were statistically analysed for the present study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Outcomes were assessed by the same unblinded operating surgeon, blood loss was measured by non-equivalent methods across arms (suction volume for TLH versus suction plus sponge estimation for LAVH/NDVH) and operating time was defined differently in group C, and subjective outcomes (surgical difficulty, satisfaction, sexual function via a self-designed unvalidated proforma, recall-based complications) were susceptible to assessor and participant expectation bias.",
+        "evidence_quote": "\"Surgical difficulty was assessed based on surgeon's experience... The blood loss assessed by the number of sponges soaked during vaginal hysterectomy was added in group B and C.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol is cited, and although primary outcomes are stated, multiple secondary outcomes with multiple timepoints (satisfaction at 6 weeks/3/6 months, pain at 24 h and 1 week, sexual function) are reported selectively with incomplete numerical data (e.g., satisfaction and sexual function results given only narratively, and inconsistent p values for pain, 0.8 vs 0.7).",
+        "evidence_quote": "\"For each patient, intra-operative parameters including total duration of surgery and blood loss were recorded as primary outcome measures.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D4: outcomes were measured by the single unblinded operating surgeon with non-equivalent measurement methods across arms (blood loss estimation and operating-time definition differed by route) and several subjective, recall-based or unvalidated outcome instruments. Additional concerns arise from an undescribed randomisation sequence, post-randomisation exclusions without intention-to-treat analysis (9/99 not analysed), and the absence of a pre-registered protocol."
+  },
+  {
+    "paper_id": "manual:e25585d2",
+    "paper_title": "b3c7f8d0_s00404-014-3228-2",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were allocated to TLH, LAVH or VH using a computer-generated randomization list with serially numbered, opaque, sealed envelopes (\"One hundred and eight women ... were randomly allocated into three treatment arms\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated sequence with serially numbered opaque sealed envelopes and explicit concealment until assignment; baseline characteristics (age, BMI, parity, uterine weight) did not differ significantly between arms.",
+        "evidence_quote": "\"The randomization procedure was based on a computer-generated list using serially numbered, opaque, sealed envelopes... The sequence was concealed until interventions were assigned.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Surgeons necessarily knew the allocated route of hysterectomy (the claim that surgeons \"did not know which operating patients had been included in the study\" does not blind them to the intervention), and no intention-to-treat analysis is described, although all procedures were completed as allocated with no conversions.",
+        "evidence_quote": "\"Those who performed surgical procedures did not know which operating patients had been included in the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 36 patients per arm appear in every outcome table and procedures were successfully performed in all patients, indicating essentially complete outcome data.",
+        "evidence_quote": "\"Procedures were successfully performed in all patients.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome assessors were stated to be blinded, but the primary outcome (discharge time) and secondary outcomes such as blood loss and paralytic ileus time are subject to clinician judgement and blinding of ward staff/patients to a vaginal versus laparoscopic approach (visible abdominal incisions) is implausible, with no details on how blinding was maintained.",
+        "evidence_quote": "\"Those assessing the outcomes were blinded to the group assignments.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or published protocol is cited; although a primary outcome and power calculation are pre-specified in the text, multiple secondary outcomes and post hoc GLM regression analyses (not used in prior similar studies) raise the possibility of selective analysis reporting.",
+        "evidence_quote": "\"Finally, unlike other studies focused on the same minimally invasive techniques of hysterectomy [5, 19], in our trial we used the GLM analysis allowing the investigation of interactions between variables (regression analysis).\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization and allocation concealment were adequate and outcome data essentially complete, but the inherent lack of blinding of surgeons/care providers to the surgical route, partly subjective outcomes (discharge and paralytic ileus time, estimated blood loss), and absence of a registered protocol create some concerns. No single domain reached high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:3096c054",
+    "paper_title": "46dd6e25_s00404-014-3571-3",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with computer-generated randomization into three surgical arms: \"The study population were randomized according to type of hysterectomy done into 3 groups... Randomization was done using a computer generated system.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "high",
+        "rationale": "Although a computer-generated sequence and sealed envelopes are reported (envelopes not described as opaque or sequentially numbered), baseline parity differed significantly between groups (p<0.01) and the distribution of surgical indications was grossly imbalanced (83.3% fibroids in the AH arm vs predominantly endometrial hyperplasia in VH/TLH), a pattern implausible under true random allocation of 30 patients per arm and suggestive that allocation was influenced by clinical indication.",
+        "evidence_quote": "\"Randomization was done using a computer generated system. Randomization forms contained in sealed envelopes, which were opened 24 h preoperatively.\" / \"Parity 2 (0\u201310) 1 (0\u20137) 1 (0\u20136) <0.01\" / \"The most common indication in TLH group and VH group was endometrial hyperplasia 20 (66 %) and 18 (60 %), respectively. While in AH was uterine fibroid 25 (83.3 %).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and surgeons is impossible in a trial of surgical routes (and spinal anaesthesia means patients knew their approach), conversions from the assigned route occurred, and no intention-to-treat analysis is stated \u2014 all 30 per arm are analysed without any described handling of cross-over/conversion, with a discrepancy between text (two conversions) and Table 3 (one).",
+        "evidence_quote": "\"two cases in the VH group were converted to laparotomy due to difficulty in the vaginal technique in the presence of dense adhesions\" (Table 3 reports \"Conversion to laparotomy 1 (3.3 %)\")"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all 90 randomized participants (30 per arm in every table) with no reported losses to follow-up at 1 and 6 weeks, so bias from missing data is unlikely.",
+        "evidence_quote": "\"Ninety patients were randomized to either VH, or TAH or TLH for benign pathology using EBVS.\" / All tables report n = 30 per group; \"the patients were followed up after 1 and 6 weeks for any further complications.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "No outcome assessor blinding is reported and blinding was infeasible; the key outcomes are subjective or subjectively estimated (VAS pain, analgesic need, discretionary discharge timing/hospital stay, and visually estimated blood loss with a differing, approximate correction for laparoscopic irrigation), so knowledge of the surgical approach by unblinded surgeons/assessors could readily have influenced measurement in favour of TLH.",
+        "evidence_quote": "\"Operative blood loss was estimated based on the number of gauze towel used and the amount of blood in the suction bottle after subtracting the amount of the washes in case of LH.\" / \"Postoperative pain was assessed using the visual analogue scale (from 0 to 10), and the need for analgesics.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, multiple co-primary outcomes are listed without a single primary endpoint or sample-size calculation, and pre-specified outcomes (postoperative haemoglobin/haematocrit) were measured but never reported, raising concern about selective reporting.",
+        "evidence_quote": "\"Main outcome measures were operative time, operative blood loss, operative complications, postoperative pain assessment using the visual analogue scale (0\u201310), and the need for analgesics as well as the postoperative hospital stay.\" / \"The preoperative laboratory investigation: hemoglobin percent and hematocrit value... The postoperative hemoglobin and hematocrit were measured 24 h after the end of the procedure.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 1 (significant baseline imbalance in parity and a grossly skewed distribution of surgical indications across arms, inconsistent with effective random allocation) and Domain 4 (unblinded assessment of inherently subjective primary outcomes \u2014 VAS pain, analgesic requirement, discharge timing and visually estimated blood loss). Concerns about handling of conversions without a stated intention-to-treat analysis and the absence of prospective registration with unreported pre-specified haemoglobin outcomes further reduce confidence in the reported advantage of TLH."
+  },
+  {
+    "paper_id": "manual:d9009264",
+    "paper_title": "a1d2a7bd_s00404-017-4397-6",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective randomized controlled trial with allocation by a computer-generated list using serially numbered, opaque, sealed envelopes, registered at ClinicalTrials.gov (NCT02826304).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although a computer-generated sequence and opaque sealed envelopes are claimed and baseline characteristics were similar, the described procedure (patients picking numbers from five envelopes of ten numbers) is internally inconsistent/confusing and allocation concealment cannot be clearly verified.",
+        "evidence_quote": "\"The randomization procedure was based on a computer generated list using serially numbered, opaque, sealed envelopes... The numbers were put in five closed envelopes containing ten numbers and each participate had to pick a number from one envelope. Through a computer-based randomization, each number corresponded to a procedure either VH or LAVH.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and surgeons is impossible for surgical approach and two conversions to laparotomy occurred; no intention-to-treat analysis is explicitly described, and it is unclear how converted cases were handled in analyses of cost, operative time and stay.",
+        "evidence_quote": "\"there was one case which was converted to laparotomy due to difficulty in entering the pouch of Douglas... another case which was converted to laparotomy due to marked severe adhesions\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and a primary outcome is stated, but no protocol/analysis plan or sample-size calculation is provided (described post hoc as a \"pilot study\" with multiple outcomes and correlation analyses), so selective reporting cannot be excluded.",
+        "evidence_quote": "\"The study was registered in ClinicalTrials.gov (Id NCT02826304) prior to initiation... This study was a pilot study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "All 50 randomized patients appear in the analyses (25 per group) with a participant flow diagram and no reported losses to follow-up for the short-term in-hospital outcomes.",
+        "evidence_quote": "\"A total of 50 cases were included in this study and they were randomly divided into two groups\"; results reported for 25 per group"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes were measured identically in both groups, but several (hospital stay/discharge decision, estimated blood loss, complication documentation) are subjective or clinician-determined and outcome assessors were the unblinded operating team, so knowledge of intervention could influence assessment.",
+        "evidence_quote": "\"the primary outcome measured was postoperative hospital stay, measured in hours from the day of the operation until discharge... Intraoperative blood loss was estimated via the amount of blood in the suction bottle, estimation based on the number of soaked gauzes\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall some concerns: the trial was prospectively registered with balanced baseline characteristics and complete outcome data, but the randomization/concealment procedure is described inconsistently, the unblinded surgical team also assessed partly subjective outcomes (hospital stay, estimated blood loss), the handling of laparotomy conversions/ITT is unclear, and no protocol or sample-size plan is available for a small \"pilot\" study."
+  }
+]

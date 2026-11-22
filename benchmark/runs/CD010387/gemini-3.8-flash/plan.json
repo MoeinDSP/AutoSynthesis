@@ -1,0 +1,35 @@
+{
+  "research_question": "What is the effect of exercise therapy, compared with control (no treatment, placebo, waiting list or health educational material, including exercise plus a co-intervention versus that co-intervention alone), on functional ability in the short term (up to 3 months) in people with patellofemoral pain syndrome?",
+  "treatment_label": "Exercise therapy",
+  "control_label": "Control (no treatment, placebo, waitlist, education, or co-intervention alone)",
+  "outcome_description": "Self-reported knee functional ability in the short term (up to 3 months post-randomization) measured by validated knee-function questionnaires (preferring Anterior Knee Pain Scale / Kujala, followed by FIQ, WOMAC function, or Lysholm).",
+  "positive_direction": "Greater functional ability / better knee function in the exercise therapy group compared with the control group.",
+  "search_queries": [
+    "patellofemoral pain syndrome exercise therapy functional ability trial",
+    "anterior knee pain exercise control trial Kujala WOMAC function",
+    "patellofemoral pain exercise therapy short term functional outcome controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Empirical studies evaluating exercise therapy (alone or combined with a co-intervention) compared to a control condition (no treatment, placebo/sham, waitlist, educational material, or the co-intervention alone) in individuals with patellofemoral pain syndrome.",
+    "Reports quantitative outcomes assessing knee functional ability or functional disability via validated self-reported questionnaires (e.g., Anterior Knee Pain Scale/Kujala, FIQ, WOMAC, Lysholm) at short-term follow-up (up to 3 months)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, protocols, editorials, and commentary papers are excluded).",
+    "No comparison between an exercise therapy group and an eligible control group (e.g., comparing two active exercise interventions without an inactive or co-intervention control).",
+    "No quantitative outcome data on functional ability permitting effect size calculation (means and SDs, change scores, t-statistics, or exact p-values).",
+    "Completely unrelated to patellofemoral pain syndrome (or conducted in healthy asymptomatic individuals, post-surgical populations, or animal/in vitro models)."
+  ],
+  "moderators_to_extract": [
+    "Exercise type (e.g., knee/quadriceps-focused vs hip-focused vs combined hip and knee exercise)",
+    "Control type (e.g., true control/no treatment/waitlist vs education vs co-intervention alone vs sham/placebo)",
+    "Measurement instrument (e.g., AKPS/Kujala vs WOMAC vs FIQ vs Lysholm)",
+    "Follow-up duration within the short-term window (e.g., <=6 weeks vs >6 to 12 weeks)",
+    "Supervision level (fully supervised vs home-based/unsupervised vs mixed)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Scores on scales where higher values represent greater impairment/disability (such as WOMAC function subscale) must be inverted so that positive effect sizes consistently indicate better functional ability. AKPS/Kujala is prioritized when multiple scales are reported.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "functional ability"
+}

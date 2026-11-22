@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of any iron-containing supplement, compared with the same supplement without iron or no treatment/placebo, on maternal iron-deficiency anaemia at term during pregnancy?",
+  "treatment_label": "Iron-containing supplement",
+  "control_label": "Supplement without iron or placebo/no treatment",
+  "outcome_description": "Maternal iron-deficiency anaemia at term, defined as haemoglobin < 110 g/L plus at least one additional laboratory indicator of iron deficiency (e.g., serum ferritin, transferrin saturation) assessed at 37 weeks' gestation or later",
+  "positive_direction": "A positive effect indicates a lower rate or reduction of maternal iron-deficiency anaemia at term, favoring the iron-containing supplement group",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "iron supplementation pregnancy iron deficiency anaemia term trial",
+    "prenatal iron supplement maternal anaemia controlled comparison",
+    "iron pregnant women haemoglobin deficiency outcome trial"
+  ],
+  "inclusion_criteria": [
+    "Pregnant women receiving any oral iron-containing supplement compared to the same supplement without iron, placebo, or no treatment",
+    "Quantitative evaluation of maternal iron-deficiency anaemia at or near term (37 weeks' gestation or later)",
+    "Controlled experimental or comparative observational study designs reporting comparative outcome data"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (e.g., systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols)",
+    "No comparison between an iron-containing supplement and an identical supplement without iron or placebo/no treatment",
+    "No quantitative outcome data reported on maternal iron-deficiency anaemia or haemoglobin/iron status at term suitable for effect size calculation",
+    "Studies in non-pregnant populations or studies completely unrelated to iron supplementation in pregnancy"
+  ],
+  "moderators_to_extract": [
+    "Dose and frequency of iron supplementation (e.g., daily vs. intermittent, elemental iron dose)",
+    "Type of iron compound administered (e.g., ferrous sulfate, ferrous fumarate)",
+    "Co-interventions (e.g., iron alone vs. iron plus folic acid or multiple micronutrients)",
+    "Maternal baseline anaemia/iron status or setting-level anaemia prevalence",
+    "Gestational age at supplementation initiation"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Trials reporting zero events in both treatment and control arms are treated as not estimable and excluded from pooling.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "maternal iron-deficiency anaemia at term"
+}

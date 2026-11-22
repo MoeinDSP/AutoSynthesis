@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with chronic kidney disease (CKD stages 3\u20135, receiving dialysis, or with a kidney transplant), what is the effect of antioxidant or Nrf2-activating therapy compared with placebo, usual care, or no treatment on cardiovascular death over the whole reported follow-up period?",
+  "treatment_label": "Antioxidant or Nrf2-activating therapy (including vitamin E or other vitamins, N-acetylcysteine, selenium, bardoxolone methyl, pentoxifylline, and other agents with antioxidant or Nrf2-activating action)",
+  "control_label": "Placebo, usual care, or no treatment",
+  "outcome_description": "Cardiovascular mortality: the number of randomised or analysed participants who died from cardiovascular causes (events) divided by the corresponding arm total, using the whole follow-up period. Extract only the cardiovascular-death component, not all-cause mortality, non-fatal cardiovascular events, or composite cardiovascular endpoints. When a larger trial reports a CKD subgroup, use the subgroup-specific events and denominators. Fatal myocardial infarction, fatal stroke, sudden death, or similar categories may be summed only when the study itself defines those categories as cardiovascular death. Do not infer cardiovascular deaths from all-cause deaths and do not estimate unreported event counts.",
+  "positive_direction": "After directional harmonisation, a positive effect means fewer cardiovascular deaths with antioxidant therapy than with control (favours antioxidants); for the requested risk-ratio analysis specifically, RR below 1 favours antioxidants.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "chronic kidney disease antioxidant randomized trial cardiovascular mortality",
+    "dialysis vitamin E N-acetylcysteine selenium controlled trial cardiovascular death",
+    "kidney transplant bardoxolone pentoxifylline antioxidant trial cardiovascular death"
+  ],
+  "inclusion_criteria": [
+    "Original randomised controlled trials enrolling adults with CKD stages 3\u20135, adults receiving dialysis, or adult kidney-transplant recipients; eligible CKD subgroup data from broader trials may be included when reported separately.",
+    "Comparison of an eligible antioxidant or Nrf2-activating intervention with placebo, usual care, or no treatment.",
+    "Reported cardiovascular-death event counts and arm denominators for the eligible CKD population over the whole follow-up period, sufficient to calculate a risk ratio."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomised study, including systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and other non-randomised reports.",
+    "No comparison between eligible antioxidant treatment and placebo, usual care, or no treatment, including trials comparing one antioxidant only against another antioxidant.",
+    "No quantitative cardiovascular-death outcome data capable of producing an effect size (e.g., cardiovascular-death counts with denominators, proportions, or an eligible reported ratio); this includes studies reporting only all-cause death, non-fatal events, composite cardiovascular endpoints, biomarkers, kidney outcomes, adverse events, or cardiovascular deaths that would have to be estimated.",
+    "Completely unrelated to the research topic or conducted only in participants without kidney disease and without separately reported CKD-subgroup results."
+  ],
+  "moderators_to_extract": [
+    "CKD population or treatment status (stage 3\u20135 non-dialysis, dialysis modality, or kidney transplant)",
+    "Antioxidant agent or pharmacologic class",
+    "Dose and treatment duration",
+    "Control condition (placebo, usual care, or no treatment)",
+    "Length of follow-up",
+    "Baseline cardiovascular risk or established cardiovascular disease"
+  ],
+  "search_start_year": 1946,
+  "effect_size_note": "For each trial, calculate the cardiovascular-death risk ratio from events and totals in the antioxidant and control arms and pool RRs with a random-effects model, reporting the pooled RR with 95% CI and heterogeneity statistics. RR < 1 indicates fewer cardiovascular deaths and favours antioxidants. Use the whole follow-up period. Use only cardiovascular-death counts, excluding composites and all-cause mortality. For eligible CKD subgroups of larger trials, use subgroup-specific counts and denominators. If fatal MI, fatal stroke, sudden death, or other fatal categories are listed separately, sum them only when the paper itself defines them as cardiovascular death. Do not estimate unreported cardiovascular deaths; omit such studies from this outcome. In multi-arm trials, include eligible antioxidant and placebo/usual-care/no-treatment arms; when several doses of the same eligible antioxidant are tested against a common control, combine antioxidant arms by summing cardiovascular-death events and participant totals before calculating the RR. Address zero-event trials with a prespecified method appropriate for random-effects RR estimation, retain single-zero studies, and document the handling of double-zero studies. Conduct PRISMA 2020 study selection and reporting, duplicate screening and extraction, risk-of-bias assessment with RoB 2, sensitivity analyses for high risk of bias and analytic assumptions, and assessment of small-study effects when enough studies are available.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cardiovascular mortality"
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "paper_id": "manual:18483142",
+    "paper_title": "d526b292_432_2022_Article_4563",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, parallel-group trial: eligible participants were allocated 1:1 to TAB008 or Avastin using a central Interactive Web Response System, with stratification by ECOG performance status, disease stage, and brain metastasis.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central 1:1 allocation through an IWRS, prespecified stratification, and closely balanced baseline characteristics support an adequately random and concealed allocation process, although the sequence-generation algorithm is not described.",
+        "evidence_quote": "Eligible subjects were randomized 1:1 by the Interactive Web Response System (IWRS) into the TAB008 group or Avastin\u00ae group."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and investigators were blinded until database lock, both groups received the same background chemotherapy, and efficacy analyses followed an intention-to-treat-based full analysis set with only one randomized participant excluded for receiving no study treatment; no important differential deviations were evident.",
+        "evidence_quote": "Investigators, patients were blinded until database lock to ensure the objectivity of efficacy and safety evaluation."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The primary analysis included 548 of 549 randomized participants, but ORR was unevaluable in 24/277 TAB008 patients versus 12/271 Avastin patients, largely because of early withdrawal, and no sensitivity analysis establishing robustness to this differential missingness was reported.",
+        "evidence_quote": "Unable to evaluate (NE)a 24 [TAB008] 12 [Avastin\u00ae] ... 21 subjects withdrew early from the study for various reasons and 3 cases were considered unable to be evaluated in the TAB008 group. 12 subjects in the Avastin\u00ae group withdrew early from the study for various reasons."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary ORR outcome was defined using the standard RECIST v1.1 criteria, assessed on the same imaging schedule in both groups, and determined by an independent radiology review committee in a double-blind trial.",
+        "evidence_quote": "The primary endpoint would be overall response rate (ORR) within the first 6 cycles of treatment determined by the independent radiology review committee (IRRC)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Endpoints and equivalence margins are described and a trial registration is cited, but the registration number appears retrospective relative to the 2017\u20132019 study period and no accessible prespecified protocol or statistical analysis plan is provided to rule out selection among eligible analyses; moreover, the statistical methods contain inconsistencies such as referring to a Cox model for the primary ORR analysis.",
+        "evidence_quote": "Trial registration ClinicalTrials.gov number; NCT05427305."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged some concerns, driven by differential unevaluable primary-outcome data without a reported missing-data sensitivity analysis and insufficient evidence that the reported analyses were fully prespecified. Randomization, blinding, balanced baseline characteristics, and independent standardized outcome assessment otherwise support low risk."
+  },
+  {
+    "paper_id": "manual:dd00da71",
+    "paper_title": "b91790ef_40259_2022_Article_552",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were explicitly randomized 1:1 through an interactive web response system using a computer-generated randomization schedule.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated and implemented through an IWRS with concealment maintained, and reported baseline characteristics were well balanced.",
+        "evidence_quote": "An interactive web response system (IWRS) was used for randomization. A computer-generated randomization schedule was prepared for the IWRS by an unblinded statistician."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients and investigators were blinded, both groups received the same co-interventions, and the primary analysis used the intention-to-treat population with missing responses conservatively counted as non-response; the isolated dosing errors are unlikely to have materially biased efficacy results.",
+        "evidence_quote": "Patients and investigators (including local and central outcome assessors) were blinded to treatment group."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcome data were missing for 60 of 689 participants and missingness was imbalanced between groups (6.1% versus 11.2%); treating all missing outcomes as non-response reduces but does not eliminate concern about outcome-dependent missingness.",
+        "evidence_quote": "Missing 21 (6.1) [CT-P16] 39 (11.2) [EU-bevacizumab]."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Objective tumor response was measured at scheduled time points using established RECIST 1.1 criteria in both groups and assessed centrally by blinded independent reviewers.",
+        "evidence_quote": "RECIST criteria version 1.1 were used for tumor evaluation... Images for tumor response were assessed via both central review (by a central independent reviewer) and local review (by investigators)."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the primary endpoint and margins were prespecified, but the report describes protocol amendments and an updated secondary endpoint definition without providing a clearly dated public analysis plan sufficient to exclude selective analytic choices.",
+        "evidence_quote": "During the study, the planned analysis was updated to add death to the description and to add a requirement for CR or PR to be confirmed through subsequent assessment."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns, driven by imbalanced missing primary outcome data and incomplete assurance against selective reporting following protocol amendments. Randomization, blinding, and blinded central outcome assessment were otherwise robust."
+  },
+  {
+    "paper_id": "manual:7e97274d",
+    "paper_title": "a5a27d50_cbm-18-816",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly reports 1:1 assignment using a computerized randomized-list generator with block randomization.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A computerized block-randomization list was used, treatment packaging was identical and coded, and reported baseline characteristics were generally balanced, supporting an adequate randomization process and concealment.",
+        "evidence_quote": "Patients were randomly assigned 1:1 to receive QL1101-based or bevacizumab-based treatment protocols with a block randomization scheme using a double-blind, computerized, and randomized list generator."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Identical coded packaging and double blinding reduce the likelihood of behavior-related deviations, and all randomized patients were analyzed, but the report does not clearly describe blinding of all treating personnel, protocol deviations, or whether analyses followed a prespecified intention-to-treat estimand.",
+        "evidence_quote": "Packaging of the QL1101 and bevacizumab (supplied by Qilu Pharmaceutical Group) were identical and coded according to the random code list."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All randomized patients were included and followed for survival, but objective response was not evaluated in 26 of 269 versus 19 of 266 patients, and no sensitivity analysis establishes that this missing primary-outcome information could not bias equivalence estimates.",
+        "evidence_quote": "Among patients receiving QL1101, ... 9.7% not evaluated (NE) (26 patients) ... while among patients in the bevacizumab group, ... NE (19 patients, 7.1%) ... were observed."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was assessed using standard RECIST 1.1 criteria by an independent blinded imaging committee, consistently limiting differential outcome measurement.",
+        "evidence_quote": "The primary end-point was objective response rate (ORR) using an independent image blinding evaluation committee."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and primary and secondary outcomes are identified, but the supplied report does not establish that outcome definitions and analyses were prospectively specified in an accessible protocol or statistical analysis plan, and it presents multiple subgroup and post hoc exclusion analyses.",
+        "evidence_quote": "After eliminating imbalanced factors, we further analyzed the response for all patients (n = 454) between the QL1101 (n = 231) and bevacizumab groups (n = 223)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by incompletely reported handling of deviations, unevaluated primary outcomes without a missingness sensitivity analysis, and uncertainty about prespecification amid multiple subgroup and post hoc analyses. Randomization and blinded independent outcome measurement were otherwise strong."
+  },
+  {
+    "paper_id": "manual:c2e86603",
+    "paper_title": "035283ae_PIIS0149291820301739",
+    "design_classification": "randomized",
+    "design_rationale": "The trial explicitly used 2:1 permuted block randomization (block size 6) through an online system to assign 126 patients to BE1040V or reference bevacizumab.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "A random permuted-block sequence was generated through an online system, assignment was obtained centrally only after eligibility and consent, and the next allocation was described as unpredictable; reported baseline characteristics showed no compelling imbalance beyond chance.",
+        "evidence_quote": "The randomization process was not exposed to those who were conducting the study and was provided via telephone call for each consecutive eligible patient after the identification characteristics were recorded by the randomization center."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and assessors were blinded and an ITT sensitivity analysis supported the primary result, but the primary noninferiority analysis was per protocol and treatment discontinuations after partial response due to noncompliance or intolerance could have been related to outcome.",
+        "evidence_quote": "The population assessable for PFS was per protocol, and the intention-to-treat (ITT) population was used for sensitivity analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 126 randomized patients were included in the reported ITT PFS sensitivity analysis, but the primary analysis excluded an unclear number from the per-protocol population, some participants were lost to follow-up or discontinued treatment, and reasons and quantities by arm were not fully reported in accessible text.",
+        "evidence_quote": "In patients who were lost to follow-up, survival data were censored from the time of the last contact."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "PFS was appropriately defined using documented progression or death, tumor response was assessed consistently with RECIST 1.1 and scheduled CT scans, and assessors were blinded to treatment assignment.",
+        "evidence_quote": "This Phase III, multicenter, randomized, doubleblind (patient- and assessor-blind), active-controlled, 2-armed, parallel-group, noninferiority study was conducted in 22 centers across 9 cities of Iran."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and prespecified PFS as primary, but the paper does not provide enough protocol or analysis-plan information to rule out selection among possible PFS analysis populations, censoring decisions, or statistical specifications, particularly given the primary per-protocol analysis.",
+        "evidence_quote": "The study was registered at ClinicalTrials.gov (NCT03288987)."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns. Randomization, concealment, blinding, and outcome measurement were sound, but the primary noninferiority result relied on a per-protocol population with incompletely characterized exclusions/discontinuations, and reporting does not fully exclude selective analytical choices."
+  },
+  {
+    "paper_id": "manual:23004893",
+    "paper_title": "451189b0_PIIS0169500220304505",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, double-blind phase III trial with 1:1 assignment through an automated interactive web response system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "An automated centralized web system generated treatment-linked randomization numbers, allocation was blinded, and reported baseline characteristics were closely balanced.",
+        "evidence_quote": "Automated random assignment of patient numbers to randomization numbers linked to study medication was generated by the Interactive Web Recognition System."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Patients, investigators, and site personnel were blinded; treatment modifications were protocol-defined; and the main full-analysis-set analysis followed the intention-to-treat principle, with no evidence of differential deviations affecting outcomes.",
+        "evidence_quote": "Patients, investigators, and site personnel were blinded to medication assignment; however, unblinding could occur if medically necessary."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "A meaningful proportion lacked evaluable primary-outcome assessments (11.3% versus 15.1%), although missing assessments were handled through nonresponder rules or multiple imputation and sensitivity analyses supported the result.",
+        "evidence_quote": "Not evaluable 43 (11.3) [SB8] 58 (15.1) [BEV]."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was measured identically across groups using standardized RECIST v1.1 imaging schedules and independent central review in a double-blind trial.",
+        "evidence_quote": "The primary eficacy endpoint was best ORR, defined as the proportion of patients whose best overall response was either CR or PR during the induction treatment period by 24 weeks, based on independent central review per RECIST v1.1."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and the endpoint, equivalence margins, analysis populations, and models are described as prespecified, but the supplied report does not establish access to a dated protocol or statistical analysis plan sufficient to exclude selective choice among analyses, and both FAS and PPS formulations were used.",
+        "evidence_quote": "To demonstrate equivalence of best ORR between treatment groups, the risk ratio of best ORR was analyzed in the FAS, and risk diference of best ORR was analyzed in the PPS for the primary analysis."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by appreciable and slightly imbalanced non-evaluable primary outcomes despite imputation and sensitivity analyses, plus incomplete information to rule out selective reporting. Randomization, blinding, and independent standardized outcome assessment were otherwise robust."
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "paper_id": "manual:cb9e27da",
+    "paper_title": "65964fd1_1358863X19859072",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a \"multicenter, prospective, randomized, double-blind, placebo-controlled clinical trial\" with patients \"randomly assigned at a 1:1 ratio to receive monthly either canakinumab (150 mg/1 mL) or placebo (1 mL) subcutaneously\", registered as NCT01731990.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Random 1:1 allocation and double-blinding with identical pre-filled syringes are stated, but no detail on sequence generation or allocation concealment is given in the main text (deferred to supplement), and several baseline imbalances beyond what chance would readily explain are reported (significantly higher systolic BP in placebo, more prior myocardial infarction and GI disorders in the canakinumab arm) in this small 38-patient trial.",
+        "evidence_quote": "\"Patients were randomly assigned at a 1:1 ratio to receive monthly either canakinumab (150 mg/1 mL) or placebo (1 mL) subcutaneously (sc) for a total of 12 doses.\" ... \"Baseline systolic blood pressure was higher in the placebo group. There were no significant differences in baseline medical history parameters collected, with the exceptions of myocardial infarction (n = 6 in the canakinumab group and n = 1 in the placebo group, p < 0.05)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and investigators were blinded by a matched placebo, but co-interventions differed in ways that could affect outcomes (peripheral revascularization was permitted and occurred more often in the placebo arm, home exercise was recommended but compliance never measured), and the analysis was not strictly intention-to-treat because post-intervention functional data were deliberately excluded.",
+        "evidence_quote": "\"Post-intervention functional capacity data were excluded from the analysis for any patients who underwent peripheral vascular interventions before the end of treatment.\" ... \"compliance with exercise was not specifically measured.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Attrition was substantial and differential (40% placebo vs 22% canakinumab; MRI available for only 21 of 38 at 12 months, 12 vs 9), the trial was stopped early for futility, and the authors themselves acknowledge informative censoring, with placebo non-completers having significantly lower baseline walking distance (286 vs 416 m, p = 0.009) \u2014 so missingness was plausibly related to the outcome and could bias the walking-performance results.",
+        "evidence_quote": "\"Loss of patients, particularly in the placebo group, may have resulted in informative censoring, despite the use of a mixed model for analysis of the functional performance data. The discrepancy between the primary and sensitivity (LOCF) analyses suggests that the patients who completed the study may not completely reflect the entire cohort evaluated over the full study course.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary MRI endpoint used a validated, reproducible central-reading black-blood protocol and the 6MWT a standardized corridor protocol, applied identically in both arms, with assessors blinded to treatment allocation.",
+        "evidence_quote": "\"Both assessments (MRI and walking performance) were performed by investigators blinded to study treatment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary MRI endpoint and analysis plan, but the headline positive findings come from exploratory walking endpoints reported at multiple timepoints with unconventional 80% (rather than 95%) confidence intervals, nominal unadjusted p-values, and both primary and LOCF analyses presented, creating scope for selective emphasis of favourable results.",
+        "evidence_quote": "\"For these exploratory endpoints, nominal p-values < 0.05 (*) are indicated in the figures below as appropriate. For MWD and PFWD, 80% CIs were produced.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by domain 3: the trial was halted early for futility with substantial, differential attrition (40% placebo vs 22% canakinumab; only 21 of 38 with 12-month MRI) and acknowledged informative censoring, since placebo non-completers had significantly worse baseline walking distance. Additional some-concerns ratings for unreported allocation-concealment detail with notable baseline imbalances, permitted revascularization/unmeasured exercise co-interventions with non-ITT exclusion of post-intervention data, and reliance on exploratory multi-timepoint walking outcomes with 80% CIs compound the concern."
+  },
+  {
+    "paper_id": "manual:f10a1ec6",
+    "paper_title": "e66065f2_CIRCHEARTFAILURE.117.004373",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 60 patients in a 1:1:1 ratio to anakinra 2 weeks, anakinra 12 weeks, or placebo, with a randomization sheet prepared by an independent investigator and registered as NCT01936909.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment via an independent randomization sheet and indistinguishable syringes is adequate, but the sequence-generation method is not described and there were baseline imbalances (hydralazine/isosorbide use P=0.03; NT-proBNP P=0.07) acknowledged by the authors as potential confounders.",
+        "evidence_quote": "\"An independent investigator (G.B.-Z.) created a randomization sheet that was then provided to the Investigational Pharmacy... Anakinra or placebo (vehicle) were provided by SOBI... in 0.67 mL syringes identifiable by lot number but otherwise indistinguishable.\" / \"With the exception of a lower use of hydralazine/isosorbide in the placebo group at baseline... There was a trend toward higher NT-proBNP... in the placebo group\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind, placebo-controlled design with blinding reinforced by withholding CRP results, and an ITT framework; however premature discontinuation of study drug occurred in 4 patients and the analysis excluded participants without outcome data, so it is a modified rather than true ITT.",
+        "evidence_quote": "\"To further ensure concealment of group allocation, the investigators were blinded to all CRP levels throughout the study other than the screening level.\" / \"All analyses were conducted... based on the intention-to-treat principle (ie, analyzing groups as randomized and including all patients with outcome data available).\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "13% were lost before the primary 2-week endpoint and excluded, and later timepoints (including the highlighted 12-week peak VO2 result) relied on substantial LOCF/multiple imputation in a very small trial, so missingness related to the outcome (exercise intolerance/decompensation) could plausibly bias results despite the MCAR test and MICE sensitivity analysis.",
+        "evidence_quote": "\"Eight patients (13%) were lost to follow-up before the visit 2 at 2 weeks.\" / \"Cases with missing data for the primary end point were omitted from the analysis.\" / \"we chose the last observation carried forward method to impute the missing data at 4, 12, and 24 weeks.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Peak VO2 and VE/VCO2 slope are objective, standardized physiological measures analysed by a blinded independent core laboratory, echocardiograms were read by blinded operators, and clinical events were adjudicated by a dedicated committee.",
+        "evidence_quote": "\"The deidentified data from each CPX were transferred to Dr Ross Arena, PhD, at the Core Lab at the University of Illinois at Chicago... for analysis.\" / \"All measurements occurred off-line at the end of the study by 2 separate operators blinded to group allocations.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with pre-specified coprimary endpoints and a published design paper, but the negative primary result is overshadowed by emphasis on within-group 12-week changes selected from many timepoints, endpoints (including a post hoc VE/VCO2:VO2 ratio) and subgroup/sensitivity analyses, raising selective-reporting concerns.",
+        "evidence_quote": "\"The coprimary end points were the placebo-corrected changes in peak Vo2 or the VE/Vco2 slope after 2 weeks of treatment\" / \"the small number of cases in each group, the multiple group comparisons, the missing data imputation... make it necessary for these findings to be validated\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "This double-blind, placebo-controlled randomized trial had strong outcome measurement (blinded core-lab CPX analysis, adjudicated events) but is rated high overall because of missing outcome data: 13% were lost before the primary 2-week endpoint and excluded, while later timepoints relied on LOCF/multiple imputation in a small (n=60) sample. Additional concerns arise from undescribed sequence generation with baseline imbalances (hydralazine/isosorbide, NT-proBNP) and emphasis on within-group 12-week findings despite a null primary result."
+  },
+  {
+    "paper_id": "manual:cc9cedb1",
+    "paper_title": "44a8e463_eurheartj%2Fehu272",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit 1:1 random allocation to anakinra or matching placebo via a central 24-h telephone randomization system, stratified by centre, in a phase II double-blind placebo-controlled multicentre trial.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Central telephone randomization ensured concealed allocation, and baseline characteristics were well matched with no differences suggestive of a problem with the sequence.",
+        "evidence_quote": "\"Eligible patients were randomly assigned in a 1:1 ratio using a central 24 h telephone system, stratified by study centre... Baseline characteristics were well matched between the two groups (Table 1).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blinding with matching placebo and an ITT-based primary analysis, but injection site reactions occurred in 26% vs 4% (potential unblinding) and ~15\u201319% of patients did not complete all doses, though non-compliance was balanced.",
+        "evidence_quote": "\"there was a significant increase in injection site reactions in the IL-1ra treated group (26 compared with 4% with placebo, P , 0.0001)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "22 of 182 patients (10 active, 12 placebo) with <4 hs-CRP readings were excluded from the primary analysis and other missing values were imputed by MCMC; missingness was balanced and pre-specified, but ~12% of participants lacked primary outcome data without sensitivity analyses reported.",
+        "evidence_quote": "\"Ten patients in the IL-1ra group and 12 in the placebo group had ,4 readings, these patients were excluded from the primary outcome analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was an objective laboratory biomarker (hs-CRP) measured identically in both arms in blinded core laboratories, with blinded adjudication of adverse events and sub-study readings.",
+        "evidence_quote": "\"blood samples were processed and then frozen at 2808C before transportation on dry ice in batches to the core laboratories\"; \"Adverse events were reviewed by experienced staff blinded to treatment allocation\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A published protocol and pre-specified statistical analysis plan with a defined primary endpoint exist, but a documented analysis error required re-analysis after the Chief Investigator queried results that had not met the endpoint, with the corrected analysis then meeting the primary endpoint \u2014 raising concerns about analysis-stage influence despite independent statistician verification.",
+        "evidence_quote": "\"In July 2012, the Chief Investigator requested an audit of the study results... This identified a simple yet critical error in the linkage of the randomization list with the patient ID list which produced an incorrect result. When the analysis was repeated with the correct data, the primary endpoint of the trial had been met as reported here.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation concealment and objective core-laboratory biomarker measurement were strong, but some concerns arise from potential unblinding via injection-site reactions and incomplete dosing, ~12% exclusion/imputation for the primary endpoint, and the post hoc audit/re-analysis history that changed the primary-endpoint result from negative to positive. Overall risk is therefore 'some concerns'."
+  },
+  {
+    "paper_id": "manual:56b2cc66",
+    "paper_title": "80636b57_j.jacc.2016.07.768",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit double-blind, placebo-controlled Phase II trial with 1:1 central allocation: \"Patient groups were assigned centrally according to a validated computer-generated randomization code, stratified according to glycemic status (T2DM or IGT).\" (NCT00995930)",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated, centrally administered, stratified randomization ensures concealment, and baseline characteristics were closely balanced (minor imbalance in prevalent CAD, 83% vs 96%, and beta-blocker use is plausibly chance in a trial of this size).",
+        "evidence_quote": "\"Patient groups were assigned centrally according to a validated computer-generated randomization code, stratified according to glycemic status (T2DM or IGT).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Double-blind, placebo-controlled administration makes performance bias unlikely, but the analysis was explicitly per-protocol (patients with missing doses or protocol deviations excluded) rather than intention-to-treat, which could bias the effect estimate.",
+        "evidence_quote": "\"As defined by the protocol, patients were included in the 3-month data analysis if they had no missing doses at 3 months; for the 12-month analysis, participants were required to have no missing doses by 3 months and 1 or no missing doses between 3 and 12 months.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Substantial attrition (25.9% discontinued) compounded by non-evaluable imaging means the primary MRI endpoints were analysed in only roughly half of randomized participants at 12 months (e.g., n=48 canakinumab vs n=55 placebo for mean carotid wall area out of 95/94), with slightly differential loss between arms and no sensitivity analysis for missingness.",
+        "evidence_quote": "\"Canakinumab n = 48; 0.59 (-2.40 to 3.59) ... Placebo n = 55; 3.96 (0.94 to 6.98)\"; \"Discontinued* 21 (22.3) | 28 (29.5) | 49 (25.9)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcomes were objective MRI-derived vascular measures and laboratory biomarkers, acquired with a standardized protocol and trained staff, and image analysis was performed by operators blinded to treatment allocation and time point.",
+        "evidence_quote": "\"analyses of wall area were conducted by operators who were blinded to the timing and treatment allocation of the images\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered with pre-stated primary endpoints and prespecified interim analyses, but many outcomes and anatomic sites were analysed without multiplicity correction and additional post hoc analyses (e.g., left/right carotid concordance) were presented, raising some concern over selective emphasis of results.",
+        "evidence_quote": "\"Given the exploratory nature of the study, corrections were not made for the multiplicity of statistical tests.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "This well-conducted, centrally randomized, double-blind placebo-controlled trial with blinded objective MRI outcome assessment is nonetheless at high overall risk of bias because of extensive and somewhat differential loss of outcome data (only ~50-55% of randomized patients contributed to 12-month primary imaging endpoints) analysed per-protocol rather than by intention-to-treat. Lack of multiplicity correction across many endpoints adds some concern about selective reporting."
+  },
+  {
+    "paper_id": "manual:c2b28664",
+    "paper_title": "11a4e7d7_JAH3-9-e014941",
+    "design_classification": "randomized",
+    "design_rationale": "Explicitly a \"phase 2, multicenter, double-blinded, randomized, placebo-controlled clinical trial\" with 1:1:1 allocation of 99 STEMI patients to anakinra once daily, twice daily, or placebo, with a randomization log maintained by the investigational pharmacy.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was concealed via a central pharmacy with identical matching placebo syringes, but the method of generating the sequence (block size, stratification, random number generation) is not described, and there is a notable baseline imbalance in diabetes mellitus (18% vs 29% vs 43%) and hypertension (39% vs 64% vs 66%) that plausibly affects heart failure outcomes.",
+        "evidence_quote": "\"A randomization log was prepared and maintained at the investigational pharmacy at VCU. The syringes were sequentially numbered from 1 to 28 to maintain allocation concealment\" ... \"A slight, not statistically significant, imbalance in the number of patients with diabetes mellitus is noted between groups\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, carers and investigators were blinded by identical matching placebo syringes, analyses were intention-to-treat, and the only deviations (3 misallocated patients, early discontinuations largely from injection-site reactions) were addressed in a per-protocol sensitivity analysis that reproduced the findings.",
+        "evidence_quote": "\"All analyses were performed on an intention-to-treat basis without imputation for missing data.\" ... \"we found, discovered during the study closure procedures for one of secondary sites, that 3 patients received a treatment different than originally assigned.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary hsCRP-AUC outcome was missing for 22% of patients (notably unbalanced: 67% availability in anakinra once daily vs 87% and 80% in the other arms) and the echocardiographic secondary outcome for 36%, with no imputation performed, so bias from missingness cannot be excluded despite 100% clinical event follow-up.",
+        "evidence_quote": "\"All 99 patients (100%) received at least 1 dose of investigational drug, and 77 (78%) had complete biomarker data available ... allowing for the assessment of the primary end point of hsCRP-AUC\" ... \"Paired echocardiography studies were available in 63 of 99 patients (64%)\" ... \"The major limitations of this phase 2 study are the small sample size and the missing data.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "hsCRP was measured by a central laboratory with personnel blinded, echocardiograms were read by a blinded core laboratory with duplicate readers, and clinical events were adjudicated by a blinded independent committee using prespecified definitions.",
+        "evidence_quote": "\"All study personnel were kept blinded to hsCRP levels.\" ... \"Paired measurements ... occurred offline at the end of the study by a core laboratory with 2 separate operators blinded to group allocations.\" ... \"An independent committee ... blinded to treatment allocation and to hsCRP data and not involved in the conduct of the study procedures, adjudicated all events\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a published design and a prespecified primary analysis plan with adjusted significance thresholds, but post hoc exploratory analyses (stroke volume/stroke work), pooling of the two anakinra arms for event analyses, multiple composite HF endpoints, and results reported only as \"data not shown\" raise some concern about selective reporting.",
+        "evidence_quote": "\"Unique identifier: NCT01950299\" ... \"The study design has been previously published.\" ... \"In an exploratory analysis, we show that patients treated with anakinra tend to improve LV performance (stroke volume and stroke work)\" ... \"the effects of anakinra on AUC for hsCRP appeared to be independent of diabetes mellitus status (data not shown)\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "This well-blinded, placebo-controlled, centrally-adjudicated phase 2 trial is at high overall risk of bias driven by substantial and somewhat unbalanced missing outcome data (22% missing for the primary hsCRP-AUC endpoint, 36% for paired echocardiography, no imputation). Additional some_concerns arise from an incompletely described randomization sequence with baseline imbalance in diabetes/hypertension and from post hoc exploratory and pooled analyses alongside small-sample, underpowered clinical event endpoints."
+  },
+  {
+    "paper_id": "manual:9b1a26fa",
+    "paper_title": "c3c0b2af_jnnp.2004.054882",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit randomised, double blind, placebo controlled phase II trial: \"Treatment group assignment (rhIL 1ra or matching placebo) was performed by an independent, interactive voice response service... Restricted block randomisation balanced the groups for age... baseline severity... and time since onset.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was generated and concealed by an independent interactive voice-response service with restricted block randomisation stratified on key prognostic factors, and baseline characteristics were broadly similar (the excess of PICH/TACS in the active group is a small-sample chance imbalance rather than evidence of failed concealment).",
+        "evidence_quote": "\"Treatment group assignment (rhIL 1ra or matching placebo) was performed by an independent, interactive voice response service (BioCall, Nottingham, UK). Restricted block randomisation balanced the groups for age..., baseline severity..., and time since onset\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Double blind with matching placebo, emergency unblinding never used, all patients received their allocated treatment and analysis followed intention to treat.",
+        "evidence_quote": "\"The facility for emergency unblinding existed, but was not used... Analysis of all data... was planned to follow the intention to treat principle. In practice, all patients received treatments as allocated.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "All 34 randomised patients appear accounted for in safety/mortality outcomes, but 5 patients did not complete the infusion and the number with missing 5\u20137 day CT infarct volumes, biomarker samples and 3-month functional scores is not clearly tabulated (denominators in the cortical-infarct subgroup are small and inconsistently reported, e.g. percentages implying ~10 and ~14 patients).",
+        "evidence_quote": "\"The test treatment was very well tolerated, being completed in 29 (85%) of patients (fig 1)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome measures (SAEs, NIHSS, BI, MRS, laboratory markers, CT volume) are appropriate and applied identically, but outcomes were assessed by the clinical investigators rather than independent blinded assessors, and although the trial was double blind the very large plasma IL-1ra differences and clinical course could potentially unblind assessors of the subjective clinical scales.",
+        "evidence_quote": "\"All outcome data were measured by the clinical investigators.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Primary safety outcomes and the cortical-infarct subgroup were pre-specified, but no protocol/registration is cited, the target sample size was not met, and the favourable efficacy findings come from multiple exploratory outcomes and biomarkers reported largely without formal statistical testing, allowing selective emphasis.",
+        "evidence_quote": "\"Analysis of clinical outcome was pre-specified to be undertaken in patients with cortical infarcts only... All efficacy analysis was secondary and exploratory.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomisation and blinding were well executed with ITT analysis, but incompletely reported missing data for secondary endpoints, outcome assessment by non-independent clinical investigators, and multiple underpowered exploratory efficacy analyses without a cited protocol raise some concerns. Safety conclusions are reasonably robust; the efficacy/biological-activity signals should be treated as hypothesis-generating."
+  },
+  {
+    "paper_id": "manual:0d21f24e",
+    "paper_title": "ced6cb99_NEJMoa1707914",
+    "design_classification": "randomized",
+    "design_rationale": "CANTOS was an explicitly randomized, double-blind, placebo-controlled trial: \"Initially, patients were randomly assigned in a 1:1:1 ratio to receive placebo, canakinumab at a dose of 150 mg, or canakinumab at a dose of 300 mg\" with \"Randomization was performed with the use of a centralized computer system, with stratification according to the time since the index myocardial infarction and according to trial part.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation used a centralized computer system with stratification (implying concealed allocation), and the large baseline table shows closely balanced groups with the paper noting no significant between-group differences.",
+        "evidence_quote": "\"Randomization was performed with the use of a centralized computer system, with stratification according to the time since the index myocardial infarction and according to trial part (before vs. after inclusion of the 50-mg dose group).\" ... \"There were no significant between-group differences at baseline, except as noted.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind with subcutaneous placebo injections, discontinuation of the regimen was balanced across arms (18.1% placebo vs 18.7% canakinumab), and the primary analysis followed the intention-to-treat principle.",
+        "evidence_quote": "\"Log-rank tests and Cox proportional-hazards models ... were used to analyze the prespecified primary and key secondary cardiovascular end points that occurred during trial follow-up, according to the intention-to-treat principle.\" ... \"By the end of follow-up, 18.1% of patients in the placebo group had discontinued the trial regimen, as compared with 18.7% of patients in the combined canakinumab groups\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Loss to follow-up was negligible and nearly identical across arms (0.3% placebo, 0.3% combined canakinumab), so outcome data were essentially complete for the time-to-event endpoints.",
+        "evidence_quote": "\"Lost to follow-up \u2014 no. (%) | 9 (0.3) | 9 (0.4) | 5 (0.2) | 4 (0.2) | 18 (0.3)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Hard cardiovascular endpoints (MI, stroke, cardiovascular death) were objectively defined and centrally adjudicated by a committee blinded to treatment assignment, applied identically across arms.",
+        "evidence_quote": "\"All the components of these end points were adjudicated by an end-point adjudication committee, whose members were unaware of the trial-group assignments.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered (NCT01327846) with a published protocol and design paper, the primary and key secondary endpoints and the multiplicity-adjusted closed-testing thresholds were prespecified, and unadjusted/exploratory analyses are explicitly labelled as such; the sponsor-driven mid-trial sample-size reduction (17,200 to 10,000) was transparently reported with a compensating follow-up extension and is a minor concern only.",
+        "evidence_quote": "\"The formal evaluation of significance for individual doses, with adjustment for multiple comparisons, followed a closed testing procedure ... the two-sided P value thresholds for statistical significance for the primary end point were 0.01058 for the test of the 300-mg dose of canakinumab versus placebo and 0.02115 for the tests of the other two doses versus placebo.\""
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "All five RoB 2 domains were judged at low risk: computer-based stratified randomization with balanced baseline characteristics, double-blind administration with intention-to-treat analysis and balanced discontinuation, essentially complete follow-up (0.3% lost), blinded central adjudication of objective cardiovascular endpoints, and prespecified registered endpoints with a multiplicity-adjusted closed-testing procedure. Residual minor caveats (industry sponsorship with sponsor-controlled data collection and a sponsor-requested mid-trial sample-size reduction) were mitigated by independent academic access to the full database and transparent reporting, and do not raise the overall judgment."
+  },
+  {
+    "paper_id": "manual:127b22b2",
+    "paper_title": "37962199_STROKEAHA.118.020750",
+    "design_classification": "randomized",
+    "design_rationale": "Explicitly a \"single-center, double-blind, randomized, placebo-controlled phase 2 clinical trial\" with 1:1 allocation via an independent third-party web-based randomization service, stratified for NIHSS and thrombolysis.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation was 1:1 via an independent third-party web-based service with stratification, ensuring concealment; baseline characteristics were broadly balanced (minor imbalances in hypertension and onset-to-needle time consistent with chance in a small trial and adjusted for in sensitivity analyses).",
+        "evidence_quote": "\"Randomization (1:1) was undertaken using an independent thirdparty, web-based service, stratified for stroke severity (National Institutes of Health Stroke Scale <13 or \u226513) and intravenous thrombolysis.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, clinicians and assessors were blinded with a matched placebo, nearly all participants received the full 6 doses, and analyses were by allocated group (only one randomized patient withdrawn before treatment).",
+        "evidence_quote": "\"double-blind, randomized, placebo-controlled phase 2 clinical trial ... Median (min, max) doses of test drug received 6 (4\u20136) / 6 (5\u20136)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "The primary biomarker outcome was available for only 63/80 participants (79%) with imbalance between arms (35 placebo vs 28 IL-1Ra) and partial imputation, although sensitivity analyses were reassuring and 3-month mRS was 94% complete.",
+        "evidence_quote": "\"Sixty-three participants (n=35 placebo; n=28 IL-1Ra) had sufficient blood samples for the primary analysis ... Where one of the day 1 to day 3 blood samples was unavailable, imputation was undertaken.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Plasma IL-6/CRP measured by validated, standardized assays with laboratory staff blinded to allocation (except the IL-1Ra assay), neuroradiologists blinded, and mRS assessed by a single trained blinded rater.",
+        "evidence_quote": "\"Laboratory staff were blinded to treatment allocation, except for the individual measuring plasma IL-1Ra ... The clinical secondary outcome was the mRS at 3 months, undertaken by a single, trained rater blinded to treatment allocation\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "Analyses were prespecified in a statistical analysis plan written before unblinding, the primary outcome and secondary outcomes are clearly specified, and post hoc/exploratory analyses (mediation, sensitivity) are explicitly labelled as such.",
+        "evidence_quote": "\"All analyses were prespecified in a statistical analysis plan before study completion and unblinding of the data set.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "A well-conducted, double-blind, independently randomized placebo-controlled phase 2 trial with prespecified analyses and blinded outcome assessment; the only notable issue is incomplete and somewhat unbalanced primary biomarker data (63/80 participants, with imputation), yielding an overall judgment of some concerns."
+  }
+]

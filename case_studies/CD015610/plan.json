@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults aged 18 years or older with overweight or obesity, what is the effect of intermittent fasting\u2014time-restricted eating, alternate-day fasting, modified alternate-day fasting, 5:2 fasting, or other periodic fasting\u2014versus regular dietary advice, such as continuous daily calorie restriction or standard healthy-eating advice for weight loss, on percentage change in body weight from baseline at the longest follow-up up to and including 12 months after randomisation? Include individually randomised and cluster-randomised controlled trials with interventions lasting at least four weeks, including populations with comorbidities.",
+  "treatment_label": "Intermittent fasting (time-restricted eating, alternate-day fasting, modified alternate-day fasting, 5:2 fasting, or other periodic fasting)",
+  "control_label": "Regular dietary advice (continuous daily calorie restriction or standard healthy-eating advice for weight loss)",
+  "outcome_description": "Percentage change in body weight from baseline at the longest reported follow-up up to and including 12 months after randomisation. Pool only this outcome. Prefer arm-level means with SDs; convert SEs or confidence intervals to SDs where needed. If only weight change in kg is reported, convert each arm to percentage baseline weight as (weight change in kg / baseline weight in kg) \u00d7 100 and document the conversion. If arm-level data are unavailable, use the estimated between-group difference (intermittent fasting minus regular dietary advice) with its SE or 95% CI from any analysis model; derive SE from a 95% CI as (upper limit \u2212 lower limit) / 3.92. Use numbers analysed, or numbers randomised if analysed numbers are not reported. Use clustering-adjusted estimates for cluster-randomised trials when available. Assign groups from intervention descriptions rather than column position. For multi-arm trials, exclude no-intervention/wait-list arms and combine all eligible intermittent-fasting arms into one group by pooling means and SDs and summing participant counts, then make one comparison with the eligible regular-dietary-advice group. Do not pool assessments after 12 months or any other outcomes, including weight in kg as a separate outcome, BMI, waist circumference, achievement of 5% weight loss, quality of life, adverse events, glycaemic outcomes, or lipid outcomes.",
+  "positive_direction": "Under the requested direct coding as intermittent fasting minus regular dietary advice, an MD below 0 percentage points means greater weight loss with intermittent fasting and favours intermittent fasting; an MD above 0 means less weight loss or more weight gain with intermittent fasting and favours regular dietary advice.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "intermittent fasting obesity randomized controlled trial weight change",
+    "time restricted eating overweight controlled trial body weight",
+    "alternate day fasting 5:2 diet randomized trial weight loss"
+  ],
+  "inclusion_criteria": [
+    "Original individually randomised or cluster-randomised controlled trials in adults aged 18 years or older with overweight or obesity, with or without comorbidities, comparing an intermittent-fasting regimen with regular dietary advice.",
+    "Intermittent-fasting intervention lasts at least four weeks and includes time-restricted eating, alternate-day fasting, modified alternate-day fasting, 5:2 fasting, or another periodic-fasting regimen; the eligible comparator is continuous daily calorie restriction or standard healthy-eating/weight-loss advice.",
+    "Reports percentage body-weight change from baseline, weight change in kg with baseline weight allowing conversion to percentage change, or a between-group estimate with sufficient uncertainty data, at a follow-up no later than 12 months after randomisation."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No eligible comparison between intermittent fasting and regular dietary advice; also exclude cross-over and quasi-randomised trials, and do not use no-intervention or waiting-list arms as the comparator.",
+    "No quantitative outcome data capable of producing the requested effect estimate, such as arm-level means with SDs or convertible SEs/CIs, model-based between-group differences with SEs or CIs, or other statistics from which these can be derived.",
+    "Completely unrelated to the research topic, or does not report/permit derivation of percentage weight change from baseline within 12 months; studies reporting only BMI, waist circumference, categorical weight-loss achievement, quality of life, adverse events, glycaemic or lipid outcomes are excluded from this outcome synthesis."
+  ],
+  "moderators_to_extract": [
+    "Intermittent-fasting regimen (time-restricted eating, alternate-day fasting, modified alternate-day fasting, 5:2, other periodic fasting)",
+    "Comparator type (continuous daily calorie restriction versus standard healthy-eating/weight-loss advice)",
+    "Follow-up duration and intervention duration",
+    "Participant comorbidity profile and baseline BMI/obesity category",
+    "Randomisation unit (individual versus cluster) and whether clustering adjustment was used",
+    "Outcome-data source (reported percentage change, converted from kg, or model-estimated between-group difference)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool mean differences (MDs) in percentage points using a random-effects model, coded as intermittent fasting minus regular dietary advice. Preserve the user's sign convention: MD < 0 favours intermittent fasting. Select the longest eligible assessment up to and including 12 months after randomisation, without splitting timepoints. Prefer arm-level percentage-change means and SDs; convert SEs/CIs to SDs as appropriate. When only kg change is available, calculate each arm's percentage change as (change in kg / baseline weight in kg) \u00d7 100 and explicitly flag this conversion. If arm-level data are unavailable, use an adjusted or unadjusted estimated between-group MD and its SE/95% CI; calculate SE from a 95% CI as (upper \u2212 lower) / 3.92. Use analysed sample sizes where stated, otherwise randomised sample sizes. Use clustering-adjusted estimates when reported. Combine multiple eligible intermittent-fasting arms before comparison to avoid double-counting the comparator. Conduct inverse-variance random-effects pooling, report pooled MD with 95% CI, tau-squared, I-squared, and prediction interval when estimable, and assess sensitivity to converted outcomes, model-based estimates, cluster trials, and risk of bias. Follow PRISMA 2020 study selection and reporting, use duplicate screening/extraction, apply RoB 2 (including the cluster-RCT variant where relevant), and assess certainty with GRADE.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "percentage change in body weight from baseline"
+}

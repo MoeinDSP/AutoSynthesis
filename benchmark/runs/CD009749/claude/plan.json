@@ -1,0 +1,38 @@
+{
+  "research_question": "In women undergoing IVF or ICSI, does testosterone pretreatment (transdermal testosterone gel or patch administered before ovarian stimulation), compared with placebo or no pretreatment, increase the odds of live birth (or ongoing pregnancy where live birth is not reported) per woman randomised?",
+  "treatment_label": "Testosterone pretreatment before ovarian stimulation (transdermal gel or patch)",
+  "control_label": "Placebo or no pretreatment (standard stimulation only)",
+  "outcome_description": "Live birth: number of women achieving at least one live birth per woman randomised. Where live birth is not reported, ongoing pregnancy (typically pregnancy continuing beyond 12 weeks gestation / viable intrauterine pregnancy on later ultrasound) is used as the substitute outcome. Dichotomous event counts (events and total randomised per arm) are extracted for each group; in trials with multiple testosterone-duration arms, each testosterone arm is compared with the shared control group divided equally among the active arms to avoid double-counting.",
+  "positive_direction": "A positive effect (odds ratio greater than 1 / positive Hedges g equivalent) means testosterone pretreatment produced MORE live births or ongoing pregnancies than placebo or no pretreatment \u2014 i.e. the result favours testosterone pretreatment.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "transdermal testosterone pretreatment IVF randomized controlled trial live birth",
+    "testosterone gel patch poor responder ovarian stimulation ICSI pregnancy outcome trial",
+    "androgen pretreatment assisted reproduction controlled trial live birth ongoing pregnancy"
+  ],
+  "inclusion_criteria": [
+    "Studies of women undergoing IVF or ICSI in which testosterone (any transdermal or other route, any dose or duration) was given as pretreatment before or during early ovarian stimulation",
+    "Includes a comparison group receiving placebo or no pretreatment (standard stimulation alone)",
+    "Reports quantitative data on live birth or ongoing pregnancy (or data from which event counts can be derived)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, opinion pieces, theoretical or protocol-only papers)",
+    "No comparison between a testosterone pretreatment condition and a placebo/no-pretreatment control condition (e.g. single-arm studies, or comparisons only against other active interventions such as DHEA, letrozole, growth hormone or hCG priming)",
+    "No quantitative outcome data permitting calculation of an effect size (no event counts, proportions, odds ratios, means+SDs or t/F statistics for the outcome)",
+    "Completely unrelated to testosterone pretreatment in assisted reproduction (e.g. male infertility testosterone therapy, animal-only studies, DHEA-only supplementation trials)"
+  ],
+  "moderators_to_extract": [
+    "Patient population (poor ovarian responder / Bologna or POSEIDON criteria vs normal responder)",
+    "Testosterone dose (mg per day) and route (gel vs patch)",
+    "Duration of pretreatment (days/weeks)",
+    "Comparator type (placebo vs no treatment)",
+    "Outcome reported (live birth vs ongoing pregnancy)",
+    "Risk of bias / randomisation and blinding adequacy"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as odds ratios (random-effects, inverse-variance on the log scale) using events per woman randomised. Where live birth is unavailable, substitute ongoing pregnancy for the same trial (never both). For multi-arm trials with several testosterone-duration arms, split the shared control group's events and denominator equally across the active arms so each comparison is included without double-counting controls. Do not pool clinical pregnancy, miscarriage, multiple pregnancy, oocyte yield, cycle cancellation or adverse events.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "live birth or ongoing pregnancy"
+}

@@ -1,0 +1,324 @@
+[
+  {
+    "paper_id": "manual:7ebddd24",
+    "paper_title": "8125816f_1-s2.0-S0738399108004734-main",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports a randomized controlled trial in which 73 client\u2013caregiver dyads were randomly assigned to intervention or control: \"After their written consent was obtained, the participants were randomly assigned to experimental and control groups by drawing lots.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was random (drawing lots) but was performed by the researcher after individual interview/consent with no description of concealment, and one baseline characteristic (caregiver biological relationship) differed significantly between groups.",
+        "evidence_quote": "\"After their written consent was obtained, the participants were randomly assigned to experimental and control groups by drawing lots.\" ... \"No significant differences were found between the two groups except for the biological relationship (Z = -2.23, p = 0.02); there were more siblings and spouses in the control group\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the interventionist necessarily knew the assigned condition in this group psychoeducation trial, and the protocol specified a per-protocol exclusion rule (<70% attendance) rather than intention-to-treat analysis, although in practice all participants met the threshold and none were lost.",
+        "evidence_quote": "\"Those with less than a 70% attendance rate for any reason were excluded from the study.\" ... \"The attendance rate of the clients and their caregivers was over 70%. There were no dropouts in the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were reportedly available for all 73 dyads at all four time points, including the 12-month follow-up, with no attrition reported.",
+        "evidence_quote": "\"There was no attrition in this study.\" ... \"The attendance rate of the clients and their caregivers was over 70%. There were no dropouts in the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated Chinese-language instruments were used and assessments were made by a nurse not involved in delivering the intervention, but blinding of that assessor to group allocation is never stated, and most outcomes (ROMI, FBIS, SES, SSQ-6) are self-reported and subject to social desirability, while the BPRS is observer-rated by a potentially unblinded assessor.",
+        "evidence_quote": "\"All the pre- and post-tests were conducted by an assigned mental health nurse who was not involved in the intervention to avoid bias.\" ... \"This study used self-reported measures, which may be subject to social desirability and response biases.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified analysis plan is mentioned, no primary outcome is designated among seven outcome measures assessed at four time points, and results are reported as a mixture of omnibus repeated-measures effects plus many unadjusted time-point-specific Mann\u2013Whitney tests without correction for multiplicity, with the narrative emphasising the selectively significant comparisons.",
+        "evidence_quote": "\"The differences between the individual outcome variables at each time point were assessed by the Mann\u2013Whitney U-test.\" ... \"However, significant group differences were detected by the U-test for the SES score at the post-1 (p = 0.007) and post-2 (p < 0.001) time points, the level of satisfaction at the post-1 (p = 0.033) and post-2 (p < 0.021) time points, and the FIBS score at the post-2 time point (p = 0.043).\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 5: with no pre-registration or pre-specified primary outcome, seven outcomes were tested at four time points using multiple uncorrected post-hoc between-group comparisons, and the discussion highlights the significant subsets (including contradictory findings where caregiver outcomes showed no overall group effect yet selected time-point differences were emphasised). Additional concerns arise from unconcealed lot-drawing allocation with a significant baseline imbalance in caregiver relationship, unblinded participants/interventionist with a per-protocol attendance exclusion rule, and reliance on self-report measures by an assessor whose blinding is unstated; missing data were not a problem given complete 12-month follow-up."
+  },
+  {
+    "paper_id": "manual:c2133dec",
+    "paper_title": "32e67763_1471-244X-12-48",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes itself as a randomized controlled trial with registration number, stating that \"Seventy Iranian outpatients with a diagnosis of schizophrenia disorder and their caregivers were randomly allocated to the experimental (n = 35) or control groups (n = 35).\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation is claimed to be random and \"blind\", but no method of sequence generation or allocation concealment is described (and the phrase \"consulting with their psychiatrists\" raises the possibility of influence on allocation), although baseline sociodemographic and outcome scores were reported as comparable.",
+        "evidence_quote": "\"Seventy caregivers patients with schizophrenia whose records were available at three psychiatric centers in Shiraz were randomized blindly to two groups considering the inclusion criteria and consulting with their psychiatrists.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and intervention providers were necessarily aware of assignment (no sham/attention control, control received routine care only), and no information is given on adherence, co-interventions, or whether an intention-to-treat analysis was used (analyses appear to be of completers only, N=33/32).",
+        "evidence_quote": "\"In the control group, only the patients received routine care (antipsychotic drug treatment) whereas in the experimental group, the caregivers participated in a psycho-educational program while the patients received antipsychotic drug treatment.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Attrition was small (5/70, ~7%) and balanced across arms with reasons stated as unrelated to the study, making bias from missingness unlikely.",
+        "evidence_quote": "\"A total of 65 families completed the study. Five participants (two from the experimental group and three from the control group) dropped out before completion of the study for different reasons unrelated to the study.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Although the paper claims the co-researcher assessor was blind, the BPRS (normally a clinician-rated instrument) and the burden scale were completed by the unblinded caregivers who themselves received the intervention, so outcome assessment was by participants aware of their condition and plausibly influenced by it.",
+        "evidence_quote": "\"Data were collected with a personal information sheet, the Iranian version of the Brief Psychiatric Rating Scale (BPRS) [29] which was completed for every patient by caregiver, and the Family Burden questionnaire\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial is registered, but no pre-specified primary outcome or analysis plan is available in the report, and multiple outcome operationalizations (global BPRS plus four subscales, two follow-up points, several test statistics) are reported without correction, leaving scope for selective emphasis.",
+        "evidence_quote": "\"Trial registration: IRCT Number:138809122812 N1\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven principally by outcome measurement: both patient symptom (BPRS) and caregiver burden ratings were completed by the unblinded caregivers who were the recipients of the psycho-educational intervention. Additional concerns arise from undescribed randomization/allocation-concealment methods, unavoidable lack of blinding with a routine-care control, apparent completer-only analysis, and absence of a reported pre-specified primary outcome/analysis plan."
+  },
+  {
+    "paper_id": "manual:79d7911f",
+    "paper_title": "17f15e87_IJPsy-62-137",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a single-blind randomized controlled trial in which 66 patient\u2013caregiver dyads were \"randomly allocated to the BPI group and nonspecific control intervention group (NCI group), using random allocation tables.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random allocation table was used, but there is no description of allocation concealment (serial numbering with open tables permits foreknowledge of the next assignment), and although baseline sociodemographic/clinical comparability is asserted, baseline outcome scores appear notably worse in the BPI group (e.g., BAS 70.92 vs 62.65; patient WHOQOL-BREF 48.57 vs 63.47), suggesting possible imbalance.",
+        "evidence_quote": "\"These participants were assigned serial numbers in order of their inclusion in the study. They were then randomly allocated to the BPI group and nonspecific control intervention group (NCI group), using random allocation tables.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and the single investigator delivering both the intervention and control contact were necessarily aware of assignment, adherence was poor (\"poor attendance which is evidenced by the high number of dropouts in both groups\"), and analysis was restricted to those who completed a minimum dose rather than intention-to-treat (24/33 and 23/33 analysed), i.e., a per-protocol analysis likely to bias the effect estimate.",
+        "evidence_quote": "\"If they had attended both psychoeducation sessions and at least two group therapy sessions, then the last observation was carried forward for the purpose of analysis.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Roughly 27\u201330% of randomized caregivers (and ~36\u201342% of patients for WHOQOL-BREF) were missing from the final analysis, exclusions were partly defined by adherence (an intervention-related, outcome-relevant reason), and no sensitivity analysis or evidence that results were robust to missingness is presented.",
+        "evidence_quote": "\"Out of the 33 included in the BPI group, 24 were eligible for the final assessment... Out of the 33 patients and family members included in the NCI group, 23 were eligible for the final assessment.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated instruments (PANSS, BAS, WHOQOL-100/BREF) were used identically in both arms, but the primary outcomes are self-reported by unblinded caregivers and the investigator delivering the intervention appears also to have conducted follow-up assessments, with \"single-blind\" undefined; locally translated Hindi versions were not formally validated.",
+        "evidence_quote": "\"This study was a single\u2011blind, randomized controlled trial\"; \"All the psychoeducation and group sessions were moderated by the same investigator\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or protocol/pre-specified analysis plan is cited, and numerous subscale-level comparisons were reported without adjustment for multiplicity or any sample-size/power calculation, allowing scope for selective emphasis of significant domains.",
+        "evidence_quote": "\"Analysis of changes in the PANSS, WHO\u2011QOL\u2011BREF, BAS, and WHOQOL\u2011100 scores, before and after BPI/NCI sessions, was done by using paired 't\u2011' test.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by substantial differential attrition with adherence-based exclusion from analysis (per-protocol rather than intention-to-treat, ~30% loss) and unblinded delivery/assessment by a single investigator. Additional concerns arise from unclear allocation concealment with apparent baseline outcome imbalance, self-reported outcomes, and absence of a registered protocol or multiplicity control."
+  },
+  {
+    "paper_id": "manual:0dcc370a",
+    "paper_title": "ef375d4e_j.ijnurstu.2004.01.010",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit random allocation of 48 family caregivers to experimental or control group: \"All caregivers, who provided written consent, were then assigned randomly to the experimental (mutual support and usual care) group (n = 24) or the control (usual care) group (n = 24)\", with allocation by drawing a number from a sealed opaque envelope.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Allocation occurred after baseline measures using numbers drawn from sealed opaque envelopes (reasonable concealment), and the paper reports no significant baseline differences in caregiver or patient characteristics or pre-test outcome scores.",
+        "evidence_quote": "\"Subjects were then randomized to experimental or control group by drawing a number from a sealed opaque envelope.\" ... \"There were no significant differences in demographic characteristics between the two groups at baseline.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the intervention provider (who was also the principal researcher) were necessarily aware of assignment, 3/24 experimental participants did not receive an adequate dose (attendance range 3\u201312 sessions), and the control group received no attention-matched comparator so expectancy/attention effects are plausible, although intention-to-treat analysis was used.",
+        "evidence_quote": "\"Three family caregivers in the experimental group were considered to have discontinued treatment because they failed to attend a minimum of seven group sessions.\" ... \"those in the experimental group may have perceived themselves as having received more care and attention than their control counterparts.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for all 48 randomized participants with no loss to follow-up (the four pre-test withdrawals occurred before baseline/randomization).",
+        "evidence_quote": "\"No subject was lost to follow-up and thus all 48 subjects were included in the final data analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Primary outcomes were self-reported questionnaires administered by a research assistant to unblinded participants (authors acknowledge possible social desirability), so outcome assessment could be influenced by knowledge of allocation, though instruments were validated and applied identically to both groups and re-hospitalization was taken from records.",
+        "evidence_quote": "\"some subjects in a group intervention may have given socially desirable responses to the outcome measures, because they did not want to be perceived as difficult clients.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or published protocol is mentioned and no primary outcome is designated among four outcome measures plus multiple subscale and post hoc analyses, so selective reporting of analyses cannot be excluded (although all four measures, including null results, are reported).",
+        "evidence_quote": "\"Differences on the subscale scores of the FBIS between the two groups were also evaluated using the ANOVA test.\" (no protocol/registration reported)"
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Randomization with concealed envelopes and complete follow-up with intention-to-treat analysis give low risk for D1 and D3, but unblinded participants receiving an attention-rich group intervention versus unmatched usual care, self-reported primary outcomes, partial non-adherence, and absence of a pre-registered protocol/primary outcome raise some concerns in D2, D4 and D5. No domain was judged high risk, so the overall judgment is \"some concerns\"."
+  },
+  {
+    "paper_id": "manual:61c76efc",
+    "paper_title": "1003d24b_Journal of Advanced Nursing - 2005 - Chien - Effectiveness of a mutual support group for families of patients with",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a randomized controlled trial with repeated measures in which 96 families were randomly assigned to mutual support (n=32), psycho-education (n=33) or standard care (n=31) via drawing sealed opaque envelopes containing group-allocation number cards, with participants also selected using a computer-generated random numbers table.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation used sealed opaque envelopes (reasonable concealment) and baseline sociodemographic and outcome variables did not differ significantly between arms, but the method of generating the allocation sequence inside the envelopes is not described (the computer-generated random numbers table is reported only for sampling 96 families from the eligible list, not for group allocation), and participants drawing their own envelope is an unconventional procedure.",
+        "evidence_quote": "\"Participants were then asked to draw a sealed opaque envelope in which a number card indicated to which group they had been allocated (1 = mutual support, 2 = psycho-education, 3 = standard care)... There were no statistically significant differences on these characteristics among the three groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Participants and the interventionist were necessarily aware of assignment and the same principal researcher delivered/facilitated both active interventions while holding an acknowledged preference for the mutual support arm, a co-intervention/performance deviation that the authors themselves state could have affected the outcomes; although an intention-to-treat analysis was used, this differential delivery is inherent to the trial conduct rather than the research question.",
+        "evidence_quote": "\"The principal researcher involved in leading the two intervention groups might have been biased in favour of the mutual support group intervention. The preconceived benefits of the support group could have influenced his efforts in and enthusiasm for the two interventions, and thus the outcomes.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear to have been obtained for all 96 randomized families at all three time points (non-completers of the intervention were still assessed) and analysis was explicitly intention-to-treat, so missingness is essentially absent.",
+        "evidence_quote": "\"Twenty-eight participants (88%) from the mutual support group and 31 (94%) from the psycho-education group completed the intervention. These people, together with those who dropped out or were absent for more than four sessions ... were also evaluated at three times.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated Chinese-language instruments were applied identically across arms by a nominally blinded independent assessor, but the primary outcomes (FAD, and the SLOF rated in relation to patients) rely on self-report by unblinded family caregivers who knew their condition, and the authors acknowledge the risk of \"socially desirable responses by participants in favour of the researchers\".",
+        "evidence_quote": "\"Except for the principal researcher, the research team members and clinical staff were blinded to the treatment allocation... an independent assessor (a research assistant trained by the principal researcher) undertook the pre- and post-testing\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or published protocol is cited and multiple outcomes (FAD total plus seven subscales, FSSI, SLOF total plus three subscales, re-hospitalization) across three time points were analysed with multiple MANOVAs and post hoc tests without adjustment for multiplicity, so selective emphasis on the significant family/patient functioning findings cannot be excluded, although the a priori power calculation named family functioning and re-hospitalization and both were reported.",
+        "evidence_quote": "\"A power calculation based on previous clinical trials ... showed that a sample size of 96 ... was required both before and after intervention to detect statistically significant differences in family functioning and patient re-hospitalization between three groups\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 2: the principal researcher personally facilitated both active intervention arms while acknowledging a preconceived preference for the mutual support group, so differential enthusiasm/effort could plausibly have produced the observed between-arm differences. Additional some-concerns judgments arise from an incompletely described allocation-sequence generation (participants drew their own envelopes), reliance on unblinded caregiver self-report outcomes, and absence of a protocol/registration with many unadjusted multiple comparisons; missing outcome data were not a concern given essentially complete follow-up and intention-to-treat analysis."
+  },
+  {
+    "paper_id": "manual:caed74a9",
+    "paper_title": "029aa023_s10464-008-9178-8",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a randomized controlled trial in which 76 family\u2013patient pairs were allocated to mutual support group or standard care by drawing a labelled card from a sealed opaque envelope (\"they were assigned randomly to one of the study groups by drawing a number from a sealed opaque envelope\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was by card-draw from an opaque envelope with balanced groups and no baseline differences, but the sequence generation is not fully described, cards drawn in the participant's presence by a researcher provide uncertain concealment, and exactly 38/38 allocation suggests some constraint not explained.",
+        "evidence_quote": "\"these patients and their main family caregivers ... were asked to draw a labeled card (1 = Mutual support, 2 = Control, and 3 = Not selected) from an opaque envelope\"; \"Only the researcher and the participants were aware of the group to which they had been assigned.\"; \"there were no significant differences in the demographic characteristics of the caregivers and patients across the two groups at baseline (all p values > .1)\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Participants and the researcher-facilitator were necessarily unblinded in a psychosocial trial with an attention-only control, raising possible performance/expectancy effects acknowledged by the authors, although an intention-to-treat analysis was stated and used.",
+        "evidence_quote": "\"the ideal of a double-blind study could not be achieved due to the participants\u2019 awareness of receiving the intervention and the study procedures. By virtue of their group membership, those in the support group might have perceived that they were receiving more care and attention than their counterparts in the control group.\"; \"Data were analyzed on an intention-to-treat basis\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were available for all 76 randomized dyads at both post-tests, so bias from missing data is unlikely (three low-attenders were retained in the analysis).",
+        "evidence_quote": "\"No subject was lost at follow-up and thus all 76 subjects were included in the final data analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Primary outcomes were self-reported by unblinded participants and administered (including interviewer-rated BPRS) by the same researchers who delivered/were involved in the intervention, with no blinded outcome assessment described, so knowledge of allocation could readily influence measurement.",
+        "evidence_quote": "\"Pre- and post-test data were collected by the researchers using the questionnaire described above (six outcome measures) administered to the caregivers and patients in the two study groups.\"; \"One researcher who was a registered psychiatric nurse and an experienced group worker, acted as a participant and resource person for the group.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Hypotheses and all six outcome measures (plus subscales) are reported including null findings, but no trial registration or pre-specified analysis plan is cited, no primary outcome is designated, and multiple time points/subscale contrasts were analysed without adjustment for multiplicity.",
+        "evidence_quote": "\"The main hypotheses were that the mutual support group intervention would significantly improve the families burden of care, functioning and social support, reduce the patients\u2019 severity of symptoms and re-hospitalizations, and reduce the demands for utilization of family services\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by Domain 4: all key outcomes were self-reported or researcher-rated without blinding, and data were collected by the same researchers involved in delivering the support group. Additional concerns relate to incompletely described sequence generation/concealment (card draw), inevitable participant unblinding with an attention-poor control, and absence of a pre-registered protocol or designated primary outcome, although outcome data were complete for all 76 dyads."
+  },
+  {
+    "paper_id": "manual:ce8bb659",
+    "paper_title": "7c551b7c_TONURSJ-2-28",
+    "design_classification": "randomized",
+    "design_rationale": "The paper describes a randomized controlled trial in which 68 family caregivers were randomly selected from a patient list using a computer-generated random number table and then randomly assigned to the psychoeducation/mutual support group (n=34) or routine care (n=34) by drawing sealed opaque envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation concealment via sealed opaque envelopes is plausible, but the sequence-generation method for allocation (as opposed to sampling) is not described, groups are improbably exactly equal (34/34 despite 64 reported consenters), and a notable baseline imbalance in patient mean age (37.3 vs 28.8 years) is reported without comment.",
+        "evidence_quote": "\"the participants were then asked by the principal researcher to draw a sealed opaque envelope, in which a number card indicated to which group they had been allocated (1 = psycho-education group and 2 = routine care group)\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear to have been obtained for essentially all randomized participants at all three time points (n=34 per group analysed), including those who discontinued the intervention.",
+        "evidence_quote": "\"These subjects, together with those who dropped out or absented in more than four group sessions - psycho-education group (n = 3) and routine care group (n = 2), were evaluated at three times of outcome measurements.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "An ITT analysis was used and co-intervention use was checked, but participants and the group-leading nurse/principal researcher were necessarily unblinded in this behavioural trial, with acknowledged potential for socially desirable responding favouring the intervention arm.",
+        "evidence_quote": "\"Analysis of data was on an intention-to-treat basis [35]. All subjects, who completed the intervention or not, were followed up over a 12-month post-intervention period.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Validated Chinese-language instruments were applied identically by a trained independent assessor reported as blinded, but the primary outcomes are self-/interview-reported by unblinded caregivers and the authors themselves acknowledge likely social desirability bias.",
+        "evidence_quote": "\"the family caregivers in the psychoeducation group program might provide socially desirable responses on the outcome measures over the follow-up period because they may well be eager to show appreciation and positive feedback to the health professionals and the research team\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or published protocol is mentioned, multiple outcomes and numerous subscale analyses are reported with no adjustment for multiplicity, and one listed measure (perceived social support/SSQ6) appears in the table footnote but not in the reported results, raising concerns about selective reporting.",
+        "evidence_quote": "\"The main hypothesis was that the psychoeducation and support group intervention would significantly reduce schizophrenic patients\u2019 psychosocial functioning and lengths of re-hospitalizations as well as improve families\u2019 caregiving burden, functioning, perceived social support, and service utilization\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This RCT used concealed envelope allocation, ITT analysis, a blinded assessor and had near-complete follow-up, but concerns remain about incompletely described sequence generation with an apparent baseline age imbalance, unblinded self-reported outcomes with acknowledged social desirability bias, and absence of a protocol/registration alongside many unadjusted outcome and subscale analyses. No domain reached high risk, so the overall judgment is 'some concerns'."
+  }
+]

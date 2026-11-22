@@ -1,0 +1,38 @@
+{
+  "research_question": "What is the effect of perioperative levosimendan compared with placebo on all-cause mortality in adults undergoing cardiac surgery?",
+  "treatment_label": "Perioperative levosimendan infusion",
+  "control_label": "Placebo",
+  "outcome_description": "All-cause mortality (deaths from any cause) reported as number of deaths and total number randomized in each arm; includes in-hospital, 30-day, and longest reported follow-up mortality.",
+  "positive_direction": "A positive effect size (RR &lt; 1 expressed in the favorable direction) means levosimendan reduced all-cause mortality compared with placebo \u2014 fewer deaths in the levosimendan arm.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "levosimendan cardiac surgery randomized placebo mortality",
+    "levosimendan coronary artery bypass grafting trial outcome",
+    "levosimendan valve surgery cardiopulmonary bypass controlled trial death"
+  ],
+  "inclusion_criteria": [
+    "Adult patients (\u226518 years) undergoing any type of cardiac surgery",
+    "Compares levosimendan with placebo (or a no-levosimendan control) in any perioperative setting",
+    "Reports any quantitative mortality or clinical outcome data, including counts of deaths per arm"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, narrative review, or purely theoretical/modelling paper)",
+    "No comparison between a levosimendan (treatment) group and a placebo/control group",
+    "No quantitative outcome data from which an effect size can be computed (no event counts and arm sizes, means+SDs, t/F statistics, proportions, or odds/risk ratios)",
+    "Completely unrelated to levosimendan in adult cardiac surgery (e.g., non-cardiac surgery, pediatric populations only, non-surgical heart failure only, animal or in vitro studies)"
+  ],
+  "moderators_to_extract": [
+    "Type of cardiac surgery (CABG, valve, combined/mixed)",
+    "Baseline left ventricular ejection fraction category (reduced vs preserved)",
+    "Timing of levosimendan initiation (preoperative vs intraoperative/postoperative)",
+    "Levosimendan dosing regimen (bolus plus infusion vs infusion only, total dose)",
+    "Sample size category",
+    "Risk of bias / blinding status and single- vs multi-center design"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as a Risk Ratio (RR) using each trial's reported number of deaths and total randomized participants per arm (intention-to-treat denominators where available). Trials with zero deaths in BOTH arms are double-zero studies that contribute no information to an RR and must be treated as not estimable and excluded from the pooled estimate rather than continuity-corrected; at least three such trials are expected and they should still be listed in the study table with their counts. Single-zero trials (zero deaths in one arm only) retain the standard 0.5 continuity correction. Use a random-effects model (DerSimonian-Laird or REML) with Mantel-Haenszel weighting as a sensitivity check; report I\u00b2 and a sensitivity analysis using Peto OR given the low event rates.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

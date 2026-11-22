@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with chronic kidney disease, with or without type 2 diabetes and across CKD stages, what is the effect of an SGLT2 inhibitor versus placebo on the time to death from any cause?",
+  "treatment_label": "SGLT2 inhibitor (including canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, bexagliflozin, or another drug in the class)",
+  "control_label": "Placebo",
+  "outcome_description": "All-cause mortality measured as the reported time-to-event hazard ratio for death from any cause, comparing SGLT2 inhibitor with placebo, using the whole randomized population and the longest follow-up reported. Extract the adjusted or primary reported HR and 95% CI from the main text, secondary/exploratory outcome tables, forest plots, or supplementary tables. Do not substitute cardiovascular death, composites containing death, hospitalization, cardiovascular, kidney, or adverse-event outcomes. If only death counts are reported without an HR, exclude that result from this analysis rather than reconstructing an HR.",
+  "positive_direction": "A favorable treatment effect means a lower hazard of all-cause death with the SGLT2 inhibitor than with placebo (reported HR below 1); for any internally sign-normalized effect representation, positive values should indicate lower all-cause mortality with the SGLT2 inhibitor.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "SGLT2 inhibitor chronic kidney disease randomized placebo all-cause mortality hazard ratio",
+    "canagliflozin dapagliflozin empagliflozin CKD placebo trial death",
+    "sodium glucose cotransporter 2 inhibitor renal disease controlled trial mortality"
+  ],
+  "inclusion_criteria": [
+    "Original randomized placebo-controlled trials comparing an SGLT2 inhibitor with placebo in adults with chronic kidney disease, including CKD populations with or without type 2 diabetes and across CKD stages.",
+    "Trials reporting an all-cause mortality time-to-event hazard ratio with a 95% confidence interval, or equivalent information explicitly reported by the paper that permits extraction of that HR and interval.",
+    "Reports containing results for the whole randomized trial population at the longest available follow-up; a subgroup is eligible only when it constitutes the trial's entire population."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between an SGLT2-inhibitor treatment condition and a placebo control condition, including active-comparator-only trials.",
+    "No quantitative outcome data that can produce the prespecified effect size: specifically, no reported all-cause mortality HR with a 95% CI or equivalent reported time-to-event estimate; studies reporting death only as counts, even if proportions or other statistics are available, will be left out because an HR must not be reconstructed from counts.",
+    "Completely unrelated to the research topic, including trials of other drug classes, populations without chronic kidney disease, or reports limited to cardiovascular death, composites containing death, hospitalization, myocardial infarction, stroke, heart failure, kidney outcomes, or adverse events."
+  ],
+  "moderators_to_extract": [
+    "SGLT2 inhibitor molecule",
+    "CKD stage or baseline mean/median eGFR and albuminuria",
+    "presence or proportion of participants with type 2 diabetes",
+    "trial follow-up duration",
+    "dose structure (single dose versus multiple doses combined)",
+    "all-cause mortality HR adjustment model or analysis population"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Use the reported all-cause mortality HR and 95% CI. Orient every estimate as SGLT2 inhibitor versus placebo; if reported as placebo versus SGLT2 inhibitor, invert the HR (1/HR) and invert/swap CI limits accordingly. Compute ln(HR) and SE[ln(HR)] = [ln(upper CI) - ln(lower CI)]/(2*1.96), and pool ln(HR) values with a random-effects model before exponentiating the pooled estimate and CI. Use the whole randomized population and longest reported follow-up. If several doses were randomized, use the paper's combined-dose HR or pooled active-treatment estimate versus placebo. Do not derive an HR from event counts and do not use subgroup estimates unless the subgroup is the trial's only population. HR below 1 favors the SGLT2 inhibitor.",
+  "target_effect_measure": "HR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

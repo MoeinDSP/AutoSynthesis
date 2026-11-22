@@ -1,0 +1,38 @@
+{
+  "research_question": "Among adults with renal stones, what is the effect of percutaneous nephrolithotomy (PCNL, including standard, mini-, super-mini-, and micro-PCNL) compared with retrograde intrarenal surgery (RIRS; flexible ureteroscopy with laser lithotripsy) on postoperative pain on the day of surgery (postoperative day 0)?",
+  "treatment_label": "PCNL (standard, mini-, super-mini-, or micro-PCNL)",
+  "control_label": "RIRS (flexible ureteroscopy with laser lithotripsy)",
+  "outcome_description": "Postoperative pain intensity measured by visual analogue scale (VAS) on the day of surgery, extracted as mean, SD, and number of participants in each arm. Select the first assessment within approximately 24 hours using this hierarchy: if several same-day times are reported, use the earliest assessment at or after 6 hours; if no such assessment exists and only a 1-hour value is available, use it; treat a single postoperative VAS with no stated time as a day-of-surgery value. Exclude measurements at 24 hours, the first postoperative-day morning, 48 hours, and later days. Harmonize 0\u2013100 mm VAS values to a 0\u201310 scale by dividing means and SDs by 10 and record the conversion; retain the direction higher = more pain. Do not substitute SE for SD. In multi-arm trials, extract only eligible PCNL-type and RIRS arms.",
+  "positive_direction": "A positive mean difference (PCNL minus RIRS) means greater day-of-surgery postoperative pain after PCNL and therefore favors RIRS; a negative value means less pain after PCNL and favors PCNL.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "percutaneous nephrolithotomy retrograde intrarenal surgery randomized trial pain VAS",
+    "mini PCNL flexible ureteroscopy controlled trial postoperative pain",
+    "super mini micro PCNL RIRS randomized comparison pain"
+  ],
+  "inclusion_criteria": [
+    "Original randomized trial enrolling adults with renal stones and directly comparing an eligible PCNL technique (standard, mini-, super-mini-, or micro-PCNL) with RIRS/flexible ureteroscopy using laser lithotripsy.",
+    "Reports postoperative day-0 pain using a VAS, including an eligible same-day timed assessment or a single postoperative VAS with no reported assessment time.",
+    "Provides, or permits derivation of, quantitative arm-level data needed for the prespecified mean difference: mean pain, SD, and participant count for the PCNL and RIRS arms."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized trial (exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, observational studies, and nonrandomized trials).",
+    "No direct treatment-versus-control comparison between an eligible PCNL arm and RIRS; exclude comparisons solely involving ESWL, open surgery, or other techniques, and ignore ineligible extra arms in multi-arm trials.",
+    "No quantitative outcome data capable of producing an effect size (required means and SDs, or other reported statistics such as t/F values that permit their derivation, with participant counts; proportions or odds ratios alone are insufficient for this continuous VAS outcome).",
+    "Completely unrelated to the research topic, conducted exclusively in paediatric participants, or reports only ineligible outcomes/times such as pain at 24 hours or later, analgesic consumption, hospital stay, stone-free rate, complications, or operating time."
+  ],
+  "moderators_to_extract": [
+    "PCNL subtype (standard, mini-, super-mini-, or micro-PCNL)",
+    "Exact postoperative pain-assessment time and timing classification (at/after 6 hours, 1 hour only, or time unstated)",
+    "VAS scale format and whether rescaled from 0\u2013100 mm to 0\u201310",
+    "Stone characteristics (size/burden and location)",
+    "Anaesthesia and perioperative analgesia protocol",
+    "Trial and participant characteristics (sample size, mean age, and sex distribution)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool the arm-level mean difference as PCNL minus RIRS in points on a harmonized 0\u201310 VAS using a random-effects model. Preserve treatment-arm coding by checking table headers and group definitions in every report, because RIRS may be labelled Group 1. Convert a 0\u2013100 mm VAS to 0\u201310 by dividing both mean and SD by 10 and document the conversion; do not otherwise convert non-VAS pain scales. Confirm whether reported \u00b1 values are SD or SE and derive SD from SE only when clearly identified and the required sample size is available. Use the prespecified day-0 timing hierarchy and do not combine multiple time points from the same trial. Report the pooled MD with 95% CI, heterogeneity (tau-squared and I-squared), and conduct sensitivity analyses by PCNL subtype, pain timing, and risk of bias where data permit.",
+  "target_effect_measure": "MD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "day-of-surgery postoperative pain VAS"
+}

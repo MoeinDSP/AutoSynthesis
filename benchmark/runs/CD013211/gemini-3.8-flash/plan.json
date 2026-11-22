@@ -1,0 +1,35 @@
+{
+  "research_question": "What is the effect of atorvastatin, compared with placebo or no treatment, on withdrawal due to adverse effects in adults?",
+  "treatment_label": "atorvastatin",
+  "control_label": "placebo or no treatment",
+  "outcome_description": "Withdrawal or treatment discontinuation due to adverse effects or adverse events",
+  "positive_direction": "A positive effect indicates higher rates of withdrawal due to adverse effects in the atorvastatin group compared to the control group.",
+  "search_queries": [
+    "atorvastatin placebo adverse effects withdrawal randomized trial",
+    "atorvastatin discontinuation adverse events controlled trial",
+    "atorvastatin placebo discontinuation adverse effects clinical study"
+  ],
+  "inclusion_criteria": [
+    "Empirical studies evaluating atorvastatin compared with placebo or no treatment in adult participants",
+    "Studies reporting quantitative data on participant withdrawal or treatment discontinuation due to adverse effects"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded)",
+    "No comparison between atorvastatin and a placebo or no-treatment control condition",
+    "No quantitative outcome data that can produce an effect size (event counts, proportions, risk ratios, or odds ratios of adverse event withdrawals required)",
+    "Completely unrelated to the research topic or conducted exclusively in pediatric populations"
+  ],
+  "moderators_to_extract": [
+    "atorvastatin daily dose (mg/day)",
+    "duration of follow-up / treatment duration",
+    "clinical population / baseline indication (e.g., primary vs secondary cardiovascular prevention)",
+    "study design and blinding status",
+    "mean participant age"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Binary event outcome typically analyzed via relative risk, odds ratio, or risk difference.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "withdrawal due to adverse effects"
+}

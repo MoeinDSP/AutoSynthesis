@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of laparoscopic hysterectomy (laparoscopically assisted vaginal hysterectomy, total laparoscopic hysterectomy, or laparoscopic hysterectomy of unspecified type), compared with vaginal hysterectomy, on the need for blood transfusion in women undergoing hysterectomy for benign gynaecological disease?\n\nEffect measure: pool as an odds ratio (OR) using a fixed-effect Mantel-Haenszel model if available, otherwise random effects. OR > 1 means more transfusions with laparoscopic hysterectomy.\n\nOutcome: number of women who received a blood transfusion (events) out of the number randomised to each arm (total), during the operation and the hospital stay or up to the end of follow-up.\n- Use any transfusion (intra-operative or post-operative). Do not use blood loss volume, haemoglobin drop or haematoma.\n- If a trial has no transfusions in either arm, record zero events with the arm sizes and keep the row visible; it carries no weight in the odds ratio.\n- Compute the OR from the event counts (laparoscopic as the treatment group, vaginal hysterectomy as the control). Assign arms by procedure description, not by column position.\n- Multi-arm trials: when a trial compares more than one laparoscopic approach (for example laparoscopically assisted vaginal and total laparoscopic hysterectomy) with the same vaginal hysterectomy group, include each laparoscopic approach as its own comparison and split the vaginal hysterectomy group's size and events equally among them so those women are not counted twice. Ignore arms with abdominal hysterectomy or robotic hysterectomy.\n- Use the number randomised as the denominator (intention-to-treat).\n- Include only randomised controlled trials comparing a laparoscopic approach with vaginal hysterectomy in women with benign disease. Exclude comparisons with abdominal or robotic hysterectomy, studies of malignancy, and non-randomised studies.\n\nDo not pool operating time, hospital stay, complications other than transfusion, return to normal activities, conversion to laparotomy, pain or cost.",
+  "planned_search_queries": [
+    "laparoscopic hysterectomy vaginal hysterectomy randomized trial transfusion",
+    "laparoscopically assisted vaginal hysterectomy vaginal hysterectomy blood transfusion controlled trial",
+    "TLH LAVH vaginal hysterectomy benign transfusion randomized"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "laparoscopic hysterectomy vaginal hysterectomy blood transfusion randomized trial",
+    "laparoscopically assisted vaginal hysterectomy vaginal hysterectomy transfusion controlled trial",
+    "total laparoscopic hysterectomy vaginal hysterectomy benign transfusion randomized trial",
+    "laparoscopic versus vaginal hysterectomy blood transfusion outcome randomized trial",
+    "laparoscopic hysterectomy vaginal hysterectomy blood transfusion requirement controlled comparison"
+  ]
+}

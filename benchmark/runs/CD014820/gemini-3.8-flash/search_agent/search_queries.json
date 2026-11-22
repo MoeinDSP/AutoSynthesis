@@ -1,0 +1,16 @@
+{
+  "user_prompt": "What is the effect of erythropoiesis-stimulating agents (epoetin alfa, beta or zeta, darbepoetin, methoxy polyethylene glycol-epoetin beta or other ESAs), compared with placebo or usual care without an ESA, on the incidence of acute kidney injury (AKI) in people at risk of AKI (for example after cardiac surgery, in critical illness or trauma, after contrast exposure, or after kidney transplantation)?\n\nEffect measure: pool as a risk ratio (RR) of AKI, ESA divided by control, using a random-effects model. RR < 1 means fewer participants with AKI with an ESA (favours ESA).\n\nOutcome: the number of participants who developed acute kidney injury (events) out of the number randomised to each arm (total), during the trial's follow-up.\n- Use the trial's own definition of AKI (for example KDIGO, AKIN or RIFLE criteria, or a rise in serum creatinine above a stated threshold, or a fall in estimated GFR), and state which definition was used. If a trial reports AKI under more than one definition, prefer the standard consensus criteria (KDIGO, then AKIN, then RIFLE), and otherwise the primary definition.\n- Count participants with AKI, not episodes. Do not use need for dialysis, serum creatinine as a continuous value, or \"kidney dysfunction\" without a defined threshold as AKI.\n- If a trial reports no AKI in either arm, record zero events with the arm sizes and keep the trial visible. If AKI is not reported, leave the trial out and say so.\n- Use the number randomised as the denominator (intention-to-treat). If the paper reports only the number analysed, use that and state it.\n- Control: placebo or usual care (no ESA). Exclude trials whose control group receives another active kidney-protective drug.\n- Multi-arm trials: include the ESA arm and the control arm only; combine several ESA doses into one group (sum events and participants).\n- Assign arms by treatment, not by column position.\n- Include only randomised controlled trials in adults or children, in any setting, where the ESA was given to prevent AKI or to treat another condition and AKI was recorded.\n\nDo not pool mortality, dialysis requirement, haemoglobin, transfusion, thromboembolic events or length of stay.",
+  "planned_search_queries": [
+    "erythropoietin acute kidney injury randomized trial",
+    "erythropoiesis-stimulating agent AKI controlled trial",
+    "darbepoetin epoetin renal protection randomized trial"
+  ],
+  "query_generation_method": "llm",
+  "intent_queries_used": [
+    "erythropoiesis-stimulating agents acute kidney injury randomized controlled trial",
+    "erythropoietin acute kidney injury incidence placebo controlled trial",
+    "epoetin darbepoetin acute renal failure randomized trial outcome",
+    "erythropoietin renal protection acute kidney injury trial effect",
+    "recombinant human erythropoietin AKI prevention controlled trial comparison"
+  ]
+}

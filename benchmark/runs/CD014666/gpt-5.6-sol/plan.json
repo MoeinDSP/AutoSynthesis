@@ -1,0 +1,38 @@
+{
+  "research_question": "Among community-dwelling adults aged 60 years or older, what is the immediate post-intervention effect of CBT or behaviour-change interventions delivered alone or with exercise (including multicomponent programmes, motivational support, Tai Chi plus CBT, and exercise plus motivational interviewing), compared with usual care, no intervention, or attention/discussion/education control, on fear of falling or falls-related self-efficacy in randomized trials?",
+  "treatment_label": "CBT or behaviour-change intervention, alone or combined with exercise/Tai Chi",
+  "control_label": "Usual care, no intervention, or attention/discussion/education control",
+  "outcome_description": "Fear of falling/falls-related self-efficacy at the first assessment after the intervention ended, preferably within approximately one month; if only later follow-up is available, use the earliest reported assessment. Extract post-intervention mean, SD, and analyzed participant count per arm, preferring post-intervention scores over change scores. Select one measure per study in this order: FES-I or short FES-I; modified FES, FES, Swedish FES-S, or ABC; then a single-item fear question. Orient all scales so lower values indicate less fear: retain FES-I and similar concern scales as reported and multiply confidence scales such as FES-S, mFES, and ABC by \u22121 before computing the effect. Do not pool later follow-ups when an earlier post-intervention assessment exists, or outcomes of activity avoidance, depression, anxiety, quality of life, falls counts, or adverse events. Deduplicate multiple trial reports and use the short-term or primary report. Include every eligible CBT/behaviour-change arm; where eligible arms share a control, split the control sample size equally. Prefer cluster-adjusted results; otherwise reduce effective sample sizes using an appropriate design-effect adjustment and report the assumptions.",
+  "positive_direction": "A positive Hedges' g denotes less fear of falling or greater falls-related confidence in the intervention group and therefore favors the CBT/behaviour-change intervention; for reporting under the user's requested treatment-minus-control convention, reverse this sign so that SMD below 0 favors intervention.",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "cognitive behavioural therapy fear of falling older adults randomized trial",
+    "behaviour change falls self efficacy community dwelling older people controlled trial",
+    "A Matter of Balance Tai Chi CBT fear of falling randomized"
+  ],
+  "inclusion_criteria": [
+    "Randomized or cluster-randomized trials enrolling community-dwelling people aged 60 years or older.",
+    "Interventions containing a CBT or explicit behaviour-change/motivational component, delivered alone or with exercise or Tai Chi, compared with usual care, no intervention, or an attention/discussion/education control.",
+    "Quantitative fear-of-falling or falls-related self-efficacy data reported at the first available post-intervention assessment."
+  ],
+  "exclusion_criteria": [
+    "Not an original eligible randomized empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and nonrandomized studies are excluded.",
+    "No comparison between an eligible CBT/behaviour-change treatment and a control condition; this includes exercise-only, education-only, home-modification, or hip-protector interventions with no CBT/behaviour-change component.",
+    "No quantitative outcome data capable of producing an effect size, such as means and SDs, t/F statistics, proportions, or odds ratios, after reasonable attempts to derive or obtain the required data.",
+    "Completely unrelated to the research topic, including studies outside community-dwelling adults aged 60 years or older or studies not assessing fear of falling/falls-related self-efficacy."
+  ],
+  "moderators_to_extract": [
+    "intervention composition (CBT alone, CBT plus exercise, Tai Chi plus CBT, motivational/behaviour-change exercise programme)",
+    "control type (usual care/no intervention versus attention/discussion/education)",
+    "delivery format and setting (individual, group, home, community, remote)",
+    "intervention duration and contact intensity",
+    "mean participant age and proportion female",
+    "trial design and analysis (individual versus cluster randomization; clustering adjustment method)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool standardized mean differences as Hedges' g with a random-effects model using post-intervention scores. The user's requested presentation is treatment minus control after orienting all measures so lower scores mean less fear; therefore SMD < 0 favors intervention. Use one prioritized fear-of-falling measure and one first post-intervention timepoint per study. For shared controls, divide the control sample size equally across eligible comparisons without changing its mean or SD. For unadjusted cluster trials, apply a design effect based on cluster size and ICC, using an externally justified ICC only if necessary and documenting sensitivity analyses. Report heterogeneity (tau\u00b2, I\u00b2, and Q), confidence and prediction intervals where feasible, influence/outlier analyses, risk-of-bias assessment, certainty of evidence, and PRISMA 2020 study flow.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "fear of falling"
+}

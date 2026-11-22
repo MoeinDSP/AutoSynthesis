@@ -1,0 +1,614 @@
+[
+  {
+    "paper_id": "manual:90c44fcf",
+    "paper_title": "ebc09e3b_1-s2.0-S266616832100001X-main",
+    "design_classification": "randomized",
+    "design_rationale": "Explicit computer-generated balanced permuted block randomization (blocks of six) performed by the hospital pharmacy allocated patients to primary URS or SWL; registered RCT (NCT01514032).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Computer-generated block randomization executed by an independent pharmacy with concealment in sealed envelopes, and baseline characteristics (age, sex, stone size, BMI) were comparable between arms.",
+        "evidence_quote": "\"Balanced permutated block randomization occurred in blocks of six. The sequence of randomization was computer generated and was performed by the university hospital pharmacy using DatInf Randlist software v.1.2 ... Randomization data were kept strictly confidential in sealed envelopes\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and surgeons were necessarily unblinded (open surgical trial), which is especially relevant for the subjective pain outcome, and co-interventions differed (routine post-URS stenting, antibiotic prophylaxis only in URS); however, all patients were treated as allocated and followed as planned.",
+        "evidence_quote": "\"After randomization, the patient and the surgeon were informed about the intervention arm.\" ... \"All patients were treated as allocated and followed as planned.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Stone-free status appears available for all 44 randomized patients, but return-to-work and pain data were clearly incomplete (e.g., only 15/21 and 18/23 patients contributing return-to-work data) with no explanation or sensitivity analysis.",
+        "evidence_quote": "\"A return to work after 1 wk was observed in 11 of 15 patients (73%) after SWL and in nine of 18 patients (50%) after URS.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary stone-free outcome was measured identically and objectively by CT at 3 mo, but no blinding of outcome assessors is reported and the significant pain outcomes were self-reported by unblinded patients who knew which (more invasive, stented) procedure they received.",
+        "evidence_quote": "\"Pain was assessed by a numeric rating scale, ranging from 0 (no pain) to 10 (worst pain), on day 1 and at all follow-up visits ... Stone-free status was determined by abdominal CT 3 mo after treatment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered and reported per CONSORT with a pre-specified sample-size calculation, but it stopped early at 44/214 planned patients and reports multiple outcomes/time points without a protocol-specified analysis plan, so selective reporting and early-stopping effects cannot be excluded.",
+        "evidence_quote": "\"The study was prematurely closed after randomizing 44 patients due to poor accrual.\" ... \"the sample size calculation yielded a necessary 107 patients per treatment arm.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Allocation was robustly randomized and concealed, but the trial was open-label (relevant to the self-reported pain outcomes), had incomplete secondary outcome data, and was terminated early at only ~20% of the planned sample with multiple outcomes reported, yielding \"some concerns\" overall."
+  },
+  {
+    "paper_id": "manual:d4d248d3",
+    "paper_title": "6efc4856_01.ju.0000158458.51706.56",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective, multicenter randomized trial: \"A total of 78 patients from 19 participating institutions were randomized in blocks of 10 according to a random numbers table to undergo SWL or URS,\" confirming explicit random allocation to the two treatment arms.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A genuine random sequence (random numbers table, block randomization) was used and baseline characteristics were well balanced, but no allocation concealment mechanism (e.g., central randomization, sealed opaque envelopes) is described, and fixed blocks of 10 in an unblinded surgical trial raise the possibility of allocation prediction.",
+        "evidence_quote": "A total of 78 patients from 19 participating institutions were randomized in blocks of 10 according to a random numbers table to undergo SWL or URS (table 1). ... The 2 treatment groups were comparable with regard to age, sex, body mass index, stone size (expressed as 2-dimensional surface area), treatment side and American Society of Anesthesiologists score"
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Patients and surgeons were necessarily unblinded, 11 of 78 randomized patients (14%) were never treated and were excluded rather than analyzed by intention-to-treat (\"treated on protocol\"), some withdrawals were due to refusal of the allocated procedure (an allocation-dependent deviation), 2 URS patients crossed over to SWL, and many co-intervention decisions (stenting in 89% of URS, access sheath, dilation, stone displacement, shock-wave number/power) were left entirely to investigator discretion.",
+        "evidence_quote": "Of 78 randomized patients 11 dropped out of the study before treatment, leaving 67 treated on protocol, including SWL in 32 and URS in 35. Reasons for withdrawal were stone movement out of the lower pole prior to treatment, patient refusal to undergo the specified procedure, insurance issues, medical reasons and identification of a renal mass. ... In 5 URS cases the stone was unable to be accessed (2 underwent SWL)"
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "The primary outcome (3-month stone-free status on CT) was missing for roughly a quarter of treated patients and about one third of the 78 randomized (26/32 and 32/35 denominators, with inconsistent reporting of 25/27 elsewhere), no analysis of the impact of missingness or sensitivity analysis was performed, and missingness plausibly relates to outcome (e.g., failed access/treatment failures handled inconsistently).",
+        "evidence_quote": "At 3 months of followup 26 and 32 patients who underwent SWL and URS had radiographic followup ... Radiographic followup (CT) was available in 25 SWL (78%) and 27 URS (77%) cases, excluding intraoperative failures. ... Not all data were available on all patients."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is objective imaging applied similarly to both arms, but no blinded or central radiographic review is described, assessment was inconsistent (CT versus plain x-ray, and preoperative CT not required so baseline stone status was uncertain), and the secondary quality-of-life, pain and convalescence outcomes were self-reported by unblinded patients, a group of outcomes that drove the paper's main clinical conclusion favoring SWL.",
+        "evidence_quote": "Stone-free status was determined by noncontrast, thin cut CT (5 mm) 3 months after treatment or sooner if stone free. CT was not required if residual stones were evident on plain x-ray at 3 months."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "A primary outcome and a priori sample size were pre-specified, which is reassuring, but there is no trial registration or protocol cited, the trial was stopped early after an unplanned interim look with no described stopping rule, the outcome was operationalized in multiple ways (stone-free versus stone-free plus <4 mm fragments) alongside numerous post hoc subgroup and secondary comparisons, and reported p values are internally inconsistent (e.g., 35% vs 50% reported as p = 0.92).",
+        "evidence_quote": "However, interim results after approximately 35 completed patients per group revealed no significant difference in SFR and the study was terminated. ... Likewise no difference in SFR was found between patients in whom fragments were manually removed ... nor between displaced stones ... However, the subgroups were too small for meaningful comparison."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by D2 (per-protocol rather than intention-to-treat analysis excluding 11/78 randomized patients, allocation-dependent refusals, crossovers, and extensive discretionary co-interventions including stenting in 89% of URS patients) and D3 (primary stone-free outcome missing for ~25% of treated patients with no sensitivity analysis). These are compounded by some concerns over unconcealed block randomization, unblinded self-reported secondary outcomes, early termination after an unplanned interim analysis without a registered protocol, and an underpowered sample that cannot support the null finding."
+  },
+  {
+    "paper_id": "manual:23957983",
+    "paper_title": "efa360eb_000493508",
+    "design_classification": "randomized",
+    "design_rationale": "The authors explicitly describe a prospective randomized trial in which the 180 enrolled patients \"were randomly divided into 3 groups\" (UMP, FURS, SWL), with patients consenting to randomization.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no information is given on the sequence-generation method or allocation concealment, although the exactly equal group sizes (60/60/60) and well-balanced baseline characteristics (all p > 0.18) are consistent with chance.",
+        "evidence_quote": "\"All patients were randomly divided into 3 groups: Group A, managed by UMP; Group B, managed by FURS and Group C managed by SWL.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding was impossible for these surgical/lithotripsy interventions and patients and surgeon were aware of allocation; cross-over to auxiliary procedures occurred after treatment failure, and no intention-to-treat analysis or handling of deviations is described.",
+        "evidence_quote": "\"UMP or SWL was an auxiliary program that was executed after the failure of FURS... we performed UMP 8 weeks after failure of treatment with SWL.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data appear complete for all 180 randomized patients (denominators of 60 in each group at 3-month CT follow-up), with no reported losses to follow-up.",
+        "evidence_quote": "\"Patients stone free at 12-weeks follow-up, n/N SFR, % | 59/60 (98)* | 55/60 (92)* | 44/60 (73)\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (stone-free status on CT) is objective and applied uniformly, but no blinding of radiologic assessors is reported, and in the SWL group interim assessment used X-ray/ultrasound, with subjective outcomes such as complications also unblinded.",
+        "evidence_quote": "\"CT was used to evaluate the stone clearance 3 months after the operation... Patients were considered to be stone free if they had no evidence of stones or had residual fragments of less than 3 mm examined by CT.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, many outcomes are reported, and the analysis of three groups by repeated t tests without correction suggests flexible, potentially selective analysis.",
+        "evidence_quote": "\"the Student\u2019s t test was used to analyze the group comparisons, and the \u03c72 test was used for comparisons of variables between categorical data\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Outcome data were complete and baseline characteristics were balanced, but the trial reports no details of the randomization/allocation-concealment method, no blinding of participants, surgeon or outcome assessors, no ITT framework despite cross-over to auxiliary procedures, and no pre-registered protocol or pre-specified primary outcome. These unreported methodological safeguards yield \"some concerns\" across four of five domains, driving an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:48ef1535",
+    "paper_title": "8a56fb47_end.2013.0473",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly states that eligible patients were allocated to SWL versus flexible ureterorenoscopy using a computer-generated randomization table: \"The eligible patients were randomized into two groups ... using a computer-generated randomization table.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated sequence was used and baseline characteristics (age, sex, weight, stone size, caliceal anatomy) were comparable, but no allocation-concealment mechanism (e.g., sealed opaque envelopes, central allocation) is described.",
+        "evidence_quote": "\"The eligible patients were randomized into two groups: group A (SWL group) and group B (RIRS group) using a computer-generated randomization table.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients/clinicians was impossible for these surgical/SWL interventions (acceptable), but the analysis was per-protocol rather than intention-to-treat (randomized 97/98 vs analyzed 90/90), and no information is given on crossovers or protocol deviations.",
+        "evidence_quote": "\"Fifteen patients (seven from SWL group and eight from RIRS group) were lost to follow up. So, a total of 180 patients were analyzed in the study.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "About 7\u20138% of randomized patients were lost to follow-up with no reasons given, no sensitivity analysis, and no evidence that missingness was unrelated to outcome, though loss was balanced across groups; post-randomization numbers (97\u219290, 98\u219290) also leave minor discrepancies unexplained.",
+        "evidence_quote": "\"Of them, 39 patients were excluded as they failed to satisfy the eligible criteria... Fifteen patients (seven from SWL group and eight from RIRS group) were lost to follow up.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Stone-free status was pre-defined, but imaging follow-up appears to be by KUB X-ray/ultrasound (less sensitive than CT and possibly differing between arms), outcome assessors were not blinded, and subjective outcomes such as \"severe pain\" could be influenced by knowledge of treatment.",
+        "evidence_quote": "\"The stone-free status after initial SWL session or RIRS was defined as the radiological absence of stone, asymptomatic patients with stone fragment less than 3 mm and sterile urine culture at 3 months or earlier.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified protocol/analysis plan is reported, the primary outcome is not clearly designated, analyses are reported with multiple subgroup splits (<1 cm vs 1\u20132 cm) and multiple efficacy metrics (stone-free rate, retreatment, modified EQ) with conclusions drawn selectively from subgroups, and the stated enrollment dates are internally inconsistent (abstract: December 2011\u2013January 2012; methods: September 2012\u2013June 2013), raising concerns about selective reporting.",
+        "evidence_quote": "\"Study parameters in both the groups were patient demographics, stone characteristics, analgesic characteristics (supplemental analgesia, adverse effects), and treatment details.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used a computer-generated randomization table with comparable baseline groups, the trial lacks any registration/protocol, has no designated primary outcome, reports multiple subgroup and efficacy metrics with inconsistent enrollment dates, which yields a high risk of selective reporting. Additional concerns include unreported allocation concealment, per-protocol (non-ITT) analysis with ~8% unexplained loss to follow-up, and unblinded outcome assessment using relatively insensitive imaging."
+  },
+  {
+    "paper_id": "manual:215c2a8d",
+    "paper_title": "37d2e6fe_j.euf.2021.01.001",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a \"single-centre, parallel-group, pilot randomised controlled trial (RCT) comparing shockwave lithotripsy (SWL) and ureteroscopy (URS)\" with patients randomised to groups (\"60 of 176 invited patients (34%...) were randomised\").",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomisation is asserted but the brief correspondence gives no information on the sequence-generation method or allocation concealment, although reported baseline characteristics appear well balanced.",
+        "evidence_quote": "\"Approximately two-thirds of the invited patients declined to participate, so 60 of 176 invited patients (34%, 95% confidence interval 27\u201341%) were randomised.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and surgeons is impossible for these surgical interventions, two randomised SWL patients were excluded from analysis (analysis by 30 vs 28 rather than strict intention-to-treat), and much of the care was left to physician discretion.",
+        "evidence_quote": "\"Two out of 30 patients randomised for SWL did not undergo treatment: one withdrew consent; another suffered a myocardial infarction between consenting and the time of treatment.\" ... \"Other than that, patients were scheduled, examined, and treated at the physician\u2019s discretion.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Stone-free status assessed by CT is objective and applied similarly across arms, but outcome assessors were not blinded and some outcomes (complication grading, satisfaction, analgesic score) are assessor/self-report dependent, with one patient assessed by sonography instead of CT.",
+        "evidence_quote": "\"Participants were then followed after 2 wk and 3 mo including a final CT scan to confirm stone clearance\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Outcome data were essentially complete for all treated participants with no loss to follow-up, and only trivial deviations in imaging modality for two patients.",
+        "evidence_quote": "\"No enrolled patients were lost to follow-up.\" / \"We were able to complete all follow-up examinations as required in the protocol except for one patient who did not undergo the final CT scan (sonography was used instead).\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Feasibility objectives are clearly prespecified and reported, but no trial registration or protocol/analysis plan is cited in this brief report, and multiple clinical outcomes are reported descriptively without a prespecified analytic framework.",
+        "evidence_quote": "\"The primary objectives of this trial were as follows: (1) To assess how many patients would accept the invitation to participate in research...\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This pilot RCT achieved complete follow-up and used largely objective outcome assessment, but the brief report provides no detail on sequence generation or allocation concealment, no blinding was possible, two randomised patients were excluded from analysis, and no protocol/registration is cited. Overall risk is therefore 'some concerns', driven by domains 1, 2, 4 and 5."
+  },
+  {
+    "paper_id": "manual:a26f14a4",
+    "paper_title": "b1c3a4bc_j.juro.2013.02.2192",
+    "design_classification": "non_randomized",
+    "design_rationale": "The index abstract describes 20 symptomatic adults who underwent RIRS whose outcomes \"were compared with 20 control patients from same age group who underwent ESWL\" during the same period; no random allocation sequence is described, indicating a prospective/retrospective comparative (quasi-experimental) design.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "serious",
+        "rationale": "Treatment choice (RIRS vs ESWL) was not randomized and likely reflected clinician/patient preference; only crude baseline comparability (age, sex, BMI, side, stone size) is reported with no adjustment for prognostic factors such as stone density, lower-pole anatomy (infundibulopelvic angle), or prior treatment.",
+        "evidence_quote": "Baseline parameters (age, sex, body mass index, side treated) were comparable in groups."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias in selection of participants into the study",
+        "judgment": "moderate",
+        "rationale": "Controls were selected from the same period and age range with stated exclusion criteria, but the selection mechanism for the comparison group (\"20 control patients from same age group\") is unexplained and could relate to both treatment and prognosis.",
+        "evidence_quote": "Outcomes of these patients were compared with 20 control patients from same age group who underwent ESWL for same size IC calculi during the study period."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "low",
+        "rationale": "Both interventions are clearly and objectively defined with specific devices, energy settings and anesthesia, and classification could not be influenced by outcome knowledge.",
+        "evidence_quote": "ESWL were done by Dornier compact alpha lithotripter ... RIRS were done by 7.5 Fr flexible ureterorenoscope with holmium:YAG laser ... lithotripsy under combined spinal and epidural anesthesia."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "serious",
+        "rationale": "Patients and clinicians were necessarily unblinded, ESWL patients received variable numbers of repeat sessions while RIRS outcomes are reported after a single session, and no co-intervention or per-protocol/ITT analysis details are given, which is especially problematic for self-reported satisfaction and recovery outcomes.",
+        "evidence_quote": "SFRs after the first, second, and third sessions of ESWL were 30, 45, and 50 %, respectively and 85 % after one session of RIRS"
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "moderate",
+        "rationale": "All 20 patients per group appear to contribute to reported outcomes, but no information is provided on loss to follow-up at 3 weeks or on completeness of questionnaire responses.",
+        "evidence_quote": "20 symptomatic adults (20-50 years) who had isolated IC stone between 10-20 mm were underwent RIRS"
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "serious",
+        "rationale": "Patient-reported satisfaction and voiding symptoms were captured with an explicitly non-validated instrument in unblinded patients, and stone-free status was assessed by plain KUB (insensitive) with no mention of blinded radiologic assessment.",
+        "evidence_quote": "patient reported outcomes ie.voiding symptoms, time to return normal activity and satisfaction rate using self made non validated questionnaire"
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "moderate",
+        "rationale": "No protocol or registration is mentioned and multiple outcomes/time points (SFR after 1, 2 or 3 ESWL sessions; several questionnaire scores) are reported, creating scope for selective emphasis, although the prespecified parameter list is stated in the Methods.",
+        "evidence_quote": "The parameter compared were stone free rate (SFR) on X-Ray KUB at 3 weeks, mean operative time, hospital stay, complications and patient reported outcomes"
+      }
+    ],
+    "overall_risk": "serious",
+    "overall_summary": "This small (n=40) non-randomized comparison of RIRS versus ESWL is at serious risk of bias, driven by unadjusted confounding from non-random treatment allocation, unblinded delivery with asymmetric session counts, and outcome measurement using an explicitly non-validated self-made questionnaire plus insensitive plain-film stone-free assessment. Remaining domains raise moderate concerns due to sparse reporting of selection, follow-up completeness, and absence of a protocol."
+  },
+  {
+    "paper_id": "manual:0858461d",
+    "paper_title": "5debacd7_j.juro.2014.07.088",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes random allocation of eligible patients to three treatment arms: \"Eligible patients were randomized to SWL, RIRS or miniperc using a computer generated randomization table of equal numbers.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated randomization table was used and baseline demographics/stone characteristics were similar across groups, but there is no description of allocation concealment (e.g., sealed opaque envelopes, central allocation), leaving uncertainty.",
+        "evidence_quote": "\"Eligible patients were randomized to SWL, RIRS or miniperc using a computer generated randomization table of equal numbers.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding of patients and surgeons was impossible for these distinct surgical/SWL interventions, no information is given on crossover or adherence, and analysis excluded randomized patients (matrix stones) rather than following strict intention-to-treat.",
+        "evidence_quote": "\"All procedures were done by 1 consultant urologist (AK) experienced with the technique and with the patient under general anesthesia.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only 9/135 (6.7%) post-randomization exclusions occurred, for a reason (matrix stone on post-hoc stone analysis) plausibly unrelated to outcome, but these exclusions were determined after randomization and no loss-to-followup accounting or sensitivity analysis is reported.",
+        "evidence_quote": "\"Three, 2 and 4 patients, respectively, were excluded from final analysis due to a matrix stone diagnosis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (stone-free rate on noncontrast CT at 3 months) is objective and pre-defined, but interim assessment methods differed by arm (ultrasound at 3 weeks for SWL/RIRS, direct vision for miniperc), outcome assessors were not blinded, and the same surgeon performed interventions and judged clearance.",
+        "evidence_quote": "\"Failure was defined as a residual calculus greater than 4 mm at 3 months.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "No trial registration or pre-specified protocol/primary outcome is reported, power was calculated post hoc from the observed re-treatment rates, many outcomes are reported with multiple pairwise comparisons (including a three-group comparison analyzed with a Student t-test), raising substantial concern of selective reporting/analysis.",
+        "evidence_quote": "\"Using the re-treatment rates of 0.63, 0.021 and 0.022 for the 3 groups, respectively, the calculated power of the study was 84%.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Although allocation used a computer-generated randomization table with balanced baseline characteristics, the absence of any prospective registration/protocol, a post hoc power calculation based on observed results, and inconsistent/multiple analyses indicate high risk of bias in selection of the reported result. Added concerns about allocation concealment, unblinded delivery and assessment of outcomes, and post-randomization exclusions support an overall high risk of bias."
+  },
+  {
+    "paper_id": "manual:f851eb95",
+    "paper_title": "294c6ee8_j.purol.2015.01.005",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a prospective, monocentric, open-label, parallel-group randomized comparative trial with allocation generated by secure online randomization software with stratification by stone size and blocks of 2 (\"La randomisation se faisait par un logiciel s\u00e9curis\u00e9 en ligne (randoweb.aphp.fr) ... par bloc de 2\"), registered as NCT01604304.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Allocation was generated centrally by secure web software (concealment plausibly adequate) and baseline demographics/stone characteristics were comparable, but permuted blocks of 2 in an open-label trial are highly predictable and a notable baseline imbalance existed in pre-treatment JJ stenting (50% vs 8.3%, p=0.05), which the authors themselves flag as a bias.",
+        "evidence_quote": "La randomisation se faisait par un logiciel s\u00e9curis\u00e9 en ligne (randoweb.aphp.fr) avec une stratification par taille de calcul (5 \u00e0 10 mm, 11 \u00e0 15 mm et 16 \u00e0 20 mm), par bloc de 2."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was explicitly open-label with surgeon-discretion treatment parameters, at least one patient crossed over from ESWL to fURS by personal preference, and six patients withdrew consent or were lost before any treatment; although ITT analyses were presented, the headline per-protocol analysis excluded these participants.",
+        "evidence_quote": "Un patient a \u00e9t\u00e9 randomis\u00e9 dans le bras LEC et a eu une URSs par souhait personnel."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for a large proportion of the 30 randomized patients (8 excluded pre-treatment, 4 lost after treatment, and only ~55% had the protocol CT), and the authors' own sensitivity analyses show the direction of effect reverses depending on imputation (ITT maximum-bias: 33.3% fURS vs 46.2% ESWL; minimum-bias: 77.8% vs 53.8%), demonstrating that the result is driven by missingness.",
+        "evidence_quote": "Sur les 30 patients randomis\u00e9s, 8 sont sortis de l'\u00e9tude et 4 ont \u00e9t\u00e9 perdus de vue."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The stone-free endpoint, though objective in principle, was ascertained with heterogeneous and less sensitive modalities (CT in only 54.5%, ultrasound/plain film in others) by unblinded assessors, and three fURS patients were counted as successes on the basis of intraoperative impression rather than imaging, so outcome ascertainment differed systematically between arms.",
+        "evidence_quote": "Parmi les patients, 54,5 % ont eu un scanner de contr\u00f4le \u00e0 au moins 3 mois du traitement. Quatre patients n'ont pas eu d'\u00e9valuation (perdus de vu apr\u00e8s traitement) et 5 patients ont eu une \u00e9chographie et une radiographie standard."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was prospectively registered with a pre-specified primary endpoint and multiple analysis sets were transparently reported, but the per-protocol result is presented as the headline figure, pre-specified subgroup analyses were abandoned, and the trial was reframed post hoc as a \"feasibility\" study, leaving some concerns about selective presentation.",
+        "evidence_quote": "L'\u00e9tude a obtenu l'accord de l'ANSM ... et a \u00e9t\u00e9 enregistr\u00e9e sur le site Clinicaltrials.gov sous le num\u00e9ro NCT01604304."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven by extensive missing outcome data (12 of 30 randomized patients without evaluable outcomes, with effect direction reversing between minimum- and maximum-bias imputation) and by inconsistent, unblinded outcome ascertainment (CT in only 54.5%, ultrasound/radiography or intraoperative judgment in the remainder). Open-label design with a crossover and marked baseline imbalance in pre-treatment stenting add further concerns, and the trial was severely underpowered (30 of 180 planned patients)."
+  },
+  {
+    "paper_id": "manual:29cf5897",
+    "paper_title": "f27edfa3_j.urology.2014.08.023",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports prospective random allocation of 150 patients into three arms using an online randomization tool (\"randomization was applied using an online randomization tool\", Research Randomizer).",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "An adequate random sequence generator was used and baseline characteristics (age, stone size, sex) were comparable, but there is no information on allocation concealment, and patients were \"actively involved in the decision-making process,\" raising some uncertainty about the integrity of allocation.",
+        "evidence_quote": "\"After informed consent was obtained from the patients for all options, randomization was applied using an online randomization tool.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding was impossible for surgery vs lithotripsy vs observation, and patients needing auxiliary intervention appear to have been removed from the observation arm rather than analysed by intention-to-treat, although such crossovers were also counted as failures in success definitions.",
+        "evidence_quote": "\"Six patients had to be treated with auxiliary procedures and were removed from the observation group\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Loss to follow-up was modest (3/50 in observation) and all tables report denominators of 50, but the authors concede incomplete follow-up of the intervention arms and no analysis of the impact of missing data is provided.",
+        "evidence_quote": "\"3 patients were lost to follow-up after 17 months\" ... \"The limitations of this study are the small cohort for the groups and the lack of follow-up after SWL and F-URS.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Stone-free status is a reasonably objective imaging outcome, but imaging schedules and modalities differed across arms, assessors were not blinded, and outcome definitions (\"noneventful course\", fragments <3 mm) are partly subjective.",
+        "evidence_quote": "\"To assess stone status, the observation group were assessed with KUB radiography every 3 months and CT in every 6 months. In the F-URS and SWL groups, CT imaging was applied at 3rd and 12th months after the intervention.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol is cited, and multiple alternative success definitions are reported (stone-free at 3 months, at study end, \"noneventful course\", efficacy quotient), allowing scope for selective reporting; also a discrepancy exists between the abstract (92% F-URS, 90% SWL) and Table 2 (92%/92% at 3 months, 100% SWL at end).",
+        "evidence_quote": "\"For each procedure, primary outcome measures were: fragmentation <3 mm was considered successful 3 months after the procedure (SWL and F-URS), and success for observation was defined as no requirement for any intervention until the end of the observation period.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This prospective randomized three-arm trial used a legitimate online randomization tool with balanced baseline characteristics, but every domain raises some concerns: allocation concealment is unreported amid patient involvement in decision-making, there was no blinding and apparent exclusion of crossovers from the observation arm rather than intention-to-treat analysis, follow-up of the intervention arms was acknowledged as incomplete, imaging schedules differed across arms, and no protocol/registration is cited for multiple reported success definitions (with abstract\u2013table inconsistencies). No single domain reached clearly high risk, giving an overall judgment of some concerns."
+  },
+  {
+    "paper_id": "manual:e8761e74",
+    "paper_title": "030a0d3a_jlms.2015.12",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly describes a parallel-group clinical trial with allocation by computer-generated random numbers: \"Patients were randomly assigned to one of two groups according to the method of treatment... Simple randomization was carried out using computerized random numbers.\"",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A computer-generated random sequence is reported and baseline characteristics appear balanced, but allocation concealment is not described and the unexplained drop from 58 enrolled to 46 analysed with unequal group sizes (25 vs 21) raises some concern.",
+        "evidence_quote": "\"Simple randomization was carried out using computerized random numbers.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and surgeons were necessarily unblinded (unavoidable for these procedures), co-interventions differed (e.g., routine stenting in the F-URS arm), and no intention-to-treat analysis is stated; deviations such as the two failed access-sheath placements were handled within group but analysis approach is unclear.",
+        "evidence_quote": "\"Due to the difference between the two methods, it was not possible to blind the surgical team from knowledge of which procedure a participant received.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Twelve of 58 enrolled patients (\u224821%) are unaccounted for with no flow diagram, no per-group breakdown and no explanation of reasons for exclusion/loss, so bias from missingness in an outcome (stone-free rate) plausibly related to treatment cannot be excluded.",
+        "evidence_quote": "\"a total number of 58 patients with renal pelvic stones 10-20 mm and BMI>30 ... enrolled in the study\"; \"A total of 46 patients ... were included in the present study\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome is objective (CT-defined residual fragments \u22653 mm) and applied identically to both arms, but assessors were unblinded and no mention is made of independent or blinded imaging review, leaving some scope for assessor influence (especially for complication reporting).",
+        "evidence_quote": "\"Stone-free status as the primary parameters used to evaluate efficacy and residual stone burden were determined by abdominal CT scan 3 months after treatment.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified analysis plan is cited, and reported P values are internally inconsistent (e.g., operation time \".061\" vs \"<.061\", SFR \".019\" vs \"<.019\"), so selective reporting/analysis cannot be ruled out although the stated primary outcome is reported.",
+        "evidence_quote": "\"Demographic and stones characteristics, stone free rate (SFR) in 3 months after procedure, time of operation ... and complications ... were compared between the 2 groups.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven chiefly by unexplained attrition (12 of 58 enrolled patients, ~21%, absent from the analysis with no per-arm accounting), compounded by lack of reported allocation concealment, unavoidable lack of blinding with no stated intention-to-treat analysis, and absence of pre-registration with inconsistently reported P values."
+  },
+  {
+    "paper_id": "manual:fdc2ae2d",
+    "paper_title": "d82ac99e_s00240-013-0618-z",
+    "design_classification": "randomized",
+    "design_rationale": "The paper explicitly reports allocation of 140 patients to SWL or F-URS \"randomized using an online randomization tool\" (randomizer.org), i.e., explicit random allocation.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A random sequence generator is named, but there is no description of allocation concealment, and baseline distributions show a notable sex imbalance (31/39 vs 41/29) with an implausibly reported age p value (42.9 \u00b1 5.6 vs 45.4 \u00b1 6.4, p = 0.814), raising doubts about the allocation and baseline reporting.",
+        "evidence_quote": "\"After the informed consent of the patients was obtained for both procedures, the patients were randomized using an online randomization tool [5].\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Patients and the single treating surgeon were necessarily aware of the assigned procedure and co-interventions differed (multiple SWL sessions up to three, hospitalization/anesthesia for F-URS, rescue F-URS for SWL failures), and no intention-to-treat analysis or handling of deviations is described, though analyses appear to retain all 70 per group.",
+        "evidence_quote": "\"Each procedure was performed by a single surgeon... Six patients with symptomatic residual stones ([3 mm) were treated by F-URS.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Outcomes appear reported for all 70 patients per group at 3 months with no stated dropouts, but no flow diagram or explicit account of losses to follow-up is given, and inconsistent denominators (e.g., 64/70 reported as 91.5 %, 38 patients as 52.3 %, 3 patients as 2.8/4.2 %) raise concerns about data completeness/accuracy.",
+        "evidence_quote": "\"One hundred and forty patients were randomized as 70 undergoing SWL (Group 1) and 70 undergoing F-URS (Group 2).\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "Stone-free status was assessed mainly by ultrasound and plain X-ray (insensitive for small fragments) rather than CT, by unblinded assessors aware of the procedure, and the success definition (<3 mm fragments, not removed) favours F-URS, so outcome ascertainment could plausibly be influenced by knowledge of the intervention.",
+        "evidence_quote": "\"Because of the relatively high cost of the CT in a developing country like ours, a CT could not be performed in all cases.\" ... \"we did not remove fragments after fragmentation with F-URS... but we did not remove residual stones.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No trial registration or pre-specified protocol/analysis plan is cited, outcomes are reported at multiple time points with varying definitions of success, and exact p values are often not reported (only \"p < 0.05\"), allowing scope for selective reporting.",
+        "evidence_quote": "\"After the approval of local ethics committee, 140 patients applied to our clinic with single lower pole stones \\1 cm between August and October 2012 were enrolled in the study.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall high risk of bias, driven primarily by outcome measurement (unblinded assessment of stone-free status using ultrasound/plain X-ray rather than CT, with a <3 mm \"success\" definition that favours F-URS where fragments were left in situ). Additional concerns arise from unreported allocation concealment with baseline imbalance, inherently unblinded interventions with differing co-interventions, inconsistent denominators/percentages, and absence of a registered protocol or pre-specified analysis plan."
+  },
+  {
+    "paper_id": "manual:cb81ad14",
+    "paper_title": "9f1dd1bd_s00345-017-2084-7",
+    "design_classification": "randomized",
+    "design_rationale": "The paper reports a multicenter, randomized, unblinded clinical trial in which patients with 1\u20132 cm lower calyceal stones were allocated to SWL, RIRS or PCNL using \"the online free Random Allocation Software (M. Saghaei, MD)\", stratified by center, and registered as ISRCTN 55546280.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "A valid random sequence generator stratified by centre was used and baseline characteristics were balanced, but the authors explicitly concede there was no centralized randomization and the local principal investigator both enrolled and assigned participants, so allocation concealment cannot be assured.",
+        "evidence_quote": "\"Mainly, the lack of a centralized randomization... represent the main limitations of the study\"; \"The principal investigator (GB, PV, DA, ODP, FS, NM, BO) for each center enrolled and assigned participants to groups.\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was unblinded (inevitable for surgical procedures) and each centre used its own equipment with operator discretion (e.g., prone vs supine PCNL); no intention-to-treat analysis is described and patients withdrawing consent after randomization were excluded rather than analysed as randomized.",
+        "evidence_quote": "\"Patients who refused the consent to enter the study in a second time (before the scheduled treatment) and patients lost to follow-up were excluded.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "582 patients were enrolled and 582 analysed in the three arms, but losses to follow-up and consent withdrawals were removed from analysis without reporting their numbers or reasons per group in the text, so the extent and balance of missingness cannot be verified from the narrative.",
+        "evidence_quote": "\"582 consecutive patients were prospectively enrolled in this study... 194 patients from group A, 207 patients from group B and 181 patients from group C were available for the final analysis.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "The primary outcome (stone-free status on 3-month CT) and Clavien-Dindo complications are objective and uniformly assessed, but the study was unblinded with no independent/blinded outcome assessment or central imaging review, and the stone-free definition allowed a subjective clinical component (\"asymptomatic patient with fragments <3 mm\").",
+        "evidence_quote": "\"Stone-free rate was defined taking into account a negative CT scan or an asymptomatic patient with stone fragments less than 3 mm and a negative urine culture.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered (ISRCTN 55546280) with pre-specified primary and secondary outcomes and a sample-size calculation, but no protocol is available for inspection, a \"post hoc\" multivariate regression was added, and internal inconsistencies in reported p values (e.g., 0.082 and 0.17 described as \"statistically significant\") raise concern about analytic reporting.",
+        "evidence_quote": "\"We performed a 'post hoc' multivariate logistic regression analysis to adjust the results for the diferences between the centers, discovering no diferences.\""
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "This registered multicentre randomized trial used adequate sequence generation and achieved balanced baseline characteristics, but the authors acknowledge the absence of centralized randomization (investigators both enrolled and allocated), the trial was unblinded with heterogeneous equipment across centres, excluded post-randomization withdrawals/losses without an ITT analysis, and reports some internally inconsistent p values. No single domain reaches high risk, so the overall judgment is 'some concerns'."
+  },
+  {
+    "paper_id": "manual:1c33bb06",
+    "paper_title": "e872517c_s1569-9056%2819%2933129-x",
+    "design_classification": "randomized",
+    "design_rationale": "The abstract explicitly states that patients with a single 1\u20132 cm lower calyceal stone were \"randomized into three groups\" (SWL, RIRS, PCNL), indicating random allocation to conditions.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Randomization is asserted but no sequence-generation method or allocation-concealment procedure is described, and only stone size is reported as a baseline characteristic (comparable, p = 0.36), so comparability on other prognostic factors cannot be verified.",
+        "evidence_quote": "\"Patients were randomized into three groups: Group A: SWL (33 pts); Group B: RIRS (35 pts); Group C: PCNL (30 pts).\""
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Blinding is impossible for these surgical/lithotripsy interventions and the abstract gives no information on crossovers, protocol deviations, or whether an intention-to-treat analysis was used (re-treatment and auxiliary procedures occurred frequently, especially in the SWL arm).",
+        "evidence_quote": "\"Patients were evaluated with KUB radiography (US for uric acid stones) at day 10 and a CT scan after 3 months.\""
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "No flow of participants, losses to follow-up at the 3-month CT, or denominators are reported, and the percentages given do not map cleanly onto the stated group sizes (e.g., 81.1% of 35), so completeness of outcome data cannot be confirmed.",
+        "evidence_quote": "\"The overall stone-free rate (SFR) was 68.5% for Group A, 81.1% for Group B and 86.4% for Group C.\""
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Stone-free status assessed by CT is a largely objective outcome measured the same way in all arms, but assessors were evidently not blinded, the definition of \"stone-free\" (residual fragment threshold) is not stated, and complication grading criteria are unreported.",
+        "evidence_quote": "\"Patients were evaluated with KUB radiography (US for uric acid stones) at day 10 and a CT scan after 3 months.\""
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "This is a conference abstract with no protocol or trial registration mentioned, no pre-specified primary outcome, and selective/incomplete reporting of comparisons (several results given without numerators, exact p-values, or all pairwise contrasts), indicating high risk of selective reporting.",
+        "evidence_quote": "\"The auxiliary procedure rate was comparable for Groups A and B and lower for Group C (p < 0.05). The complication rate was 7.2, 13.8 and 18.7% for Groups A, B and C, respectively.\""
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high, driven by Domain 5: as a brief conference abstract with no protocol/registration, no pre-specified primary outcome, and incomplete, selectively presented comparisons, selective reporting is likely. All other domains raise some concerns because randomization mechanism, allocation concealment, participant flow/missing data, analysis approach, and outcome definitions are not reported."
+  }
+]

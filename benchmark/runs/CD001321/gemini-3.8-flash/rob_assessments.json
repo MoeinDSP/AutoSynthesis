@@ -1,0 +1,384 @@
+[
+  {
+    "paper_id": "manual:143f8ee9",
+    "paper_title": "4b0bf9f7_157340711795163820",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly assigned to three groups using a computer-generated random numbers sequence and sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although allocation sequence generation and concealment were described, there was a substantial baseline imbalance in the primary prognostic outcome (baseline urinary E. coli positive rate was 30.76% in control vs 66.66% and 73.91% in the active treatment groups), and three participants dropped out from the control group immediately after assignment.",
+        "evidence_quote": "Randomization was performed by opening sealed envelopes in numbered sequence prepared by an individual not involved in the study, and prepared from a computer-generated random numbers program. ... The overall characteristics of participants in all the groups were similar except the percentage of urinary E. coli positive cases at the baseline evaluation (Table 3)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Despite the title stating 'Double Blind', the control group was explicitly 'untreated' (no placebo), meaning participants and caregivers were not blinded to the control condition; additionally, post-randomization dropouts from the untreated group were excluded from the analysis rather than analyzed by intention-to-treat.",
+        "evidence_quote": "Study subjects were randomly selected and assigned to three groups including an untreated control group (n=16), a low dose (500 mg daily, n=21) and a high dose (1000 mg daily, n=23) treatment group. ... After randomization, three participants from the untreated control group dropped out of the study citing personal reasons."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Missing outcome data occurred due to post-randomization dropouts (3 out of 16 participants, ~19%) exclusively in the untreated control group, and the analysis completely excluded them.",
+        "evidence_quote": "After screening, 60 participants were selected, randomized and distributed into three groups according to the study design (Fig. 1) with 16, 21 and 23 participants included in the untreated control, 500 mg/day and 1000 mg/day of PS-WCP treatment groups, respectively. Immediately after randomization however, three participants from the untreated control group declined to participate in the study. ... Baseline Characteristics (n=57)"
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Objective microbiological culture methods and standardized criteria were utilized, and laboratory outcome assessors were blinded to group allocation.",
+        "evidence_quote": "All the analyses were performed at ASRAM clinical laboratory, Eluru, India. The laboratory staff was unaware of the group assignment of participants and each clinical observation was kept confidential throughout the study."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "There is no mention of a pre-registered trial protocol or pre-specified statistical analysis plan, and multiple statistical tests and outcome transformations were conducted.",
+        "evidence_quote": "We scored for bacterial load for each subject and transformed it into a logarithmic scale and performed an ANOVA test. A time-series analysis was also performed to test the autocorrelation between bacterial loads."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "The study has high overall risk of bias primarily due to deviations from intended interventions: the control group was untreated rather than placebo-controlled (preventing blinding of participants and trial personnel), and post-randomization dropouts solely from the control arm were excluded from analyses without an intention-to-treat approach."
+  },
+  {
+    "paper_id": "manual:5b8a828f",
+    "paper_title": "4ecf2d85_A_randomized_trial_to_evaluate_effectiveness_and_c",
+    "design_classification": "non_randomized",
+    "design_rationale": "No text or Methods/Participants section is provided to describe the allocation mechanism; per instructions, random allocation cannot be assumed based solely on the title.",
+    "tool_used": "ROBINS-I",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Bias due to confounding",
+        "judgment": "no_information",
+        "rationale": "No study text or data is provided to evaluate potential confounding.",
+        "evidence_quote": null
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Bias due to selection of participants into the study",
+        "judgment": "no_information",
+        "rationale": "No text is provided regarding participant recruitment, eligibility criteria, or selection.",
+        "evidence_quote": null
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Bias in classification of interventions",
+        "judgment": "no_information",
+        "rationale": "No information is provided about how interventions were defined or classified.",
+        "evidence_quote": null
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Bias due to deviations from intended interventions",
+        "judgment": "no_information",
+        "rationale": "No text is provided to assess adherence or deviations from intended interventions.",
+        "evidence_quote": null
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Bias due to missing data",
+        "judgment": "no_information",
+        "rationale": "No details are available regarding participant flow, attrition, or missing data.",
+        "evidence_quote": null
+      },
+      {
+        "domain_number": 6,
+        "domain_name": "Bias in measurement of outcomes",
+        "judgment": "no_information",
+        "rationale": "No outcome measures or assessment procedures are described.",
+        "evidence_quote": null
+      },
+      {
+        "domain_number": 7,
+        "domain_name": "Bias in selection of the reported result",
+        "judgment": "no_information",
+        "rationale": "No results, protocol, or statistical analysis plan are provided to evaluate selective outcome reporting.",
+        "evidence_quote": null
+      }
+    ],
+    "overall_risk": "no_information",
+    "overall_summary": "Because no text or abstract was provided beyond a truncated title, there is no information available to assess any of the risk of bias domains under ROBINS-I."
+  },
+  {
+    "paper_id": "manual:d2e4fdf3",
+    "paper_title": "c94754a0_ajcn.116.130542",
+    "design_classification": "randomized",
+    "design_rationale": "The study was a randomized, double-blind, placebo-controlled multicenter trial where participants were randomly assigned (1:1) using a computer-generated sequence.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated by a blinded statistician and concealed using an electronic central data capture system, and baseline characteristics were well balanced between groups.",
+        "evidence_quote": "The randomization sequence was generated with SAS for Windows software (version 9.1.3; SAS Institute Inc.) by a blinded statistician with the use of a seed number and random allocation in blocks by research site. The randomization module of the DATA-TRAK Electronic Data Capture system (DATATRAK ONE UX, versions 13.0.0 to 13.3.5) was used for coded treatment allocation at each research site by a study coordinator or investigator."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Blinding of participants and study staff was maintained with an indistinguishable placebo, and an intention-to-treat analysis was performed without significant deviations from intended interventions.",
+        "evidence_quote": "The study was a 24-wk multicenter, double-blind, randomized, placebo-controlled trial... The placebo beverage was designed to look, smell, and taste like the cranberry beverage (27% juice), and a separate sensory study showed no difference in the proportions of subjects who correctly guessed if they were randomly assigned to receive either the cranberry beverage (51%) or the placebo beverage (40%)... Analyses were performed in all randomly assigned subjects (intent-to-treat population)."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Dropout rates were low and balanced across groups (13.5% vs 13.8%), and incidence density analyses appropriately accounted for differing lengths of observation time.",
+        "evidence_quote": "A total of 373 subjects were randomly assigned to consume the cranberry beverage (n = 185) or placebo beverage (n = 188), and 322 subjects [cranberry: n = 160 (86.5%); placebo: n = 162 (86.2%)] completed through week 24 of the study... with the observation time censored at the time that the study product was discontinued for subjects who did not complete the full treatment period."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Outcome assessors were double-blinded, and clinical UTI was evaluated using standardized diagnostic criteria across both study arms.",
+        "evidence_quote": "A clean-catch urine sample was also collected, and a clinical (symptomatic) UTI was diagnosed by the investigator on the basis of >=1 of the following symptoms: dysuria, urinary frequency, urinary urgency, or suprapubic pain in the absence of other potential etiologies such as vaginal infection or discharge."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The study was prospectively registered at ClinicalTrials.gov (NCT01776021), and the reported primary and secondary outcomes correspond to the pre-specified protocol and analysis plan.",
+        "evidence_quote": "The primary outcome was the clinical UTI incidence density, which was defined as the total number of clinical UTI events (including multiple events per subject when applicable) per unit of observation time... This study was registered at clinicaltrials.gov as NCT01776021."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The study is a well-designed, double-blind randomized controlled trial with robust sequence generation and allocation concealment, balanced completion rates, blinded outcome assessment, and prospectively planned analyses, resulting in low risk of bias across all domains."
+  },
+  {
+    "paper_id": "manual:fa654d84",
+    "paper_title": "25c4a88a_bmj.322.7302.1571",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly allocated into three groups using random number tables and block randomization.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although a random sequence was generated using tables of random numbers and block randomization, the paper does not describe whether allocation concealment was maintained.",
+        "evidence_quote": "After giving informed consent, they were randomly allocated into three groups by using tables of random numbers and a block technique with a block size of six (fig 1)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The trial was open-label without blinding of participants or trial personnel, and one participant was excluded post-randomization from the analysis rather than analyzed under a strict intention-to-treat principle.",
+        "evidence_quote": "Design Open, randomised controlled 12 month follow up trial... One subject in the lactobacillus group who was taking postcoital antimicrobials was excluded from the analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Loss to follow-up was low, balanced across groups, and sensitivity analyses assuming dropouts had events did not alter the conclusions.",
+        "evidence_quote": "Only 13 women dropped out of the study: four (8%) in the cranberry group, four (8%) in the lactobacillus group, and five (10%) in the control group, usually because of moving away."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Although reporting of symptoms prompted urine sampling, the primary outcome definition was confirmed objectively by laboratory staff blinded to group allocation.",
+        "evidence_quote": "All the analyses were performed at the laboratory of clinical microbiology in Oulu University Hospital. The laboratory staff were unaware as to which of the treatment groups participants belonged. The samples were cultured immediately by standard procedures, and we used >10^5 cfu/ml as the criterion for infection."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No pre-registered protocol or statistical analysis plan was mentioned to confirm that outcomes and analyses were pre-specified.",
+        "evidence_quote": "The study end point was the first recurrence of urinary tract infection."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study has some concerns overall due to lack of reporting on allocation concealment, the open-label design with post-randomization exclusion of one participant, and the lack of a pre-registered analysis plan."
+  },
+  {
+    "paper_id": "manual:3282c014",
+    "paper_title": "1e770a03_cid%2Fciq073",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a prospective, randomized, double-blind, placebo-controlled trial where participants were randomly assigned via a central randomization schedule.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was generated centrally by a data coordinating center and concealed using a web-based allocation system with pre-labeled study product boxes, and baseline characteristics were well-balanced between groups.",
+        "evidence_quote": "The Biometrics and Outcomes Research Core at the University of Michigan, which served as the Data Coordinating Center (DCC), provided a randomization schedule for the juice supplier by assigning labels that were placed on each box of juice. At enrollment, study recruiters logged participants in a Web-based enrollment form that contained only the participant identification number and the number of the box given to the participant."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants, study personnel, and outcome assessors were blinded to identical placebo vs active juice, compliance was monitored and comparable, and an intention-to-treat approach was used.",
+        "evidence_quote": "The placebo juice was formulated by Ocean Spray to imitate the flavor (sugar and acidity) and color of the cranberry beverage, without any cranberry content... Fisher Bioservices used identical bottles for the cranberry juice and the placebo beverage... the investigators and their staff remained blinded to the assigned regimen until the trial was completed."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Although approximately 27-28% were lost to follow-up or withdrew, dropout rates and reasons were balanced between groups, medical record review was used to capture missed events, and survival time-to-event analyses properly censored participants without indication of bias.",
+        "evidence_quote": "Two hundred thirty (72%) of 319 participating women completed the entire protocol. Eighty-four were lost to follow-up or dropped out voluntarily, and 5 became pregnant and were excluded (Figure 1). Participation rates for scheduled follow-up visits were similar between study groups. Overall, 116 (75%) of treatment and 114 (70%) of placeboparticipants completed the 6-month follow-up visit or had a prior recurrence."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was defined using objective microbiological criteria along with symptoms, assessed identically across groups by blinded personnel.",
+        "evidence_quote": "A UTI was de\ufb01ned on the basis of the combination of symptoms and a urine culture positive for a known uropathogen... A positive urine culture result was de\ufb01ned as >1000 cfu/mL urine of a known uropathogen... ERIC PCR typing to compare enrollment and recurring UTI E. coli isolates was performed for those with a positive culture for E. coli within the \ufb01rst 15 days."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial's primary and secondary outcomes and pre-planned intention-to-treat time-to-event statistical analyses were clearly defined and reported in accordance with standard trial reporting standards.",
+        "evidence_quote": "The primary end point was a con\ufb01rmed UTI, de\ufb01ned using the same criteria as used to determine eligibility for enrollment, that occurred >15 days after trial enrollment or if at ,15 days was with a different bacteria type or strain ."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "This double-blind, randomized, placebo-controlled trial implemented robust central randomization with allocation concealment, effective blinding, objective laboratory outcome definitions, and appropriate time-to-event analyses, resulting in low risk of bias across all RoB 2 domains."
+  },
+  {
+    "paper_id": "manual:505adab4",
+    "paper_title": "91c3d5ee_j.mayocp.2011.10.006",
+    "design_classification": "randomized",
+    "design_rationale": "Participants were randomly allocated in a 1:1:1 ratio to one of three arms using a computer-generated randomization scheme with allocation concealed via a Web-based system.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "Randomization was generated by computer, allocation concealment was ensured using a central web-based system, and baseline characteristics were well balanced between groups.",
+        "evidence_quote": "The biostatistician (S.C.) produced the randomization code and scheme through a computer-generated process. Randomization was strati\ufb01ed by site. Identi\ufb01cation numbers were randomly preassigned to study participants, and the corresponding treatment group was stored and assigned from our Web-based system to ensure concealment of intervention allocation."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and trial personnel were blinded with matching placebo juice, and there is no evidence of deviations from the intended protocol affecting the results.",
+        "evidence_quote": "The active and placebo juices were manufactured and provided by Ocean Spray Cranberries Inc... The placebo juice was of similar color and taste but did not contain cranberry juice... The analysis was performed on the modi\ufb01ed intent-to-treat population, which included any individual with at least one postrandomization assessment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 10 of 186 randomized participants (5.4%) were excluded prior to the first visit, dropout reasons were balanced and documented, and follow-up was high and similar across arms.",
+        "evidence_quote": "Thus, 186 women (100 from Seattle and 86 from New Haven) were enrolled and randomized. After enrollment, 10 women dropped out before the \ufb01rst follow-up visit (Figure 1), leaving 176 women (120 in the cranberry juice group and 56 in the placebo group) in the modi\ufb01ed intent-to-treat population. The median follow-up time for each participant was 168 days."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Primary outcomes followed standardized clinical and microbiological criteria, and laboratory personnel and investigators were masked to intervention assignment.",
+        "evidence_quote": "The primary outcome was time to a symptomatic UTI event that met criteria for clinical or culture-con\ufb01rmed UTI... All laboratory procedures were performed with the investigators masked to the treatment group."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was registered prospectively (NCT00128128) and outcomes and analyses followed a clear, predefined analysis plan.",
+        "evidence_quote": "Trial Registration: clinicaltrials.gov Identi\ufb01er: NCT00128128... As part of the a priori analysis plan to control type I error, a hierarchical testing procedure was used to \ufb01rst examine differences between the cranberry and placebo groups (combined 4- and 8-oz doses in each group) at the 2-sided .05 signi\ufb01cance level and, if signi\ufb01cant, test for differences between the doses."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "The study was a well-designed, double-blind, randomized placebo-controlled trial with central web-based allocation concealment, high retention, objective and blinded outcome assessments, and prespecified analysis methods, resulting in low risk of bias across all domains."
+  },
+  {
+    "paper_id": "manual:f2684135",
+    "paper_title": "86548bf3_ptr.5427",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a randomized, double-blind, placebo-controlled trial with sequence generation using online software QuickCalcs.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although a random sequence was generated using software, allocation concealment is not explicitly described, and baseline characteristics showed a slight imbalance in UTI history (p = 0.08).",
+        "evidence_quote": "The randomization plan for treatment assignment to subjects was generated using online software QuickCalcs (GraphPad Software Inc., USA)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "The trial was double-blind using indistinguishable placebo capsules, minimizing risk of deviation from intended interventions, and an intent-to-treat approach was used.",
+        "evidence_quote": "CFP capsules were indistinguishable in appearance from the placebo capsules. ... The study was a 6-month, single-centre, randomized, double-blind and placebo-controlled trial..."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Six participants randomized to the cranberry group were post-hoc excluded from the modified intent-to-treat analysis due to eligibility violations, creating an imbalance in exclusions.",
+        "evidence_quote": "Seventeen women did not complete the study, seven (7%) in the placebo group and ten (11%) in the cranberry group. ... Six other participants, all randomized to the cranberry group, were excluded from the ITT analysis. Three of these six study participants had a UTI history of one in the previous 12 months... The other three study participants were enrolled into the trial by the Principal Investigator following parental consent but were excluded from the analysis because they were younger than 18 years."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "UTI diagnosis required both clinical symptoms and objective laboratory confirmation of significant bacteriuria by blinded staff.",
+        "evidence_quote": "The laboratory diagnosis of UTI was based on a significant isolate of a single organism, and a UTI was culture-confirmed when the growth of a single bacterial strain was \u2265105 cfu/mL in a midstream urine sample."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospectively published clinical trial registration or pre-specified statistical analysis protocol is cited, leaving some concern for selective reporting or model covariate selection (e.g., quadratic age terms).",
+        "evidence_quote": "The primary endpoint of this clinical trial was the 50% reduction in incidence of rUTI episodes in the cranberry group compared to the placebo group."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is judged as some concerns due to lack of explicit allocation concealment details, post-randomization exclusions restricted entirely to one study arm in the modified ITT analysis, and absence of a prospective trial registration."
+  },
+  {
+    "paper_id": "manual:03c203b4",
+    "paper_title": "3082e44d_s10156-012-0467-7",
+    "design_classification": "randomized",
+    "design_rationale": "The study is described as a randomized, placebo-controlled, double-blind clinical trial where participants were randomly assigned to receive cranberry juice or a placebo beverage.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "The authors state that participants were randomly divided into groups, but do not describe the method of sequence generation or allocation concealment.",
+        "evidence_quote": "A randomized, placebo-controlled, double-blind study was conducted from October 2007 to September 2009 in Japan. The subjects were outpatients aged 20 to 79 years who were randomly divided into two groups. One group received cranberry juice (group A) and the other a placebo beverage (group P)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "Although blinding of participants and carers was attempted with matched beverages, participants (men and self-catheterizing females) were post-randomization excluded and analysis was conducted per-protocol rather than intention-to-treat.",
+        "evidence_quote": "To keep the conditions blind, the color and taste of the beverages were adjusted. ... The male participants were excluded from analysis because only 5 men were registered. Similarly, female participants with self-catheterization were excluded from analysis because only 9 were registered. Therefore, data for a total of 213 subjects could be analyzed (Table 1). The evaluation was finally carried out by per-protocol analysis, because no participants changed the protocol by themselves."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Time-to-event outcome data were available and analyzed using survival analysis with appropriate censoring for dropouts across all 213 analyzed participants.",
+        "evidence_quote": "The primary endpoint was relapse of UTI. ... The Kaplan\u2013Meier method was employed for calculation of the cumulative relapse-free rate at the onset of each event. This method can include the data for censored cases/censoring cases (dropped out/discontinued patients). ... Therefore, data for a total of 213 subjects could be analyzed (Table 1)."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The primary outcome was assessed similarly across groups, and both participants and treating clinicians were blinded to intervention assignment using matched taste and color placebo beverages.",
+        "evidence_quote": "The primary endpoint was relapse of UTI. This was defined as the point when antibiotics were administered after the diagnosis of UTI. Immediately after a relapse of UTI was diagnosed, the participants stopped taking the beverage and were withdrawn from this study."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "Although the trial was registered, the overall primary outcome was not statistically significant (p = 0.4209), and the conclusion highlights a positive result from post hoc/subgroup analyses (females >= 50 years of age with acute uncomplicated cystitis) without evidence of a prespecified subgroup analysis plan.",
+        "evidence_quote": "The primary endpoint was relapse of UTI. In the group of females aged 50 years or more, there was a significant difference in the rate of relapse of UTI between groups A and P (log-rank test; p = 0.0425). In this subgroup analysis, relapse of UTI was observed in 16 of 55 (29.1 %) patients in group A and 31 of 63 (49.2 %) in group P. In this study, cranberry juice prevented the recurrence of UTI in a limited female population with 24-week intake of the beverage."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "The study is judged to have some concerns overall due to lack of reporting on sequence generation and allocation concealment methods, post-randomization exclusion of certain randomized participants, and emphasis on subgroup analyses after a null primary finding in the full cohort."
+  }
+]

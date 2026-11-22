@@ -1,0 +1,38 @@
+{
+  "research_question": "Among women eligible for breast cancer screening, what is the effect of randomized communication-only interventions that provide information about mammography benefits and harms, without an explicit values-clarification exercise, compared with usual information, a standard leaflet, or no intervention, on continuous knowledge scores measured at the first post-intervention assessment (immediately after intervention to approximately one month)?",
+  "treatment_label": "Communication-only breast cancer screening decision aid or information intervention without explicit values clarification",
+  "control_label": "Usual information, standard leaflet, or no intervention",
+  "outcome_description": "One overall continuous knowledge score per trial concerning breast cancer screening/mammography (e.g., correct knowledge about benefits, harms, overdiagnosis, and screening interval), measured at the first assessment after the intervention from immediately afterward through approximately one month. Prefer a reported total score over subscales; where needed, use a composite covering conceptual and numerical knowledge. Extract post-intervention mean, SD, and number analyzed per arm. Orient all scales so higher scores indicate greater knowledge and reverse the sign of oppositely oriented scales. Do not include informed choice, decisional conflict, anxiety, screening intention, screening uptake, or any other outcome.",
+  "positive_direction": "A positive Hedges' g means women receiving the communication-only intervention had better knowledge about breast cancer screening than women receiving the control condition, favoring the intervention.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "breast cancer screening mammography decision aid randomized trial knowledge",
+    "mammography benefits harms information intervention controlled knowledge score",
+    "breast screening leaflet risk communication experiment quantitative knowledge"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials enrolling women eligible for breast cancer screening and comparing an eligible intervention with a control condition.",
+    "Interventions focused only on improving communication or providing information about mammography benefits and harms (e.g., decision aids, leaflets, or consultations), without an explicit exercise to clarify values or preferences; controls may be usual information, a standard leaflet, or no intervention.",
+    "Trials reporting a continuous breast cancer screening knowledge outcome at the first post-intervention assessment, from immediately after intervention to approximately one month, with quantitative information sufficient to calculate or derive an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between an eligible communication-only treatment condition and a control condition, including trials in which the relevant intervention contains an explicit values-clarification exercise and no separable communication-only arm is available.",
+    "No quantitative continuous knowledge-outcome data capable of producing an effect size (e.g., means and SDs, SEs, confidence intervals, t/F statistics, or p-values with group sample sizes); studies reporting only unrelated outcomes or unusable categorical knowledge data are excluded.",
+    "Completely unrelated to breast cancer screening communication and knowledge, not randomized, not conducted in women eligible for breast cancer screening, or reporting knowledge only later than approximately one month after the intervention."
+  ],
+  "moderators_to_extract": [
+    "Communication format (decision aid, leaflet, consultation, digital/multimedia, or other)",
+    "Information content (benefits only versus benefits, harms, and overdiagnosis; inclusion of numerical risk information)",
+    "Timing of first post-intervention assessment",
+    "Population screening context and participant age/risk profile",
+    "Study design features (individual versus cluster randomization; active-information versus no-intervention control)",
+    "Knowledge-score composition and instrument type (total, composite conceptual plus numerical, or other overall score)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool standardized mean differences as Hedges' g under a random-effects model because knowledge instruments differ across trials. Use one overall knowledge score per trial, preferring the total score over subscales, and use post-intervention values at the first eligible assessment only (immediate to approximately one month). Extract means, SDs, and numbers analyzed per arm; if only numbers randomized are available for the outcome, use them and flag this. Convert SE/SEM to SD as SD = SE \u00d7 sqrt(n), checking table footnotes to determine whether values shown with \u00b1 are SDs or SEs. If no SD is reported but a mean difference with CI or p-value is available, derive the SD from the inferential statistic; for the specified equal-group approximation use SD \u2248 sqrt(n) \u00d7 CI width / 3.92 for each group, or derive it from the p-value and sample sizes, and explicitly flag imputed/derived SDs. For cluster-randomized trials, use effective sample sizes obtained by dividing arm sample sizes by the design effect, 1 + (average cluster size \u2212 1) \u00d7 ICC, using the reported ICC or a stated assumed ICC; retain the original means and SDs. In multi-arm trials, retain the eligible communication-only arm(s) and eligible control; combine multiple communication-only arms into a single group using standard Cochrane formulas so the control is not double-counted. Reverse effect signs for any scale on which a higher raw score indicates less knowledge. Report heterogeneity (tau-squared, I-squared, and prediction interval when estimable), conduct sensitivity analyses for derived SDs, assumed ICCs, number-randomized denominators, and influential/outlying studies, and assess small-study effects with a funnel plot and an appropriate asymmetry test only when enough studies are available. Document study selection with a PRISMA 2020 flow diagram, report risk of bias with RoB 2 (including the cluster-RCT variant where applicable), and grade certainty for this outcome using GRADE.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "knowledge about breast cancer screening"
+}

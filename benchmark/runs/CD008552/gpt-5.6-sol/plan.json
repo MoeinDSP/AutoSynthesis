@@ -1,0 +1,39 @@
+{
+  "research_question": "Among children, what is the effect of a child-feeding intervention, compared with a no-intervention control, on short-term vegetable intake measured less than 12 months after the intervention?",
+  "treatment_label": "Child-feeding intervention",
+  "control_label": "No-intervention control",
+  "outcome_description": "Children's vegetable intake assessed after the intervention and less than 12 months later, using any quantitative measure of amount, frequency, servings, grams, or validated intake score. Follow-up data at 12 months or later will be excluded from this outcome. Where a study reports multiple eligible short-term assessments, use a prespecified single assessment per comparison\u2014prefer the endpoint closest to the end of the intervention; if timing is otherwise equivalent, use the most comprehensive vegetable-intake measure\u2014to avoid double-counting participants.",
+  "positive_direction": "A positive standardized mean difference means that the child-feeding intervention increased children's vegetable intake relative to no intervention.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "child feeding intervention vegetable intake trial children",
+    "vegetable consumption feeding intervention controlled comparison child",
+    "children vegetable intake nutrition intervention quantitative outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies involving children and evaluating an intervention broadly intended to influence child feeding, food exposure, dietary behavior, or vegetable consumption.",
+    "Studies that include a no-intervention, usual-practice, wait-list, or attention-minimal control condition and assess children's vegetable intake less than 12 months after the intervention.",
+    "Studies reporting quantitative vegetable-intake outcomes with sufficient information to calculate or obtain an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between a child-feeding intervention and a no-intervention or otherwise eligible control condition.",
+    "No quantitative outcome data capable of producing an effect size; eligible information includes means and SDs, t- or F-values, proportions, odds ratios, or equivalent convertible statistics.",
+    "Completely unrelated to child-feeding interventions or children's vegetable intake.",
+    "Vegetable-intake outcome measured only at 12 months or more after the intervention, with no eligible assessment before 12 months."
+  ],
+  "moderators_to_extract": [
+    "Child age or developmental stage",
+    "Intervention type and core feeding strategy",
+    "Intervention setting and delivery agent",
+    "Intervention duration and intensity",
+    "Timing of vegetable-intake assessment after intervention",
+    "Vegetable-intake measurement method"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool effects as standardized mean differences because studies may use different vegetable-intake measures. Orient all measures so positive values indicate greater vegetable intake with the intervention; compute small-sample-corrected standardized effects where supported by the analysis software. Include only assessments less than 12 months after intervention and do not combine longer-term data with this outcome. Account for clustering in cluster-randomized studies and avoid double-counting shared controls or repeated measurements.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "children's vegetable intake"
+}

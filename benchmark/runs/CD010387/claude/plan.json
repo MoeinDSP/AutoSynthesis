@@ -1,0 +1,38 @@
+{
+  "research_question": "In people with patellofemoral pain syndrome, does exercise therapy (alone or added to a co-intervention) compared with control (no treatment, placebo/sham, waiting list, health educational material, or the co-intervention alone) improve functional ability in the short term (up to 3 months), as measured by knee-function questionnaires such as the Anterior Knee Pain Scale (Kujala), Functional Index Questionnaire, WOMAC or Lysholm score?",
+  "treatment_label": "Exercise therapy (alone or exercise plus co-intervention)",
+  "control_label": "Control (no treatment, placebo/sham, waiting list, educational material, or co-intervention alone)",
+  "outcome_description": "Self-reported functional ability of the knee measured with a validated knee-function questionnaire at short-term follow-up (up to approximately 3 months). Preferred instrument is the Anterior Knee Pain Scale (Kujala) when a study reports more than one; otherwise the Functional Index Questionnaire (FIQ), WOMAC (function subscale or total), Lysholm score, or an equivalent patient-reported knee-function measure.",
+  "positive_direction": "A positive Hedges g (or SMD) means exercise therapy produced better functional ability (greater self-reported knee function / less functional limitation) than the control condition.",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "exercise therapy patellofemoral pain syndrome randomized controlled trial function",
+    "anterior knee pain exercise program trial Kujala Anterior Knee Pain Scale outcome",
+    "patellofemoral pain quadriceps strengthening hip exercise controlled trial functional outcome"
+  ],
+  "inclusion_criteria": [
+    "Participants described as having patellofemoral pain syndrome, anterior knee pain, chondromalacia patellae or similar patellofemoral disorder",
+    "Study compares an exercise therapy intervention (alone or added to a co-intervention) with a non-exercise control condition such as no treatment, placebo/sham, waiting list, education, or the co-intervention alone",
+    "Reports some quantitative measure of knee function or functional ability (questionnaire score or other functional outcome) allowing computation of an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, narrative review, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a treatment condition and a control condition (e.g. single-arm pre-post study only, or exercise compared only with another active exercise regimen with no control)",
+    "No quantitative outcome data usable for an effect size (no means and SDs, t/F statistics, proportions, odds ratios, or other convertible statistics)",
+    "Population or intervention completely unrelated to exercise therapy for patellofemoral/anterior knee pain (e.g. post-surgical knee replacement rehabilitation, ACL reconstruction, knee osteoarthritis only)"
+  ],
+  "moderators_to_extract": [
+    "Type of control condition (no treatment/waiting list vs placebo/sham vs education vs co-intervention alone)",
+    "Exercise type (quadriceps/knee-focused vs hip-and-knee combined vs other)",
+    "Supervision and setting (supervised clinic-based vs home-based)",
+    "Intervention duration in weeks and total dose",
+    "Outcome instrument used (AKPS/Kujala, FIQ, WOMAC, Lysholm, other)",
+    "Sample size category and risk-of-bias/allocation concealment"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardised mean difference (Hedges g corrected) because studies use different knee-function questionnaires. Sign all effects so that positive favours exercise therapy; reverse-score instruments where higher = worse function (e.g. WOMAC, FIQ versions scored as disability). When a study reports multiple eligible questionnaires, extract the AKPS/Kujala preferentially; use the closest-to-3-month timepoint for short-term follow-up.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "functional ability (knee-function questionnaire)"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of SGLT2 inhibitors compared with placebo on kidney failure in adults with chronic kidney disease and diabetes?",
+  "treatment_label": "SGLT2 inhibitor",
+  "control_label": "Placebo",
+  "outcome_description": "Incidence of kidney failure (end-stage kidney disease, initiation of maintenance dialysis, kidney transplantation, or sustained eGFR < 15 mL/min/1.73 m\u00b2) during follow-up",
+  "positive_direction": "A positive effect size indicates a lower incidence of kidney failure in the SGLT2 inhibitor group compared with placebo (favors SGLT2 inhibitor).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "SGLT2 inhibitor chronic kidney disease diabetes kidney failure randomized trial",
+    "canagliflozin dapagliflozin empagliflozin end-stage kidney disease controlled trial",
+    "sodium-glucose cotransporter 2 inhibitor diabetic kidney disease trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Adults with chronic kidney disease and diabetes mellitus.",
+    "Randomized or controlled clinical trials comparing SGLT2 inhibitors (e.g. canagliflozin, dapagliflozin, empagliflozin, bexagliflozin) with placebo.",
+    "Quantitative reporting of kidney failure events (end-stage kidney disease, dialysis, transplantation, or sustained eGFR < 15 mL/min/1.73 m\u00b2) during follow-up."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, commentaries, and theoretical papers are excluded).",
+    "No comparison between an SGLT2 inhibitor treatment arm and a placebo control arm.",
+    "No quantitative outcome data that can produce an effect size for kidney failure (event counts, proportions, or risk estimates missing).",
+    "Completely unrelated to SGLT2 inhibitors, chronic kidney disease, or diabetic kidney disease."
+  ],
+  "moderators_to_extract": [
+    "Specific SGLT2 inhibitor agent (canagliflozin, dapagliflozin, empagliflozin, bexagliflozin)",
+    "Mean baseline eGFR (mL/min/1.73 m\u00b2)",
+    "Baseline urinary albumin-to-creatinine ratio (UACR)",
+    "Follow-up duration (median or mean years)",
+    "Mean baseline HbA1c (%)"
+  ],
+  "search_start_year": 2010,
+  "effect_size_note": "For trials enrolling populations with and without diabetes, extract data only for the subgroup with diabetes. Where trials evaluate multiple SGLT2 inhibitor dose arms against placebo, combine the active treatment arms into a single intervention group. Measure is dichotomous kidney failure events (ESKD, dialysis, transplantation, or sustained eGFR < 15 mL/min/1.73 m\u00b2). Composite renal outcomes and non-renal outcomes should be excluded.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "kidney failure"
+}

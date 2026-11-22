@@ -1,0 +1,186 @@
+[
+  {
+    "paper_id": "manual:0e887832",
+    "paper_title": "95ff9ff5_PIIS1353802022002796",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly states that 46 eligible patients were randomized and reports assignment of 23 patients to each of the probiotics and control groups.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "some_concerns",
+        "rationale": "Although random assignment and balanced baseline characteristics were reported, the method used to generate the allocation sequence and whether allocation was concealed were not described.",
+        "evidence_quote": "Forty-six patients meeting the criteria were randomly assigned to the probiotics (n = 23) or control group (n = 23)."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "some_concerns",
+        "rationale": "The open, no-placebo comparison likely made participants aware of assignment, which could influence behavior or subjective constipation outcomes, although all randomized patients were included using baseline-observation-carried-forward analysis and no specific intervention deviations were reported.",
+        "evidence_quote": "Patients in the control group continued their original drug treatment."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Clinical attrition was small (3/46), but missing outcomes were imputed using baseline observation carried forward without evidence that this method eliminated bias; microbiota outcomes were available for only 37/46 randomized patients.",
+        "evidence_quote": "Three participants dropped for personal reasons during follow-up, one in the probiotics and two in the control groups. However, using BOCF analyses, all 46 cases were finally included in the analysis."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "high",
+        "rationale": "The trial was apparently unblinded and its main constipation outcomes were participant-reported or behavior-dependent, so knowledge of receiving probiotics versus usual treatment could plausibly have materially influenced outcome measurement.",
+        "evidence_quote": "The Patient Assessment of Constipation symptom (PAC-SYM), Bristol stool scale (BSS), the number of complete bowel movements per week and the degree of defecation effort were selected to evaluate the improvement of patients' constipation symptoms."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "No prospective registration, protocol, or prespecified analysis plan is reported, while numerous clinical and microbiome outcomes and analytical approaches were available, creating scope for selective reporting.",
+        "evidence_quote": "Alpha diversity indices, including Chao1, Observed-species, PD-whole-tree and Shannon indices were calculated... Partial Least Squares Discrimination Analysis (PLS-DA) was used... Wilcoxon analysis... Linear discriminant analysis effect size (LEfSe)... PICRUSt 2 functional prediction using QIIME 2."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall risk of bias is high because the unblinded, no-placebo design could materially influence the predominantly participant-reported constipation outcomes. Additional concerns arise from unreported sequence generation and allocation concealment, imputation and incomplete microbiota data, and the absence of a reported prespecified analysis plan."
+  },
+  {
+    "paper_id": "manual:cb91200f",
+    "paper_title": "fc2afb20_pone.0244680",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized, placebo-controlled trial; a pharmacist used a computer-generated permuted-block randomization sequence in blocks of four.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated using permuted blocks, assignment occurred after enrolment, treatment packaging and coding supported concealment, and measured baseline characteristics were generally comparable apart from an enema-use imbalance that could plausibly arise by chance.",
+        "evidence_quote": "Randomization and treatment assignment was performed by pharmacist (FT) using a computer-generated permuted block randomization method, in blocks of 4 which generated 6 different combination of sequence. Treatment allocation was assigned after enrolment and the assessor was blinded to the treatment assignment."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "high",
+        "rationale": "Although participants and personnel were blinded and concomitant PD medications were stable, seven early post-randomization withdrawals were excluded from most analyses, including five from the probiotic group (four due to intervention side effects), so the analysis was not a valid intention-to-treat analysis and intervention-related deviations could materially bias effects.",
+        "evidence_quote": "Finally, we could only perform intention-to-treat analysis (ITT) for one of the study outcomes (difference in WGTT). For the rest of the study outcomes, ITT analysis could not be performed as patients in both groups dropped out within the first week of trial and were not keen for further follow up."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "high",
+        "rationale": "Outcome data were missing for 7 of 55 randomized participants (12.7%), with differential attrition (5/27 probiotic versus 2/28 placebo) and four probiotic withdrawals caused by adverse effects, making outcome-dependent missingness plausible and leaving no sensitivity analysis demonstrating robustness.",
+        "evidence_quote": "In the first week of recruitment into the study, 4 patients allocated to probiotic therapy dropped out due to side effects of abdominal bloating (n = 2) and dizziness (n = 2). Another patient in the probiotic group was lost to follow up at week 1. Two patients in the placebo group declined participation in the first week of recruitment."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "some_concerns",
+        "rationale": "Outcome assessment was intended to be blinded and applied similarly across groups, but the primary constipation instrument was designed to detect constipation rather than changes in severity, key bowel outcomes were self-reported, and adverse effects could have revealed assignment to some participants.",
+        "evidence_quote": "Firstly, we had used GQ which was developed to detect the presence of constipation-related symptoms, rather than constipation severity, and hence may not have captured improvement in constipation severity accurately."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "high",
+        "rationale": "The trial was registered retrospectively long after study completion, several reported analyses were explicitly post hoc, numerous outcomes and operationalizations were examined, and the prominent bowel-frequency and gut-transit findings included uncorrected p-values, creating substantial scope for selective reporting.",
+        "evidence_quote": "The following sub analyses were not part of the initial study design and were conducted after study completion."
+      }
+    ],
+    "overall_risk": "high",
+    "overall_summary": "Overall RoB 2 judgment is high. The result is chiefly compromised by differential, intervention-related attrition analyzed largely by complete cases and by substantial selective-reporting risk from retrospective registration, explicitly post hoc analyses, multiple outcome formulations, and emphasis on uncorrected findings."
+  },
+  {
+    "paper_id": "manual:294cfe23",
+    "paper_title": "8c90be20_WNL.0000000000003127",
+    "design_classification": "randomized",
+    "design_rationale": "This was an explicitly randomized parallel-group trial using a computer-generated allocation list with assignments concealed in sealed envelopes.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated, assignments were concealed in sealed envelopes, and the reported baseline characteristics were well balanced.",
+        "evidence_quote": "Allocation to the intervention groups occurred via a computer-generated randomization list in blocks of 15 patients. Random assignments were concealed in sealed envelopes."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and healthcare professionals were blinded, adherence was similarly high across groups, and all randomized participants were analyzed according to intention to treat.",
+        "evidence_quote": "Patients and all the health care professionals involved in the study were blinded to treatment allocation."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "low",
+        "rationale": "Only 5 of 120 randomized participants were lost, losses were balanced between groups, and the intention-to-treat analysis used multiple imputation for missing endpoints.",
+        "evidence_quote": "Five patients (3%; 3 in the experimental and 2 in the control group, respectively) were lost before the final assessment."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "Complete bowel movements were measured prospectively with the same stool-diary method in both groups, and participant blinding reduced the risk that this self-reported outcome was influenced by treatment knowledge.",
+        "evidence_quote": "Patients and all the health care professionals involved in the study were blinded to treatment allocation."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "low",
+        "rationale": "The trial was prospectively registered, the primary endpoint and key secondary endpoints were clearly prespecified, and the reported analyses align with those endpoints without evident selective reporting.",
+        "evidence_quote": "The study was registered with ClincialTrials.gov (NCT02459717)."
+      }
+    ],
+    "overall_risk": "low",
+    "overall_summary": "Overall risk of bias is low. Randomization and concealment were adequate, participants and study personnel were blinded, attrition was minimal and handled with intention-to-treat multiple imputation, outcomes were measured consistently, and prespecified registered endpoints were reported."
+  },
+  {
+    "paper_id": "manual:e9a6abcd",
+    "paper_title": "175ad97c_WNL.0000000000010998",
+    "design_classification": "randomized",
+    "design_rationale": "The study explicitly used a computer-generated randomization sequence with random block sizes of 4 and 6 to assign eligible participants 1:1 to probiotics or placebo.",
+    "tool_used": "RoB2",
+    "domain_judgments": [
+      {
+        "domain_number": 1,
+        "domain_name": "Randomization process",
+        "judgment": "low",
+        "rationale": "The allocation sequence was computer-generated using variable random blocks by an independent assistant, concealment used sequentially numbered sealed bottles, and reported baseline characteristics were broadly balanced.",
+        "evidence_quote": "Eligible patients were randomly assigned in a 1:1 ratio within random block sizes of 4 and 6 to either treatment or placebo arm using a computer-generated randomization sequence, by a research assistant with no further involvement in the study... Allocation concealment was implemented by use of sequentially-numbered sealed bottles."
+      },
+      {
+        "domain_number": 2,
+        "domain_name": "Deviations from intended interventions",
+        "judgment": "low",
+        "rationale": "Participants and investigators were blinded with an identical placebo, adherence and protocol violations were monitored, and all randomized participants were analyzed according to intention to treat despite three discontinuations.",
+        "evidence_quote": "Patients and all investigators (neurologists, research staff and nurses) were blinded to treatment allocation... All randomized patients (n=72) were included in the intention-to-treat analysis."
+      },
+      {
+        "domain_number": 3,
+        "domain_name": "Missing outcome data",
+        "judgment": "some_concerns",
+        "rationale": "Only three of 72 randomized participants discontinued and all were analyzed, but missing primary and secondary outcome values were replaced using last observation carried forward, which can introduce bias without evidence that missingness was outcome-independent.",
+        "evidence_quote": "The retention rate was high (95.8%), with 3/72 patients discontinuing intervention and no other losses to follow-up... Missing data for the primary and secondary outcomes were imputed with last observation carried forward."
+      },
+      {
+        "domain_number": 4,
+        "domain_name": "Measurement of the outcome",
+        "judgment": "low",
+        "rationale": "The prespecified primary outcome was measured identically in both groups using daily stool diaries, and participant knowledge was minimized through double blinding and identical-appearing treatments.",
+        "evidence_quote": "The pre-specified primary outcome measure was the change in the average number of SBM during the last two weeks... as recorded by daily stool diary... The placebo arm received capsules... which were identical to the active treatment in appearance, weight and packaging."
+      },
+      {
+        "domain_number": 5,
+        "domain_name": "Selection of the reported result",
+        "judgment": "some_concerns",
+        "rationale": "The trial was registered and outcomes were labeled prespecified, but the text does not establish that a protocol or statistical analysis plan was finalized and publicly available before unblinded analysis, while multiple analyses and some post hoc analyses were conducted.",
+        "evidence_quote": "The study is registered with ClinicalTrials.gov (NCT03377322)... Satisfaction status with intervention received and post hoc comparison of categorical changes in average SBM/week... were analyzed using chi-square test."
+      }
+    ],
+    "overall_risk": "some_concerns",
+    "overall_summary": "Overall risk of bias is some concerns, driven by last-observation-carried-forward imputation for the small amount of missing outcome data and incomplete assurance against selective reporting without a clearly available prespecified analysis plan. Randomization, blinding, outcome measurement, and intention-to-treat inclusion were otherwise strong."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of testosterone pretreatment compared with placebo or no treatment on live birth or ongoing pregnancy in women undergoing assisted reproductive technology (IVF/ICSI)?",
+  "treatment_label": "Testosterone pretreatment",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Live birth or ongoing pregnancy rate per randomised woman (live birth prioritised; ongoing pregnancy used when live birth is not reported)",
+  "positive_direction": "A positive effect indicates higher odds of live birth or ongoing pregnancy favoring testosterone pretreatment compared with control",
+  "higher_score_is_worse": false,
+  "search_queries": [
+    "testosterone pretreatment IVF trial live birth",
+    "transdermal testosterone ovarian stimulation randomized controlled trial",
+    "testosterone pretreatment poor responders ongoing pregnancy"
+  ],
+  "inclusion_criteria": [
+    "Randomised or controlled clinical trials evaluating testosterone pretreatment (e.g. transdermal gel or patch) prior to ovarian stimulation for IVF or ICSI",
+    "Comparisons of testosterone pretreatment against placebo or no pretreatment",
+    "Reporting live birth or ongoing pregnancy outcomes among women undergoing assisted reproduction"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, comments, and animal/in vitro studies)",
+    "No comparison between testosterone pretreatment and placebo or no treatment (e.g. studies using DHEA, other active interventions, or comparing different doses of testosterone without an untreated/placebo control)",
+    "No quantitative data reported on live birth or ongoing pregnancy per woman randomised",
+    "Completely unrelated to assisted reproductive technology (IVF/ICSI) or ovarian stimulation"
+  ],
+  "moderators_to_extract": [
+    "Testosterone formulation and route (e.g. transdermal gel vs patch)",
+    "Duration of testosterone pretreatment (e.g. <3 weeks vs >=3 weeks)",
+    "Control condition type (placebo vs no treatment)",
+    "Patient population characteristics (e.g. Bologna criteria poor responders vs general poor ovarian responders)",
+    "IVF vs ICSI protocol"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Live birth or ongoing pregnancy analysed as odds ratios (OR). Where trials have multiple testosterone duration arms, the control group sample size is divided equally among comparisons to avoid unit-of-analysis error.",
+  "target_effect_measure": "OR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Live birth or ongoing pregnancy"
+}

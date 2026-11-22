@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of levosimendan compared with placebo on all-cause mortality in adults undergoing cardiac surgery?",
+  "treatment_label": "Levosimendan",
+  "control_label": "Placebo",
+  "outcome_description": "All-cause mortality in adult patients undergoing cardiac surgery",
+  "positive_direction": "Lower mortality rate favoring the levosimendan group over placebo (reduced risk of death)",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "levosimendan placebo cardiac surgery mortality randomized trial",
+    "levosimendan cardiac surgical procedures death clinical trial",
+    "levosimendan cardiopulmonary bypass mortality controlled outcome"
+  ],
+  "inclusion_criteria": [
+    "Adult patients (aged 18 years or older) undergoing any cardiac surgery procedure (e.g., CABG, valve surgery, or complex procedures).",
+    "Randomized or controlled clinical trials comparing perioperative levosimendan administration against a placebo control.",
+    "Reports quantitative post-surgical all-cause mortality data (number of deaths and sample size per arm)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, comments, and study protocols).",
+    "No comparison between levosimendan and a placebo control arm (e.g., active comparator only or single-arm designs).",
+    "No quantitative outcome data reported on all-cause mortality that can produce an effect size (events and sample sizes per group missing).",
+    "Completely unrelated to adults undergoing cardiac surgery or levosimendan administration."
+  ],
+  "moderators_to_extract": [
+    "Type of cardiac surgery (isolated CABG, valve surgery, or combined/complex procedures)",
+    "Baseline left ventricular ejection fraction (impaired LVEF vs preserved/unselected)",
+    "Timing and route of levosimendan administration (preoperative vs intraoperative vs postoperative infusion)",
+    "Mortality follow-up timepoint (in-hospital, 30-day, or long-term mortality)",
+    "Total sample size category (small <100 vs multicenter large-scale trials)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool as a Risk Ratio (RR) using each trial's reported deaths and total randomized per arm. Studies reporting zero events in both arms are treated as not estimable and excluded from RR pooling rather than applying a continuity correction.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

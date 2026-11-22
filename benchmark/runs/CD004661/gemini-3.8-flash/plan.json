@@ -1,0 +1,37 @@
+{
+  "research_question": "What is the effect of antenatal magnesium sulphate, compared with placebo, on cerebral palsy in children up to 2 years' corrected age, in offspring of women at risk of preterm birth?",
+  "treatment_label": "Antenatal magnesium sulphate",
+  "control_label": "Placebo or no treatment",
+  "outcome_description": "Incidence of cerebral palsy assessed in offspring up to 2 years corrected age, using each trial's reported definition and denominator.",
+  "positive_direction": "Lower risk or reduced incidence of cerebral palsy in offspring whose mothers received antenatal magnesium sulphate (favoring magnesium sulphate).",
+  "higher_score_is_worse": true,
+  "search_queries": [
+    "antenatal magnesium sulphate cerebral palsy randomized trial",
+    "magnesium sulfate preterm neuroprotection trial outcome",
+    "antenatal magnesium sulphate preterm birth controlled trial"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials or controlled clinical studies evaluating antenatal magnesium sulphate administration in women at risk of preterm birth compared to placebo or no treatment.",
+    "Studies assessing cerebral palsy or related motor/neurodevelopmental outcomes in offspring up to approximately 2 years corrected age.",
+    "Studies reporting quantitative outcome data including numbers or rates of cerebral palsy events and group denominators."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, or study protocols).",
+    "No comparison between antenatal magnesium sulphate and a control/placebo group.",
+    "No quantitative data reported on cerebral palsy or neurodevelopmental outcome from which effect sizes or risk ratios can be derived.",
+    "Completely unrelated to antenatal magnesium sulphate administration or pediatric neurodevelopmental outcomes."
+  ],
+  "moderators_to_extract": [
+    "Age at pediatric assessment (e.g., 18 months vs. 24 months corrected age)",
+    "Primary indication for administration (fetal neuroprotection vs. pre-eclampsia or tocolysis)",
+    "Denominator definition used (all live births vs. surviving children assessed at follow-up)",
+    "Magnesium sulphate dosing regimen (loading dose and maintenance duration)",
+    "Gestational age upper limit at randomization (<30, <32, or <34 weeks)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk ratios (RR) calculated from the raw counts of cerebral palsy cases and the trial-reported total denominator per arm (whether surviving children assessed or all randomized/live births). An RR < 1 indicates neuroprotection (lower risk of cerebral palsy in the magnesium sulphate arm).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "cerebral palsy"
+}
