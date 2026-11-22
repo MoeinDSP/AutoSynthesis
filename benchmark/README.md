@@ -1,6 +1,6 @@
 # Cochrane benchmark
 
-AutoSynthesis was run on **100 Cochrane intervention reviews** across 26 clinical topics. Each review was run with three LLM backbones: GPT-5.6 Sol, Gemini 3.8 Flash and Claude. For each review, one meta-analysis (one comparison and one outcome) was selected, and the pooled result of AutoSynthesis is compared with the one reported by Cochrane.
+AutoSynthesis was run on **100 Cochrane intervention reviews** across 26 clinical topics. Each review was run with three LLM backbones: GPT-5.6 Sol, Gemini 3.8 Flash, and Claude Opus 5. For each review, one meta-analysis (one comparison and one outcome) was selected, and the pooled result of AutoSynthesis is compared with the one reported by Cochrane.
 
 ```bash
 pip install -r requirements.txt
