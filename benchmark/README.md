@@ -26,7 +26,7 @@ benchmark/
 | `data/cochrane_ground_truth.csv` | Pooled result reported by Cochrane for the selected meta-analysis: effect measure, effect, 95% CI, k, N, p-value, I² |
 | `data/autosynthesis_{gpt,gemini,claude}.csv` | The same fields as produced by AutoSynthesis with each backbone |
 | `data/repooled_results.csv` | Rows re-pooled from the run's own study-level data (see [Harmonization](#harmonization)); made by `scripts/repool_from_runs.py` |
-| `data/search_overlap_<model>.csv` | Per review: papers found by the search agent, Cochrane's included studies, and the overlap (GPT and Gemini) |
+| `data/search_overlap_<model>.csv` | Per review: papers found by the search agent, Cochrane's included studies, and the overlap (GPT, Gemini, and Claude) |
 | `data/prisma_counts.json` | Papers per pipeline stage (in pipeline, document type, extraction, effect size), from each run's `paper_tracking.csv` |
 
 `runs/<review>/<model>/` contains the saved outputs of each run:
