@@ -1,5 +1,6 @@
-numpy>=1.26
-scipy>=1.11
-matplotlib>=3.8
-# optional, only for scripts/audit_statistics.py (independent re-pooling with R metafor):
-# rpy2>=3.5   (+ R with the metafor package)
+# Exact versions used to produce the published results (tested with Python 3.11).
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+# Optional, only for scripts/audit_statistics.py (independent re-pooling with R metafor):
+# rpy2==3.5.16   plus R >= 4.3 with the metafor package

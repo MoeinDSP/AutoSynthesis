@@ -11,7 +11,7 @@ publication bias and risk-of-bias assessment.
 [![Paper](https://img.shields.io/badge/arXiv-2607.15247-b31b1b.svg)](https://arxiv.org/abs/2607.15247)
 [![Live demo](https://img.shields.io/badge/demo-auto--synthesis.com-2ea44f.svg)](https://auto-synthesis.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-![Python](https://img.shields.io/badge/python-3.11%2B-3776AB.svg)
+![Python](https://img.shields.io/badge/python-3.11-3776AB.svg)
 
 <img src="docs/overview.png" alt="AutoSynthesis pipeline" width="100%">
 
@@ -19,78 +19,163 @@ publication bias and risk-of-bias assessment.
 
 ---
 
-## Contents
+## Overview
 
-| Folder | What it contains |
-|---|---|
-| [`app/`](app) | The AutoSynthesis system: LangGraph agents, statistics engine (R `metafor`), web app, Docker setup, tests |
-| [`benchmark/`](benchmark) | Benchmark against 100 Cochrane reviews: data, per-review outputs, and the scripts that reproduce the benchmark results and figures |
-| [`case_studies/`](case_studies) | The three example meta-analyses shown in the paper (prompt, outputs and figures) |
+This repository contains the code and data for the paper *AutoSynthesis: An agentic system for automated meta-analysis*:
 
-## Reproduce the paper's results
+* **AutoSynthesis** ([`app/`](app)) is a system of LLM agents, built with LangGraph, that carries out a meta-analysis from a research question to a report. The statistics are computed with R `metafor`.
+* **The benchmark** ([`benchmark/`](benchmark)) compares AutoSynthesis with the pooled results of 100 Cochrane reviews. It includes all saved model outputs, so every benchmark number and figure can be reproduced **in about a minute, without an API key and without any LLM calls**.
+* **The case studies** ([`case_studies/`](case_studies)) are the three example meta-analyses shown in the paper.
 
-No API key and no LLM calls are needed. All model outputs are included in the repository.
+**New here?** Follow the [**Tutorial**](TUTORIAL.md). It covers reproducing the benchmark, following one review from the prompt to the pooled estimate, browsing the demo, and running your own meta-analysis.
+
+### Quick start
 
 ```bash
+git clone https://github.com/MoeinDSP/AutoSynthesis.git && cd AutoSynthesis
+
+# Reproduce the benchmark (Python 3.11, ~1 minute)
 pip install -r benchmark/requirements.txt
 bash benchmark/reproduce.sh
+
+# Run the system (Docker; an OpenRouter API key is only needed for new analyses)
+cd app && cp .env.example .env && docker compose up --build -d   # then open http://localhost:8000
 ```
 
-This takes about a minute and writes:
+---
 
-* `benchmark/figures/`: the benchmark figures (PDF)
-* `benchmark/results/`: per-review comparison table (`benchmark_audit_per_review.csv`) and summary metrics (`benchmark_summary.json`)
+## Repository structure
 
-See [`benchmark/README.md`](benchmark/README.md) for the data, the metrics and which script makes which figure.
-
-## Run AutoSynthesis
-
-AutoSynthesis calls its language models through [OpenRouter](https://openrouter.ai), so you need an OpenRouter API key.
-
-```bash
-cd app
-cp .env.example .env            # add OPENROUTER_API_KEY (and optional search API keys)
-docker compose up --build -d
-docker compose --profile tools run --rm db-migrate   # first start only: creates the database tables
+```
+AutoSynthesis/
+├── README.md               this file
+├── TUTORIAL.md             step-by-step guide
+├── LICENSE                 MIT
+├── app/                    the AutoSynthesis system
+│   ├── agents/             one module per LLM agent (planning, search, screening, extraction, ...)
+│   ├── statistics/         effect sizes, random-effects pooling, heterogeneity, publication bias (R metafor via rpy2)
+│   ├── utils/  caching/  persistence/
+│   ├── pipeline_graph.py   the LangGraph workflow that connects the agents
+│   ├── dashboard.py        web app (FastAPI)
+│   ├── demo/               the three case studies, pre-computed for the Demo button
+│   ├── tests/              unit and integration tests (all LLM calls mocked)
+│   ├── Dockerfile, docker-compose.yml, requirements.txt, .env.example
+├── benchmark/              Cochrane benchmark (see benchmark/README.md)
+│   ├── data/               inputs: Cochrane values, AutoSynthesis values, review list and prompts
+│   ├── runs/               AutoSynthesis outputs per review and model
+│   ├── scripts/            analysis and figure scripts
+│   ├── figures/  results/  outputs (re-created by reproduce.sh)
+│   └── reproduce.sh        runs everything
+├── case_studies/           the paper's three example meta-analyses
+└── docs/                   overview figure
 ```
 
-Open <http://localhost:8000>, then either:
+---
 
-* **Search mode**: type a research question. AutoSynthesis plans the review, searches the literature databases, screens the records, retrieves the full texts and runs the meta-analysis.
-* **Manual mode**: upload the PDFs of the studies to include, together with the research question.
+## Data availability and provenance
 
-The run pauses at review gates, where you can check the selected papers and the extracted data before the analysis continues. The **Demo** button loads the three case studies without any API calls.
+| Data | Source | Provided | Location |
+|---|---|---|---|
+| Pooled results of 100 Cochrane reviews (effect measure, effect, 95% CI, k, N, p-value, I²) | Extracted by the authors from the published reviews in the *Cochrane Database of Systematic Reviews* (one meta-analysis per review) | Yes | `benchmark/data/cochrane_ground_truth.csv` |
+| Review list: Cochrane ID, title, Cochrane topic, subfield, year, and the prompt given to AutoSynthesis | Titles and topics from the Cochrane Library; subfield and prompts written by the authors | Yes | `benchmark/data/reviews.csv` |
+| AutoSynthesis results per review and model | Produced by AutoSynthesis | Yes | `benchmark/data/autosynthesis_{gpt,gemini,claude}.csv`, `benchmark/runs/` |
+| Study-level outputs (plans, screening decisions, extracted statistics, effect sizes, risk of bias, reports) | Produced by AutoSynthesis | Yes | `benchmark/runs/<review>/<model>/`, `case_studies/` |
+| Full texts (PDFs) of the primary studies | Publishers | **No** (copyright) | Listed in each review's reference list on the Cochrane Library |
 
-<details>
-<summary><b>Run without Docker</b></summary>
+**Rights.** The authors had legitimate access to all data used. The repository contains only numerical summary results and bibliographic information (titles) from the Cochrane reviews, together with outputs generated by the authors. Short quotations from the primary studies appear in the extraction outputs as evidence for the extracted numbers. The PDFs of the primary studies and of the Cochrane reviews are not redistributed. With them, the pipeline can be rerun (see [Instructions](#instructions-to-replicators)). None of the paper's results needs them, because all model outputs are included.
 
-Requires Python 3.11+ and R with the `metafor` package.
+---
 
-```bash
-cd app
-pip install -r requirements.txt
-python -m playwright install chromium   # browser fallback for full-text retrieval
-cp .env.example .env                    # add OPENROUTER_API_KEY
-python dashboard.py                     # http://localhost:8000
-```
+## Computational requirements
 
-Without `DATABASE_URL` and `REDIS_URL`, the app keeps run state in memory.
-</details>
+### Software
 
-<details>
-<summary><b>Run the tests</b></summary>
+**Benchmark reproduction** (`benchmark/requirements.txt`): Python 3.11, numpy 2.4.6, scipy 1.17.1 and matplotlib 3.11.2. It was tested on a clean `python:3.11-slim` image. *Optional:* the Liberation Sans font (`fonts-liberation`) gives figure fonts identical to the paper's; without it, matplotlib falls back to DejaVu Sans. *Optional:* `scripts/audit_statistics.py` needs rpy2 3.5.16 and R with `metafor`.
 
-```bash
-cd app
-OPENROUTER_API_KEY=dummy python -m pytest tests -q
-```
+**AutoSynthesis.** The `Dockerfile` installs everything: it uses a pinned base image and installs from `app/requirements-lock.txt`, which pins every Python package. The main components, in the versions tested:
 
-The tests mock every LLM call; tests that need live services are skipped.
-</details>
+| Component | Version |
+|---|---|
+| Python | 3.11.18 (Debian 13 base image) |
+| R / `metafor` | 4.5.0 / 4.8.0 (all meta-analytic statistics) |
+| rpy2 | 3.5.16 (Python–R bridge; rpy2 ≥ 3.6 does not work with R 4.3) |
+| LangGraph / LangChain core / LangChain OpenAI | 1.2.24 / 1.8.4 / 1.8.5 |
+| openai (client for OpenRouter) | 3.57.0 |
+| numpy / scipy / pandas / statsmodels / matplotlib | 2.4.6 / 1.17.1 / 3.1.1 / 0.15.0 / 3.11.2 |
+| PyMuPDF / pypdf / Playwright (Chromium) | 2.1 / 7.1.1 / 1.65.2 |
+| FastAPI / uvicorn | 0.165.0 / 0.54.0 |
+
+The direct dependencies are listed with comments in `app/requirements.txt`. To run without Docker, install R and `metafor` first (`install.packages("metafor")` in R), then `pip install -r app/requirements-lock.txt`.
+
+Supporting services, all started by `docker compose`: PostgreSQL 16 for run history and Redis 7 for caching. Both are optional when running without Docker.
+
+**LLMs.** All agents call models through [OpenRouter](https://openrouter.ai). The paper used `openai/gpt-5.6-sol`, `google/gemini-3.8-flash` and `anthropic/claude-opus-5`, selectable in the web app. An OpenRouter API key is needed only to run new analyses.
+
+### Randomness
+
+The statistical computations (effect sizes, pooling, heterogeneity, bias tests, and all benchmark scripts) are deterministic and use no random numbers. The LLM agents are not deterministic: rerunning a review can give slightly different extraction decisions. For this reason, the outputs of every run used in the paper are saved in `benchmark/runs/`, and all reported results are computed from these saved outputs.
+
+### Memory, runtime and storage
+
+| Task | Runtime | Hardware used | Storage |
+|---|---|---|---|
+| `benchmark/reproduce.sh` | ~50 seconds | 4-core CPU, 8 GB RAM, Ubuntu 24.04 | < 60 MB (repository) |
+| App tests (`pytest`) | ~10 minutes | same | — |
+| Docker image build | ~5–10 minutes | same | ~4 GB image |
+| One AutoSynthesis run (10–15 studies, manual mode) | ~30–70 minutes | same; most of the time is spent waiting for LLM responses | ~10–100 MB per run |
+
+No GPU is needed.
+
+---
+
+## Instructions to replicators
+
+**Reproduce the paper's benchmark results** (no API key needed):
+
+1. `pip install -r benchmark/requirements.txt`
+2. `bash benchmark/reproduce.sh`
+
+This runs, in order:
+
+* `scripts/repool_from_runs.py`: re-pools the reviews whose effect measure differs from Cochrane's and cannot be converted by a formula, using the saved study-level data. Output: `data/repooled_results.csv`.
+* `scripts/benchmark_metrics.py`: compares every review and model with Cochrane. Output: `results/`.
+* the figure scripts. Output: `figures/`.
+
+`BENCH_HARMONIZE=1` (set in the script) compares every result on Cochrane's effect measure. See [`benchmark/README.md`](benchmark/README.md#harmonization).
+
+**Rerun AutoSynthesis on a review** (needs an OpenRouter key and the PDFs of the included studies):
+
+1. Start the app (see the [Tutorial](TUTORIAL.md#3-open-the-web-app-with-the-demo)).
+2. Paste the review's prompt from `benchmark/data/reviews.csv`, choose the model, upload the PDFs, and start the run (manual mode).
+3. At each review gate, click **Continue**.
+
+Because of the LLM randomness described above, the result can differ slightly from the saved run.
+
+**Run the tests:** `cd app && OPENROUTER_API_KEY=dummy python -m pytest tests -q`. All LLM calls are mocked.
+
+---
+
+## List of figures and programs
+
+All benchmark figures are written to `benchmark/figures/` by the scripts in `benchmark/scripts/`.
+
+| Figure (file) | Content | Program |
+|---|---|---|
+| `paper_fig2_grid.pdf`, `paper_fig2_<model>_<strict\|broad>.pdf` | AutoSynthesis vs Cochrane effect per review, and the share within ±0.05 / ±0.20 | `generate_paper_style_figures.py` |
+| `effect_tolerance_bars.pdf` | Share of reviews within ±0.05 and ±0.20, per model | `generate_tolerance_bars.py` |
+| `effect_double_whisker.pdf` | Cochrane vs AutoSynthesis effects with 95% CIs, and Pearson *r* | `generate_double_whisker.py` |
+| `paper_figS12_agreement.pdf` | Agreement between models (within/outside tolerance) | `generate_paper_style_figures.py` |
+| `unitfree_breakdown_year_topic_025.pdf` | Unit-free agreement by publication year and topic | `generate_topic_breakdown.py` |
+| `funnel_flow_gpt.pdf` | Papers per pipeline stage | `generate_funnel_flow.py` |
+| `venn_search_vs_truth_gpt.pdf` | Papers found by the search agent vs the studies included by Cochrane | `generate_venn_search.py` |
+| Numbers in the text (agreement counts, direction, significance, CI overlap) | — | `benchmark_metrics.py` → `results/benchmark_summary.json`, `results/benchmark_audit_per_review.csv` |
+| Case-study figures (forest, funnel, cumulative, heterogeneity, PRISMA, risk of bias) | — | Produced by AutoSynthesis itself; saved in `case_studies/<review>/figures/` |
+
+---
 
 ## How it works
 
-AutoSynthesis is a graph of specialised LLM agents (built with [LangGraph](https://github.com/langchain-ai/langgraph)). Every agent writes its decisions and intermediate results to the run folder, so each step can be audited.
+AutoSynthesis is a graph of specialised LLM agents. Every agent writes its decisions and intermediate results to the run folder, so each step can be audited.
 
 | Stage | Agents | Main outputs |
 |---|---|---|
@@ -100,6 +185,8 @@ AutoSynthesis is a graph of specialised LLM agents (built with [LangGraph](https
 | **d. Analysis and report** | analysis (effect sizes and random-effects pooling), moderator, bias (publication bias, RoB 2 / ROBINS-I), report, PRISMA | `effect_sizes.json`, `meta_analysis_result.json`, figures, `meta_analysis_report.md` |
 
 The language models do not calculate the statistics. The pooling, heterogeneity, Egger's test, trim-and-fill and leave-one-out analyses are computed with R [`metafor`](https://www.metafor-project.org) (REML random effects), in [`app/statistics/`](app/statistics).
+
+---
 
 ## Citation
 
@@ -116,4 +203,4 @@ The language models do not calculate the statistics. The pooling, heterogeneity,
 
 ## License
 
-[MIT](LICENSE)
+Code: [MIT](LICENSE). The Cochrane summary results are cited from the *Cochrane Database of Systematic Reviews*; the Cochrane review IDs in `benchmark/data/reviews.csv` identify each source.

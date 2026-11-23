@@ -1,36 +1,40 @@
-anthropic>=0.40.0
-numpy>=1.24.0
-scipy>=1.11.0
-pandas>=2.0.0
-matplotlib>=3.7.0
-statsmodels>=0.14.0
-pydantic>=2.0.0
-python-dotenv>=1.0.0
-requests>=2.31.0
-mcp>=1.0.0,<2.0.0  # utils/mineru_cloud_mcp_server.py uses mcp.server.fastmcp.FastMCP, removed/relocated in mcp 2.0.0 (confirmed: an unpinned install pulls 2.0.0 and MinerU cloud/local both silently become unavailable at import time)
-pypdf>=4.0.0
-pymupdf>=1.23.0
-fastapi>=0.100.0
-uvicorn[standard]>=0.23.0
-python-multipart>=0.0.6
-itsdangerous>=2.1.0
-openai
-langchain-core>=0.3
-langchain-openai>=0.2
-langgraph>=0.2
-mistralai>=1.0.0
-playwright>=1.45.0
-# Pinned: rpy2>=3.6 requires R C-API symbols (R_getVar, R_ParentEnv) not
-# present in R 4.3.x's libR.so (e.g. Ubuntu 24.04's r-base-core package) --
-# confirmed via a real ImportError against that combination. 3.5.16 works
-# against R 4.3.x. Bridges to R's metafor package -- see statistics/metafor_engine.py.
-rpy2==3.5.16
+# Direct dependencies, pinned to the versions tested with Python 3.11.
+# requirements-lock.txt pins every transitive dependency as well (used by the Dockerfile).
+# System requirements: R (tested 4.5.0) with the metafor package (tested 4.8.0); see the Dockerfile.
 
-# Infrastructure: PostgreSQL / Redis / Celery / RabbitMQ (see persistence/,
-# caching/, run_service.py, celery_app.py). All optional at runtime -- every
-# one of these subsystems is a no-op when its *_URL config is empty, so an
-# install with these present but unconfigured behaves exactly as before.
-sqlalchemy>=2.0,<3.0
-psycopg2-binary>=2.9
-redis>=5.0
-celery[amqp]>=5.4,<6.0
+# LLM agents
+langgraph==1.2.24
+langchain-core==1.8.4
+langchain-openai==1.8.5
+openai==3.57.0
+anthropic==2.12.0
+mistralai==3.8.0
+pydantic==2.14.4
+
+# Statistics (rpy2 bridges to R metafor; see statistics/metafor_engine.py)
+rpy2==3.5.16
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.1.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+
+# PDF text extraction and full-text retrieval
+pypdf==7.1.1
+pymupdf==2.1
+playwright==1.65.2
+mcp==1.30.0
+requests==2.34.2
+
+# Web app
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+python-multipart==0.0.34
+itsdangerous==2.2.0
+python-dotenv==1.2.4
+
+# Optional infrastructure (each is a no-op when its *_URL setting is empty)
+sqlalchemy==2.1.9
+psycopg2-binary==2.9.13
+redis==8.2.0
+celery[amqp]==5.7.0

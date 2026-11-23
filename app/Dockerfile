@@ -1,4 +1,5 @@
-FROM python:3.11-slim
+# Pinned base image (Python 3.11.18, Debian 13) so builds are reproducible.
+FROM python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
 
 # System dependencies required by numpy/scipy/matplotlib, plus R + metafor
 # (the actual meta-analysis statistics engine, called via rpy2 -- see
@@ -40,8 +41,8 @@ WORKDIR /app
 ENV PYTHONPATH=/app
 
 # Install Python dependencies first (layer is cached unless requirements change)
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements.txt requirements-lock.txt ./
+RUN pip install --no-cache-dir -r requirements-lock.txt
 RUN python -m playwright install --with-deps chromium
 
 # Copy project files
