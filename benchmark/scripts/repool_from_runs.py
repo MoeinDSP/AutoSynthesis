@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bench_load import HERE, MODELS, RATIO
 
 from paths import DATA, RUNS, FIG, RESULTS
-RUN_DIR = {"GPT": "gpt-5.6-sol", "Gemini": "gemini-3.8-flash", "Claude": "claude"}
+RUN_DIR = {"GPT": "gpt-5.6-sol", "Gemini": "gemini-3.8-flash", "Claude": "claude-opus-5"}
 OUT = os.path.join(DATA, "repooled_results.csv")
 
 # unit -> (dimension, factor to the dimension's base unit)

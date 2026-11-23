@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import pearsonr
 from tol_data import rows, MODELS, HERE
 from paths import DATA, RUNS, FIG, RESULTS
-NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude"}
+NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude Opus 5"}
 COL = {"GPT": "#0072B2", "Gemini": "#E69F00", "Claude": "#009E73"}
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 13, "pdf.fonttype": 42})
 L = 2.0

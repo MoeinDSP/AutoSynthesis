@@ -5,7 +5,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from tol_data import rows, MODELS, HERE
 from paths import DATA, RUNS, FIG, RESULTS
-NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude"}
+NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude Opus 5"}
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 13, "pdf.fonttype": 42})
 C = ["#1F3864", "#6C8EBF", "#C9D6EA", "#E4E4E4"]
 fig, ax = plt.subplots(figsize=(10, 3.6))

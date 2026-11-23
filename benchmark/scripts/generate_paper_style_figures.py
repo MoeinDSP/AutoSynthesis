@@ -9,7 +9,7 @@ from matplotlib.patches import Patch
 from scipy.stats import gaussian_kde, linregress
 from tol_data import rows, MODELS, HERE
 from paths import DATA, RUNS, FIG, RESULTS
-NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude"}
+NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude Opus 5"}
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.linewidth": .8, "pdf.fonttype": 42})
 RED, PALE, GREY, BLUE = "#C4725A", "#EDD5C5", "#3A3A3A", "#5B88BE"
 TOL = {"strict": .05, "broad": .20}

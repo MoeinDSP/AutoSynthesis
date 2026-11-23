@@ -9,7 +9,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from rel_data import rows, MODELS, HERE, T1, T2
 from paths import DATA, FIG
-NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude"}
+NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude Opus 5"}
 COL = {"GPT": "#0072B2", "Gemini": "#E69F00", "Claude": "#009E73"}
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 12, "pdf.fonttype": 42})
 TOPIC_FILE = os.path.join(DATA, "reviews.csv")

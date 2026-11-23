@@ -19,7 +19,7 @@ DIFF_FALLBACK = os.getenv("AUTOSYN_DIFF_FALLBACK", "").strip() == "1"
 _ALL_MODELS = [
     {"id": "openai/gpt-5.6-sol",        "label": "GPT-5.6 Sol"},
     {"id": "google/gemini-3.8-flash",   "label": "Gemini 3.8 Flash"},
-    {"id": "anthropic/claude-opus-5",   "label": "Claude"},
+    {"id": "anthropic/claude-opus-5",   "label": "Claude Opus 5"},
 ]
 CHEAPEST_MODEL = "google/gemini-3.8-flash"   # lowest measured cost per study ($0.36 vs $2.27 / $2.91)
 

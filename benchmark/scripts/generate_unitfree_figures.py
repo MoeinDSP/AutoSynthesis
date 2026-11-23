@@ -8,7 +8,7 @@ from matplotlib.patches import Patch
 from scipy.stats import pearsonr
 from rel_data import rows, ok, MODELS, HERE, T1, T2
 from paths import DATA, RUNS, FIG, RESULTS
-NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude"}
+NAMES = {"GPT": "GPT-5.6 Sol", "Gemini": "Gemini 3.8 Flash", "Claude": "Claude Opus 5"}
 COL = {"GPT": "#0072B2", "Gemini": "#E69F00", "Claude": "#009E73"}
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 12, "pdf.fonttype": 42})
 C = ["#1F3864", "#6C8EBF", "#C9D6EA"]
