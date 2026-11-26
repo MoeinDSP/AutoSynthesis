@@ -1,0 +1,36 @@
+{
+  "research_question": "In adults with coronary heart disease, heart failure, or atrial fibrillation, what is the effect of a psychological intervention compared with no psychological intervention on depression symptoms at 6 to 12 months follow-up?",
+  "treatment_label": "Psychological intervention (alone, with cardiac rehabilitation, or with pharmacotherapy)",
+  "control_label": "No psychological intervention (usual care, attention control, or waitlist)",
+  "outcome_description": "Depression symptom severity assessed via validated continuous depression instruments (e.g., BDI, BDI-II, BDI-FS, CDS, HADS-D, HAM-D, PHQ-9, ZDS) at 6 to 12 months follow-up",
+  "positive_direction": "Higher depression symptom severity scores in the psychological intervention group compared to the control group",
+  "search_queries": [
+    "psychological intervention coronary heart disease depression randomized trial",
+    "cognitive behavioral therapy heart failure depression controlled trial",
+    "psychological intervention atrial fibrillation depression outcomes comparison"
+  ],
+  "inclusion_criteria": [
+    "Adults diagnosed with coronary heart disease, heart failure, or atrial fibrillation",
+    "Evaluation of a psychological intervention (alone, combined with cardiac rehabilitation, or combined with pharmacotherapy) compared against no psychological intervention",
+    "Reports quantitative validated depression symptom scores at follow-up (6 to 12 months post-randomisation)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, and theoretical papers are excluded)",
+    "No comparison between a psychological intervention and a non-psychological control group",
+    "No quantitative depression outcome data reporting means, standard deviations, change scores, or test statistics suitable for calculating an effect size",
+    "Completely unrelated to the target cardiovascular populations (coronary heart disease, heart failure, or atrial fibrillation) or psychological interventions"
+  ],
+  "moderators_to_extract": [
+    "Cardiovascular condition (coronary heart disease, heart failure, atrial fibrillation)",
+    "Psychological intervention modality (cognitive behavioural therapy, mindfulness, supportive/counselling, other)",
+    "Co-intervention status (psychological alone, with cardiac rehabilitation, with pharmacotherapy)",
+    "Delivery format (individual, group, digital/remote, mixed)",
+    "Follow-up duration (in months, within the 6 to 12 month window)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Standardized mean difference (SMD) pooled across validated depression instruments using the longest available follow-up between 6 and 12 months. Note that a negative effect size indicates greater reduction in depressive symptoms favoring the psychological intervention.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Depression symptoms"
+}

@@ -1,0 +1,38 @@
+{
+  "research_question": "In adults, do remote or web 2.0-delivered physical activity interventions (internet, web-based, mobile app, text message, telephone, social media) increase self-reported physical activity at 12-month follow-up compared with placebo, no intervention, or minimal intervention?",
+  "treatment_label": "Remote / web 2.0-delivered physical activity intervention (internet, web, app, SMS, telephone, or social media based)",
+  "control_label": "Placebo, no intervention, waitlist, usual care, or minimal intervention control",
+  "outcome_description": "Self-reported physical activity at approximately 12 months follow-up, measured with questionnaires or diaries (e.g., IPAQ, GPAQ, 7-Day PAR, GLTEQ, CHAMPS, Active Australia) and reported as continuous values (e.g., MET-minutes/week, minutes/week of moderate-to-vigorous activity, activity scores, steps reported by recall). Extract arm-level mean, SD, and N for the intervention and control groups. Where several eligible assessments exist, use the one closest to 12 months. Exclude cardiorespiratory fitness outcomes, dichotomous outcomes such as proportion meeting activity guidelines, device-measured-only outcomes when no self-report is available, and 24-month follow-up data.",
+  "positive_direction": "A positive Hedges g / SMD means the remote or web 2.0 intervention group reported MORE physical activity at 12 months than the control group (i.e., the intervention increased self-reported physical activity).",
+  "search_queries": [
+    "web-based physical activity intervention randomized controlled trial adults 12 months",
+    "internet or mobile app physical activity intervention trial self-reported activity outcome",
+    "telephone or text message physical activity promotion randomized trial long-term follow-up",
+    "social media web 2.0 physical activity intervention controlled trial effect"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trial in adults (mean age 18+) testing a remotely delivered or web 2.0-based physical activity intervention (internet, website, email, app, SMS, phone, social media, or other remote delivery)",
+    "Includes a comparison arm receiving placebo, no intervention, waitlist, usual care, or minimal/attention-only intervention",
+    "Reports quantitative self-reported physical activity data at a follow-up of roughly 12 months (approximately 9-18 months) that permits calculation of an effect size"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, theoretical/commentary paper, or study protocol) or not a randomized controlled trial",
+    "No comparison between an intervention condition and a placebo/no-intervention/minimal-intervention control condition",
+    "No quantitative outcome data usable for an effect size (no means with SDs/SEs/CIs, t/F values, or equivalent statistics for self-reported physical activity)",
+    "Completely unrelated to remote/web-delivered physical activity promotion in adults, or reports only ineligible outcomes (cardiorespiratory fitness, dichotomous guideline-attainment, or only timepoints far from 12 months such as 24-month-only data)"
+  ],
+  "moderators_to_extract": [
+    "Delivery mode (website/internet, mobile app, SMS, telephone, social media, mixed)",
+    "Type of control condition (no intervention/waitlist vs usual care vs minimal or attention control)",
+    "Self-report measure used (IPAQ, 7-Day PAR, GLTEQ, other)",
+    "Population type (healthy adults vs clinical/at-risk population)",
+    "Intervention duration and presence of human support/counselling",
+    "Sample size category and country/region"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool as a standardized mean difference (Hedges g) computed from arm-level means, SDs, and Ns at the ~12-month timepoint, because studies use heterogeneous self-report instruments and units. If only change scores or SEs/CIs are reported, convert to mean and SD before computing the SMD; if multiple eligible self-report assessments or timepoints are given, use the single measure/timepoint closest to 12 months to avoid double-counting.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-reported physical activity"
+}

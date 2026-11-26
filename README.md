@@ -5,7 +5,7 @@
 **An agentic system for automated meta-analysis**
 
 From a research question to a PRISMA-aligned meta-analysis report: literature search, screening,<br>
-full-text eligibility, statistical extraction, effect sizes, random-effects pooling, heterogeneity,<br>
+full-text eligibility, statistical extraction, effect sizes, pooling, heterogeneity,<br>
 publication bias and risk-of-bias assessment.
 
 [![Paper](https://img.shields.io/badge/arXiv-2607.15247-b31b1b.svg)](https://arxiv.org/abs/2607.15247)
@@ -53,7 +53,7 @@ AutoSynthesis/
 ├── LICENSE                 MIT
 ├── app/                    the AutoSynthesis system
 │   ├── agents/             one module per LLM agent (planning, search, screening, extraction, ...)
-│   ├── statistics/         effect sizes, random-effects pooling, heterogeneity, publication bias (R metafor via rpy2)
+│   ├── statistics/         effect sizes, pooling (fixed effect, random effects, UWLS), heterogeneity, publication bias (R metafor via rpy2)
 │   ├── utils/  caching/  persistence/
 │   ├── pipeline_graph.py   the LangGraph workflow that connects the agents
 │   ├── dashboard.py        web app (FastAPI)
@@ -139,6 +139,7 @@ This runs, in order:
 
 * `scripts/repool_from_runs.py`: re-pools the reviews whose effect measure differs from Cochrane's and cannot be converted by a formula, using the saved study-level data. Output: `data/repooled_results.csv`.
 * `scripts/benchmark_metrics.py`: compares every review and model with Cochrane. Output: `results/`.
+* `scripts/sensitivity_pooling_models.py`: the same comparison after re-pooling each run's study data with REML, DerSimonian–Laird, fixed effect, UWLS and the model Cochrane used. Output: `results/sensitivity_pooling_models*.csv`.
 * the figure scripts. Output: `figures/`.
 
 `BENCH_HARMONIZE=1` (set in the script) compares every result on Cochrane's effect measure. See [`benchmark/README.md`](benchmark/README.md#harmonization).
@@ -167,6 +168,7 @@ All benchmark figures are written to `benchmark/figures/` by the scripts in `ben
 | `paper_figS12_agreement.pdf` | Agreement between models (within/outside tolerance) | `generate_paper_style_figures.py` |
 | `unitfree_breakdown_year_topic_025.pdf` | Unit-free agreement by publication year and topic | `generate_topic_breakdown.py` |
 | `funnel_flow_gpt.pdf` | Papers per pipeline stage | `generate_funnel_flow.py` |
+| `sensitivity_pooling_models.pdf` | Share of reviews within ±0.20 and ±0.05 of Cochrane under five pooling models | `sensitivity_pooling_models.py` |
 | `venn_search_vs_truth_gpt.pdf` | Papers found by the search agent vs the studies included by Cochrane | `generate_venn_search.py` |
 | Numbers in the text (agreement counts, direction, significance, CI overlap) | — | `benchmark_metrics.py` → `results/benchmark_summary.json`, `results/benchmark_audit_per_review.csv` |
 | Case-study figures (forest, funnel, cumulative, heterogeneity, PRISMA, risk of bias) | — | Produced by AutoSynthesis itself; saved in `case_studies/<review>/figures/` |
@@ -182,9 +184,12 @@ AutoSynthesis is a graph of specialised LLM agents. Every agent writes its decis
 | **a. Planning and retrieval** | planning, query reformulation, search | `plan.json`, search queries, found records |
 | **b. Eligibility and study mapping** | screening, paper reading, eligibility, research-question and study detection | `study_screening.csv`, `paper_tracking.csv` |
 | **c. Statistical extraction and validation** | statistical result extractor, statistical result checker, relevance filter | `meta_ready_results.json` |
-| **d. Analysis and report** | analysis (effect sizes and random-effects pooling), moderator, bias (publication bias, RoB 2 / ROBINS-I), report, PRISMA | `effect_sizes.json`, `meta_analysis_result.json`, figures, `meta_analysis_report.md` |
+| **d. Analysis and report** | analysis (effect sizes and pooling), moderator, bias (publication bias, RoB 2 / ROBINS-I), report, PRISMA | `effect_sizes.json`, `meta_analysis_result.json`, figures, `meta_analysis_report.md` |
 
-The language models do not calculate the statistics. The pooling, heterogeneity, Egger's test, trim-and-fill and leave-one-out analyses are computed with R [`metafor`](https://www.metafor-project.org) (REML random effects), in [`app/statistics/`](app/statistics).
+The language models do not calculate the statistics. Pooling, heterogeneity and the publication-bias tests are computed in R with [`metafor`](https://www.metafor-project.org), in [`app/statistics/`](app/statistics):
+
+* **Pooling model**, chosen in the web app's *Pooling model* menu or named in the question: fixed effect; random effects with any of metafor's τ² estimators (REML, DerSimonian–Laird, ML, Hedges, Hunter–Schmidt, Sidik–Jonkman, Paule–Mandel, empirical Bayes); or unrestricted weighted least squares (UWLS; Stanley & Doucouliagos 2015). The default is random effects with REML.
+* **Publication bias and small-study effects**: Egger's regression test, Begg's rank test, trim-and-fill, and PET-PEESE (Stanley & Doucouliagos 2014), next to the funnel plot.
 
 ---
 

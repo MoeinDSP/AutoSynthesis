@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with coronary heart disease, heart failure, or atrial fibrillation, what is the effect of a psychological intervention\u2014delivered alone, alongside cardiac rehabilitation, or alongside pharmacotherapy\u2014compared with no psychological intervention on validated depression symptom scores at the longest available follow-up from 6 through 12 months after randomisation?",
+  "treatment_label": "Psychological intervention, delivered alone or as an adjunct to cardiac rehabilitation or pharmacotherapy",
+  "control_label": "No psychological intervention (e.g., usual care, wait-list, attention control, cardiac rehabilitation alone, pharmacotherapy alone, or an otherwise matched non-psychological comparator)",
+  "outcome_description": "Depression symptoms measured with any validated depression instrument (including BDI, BDI-II, BDI-FS, CDS, HADS-D, HAM-D, PHQ-9, and ZDS) at an eligible follow-up of 6 to 12 months after randomisation. Treat all instruments as measures of one common depression construct and pool them as standardized mean differences. For each eligible intervention-control comparison, select exactly one depression endpoint: the longest available follow-up within the inclusive 6-to-12-month window. Evaluate depression only; do not extract, classify, or pool anxiety, health-related quality of life, self-efficacy, mortality, major adverse cardiovascular events, or any other outcome.",
+  "positive_direction": "A positive effect means fewer depression symptoms in the psychological-intervention group than in the no-psychological-intervention group after orienting all scales so that improvement favors the intervention.",
+  "search_queries": [
+    "coronary heart disease psychological intervention depression randomized trial",
+    "heart failure psychotherapy depression controlled trial",
+    "atrial fibrillation psychological treatment depression experiment"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of adults with coronary heart disease, heart failure, or atrial fibrillation that compare a psychological intervention with a condition receiving no psychological intervention; psychological treatment may be delivered alone or added to cardiac rehabilitation or pharmacotherapy when the comparison isolates the psychological component.",
+    "Randomised studies reporting depression symptoms using any validated depression measure at one or more follow-ups within 6 to 12 months after randomisation.",
+    "Studies providing, or allowing derivation of, quantitative depression data for an intervention-control comparison; include any setting, delivery format, psychological approach, publication status, and language."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between a psychological-intervention condition and a control condition receiving no psychological intervention, or co-interventions are not sufficiently matched to isolate the psychological component.",
+    "No quantitative depression outcome data that can produce an effect size, such as means and standard deviations, t/F statistics, proportions, or odds ratios, and the required data cannot be obtained or derived.",
+    "Completely unrelated to psychological intervention, depression, or adults with coronary heart disease, heart failure, or atrial fibrillation; also exclude reports with no validated depression endpoint in the 6-to-12-month post-randomisation window."
+  ],
+  "moderators_to_extract": [
+    "cardiac diagnosis (coronary heart disease, heart failure, or atrial fibrillation)",
+    "psychological intervention type or therapeutic orientation",
+    "delivery context (stand-alone, with cardiac rehabilitation, or with pharmacotherapy)",
+    "delivery format and provider (individual, group, digital/telephone, or mixed)",
+    "control type and matched co-intervention",
+    "eligible follow-up time selected in months"
+  ],
+  "search_start_year": 1960,
+  "effect_size_note": "Pool standardized mean differences across validated depression instruments, with scale direction harmonized so positive values indicate lower depression in the intervention group. Prefer Hedges-corrected SMDs in estimation if supported by the analysis workflow. Use exactly one endpoint per eligible intervention-control comparison: the longest available assessment within 6 to 12 months after randomisation (inclusive). Do not split results by depression instrument or by follow-up time. For multi-arm studies, avoid double-counting shared controls by combining eligible intervention arms when clinically appropriate or otherwise accounting for the dependency. Use an appropriate random-effects model, report 95% confidence intervals and heterogeneity, assess risk of bias at the outcome level, and document screening and exclusions in a PRISMA 2020 flow diagram.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "depression symptoms"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with heart disease, what is the effect of home-based cardiac rehabilitation (including digital/telehealth-supported programmes) compared with supervised centre-based cardiac rehabilitation on triglyceride levels (mmol/L) at 3\u201312 months follow-up?",
+  "treatment_label": "Home-based cardiac rehabilitation (including telehealth/digital/mobile-supported home programmes)",
+  "control_label": "Supervised centre-based (hospital/clinic/outpatient) cardiac rehabilitation",
+  "outcome_description": "Serum/plasma triglyceride concentration, expressed in mmol/L (values reported in mg/dL converted by dividing by 88.57). Arm-level mean, SD and N extracted at the latest eligible follow-up between 3 and 12 months; either absolute follow-up values or change-from-baseline values accepted, whichever the paper reports. Where only median with IQR/range is reported, mean and SD estimated using the methods of Wan et al. (2014). In multi-arm trials, each eligible home-based arm is compared separately against the shared supervised centre-based control arm.",
+  "positive_direction": "A positive Hedges g means the home-based cardiac rehabilitation group had HIGHER triglyceride levels than the supervised centre-based group (i.e. a less favourable lipid outcome for home-based rehabilitation); a negative value favours home-based rehabilitation (lower triglycerides).",
+  "search_queries": [
+    "home-based cardiac rehabilitation versus centre-based randomized trial lipids triglycerides",
+    "telerehabilitation cardiac rehabilitation randomised controlled trial coronary heart disease outcomes",
+    "telehealth home exercise programme cardiac patients trial cholesterol triglyceride effect"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults with heart disease (e.g. coronary artery disease, post-MI, post-revascularisation, heart failure, valve surgery)",
+    "Compares a home-based cardiac rehabilitation programme (including digital, telehealth, mobile or remotely supported home programmes) against a supervised centre-based cardiac rehabilitation programme",
+    "Reports some quantitative triglyceride data (mean/SD, median/IQR, or statistics convertible to an effect size) at a follow-up point between 3 and 12 months"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, commentary, theoretical/methodological paper, conference abstract without data, or study protocol)",
+    "Not a randomised controlled trial, or comparator is usual care, waitlist, no intervention, or any non-centre-based control rather than supervised centre-based cardiac rehabilitation",
+    "No quantitative triglyceride outcome data usable for an effect size (no means+SDs, medians+IQRs, t/F values, or other convertible statistics) at 3\u201312 months follow-up",
+    "Completely unrelated to cardiac rehabilitation in adults with heart disease, or reports only outcomes other than triglycerides"
+  ],
+  "moderators_to_extract": [
+    "Delivery modality of home-based arm (unsupervised home exercise vs telehealth/digital/mobile-supported)",
+    "Cardiac diagnosis / population (coronary artery disease or post-MI/PCI/CABG vs heart failure vs mixed)",
+    "Follow-up timepoint used (3\u20136 months vs >6\u201312 months)",
+    "Programme duration and intensity (weeks of intervention)",
+    "Outcome data type (absolute follow-up values vs change-from-baseline; measured vs estimated from median/IQR)",
+    "Sample size category and country/region of the trial"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Extract arm-level mean, SD and N for triglycerides in mmol/L (convert mg/dL to mmol/L by dividing by 88.57). Use the latest eligible follow-up between 3 and 12 months. Absolute follow-up values and change-from-baseline values are both acceptable and should not be a reason for exclusion; record which type was used. If only median and IQR/range are given, estimate mean and SD via Wan et al. (2014). For multi-arm trials, enter each home-based arm vs the shared centre-based control as a separate comparison, noting the shared control to allow for correlated-effects handling.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "triglycerides"
+}

@@ -1,0 +1,35 @@
+{
+  "research_question": "In adults with heart disease, what is the effect of home-based cardiac rehabilitation (including digital/telehealth-supported programmes) versus supervised centre-based cardiac rehabilitation on triglycerides at 3\u201312 months follow-up?",
+  "treatment_label": "Home-based cardiac rehabilitation (including digital/telehealth-supported)",
+  "control_label": "Supervised centre-based cardiac rehabilitation",
+  "outcome_description": "Triglyceride levels measured in mmol/L (or converted to mmol/L) at the latest eligible follow-up between 3 and 12 months post-randomisation (reported as absolute follow-up or change from baseline).",
+  "positive_direction": "Higher triglyceride levels in the home-based cardiac rehabilitation group compared to the centre-based cardiac rehabilitation group.",
+  "search_queries": [
+    "\"home-based cardiac rehabilitation\" \"centre-based\" \"triglycerides\" trial",
+    "\"telehealth cardiac rehabilitation\" \"hospital-based\" trial lipid outcome",
+    "\"home cardiac rehabilitation\" \"center-based\" randomized trial triglycerides"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials of adults with heart disease comparing home-based cardiac rehabilitation (including digital or telehealth-supported interventions) to supervised centre-based cardiac rehabilitation.",
+    "Studies reporting quantitative triglyceride measurements (as absolute follow-up values or change from baseline) at 3 to 12 months follow-up."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial (e.g., systematic reviews, meta-analyses, study protocols, editorials, observational or non-randomized studies).",
+    "Control arm does not consist of supervised centre-based cardiac rehabilitation (e.g., usual care, waitlist, community unsupervised, or no intervention comparators).",
+    "No quantitative data available on serum or plasma triglycerides allowing calculation/estimation of mean, SD, and sample size at 3\u201312 months follow-up.",
+    "Completely unrelated to cardiac rehabilitation in adults with cardiovascular disease."
+  ],
+  "moderators_to_extract": [
+    "Home CR delivery mode (digital/telehealth-delivered vs traditional/paper/manual-based)",
+    "Follow-up timepoint within 3\u201312 months (e.g., 3 months, 6 months, 12 months)",
+    "Data type reported (post-intervention follow-up score vs change-from-baseline score)",
+    "Primary cardiac diagnosis (e.g., post-myocardial infarction, post-revascularisation, mixed CAD/heart failure)",
+    "Participant mean age and proportion of female participants"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Triglyceride levels reported in mg/dL should be converted to mmol/L using the standard conversion factor (mg/dL * 0.01129 = mmol/L, or mg/dL / 88.57). Either post-intervention values or change-from-baseline values are acceptable. If medians and IQRs/ranges are reported, mean and SD are approximated using Wan et al. (2014). For multi-arm trials with multiple eligible home-based arms, each home-based arm is compared against the shared centre-based control arm.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "triglycerides"
+}

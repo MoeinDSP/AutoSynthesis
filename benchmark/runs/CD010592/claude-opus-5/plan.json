@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults and adolescents (\u226512 years) with non-allergic rhinitis, what is the effect of intranasal corticosteroids compared with placebo on the risk of epistaxis (nosebleed) measured at any point during treatment or follow-up?",
+  "treatment_label": "Intranasal corticosteroid (dose 200\u2013400 \u00b5g/day where multiple doses tested)",
+  "control_label": "Placebo nasal spray",
+  "outcome_description": "Epistaxis (nosebleed) as a dichotomous adverse event: number of participants experiencing at least one episode of epistaxis (including blood-tinged nasal discharge/bloody nasal secretions reported as epistaxis) and the total number of participants per treatment arm. Epistaxis counts are extracted regardless of whether they were actively elicited by the investigator, spontaneously reported, or captured in a patient diary or questionnaire.",
+  "positive_direction": "A positive risk difference (or positive Hedges g) means participants receiving intranasal corticosteroids experienced MORE epistaxis than those receiving placebo (i.e. increased risk of nosebleed with intranasal corticosteroid treatment).",
+  "search_queries": [
+    "intranasal corticosteroid non-allergic rhinitis randomized placebo-controlled trial epistaxis",
+    "nasal spray corticosteroid vasomotor rhinitis placebo trial adverse events nosebleed",
+    "mometasone fluticasone budesonide nonallergic rhinitis controlled trial safety outcomes"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trial comparing an intranasal corticosteroid with placebo in participants aged 12 years or older with non-allergic rhinitis (including vasomotor, idiopathic, perennial non-allergic, or mixed rhinitis cohorts)",
+    "Reports any quantitative safety/adverse-event data from which the number of participants with epistaxis and the number randomized per arm can be derived or estimated",
+    "Any treatment duration, setting, country, or language, and any intranasal corticosteroid molecule or delivery device"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study: systematic reviews, meta-analyses, narrative reviews, editorials, opinion pieces, case reports, theoretical/modelling papers, and study protocols",
+    "No comparison between an intranasal corticosteroid treatment arm and a placebo control arm (e.g. single-arm, open-label uncontrolled, or active-comparator-only designs), or non-randomized designs",
+    "No quantitative outcome data permitting an effect size for epistaxis (no event counts, proportions, or extractable statistics for nosebleed per arm)",
+    "Completely unrelated to the research topic (e.g. purely allergic rhinitis or nasal polyposis populations only, children under 12 years only, non-intranasal corticosteroid routes, or outcomes limited to symptom scores, quality of life, or nasal airflow with no epistaxis reporting)"
+  ],
+  "moderators_to_extract": [
+    "Intranasal corticosteroid molecule and delivery vehicle (aqueous spray vs aerosol)",
+    "Daily dose (\u00b5g/day) within the 200\u2013400 \u00b5g/day window",
+    "Treatment duration (weeks)",
+    "Rhinitis subtype/diagnostic definition (vasomotor, idiopathic, mixed, perennial non-allergic)",
+    "Method of epistaxis ascertainment (active questioning, spontaneous report, diary/questionnaire)",
+    "Sample size category and mean participant age"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Extract 2x2 event data (participants with epistaxis / participants randomized or safety-analysed) for each arm and pool as a risk difference. For trials with several intranasal corticosteroid dose arms, select the single arm whose dose falls within 200\u2013400 \u00b5g/day (if more than one qualifies, take the dose closest to 200 \u00b5g/day) and pair it with the shared placebo arm only once to avoid double-counting placebo participants; alternatively divide the placebo denominator if multiple qualifying arms must be retained. Zero-event arms are handled with the standard continuity/inverse-variance approach appropriate for risk differences.",
+  "target_effect_measure": "RD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "epistaxis"
+}

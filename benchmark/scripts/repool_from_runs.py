@@ -53,18 +53,17 @@ def _wan_estimates(run):
     return out
 
 
-def repool(cid, model, fam):
+def study_effects(cid, model, fam):
+    """The run's own per-study data as [(y, v)] in Cochrane's measure `fam` (log scale for RR/OR/HR).
+
+    Returns (ys, notes, k_run), or (None, reason, None) when the run saved no study data.
+    MD: treatment - control means (Wan estimates from medians when the pipeline logged them), units harmonized.
+    SMD: Hedges' g and its variance. RR/OR/HR: the ratio the paper reported (with its 95% CI) when it is the
+    same measure, else the 2x2 counts (0.5 continuity correction). RD: the 2x2 counts."""
     run = os.path.join(RUNS, cid, RUN_DIR[model])
     p = os.path.join(run, "effect_sizes.json")
     if not os.path.exists(p):
-        # no saved study data: use a rerun (same prompt and PDFs) when one exists and pooled in the Cochrane measure
-        rr = os.path.join(RUNS, f"{cid}_rerun", RUN_DIR[model], "meta_analysis_result.json")
-        if os.path.exists(rr):
-            m = json.load(open(rr))
-            if (m.get("effect_measure") or "").upper() == fam and None not in (m.get("pooled_effect"), m.get("ci_lower"), m.get("ci_upper")):
-                return dict(id=cid, model=model, fam=fam, eff=m["pooled_effect"], lo=m["ci_lower"], hi=m["ci_upper"], k=m.get("k"),
-                            k_run=m.get("k"), note="rerun (same prompt and PDFs; original run saved no study data)"), None
-        return None, "no saved study data (run produced no effect sizes)"
+        return None, "no saved study data (run produced no effect sizes)", None
     rows = json.load(open(p)); wan = _wan_estimates(run)
     ys, notes = [], []
     if fam == "MD":
@@ -89,18 +88,38 @@ def repool(cid, model, fam):
             ys = [(y, v) for y, v, _ in per]
     elif fam == "SMD":
         ys = [(r["hedges_g"], r["variance"]) for r in rows if r.get("hedges_g") is not None and r.get("variance")]
-    elif fam in RATIO:                                     # binary counts -> log RR (log OR for OR)
+    elif fam in RATIO or fam == "RD":
         for r in rows:
             x = r.get("raw_measure_inputs") or {}
+            rr, rlo, rhi = x.get("reported_ratio"), x.get("reported_ratio_ci_lower"), x.get("reported_ratio_ci_upper")
+            if fam in RATIO and (x.get("reported_ratio_measure") or "").upper() == fam and rr and rlo and rhi and 0 < rlo < rr < rhi:
+                ys.append((math.log(rr), ((math.log(rhi) - math.log(rlo)) / (2 * 1.959964)) ** 2)); continue
             a, c, n1, n2 = (x.get(k) for k in ("events_treatment", "events_control", "n_treatment", "n_control"))
-            if None in (a, c, n1, n2): notes.append(f"{r['study_id']} dropped: no counts"); continue
+            if None in (a, c, n1, n2) or fam == "HR": notes.append(f"{r['study_id']} dropped: no counts"); continue
+            if fam == "RD":
+                p1, p2 = a / n1, c / n2
+                ys.append((p1 - p2, p1 * (1 - p1) / n1 + p2 * (1 - p2) / n2)); continue
             if a == 0 or c == 0: a, c, n1, n2 = a + .5, c + .5, n1 + 1, n2 + 1
             if fam == "OR": ys.append((math.log(a / (n1 - a) / (c / (n2 - c))), 1 / a + 1 / (n1 - a) + 1 / c + 1 / (n2 - c)))
             else: ys.append((math.log((a / n1) / (c / n2)), 1 / a - 1 / n1 + 1 / c - 1 / n2))
+    return ys, notes, len(rows)
+
+
+def repool(cid, model, fam):
+    ys, notes, k_run = study_effects(cid, model, fam)
+    if ys is None:
+        # no saved study data: use a rerun (same prompt and PDFs) when one exists and pooled in the Cochrane measure
+        rr = os.path.join(RUNS, f"{cid}_rerun", RUN_DIR[model], "meta_analysis_result.json")
+        if os.path.exists(rr):
+            m = json.load(open(rr))
+            if (m.get("effect_measure") or "").upper() == fam and None not in (m.get("pooled_effect"), m.get("ci_lower"), m.get("ci_upper")):
+                return dict(id=cid, model=model, fam=fam, eff=m["pooled_effect"], lo=m["ci_lower"], hi=m["ci_upper"], k=m.get("k"),
+                            k_run=m.get("k"), note="rerun (same prompt and PDFs; original run saved no study data)"), None
+        return None, notes
     if not ys: return None, "; ".join(notes) or "no usable study data"
     est, lo, hi = dl(ys)
     if fam in RATIO: est, lo, hi = math.exp(est), math.exp(lo), math.exp(hi)
-    return dict(id=cid, model=model, fam=fam, eff=est, lo=lo, hi=hi, k=len(ys), k_run=len(rows), note="; ".join(dict.fromkeys(notes))), None
+    return dict(id=cid, model=model, fam=fam, eff=est, lo=lo, hi=hi, k=len(ys), k_run=k_run, note="; ".join(dict.fromkeys(notes))), None
 
 
 if __name__ == "__main__":

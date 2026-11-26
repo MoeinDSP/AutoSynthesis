@@ -451,7 +451,8 @@ def compute_native_row_effect(
     return None, None
 
 
-def pool_group_native(computation_scale: EffectMeasure, values: List[float], variances: List[float]) -> dict:
+def pool_group_native(computation_scale: EffectMeasure, values: List[float], variances: List[float],
+                      method: str = "REML") -> dict:
     """Random-effects pooling on computation_scale, reusing metafor_engine
     directly: log-scale pooling + back-transform for ratio measures
     (matching how Cochrane/RevMan itself reports pooled ORs/RRs), plain
@@ -470,7 +471,7 @@ def pool_group_native(computation_scale: EffectMeasure, values: List[float], var
     display-time exp() transform -- see agents/meta_analysis_agent.py's
     `_generate_plots()`."""
     if computation_scale in RATIO_MEASURES:
-        raw = metafor_engine.pool_log_measure(values, variances)
+        raw = metafor_engine.pool_log_measure(values, variances, method=method)
         return {
             **raw,
             "pooled_g": raw["pooled_ratio"],
@@ -480,7 +481,7 @@ def pool_group_native(computation_scale: EffectMeasure, values: List[float], var
             "ci_lower_log": raw["ci_lower"],
             "ci_upper_log": raw["ci_upper"],
         }
-    return metafor_engine.pool(values, variances)
+    return metafor_engine.pool(values, variances, method=method)
 
 
 # ---------------------------------------------------------------------------

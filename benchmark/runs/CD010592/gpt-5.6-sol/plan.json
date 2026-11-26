@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults and adolescents aged 12 years or older with non-allergic rhinitis, what is the effect of intranasal corticosteroids, compared with placebo, on the risk of experiencing epistaxis at any point during treatment or follow-up?",
+  "treatment_label": "Intranasal corticosteroid at a total daily dose within 200\u2013400 \u00b5g/day",
+  "control_label": "Placebo intranasal treatment",
+  "outcome_description": "Epistaxis (nosebleed) as a dichotomous adverse event: number of participants experiencing at least one episode of epistaxis and total number of participants per randomized arm, measured at any point during treatment or follow-up. Include epistaxis whether actively assessed, spontaneously reported, or recorded in a diary or questionnaire. Do not extract episode counts or any other adverse events, nasal symptom scores, quality-of-life measures, or nasal airflow outcomes.",
+  "positive_direction": "A positive risk difference means intranasal corticosteroids caused a higher absolute risk of epistaxis than placebo; a negative risk difference means a lower absolute risk with intranasal corticosteroids.",
+  "search_queries": [
+    "nonallergic rhinitis intranasal corticosteroid placebo randomized trial epistaxis",
+    "vasomotor rhinitis nasal steroid placebo controlled nosebleed adverse event",
+    "non-allergic rhinitis intranasal glucocorticoid placebo trial epistaxis"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling adults or adolescents aged 12 years or older with non-allergic rhinitis and comparing an intranasal corticosteroid with placebo.",
+    "Trials reporting extractable participant-level dichotomous epistaxis data for both groups (participants with epistaxis and total participants per arm), regardless of whether events were actively assessed, spontaneously reported, or captured by diary or questionnaire and regardless of treatment or follow-up timing.",
+    "For multi-dose trials, an eligible intranasal corticosteroid arm using a total daily dose within 200\u2013400 \u00b5g/day; placebo-controlled parallel-group and eligible randomized crossover evidence may be considered if arm-level event data permit a valid treatment-versus-placebo effect estimate."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial, including protocols, systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, observational studies, and other non-RCTs.",
+    "No comparison between an eligible intranasal corticosteroid treatment condition and a placebo control condition.",
+    "No quantitative dichotomous epistaxis outcome data capable of producing an effect size, specifically the number of participants experiencing epistaxis and total participants per arm; reports providing only means and SDs, t/F-values, episode counts, narrative statements, or other non-extractable data are excluded for this review.",
+    "Completely unrelated to non-allergic rhinitis, intranasal corticosteroid treatment, or epistaxis; studies reporting only other adverse events, nasal symptom scores, quality of life, or airflow outcomes are also excluded from outcome extraction."
+  ],
+  "moderators_to_extract": [
+    "specific intranasal corticosteroid agent",
+    "total daily corticosteroid dose within the eligible 200\u2013400 \u00b5g/day range",
+    "treatment and follow-up duration",
+    "epistaxis ascertainment method (active assessment, spontaneous report, diary, or questionnaire)",
+    "population age group (adolescents, adults, or mixed)",
+    "non-allergic rhinitis subtype and diagnostic criteria"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "Pool arm-level risk differences (RDs) for the proportion of randomized participants experiencing at least one epistaxis event, preferably using randomized denominators under an intention-to-treat principle when available. Treat epistaxis reported at any point during treatment or follow-up as the eligible endpoint and pool it as one outcome rather than splitting by timepoint. In multi-dose trials, select an intranasal corticosteroid arm within 200\u2013400 \u00b5g/day; if more than one eligible dose arm is retained, combine eligible corticosteroid arms and count the shared placebo group once, or otherwise use a valid multivariate/split-control approach so the shared placebo participants are not double-counted. Record zero-event arms and retain studies with zero events in both arms because RD can be estimated without a continuity correction. Use a random-effects model as the primary synthesis when multiple clinically comparable trials are available, with a fixed-effect sensitivity analysis; report pooled RD with 95% confidence intervals, heterogeneity statistics, and absolute interpretation per 100 treated participants. Apply PRISMA 2020 study selection and reporting, duplicate screening and extraction, and RoB 2 assessment for randomized trials.",
+  "target_effect_measure": "RD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "epistaxis"
+}

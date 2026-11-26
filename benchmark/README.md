@@ -27,6 +27,7 @@ benchmark/
 | `data/autosynthesis_{gpt,gemini,claude}.csv` | The same fields as produced by AutoSynthesis with each backbone |
 | `data/repooled_results.csv` | Rows re-pooled from the run's own study-level data (see [Harmonization](#harmonization)); made by `scripts/repool_from_runs.py` |
 | `data/search_overlap_<model>.csv` | Per review: papers found by the search agent, Cochrane's included studies, and the overlap (GPT, Gemini, and Claude) |
+| `data/cochrane_pooling_models.csv` | The model of each selected Cochrane analysis (fixed or random effects) and its statistical method, read from the review's "Data and analyses" table (matched on effect, CI and k; 8 rows checked by hand) |
 | `data/prisma_counts.json` | Papers per pipeline stage (in pipeline, document type, extraction, effect size), from each run's `paper_tracking.csv` |
 
 `runs/<review>/<model>/` contains the saved outputs of each run:
@@ -41,6 +42,8 @@ benchmark/
 | `rob_assessments.json` | Risk-of-bias judgments per study and domain (RoB 2 / ROBINS-I), with rationale and quotes |
 | `meta_analysis_report.md` | The final report |
 | `search_agent/` | Search queries and search summary (records found, time) |
+
+For the 12 earliest reviews (CD007078, CD007130, CD007674, CD008754, CD008986, CD010395, CD010592, CD010668, CD013508, CD013591, CD014428, CD015331) the run folders hold the study-level files only (`plan.json`, `meta_ready_results.json`, `effect_sizes.json`, `meta_analysis_result.json`). For two of them (CD007078 and CD008986, GPT) the saved study data no longer reproduce the reported result and are not included.
 
 The full texts of the included papers are not distributed (copyright). `runs/CD011044_rerun/` is a rerun of one review whose original run saved no study-level data (same prompt and PDFs).
 
@@ -65,6 +68,10 @@ Nothing is re-extracted: the inputs come from `effect_sizes.json` and `meta_read
 | Correlation | 76 reviews | Pearson r between AutoSynthesis and Cochrane effects |
 | Conclusion | all 100 reviews | Same direction and same statistical significance as Cochrane |
 
+### Sensitivity to the pooling model
+
+`scripts/sensitivity_pooling_models.py` re-pools every run's own study data, rebuilt in Cochrane's effect measure, with five models: REML (the AutoSynthesis default), DerSimonian–Laird, fixed effect, UWLS (unrestricted weighted least squares), and the model of the Cochrane analysis itself (DerSimonian–Laird for random effects, as in RevMan; fixed effect otherwise; see `data/cochrane_pooling_models.csv`). Each result is compared with Cochrane using the metrics above. No LLM is called. The pooling functions are plain numpy; they agree with R `metafor` to within 10⁻⁴.
+
 ## Scripts and figures
 
 | Script | Output |
@@ -77,6 +84,7 @@ Nothing is re-extracted: the inputs come from `effect_sizes.json` and `meta_read
 | `generate_unitfree_figures.py`, `generate_topic_breakdown.py` | `unitfree_*.pdf`, `topic_breakdown_*.pdf` |
 | `generate_funnel_flow.py` | `funnel_flow_gpt.pdf` |
 | `generate_venn_search.py` | `venn_search_vs_truth_gpt.pdf` |
+| `sensitivity_pooling_models.py` | Sensitivity analysis: re-pools each run's study data with REML, DL, fixed effect, UWLS and the model Cochrane used, and compares each with Cochrane. `results/sensitivity_pooling_models*.csv`, `sensitivity_pooling_models.pdf` |
 | `audit_statistics.py` | Optional independent check: recomputes each study's effect from the raw inputs and re-pools with R `metafor` (REML and DL). Needs `rpy2` and R. |
 
 Shared helpers: `paths.py` (folder layout), `bench_load.py` (reads the CSVs), `tol_data.py` and `rel_data.py` (per-review comparison tables).

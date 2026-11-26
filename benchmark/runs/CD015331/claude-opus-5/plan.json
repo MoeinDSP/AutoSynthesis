@@ -1,0 +1,38 @@
+{
+  "research_question": "In people with first-episode or recent-onset psychosis, does adding cognitive behavioural therapy (CBT) to standard care reduce negative symptoms of schizophrenia compared with standard care alone or another psychosocial intervention plus standard care?",
+  "treatment_label": "CBT for psychosis added to standard care",
+  "control_label": "Standard care alone or another psychosocial/active control intervention plus standard care",
+  "outcome_description": "Negative symptoms of schizophrenia/psychosis measured with validated clinician- or self-rated instruments (e.g., PANSS negative subscale, SANS total, BPRS negative items, SNS, BNSS, NSA). One endpoint per study, preferring the medium-term assessment (post-treatment or follow-up at or before 12 months); if several eligible assessments exist, the one closest to 12 months and within 12 months is used. Continuous endpoint (post-treatment mean or change score) converted to a standardised mean difference.",
+  "positive_direction": "A positive Hedges g means the CBT-plus-standard-care group had a better outcome \u2014 i.e., lower/less severe negative symptoms (greater reduction on PANSS-negative, SANS, or equivalent) \u2014 than the control group.",
+  "search_queries": [
+    "cognitive behavioural therapy first-episode psychosis randomised controlled trial negative symptoms",
+    "CBT early psychosis recent-onset schizophrenia trial symptom outcome",
+    "cognitive behaviour therapy psychosis PANSS negative SANS controlled comparison standard care"
+  ],
+  "inclusion_criteria": [
+    "Participants are people with first-episode, early, or recent-onset psychosis or schizophrenia-spectrum disorder (including at-risk/early intervention samples where psychosis onset is recent)",
+    "Study evaluates cognitive behavioural therapy (or a CBT-based/CBT-informed psychological intervention) delivered alongside standard care and compares it with standard care alone or another psychosocial intervention plus standard care",
+    "Reports some quantitative measure of negative symptoms (e.g., PANSS-negative, SANS, BPRS negative items) for both groups at any post-baseline assessment"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, qualitative or purely theoretical paper)",
+    "No comparison between a CBT/treatment condition and a control or comparison condition (e.g., single-arm or pre-post only design)",
+    "No quantitative outcome data usable for an effect size (no means and SDs, t/F statistics, proportions, or odds ratios reported or derivable)",
+    "Completely unrelated to CBT and negative symptoms in psychosis (e.g., different population or purely pharmacological outcome with no negative-symptom data)"
+  ],
+  "moderators_to_extract": [
+    "Control condition type (treatment as usual vs. active psychosocial comparator)",
+    "Negative symptom instrument (PANSS-negative, SANS, BPRS, other)",
+    "Timing of endpoint (post-treatment vs. follow-up months since baseline)",
+    "Number of CBT sessions / treatment duration",
+    "Sample size category",
+    "Illness stage (first-episode vs. recent-onset/early psychosis vs. at-risk)",
+    "Risk of bias / blinding of outcome assessors"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool one continuous endpoint per study as a standardised mean difference (Hedges g), sign-oriented so that positive values favour CBT (lower negative-symptom severity). Where only change scores, t/F values, or medians/IQRs are available, convert using standard formulas.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "negative symptoms of schizophrenia"
+}

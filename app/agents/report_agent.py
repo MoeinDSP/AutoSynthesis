@@ -15,6 +15,13 @@ from utils.effect_measures import measure_label as _measure_label, native_poolin
 logger = logging.getLogger(__name__)
 
 
+
+def _pooling_label(method: str) -> str:
+    """Human-readable name of the pooling model (e.g. "Random effects, restricted
+    maximum likelihood (REML)") for the report's methods section."""
+    from statistics.metafor_engine import POOLING_MODELS
+    return POOLING_MODELS.get(method, method)
+
 def _measure_fields(effect_measure: EffectMeasure, computation_scale: EffectMeasure, source: str, conflict: Optional[str]) -> dict:
     """The measure-aware fields added to every group's context dict AND used
     to build the deterministic summary section -- one function, one source
@@ -182,6 +189,7 @@ def report_node(state: GraphState) -> dict:
             "k":          meta_result.k,
             "n_total":    meta_result.n_total,
             "method":     meta_result.method,
+            "pooling_model": _pooling_label(meta_result.method),
             **_measure_fields(
                 meta_result.effect_measure, meta_result.computation_scale,
                 meta_result.effect_measure_source, meta_result.effect_measure_conflict,
@@ -251,6 +259,17 @@ def report_node(state: GraphState) -> dict:
             "trim_fill_k0":     bias_result.trim_fill_k0,
             "trim_fill_g":      bias_result.trim_fill_g,
             "risk":             bias_result.bias_risk,
+            "tests_run_on":     bias_result.scale,
+            "begg_rank_test_tau": bias_result.rank_test_tau,
+            "begg_rank_test_p":   bias_result.rank_test_p_value,
+            "pet_estimate":     bias_result.pet_estimate,
+            "pet_p":            bias_result.pet_p_value,
+            "peese_estimate":   bias_result.peese_estimate,
+            "pet_peese_selected": bias_result.pet_peese_selected,
+            "pet_peese_corrected_estimate": bias_result.pet_peese_estimate,
+            "pet_peese_note":   bias_result.pet_peese_note,
+            "note_on_scale":    "Egger/PET/PEESE/trim-and-fill estimates are on the scale in tests_run_on; "
+                                "for ratio measures that is the log scale (exponentiate to get the ratio).",
         }
     if meta_plots:
         context["figures"] = meta_plots

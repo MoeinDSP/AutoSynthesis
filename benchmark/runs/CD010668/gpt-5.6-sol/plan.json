@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with active systemic lupus erythematosus, does belimumab at the standard approved dose (10 mg/kg intravenously, or the equivalent approved 200 mg subcutaneous regimen when used in the trial), compared with placebo, increase the proportion of participants achieving at least a 4-point reduction from baseline in SELENA-SLEDAI score at 52 weeks?",
+  "treatment_label": "Belimumab at the approved dose (10 mg/kg intravenous or 200 mg subcutaneous) plus background standard therapy",
+  "control_label": "Placebo plus background standard therapy",
+  "outcome_description": "Exact dichotomous endpoint of at least a 4-point reduction from baseline in SELENA-SLEDAI at 52 weeks, extracting the number of participants achieving the reduction and the total number assessed or randomized per eligible arm. In multi-dose studies, include only the belimumab 10 mg/kg arm and the concurrent placebo arm; include belimumab 200 mg subcutaneous when that is the trial regimen. Do not substitute SLE Responder Index, continuous SELENA-SLEDAI change, BILAG, physician global assessment, quality of life, glucocorticoid reduction, adverse events, infections, withdrawals, or mortality.",
+  "positive_direction": "An RR greater than 1 indicates that more participants achieved a \u22654-point SELENA-SLEDAI reduction at 52 weeks with approved-dose belimumab than with placebo.",
+  "search_queries": [
+    "belimumab placebo randomized trial SELENA-SLEDAI 4 point week 52",
+    "belimumab 10 mg/kg controlled SLE SELENA-SLEDAI response",
+    "belimumab 200 mg subcutaneous placebo trial SELENA-SLEDAI reduction"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling adults with active systemic lupus erythematosus and comparing belimumab with placebo, generally on background standard therapy.",
+    "Trials evaluating the approved belimumab regimen of 10 mg/kg intravenously or 200 mg subcutaneously; for multi-dose trials, only the 10 mg/kg belimumab arm and concurrent placebo arm are eligible.",
+    "Reports providing, directly or through linked publications or supplementary material, quantitative arm-level data for the proportion achieving a \u22654-point reduction from baseline in SELENA-SLEDAI at 52 weeks."
+  ],
+  "exclusion_criteria": [
+    "Not an original completed randomized empirical study: exclude systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, protocols, and non-randomized studies.",
+    "No eligible comparison between approved-dose belimumab and a concurrent placebo control condition, including studies reporting only unapproved-dose arms without usable 10 mg/kg intravenous or 200 mg subcutaneous data.",
+    "No quantitative data capable of producing an effect size for the exact dichotomous \u22654-point SELENA-SLEDAI reduction at 52 weeks (event counts and arm totals, or an equivalent recoverable proportion required); do not substitute SRI, continuous SELENA-SLEDAI change, BILAG, physician global assessment, quality of life, glucocorticoid reduction, safety outcomes, withdrawals, or mortality.",
+    "Completely unrelated to belimumab treatment in adults with active systemic lupus erythematosus."
+  ],
+  "moderators_to_extract": [
+    "Belimumab route and regimen (10 mg/kg intravenous vs 200 mg subcutaneous)",
+    "Trial phase and study identifier",
+    "Baseline SLE disease-activity severity",
+    "Background standard SLE therapy and permitted concomitant immunosuppression",
+    "Geographic region or multinational setting",
+    "Risk-of-bias domains, including randomization, allocation concealment, blinding, missing outcome data, and selective reporting"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool the exact 52-week responder proportions as risk ratios (RRs), using event counts and total participants for each eligible arm. Use only the 10 mg/kg intravenous arm versus concurrent placebo in multi-dose trials, or the approved 200 mg subcutaneous arm versus placebo when applicable. Keep the participant-analysis denominator definition used by each trial (preferably randomized/intention-to-treat) and document any imputation of nonresponders or missing-data rules. If multiple reports describe the same trial, link them and include the trial only once. Use a random-effects model as the primary synthesis, report 95% confidence intervals and heterogeneity (tau-squared and I-squared), and conduct a fixed-effect sensitivity analysis when feasible. Assess risk of bias with RoB 2 and rate certainty with GRADE; investigate publication bias only if enough independent studies are available.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "\u22654-point reduction in SELENA-SLEDAI at 52 weeks"
+}

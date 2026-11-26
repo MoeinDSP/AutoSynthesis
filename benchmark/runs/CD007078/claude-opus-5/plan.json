@@ -1,0 +1,37 @@
+{
+  "research_question": "In adult smokers, does an Internet-based smoking cessation intervention combined with behavioural support increase smoking cessation (abstinence) at 6 months or longer follow-up, compared with a non-Internet-based non-active control?",
+  "treatment_label": "Internet-based smoking cessation intervention plus behavioural support",
+  "control_label": "Non-Internet-based non-active control (e.g. usual care, self-help booklet, waitlist, assessment only)",
+  "outcome_description": "Smoking cessation / tobacco abstinence assessed at 6 months or longer after randomisation or baseline. For each study, a single endpoint is used: the study's most rigorous reported abstinence definition for this comparison (e.g. biochemically validated prolonged or continuous abstinence preferred over point-prevalence, and self-reported point-prevalence only if nothing stricter is reported), reported as number of quitters out of the number randomised or analysed in each arm.",
+  "positive_direction": "A positive effect (RR greater than 1, or positive Hedges g if standardised) means the Internet-based intervention with behavioural support produced MORE smoking abstinence at \u22656 months than the non-Internet-based non-active control.",
+  "search_queries": [
+    "internet-based smoking cessation intervention randomized controlled trial abstinence",
+    "web-based smoking cessation program behavioural support trial quit rates 6 months",
+    "online smoking cessation counselling usual care control trial continuous abstinence"
+  ],
+  "inclusion_criteria": [
+    "Study enrols adult smokers (or predominantly adults) and evaluates an Internet-/web-based smoking cessation intervention that includes some form of behavioural support or counselling component",
+    "Includes a comparison group that is a non-Internet-based non-active control (usual care, printed self-help material, waitlist, assessment-only, minimal advice)",
+    "Reports quantitative smoking cessation/abstinence data at a follow-up of 6 months or longer that allows computation of a dichotomous effect size (event counts or proportions per arm, or a reported RR/OR)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a treatment condition and a control condition (e.g. single-arm or pre-post only, or comparison only between two active Internet-based arms)",
+    "No quantitative outcome data usable for an effect size (no event counts/proportions, means+SDs, t/F values, or odds/risk ratios reported)",
+    "Completely unrelated to Internet-based smoking cessation in adult smokers, or reports only outcomes other than abstinence at \u22656 months (e.g. only short-term cessation <6 months, quit attempts, smoking reduction, dependence, usage, self-efficacy)"
+  ],
+  "moderators_to_extract": [
+    "Type of behavioural support component (automated tailored feedback, e-counselling, telephone/in-person counselling, peer/social support)",
+    "Nature of control condition (usual care, printed self-help, waitlist/assessment-only)",
+    "Length of follow-up at the extracted endpoint (6, 12, or >12 months)",
+    "Abstinence definition and biochemical validation (validated vs self-report; continuous/prolonged vs point-prevalence)",
+    "Concurrent pharmacotherapy availability (offered to both arms, intervention only, none)",
+    "Sample size category and country/region of recruitment"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Pool as a dichotomous risk ratio (RR) of abstinence, intervention vs control, using one endpoint per study (the most rigorous abstinence definition reported for this comparison at \u22656 months; if multiple qualifying follow-ups exist, prefer the longest reported with the most rigorous definition). Use intention-to-treat denominators (participants randomised) where available, treating losses to follow-up as continuing smokers.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "smoking cessation (abstinence) at 6 months or longer"
+}

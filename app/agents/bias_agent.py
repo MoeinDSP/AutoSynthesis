@@ -1,8 +1,10 @@
 """
 Bias node — Stage 8.
 
-Pattern 4: runs Egger's test and trim-and-fill, generates funnel plot,
-then uses llm.invoke() for interpretation.
+Pattern 4: runs Egger's regression test, Begg's rank test, trim-and-fill and
+PET-PEESE on the primary outcome group (on its own effect measure, under the
+run's pooling model), generates the funnel plot, then uses llm.invoke() for
+interpretation.
 """
 
 import logging
@@ -12,7 +14,8 @@ from typing import Any, Dict, List
 
 from agents.llm import llm
 from models import EffectMeasure, EffectSizeRecord, BiasResult
-from statistics.publication_bias import eggers_test, trim_and_fill
+from statistics.publication_bias import eggers_test, rank_test, trim_and_fill, pet_peese
+from statistics.metafor_engine import normalize_pooling_model
 from statistics.plots import funnel_plot
 from utils.effect_measures import RATIO_MEASURES, measure_label
 from core_utils import save_json
@@ -49,23 +52,9 @@ def bias_node(state: dict) -> dict:
                 os.remove(stale_path)
         return {"bias_result": None, "bias_funnel_path": "", "bias_interpretation": {}}
 
-    # Egger's test / trim-and-fill keep pooling on Hedges' g (pre-existing
-    # behaviour, unchanged here -- out of scope for this fix, which is about
-    # the funnel PLOT's display scale only; see effects_list/variances_list
-    # below for the separate, measure-aware values the plot itself uses).
-    effects_list = [es.hedges_g for es in effect_sizes]
-    variances_list = [es.variance for es in effect_sizes]
     pooled_g = meta_result.pooled_g if meta_result else 0.0
-
-    try:
-        eggers = eggers_test(effects_list, variances_list)
-        tf = trim_and_fill(effects_list, variances_list, side="right")
-    except Exception as exc:
-        logger.error(f"[Bias] Statistical tests failed: {exc}")
-        return {
-            "bias_result": None, "bias_funnel_path": "", "bias_interpretation": {},
-            "errors": state.get("errors", []) + [str(exc)],
-        }
+    plan = state.get("plan")
+    method = normalize_pooling_model(getattr(plan, "pooling_model", None) if plan else None)
 
     # --- Restrict to the PRIMARY outcome group's OWN studies before building
     # the funnel plot. state["effect_sizes"] is the FULL, unfiltered list Stage
@@ -138,6 +127,45 @@ def bias_node(state: dict) -> dict:
             # mislabel a broken number as if it were valid.
             funnel_unavailable = True
 
+    # --- The bias tests run on the SAME studies and scale as the funnel plot:
+    # the primary outcome group's own effect measure (log scale for ratios),
+    # under the run's pooling model. (Previously they ran on Hedges' g of every
+    # effect size in the run, mixing outcome groups.) Falls back to Hedges' g
+    # only when no native measure was resolved. ---
+    if funnel_unavailable:
+        test_effects = [es.hedges_g for es in funnel_effect_sizes]
+        test_variances = [es.variance for es in funnel_effect_sizes]
+        test_scale = measure_label(EffectMeasure.HEDGES_G)
+    else:
+        test_effects, test_variances = native_effects, native_variances
+        test_scale = measure_label(computation_scale) + (" (log scale)" if is_ratio else "")
+
+    if len(test_effects) < 3:
+        logger.info("[Bias] Fewer than 3 studies in the primary outcome group -- skipping the tests.")
+        save_json({}, os.path.join(output_dir, "bias_result.json"))
+        return {"bias_result": None, "bias_funnel_path": "", "bias_interpretation": {}}
+
+    try:
+        eggers = eggers_test(test_effects, test_variances, method=method)
+        tf = trim_and_fill(test_effects, test_variances, side=None, method=method)
+    except Exception as exc:
+        logger.error(f"[Bias] Statistical tests failed: {exc}")
+        return {
+            "bias_result": None, "bias_funnel_path": "", "bias_interpretation": {},
+            "errors": state.get("errors", []) + [str(exc)],
+        }
+    # Additional tests: a failure here must not lose Egger/trim-and-fill.
+    try:
+        rank = rank_test(test_effects, test_variances, method=method)
+    except Exception as exc:
+        logger.warning(f"[Bias] Rank test failed: {exc}")
+        rank = {}
+    try:
+        pp = pet_peese(test_effects, test_variances)
+    except Exception as exc:
+        logger.warning(f"[Bias] PET-PEESE failed: {exc}")
+        pp = {}
+
     funnel_path = ""
     try:
         funnel_path = funnel_plot(
@@ -173,13 +201,33 @@ def bias_node(state: dict) -> dict:
         trim_fill_ci_lower=tf.get("adjusted_ci_lower", 0.0),
         trim_fill_ci_upper=tf.get("adjusted_ci_upper", 0.0),
         bias_risk=bias_risk,
+        method=method,
+        scale=test_scale,
+        rank_test_tau=rank.get("kendall_tau"),
+        rank_test_p_value=rank.get("p_value") if "kendall_tau" in rank else None,
+        pet_estimate=(pp.get("pet") or {}).get("estimate"),
+        pet_ci_lower=(pp.get("pet") or {}).get("ci_lower"),
+        pet_ci_upper=(pp.get("pet") or {}).get("ci_upper"),
+        pet_p_value=(pp.get("pet") or {}).get("p_value"),
+        peese_estimate=(pp.get("peese") or {}).get("estimate"),
+        peese_ci_lower=(pp.get("peese") or {}).get("ci_lower"),
+        peese_ci_upper=(pp.get("peese") or {}).get("ci_upper"),
+        peese_p_value=(pp.get("peese") or {}).get("p_value"),
+        pet_peese_selected=pp.get("selected"),
+        pet_peese_estimate=pp.get("corrected_estimate"),
+        pet_peese_note=pp.get("note"),
     )
 
     interpretation: Dict[str, str] = {}
     try:
         resp = llm.invoke(
-            f"Interpret this publication bias assessment in 2-3 sentences:\n"
-            f"Egger's test p={eggers_p:.4f}, trim-and-fill k0={tf_k0}, risk={bias_risk}."
+            f"Interpret this publication bias / small-study effects assessment in 2-3 sentences "
+            f"(effects on the {test_scale} scale, k={len(test_effects)}):\n"
+            f"Egger's test p={eggers_p:.4f}; trim-and-fill k0={tf_k0}; "
+            f"Begg's rank test p={bias_result.rank_test_p_value}; "
+            f"PET-PEESE corrected estimate={bias_result.pet_peese_estimate} ({bias_result.pet_peese_selected}); "
+            f"overall risk={bias_risk}."
+            + (f" Note: {bias_result.pet_peese_note}" if bias_result.pet_peese_note else "")
         )
         interpretation["overall"] = resp.content
     except Exception as exc:

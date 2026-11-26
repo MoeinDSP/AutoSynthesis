@@ -18,7 +18,7 @@ class _StubbornOrchestrator:
     def __init__(self, output_dir):
         pass
 
-    def run_until_search_review(self, prompt, paper_files=None):
+    def run_until_search_review(self, prompt, paper_files=None, **kwargs):
         for _ in range(400):                      # ~20 s if never cancelled
             try:
                 time.sleep(0.05)

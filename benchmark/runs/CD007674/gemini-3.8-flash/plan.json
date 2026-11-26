@@ -1,0 +1,35 @@
+{
+  "research_question": "In older adults (\u226555 years) with an anxiety or related disorder, what is the effect of cognitive behavioural therapy (CBT) compared with minimal management on dropout rates at 3\u20136 months post-treatment?",
+  "treatment_label": "Cognitive behavioural therapy (CBT)",
+  "control_label": "Minimal management (waitlist, usual care, supportive/attention control, or medication alone)",
+  "outcome_description": "Cumulative participant dropout/discontinuation rate at 3\u20136 months post-treatment follow-up (number of participants dropping out or lost to follow-up relative to total randomized per arm)",
+  "positive_direction": "A risk ratio greater than 1.0 indicates a higher rate of dropout in the CBT group compared with the minimal management control group",
+  "search_queries": [
+    "cognitive behavioral therapy older adults anxiety randomized controlled trial",
+    "CBT late life anxiety follow up trial attrition",
+    "cognitive therapy elderly anxiety disorder controlled trial dropout"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials comparing cognitive behavioural therapy (CBT) to minimal management (waitlist, treatment-as-usual, attention control, or medication without active psychotherapy) in older adults (\u226555 years) with an anxiety or related disorder",
+    "Reports quantitative dropout, discontinuation, or retention data at 3\u20136 months post-treatment follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial (systematic reviews, meta-analyses, study protocols, editorials, and non-RCT designs are excluded)",
+    "No comparison between CBT and an eligible minimal management control condition (e.g., comparisons solely against another active psychological therapy)",
+    "No quantitative data on participant dropout or discontinuation at 3\u20136 months post-treatment",
+    "Population not comprised of older adults (age <55 years) or not diagnosed with an anxiety or related disorder"
+  ],
+  "moderators_to_extract": [
+    "Type of minimal management control (waitlist, usual care, attention/supportive control, medication)",
+    "Follow-up timing within window (3 months vs. 6 months post-treatment)",
+    "Specific anxiety disorder diagnosis (e.g., GAD, panic, mixed anxiety)",
+    "Delivery format (individual vs. group CBT)",
+    "Mean participant age"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Risk Ratio (RR) calculated from cumulative dropout events and total randomized participants per arm. If sequential dropouts are reported across phases, they are summed to obtain cumulative dropout by 3-6 months post-treatment. If multiple follow-up timepoints exist between 3 and 6 months, the latest follow-up within this window is used.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "dropout rate at 3-6 months post-treatment"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with chronic neck pain, does telerehabilitation delivering exercise or physical activity reduce pain intensity at short-term follow-up (>2 weeks to \u22643 months post-randomisation) compared with a minimal intervention (advice, education, usual care without active rehabilitation, wait-list, or no active care)?",
+  "treatment_label": "Telerehabilitation-delivered exercise/physical activity (remote, app-, web-, video-, or phone-supported)",
+  "control_label": "Minimal intervention (advice/education only, usual care without active rehabilitation, wait-list, or no active care)",
+  "outcome_description": "Self-reported neck pain intensity measured on any continuous or ordinal pain scale (e.g., VAS, NRS, numeric pain rating, McGill or SF-36 bodily-pain-type intensity items) assessed at the short-term follow-up point falling more than 2 weeks and no later than 3 months after randomisation. One endpoint per study; if multiple pain measures or several eligible assessments exist within the short-term window, take the single most representative/primary pain-intensity endpoint closest to 3 months. Only the isolated pairwise contrast between the telerehabilitation-exercise arm and the genuine minimal/no-active-care arm is extracted; contrasts between two active arms and omnibus multi-group statistics (e.g., Kruskal-Wallis, overall ANOVA) are not extracted. Results whose reported numbers (e.g., medians) contradict the paper's own stated direction of effect are treated as unusable. No other outcome domain (function, disability, quality of life, anxiety, depression, fear avoidance, adherence, etc.) is extracted, classified, or pooled.",
+  "positive_direction": "A positive Hedges g means the telerehabilitation exercise group had LOWER short-term neck pain intensity (greater pain reduction) than the minimal-intervention control group.",
+  "search_queries": [
+    "telerehabilitation exercise chronic neck pain randomized controlled trial pain intensity",
+    "web-based or app-based home exercise program neck pain trial usual care control",
+    "telehealth remote physiotherapy neck pain exercise effect pain outcome"
+  ],
+  "inclusion_criteria": [
+    "Adults (mean age \u226518) with neck pain of chronic or persistent/recurrent nature",
+    "Evaluates a remotely delivered (telerehabilitation, web, app, video, telephone, virtual) exercise or physical activity intervention compared with a minimal, education/advice-only, usual-care-without-active-rehabilitation, wait-list, or no-active-care condition",
+    "Reports some quantitative pain-intensity outcome data for both arms at any follow-up (short-term data will be extracted where available)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a telerehabilitation-exercise condition and a minimal/no-active-care control condition (e.g., only two active interventions compared, or single-arm design)",
+    "No quantitative outcome data permitting effect-size computation (no means+SDs, t/F values, proportions, odds ratios, or convertible statistics for the isolated pairwise contrast); only omnibus multi-group statistics or internally contradictory numbers reported",
+    "Completely unrelated to telerehabilitation exercise for chronic neck pain (e.g., acute whiplash-only, post-surgical, other body regions, non-exercise interventions)"
+  ],
+  "moderators_to_extract": [
+    "Delivery modality (app/web platform vs videoconference vs telephone-supported)",
+    "Type of control condition (advice/education, usual care, wait-list/no care)",
+    "Intervention duration and supervision intensity",
+    "Pain scale used (VAS vs NRS/other)",
+    "Sample size category",
+    "Risk-of-bias / study design quality (RCT vs quasi-experimental)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Compute Hedges g from short-term (>2 weeks to \u22643 months) between-group post-intervention means and SDs (or change scores) for the isolated telerehabilitation-vs-minimal-intervention pair; sign so that positive favours telerehabilitation (less pain). Convert t/F, mean differences with CIs, or SEs as needed. Do not use omnibus tests or self-contradictory reported values.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pain intensity"
+}

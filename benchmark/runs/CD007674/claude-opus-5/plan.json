@@ -1,0 +1,37 @@
+{
+  "research_question": "In older adults (\u226555 years) with an anxiety or related disorder, does cognitive behavioural therapy (CBT) differ from minimal management (waiting list, usual care, supportive/attention control, or medication without active psychological therapy) in dropout/discontinuation rates at 3\u20136 months post-treatment follow-up?",
+  "treatment_label": "Cognitive behavioural therapy (CBT)",
+  "control_label": "Minimal management (waiting list, usual care, supportive/attention control, or medication only)",
+  "outcome_description": "Dropout/discontinuation (study or treatment attrition) measured at a 3\u20136 month post-treatment follow-up assessment, expressed as number of dropout events and total randomised participants per arm. Dropout counts should be taken from narrative Results/Attrition/Sample-selection text as well as tables and flow diagrams; where a paper reports two explicitly stated sequential intervals (e.g. n lost by post-treatment plus n further lost by 6 months), these stated numbers are summed to give the cumulative total. If several eligible follow-up points fall within the 3\u20136 month window, the latest one is used. Immediate post-treatment-only dropout is not eligible.",
+  "positive_direction": "A positive effect (RR > 1, or positive Hedges g on the underlying scale) means MORE dropout/discontinuation in the CBT arm than in the minimal-management arm at 3\u20136 months post-treatment; values below the null indicate better retention with CBT.",
+  "search_queries": [
+    "cognitive behavioural therapy older adults anxiety randomized controlled trial dropout attrition",
+    "CBT late-life anxiety disorder trial waiting list usual care follow-up outcomes",
+    "geriatric generalized anxiety worry psychological treatment controlled trial 6-month follow-up completion"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults with a mean or minimum age around 55 years or older who have an anxiety or related disorder (e.g. GAD, panic, phobia, social anxiety, OCD, PTSD, mixed anxiety, subthreshold/clinically significant worry)",
+    "Compares cognitive behavioural therapy (or a clearly CBT-based intervention, any format or delivery mode) with a minimal-management condition such as waiting list, usual/treatment-as-usual care, supportive or attention control, psychoeducation-only, or medication without active psychological therapy",
+    "Reports quantitative participant retention or attrition information (dropout counts, completers, or flow data) that includes an assessment point in the 3\u20136 month post-treatment follow-up window"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, opinion piece, theoretical/commentary paper, or study protocol) or not a randomised controlled trial",
+    "No comparison between CBT and a minimal-management control condition (e.g. CBT compared only with another active psychological therapy, or single-arm/uncontrolled design)",
+    "No quantitative outcome data allowing effect-size computation (dropout events and per-arm denominators, proportions, or equivalent statistics unavailable)",
+    "Completely unrelated to the research topic (e.g. younger-adult-only samples, non-anxiety primary condition, or no dropout information at any 3\u20136 month post-treatment follow-up)"
+  ],
+  "moderators_to_extract": [
+    "CBT delivery format (individual, group, telephone/internet-guided, self-help)",
+    "Type of minimal-management comparator (waiting list vs usual care vs attention/supportive control vs medication only)",
+    "Primary anxiety diagnosis (GAD vs mixed/other anxiety vs subthreshold worry)",
+    "Mean age of sample",
+    "Length of follow-up interval within the 3\u20136 month window (months)",
+    "Total randomised sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as a risk ratio (RR) of dropout in CBT vs minimal management, using dropout events and total randomised participants per arm. Extract only this outcome; no symptom-severity or other outcomes. Cumulative dropout is the sum of explicitly stated sequential interval counts where a paper reports them that way, and the latest eligible follow-up within 3\u20136 months is used when multiple are available.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "Dropout/discontinuation at 3\u20136 months post-treatment"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with heart disease enrolled in randomized controlled trials, what is the effect of home-based cardiac rehabilitation, including digitally or telehealth-supported home programmes, compared with supervised centre-based cardiac rehabilitation on triglyceride concentrations, using the latest eligible follow-up from 3 through 12 months?",
+  "treatment_label": "Home-based cardiac rehabilitation (including digital-, remote-, or telehealth-supported programmes)",
+  "control_label": "Supervised centre-based cardiac rehabilitation",
+  "outcome_description": "Triglycerides only, measured at the latest reported eligible follow-up between 3 and 12 months inclusive. Extract arm-level mean, SD, and N for each eligible arm. Use absolute follow-up values or change-from-baseline values, whichever the study reports; do not exclude studies solely for reporting change scores. Convert all triglyceride results to mmol/L before synthesis using the universal triglyceride conversion factor: mmol/L = mg/dL \u00d7 0.01129 (equivalently, mg/dL \u00f7 88.57); apply corresponding linear conversions to SDs and other dispersion measures. If only median and IQR are reported, estimate the mean and SD using Wan et al. (2014), recording that the values were estimated. For multi-arm RCTs, extract every eligible home-based intervention versus the shared centre-based control comparison separately, while accounting for the shared comparator in synthesis (for example, by appropriately splitting the control group or using a correlated/multilevel approach). Pool final-value and change-score estimates together when expressed on the same mmol/L scale, with value type recorded for sensitivity or moderator analysis.",
+  "positive_direction": "A positive effect means triglyceride concentrations are higher after home-based cardiac rehabilitation than after supervised centre-based rehabilitation (generally an unfavorable lipid effect); a negative effect means lower triglycerides with home-based rehabilitation.",
+  "search_queries": [
+    "home-based cardiac rehabilitation centre-based randomized triglycerides",
+    "telehealth cardiac rehabilitation supervised centre comparison trial triglycerides",
+    "digital home cardiac rehabilitation randomized controlled triglyceride outcome"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials in adults (18 years or older) with heart disease that compare an eligible home-based cardiac rehabilitation programme, with or without digital/telehealth support, against supervised centre-based cardiac rehabilitation.",
+    "Studies reporting triglycerides for both eligible groups at one or more follow-ups from 3 through 12 months, using either absolute follow-up values or change-from-baseline values.",
+    "Studies providing, or allowing derivation or estimation of, quantitative triglyceride data sufficient for an effect size, including arm-level mean, SD, and N or convertible summary statistics such as median and IQR."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study, including systematic reviews, meta-analyses, protocols, editorials, opinion pieces, and theoretical papers.",
+    "No comparison between an eligible home-based cardiac rehabilitation treatment and a supervised centre-based cardiac rehabilitation control; exclude usual-care, waitlist, no-treatment, and other non-centre comparators.",
+    "No quantitative triglyceride outcome data capable of producing an effect size, such as means and SDs, convertible medians and IQRs, t/F statistics, proportions, or odds ratios; also exclude reports from which arm-level triglyceride results cannot be obtained or derived.",
+    "Completely unrelated to home-based versus centre-based cardiac rehabilitation in adults with heart disease, non-randomized studies, or reports that provide only outcomes other than triglycerides."
+  ],
+  "moderators_to_extract": [
+    "Home-programme delivery mode (traditional home-based, digital/app-based, telephone-supported, videoconference/telehealth, hybrid)",
+    "Cardiac diagnosis or indication (e.g., coronary artery disease, myocardial infarction, revascularization, heart failure)",
+    "Exact follow-up time in months",
+    "Triglyceride data type (absolute follow-up value versus change from baseline)",
+    "Programme duration and exercise/contact intensity",
+    "Risk-of-bias domains and use of lipid-lowering medication or medication co-intervention balance"
+  ],
+  "search_start_year": 1970,
+  "effect_size_note": "At screening and extraction, retain only randomized comparisons of home-based versus supervised centre-based rehabilitation and only the triglyceride outcome. Select the latest eligible triglyceride assessment between 3 and 12 months inclusive for each comparison. Standardize units to mmol/L using mg/dL \u00d7 0.01129 (or \u00f7 88.57), converting means, SDs, medians, quartiles, and changes consistently. Estimate mean and SD from median/IQR with Wan et al. (2014) and flag imputed estimates for sensitivity analysis. Extract arm-level mean, SD, and analyzed N, baseline values where available, whether the result is a final value or change score, and the change-score correlation if reported. Final values and change scores may be combined when analyzed as a mean difference on the common mmol/L scale; assess sensitivity by data type and by excluding Wan-derived estimates. Extract each eligible home arm versus a shared centre control separately, but prevent unit-of-analysis error by splitting the shared control contribution across comparisons or using a model that accounts for correlated effects. Use a random-effects model, report 95% CIs and prediction intervals when estimable, quantify heterogeneity with tau-squared and I-squared, perform leave-one-out/influence analyses, and assess small-study effects only when enough independent comparisons are available. Follow PRISMA 2020 with duplicate screening/extraction, a flow diagram, excluded-full-text reasons, protocol registration, comprehensive database and trial-registry searching, citation chasing, author contact for missing arm-level data, and RoB 2 assessment.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "triglycerides"
+}

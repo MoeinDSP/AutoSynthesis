@@ -1,0 +1,36 @@
+{
+  "research_question": "In adults, what is the effect of remote or web 2.0 physical activity interventions compared with placebo, no intervention, or minimal intervention on self-reported physical activity measured at 12 months follow-up?",
+  "treatment_label": "remote or web 2.0 physical activity intervention",
+  "control_label": "placebo, no intervention, or minimal intervention",
+  "outcome_description": "Continuous self-reported physical activity at 12 months follow-up (e.g., minutes per week, MET-minutes per week, self-report scale scores; excluding cardiorespiratory fitness, dichotomous outcomes, and 24-month follow-up)",
+  "positive_direction": "Higher self-reported physical activity in the remote/web 2.0 intervention group compared with the control group at 12 months follow-up",
+  "search_queries": [
+    "remote web physical activity intervention randomized controlled trial",
+    "internet web 2.0 physical activity trial 12 month follow up",
+    "online digital physical activity intervention controlled trial outcome"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials evaluating remote, web-based, or Web 2.0 physical activity interventions in adults",
+    "Comparison to a control group receiving placebo, no intervention, waitlist, or minimal intervention",
+    "Quantitative continuous reporting of self-reported physical activity at or near 12 months follow-up with data extractable for standardized mean differences (means, SDs, sample sizes)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial (systematic reviews, meta-analyses, study protocols, editorials, and non-RCTs are excluded)",
+    "No comparison between a remote/web 2.0 intervention and a placebo, no intervention, or minimal intervention control condition",
+    "No extractable quantitative continuous data for self-reported physical activity at or near 12 months follow-up (e.g., exclusively cardiorespiratory fitness, dichotomous outcomes like meeting guidelines, or exclusively 24-month data)",
+    "Completely unrelated to remote or web 2.0 physical activity interventions in adult populations"
+  ],
+  "moderators_to_extract": [
+    "Delivery platform / intervention type (e.g., website, Web 2.0 social features, mobile web)",
+    "Control group type (no intervention/waitlist vs. minimal intervention vs. attention placebo)",
+    "Physical activity measurement tool (e.g., IPAQ, 7-day recall, self-report questionnaire)",
+    "Participant population characteristics (general adult vs. clinical/at-risk population; mean age)",
+    "Intervention duration and active support components (e.g., automated vs. human feedback)"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Extract raw arm-level mean, SD, and N for self-reported physical activity at the 12-month timepoint (or closest assessment if multiple are reported). Pool across studies using standardized mean difference (SMD).",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-reported physical activity"
+}

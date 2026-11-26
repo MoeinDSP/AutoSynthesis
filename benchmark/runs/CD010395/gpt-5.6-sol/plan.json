@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults, what is the effect of remote or Web 2.0 physical activity interventions, compared with placebo, no intervention, or minimal intervention, on continuous self-reported physical activity assessed at 12 months?",
+  "treatment_label": "Remote or Web 2.0 physical activity intervention",
+  "control_label": "Placebo, no intervention, or minimal intervention",
+  "outcome_description": "Continuous self-reported physical activity at the assessment closest to 12 months. Extract raw arm-level mean, standard deviation, and sample size for each randomized group. Eligible measures may include self-reported activity duration, frequency, volume, energy expenditure, or questionnaire scores. Exclude cardiorespiratory fitness, device-measured activity, dichotomous outcomes such as meeting activity guidelines, and 24-month follow-up data. If multiple eligible assessments are available, select the one closest to 12 months.",
+  "positive_direction": "A positive SMD means that adults assigned to a remote or Web 2.0 intervention reported greater physical activity at 12 months than adults assigned to placebo, no intervention, or minimal intervention; reverse-code measures if higher scores indicate less activity.",
+  "search_queries": [
+    "remote physical activity intervention randomized trial 12 month self reported outcome",
+    "web based physical activity program controlled trial 12 month questionnaire",
+    "Web 2.0 exercise intervention RCT long term self reported physical activity"
+  ],
+  "inclusion_criteria": [
+    "Original randomized controlled trials enrolling adults and evaluating a remote, online, web-based, mobile, telehealth, social-media, or other Web 2.0 intervention intended to increase physical activity.",
+    "Trials containing an eligible placebo, no-intervention, wait-list, usual-information, attention, or minimal-intervention comparison group.",
+    "Trials reporting a continuous self-reported physical activity measure at, or sufficiently near, 12 months with arm-level mean, SD, and N or other quantitative information from which these values or an SMD can be obtained."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical RCT, including protocols, systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and non-randomized studies.",
+    "No comparison between the remote/Web 2.0 intervention and a placebo, no-intervention, or minimal-intervention control condition.",
+    "No eligible quantitative continuous self-reported physical activity data capable of producing an effect size (e.g., arm-level means, SDs, and Ns, or convertible t/F statistics); this includes studies reporting only dichotomous activity outcomes, cardiorespiratory fitness, device-measured outcomes, or only 24-month data.",
+    "Completely unrelated to remote or Web 2.0 physical activity interventions in adults."
+  ],
+  "moderators_to_extract": [
+    "Intervention delivery mode and technology type",
+    "Intervention duration and intensity/contact frequency",
+    "Control condition type",
+    "Population characteristics, including mean age, sex/gender distribution, and clinical versus general population",
+    "Self-report instrument and physical activity construct or unit",
+    "Exact timing of the assessment selected as closest to 12 months"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Pool continuous outcomes as standardized mean differences because studies may use different instruments and units. Prefer raw randomized-arm mean, SD, and N at the eligible assessment closest to 12 months; align score direction so higher values consistently represent more physical activity. Apply an appropriate small-sample correction if the analysis software's SMD implementation does so, document all conversions or imputations, and account for multi-arm trials to avoid double-counting shared controls.",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "self-reported physical activity"
+}

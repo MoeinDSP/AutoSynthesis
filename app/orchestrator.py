@@ -21,6 +21,7 @@ def _initial_graph_state(
     user_prompt: str,
     output_dir: str,
     paper_files: Optional[List[str]] = None,
+    pooling_model: Optional[str] = None,
 ) -> dict:
     if paper_files:
         mode = "manual"
@@ -31,6 +32,7 @@ def _initial_graph_state(
         "mode":          mode,
         "paper_files":   paper_files or [],
         "output_dir":    output_dir,
+        "pooling_model": pooling_model,   # dashboard drop-down; None = prompt/default (see plan_node)
         "plan":          None,
         "papers_eligible": [],
         "study_maps":    {},
@@ -126,6 +128,7 @@ class MetaAnalysisOrchestrator:
         self,
         user_prompt: str,
         paper_files: Optional[List[str]] = None,
+        pooling_model: Optional[str] = None,
     ) -> PipelineState:
         """Run the full pipeline via LangGraph StateGraph."""
         from pipeline_graph import build_graph, GraphState
@@ -143,7 +146,7 @@ class MetaAnalysisOrchestrator:
 
         graph = build_graph()
         initial: GraphState = _initial_graph_state(
-            user_prompt, self.output_dir, paper_files
+            user_prompt, self.output_dir, paper_files, pooling_model
         )
 
         result = graph.invoke(initial)
@@ -160,6 +163,7 @@ class MetaAnalysisOrchestrator:
         self,
         user_prompt: str,
         paper_files: Optional[List[str]] = None,
+        pooling_model: Optional[str] = None,
     ) -> dict:
         """Run search mode through eligibility and write paper_tracking.csv."""
         from pipeline_graph import build_graph, GraphState
@@ -174,7 +178,7 @@ class MetaAnalysisOrchestrator:
 
         graph = build_graph(stop_after_eligibility=True)
         initial: GraphState = _initial_graph_state(
-            user_prompt, self.output_dir, paper_files
+            user_prompt, self.output_dir, paper_files, pooling_model
         )
         result = graph.invoke(initial)
         if result.get("errors"):
@@ -187,6 +191,7 @@ class MetaAnalysisOrchestrator:
         self,
         user_prompt: str,
         paper_files: Optional[List[str]] = None,
+        pooling_model: Optional[str] = None,
     ) -> dict:
         """Run search mode through the search agent and pause there, so the
         user can decline found papers and add further PDFs before full-text
@@ -200,7 +205,7 @@ class MetaAnalysisOrchestrator:
 
         graph = build_graph(stop_after_search=True)
         initial: GraphState = _initial_graph_state(
-            user_prompt, self.output_dir, paper_files
+            user_prompt, self.output_dir, paper_files, pooling_model
         )
         result = graph.invoke(initial)
         if result.get("errors"):
@@ -242,6 +247,7 @@ class MetaAnalysisOrchestrator:
         self,
         user_prompt: str,
         paper_files: Optional[List[str]] = None,
+        pooling_model: Optional[str] = None,
     ) -> dict:
         """Run search mode through full-text fetch and pause there.
 
@@ -261,7 +267,7 @@ class MetaAnalysisOrchestrator:
 
         graph = build_graph(stop_after_fulltext=True)
         initial: GraphState = _initial_graph_state(
-            user_prompt, self.output_dir, paper_files
+            user_prompt, self.output_dir, paper_files, pooling_model
         )
         result = graph.invoke(initial)
         if result.get("errors"):

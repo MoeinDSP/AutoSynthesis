@@ -1,0 +1,35 @@
+{
+  "research_question": "In adults with active systemic lupus erythematosus (SLE), what is the effect of belimumab at standard approved doses (10 mg/kg IV or 200 mg SC) compared with placebo on achieving at least a 4-point reduction in SELENA-SLEDAI score at 52 weeks?",
+  "treatment_label": "Belimumab (10 mg/kg IV or 200 mg SC)",
+  "control_label": "Placebo",
+  "outcome_description": "Dichotomous rate of participants achieving at least a 4-point reduction in SELENA-SLEDAI score from baseline to 52 weeks",
+  "positive_direction": "A risk ratio greater than 1.0 indicates a higher probability of achieving a \u22654-point reduction in SELENA-SLEDAI at 52 weeks, favoring belimumab over placebo.",
+  "search_queries": [
+    "belimumab systemic lupus erythematosus randomized controlled trial SELENA-SLEDAI",
+    "belimumab placebo active SLE trial 52 weeks outcome",
+    "belimumab lupus randomized trial SELENA-SLEDAI 4-point reduction"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials of adult patients diagnosed with active systemic lupus erythematosus",
+    "Trials comparing belimumab at standard approved dosing (10 mg/kg IV or 200 mg SC) with placebo",
+    "Studies reporting quantitative outcome data on achieving at least a 4-point reduction in SELENA-SLEDAI score at 52 weeks"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, and commentaries are excluded)",
+    "Non-randomized studies or studies lacking a placebo control arm",
+    "Studies with no quantitative dichotomous data for the \u22654-point reduction in SELENA-SLEDAI at 52 weeks",
+    "Studies evaluating only non-approved belimumab dosing regimens without a standard 10 mg/kg IV or 200 mg SC arm"
+  ],
+  "moderators_to_extract": [
+    "Route of administration (intravenous 10 mg/kg vs. subcutaneous 200 mg)",
+    "Baseline mean SELENA-SLEDAI disease activity score",
+    "Concomitant background immunosuppressant and corticosteroid regimens",
+    "Geographic region or predominant patient racial/ethnic distribution"
+  ],
+  "search_start_year": 2005,
+  "effect_size_note": "Risk ratio (RR) is defined as the incidence rate of achieving a \u22654-point reduction in SELENA-SLEDAI at 52 weeks in the belimumab group divided by that in the placebo group. Only the approved 10 mg/kg IV or 200 mg SC weekly dose arms are compared against placebo.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "SELENA-SLEDAI reduction >= 4 points at 52 weeks"
+}

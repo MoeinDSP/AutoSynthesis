@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with overweight or obesity, what is the effect of a smartphone app intervention, compared with genuine no intervention or a minimal non-app intervention, on body weight in kilograms at short-term follow-up (3 to <6 months, preferably 3\u20134 months)?",
+  "treatment_label": "Smartphone app intervention for weight management",
+  "control_label": "No intervention or minimal non-app intervention (e.g., printed materials, paper food diary, or usual care)",
+  "outcome_description": "Body weight in kilograms at one eligible short-term endpoint per study, restricted to 3 to <6 months and preferentially 3\u20134 months. If multiple eligible endpoints are reported, select the endpoint closest to 3 months, with 3\u20134 months preferred. When both change from baseline and follow-up body-weight values are available for the same endpoint, use change from baseline. Do not extract, classify, or pool BMI, physical activity, self-efficacy, dietary behavior, quality of life, or any other outcome. Exclude assessments at 6 months and at 12 months or longer.",
+  "positive_direction": "A positive Hedges g means the smartphone app produced greater body-weight reduction (or lower body weight at follow-up) than no intervention or a minimal non-app intervention.",
+  "search_queries": [
+    "smartphone app weight loss overweight obesity controlled trial body weight",
+    "mobile application weight management adults experiment usual care weight",
+    "smartphone intervention obesity quantitative comparison weight change"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of adults with overweight or obesity evaluating a smartphone app intended to support weight loss or weight management.",
+    "Studies comparing the smartphone app intervention with genuine no intervention or a minimal, non-app condition such as usual care, printed materials, or a paper food diary.",
+    "Studies reporting body weight in kilograms at an eligible 3 to <6 month follow-up with sufficient quantitative information to estimate an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No eligible treatment-control comparison; specifically exclude comparisons against another smartphone app or another version of the same app, and exclude every study in which both arms receive any smartphone app.",
+    "No quantitative body-weight outcome data capable of producing an effect size, such as means with SDs, change scores with SDs, t/F statistics, proportions, odds ratios, or other convertible statistics.",
+    "Completely unrelated to the research topic or otherwise outside the prespecified scope, including studies without adults with overweight/obesity, without body weight in kilograms, reporting only excluded outcomes, or reporting body weight only at 6 months or at 12 months or longer."
+  ],
+  "moderators_to_extract": [
+    "Comparator type (no intervention, usual care, printed materials, or paper food diary)",
+    "Exact follow-up timing within the 3 to <6 month window",
+    "App functionality and intervention intensity (e.g., self-monitoring, feedback, coaching, reminders)",
+    "Presence and intensity of non-app co-interventions in the treatment arm",
+    "Baseline weight status or mean BMI",
+    "Study design and risk-of-bias domain ratings"
+  ],
+  "search_start_year": 2007,
+  "effect_size_note": "Use one endpoint per study. Prefer change-from-baseline body weight over follow-up body weight when both are reported for the same endpoint. Select an assessment from 3 to <6 months only, preferably 3\u20134 months and otherwise the eligible endpoint closest to 3 months. Harmonize signs so that positive effects indicate greater weight loss with the app. When change scores are used, define improvement consistently (e.g., control minus intervention change if weight loss is coded as a negative change). Do not combine multiple eligible time points or extract any non-weight outcome.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "body weight in kilograms"
+}

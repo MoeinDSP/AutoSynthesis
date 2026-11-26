@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with coronary heart disease, heart failure, or atrial fibrillation, what is the effect of psychological interventions (delivered alone, alongside cardiac rehabilitation, or alongside pharmacotherapy) compared with no psychological intervention on depression symptoms at 6-12 month follow-up after randomisation?",
+  "treatment_label": "Psychological intervention (alone, adjunct to cardiac rehabilitation, or adjunct to pharmacotherapy)",
+  "control_label": "No psychological intervention (usual care, waitlist, attention/education control, or cardiac rehabilitation / pharmacotherapy alone)",
+  "outcome_description": "Depression symptom severity measured with any validated self-report or clinician-rated instrument (e.g., BDI, BDI-II, BDI-FS, CDS, HADS-D, HAM-D/HRSD, PHQ-9, ZDS, CES-D, GDS), all treated as indicators of a single common depression construct. One eligible endpoint per intervention-control comparison, taken at the longest available follow-up between 6 and 12 months after randomisation. No other outcome domain (anxiety, quality of life, self-efficacy, mortality, cardiac events) is extracted or pooled.",
+  "positive_direction": "A positive effect size means the psychological intervention group had lower depression symptom severity (greater improvement in depression) at 6-12 month follow-up than the no-psychological-intervention control group.",
+  "search_queries": [
+    "psychological intervention depression coronary heart disease randomised controlled trial",
+    "cognitive behavioural therapy heart failure depression trial outcome",
+    "psychotherapy cardiac rehabilitation atrial fibrillation depressive symptoms controlled trial follow-up"
+  ],
+  "inclusion_criteria": [
+    "Adult participants (mean age >=18) with coronary heart disease, heart failure, or atrial fibrillation (including post-MI, post-CABG/PCI, angina, or mixed cardiac samples)",
+    "Compares any psychological or psychosocial/behavioural intervention (alone or added to cardiac rehabilitation or pharmacotherapy) against a condition without that psychological intervention",
+    "Reports quantitative depression symptom data at any follow-up point (means/SDs, change scores, t/F statistics, or proportions) permitting effect size calculation, ideally including an assessment between 6 and 12 months post-randomisation"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, theoretical or narrative paper)",
+    "No comparison between a psychological intervention condition and a control/comparator condition without the psychological intervention",
+    "No quantitative depression outcome data usable for effect size computation (no means+SDs, change scores, t/F values, proportions, or odds ratios)",
+    "Completely unrelated to the research topic (non-cardiac population, or no depression outcome assessed)"
+  ],
+  "moderators_to_extract": [
+    "Cardiac diagnosis (coronary heart disease vs heart failure vs atrial fibrillation vs mixed)",
+    "Intervention type (CBT, stress management, mindfulness/relaxation, counselling, multimodal psychosocial)",
+    "Delivery context (psychological intervention alone vs adjunct to cardiac rehabilitation vs adjunct to pharmacotherapy)",
+    "Control condition type (usual care vs attention/education vs waitlist)",
+    "Depression instrument used (self-report vs clinician-rated)",
+    "Baseline depression status (elevated/clinical depression required for entry vs unselected) and sample size category"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool as standardized mean difference (Hedges-corrected) across all validated depression instruments, treating them as one construct. Sign-orient all effects so that positive values favour the psychological intervention (lower depression). Use one endpoint per intervention-control comparison: the longest available follow-up assessment between 6 and 12 months post-randomisation; where a trial has multiple active psychological arms against a shared control, avoid double-counting the control group (combine arms or split control n).",
+  "target_effect_measure": "SMD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "depression symptoms"
+}

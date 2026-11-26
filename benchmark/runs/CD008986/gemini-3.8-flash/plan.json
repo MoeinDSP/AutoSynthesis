@@ -1,0 +1,35 @@
+{
+  "research_question": "In hospitalised adult patients, what is the effect of medication review compared with standard care on all-cause mortality at the longest available follow-up?",
+  "treatment_label": "Medication review",
+  "control_label": "Standard care",
+  "outcome_description": "All-cause mortality assessed at the longest available follow-up timepoint",
+  "positive_direction": "Higher all-cause mortality in the medication review group compared with the standard care group",
+  "search_queries": [
+    "medication review hospitalized patients mortality randomized controlled trial",
+    "inpatient medication review standard care mortality clinical trial",
+    "hospital pharmacist medication review all-cause mortality effect"
+  ],
+  "inclusion_criteria": [
+    "Hospitalised adult inpatients receiving a medication review intervention compared against standard care or usual care",
+    "Original empirical studies (e.g., randomised controlled trials, non-randomised controlled trials, controlled cohort studies) reporting all-cause mortality at any follow-up timepoint"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, narrative reviews, editorials, commentaries, and conference abstracts without empirical data are excluded)",
+    "No comparison between a medication review intervention and a standard or usual care control group (e.g., studies comparing two active medication review interventions without a standard care arm)",
+    "No quantitative outcome data reported for all-cause mortality that allows calculation of an effect size (e.g., event counts, proportions, odds ratios, risk ratios, or hazard ratios)",
+    "Completely unrelated to medication review in hospitalised adult patients"
+  ],
+  "moderators_to_extract": [
+    "Study design (randomised controlled trial vs non-randomised controlled study)",
+    "Provider of medication review (e.g., pharmacist alone, physician, multidisciplinary team)",
+    "Hospital setting or ward type (e.g., general medical, geriatric, intensive care, surgical)",
+    "Length of maximum follow-up (e.g., in-hospital, 30 days, 90 days, 6 months, 12+ months)",
+    "Patient population age category (older adults / geriatric focus vs general adult population)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with chronic neck pain, what is the effect of telerehabilitation delivering exercise or physical activity, compared with a genuine minimal/no-active-rehabilitation control (advice, educational materials, usual care without active rehabilitation, wait-list, or no active care), on pain intensity at one short-term endpoint occurring more than 2 weeks and no later than 3 months after randomisation? For multi-arm studies, use only the isolated eligible pairwise comparison and never an active-versus-active comparison or an omnibus multi-group statistic.",
+  "treatment_label": "Telerehabilitation delivering exercise or physical activity",
+  "control_label": "Minimal or no active rehabilitation (advice, educational materials, usual care without active rehabilitation, wait-list, or no active care)",
+  "outcome_description": "Pain intensity in adults with chronic neck pain, measured at a single eligible short-term endpoint per study: more than 2 weeks and no later than 3 months after randomisation. Accept validated pain-intensity scales and transform direction as needed so improvement is consistent across measures. When multiple eligible endpoints exist, select one using a prespecified hierarchy, preferably the endpoint closest to 3 months; if tied, use the study's prespecified primary pain-intensity measure or, if none is identified, the most commonly used validated neck-pain intensity measure. Do not extract, classify, or pool function, quality of life, anxiety, depression, fear avoidance, adherence, or any other outcome. In multi-arm studies, extract only the isolated telerehabilitation-exercise versus genuine minimal/no-intervention control pair and never an omnibus statistic. Treat a result as unusable if the paper's reported numbers appear to contradict its own stated direction of effect and the discrepancy cannot be resolved from internally consistent arm-specific data or author clarification.",
+  "positive_direction": "A positive Hedges g means that telerehabilitation delivering exercise or physical activity produced a greater reduction in short-term pain intensity than the minimal/no-active-rehabilitation control.",
+  "search_queries": [
+    "chronic neck pain telerehabilitation exercise randomized controlled pain",
+    "chronic cervical pain telehealth physical activity trial pain intensity",
+    "neck pain remote rehabilitation exercise controlled comparison outcome"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies of adults with chronic neck pain that evaluate telerehabilitation delivering exercise or physical activity and include a randomized genuine minimal/no-active-rehabilitation comparator such as advice, educational materials, usual care without active rehabilitation, wait-list, or no active care.",
+    "Studies reporting a quantitative pain-intensity outcome at an eligible short-term endpoint more than 2 weeks and no later than 3 months after randomisation.",
+    "Studies providing an isolated eligible pairwise comparison, including eligible arms within multi-arm studies, with sufficient reported or obtainable information to calculate an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; exclude systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers.",
+    "No comparison between the telerehabilitation-exercise treatment and a genuine minimal/no-active-rehabilitation control condition; exclude active-versus-active comparisons and results available only as omnibus statistics spanning multiple groups.",
+    "No quantitative pain-intensity outcome data capable of producing an effect size, such as means with SDs, convertible t/F statistics for the eligible pair, proportions, or odds ratios; also treat internally contradictory results as unusable when the paper's numerical values conflict with its stated effect direction and the discrepancy cannot be resolved without forcing a computation.",
+    "Completely unrelated to adults with chronic neck pain, telerehabilitation-delivered exercise or physical activity, or the specified short-term pain-intensity question."
+  ],
+  "moderators_to_extract": [
+    "Telerehabilitation delivery mode (synchronous, asynchronous, or hybrid)",
+    "Exercise or physical-activity type and prescribed dose",
+    "Level of clinician contact or supervision",
+    "Control type (advice/education, usual care without active rehabilitation, wait-list, or no care)",
+    "Pain follow-up timing within the eligible >2-week to 3-month window",
+    "Baseline chronicity and baseline pain severity"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Use one pain-intensity endpoint per study within the >2-week to <=3-month window, following the prespecified endpoint hierarchy. For multi-arm trials, calculate an effect only from the isolated telerehabilitation-exercise arm and genuine minimal/no-active-rehabilitation control arm; do not use active-versus-active contrasts or omnibus ANOVA/Kruskal-Wallis statistics. Prefer arm-level post-intervention means and SDs at the selected endpoint; use change scores only when endpoint data are unavailable and variance is calculable, without mixing incompatible statistics within a study. Reorient scales so higher computed values indicate greater benefit from telerehabilitation (greater pain reduction). Do not infer values from contradictory medians or other numbers when they conflict with the paper's stated direction; mark such results unusable unless resolved by consistent reported data or author clarification. Record scale, timing, extraction source, conversions, and assumptions. Pool eligible study effects using a random-effects model, assess heterogeneity with tau-squared and I-squared, report 95% confidence and prediction intervals when feasible, conduct influence/sensitivity analyses for imputed or converted data, and examine small-study effects only if enough studies are available. Document identification, screening, exclusions, and study flow according to PRISMA 2020; assess risk of bias with RoB 2 and certainty with GRADE.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pain intensity"
+}

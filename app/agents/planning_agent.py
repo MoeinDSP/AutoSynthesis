@@ -56,6 +56,11 @@ SYSTEM_PROMPT = (
     "— do NOT infer a measure from the topic or outcome type, and never substitute GENERIC just "
     "because the user's exact wording isn't RR/OR/MD/SMD. Most requests will leave this null, and "
     "that is the expected, normal outcome.\n"
+    "  - pooling_model: ONLY fill this when the user's OWN prompt explicitly asks for a specific "
+    "meta-analytic model. One of FE (fixed effect / common effect), REML, DL (DerSimonian-Laird), "
+    "ML, HE, HS (Hunter-Schmidt), SJ (Sidik-Jonkman), PM (Paule-Mandel), EB, UWLS (unrestricted "
+    "weighted least squares). A request for \"a random-effects model\" without naming an estimator "
+    "is REML. Leave it null in every other case -- do NOT choose a model yourself from the topic.\n"
     "  - split_by_timepoint: default False. Set True ONLY when the user's OWN prompt explicitly "
     "asks for separate results at different follow-up times (e.g. \"report results separately at "
     "3 months and 12 months\", \"analyze short-term and long-term effects as distinct outcomes\"). "
@@ -94,6 +99,7 @@ def create_plan(
     target_effect_measure: Optional[str] = None,
     split_by_timepoint: Optional[bool] = None,
     single_outcome_target: Optional[str] = None,
+    pooling_model: Optional[str] = None,
 ) -> str:
     """Submit the complete meta-analysis plan. Call this once with all fields filled in.
     higher_score_is_worse: True for a symptom/problem/severity scale where a higher raw score
@@ -105,7 +111,9 @@ def create_plan(
     short-term/long-term (or similarly timepoint-based) results -- leave null/False otherwise
     (the normal case; each outcome is pooled as one number across all its studies by default).
     single_outcome_target: only set when the USER's question names ONE specific, singular
-    outcome/construct and nothing else -- leave null otherwise (the normal, multi-outcome case)."""
+    outcome/construct and nothing else -- leave null otherwise (the normal, multi-outcome case).
+    pooling_model: only set when the USER explicitly asked for a specific meta-analytic model
+    (FE, REML, DL, ML, HE, HS, SJ, PM, EB or UWLS) -- leave null otherwise."""
     return "plan_created"
 
 
@@ -196,7 +204,20 @@ def plan_node(state: GraphState) -> dict:
     # agents/cross_paper_outcome_mapper_agent.py's mapping_node()).
     raw_target = args.get("single_outcome_target")
     args["single_outcome_target"] = raw_target.strip() if raw_target and raw_target.strip() else None
+    # pooling_model: the dashboard's explicit choice (state["pooling_model"]) wins over a
+    # model the LLM read from the prompt; anything unrecognised is dropped (default REML).
+    from statistics.metafor_engine import POOLING_MODELS
+    chosen = state.get("pooling_model") or args.get("pooling_model")
+    chosen = str(chosen).strip().upper() if chosen else None
+    if chosen in ("EE", "CE", "FIXED", "COMMON"):
+        chosen = "FE"
+    if chosen and chosen not in POOLING_MODELS:
+        logger.warning(f"[PlanningAgent] Ignoring unrecognised pooling_model={chosen!r} -- using the default (REML).")
+        chosen = None
+    args["pooling_model"] = chosen
     plan = MetaAnalysisPlan(**args)
+    if plan.pooling_model:
+        logger.info(f"[PlanningAgent] Pooling model: {POOLING_MODELS[plan.pooling_model]}")
     if plan.target_effect_measure:
         logger.info(f"[PlanningAgent] User explicitly requested target_effect_measure={plan.target_effect_measure.value}")
     if plan.single_outcome_target:

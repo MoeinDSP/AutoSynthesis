@@ -1,0 +1,36 @@
+{
+  "research_question": "In adult smokers, what is the effect of an Internet-based smoking cessation intervention combined with behavioural support, compared with a non-Internet-based non-active control, on smoking cessation at 6 months or longer follow-up?",
+  "treatment_label": "Internet-based smoking cessation intervention combined with behavioural support",
+  "control_label": "Non-Internet-based non-active control",
+  "outcome_description": "Smoking cessation/abstinence assessed at 6 months or longer follow-up, using the study's most rigorous reported definition of abstinence (biochemically verified continuous/prolonged abstinence preferred over point prevalence self-report).",
+  "positive_direction": "A positive effect (Risk Ratio > 1) indicates a higher rate of smoking cessation/abstinence in the Internet-based intervention with behavioural support group compared to the non-active control group.",
+  "search_queries": [
+    "internet smoking cessation behavioral support trial outcome",
+    "web-based tobacco cessation counseling controlled trial abstinence",
+    "online smoking cessation program behavioral support randomized trial"
+  ],
+  "inclusion_criteria": [
+    "Studies evaluating adult smokers receiving an Internet-based smoking cessation intervention combined with behavioural support compared with a non-Internet-based non-active control (e.g., waitlist, usual care, brief printed self-help).",
+    "Studies reporting quantitative dichotomous outcomes for smoking cessation or abstinence at 6 months or longer follow-up.",
+    "Controlled comparative empirical studies (e.g., randomized controlled trials, quasi-randomized trials, or controlled clinical trials)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, opinion pieces, and theoretical papers are excluded).",
+    "No comparison between an Internet-based smoking cessation intervention with behavioural support and a non-Internet-based non-active control condition.",
+    "No quantitative outcome data on smoking cessation/abstinence at 6 months or longer follow-up that can produce a risk ratio or dichotomous event counts.",
+    "Studies reporting only short-term outcomes (<6 months) or completely unrelated to smoking cessation."
+  ],
+  "moderators_to_extract": [
+    "Abstinence definition (continuous/prolonged abstinence vs point prevalence abstinence)",
+    "Biochemical verification status (biochemically validated vs self-report only)",
+    "Duration of follow-up (6 months vs 12 months or longer)",
+    "Format/intensity of behavioural support (human-delivered counseling vs automated tailored messages)",
+    "Control condition type (waitlist, usual care, no intervention, self-help leaflet)"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Extract the most rigorous reported definition of abstinence for this comparison (prioritising biochemically verified continuous or prolonged abstinence over self-reported point prevalence abstinence), using one endpoint per study at the longest available follow-up \u22656 months. Dichotomous outcome pooled using Risk Ratio (RR).",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "smoking cessation at 6 months or longer"
+}

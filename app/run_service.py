@@ -353,6 +353,9 @@ def _results_from_pipeline_state(state, output_dir: str) -> dict:
         results["k"]         = ma.k
         results["n_total"]   = ma.n_total
         results["favors"]    = _favors_label(ma, state.plan)
+        from statistics.metafor_engine import POOLING_MODELS
+        results["pooling_model"] = ma.method
+        results["pooling_model_label"] = POOLING_MODELS.get(ma.method, ma.method)
         results.update(_meta_analysis_measure_fields(ma))
 
     if state.stats_engine_info:
@@ -362,6 +365,19 @@ def _results_from_pipeline_state(state, output_dir: str) -> dict:
         results["bias_risk"]    = state.bias_result.bias_risk
         results["eggers_p"]     = round(state.bias_result.eggers_p_value, 4)
         results["trim_fill_k0"] = state.bias_result.trim_fill_k0
+        br = state.bias_result
+        # Ratio measures are tested on the log scale; show adjusted estimates as ratios.
+        import math as _math
+        _show = (lambda x: round(_math.exp(x), 3)) if "log scale" in (br.scale or "") else (lambda x: round(x, 3))
+        results["trim_fill_estimate"] = _show(br.trim_fill_g)
+        if br.rank_test_p_value is not None:
+            results["rank_test_p"] = round(br.rank_test_p_value, 4)
+        if br.pet_peese_estimate is not None:
+            results["pet_peese_estimate"] = _show(br.pet_peese_estimate)
+            results["pet_peese_selected"] = br.pet_peese_selected
+            results["pet_p"] = br.pet_p_value
+            results["pet_peese_note"] = br.pet_peese_note
+        results["bias_scale"] = br.scale
 
     if state.rob_assessments:
         n_rob2    = sum(1 for a in state.rob_assessments if a.tool_used == "RoB2")
@@ -643,7 +659,7 @@ def _after_fulltext_stage(orch, graph_state: dict, pipeline: dict, log_queue, ru
 
 
 def execute_run(prompt: str, output_dir: str, session_id: str, paper_files: list = None,
-                 run_id: str = None) -> None:
+                 run_id: str = None, pooling_model: str = None) -> None:
     handler = None
     pipeline = _get_pipeline(session_id)
     log_queue = _get_log_queue(session_id)
@@ -680,7 +696,7 @@ def execute_run(prompt: str, output_dir: str, session_id: str, paper_files: list
                 if _config.PAPER_SELECTION_GATE:
                     # Pause right after the search agent: the user can decline
                     # found papers and add further PDFs before full-text fetch.
-                    graph_state = orch.run_until_search_review(prompt, paper_files=None)
+                    graph_state = orch.run_until_search_review(prompt, paper_files=None, pooling_model=pooling_model)
                     pipeline["pending_graph_state"] = graph_state
                     pipeline["awaiting_paper_selection"] = True
                     pipeline["done"] = False
@@ -696,11 +712,11 @@ def execute_run(prompt: str, output_dir: str, session_id: str, paper_files: list
                     }))
                     return
 
-                graph_state = orch.run_until_fulltext_review(prompt, paper_files=None)
+                graph_state = orch.run_until_fulltext_review(prompt, paper_files=None, pooling_model=pooling_model)
                 _after_fulltext_stage(orch, graph_state, pipeline, log_queue, run_id)
                 return
 
-            state = orch.run(prompt, paper_files=paper_files or None)
+            state = orch.run(prompt, paper_files=paper_files or None, pooling_model=pooling_model)
 
             results = _results_from_pipeline_state(state, output_dir)
 

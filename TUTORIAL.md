@@ -129,16 +129,17 @@ To stop the app: `docker compose down`.
 
    > In adults living with obesity, what is the effect of tirzepatide compared with placebo on percentage body weight change from baseline? Pool as a mean difference using a random-effects model. Evaluate ONLY percentage body weight change.
 
-3. Choose a mode:
+3. Optionally choose the **Pooling model** (fixed effect, a random-effects estimator, or UWLS). If you leave it on *Automatic*, AutoSynthesis uses the model named in your question, or random effects with REML.
+4. Choose a mode:
    * **Manual mode**: upload the PDFs of the studies you want to include. This is how the benchmark was run.
    * **Search mode**: AutoSynthesis searches the sources listed in `ENABLED_SEARCH_DATABASES` in `.env`. The template enables a web deep-research search, PubMed, Semantic Scholar, arXiv and OSF; Scopus and Web of Science also need their API keys. It then screens the records and retrieves the open-access full texts.
-4. The run pauses at **review gates**:
+5. The run pauses at **review gates**:
    * after the search, so you can drop found papers or add your own PDFs (search mode only);
    * if some full texts could not be downloaded, so you can upload those PDFs or continue without them;
    * after the full-text eligibility check, so you can review the included papers before the extraction and analysis.
 
    At each gate, check the papers, then click **Continue**.
-5. When the run finishes, the results page shows the pooled estimate and all figures. Every file (the report, `effect_sizes.json`, the figures) can be downloaded, and is also saved in `app/outputs/`.
+6. When the run finishes, the results page shows the pooled estimate and all figures. Every file (the report, `effect_sizes.json`, the figures) can be downloaded, and is also saved in `app/outputs/`.
 
 A run with about 10–15 studies takes roughly 30–60 minutes in manual mode. Search mode takes longer. The cost depends on the model and on the number of papers.
 

@@ -1,0 +1,37 @@
+{
+  "research_question": "In people with first-episode or recent-onset psychosis, what is the effect of adding cognitive behavioral therapy (CBT) to standard care, compared with standard care alone or another psychosocial intervention plus standard care, on negative symptoms of schizophrenia at one selected endpoint per study, preferentially a medium-term assessment within 12 months?",
+  "treatment_label": "CBT plus standard care",
+  "control_label": "Standard care alone or another psychosocial intervention plus standard care",
+  "outcome_description": "Severity of negative symptoms of schizophrenia, measured with a validated negative-symptom scale or subscale (e.g., PANSS Negative Scale, SANS, BNSS, CAINS). Extract only negative-symptom outcomes. Select one endpoint per study, preferring a medium-term assessment at or before 12 months; where multiple eligible assessments exist, use the assessment closest to 12 months without exceeding it. If none is available within 12 months, use the nearest reported post-baseline endpoint and document the deviation. Prefer adjusted endpoint estimates when valid and comparable; otherwise use endpoint or change-score data sufficient to calculate an effect size.",
+  "positive_direction": "A positive effect means that CBT plus standard care produced a greater reduction in negative-symptom severity than the control condition.",
+  "search_queries": [
+    "first episode psychosis cognitive behavioral therapy controlled negative symptoms",
+    "recent onset psychosis CBT trial PANSS negative SANS",
+    "early psychosis cognitive therapy comparison quantitative negative symptoms"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies enrolling people with first-episode, early, or recent-onset psychosis or schizophrenia-spectrum psychosis; mixed samples are eligible when relevant subgroup data are available or the sample is predominantly early psychosis.",
+    "Studies comparing CBT added to standard care with standard care alone or with another psychosocial intervention added to standard care.",
+    "Studies reporting a quantitative measure of negative symptoms at baseline and/or a post-treatment or follow-up endpoint, with sufficient information to derive an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between a treatment and a control condition.",
+    "No quantitative outcome data that can produce an effect size; studies lacking usable means and SDs, t/F-values, proportions, odds ratios, or equivalent convertible statistics are excluded.",
+    "Completely unrelated to CBT, early/recent-onset psychosis, or negative symptoms."
+  ],
+  "moderators_to_extract": [
+    "Control condition type (standard care alone versus active psychosocial comparator plus standard care)",
+    "Definition and maximum duration of first-episode/recent-onset psychosis",
+    "CBT format, intensity, and treatment duration",
+    "Selected endpoint timing in months",
+    "Negative-symptom instrument used",
+    "Study design and risk-of-bias features, including randomization and allocation concealment"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Pool negative-symptom effects across validated instruments after orienting all estimates so that positive values favor CBT. Use one statistically independent endpoint per study: preferentially the assessment closest to 12 months without exceeding 12 months; if unavailable, use the nearest reported post-baseline endpoint and record its timing. When a study reports multiple eligible negative-symptom scales at that endpoint, apply a prespecified hierarchy favoring a dedicated negative-symptom scale over a general psychopathology subscale, and otherwise prefer PANSS-negative, then SANS, then another validated measure. Avoid double-counting overlapping samples and use the most complete report. Analyze standard-care-only and active psychosocial controls as a prespecified moderator/sensitivity analysis. Use a random-effects model, report 95% confidence intervals and prediction intervals where estimable, quantify heterogeneity, assess influence/outliers, conduct risk-of-bias assessment, and evaluate small-study effects when enough studies are available, following PRISMA 2020 reporting.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "negative symptoms of schizophrenia"
+}

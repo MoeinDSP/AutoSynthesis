@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults aged 55 years or older with an anxiety or related disorder, does cognitive behavioural therapy (CBT), compared with minimal management, affect cumulative dropout/discontinuation at the latest eligible follow-up occurring 3\u20136 months after treatment?",
+  "treatment_label": "Cognitive behavioural therapy (CBT)",
+  "control_label": "Minimal management (waiting list, usual care, supportive/attention control, or medication without active psychological therapy)",
+  "outcome_description": "The sole outcome is all-cause dropout/discontinuation, measured cumulatively at 3\u20136 months post-treatment. Extract the number of participants who dropped out and the total randomized participants in each arm. Do not extract immediate post-treatment dropout as the outcome. If more than one eligible follow-up lies within 3\u20136 months, select the latest. Search narrative Results, Attrition, participant-flow, and Sample-Selection sections as well as tables and figures. When a report gives dropout over explicitly stated sequential intervals (for example, X by post-treatment and Y additional dropouts by 6 months), add the stated interval counts to obtain cumulative dropout; this is direct arithmetic, not imputation. Pool arm-level event data as risk ratios (RR). Extract no efficacy, symptom, functioning, quality-of-life, or other outcomes.",
+  "positive_direction": "An RR greater than 1 indicates a higher risk of dropout/discontinuation with CBT than with minimal management; an RR less than 1 favors CBT by indicating lower dropout, and RR = 1 indicates no difference.",
+  "search_queries": [
+    "cognitive behavioral therapy older adults anxiety randomized controlled dropout follow-up",
+    "CBT late life anxiety trial attrition discontinuation",
+    "cognitive behavioural therapy elderly anxiety controlled comparison 3 month 6 month dropout"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials enrolling adults aged at least 55 years with an anxiety or related disorder, including trials with a broader age range only when eligible older-adult data are separately available.",
+    "Trials comparing CBT, delivered in any format or setting, with minimal management such as waiting list, usual care, supportive/attention control, or medication without active psychological therapy.",
+    "Studies reporting, or allowing calculation of, arm-level dropout/discontinuation events and randomized totals at an eligible follow-up from 3 through 6 months after treatment."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical randomized controlled trial, including protocols, systematic reviews, meta-analyses, editorials, opinion pieces, theoretical papers, and all non-randomized studies.",
+    "No eligible comparison between CBT and a minimal-management control condition, including comparisons only against another active psychological therapy.",
+    "No quantitative arm-level outcome data capable of producing an effect size, specifically dropout events and participant totals (or equivalent data from which they can be derived); studies reporting only unusable narrative claims without counts are excluded.",
+    "Completely unrelated to older adults with anxiety or related disorders, CBT, or dropout/discontinuation at 3\u20136 months post-treatment."
+  ],
+  "moderators_to_extract": [
+    "Type of anxiety or related disorder",
+    "CBT delivery format (individual, group, guided self-help, remote/digital)",
+    "Minimal-management control type",
+    "Participant age profile and age-eligibility method",
+    "Follow-up timing within the 3\u20136 month window",
+    "CBT treatment duration and intensity"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Use the randomized denominator for each arm where available and extract cumulative all-cause dropout events by the selected follow-up. Pool risk ratios with 95% confidence intervals, using CBT as the numerator condition and minimal management as the comparator. Apply an appropriate prespecified zero-cell correction only for studies with a zero event in one arm; studies with zero events in both arms are non-informative for the conventional RR and should not be assigned an artificial effect. Prefer intention-to-treat randomized arm totals and account for multi-arm trials without double-counting a shared control. For duplicate reports, link publications and use the most complete eligible data. Inspect narrative Results, Attrition, participant-flow, and Sample-Selection text, not only tables. Sum explicitly stated sequential dropout counts to form the cumulative total through the latest eligible 3\u20136 month follow-up; do not treat this arithmetic as missing-data estimation. Assess risk of bias with RoB 2, use a random-effects model with a prespecified sensitivity analysis under a fixed-effect model when feasible, quantify heterogeneity with tau-squared and I-squared, examine influence/outliers, and assess small-study effects only if enough studies are available. Report study selection using a PRISMA 2020 flow diagram, provide excluded full texts with reasons, and grade certainty for this outcome using GRADE.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "dropout/discontinuation"
+}

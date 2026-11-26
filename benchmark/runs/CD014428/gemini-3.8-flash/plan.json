@@ -1,0 +1,36 @@
+{
+  "research_question": "In adults with chronic neck pain, what is the effect of telerehabilitation delivering exercise or physical activity, compared with a minimal intervention (advice, educational materials, usual care without active rehabilitation, wait-list, or no active care), on pain intensity at short-term follow-up (>2 weeks to <=3 months)?",
+  "treatment_label": "Telerehabilitation exercise or physical activity",
+  "control_label": "Minimal intervention or usual care",
+  "outcome_description": "Self-reported pain intensity measured with validated instruments (such as the Visual Analogue Scale [VAS] or Numeric Rating Scale [NRS]) at short-term follow-up (between >2 weeks and <=3 months post-randomisation).",
+  "positive_direction": "A positive effect size indicates higher pain intensity in the telerehabilitation group compared with the control group (worse outcome); a negative effect size indicates lower pain intensity favoring telerehabilitation (greater pain reduction).",
+  "search_queries": [
+    "telerehabilitation neck pain exercise trial",
+    "telehealth chronic neck pain physical activity controlled comparison",
+    "digital exercise chronic neck pain pain intensity outcome"
+  ],
+  "inclusion_criteria": [
+    "Empirical comparative studies or clinical trials involving adults with chronic neck pain",
+    "Evaluation of telerehabilitation delivering exercise or physical activity compared to minimal intervention (advice, education, wait-list, or usual care without active rehabilitation)",
+    "Reporting quantitative pain intensity data at short-term follow-up (greater than 2 weeks and no later than 3 months post-randomisation)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, study protocols, editorials, opinion pieces, or theoretical papers are excluded)",
+    "No isolated comparison between a telerehabilitation exercise arm and a minimal/no-intervention control condition (e.g., comparisons between two active rehabilitation arms or lack of isolated pairwise data)",
+    "No usable quantitative outcome data on pain intensity allowing effect size calculation, or study data internally contradictory with reported effect directions",
+    "Completely unrelated to adults with chronic neck pain or telerehabilitation exercise interventions"
+  ],
+  "moderators_to_extract": [
+    "Control group type (waitlist, usual care, education/advice)",
+    "Delivery modality (synchronous video, asynchronous digital/app-based, blended)",
+    "Intervention duration (weeks)",
+    "Pain measurement instrument (e.g., VAS, NRS)",
+    "Sample size"
+  ],
+  "search_start_year": 2000,
+  "effect_size_note": "Extract only isolated pairwise comparisons between telerehabilitation exercise and minimal intervention/usual care (excluding comparisons between two active arms and omnibus statistics). Select only one endpoint per study corresponding to short-term follow-up (>2 weeks to <=3 months). Do not extract outcomes other than pain intensity. Ensure reported direction of effect matches quantitative data.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "pain intensity"
+}

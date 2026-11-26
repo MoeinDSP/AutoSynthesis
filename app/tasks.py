@@ -63,11 +63,11 @@ def _claim_or_skip(run_id: str, from_status: str, task_id: str) -> bool:
 
 @app.task(name="autosynthesis.run_pipeline", bind=True)
 def run_pipeline_task(self, prompt: str, output_dir: str, session_id: str,
-                       paper_files: list = None, run_id: str = None) -> None:
+                       paper_files: list = None, run_id: str = None, pooling_model: str = None) -> None:
     if not _claim_or_skip(run_id, "queued", self.request.id):
         return
     import run_service
-    run_service.execute_run(prompt, output_dir, session_id, paper_files, run_id)
+    run_service.execute_run(prompt, output_dir, session_id, paper_files, run_id, pooling_model)
 
 
 @app.task(name="autosynthesis.continue_after_search", bind=True)

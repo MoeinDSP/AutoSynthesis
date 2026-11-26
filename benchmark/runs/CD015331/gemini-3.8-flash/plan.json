@@ -1,0 +1,36 @@
+{
+  "research_question": "In people with first-episode or recent-onset psychosis, what is the effect of adding cognitive behavioral therapy (CBT) to standard care compared to standard care alone or an active control on negative symptoms?",
+  "treatment_label": "CBT plus standard care",
+  "control_label": "Standard care alone or active psychosocial control plus standard care",
+  "outcome_description": "Severity of negative symptoms of psychosis measured by validated psychiatric rating scales (such as PANSS negative subscale, SANS, BNSS, or CAINS), selecting one endpoint per study with preference for medium-term follow-up (<= 12 months).",
+  "positive_direction": "A positive effect size indicates greater reduction/improvement in negative symptoms (fewer negative symptoms) in the CBT group compared to the control group.",
+  "search_queries": [
+    "first episode psychosis cognitive behavioral therapy negative symptoms trial",
+    "recent onset psychosis CBT PANSS negative symptoms randomized controlled",
+    "early psychosis cognitive behaviour therapy negative symptoms effect outcome"
+  ],
+  "inclusion_criteria": [
+    "Participants diagnosed with first-episode psychosis (FEP) or recent-onset psychosis/schizophrenia spectrum disorders.",
+    "Evaluation of cognitive behavioral therapy (CBT or CBT for psychosis) added to standard care versus standard care alone or an active control intervention.",
+    "Quantitative measurement of negative symptoms of psychosis using a validated assessment scale (e.g., PANSS negative subscale, SANS, BNSS, CAINS)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, editorials, opinion pieces, study protocols, and theoretical papers are excluded).",
+    "No comparison between a CBT treatment condition and a control condition (standard care alone or active control).",
+    "No quantitative outcome data that can produce an effect size for negative symptoms (e.g., means, standard deviations, change scores, t/F values, or test statistics).",
+    "Completely unrelated to first-episode or recent-onset psychosis or does not measure negative symptoms."
+  ],
+  "moderators_to_extract": [
+    "Control condition type (treatment-as-usual vs. active psychosocial control)",
+    "Measurement instrument (e.g., PANSS negative subscale vs. SANS vs. other validated scales)",
+    "Intervention format (individual vs. group vs. blended/digital CBT)",
+    "Assessment timing (post-intervention vs. medium-term follow-up within 12 months)",
+    "Intervention dosage / planned number of CBT sessions"
+  ],
+  "search_start_year": 1995,
+  "effect_size_note": "Standardized mean differences (Hedges' g) aligned such that positive effect sizes represent greater reduction in negative symptoms (favoring CBT). One endpoint is selected per study, prioritizing medium-term follow-up (<= 12 months).",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "negative symptoms"
+}

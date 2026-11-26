@@ -1,0 +1,35 @@
+{
+  "research_question": "In adults and adolescents (\u226512 years) with non-allergic rhinitis, what is the effect of intranasal corticosteroids compared with placebo on the risk of epistaxis?",
+  "treatment_label": "Intranasal corticosteroids (200\u2013400 \u00b5g/day)",
+  "control_label": "Placebo",
+  "outcome_description": "Incidence of epistaxis (nosebleed) assessed as a dichotomous adverse event (number of participants experiencing epistaxis out of total participants randomized/analyzed per group) at any point during treatment or follow-up.",
+  "positive_direction": "An increased risk/rate of epistaxis in the intranasal corticosteroid group compared to the placebo group",
+  "search_queries": [
+    "intranasal corticosteroid non-allergic rhinitis epistaxis randomized controlled trial",
+    "fluticasone mometasone budesonide vasomotor rhinitis nosebleed placebo trial",
+    "topical nasal steroid nonallergic rhinitis adverse events controlled comparison"
+  ],
+  "inclusion_criteria": [
+    "Randomized controlled trials comparing intranasal corticosteroids to placebo in adults and adolescents (age \u226512 years) with non-allergic rhinitis",
+    "Reporting quantitative dichotomous data on epistaxis (number of participants with events and sample sizes per group) measured at any point during treatment or follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, protocols, editorials, and theoretical papers are excluded)",
+    "No comparison between an intranasal corticosteroid and a placebo control, or non-randomized trial designs",
+    "No quantitative outcome data on epistaxis (number of events and total participants per arm)",
+    "Completely unrelated to non-allergic rhinitis or topical nasal corticosteroid therapy"
+  ],
+  "moderators_to_extract": [
+    "Specific intranasal corticosteroid molecule (e.g., fluticasone, mometasone, budesonide)",
+    "Daily corticosteroid dose (\u00b5g/day)",
+    "Treatment duration (weeks)",
+    "Method of epistaxis ascertainment (active solicitation, diary recording, or spontaneous reporting)",
+    "Mean participant age or proportion of adolescent participants"
+  ],
+  "search_start_year": 1980,
+  "effect_size_note": "Extract dichotomous event counts (number of participants experiencing epistaxis and total sample size per arm). For multi-dose studies, select an intranasal corticosteroid dose within 200\u2013400 \u00b5g/day; avoid double-counting shared placebo arms by combining intervention arms or selecting the primary eligible dose. Pool as Risk Difference (RD).",
+  "target_effect_measure": "RD",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "epistaxis"
+}

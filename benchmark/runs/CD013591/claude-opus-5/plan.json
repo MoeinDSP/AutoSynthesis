@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with overweight or obesity, what is the effect of a smartphone app-based intervention, compared with no intervention or a minimal non-app intervention (e.g., printed materials, paper food diary, usual care), on body weight (kg) at short-term follow-up (3 to <6 months, preferably 3-4 months)?",
+  "treatment_label": "Smartphone app-based weight management intervention",
+  "control_label": "No intervention or minimal non-app intervention (printed materials, paper food diary, usual care)",
+  "outcome_description": "Body weight measured in kilograms at short-term follow-up (3 to <6 months post-baseline, preferably 3-4 months). One endpoint per study; when a study reports both a follow-up (endpoint) value and a change-from-baseline value for body weight, the change-from-baseline value is preferred. Weight-related outcomes other than body weight in kg (BMI, body fat percentage, waist circumference), and all non-weight outcomes (physical activity, self-efficacy, dietary behaviour, quality of life, etc.) are not extracted or pooled. Medium-term (6 months) and long-term (>=12 months) assessments are excluded.",
+  "positive_direction": "A positive Hedges g means the smartphone app group achieved a more favourable body-weight outcome than the no/minimal-intervention control group (i.e., greater weight loss or lower body weight in kg at short-term follow-up).",
+  "search_queries": [
+    "smartphone app weight loss randomized controlled trial adults overweight obesity",
+    "mobile phone application weight management intervention trial body weight kilograms",
+    "mHealth smartphone application obesity intervention versus usual care weight outcome"
+  ],
+  "inclusion_criteria": [
+    "Adult participants (mean age >=18 years) who are overweight or obese, or a general adult sample recruited for weight loss/weight management",
+    "Evaluates a smartphone app (or app-delivered mobile health program) as the intervention in at least one arm, with a comparison arm receiving no intervention or a minimal, non-app intervention (printed/written materials, paper food diary, usual care, waitlist, or minimal advice)",
+    "Reports some quantitative body weight (kg) outcome data at a follow-up point of roughly 3 to <6 months from which an effect size can be derived (means with SDs/SEs/CIs, change scores, t/F statistics)"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion piece, protocol, conference abstract without data, or purely theoretical/modelling paper)",
+    "No comparison between a treatment and a control condition (single-arm/pre-post only), or both arms receive a smartphone app (app vs. app, or different versions/features of the same app), so the comparator is not a genuine no/minimal non-app intervention",
+    "No quantitative outcome data usable to compute an effect size (no means+SDs/SEs, t/F values, proportions, or odds ratios reported or derivable)",
+    "Completely unrelated to the research topic (e.g., not a weight-management intervention, paediatric/adolescent-only samples, or body weight in kg not assessed at a 3 to <6 month follow-up)"
+  ],
+  "moderators_to_extract": [
+    "Comparator type (no intervention/waitlist vs. printed materials or paper diary vs. usual care)",
+    "App intervention intensity (standalone app vs. app plus human coaching/counselling contact)",
+    "Follow-up length in months (3, 4, or 5 months)",
+    "Baseline BMI category of sample (overweight vs. obese)",
+    "Sample size category (<50, 50-150, >150 randomized)",
+    "Endpoint type extracted (change-from-baseline vs. follow-up value)"
+  ],
+  "search_start_year": 2008,
+  "effect_size_note": "Extract one endpoint per study for body weight in kg at the 3 to <6 month assessment (prefer 3-4 months when multiple short-term points exist), preferring change-from-baseline over follow-up values when both are reported. Where multiple eligible app arms exist against a single no/minimal-intervention control, select the primary/most intensive app arm to preserve independence.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "body weight (kg)"
+}

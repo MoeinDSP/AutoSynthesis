@@ -9,6 +9,7 @@ export BENCH_HARMONIZE=1   # put every model result on Cochrane's effect measure
 echo "1/2  Benchmark metrics ..."
 "$PY" repool_from_runs.py      > /dev/null   # re-pool rows a formula cannot convert -> data/repooled_results.csv
 "$PY" benchmark_metrics.py     > /dev/null   # per-review audit + summary -> results/
+"$PY" sensitivity_pooling_models.py > /dev/null   # agreement under REML/DL/FE/UWLS/Cochrane's model -> results/
 
 echo "2/2  Figures ..."
 for s in generate_tolerance_bars generate_double_whisker generate_paper_style_figures generate_unitfree_figures \

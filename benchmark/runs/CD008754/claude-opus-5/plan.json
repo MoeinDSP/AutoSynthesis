@@ -1,0 +1,37 @@
+{
+  "research_question": "In people with multiple sclerosis, does memory rehabilitation improve subjective (self-reported) memory functioning at intermediate follow-up (approximately 1\u20136 months post-treatment) compared with no intervention, usual care, or an active comparator?",
+  "treatment_label": "Memory rehabilitation (cognitive/memory training, strategy or restitution-based memory intervention)",
+  "control_label": "Control condition (no intervention, waitlist, usual care, attention/placebo control, or active comparator)",
+  "outcome_description": "Subjective memory functioning only \u2014 participant self-reported (or, where used, informant-reported) memory ability measured with memory questionnaires or memory subscales such as the Everyday Memory Questionnaire (EMQ), Prospective and Retrospective Memory Questionnaire (PRMQ), Multiple Sclerosis Neuropsychological Screening Questionnaire (MSNQ), Memory Functioning Questionnaire (MFQ), Metamemory in Adulthood (MIA), Subjective Memory Questionnaire, or comparable self-report memory scales, assessed at an intermediate follow-up of approximately 1\u20136 months after the end of treatment. No other outcome domain (objective verbal/visual/working memory, processing speed, mood, quality of life, ADL) is extracted or pooled.",
+  "positive_direction": "A positive Hedges g means memory rehabilitation produced better self-reported memory functioning (fewer perceived memory problems / higher subjective memory ability) than the control condition at 1\u20136 month follow-up.",
+  "search_queries": [
+    "multiple sclerosis memory rehabilitation randomized controlled trial",
+    "cognitive rehabilitation multiple sclerosis self-reported memory questionnaire outcome",
+    "memory training multiple sclerosis trial subjective memory follow-up effect"
+  ],
+  "inclusion_criteria": [
+    "Participants are adults or adolescents with multiple sclerosis (any subtype or disease course)",
+    "Study evaluates a memory-focused or cognitive rehabilitation/training intervention compared with any control or comparison condition",
+    "Reports some quantitative self-reported memory outcome (or data sufficient to compute an effect size) at any post-treatment or follow-up assessment"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, protocol, or purely theoretical/narrative paper)",
+    "No comparison between a memory rehabilitation condition and a control or comparator condition (e.g. single-arm pre-post only)",
+    "No quantitative outcome data usable for effect size computation (no means and SDs, t/F values, proportions, or odds ratios reported or derivable)",
+    "Completely unrelated to memory rehabilitation in multiple sclerosis, or reports no subjective/self-reported memory outcome"
+  ],
+  "moderators_to_extract": [
+    "Type of memory rehabilitation (restitution/training vs compensatory strategy vs mixed)",
+    "Control condition type (no treatment/waitlist vs usual care vs active/attention comparator)",
+    "Intervention intensity (total contact hours or number of sessions)",
+    "Length of follow-up interval in months",
+    "Subjective memory instrument used",
+    "Sample size category and mean participant age / MS subtype composition"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Compute Hedges g from between-group post-treatment (1\u20136 month follow-up) means and SDs where available; otherwise derive from change scores, t/F statistics, or reported effect sizes. Reverse-code instruments where higher scores indicate more memory complaints so that positive g always favours memory rehabilitation.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "subjective memory"
+}

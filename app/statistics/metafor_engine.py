@@ -4,7 +4,7 @@ Bridge to R's `metafor` package via rpy2.
 This is the actual computational engine behind every meta-analysis statistic
 in this pipeline: random-effects pooling, heterogeneity (Q/I²/H²/τ²,
 prediction interval), subgroup analysis, meta-regression, Egger's test, and
-trim-and-fill. `statistics/random_effects.py`, `statistics/heterogeneity.py`,
+trim-and-fill, Begg's rank test, PET-PEESE and UWLS. `statistics/random_effects.py`, `statistics/heterogeneity.py`,
 `statistics/moderator_analysis.py`, and `statistics/publication_bias.py`
 delegate their computation here; their public function signatures and
 return-dict shapes are unchanged, so nothing downstream (agents, plots,
@@ -111,10 +111,50 @@ def _r_matrix(design_matrix) -> "object":
     return ro.r.matrix(ro.FloatVector(X.flatten(order="F")), nrow=X.shape[0], ncol=X.shape[1])
 
 
+# ── Pooling models ─────────────────────────────────────────────────────────
+# Every rma.uni() estimator the user can pick, plus UWLS. "FE" is the
+# fixed-effect (common-effect) model; the others are the random-effects
+# estimators of tau^2 that metafor offers. UWLS (unrestricted weighted least
+# squares; Stanley & Doucouliagos 2015, Stanley, Doucouliagos & Ioannidis 2022)
+# is not an rma.uni() method: it is fitted with R's lm() (see pool_uwls()).
+POOLING_MODELS: Dict[str, str] = {
+    "REML": "Random effects, restricted maximum likelihood (REML)",
+    "DL":   "Random effects, DerSimonian-Laird (DL)",
+    "ML":   "Random effects, maximum likelihood (ML)",
+    "HE":   "Random effects, Hedges (HE)",
+    "HS":   "Random effects, Hunter-Schmidt (HS)",
+    "SJ":   "Random effects, Sidik-Jonkman (SJ)",
+    "PM":   "Random effects, Paule-Mandel (PM)",
+    "EB":   "Random effects, empirical Bayes (EB)",
+    "FE":   "Fixed effect (common effect, inverse variance)",
+    "UWLS": "Unrestricted weighted least squares (UWLS)",
+}
+DEFAULT_POOLING_MODEL = "REML"
+
+
+def normalize_pooling_model(method: Optional[str]) -> str:
+    """Map a user/LLM-supplied model name onto a key of POOLING_MODELS.
+    Unknown or empty values fall back to the default (REML)."""
+    if not method:
+        return DEFAULT_POOLING_MODEL
+    key = str(method).strip().upper()
+    if key in ("EE", "CE", "FIXED", "COMMON"):
+        key = "FE"
+    return key if key in POOLING_MODELS else DEFAULT_POOLING_MODEL
+
+
+def _rma_method(method: str) -> str:
+    """The rma.uni() method used for statistics that need an rma fit (heterogeneity,
+    trim-and-fill, cumulative plots) when the chosen model is UWLS: UWLS has the same
+    point estimate as the fixed-effect model, so its rma counterpart is FE."""
+    method = normalize_pooling_model(method)
+    return "FE" if method == "UWLS" else method
+
+
 def _fit_rma(effects, variances, method: str = "REML", mods=None, intercept: bool = True):
     """Fit metafor::rma.uni() and return the raw R result object."""
     ro, metafor = _r()
-    kwargs = {"yi": _fvec(effects), "vi": _fvec(variances), "method": method}
+    kwargs = {"yi": _fvec(effects), "vi": _fvec(variances), "method": _rma_method(method)}
     if mods is not None:
         kwargs["mods"] = _r_matrix(mods)
         kwargs["intercept"] = intercept
@@ -130,11 +170,67 @@ def tau_squared(effects: List[float], variances: List[float], method: str = "REM
     return _scalar(fit.rx2("tau2"))
 
 
+_UWLS_R = """
+function(yi, vi) {
+  fit <- lm(yi ~ 1, weights = 1 / vi)
+  s <- summary(fit)$coefficients
+  ci <- if (df.residual(fit) > 0) unname(confint(fit)[1, ]) else c(NA, NA)
+  c(est = s[1, 1], se = s[1, 2], tval = s[1, 3], pval = s[1, 4],
+    ci_lb = ci[1], ci_ub = ci[2], df = df.residual(fit))
+}
+"""
+
+
+def pool_uwls(effects: List[float], variances: List[float]) -> dict:
+    """Unrestricted weighted least squares (UWLS) meta-analysis.
+
+    Fitted in R as lm(yi ~ 1, weights = 1/vi), as recommended by Stanley &
+    Doucouliagos (2015) and Stanley, Doucouliagos & Ioannidis (2022, J Clin
+    Epidemiol). The point estimate equals the fixed-effect estimate; the standard
+    error is the fixed-effect SE multiplied by the residual standard error, so it
+    widens with heterogeneity. Inference uses the t distribution with k-1 df.
+    Heterogeneity statistics come from heterogeneity() as usual.
+
+    Same return contract as pool()."""
+    ro, _ = _r()
+    k = len(effects)
+    if k == 1:
+        se = math.sqrt(float(variances[0]))
+        est = float(effects[0])
+        return {
+            "pooled_g": est, "pooled_se": se,
+            "ci_lower": est - 1.96 * se, "ci_upper": est + 1.96 * se,
+            "z_value": est / se if se > 0 else 0.0, "p_value": 1.0,
+            "tau_squared": 0.0, "tau": 0.0, "weights": [100.0], "method": "UWLS",
+        }
+    res = ro.r(_UWLS_R)(_fvec(effects), _fvec(variances))
+    vals = dict(zip(list(res.names), [float(x) for x in res]))
+    w = [1.0 / float(v) for v in variances]
+    total = sum(w)
+    return {
+        "pooled_g": vals["est"],
+        "pooled_se": vals["se"],
+        "ci_lower": vals["ci_lb"],
+        "ci_upper": vals["ci_ub"],
+        "z_value": vals["tval"],          # a t statistic for UWLS (df = k-1)
+        "p_value": vals["pval"],
+        "tau_squared": 0.0,               # UWLS does not estimate tau^2
+        "tau": 0.0,
+        "weights": [100.0 * wi / total for wi in w],
+        "method": "UWLS",
+    }
+
+
 def pool(effects: List[float], variances: List[float], method: str = "REML") -> dict:
-    """Random-effects pooling via metafor::rma.uni().
+    """Meta-analytic pooling with the chosen model (see POOLING_MODELS):
+    metafor::rma.uni() for fixed effect and every random-effects estimator,
+    lm() for UWLS.
 
     Same return contract as the old statistics.random_effects.random_effects_model().
     """
+    method = normalize_pooling_model(method)
+    if method == "UWLS":
+        return pool_uwls(effects, variances)
     ro, _ = _r()
     fit = _fit_rma(effects, variances, method=method)
 
@@ -286,7 +382,7 @@ def meta_regression(
     }
 
 
-def eggers_test(effects: List[float], variances: List[float]) -> dict:
+def eggers_test(effects: List[float], variances: List[float], method: str = "REML") -> dict:
     """Egger's regression test for funnel plot asymmetry, via
     metafor::regtest(model="rma", predictor="sei") -- the standard,
     citable implementation (Egger et al. 1997 as implemented/extended in
@@ -305,7 +401,7 @@ def eggers_test(effects: List[float], variances: List[float]) -> dict:
         }
 
     _, metafor = _r()
-    fit = _fit_rma(effects, variances, method="REML")
+    fit = _fit_rma(effects, variances, method=method)
     reg = metafor.regtest(fit, model="rma", predictor="sei")
 
     zval = _scalar(reg.rx2("zval"))
@@ -330,6 +426,85 @@ def eggers_test(effects: List[float], variances: List[float]) -> dict:
         "p_value": round(pval, 4),
         "slope": round(slope, 4),
     }
+
+
+def rank_test(effects: List[float], variances: List[float], method: str = "REML") -> dict:
+    """Begg & Mazumdar's rank correlation test for funnel plot asymmetry, via
+    metafor::ranktest(): Kendall's tau between the standardized effects and their
+    variances."""
+    if len(effects) < 3:
+        return {"kendall_tau": 0.0, "p_value": 1.0, "note": "Too few studies for the rank test"}
+    _, metafor = _r()
+    fit = _fit_rma(effects, variances, method=method)
+    rt = metafor.ranktest(fit)
+    return {
+        "kendall_tau": round(_scalar(rt.rx2("tau")), 4),
+        "p_value": round(_scalar(rt.rx2("pval"), default=1.0), 4),
+    }
+
+
+_WLS_META_REG_R = """
+function(yi, vi, x) {
+  fit <- lm(yi ~ x, weights = 1 / vi)
+  s <- summary(fit)$coefficients
+  ci <- if (df.residual(fit) > 0) unname(confint(fit)[1, ]) else c(NA, NA)
+  c(est = s[1, 1], se = s[1, 2], tval = s[1, 3], pval = s[1, 4],
+    ci_lb = ci[1], ci_ub = ci[2],
+    slope = s[2, 1], slope_pval = s[2, 4], df = df.residual(fit))
+}
+"""
+
+
+def pet_peese(effects: List[float], variances: List[float], alpha: float = 0.05) -> dict:
+    """PET-PEESE (Stanley & Doucouliagos 2014), fitted as weighted least squares
+    meta-regressions with weights 1/vi, the same model family as UWLS:
+
+      PET:   yi = b0 + b1 * SE_i   (b1 tests small-study effects / funnel asymmetry)
+      PEESE: yi = b0 + b1 * vi
+
+    b0 is the effect corrected for small-study effects (the effect of a study with
+    SE -> 0). Conditional rule: if PET's b0 differs from zero (two-sided p < alpha),
+    the PEESE b0 is the corrected estimate, otherwise the PET b0.
+
+    Needs k >= 3 (two parameters); with fewer than 10 studies the estimates are
+    unreliable, which is reported in `note`."""
+    k = len(effects)
+    if k < 3:
+        return {"note": "Too few studies for PET-PEESE", "k": k}
+    ro, _ = _r()
+    fn = ro.r(_WLS_META_REG_R)
+    se = [math.sqrt(float(v)) for v in variances]
+
+    def _fit(x):
+        res = fn(_fvec(effects), _fvec(variances), _fvec(x))
+        vals = dict(zip(list(res.names), [float(v) for v in res]))
+        return {
+            "estimate": round(vals["est"], 4),
+            "se": round(vals["se"], 4),
+            "ci_lower": round(vals["ci_lb"], 4) if not math.isnan(vals["ci_lb"]) else None,
+            "ci_upper": round(vals["ci_ub"], 4) if not math.isnan(vals["ci_ub"]) else None,
+            "p_value": round(vals["pval"], 4) if not math.isnan(vals["pval"]) else None,
+            "slope": round(vals["slope"], 4),
+            "slope_p_value": round(vals["slope_pval"], 4) if not math.isnan(vals["slope_pval"]) else None,
+        }
+
+    pet = _fit(se)
+    peese = _fit([float(v) for v in variances])
+    use_peese = pet["p_value"] is not None and pet["p_value"] < alpha
+    chosen = peese if use_peese else pet
+    out = {
+        "k": k,
+        "pet": pet,
+        "peese": peese,
+        "selected": "PEESE" if use_peese else "PET",
+        "corrected_estimate": chosen["estimate"],
+        "corrected_ci_lower": chosen["ci_lower"],
+        "corrected_ci_upper": chosen["ci_upper"],
+        "alpha": alpha,
+    }
+    if k < 10:
+        out["note"] = f"Only {k} studies: PET-PEESE estimates are unreliable with fewer than 10 studies."
+    return out
 
 
 def escalc_smd_from_means(m1, sd1, n1, m2, sd2, n2) -> Optional[dict]:
@@ -499,7 +674,8 @@ def pool_log_measure(log_effects: List[float], variances: List[float], method: s
     }
 
 
-def trim_and_fill(effects: List[float], variances: List[float], side: str = "right") -> dict:
+def trim_and_fill(effects: List[float], variances: List[float], side: str = "right",
+                  method: str = "REML") -> dict:
     """Trim-and-fill via metafor::trimfill() (Duval & Tweedie 2000, L0
     estimator by default -- the same estimator the old from-scratch
     implementation targeted).
@@ -507,12 +683,13 @@ def trim_and_fill(effects: List[float], variances: List[float], side: str = "rig
     Same return contract as the old statistics.publication_bias.trim_and_fill().
     """
     _, metafor = _r()
-    fit = _fit_rma(effects, variances, method="REML")
-    tf = metafor.trimfill(fit, side=side)
+    fit = _fit_rma(effects, variances, method=method)
+    tf = metafor.trimfill(fit) if side in (None, "", "auto") else metafor.trimfill(fit, side=side)
 
+    side_r = tf.rx2("side")
     return {
         "k0": int(_scalar(tf.rx2("k0"))),
-        "side": side,
+        "side": str(side_r[0]) if not _is_null(side_r) else (side or "auto"),
         "adjusted_g": round(_scalar(tf.rx2("b")), 4),
         "adjusted_ci_lower": round(_scalar(tf.rx2("ci.lb")), 4),
         "adjusted_ci_upper": round(_scalar(tf.rx2("ci.ub")), 4),

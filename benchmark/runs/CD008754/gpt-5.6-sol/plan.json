@@ -1,0 +1,37 @@
+{
+  "research_question": "Among people with multiple sclerosis, what is the effect of memory rehabilitation, compared with no intervention, usual care, or an active comparator, on subjective self-reported memory functioning measured at an intermediate follow-up approximately 1 to 6 months after treatment?",
+  "treatment_label": "Memory rehabilitation for people with multiple sclerosis",
+  "control_label": "Control condition (no intervention, usual care, wait-list, attention control, sham/non-specific intervention, or active comparator)",
+  "outcome_description": "Subjective memory only: self-reported perceived memory functioning, memory ability, or memory problems measured with a memory questionnaire or a clearly identified self-report memory scale/subscale at a post-treatment follow-up from approximately 1 to 6 months after treatment completion. Exclude objective verbal, visual, or working-memory tests and all non-memory outcomes. If a study reports multiple eligible observations in this window, select one prespecified intermediate endpoint per independent comparison\u2014prefer the endpoint closest to 3 months after treatment; if equally close, use the later endpoint. For multi-arm studies, avoid double-counting shared controls by combining eligible intervention arms where clinically appropriate or otherwise splitting the shared control.",
+  "positive_direction": "A positive Hedges g means that memory rehabilitation produced better subjective memory functioning than the control condition\u2014that is, participants reported better memory or fewer perceived memory difficulties. Scores from instruments on which higher values indicate worse memory problems will be reverse-coded before effect-size calculation.",
+  "search_queries": [
+    "multiple sclerosis memory rehabilitation subjective memory controlled trial",
+    "multiple sclerosis cognitive rehabilitation self-reported memory experiment",
+    "multiple sclerosis memory training memory questionnaire comparison"
+  ],
+  "inclusion_criteria": [
+    "Original empirical studies involving people with multiple sclerosis that evaluate a memory-rehabilitation, memory-training, or cognitive-rehabilitation intervention with a meaningful memory component against any control condition.",
+    "Studies reporting subjective, participant-reported memory functioning using a memory questionnaire or a clearly separable self-report memory measure or subscale.",
+    "Studies reporting an eligible subjective-memory assessment approximately 1 to 6 months after treatment and sufficient quantitative information, directly or through author contact, to calculate an effect size."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study; systematic reviews, meta-analyses, editorials, opinion pieces, protocols without results, and theoretical papers are excluded.",
+    "No comparison between a memory-rehabilitation treatment condition and a control condition.",
+    "No quantitative subjective-memory outcome data capable of producing an effect size; eligible information includes means and SDs, change scores with dispersion, t/F-values, proportions, odds ratios, or equivalent convertible statistics.",
+    "Completely unrelated to multiple sclerosis, memory rehabilitation, or subjective self-reported memory; studies reporting only objective verbal memory, visual memory, working memory, information processing, quality of life, activities of daily living, or other outcomes are excluded."
+  ],
+  "moderators_to_extract": [
+    "Control type (no intervention/wait-list, usual care, attention/sham control, or active comparator)",
+    "Intervention format and components (restorative training, compensatory strategy training, psychoeducation, computerized delivery, or multicomponent rehabilitation)",
+    "Intervention dose and duration (number of sessions, total contact time, and treatment length)",
+    "Timing of the selected follow-up assessment after treatment",
+    "Subjective-memory instrument or questionnaire used",
+    "Participant and disease characteristics (mean age, MS subtype, disease duration, and baseline cognitive or memory impairment criteria)"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "For continuous subjective-memory outcomes, calculate bias-corrected standardized between-group effects with consistent directionality, preferably from follow-up means adjusted for baseline when an adjusted estimate and its variance are available; otherwise use change-score or post-score data as supported by the report. Treat different validated subjective-memory questionnaires as measures of the same construct. Use a random-effects model with inverse-variance weighting, report 95% confidence and prediction intervals, tau-squared, and I-squared, and use robust methods or an explicit within-study selection rule when multiple eligible measures create dependence. Conduct risk-of-bias assessment with a design-appropriate tool, explore prespecified moderators only when data are adequate, assess small-study effects when at least 10 independent comparisons are available, and document screening, exclusions, and study flow according to PRISMA 2020.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "subjective memory"
+}

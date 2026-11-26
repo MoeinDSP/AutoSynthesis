@@ -207,14 +207,13 @@ AGENT_INFO: dict = {
     "s6": {
         "num": "Stage 6", "title": "Meta-Analysis Agent", "color": "#0f766e",
         "emoji": "🌲",
-        "role": "Fits a REML random-effects model and generates forest + distribution plots.",
+        "role": "Pools the studies with the chosen model (R metafor) and generates forest + distribution plots.",
         "description": (
-            "The Meta-Analysis Agent fits a <b>random-effects model using REML</b> "
-            "(Restricted Maximum Likelihood) to pool effect sizes.<br><br>"
-            "<b>Why random-effects?</b> Studies differ in populations, interventions, and "
-            "measurement tools — a fixed-effect model (assuming one true effect) is usually "
-            "inappropriate. REML estimates τ² (between-study variance) without the bias of "
-            "method-of-moments estimators.<br><br>"
+            "The Meta-Analysis Agent pools effect sizes in R with <b>metafor</b>, using the model "
+            "chosen for the run: a <b>fixed-effect</b> model, a <b>random-effects</b> model with any "
+            "of metafor's τ² estimators (REML, DL, ML, HE, HS, SJ, PM, EB), or <b>unrestricted "
+            "weighted least squares (UWLS)</b>. The model is picked in the <i>Pooling model</i> menu "
+            "or named in the question; otherwise random effects with REML is used.<br><br>"
             "<b>Statistical outputs:</b><br>"
             "• Pooled effect with 95% CI — the main result. Usually Hedges' g, but pooled "
             "natively on Risk Ratio/Odds Ratio/Mean Difference when the outcome's own effect "
@@ -256,7 +255,7 @@ AGENT_INFO: dict = {
     "s8": {
         "num": "Stage 8", "title": "Bias Agent", "color": "#dc2626",
         "emoji": "⚖",
-        "role": "Assesses publication bias via Egger's test, trim-and-fill, and funnel plot.",
+        "role": "Assesses publication bias via Egger's test, Begg's rank test, trim-and-fill, PET-PEESE and the funnel plot.",
         "description": (
             "The Bias Agent assesses <b>publication bias</b> — the tendency for positive "
             "results to be published more than null results, inflating pooled effect sizes.<br><br>"
@@ -265,6 +264,12 @@ AGENT_INFO: dict = {
             "<b>Trim-and-fill:</b> Iteratively removes extreme studies, estimates the true "
             "center, then 'fills in' mirror-image studies that would be missing under bias. "
             "k₀ = estimated number of missing studies.<br><br>"
+            "<b>Begg's rank test:</b> Kendall's τ between standardized effects and their "
+            "variances (metafor <code>ranktest</code>).<br><br>"
+            "<b>PET-PEESE:</b> Weighted least squares meta-regressions of the effect on its "
+            "SE (PET) and on its variance (PEESE); the intercept is the effect corrected for "
+            "small-study effects. If PET's intercept is significant (p &lt; 0.05), PEESE is used, "
+            "otherwise PET. Unreliable with fewer than 10 studies.<br><br>"
             "<b>Funnel plot:</b> Scatter of effect size vs. standard error (SE). Symmetric "
             "scatter = no bias; asymmetry = possible bias.<br><br>"
             "Bias risk classification: <b>low</b> (Egger p ≥ 0.10, k₀ = 0), "
@@ -427,6 +432,8 @@ class RunRequest(BaseModel):
     prompt: str
     paper_files: list = []    # empty = automatic search mode; server-side PDF paths from /upload
     model: str = ""           # optional: one of config.AVAILABLE_MODELS ids; "" = server default
+    pooling_model: str = ""   # optional: one of statistics.metafor_engine.POOLING_MODELS keys;
+                               # "" = whatever the prompt asks for, else REML random effects
     external_ref: str = ""    # optional Cochrane review id (e.g. "CD013591") -- when set, this run's
                                # full output is archived under cochrane_benchmark/runs/<external_ref>/
                                # once it completes; see run_service._archive_to_benchmark_runs().
@@ -434,7 +441,10 @@ class RunRequest(BaseModel):
 
 @app.get("/models")
 def list_models():
-    return {"models": _config.AVAILABLE_MODELS, "current": _config.MODEL_NAME}
+    from statistics.metafor_engine import POOLING_MODELS, DEFAULT_POOLING_MODEL
+    return {"models": _config.AVAILABLE_MODELS, "current": _config.MODEL_NAME,
+            "pooling_models": [{"id": k, "label": v} for k, v in POOLING_MODELS.items()],
+            "default_pooling_model": DEFAULT_POOLING_MODEL}
 
 
 # ── Landing-page extras: paper link, logo, demo, imprint ─────────────────────
@@ -747,6 +757,11 @@ def run_pipeline(req: RunRequest, request: Request):
         if _celery_backend():
             return {"ok": False, "error": "Model selection needs RUN_EXECUTION_BACKEND=thread."}
         _config.set_active_model(req.model)
+    from statistics.metafor_engine import POOLING_MODELS
+    pooling_model = req.pooling_model.strip().upper() or None
+    if pooling_model and pooling_model not in POOLING_MODELS:
+        pipeline["running"] = False
+        return {"ok": False, "error": f"Unknown pooling model: {req.pooling_model}"}
     files  = [f.strip() for f in req.paper_files  if f.strip()]
     while not log_queue.empty():
         try:
@@ -778,10 +793,11 @@ def run_pipeline(req: RunRequest, request: Request):
     if _celery_backend():
         from tasks import run_pipeline_task
         run_pipeline_task.apply_async(
-            args=[req.prompt.strip(), str(output_dir), session_id, files or None, run_id])
+            args=[req.prompt.strip(), str(output_dir), session_id, files or None, run_id, pooling_model])
     else:
         threading.Thread(target=_run_pipeline,
-                         args=(req.prompt.strip(), str(output_dir), session_id, files or None, run_id),
+                         args=(req.prompt.strip(), str(output_dir), session_id, files or None, run_id,
+                               pooling_model),
                          daemon=True).start()
     return {"ok": True, "run_id": run_id}
 
@@ -1293,7 +1309,9 @@ def _render_agent_page(stage_id: str, request: Request) -> str:
         "i_squared":         ("I²",                lambda v, r: "Between-study heterogeneity"),
         "tau":               ("τ",                 lambda v, r: "Between-study SD"),
         "k":                 ("Studies (k)",       None),
-        "bias_risk":         ("Bias Risk",         lambda v, r: f"Egger's p = {r.get('eggers_p')}  k₀ = {r.get('trim_fill_k0')}"),
+        "bias_risk":         ("Bias Risk",         lambda v, r: f"Egger's p = {r.get('eggers_p')}  k₀ = {r.get('trim_fill_k0')}"
+                                                                 + (f"  Begg's p = {r.get('rank_test_p')}" if r.get('rank_test_p') is not None else "")
+                                                                 + (f"  PET-PEESE = {r.get('pet_peese_estimate')}" if r.get('pet_peese_estimate') is not None else "")),
         "eggers_p":          ("Egger's p",         None),
         "trim_fill_k0":      ("k₀ (trim-fill)",    None),
     }
@@ -2411,7 +2429,7 @@ HTML = """<!DOCTYPE html>
       <div class="stage-icon">6</div>
       <div class="stage-info">
         <div class="stage-label">Meta-Analysis</div>
-        <div class="stage-sub">REML model</div>
+        <div class="stage-sub">metafor model</div>
       </div>
     </div>
     <div class="stage" id="s7" title="Moderator Agent">
@@ -2486,6 +2504,15 @@ HTML = """<!DOCTYPE html>
         <button id="mode-pdf" class="mode-btn">
           Manual upload
         </button>
+      </div>
+
+      <!-- Pooling model (metafor) -->
+      <div style="display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap">
+        <label for="pooling-select" style="font-size:0.78rem;color:var(--muted);margin:0;text-transform:none;letter-spacing:0">Pooling model:</label>
+        <select id="pooling-select" title="Meta-analytic model used to pool the studies (computed with R metafor)"
+                style="padding:4px 10px;border-radius:3px;border:1px solid var(--border,#ccc);background:inherit;color:inherit;font:inherit;font-size:0.8rem">
+          <option value="">Automatic (as asked in the question, else random effects REML)</option>
+        </select>
       </div>
 
       <!-- PDF upload section (hidden unless manual mode) -->
@@ -2921,6 +2948,16 @@ async function loadModels() {
 }
 loadModels();
 
+async function loadPoolingModels() {
+  try {
+    const d = await (await fetch("/models")).json();
+    const sel = document.getElementById("pooling-select");
+    if (!sel || !d.pooling_models) return;
+    sel.innerHTML += d.pooling_models.map(m => `<option value="${m.id}">${m.label}</option>`).join("");
+  } catch (e) {}
+}
+loadPoolingModels();
+
 // ── Welcome window pointing at the Demo button (shown on every visit) ──
 function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
@@ -3114,7 +3151,8 @@ async function startRun() {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({prompt, paper_files: paperFiles, 
-                           model: document.getElementById("model-select").value}),
+                           model: document.getElementById("model-select").value,
+                           pooling_model: document.getElementById("pooling-select").value}),
   });
   const data = await resp.json();
   if (!data.ok && data.busy) { stopTimer(); unlockUI(); document.getElementById("status-text").textContent = "Ready"; showBusyPopup(data.error); return; }
@@ -3558,8 +3596,9 @@ function renderGroupResult(res, group) {
     const measureWarn = g.native_pooling_used === false
       ? " &nbsp; Note: effect measure not confirmed — standardized fallback shown"
       : "";
+    const modelNote = res.pooling_model_label ? `<br>${res.pooling_model_label}` : "";
     grid.innerHTML += scard(measureLabel, g.pooled_g,
-      `95% CI [${g.ci_lower}, ${g.ci_upper}] &nbsp; p = ${g.p_value}${measureWarn}`, "highlight");
+      `95% CI [${g.ci_lower}, ${g.ci_upper}] &nbsp; p = ${g.p_value}${measureWarn}${modelNote}`, "highlight");
     grid.innerHTML += scard("I²", g.i_squared+"%",
       `τ = ${g.tau}`);
     grid.innerHTML += scard("Studies (k)", g.k,
@@ -3571,7 +3610,10 @@ function renderGroupResult(res, group) {
   // group is selected.
   if (res.bias_risk) {
     grid.innerHTML += scard("Publication Bias", res.bias_risk.toUpperCase(),
-      `Egger's p = ${res.eggers_p} &nbsp; k₀ = ${res.trim_fill_k0}`,
+      `Egger's p = ${res.eggers_p} &nbsp; k₀ = ${res.trim_fill_k0}`
+        + (res.rank_test_p !== undefined ? ` &nbsp; Begg's p = ${res.rank_test_p}` : "")
+        + (res.pet_peese_estimate !== undefined && res.pet_peese_estimate !== null
+            ? `<br>PET-PEESE (${res.pet_peese_selected}) = ${res.pet_peese_estimate}` : ""),
       `risk-${res.bias_risk}`);
   }
   if (res.rob_n_assessed) {
@@ -3848,6 +3890,7 @@ function lockUI() {
   document.getElementById("run-btn").disabled          = true;
   document.getElementById("prompt").disabled           = true;
   document.getElementById("model-select").disabled     = true;
+  document.getElementById("pooling-select").disabled   = true;
   document.querySelector(".spinner").style.display = "";
   document.getElementById("status-bar").classList.add("visible");
 }
@@ -3855,6 +3898,7 @@ function unlockUI() {
   document.getElementById("run-btn").disabled          = false;
   document.getElementById("prompt").disabled           = false;
   document.getElementById("model-select").disabled     = false;
+  document.getElementById("pooling-select").disabled   = false;
   document.querySelector(".spinner").style.display = "none";
 }
 

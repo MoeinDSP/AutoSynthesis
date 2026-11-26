@@ -1,0 +1,37 @@
+{
+  "research_question": "In adults with active systemic lupus erythematosus, does belimumab at the standard approved dose (10 mg/kg IV or 200 mg SC weekly) compared with placebo (both plus standard therapy) increase the proportion of patients achieving at least a 4-point reduction in the SELENA-SLEDAI score at 52 weeks?",
+  "treatment_label": "Belimumab at approved dose (10 mg/kg IV monthly or 200 mg SC weekly) plus standard therapy",
+  "control_label": "Placebo plus standard therapy",
+  "outcome_description": "Dichotomous responder outcome: number of participants achieving a reduction of at least 4 points from baseline in the SELENA-SLEDAI (SLEDAI) disease activity score at 52 weeks, with the total number of participants analysed in each arm. Only this single dichotomous SELENA-SLEDAI \u22654-point reduction endpoint is extracted; the composite SLE Responder Index (SRI-4), continuous SELENA-SLEDAI change scores, BILAG indices, physician global assessment, quality of life, glucocorticoid tapering, adverse events, infections, withdrawals, and mortality are not extracted.",
+  "positive_direction": "A positive effect (RR greater than 1 / positive Hedges g) means more patients on belimumab than on placebo achieved at least a 4-point reduction in SELENA-SLEDAI at 52 weeks, i.e. belimumab improved disease activity.",
+  "search_queries": [
+    "belimumab systemic lupus erythematosus randomized placebo-controlled trial 52 weeks",
+    "belimumab 10 mg/kg intravenous SLEDAI reduction lupus trial outcome",
+    "belimumab 200 mg subcutaneous lupus disease activity randomized controlled trial efficacy"
+  ],
+  "inclusion_criteria": [
+    "Randomised controlled trial in adults with active systemic lupus erythematosus",
+    "Compares belimumab (any route, including the approved 10 mg/kg IV or 200 mg SC regimens) with placebo, both on top of standard therapy",
+    "Reports, in the paper or its supplement, the number of participants achieving at least a 4-point reduction in SELENA-SLEDAI/SLEDAI at or around 52 weeks and the number analysed per arm"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, pooled/network analysis, editorial, opinion piece, narrative review, theoretical paper, trial protocol without results, conference abstract without data)",
+    "No comparison between a belimumab arm and a placebo/control arm (single-arm, open-label extension without control, observational or non-randomised design)",
+    "No quantitative outcome data permitting effect-size calculation for the dichotomous SELENA-SLEDAI \u22654-point reduction at 52 weeks (no event counts or proportions with denominators)",
+    "Completely unrelated to belimumab in systemic lupus erythematosus (e.g. other diseases, other biologics only, paediatric-only populations, or lupus nephritis renal-response-only endpoints)"
+  ],
+  "moderators_to_extract": [
+    "Belimumab route and regimen (10 mg/kg IV vs 200 mg SC)",
+    "Geographic region / trial population (e.g. North America-Europe, Asia, Latin America)",
+    "Baseline SELENA-SLEDAI disease activity (mean or proportion \u226510)",
+    "Baseline corticosteroid and immunosuppressant use",
+    "Sample size category (total randomised)",
+    "Publication year and risk-of-bias / funding source (industry-sponsored vs other)"
+  ],
+  "search_start_year": 2005,
+  "effect_size_note": "Extract 2x2 event counts (responders achieving \u22654-point SELENA-SLEDAI reduction / total analysed) for the approved-dose belimumab arm and the placebo arm, and pool as a risk ratio (RR) with a random-effects model. In multi-dose trials use only the 10 mg/kg IV arm (or the 200 mg SC arm when that is the trial's regimen); discard 1 mg/kg and other non-approved doses so each trial contributes a single independent comparison. Use the 52-week (or nearest reported ~week 48-52) timepoint only.",
+  "target_effect_measure": "RR",
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "\u22654-point reduction in SELENA-SLEDAI at 52 weeks"
+}

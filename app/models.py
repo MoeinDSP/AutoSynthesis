@@ -87,6 +87,15 @@ class MetaAnalysisPlan(BaseModel):
     # ReviewContext.stated_effect_measure (methodology text, not a result --
     # never from GroundTruth). Production runs never set this field.
 
+    pooling_model: Optional[str] = None
+    # Meta-analytic model used to pool every outcome group: one of
+    # statistics/metafor_engine.POOLING_MODELS -- "FE" (fixed effect), the
+    # random-effects estimators "REML"/"DL"/"ML"/"HE"/"HS"/"SJ"/"PM"/"EB", or
+    # "UWLS". Set from the dashboard's model drop-down (the user's explicit
+    # choice, which wins), or by plan_node when the user's own prompt asks for a
+    # specific model ("use a fixed-effect model"). None means the default, REML
+    # random effects.
+
     split_by_timepoint: bool = False
     # Gate for utils/outcome_grouping.py::build_outcome_group_key() -- whether
     # follow_up_timepoint should fragment an outcome_family into separate
@@ -523,6 +532,22 @@ class BiasResult(BaseModel):
     trim_fill_ci_lower: float
     trim_fill_ci_upper: float
     bias_risk: Literal["low", "moderate", "high"]
+    # Added with the pooling-model options; optional so older bias_result.json files still load.
+    method: str = "REML"                        # pooling model the tests were run under
+    scale: str = ""                             # effect measure the tests were run on (log scale for ratios)
+    rank_test_tau: Optional[float] = None       # Begg & Mazumdar rank correlation (Kendall's tau)
+    rank_test_p_value: Optional[float] = None
+    pet_estimate: Optional[float] = None        # PET intercept: effect corrected for small-study effects
+    pet_ci_lower: Optional[float] = None
+    pet_ci_upper: Optional[float] = None
+    pet_p_value: Optional[float] = None
+    peese_estimate: Optional[float] = None      # PEESE intercept
+    peese_ci_lower: Optional[float] = None
+    peese_ci_upper: Optional[float] = None
+    peese_p_value: Optional[float] = None
+    pet_peese_selected: Optional[str] = None    # "PET" or "PEESE" (conditional rule)
+    pet_peese_estimate: Optional[float] = None
+    pet_peese_note: Optional[str] = None
 
 
 class RoBDomainJudgment(BaseModel):

@@ -1,0 +1,37 @@
+{
+  "research_question": "In hospitalised adult patients, does medication review (pharmacist-led or multidisciplinary systematic review of a patient's medicines) compared with standard care reduce all-cause mortality at the longest available follow-up?",
+  "treatment_label": "Medication review (systematic pharmacist-led or multidisciplinary review of the patient's medications, with or without recommendations/follow-up) delivered during hospitalisation",
+  "control_label": "Standard/usual hospital care without a structured medication review",
+  "outcome_description": "All-cause mortality (death from any cause) among hospitalised adult patients, taken at the longest available follow-up reported in each study. Number of deaths / total participants per arm, or a reported effect estimate for death from any cause.",
+  "positive_direction": "A positive Hedges g (favourable effect) means patients receiving medication review had LOWER all-cause mortality than patients receiving standard care.",
+  "search_queries": [
+    "medication review hospitalised patients randomised controlled trial mortality",
+    "pharmacist-led medication review inpatients usual care trial outcomes",
+    "clinical medication review deprescribing hospital admission mortality effect"
+  ],
+  "inclusion_criteria": [
+    "Study enrolled adult patients (mostly 18+) who were hospitalised or admitted to hospital (including at admission or discharge)",
+    "Study evaluated some form of medication review / medication optimisation intervention compared with standard or usual care",
+    "Study reports quantitative data on all-cause mortality (deaths per arm, or an effect estimate such as RR/OR/HR with variance) at any follow-up"
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic review, meta-analysis, editorial, commentary, opinion, protocol, or purely theoretical/modelling paper)",
+    "No comparison between a medication review intervention group and a standard-care control group (e.g. single-arm, before-after with no control, or head-to-head comparison of two different medication review models only)",
+    "No quantitative outcome data from which an effect size can be computed (no counts/proportions, means+SDs, t/F statistics, or odds/risk/hazard ratios)",
+    "Completely unrelated to medication review in hospitalised adults, or reports no all-cause mortality data (e.g. only readmissions, ED contacts, adverse drug events, or quality of life)"
+  ],
+  "moderators_to_extract": [
+    "Study design (RCT vs non-randomised/controlled observational)",
+    "Intervention provider (clinical pharmacist alone vs multidisciplinary team vs physician-led)",
+    "Intervention intensity (single in-hospital review vs review plus post-discharge follow-up)",
+    "Patient population (general medical, geriatric/frail, cardiology, polypharmacy-selected)",
+    "Length of follow-up for mortality (months)",
+    "Sample size category and country/health-system setting"
+  ],
+  "search_start_year": 1990,
+  "effect_size_note": "Mortality is a binary outcome; extract deaths/total per arm (or a reported RR/OR/HR with CI) at the longest available follow-up per study, and convert to the common effect metric with the standard log-odds-to-Hedges-g transformation where needed. Sign is oriented so that fewer deaths in the medication review arm yields a positive effect.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "all-cause mortality"
+}

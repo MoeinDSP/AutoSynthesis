@@ -1,0 +1,36 @@
+{
+  "research_question": "In adults with overweight or obesity, what is the effect of a smartphone app intervention compared with no intervention or a minimal, non-app intervention on body weight in kilograms at short-term follow-up (3 to <6 months)?",
+  "treatment_label": "Smartphone app intervention",
+  "control_label": "No intervention or minimal non-app control",
+  "outcome_description": "Body weight in kilograms at short-term follow-up (3 to <6 months, preferably 3-4 months, preferring change-from-baseline values over follow-up values)",
+  "positive_direction": "Greater weight loss / reduction in body weight in the smartphone app intervention group compared to the control group",
+  "search_queries": [
+    "smartphone app weight loss trial adults overweight obesity",
+    "mobile application body weight randomized controlled trial",
+    "smartphone intervention weight reduction comparison trial"
+  ],
+  "inclusion_criteria": [
+    "Adults (\u226518 years) with overweight or obesity participating in an intervention involving a smartphone application targeting weight loss or weight management.",
+    "Empirical comparative trials comparing a smartphone app against a genuine no-intervention or minimal non-app control condition (such as usual care, waitlist, printed materials, or paper diaries).",
+    "Reporting quantitative body weight outcomes in kilograms at short-term follow-up (3 to <6 months)."
+  ],
+  "exclusion_criteria": [
+    "Not an original empirical study (systematic reviews, meta-analyses, study protocols, qualitative studies, editorials, opinion pieces, and theoretical papers are excluded).",
+    "No genuine non-app control comparison (e.g., studies where both arms receive a smartphone app or different versions of an app).",
+    "No quantitative body weight data in kilograms reported at short-term follow-up (3 to <6 months), or lacking convertible data (means, SDs, SEs, or 95% CIs).",
+    "Studies in pediatric/adolescent populations, non-overweight populations, or interventions completely unrelated to weight management."
+  ],
+  "moderators_to_extract": [
+    "Control condition type (no intervention/waitlist vs minimal intervention/printed materials/usual care)",
+    "App delivery mode (standalone self-guided app vs app with human coaching/counseling)",
+    "Exact follow-up timepoint in weeks/months within the 3 to <6 month short-term window",
+    "Outcome data type (change from baseline vs post-intervention endpoint weight)",
+    "Baseline sample mean BMI or weight category"
+  ],
+  "search_start_year": 2008,
+  "effect_size_note": "Extract one endpoint per study at short-term follow-up (3 to <6 months, preferring 3-4 months). When a study reports both post-intervention weight and change-from-baseline weight, prioritize change-from-baseline data. Exclude non-weight outcomes and outcomes at 6 months or longer.",
+  "target_effect_measure": null,
+  "methodology_effect_measure_hint": null,
+  "split_by_timepoint": false,
+  "single_outcome_target": "body weight"
+}

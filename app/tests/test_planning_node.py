@@ -237,3 +237,40 @@ def test_plan_node_raises_on_no_tool_call():
         with pytest.raises(RuntimeError, match="Failed to generate"):
             plan_node({"user_prompt": "test", "output_dir": "/tmp",
                        "mode": "search", "paper_files": []})
+
+
+def _base_args(**extra):
+    args = {
+        "research_question": "Does X affect Y?", "treatment_label": "X group", "control_label": "Control",
+        "outcome_description": "Y score", "positive_direction": "Higher is better",
+        "higher_score_is_worse": False, "search_queries": ["X Y effect"], "inclusion_criteria": ["RCT"],
+        "exclusion_criteria": ["reviews"], "moderators_to_extract": ["year"], "search_start_year": 2015,
+    }
+    args.update(extra)
+    return args
+
+
+def _run_plan(args, **state_extra):
+    with patch("agents.planning_agent._agent") as mock_agent:
+        mock_agent.invoke.return_value = {"messages": _fake_messages("create_plan", args)}
+        from agents.planning_agent import plan_node
+        state = {"user_prompt": "Does X affect Y?", "output_dir": "/tmp", "mode": "search", "paper_files": []}
+        state.update(state_extra)
+        return plan_node(state)["plan"]
+
+
+def test_pooling_model_defaults_to_none():
+    assert _run_plan(_base_args()).pooling_model is None
+
+
+def test_pooling_model_from_prompt_is_kept_and_normalized():
+    assert _run_plan(_base_args(pooling_model="fixed")).pooling_model == "FE"
+    assert _run_plan(_base_args(pooling_model="uwls")).pooling_model == "UWLS"
+
+
+def test_dashboard_pooling_model_overrides_prompt():
+    assert _run_plan(_base_args(pooling_model="DL"), pooling_model="PM").pooling_model == "PM"
+
+
+def test_unknown_pooling_model_is_dropped():
+    assert _run_plan(_base_args(pooling_model="bayesian-magic")).pooling_model is None

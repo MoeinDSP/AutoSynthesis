@@ -28,6 +28,7 @@ class GraphState(TypedDict):
     mode:           str          # "manual" | "search"
     paper_files:    List[str]
     output_dir:     str
+    pooling_model:  Optional[str]   # dashboard's pooling-model choice; copied onto plan by plan_node
 
     # --- Stage outputs ---
     plan:             Optional[Any]   # MetaAnalysisPlan

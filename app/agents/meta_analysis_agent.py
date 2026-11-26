@@ -1,8 +1,10 @@
 """
 Meta-Analysis node — Stage 6.
 
-Pattern 4: runs REML random-effects model (scipy/statsmodels),
-then calls llm.invoke() directly for interpretation.
+Pattern 4: pools with the model chosen for the run (plan.pooling_model: fixed
+effect, any metafor random-effects estimator, or UWLS; REML random effects by
+default -- see statistics/metafor_engine.py), then calls llm.invoke() directly
+for interpretation.
 
 Groups effect sizes by outcome_group_key before pooling (see
 utils/outcome_grouping.py) instead of pooling every included row from every
@@ -49,16 +51,23 @@ from core_utils import save_json
 logger = logging.getLogger(__name__)
 
 
-def _run_model(values: List[float], variances: List[float], n_total: int, computation_scale: EffectMeasure) -> dict:
-    """Run the random-effects model on `values`/`variances` (already on
+def _pooling_method(plan) -> str:
+    """The pooling model for this run: plan.pooling_model (chosen by the user in the
+    dashboard or requested in the prompt), else the default, REML random effects."""
+    return metafor_engine.normalize_pooling_model(getattr(plan, "pooling_model", None) if plan else None)
+
+
+def _run_model(values: List[float], variances: List[float], n_total: int, computation_scale: EffectMeasure,
+               method: str = "REML") -> dict:
+    """Run the chosen pooling model (`method`, see metafor_engine.POOLING_MODELS) on `values`/`variances` (already on
     computation_scale -- log scale for OR/RR/PETO_OR, linear otherwise) and
     return the full stats dict. `pooled_g`/`ci_lower`/`ci_upper` in the
     result are always on the human-interpretable scale (back-transformed
     for ratio measures via pool_group_native); heterogeneity is computed on
     the same scale metafor itself uses internally (log scale for ratios)."""
     k = len(values)
-    re = pool_group_native(computation_scale, values, variances)
-    hetero = compute_heterogeneity(values, variances, re["pooled_g"], re["tau_squared"])
+    re = pool_group_native(computation_scale, values, variances, method=method)
+    hetero = compute_heterogeneity(values, variances, re["pooled_g"], re["tau_squared"], method=method)
     return {**re, **hetero, "k": k, "n_total": n_total}
 
 
@@ -160,7 +169,8 @@ def _generate_plots(
         cum_g, cum_lo, cum_hi, cum_labels, cum_years = [], [], [], [], []
         for i in range(1, len(effect_sizes) + 1):
             subset_n = sum(es.n_total for es in effect_sizes[:i])
-            cum_stats = _run_model(values[:i], variances[:i], subset_n, computation_scale)
+            cum_stats = _run_model(values[:i], variances[:i], subset_n, computation_scale,
+                                   method=result.method)
             cum_g.append(cum_stats["pooled_g"])
             cum_lo.append(cum_stats["ci_lower"])
             cum_hi.append(cum_stats["ci_upper"])
@@ -259,7 +269,8 @@ def _interpret_group(result: MetaAnalysisResult, label: str, plan=None) -> Optio
         prompt = (
             f"You are a meta-analysis expert. Summarise these results in 3-4 sentences "
             f"suitable for a systematic review paper. This pooled estimate covers the "
-            f"outcome group \"{label}\":\n"
+            f"outcome group \"{label}\", pooled with the model: "
+            f"{metafor_engine.POOLING_MODELS.get(result.method, result.method)}.\n"
             f"  Pooled Hedges' g = {result.pooled_g:.3f}, "
             f"95% CI [{result.ci_lower:.3f}, {result.ci_upper:.3f}], "
             f"p = {result.p_value:.4f}, I² = {result.i_squared:.1f}%, "
@@ -544,7 +555,8 @@ def _build_group(
     variances = [es.native_variance for es in usable]
 
     try:
-        stats = _run_model(values, variances, sum(es.n_total for es in usable), computation_scale)
+        stats = _run_model(values, variances, sum(es.n_total for es in usable), computation_scale,
+                           method=_pooling_method(plan))
     except Exception as exc:
         logger.error(f"[MetaAnalysis] Statistical computation failed for group '{group_key}': {exc}")
         return (
@@ -599,7 +611,7 @@ def _build_group(
         q_p_value=stats["q_p_value"],
         k=stats["k"],
         n_total=stats["n_total"],
-        method="REML",
+        method=stats.get("method", _pooling_method(plan)),
         favors_treatment=pooled_favors_treatment,
         effect_measure=effect_measure,
         computation_scale=computation_scale,
