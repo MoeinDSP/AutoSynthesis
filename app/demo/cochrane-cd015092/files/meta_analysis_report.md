@@ -1,180 +1,159 @@
-# Semaglutide versus placebo for medium-term percentage change in body weight among adults enrolled for obesity: a systematic review and random-effects meta-analysis
+# Semaglutide Versus Placebo for Medium-Term Percentage Change in Body Weight in Adults With Obesity: A Systematic Review and Random-Effects Meta-Analysis
 
 ## Abstract
 
-**Background:** Semaglutide produces weight loss in adults with obesity, but its medium-term placebo-adjusted effect requires synthesis on the prespecified percentage-point scale.
+### Background
+Semaglutide is used for chronic weight management, but its medium-term placebo-controlled effect in adults recruited primarily because of obesity requires quantitative synthesis.
 
-**Objective:** To estimate the effect of semaglutide, at any dose and by the subcutaneous or oral route for at least 6 months, versus placebo on percentage change in body weight from baseline at 6–24 months among adults whose primary trial eligibility was obesity.
+### Objective
+To estimate the effect of semaglutide, administered subcutaneously or orally at any dose for at least 6 months, versus placebo on percentage change in body weight from baseline at an on-treatment assessment between 6 and 24 months.
 
-**Methods:** Eligible randomized comparisons evaluated ongoing semaglutide treatment against placebo. The target outcome was percentage change in body weight at the assessment closest to the end of the 6–24-month window. The prespecified effect was semaglutide minus placebo, pooled as a Mean Difference (MD) under a random-effects restricted maximum-likelihood (REML) model. Eleven effect sizes from 11 study reports (total N = 5,626) were pooled; the supplied pipeline contained 15 studies overall. Statistical heterogeneity and small-study effects were assessed using Cochran’s Q, I², τ², Egger’s test, and trim-and-fill.
+### Methods
+The supplied dataset contained 11 effect-size records and reported a random-effects meta-analysis fitted by restricted maximum likelihood (REML). The prespecified effect was the semaglutide-minus-placebo mean difference (MD) in percentage points; negative values indicate greater weight reduction with semaglutide. The synthesis included 5,626 participants. Statistical heterogeneity and small-study effects were assessed using Cochran’s Q, I², τ², Egger’s test, Begg’s test, trim-and-fill, and PET–PEESE analyses.
 
-**Results:** The pooled Mean Difference (MD) was −10.413085512407049 percentage points (95% CI −11.984 to −8.842; p = 1.4303561864942757 × 10^−38), favoring semaglutide. Heterogeneity was considerable (I² = 95.53%; τ² = 6.434948; Q = 183.844; reported Q-test p = 0.0; k = 11). Egger’s intercept was 0.8714 with p reported as 0.0, indicating pronounced asymmetry or small-study effects. Trim-and-fill imputed no studies (k0 = 0), although its reported adjusted value (−2.5541) was not on a clearly reconcilable scale with the pooled native MD.
+### Results
+Across 11 records, the pooled mean difference was −10.413085512407049 percentage points (95% CI −11.984 to −8.842; p=1.4303561864942757×10⁻³⁸), favoring semaglutide. Heterogeneity was considerable (Q=183.844, I²=95.53%, τ²=6.434948; reported Q-test p=0.0). Egger’s test (intercept −7.0688; p=0.2604) and Begg’s test (Kendall’s τ=−0.2569; p=0.2743) were not statistically significant. Trim-and-fill imputed two studies and produced an adjusted MD of −9.6293. PET–PEESE selected PET, yielding a corrected estimate of −5.6406 (p=0.1736). The supplied assessment classified publication-bias risk as moderate.
 
-**Conclusions:** During ongoing randomized treatment over 6–24 months, semaglutide reduced body weight by an estimated 10.41 percentage points more than placebo. The result strongly favors semaglutide, but very high heterogeneity, high assessed publication-bias risk, absent study-level bibliographic and design details, and inconsistencies between the displayed study-level statistics and the native-scale pooled estimate limit certainty in the exact magnitude.
+### Conclusions
+The supplied analysis indicates substantially greater medium-term percentage body-weight reduction with semaglutide than with placebo. Confidence in the numerical magnitude is limited by extreme heterogeneity, mixed publication-bias diagnostics, absent study-level bibliographic and design information, and material internal inconsistencies in the supplied dataset—most notably a pipeline count of zero studies despite 11 pooled records and individual estimates labeled as “hedges_g” although the synthesis is designated a native-scale MD. The pooled estimate should therefore be considered provisional pending verification against original trial reports.
 
 ## Introduction
 
-Obesity is a chronic disease associated with substantial cardiometabolic morbidity, impaired quality of life, and premature mortality. Semaglutide, a glucagon-like peptide-1 receptor agonist available in subcutaneous and oral formulations, has been evaluated at multiple doses for weight management. Because treatment effects can vary with dose, route, population, estimand, and follow-up duration, a focused synthesis is needed for adults recruited primarily because of obesity and assessed during ongoing randomized therapy.
+Obesity is a chronic, relapsing disease associated with cardiometabolic morbidity, impaired quality of life, and premature mortality. Semaglutide, a glucagon-like peptide-1 receptor agonist, has been evaluated in multiple placebo-controlled weight-management trials using subcutaneous and oral formulations and differing dose regimens. Percentage change in body weight is a clinically interpretable outcome that accommodates differences in baseline body mass and is commonly used in obesity trials.
 
-The review question was: **In adults whose primary trial eligibility is obesity, what is the effect of semaglutide (any dose; subcutaneous or oral; administered for at least 6 months), compared with placebo, on percentage change in body weight from baseline at medium-term follow-up (6–24 months)?** The target effect was the semaglutide-minus-placebo mean difference in percentage points. Under this convention, a negative mean difference represents greater weight reduction with semaglutide.
+This review addressed the following question: **In adults whose primary trial eligibility was obesity, what was the effect of semaglutide (any dose; subcutaneous or oral; administered for at least 6 months), compared with placebo, on percentage change in body weight from baseline at medium-term follow-up (6–24 months)?** The target contrast was the semaglutide-minus-placebo mean difference in percentage points at the assessment closest to the end of the eligible window while randomized treatment remained ongoing. Under this sign convention, a negative MD denotes greater weight loss with semaglutide.
 
 ## Search/Screening
 
-The supplied evidence pipeline contained **15 studies**, of which **11 contributed effect sizes** to the quantitative synthesis. Thus, four pipeline studies did not contribute to the pooled analysis. The supplied results did not identify databases, search dates, search strings, language restrictions, deduplication counts, full-text exclusion reasons, or a study-level screening disposition. A conventional PRISMA flow diagram and numerical reconstruction of records identified, deduplicated, screened, excluded, and included therefore cannot be reported without inventing information.
+The supplied results did not include bibliographic databases, search dates, full search strategies, deduplication procedures, reviewer methods, or counts for records identified, screened, excluded, and included. Consequently, a reproducible search strategy and PRISMA flow diagram cannot be reported from the available information.
 
-Eligibility was defined by the review question and analysis rules as follows:
+The intended eligibility criteria were:
 
-- adults whose primary trial eligibility was obesity;
+- adults enrolled primarily on the basis of obesity;
 - randomized comparison of semaglutide with placebo;
-- any semaglutide dose and either subcutaneous or oral administration;
-- treatment duration of at least 6 months;
-- percentage change in body weight from baseline assessed between 6 and 24 months while randomized treatment remained ongoing; and
-- selection of the assessment closest to the end of the eligible window.
+- semaglutide administered orally or subcutaneously, at any dose, for at least 6 months;
+- percentage change in body weight from baseline assessed during ongoing randomized treatment between 6 and 24 months; and
+- use of the assessment closest to the end of the eligible window.
 
-The prespecified outcome excluded body weight in kilograms, BMI, waist circumference, categorical weight-loss response, and off-treatment or post-discontinuation extension measurements. For multi-dose studies, the intended hierarchy was a reported combined semaglutide group, then 2.4 mg weekly, or otherwise the highest dose. For randomized-withdrawal designs, the intended contrast was change from withdrawal randomization through the end of randomized continuation versus placebo.
+The intended exclusions were off-treatment or post-discontinuation extension assessments and outcomes expressed only as body weight in kilograms, BMI, waist circumference, or categorical weight-loss response. For multi-dose studies, the intended hierarchy was a reported combined semaglutide group, followed by 2.4 mg weekly, or the highest available dose if 2.4 mg was absent. For randomized-withdrawal designs, the intended contrast was change from withdrawal randomization to the end of randomized continuation versus placebo.
 
-No protocol registration number, risk-of-bias assessment, certainty-of-evidence assessment, or funding-source assessment was included in the supplied context.
+The dataset contained 11 effect-size records. However, the pipeline summary reported `n_studies=0` while simultaneously reporting `n_effect_sizes=11`. Because no exclusion log or trial identifiers were supplied, neither the number of unique trials nor the independence of all 11 records could be independently verified.
 
 ## Included Studies
 
-The meta-analysis incorporated **11 study-level comparisons** with a combined sample size of **5,626 participants**. Individual comparison sample sizes ranged from **207 to 807**. The contributing identifiers and sample sizes were:
+The meta-analysis included 11 anonymized records with a reported total sample size of 5,626 participants. Record-level sample sizes ranged from 207 to 807. No author names, publication years, trial acronyms, recruitment settings, participant characteristics, semaglutide formulations, doses, follow-up times, estimands, analysis populations, or risk-of-bias assessments were provided.
 
-| Study identifier | Analysed/available N |
-|---|---:|
-| study_1_R1 | 667 |
-| study_2_R2 | 803 |
-| study_3_R3 | 611 |
-| study_4_R4 | 304 |
-| study_5_R5 | 207 |
-| study_7_R7 | 529 |
-| study_8_R8 | 616 |
-| study_10_R10 | 375 |
-| study_11_R11 | 807 |
-| study_12_R12 | 300 |
-| study_13_R13 | 407 |
-| **Total** | **5,626** |
+The anonymized records and supplied estimates were as follows:
 
-The context did not provide author names, publication years, countries, recruitment settings, baseline demographics, semaglutide doses or routes, exact follow-up times, estimands, attrition, or risk-of-bias judgments. It is therefore not possible to describe clinical diversity or verify independently that each selected assessment followed the prespecified dose, time-point, and estimand hierarchy.
-
-## Effect Sizes
-
-The requested and pooled native effect measure was the **Mean Difference (MD)** in percentage change in body weight, calculated as semaglutide minus placebo. A negative value therefore indicates a larger percentage reduction in body weight with semaglutide. The model specification in the supplied results was random effects estimated by restricted maximum likelihood (REML), and native pooling was reported as used.
-
-The supplied study-level display, however, labels its statistics as `hedges_g`, rather than as native percentage-point MDs. Those displayed values were:
-
-| Study identifier | Displayed study-level statistic | 95% CI | N |
+| Record | Supplied estimate | 95% CI | n |
 |---|---:|---:|---:|
 | study_1_R1 | −1.327911 | −1.496 to −1.160 | 667 |
 | study_2_R2 | −1.735059 | −1.905 to −1.566 | 803 |
-| study_3_R3 | −1.01746 | −1.195 to −0.840 | 611 |
+| study_3_R3 | −1.017460 | −1.195 to −0.840 | 611 |
 | study_4_R4 | −1.014395 | −1.253 to −0.776 | 304 |
-| study_5_R5 | −16.69281 | −18.327 to −15.059 | 207 |
+| study_5_R5 | −16.692810 | −18.327 to −15.059 | 207 |
 | study_7_R7 | −1.456868 | −1.649 to −1.265 | 529 |
 | study_8_R8 | −0.841342 | −1.006 to −0.677 | 616 |
 | study_10_R10 | −1.069257 | −1.297 to −0.842 | 375 |
 | study_11_R11 | −0.773399 | −0.916 to −0.630 | 807 |
 | study_12_R12 | −1.451502 | −1.718 to −1.185 | 300 |
-| study_13_R13 | −1.16684 | −1.388 to −0.946 | 407 |
+| study_13_R13 | −1.166840 | −1.388 to −0.946 | 407 |
 
-All displayed study-level estimates are negative and thus directionally consistent with greater weight reduction under semaglutide if interpreted using the treatment-minus-control convention. Nevertheless, these values should not be relabeled as native percentage-point MDs because the source field explicitly identifies them as Hedges-type standardized effects, and the extreme difference between `study_5_R5` and the other displayed values suggests either mixed scales or a data-labeling problem. The study-level display therefore cannot be reconciled definitively with the reported native-scale meta-analysis from the information supplied.
+The record identifiers are not consecutive; records 6 and 9 were not present. This may reflect screening or removal, but no explanation was supplied.
 
-The forest plot is available at `outputs/z3oPSXVRNhCMgSVhnnuUkA/forest_plot.png`. The effect-size distribution is shown at `outputs/z3oPSXVRNhCMgSVhnnuUkA/effect_distribution.png`, and the cumulative analysis at `outputs/z3oPSXVRNhCMgSVhnnuUkA/cumulative_plot.png`.
+## Effect Sizes
+
+The prespecified native effect measure was the **Mean Difference (MD)** in percentage change in body weight, calculated as semaglutide minus placebo. Therefore, negative values favor semaglutide because a more negative percentage change represents greater weight loss. The meta-analysis metadata designate the computation scale as MD, identify the source as the explicit user request, and state that native pooling was used.
+
+The requested extraction hierarchy was: (1) directly reported adjusted treatment difference with its 95% CI; (2) arm-level model-based means with uncertainty; and (3) arm-level raw means with SDs. The supplied data did not identify which source was used for any record, nor did they provide arm-level statistics or analyzed denominators by treatment group. It was therefore not possible to verify adherence to the extraction hierarchy or independently reproduce the effect estimates.
+
+Importantly, the individual-effect field in the supplied machine-readable data was named `hedges_g`, although the meta-analysis was explicitly designated as native-scale MD. Most individual values were approximately −0.77 to −1.74, whereas one was −16.692810. This pattern raises a serious possibility that standardized and native-scale estimates were mislabeled or mixed. The pooled statistic is reported below exactly as supplied and using its required label, **Mean Difference (MD)**, but the scale discrepancy requires source-data verification.
 
 ## Meta-Analytic Result(s)
 
-Across **11 comparisons** and **5,626 participants**, the REML random-effects **pooled Mean Difference (MD)** was **−10.413085512407049 percentage points** (95% CI **−11.984 to −8.842**; p = **1.4303561864942757 × 10^−38**). According to the supplied `favors` field, this result favors **semaglutide (any dose; subcutaneous or oral; at least 6 months)**.
+A random-effects model fitted using restricted maximum likelihood included 11 records and 5,626 participants. The **pooled mean difference** was **−10.413085512407049 percentage points** (95% CI **−11.984 to −8.842**; p=**1.4303561864942757×10⁻³⁸**). According to the supplied `favors` field, the result favored **semaglutide (any dose; subcutaneous or oral; at least 6 months)**.
 
-In clinically direct terms, semaglutide was associated with an average body-weight reduction approximately **10.41 percentage points greater than placebo** during ongoing randomized treatment at medium-term follow-up. The confidence interval excluded no difference by a wide margin. This estimate is an average across the included comparisons and should not be interpreted as applying identically to every dose, route, population, or follow-up time because heterogeneity was very high.
+Clinically, if the native percentage-point scale is correct, the estimate corresponds to an average reduction in body weight approximately 10.41 percentage points greater with semaglutide than with placebo at medium-term follow-up. The confidence interval excludes no difference by a wide margin. Nevertheless, the estimate should not be treated as definitive because the individual records and pooled result show unresolved scale and numerical inconsistencies.
 
-No additional meta-analysis groups or separately pooled outcome/time-point groups were supplied.
+The forest plot is available at `forest.png`. A cumulative meta-analysis plot is available at `cumulative.png`, and the distribution plot is available at `distribution.png`. These figures should be interpreted with the same scale-validation caveat.
 
 ## Heterogeneity
 
-Statistical heterogeneity was considerable:
+Between-record heterogeneity was considerable:
 
-- **I² = 95.53%**;
-- **τ² = 6.434948**;
-- **Cochran’s Q = 183.844**; and
-- **Q-test p reported as 0.0**.
+- Cochran’s Q: **183.844**;
+- reported Q-test p value: **0.0**;
+- I²: **95.53%**; and
+- τ²: **6.434948** on the reported MD scale.
 
-The Q-test result should be understood as below the reporting precision of the software rather than as a literal probability of zero. The I² value indicates that most observed dispersion was attributed to between-study heterogeneity rather than sampling error. The τ² estimate also indicates material between-study variance on the pooled MD scale.
+Thus, most observed variation was attributed to between-record differences rather than sampling error. The Q-test p value of 0.0 is reproduced exactly as supplied and should be understood as a rounded or machine-reported value rather than a literal probability of zero.
 
-Potential causes include differences in semaglutide dose, administration route, exact duration of follow-up, trial design, estimand, handling of treatment discontinuation or rescue interventions, baseline participant characteristics, and outcome modeling. These explanations are plausible but could not be tested using the supplied aggregate information.
-
-A heterogeneity summary is available at `outputs/z3oPSXVRNhCMgSVhnnuUkA/heterogeneity_summary.png`. The cumulative plot at `outputs/z3oPSXVRNhCMgSVhnnuUkA/cumulative_plot.png` may illustrate how the pooled estimate evolved as comparisons accumulated, but no numerical cumulative results were provided for formal interpretation.
+The high I² indicates that the pooled MD is an average across substantially differing effects. Potential sources could include dose, route, treatment duration, follow-up time, participant characteristics, co-interventions, estimand, handling of treatment discontinuation, and randomized-withdrawal versus conventional parallel-group design. These explanations could not be tested because corresponding study-level data were absent. A heterogeneity summary is provided at `heterogeneity_summary.png`.
 
 ## Moderators
 
-No numerical moderator variables or subgroup/meta-regression results were supplied. Accordingly, no valid conclusions can be drawn about whether effect magnitude differed by:
+No moderator variables or meta-regression coefficients were supplied. Accordingly, no valid subgroup analysis or moderator inference could be performed for dose, route of administration, duration, follow-up time, trial design, baseline BMI, diabetes status, or analytic estimand.
 
-- semaglutide dose;
-- subcutaneous versus oral administration;
-- follow-up duration within 6–24 months;
-- randomized-withdrawal versus conventional parallel-group design;
-- treatment-policy versus trial-product estimand;
-- baseline BMI, age, sex, diabetes status, or other participant characteristics; or
-- study size or risk of bias.
-
-A bubble chart was generated at `outputs/z3oPSXVRNhCMgSVhnnuUkA/bubble_chart.png`; however, the moderator represented, its regression coefficient, uncertainty interval, and statistical test were not supplied. It therefore cannot support a quantitative moderator claim in this report.
+A bubble plot was generated at `bubble.png`; however, in the absence of a specified moderator, coefficient, uncertainty estimate, and model description, it cannot support a quantitative moderator conclusion. Any visual pattern in that plot should be regarded as exploratory only.
 
 ## Publication Bias
 
-Egger’s regression produced an intercept of **0.8714**, with p reported as **0.0**. This is strong evidence of funnel-plot asymmetry or small-study effects under the assumptions of the test. It is consistent with, but does not prove, publication bias; asymmetry can also arise from genuine heterogeneity, selective outcome reporting, differences in study methods, or scale-related artifacts.
+The supplied publication-bias assessment classified overall risk as **moderate**. Tests were conducted on the reported Mean Difference (MD) scale.
 
-Trim-and-fill estimated **k0 = 0**, meaning that no missing studies were imputed. Its reported adjusted value was **−2.5541** and was labeled `trim_fill_g` in the supplied output. This value is not directly reconcilable with the native pooled MD of −10.413085512407049 and should not be interpreted as an adjusted percentage-point MD without clarification of its scale. The absence of imputed studies does not negate the highly significant Egger result, particularly given the very high heterogeneity and known limitations of trim-and-fill.
+- Egger’s intercept was **−7.0688** (p=**0.2604**).
+- Begg’s rank-correlation statistic was **τ=−0.2569** (p=**0.2743**).
+- Trim-and-fill estimated **2** potentially missing studies and gave an adjusted MD of **−9.6293**.
+- PET estimated an MD of **−5.6406** (p=**0.1736**).
+- PEESE estimated an MD of **−8.2664**.
+- The PET–PEESE procedure selected PET, giving a corrected estimate of **−5.6406**.
 
-The supplied overall assessment classified publication-bias risk as **high**. That classification is retained.
+Egger’s and Begg’s tests did not provide statistically significant evidence of funnel-plot asymmetry. Their power is limited with only 11 records, particularly in the presence of extreme heterogeneity. Conversely, trim-and-fill suggested two potentially missing studies, and PET–PEESE produced a materially attenuated estimate. These mixed findings support the supplied moderate-risk classification and warrant caution. Moreover, asymmetry methods may be unreliable if the underlying estimates do not share a valid common scale.
 
 ## Discussion
 
 ### Principal findings
 
-This random-effects meta-analysis found that semaglutide, administered for at least 6 months to adults enrolled primarily because of obesity, produced substantially greater percentage body-weight reduction than placebo at 6–24 months. The **pooled Mean Difference was −10.413085512407049 percentage points** (95% CI −11.984 to −8.842), with the supplied direction assessment favoring semaglutide.
+The supplied REML synthesis found a pooled mean difference of −10.413085512407049 percentage points, favoring semaglutide over placebo for medium-term percentage change in body weight. If confirmed on the native scale, this would represent a large treatment effect. Every supplied individual estimate was negative, directionally favoring semaglutide under the prespecified semaglutide-minus-placebo convention.
 
-The magnitude is clinically substantial at the pooled level, but it should be interpreted as an average effect rather than a single universally applicable treatment response. Heterogeneity was very high (I² = 95.53%), indicating marked variation among comparison-specific effects beyond sampling error. Consequently, the mean effect alone does not characterize the likely result in every eligible setting.
+The apparent consistency of effect direction did not translate into consistency of magnitude. Heterogeneity was extreme (I²=95.53%), and one estimate, −16.692810, differed sharply from the remaining estimates, which ranged from −0.773399 to −1.735059. This could represent a genuinely larger treatment effect, but it could also indicate incompatible effect metrics or a data-processing error. The pooled estimate is also not readily reconcilable with the displayed set of individual values, reinforcing the need for computational audit.
 
-### Interpretation
+### Clinical interpretation
 
-The result pertains specifically to percentage change in body weight during ongoing randomized treatment at medium-term follow-up. It should not be generalized automatically to absolute weight change in kilograms, BMI, waist circumference, categorical responder outcomes, post-discontinuation effects, or longer-term weight maintenance. It also does not establish equivalence across semaglutide doses or between oral and subcutaneous formulations.
+Assuming the effect measure is correctly expressed in percentage points, semaglutide produced greater weight reduction than placebo during 6–24 months of randomized treatment. However, the pooled average should not be assumed to apply uniformly across formulations, doses, populations, trial designs, or follow-up times. The absence of study-level details prevents assessment of clinical comparability and makes it impossible to determine whether the large heterogeneity arose from clinically meaningful effect modification or data incompatibility.
 
-The extremely small overall p value establishes strong statistical incompatibility with a null average effect under the fitted model, but it does not resolve the clinical and methodological heterogeneity. The high publication-bias assessment further cautions against treating the pooled magnitude as free from selective-reporting or small-study effects.
+The analysis concerns percentage change in body weight only. It does not establish effects on absolute weight in kilograms, BMI, waist circumference, categorical weight-loss response, adverse events, treatment discontinuation, quality of life, or long-term cardiovascular outcomes.
 
-### Implications
+### Certainty and applicability
 
-For clinical decision-making, the synthesis supports semaglutide as more effective than placebo for medium-term percentage body-weight reduction among adults selected for obesity. Decisions should nevertheless consider dose-specific evidence, tolerability, treatment discontinuation, adverse events, access, costs, patient preferences, and weight regain after withdrawal—none of which were quantified here.
-
-Future syntheses should preserve native percentage-point estimates, report exact estimands, distinguish on-treatment from treatment-policy analyses, and examine route, dose, follow-up, diabetes status, and randomized-withdrawal design as prespecified moderators. Prediction intervals would also be valuable given the observed heterogeneity, but the supplied results did not include one.
+A formal certainty-of-evidence assessment could not be completed because study-level risk of bias, inconsistency explanations, indirectness, and outcome-extraction details were unavailable. Imprecision around the supplied pooled mean was low, but statistical precision does not resolve concerns about heterogeneity, selective reporting, duplicate inclusion, or scale validity. Applicability is restricted to adults recruited primarily because of obesity and to assessments made during ongoing randomized therapy between 6 and 24 months.
 
 ## Data Quality & Validation Notes
 
-Several data-quality issues require explicit acknowledgment:
+Although no explicit `validation_flags` object was supplied, the dataset contains several issues requiring plain acknowledgment:
 
-1. The pipeline reported **15 studies**, but only **11 effect sizes** were available for pooling; reasons for the four noncontributing studies were not supplied.
-2. The meta-analysis was explicitly reported as native-scale **Mean Difference (MD)** pooling, while the supplied study-level values were stored under the field `hedges_g`. Their scales therefore cannot be confirmed as identical.
-3. `study_5_R5` had a displayed value of **−16.69281**, whereas all other displayed study-level values ranged from **−0.773399 to −1.735059**. This sharp discontinuity suggests a possible mixed-scale, extraction, or labeling issue.
-4. The trim-and-fill adjusted value was labeled `trim_fill_g` (**−2.5541**) and cannot safely be interpreted on the percentage-point MD scale.
-5. Both Egger’s and Q-test p values were reported as **0.0**; these should be read as values below software precision, not literal zero probabilities.
-6. Study-level bibliographic, design, dose, route, follow-up, estimand, and risk-of-bias data were unavailable, preventing independent verification of eligibility and extraction decisions.
+1. **Study-count contradiction:** the pipeline summary reports zero studies, whereas 11 effect-size records were pooled.
+2. **Effect-measure labeling conflict:** individual estimates are stored under a field named `hedges_g`, but the synthesis is designated as native-scale Mean Difference (MD). The pooled result has therefore been labeled MD as required by the meta-analysis metadata, but its scale is not independently verified.
+3. **Numerical incompatibility:** ten estimates cluster between approximately −0.77 and −1.74, while one equals −16.692810; the reported pooled MD of −10.413085512407049 is not readily explained by the displayed record-level pattern.
+4. **Unverifiable independence:** anonymized record labels and absent citations prevent confirmation that each record represents a unique eligible trial or independent comparison.
+5. **Missing extraction provenance:** the dataset does not state whether each estimate came from an adjusted treatment contrast, model-based arm means, or raw arm means.
+6. **Missing design and timepoint information:** eligibility with respect to obesity as the primary enrollment criterion, treatment duration, ongoing randomized treatment, and the 6–24-month window cannot be independently confirmed.
+7. **No risk-of-bias information:** study-level internal validity could not be evaluated.
 
-These issues do not reverse the supplied direction of the pooled result, but they materially limit confidence in reproducing and auditing its exact magnitude.
+These issues do not justify replacing the supplied numerical result with an invented alternative, but they substantially limit confidence in the pooled magnitude.
 
 ## Limitations
 
-First, the supplied context did not include a reproducible search strategy or PRISMA flow counts, so search completeness and screening decisions cannot be evaluated. Second, bibliographic and trial-characteristic data were absent, precluding detailed assessment of clinical diversity, duplicate reports, overlapping populations, and risk of bias.
-
-Third, the mismatch between study-level `hedges_g` fields and the reported native MD pooling raises a serious scale-validation concern. Because arm-level means, standard deviations, adjusted treatment differences, and standard errors were not supplied, the pooled estimate could not be recalculated independently. Fourth, heterogeneity was very high, and no prediction interval or influence analysis was provided. Fifth, no subgroup or meta-regression results were available to explain between-study variation.
-
-Sixth, publication-bias assessment was concerning: Egger’s test was highly significant, although trim-and-fill imputed no studies. Both methods can perform poorly in the presence of substantial heterogeneity, and the trim-and-fill result had an unclear scale. Seventh, the absence of a formal risk-of-bias and certainty-of-evidence assessment prevents a GRADE conclusion. Finally, the analysis addressed efficacy for one continuous weight outcome only and did not synthesize harms, discontinuation, quality of life, or post-treatment durability.
+This report is limited by the information supplied. First, no reproducible search, PRISMA flow counts, exclusion reasons, protocol registration, or bibliographic references were available. Second, trial characteristics and risk-of-bias judgments were absent. Third, arm-level means, variances, sample sizes, and adjusted-effect derivations were not available for verification. Fourth, the discrepancy between the individual-effect field name and the designated pooled metric raises concern about mixed scales. Fifth, extreme heterogeneity reduces the interpretability of a single pooled average, and no prediction interval was supplied. Sixth, publication-bias tests had limited power with 11 records and may be distorted by heterogeneity. Seventh, no moderator analysis could explain between-record variation. Finally, duplicate populations, overlapping reports, and non-independent comparisons could not be ruled out.
 
 ## Conclusion
 
-Among adults recruited primarily for obesity, semaglutide administered for at least 6 months produced greater medium-term percentage body-weight reduction than placebo during ongoing randomized treatment. The REML random-effects **pooled Mean Difference was −10.413085512407049 percentage points** (95% CI −11.984 to −8.842; k = 11; N = 5,626), favoring semaglutide.
+The supplied random-effects analysis of 11 records and 5,626 participants reported a pooled semaglutide-minus-placebo Mean Difference of **−10.413085512407049 percentage points** (95% CI **−11.984 to −8.842**; p=**1.4303561864942757×10⁻³⁸**), favoring semaglutide for medium-term percentage change in body weight. Heterogeneity was extreme (I²=**95.53%**), and publication-bias diagnostics were mixed, with an overall moderate-risk classification.
 
-The estimated benefit is large, but the exact pooled magnitude should be interpreted cautiously because heterogeneity was very high, publication-bias risk was classified as high, and the available study-level statistics were not clearly aligned with the native MD scale. Verification against original trial reports and native percentage-point estimates is warranted before using this value as a definitive quantitative benchmark.
+The direction of benefit favors semaglutide, but the precise pooled magnitude must be considered provisional. Verification against original reports and re-extraction on a confirmed common percentage-point scale are essential before this estimate is used for clinical guidance, guideline development, or decision modeling.
 
 ## References
 
-The supplied context identified contributing reports only by internal study identifiers (`study_1_R1`, `study_2_R2`, `study_3_R3`, `study_4_R4`, `study_5_R5`, `study_7_R7`, `study_8_R8`, `study_10_R10`, `study_11_R11`, `study_12_R12`, and `study_13_R13`). Author names, article titles, journals, publication years, and persistent identifiers were not provided; complete bibliographic references therefore cannot be reproduced without fabrication.
+No complete bibliographic citations were included in the supplied context. The available evidence records were identified only as `study_1_R1`, `study_2_R2`, `study_3_R3`, `study_4_R4`, `study_5_R5`, `study_7_R7`, `study_8_R8`, `study_10_R10`, `study_11_R11`, `study_12_R12`, and `study_13_R13`. Full trial reports and any associated protocols or statistical analysis plans should be added before publication.
 
 ## Effect Measure Summary
 
